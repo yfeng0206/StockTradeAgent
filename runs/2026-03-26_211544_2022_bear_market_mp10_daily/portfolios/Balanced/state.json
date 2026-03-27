@@ -1,0 +1,22 @@
+{
+  "final_value": 88432.05,
+  "cash": 51950.64,
+  "positions": {
+    "GS": {
+      "shares": 61,
+      "entry_price": 274.054443359375,
+      "entry_date": "2022-07-18"
+    },
+    "NFLX": {
+      "shares": 318,
+      "entry_price": 23.003999710083008,
+      "entry_date": "2022-09-01"
+    },
+    "PEP": {
+      "shares": 49,
+      "entry_price": 151.1213836669922,
+      "entry_date": "2022-10-12"
+    }
+  },
+  "return_pct": -11.57
+}

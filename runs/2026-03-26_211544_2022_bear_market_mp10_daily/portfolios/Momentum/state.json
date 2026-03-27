@@ -1,0 +1,57 @@
+{
+  "final_value": 88389.56,
+  "cash": 6.99,
+  "positions": {
+    "UNH": {
+      "shares": 14,
+      "entry_price": 483.0182800292969,
+      "entry_date": "2022-07-01"
+    },
+    "PEP": {
+      "shares": 47,
+      "entry_price": 150.112548828125,
+      "entry_date": "2022-07-01"
+    },
+    "XOM": {
+      "shares": 91,
+      "entry_price": 77.07052612304688,
+      "entry_date": "2022-07-01"
+    },
+    "ABBV": {
+      "shares": 73,
+      "entry_price": 123.3715591430664,
+      "entry_date": "2022-08-01"
+    },
+    "LLY": {
+      "shares": 28,
+      "entry_price": 300.53277587890625,
+      "entry_date": "2022-09-01"
+    },
+    "CVX": {
+      "shares": 49,
+      "entry_price": 131.4504852294922,
+      "entry_date": "2022-10-03"
+    },
+    "MRK": {
+      "shares": 83,
+      "entry_price": 78.79086303710938,
+      "entry_date": "2022-10-03"
+    },
+    "KO": {
+      "shares": 128,
+      "entry_price": 51.047142028808594,
+      "entry_date": "2022-10-03"
+    },
+    "BLK": {
+      "shares": 19,
+      "entry_price": 520.0426025390625,
+      "entry_date": "2022-10-13"
+    },
+    "JPM": {
+      "shares": 98,
+      "entry_price": 102.8035888671875,
+      "entry_date": "2022-10-14"
+    }
+  },
+  "return_pct": -11.61
+}

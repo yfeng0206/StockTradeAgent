@@ -1,0 +1,57 @@
+{
+  "final_value": 130987.32,
+  "cash": 7900.91,
+  "positions": {
+    "NFLX": {
+      "shares": 238,
+      "entry_price": 40.09600067138672,
+      "entry_date": "2023-10-20"
+    },
+    "MSFT": {
+      "shares": 42,
+      "entry_price": 324.2744140625,
+      "entry_date": "2023-10-24"
+    },
+    "DIS": {
+      "shares": 149,
+      "entry_price": 88.26148986816406,
+      "entry_date": "2023-11-09"
+    },
+    "CRM": {
+      "shares": 46,
+      "entry_price": 256.8788146972656,
+      "entry_date": "2023-12-01"
+    },
+    "HD": {
+      "shares": 39,
+      "entry_price": 302.3681945800781,
+      "entry_date": "2023-12-01"
+    },
+    "NVDA": {
+      "shares": 257,
+      "entry_price": 46.73231887817383,
+      "entry_date": "2023-12-01"
+    },
+    "DE": {
+      "shares": 33,
+      "entry_price": 357.1219482421875,
+      "entry_date": "2023-12-01"
+    },
+    "AAPL": {
+      "shares": 63,
+      "entry_price": 189.2737274169922,
+      "entry_date": "2023-12-01"
+    },
+    "ABBV": {
+      "shares": 90,
+      "entry_price": 132.6114044189453,
+      "entry_date": "2023-12-01"
+    },
+    "GS": {
+      "shares": 20,
+      "entry_price": 364.9916076660156,
+      "entry_date": "2023-12-14"
+    }
+  },
+  "return_pct": 30.99
+}

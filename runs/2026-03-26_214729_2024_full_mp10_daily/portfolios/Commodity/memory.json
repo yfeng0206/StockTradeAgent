@@ -1,0 +1,233 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-01-17",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-01-18",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-01-31",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-04-02",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-04-18",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-05-13",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-05-15",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-05-16",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-05-17",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-05-22",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-06-05",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-07-18",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-08-02",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-08-05",
+      "regime": "bearish"
+    },
+    {
+      "date": "2024-08-08",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-09-03",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-09-19",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-10-03",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-10-04",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-10-07",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-10-08",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-10-23",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-11-06",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-11-15",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-11-25",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-11-27",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-11-29",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-12-10",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-12-11",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-12-12",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-12-18",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-12-24",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-12-27",
+      "regime": "sideways"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2024-01-03",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2024-01-09",
+      "context": "geo_risk=0.26"
+    },
+    {
+      "date": "2024-01-10",
+      "context": "geo_risk=0.16"
+    },
+    {
+      "date": "2024-01-11",
+      "context": "geo_risk=0.11"
+    },
+    {
+      "date": "2024-01-12",
+      "context": "geo_risk=0.07"
+    },
+    {
+      "date": "2024-01-15",
+      "context": "geo_risk=0.04"
+    },
+    {
+      "date": "2024-01-16",
+      "context": "geo_risk=0.02"
+    },
+    {
+      "date": "2024-01-17",
+      "context": "geo_risk=0.01"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "USO",
+      "pnl_pct": 4.0,
+      "date": "2024-06-03",
+      "held_from": "2024-02-01",
+      "regime": "sideways"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "USO",
+      "pnl_pct": -4.34,
+      "date": "2024-07-19",
+      "held_from": "2024-07-01",
+      "regime": "normal"
+    }
+  ],
+  "lessons": [
+    "Win rate: 50% (1W / 1L)",
+    "Avg win: +4.0%, Avg loss: -4.3%",
+    "Regimes encountered: 35 changes",
+    "Regime 'sideways': avg PnL +4.0% over 1 trades",
+    "Regime 'normal': avg PnL -4.3% over 1 trades"
+  ],
+  "best_ticker": "USO +4.0%",
+  "worst_ticker": "USO -4.34%",
+  "ticker_history": {
+    "USO": [
+      {
+        "pnl": 4.0,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": -4.34,
+        "regime": "normal",
+        "date": "2024-07-19"
+      }
+    ]
+  },
+  "regime_performance": {
+    "sideways": {
+      "wins": 1,
+      "losses": 0,
+      "total": 1,
+      "total_pnl": 4.0
+    },
+    "normal": {
+      "wins": 0,
+      "losses": 1,
+      "total": 1,
+      "total_pnl": -4.34
+    }
+  }
+}

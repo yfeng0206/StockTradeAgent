@@ -1,0 +1,53 @@
+{
+  "final_value": 118245.95,
+  "cash": 13725.75,
+  "positions": {
+    "NEE": {
+      "shares": 169,
+      "entry_price": 35.500213623046875,
+      "entry_date": "2019-01-02",
+      "_last_trim_price": 49.74299621582031
+    },
+    "SO": {
+      "shares": 211,
+      "entry_price": 41.747188568115234,
+      "entry_date": "2019-06-03"
+    },
+    "ABBV": {
+      "shares": 187,
+      "entry_price": 63.232933044433594,
+      "entry_date": "2019-11-01"
+    },
+    "MSFT": {
+      "shares": 87,
+      "entry_price": 135.68698120117188,
+      "entry_date": "2019-11-01"
+    },
+    "META": {
+      "shares": 58,
+      "entry_price": 198.1450653076172,
+      "entry_date": "2019-12-02"
+    },
+    "PFE": {
+      "shares": 428,
+      "entry_price": 26.89773941040039,
+      "entry_date": "2019-12-02"
+    },
+    "INTC": {
+      "shares": 226,
+      "entry_price": 50.86140823364258,
+      "entry_date": "2019-12-02"
+    },
+    "JPM": {
+      "shares": 103,
+      "entry_price": 110.92011260986328,
+      "entry_date": "2019-12-02"
+    },
+    "JNJ": {
+      "shares": 99,
+      "entry_price": 115.40446472167969,
+      "entry_date": "2019-12-02"
+    }
+  },
+  "return_pct": 18.25
+}

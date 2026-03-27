@@ -1,0 +1,603 @@
+[
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 149.93,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 253.06,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 46.85,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 138.58,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 47.17,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 163.84,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 369.59,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 32.13,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 46.81,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 87.65,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-01-12",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 83.73,
+    "reason": "STOP LOSS triggered (-4.47% loss) PnL: -4.5% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-12",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 161.95,
+    "reason": "EARNINGS strong_miss: surprise -0.1565% [Adaptive] PnL: -1.2% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-12",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 31.09,
+    "reason": "EARNINGS strong_miss: surprise -0.3917% [Adaptive] PnL: -3.2% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-12",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 761.03,
+    "reason": "EARNINGS strong_beat: surprise 0.0879% [Adaptive] [Regime bullish: 0.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-16",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 44.43,
+    "reason": "STOP LOSS triggered (-5.09% loss) PnL: -5.1% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.02"
+  },
+  {
+    "date": "2024-01-23",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 146.26,
+    "reason": "EARNINGS strong_beat: surprise 0.0828% [Adaptive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-25",
+    "action": "BUY",
+    "ticker": "CMCSA",
+    "price": 39.49,
+    "reason": "EARNINGS strong_beat: surprise 0.0635% [Adaptive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-25",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 54.27,
+    "reason": "EARNINGS strong_beat: surprise 0.066% [Adaptive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-26",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 43.07,
+    "reason": "STOP LOSS triggered (-8.68% loss) PnL: -8.7% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-30",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 401.67,
+    "reason": "EARNINGS strong_beat: surprise 0.0595% [Adaptive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 159.28,
+    "reason": "Dropped from top 10. Score: 7.93 Replaced by: META, NVDA, CRM PnL: +6.2% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.93,
+      "mode": "MOMENTUM",
+      "momentum": 9.07,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 151.2,
+    "reason": "Dropped from top 10. Score: 6.9 Replaced by: META, NVDA, CRM PnL: +3.4% (held since 2024-01-23)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 6.9,
+      "mode": "MOMENTUM",
+      "momentum": 6.77,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "CMCSA",
+    "price": 40.76,
+    "reason": "Dropped from top 10. Score: 7.5 Replaced by: META, NVDA, CRM PnL: +3.2% (held since 2024-01-25)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.5,
+      "mode": "MOMENTUM",
+      "momentum": 8.12,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 55.92,
+    "reason": "Dropped from top 10. Score: 5.45 Replaced by: META, NVDA, CRM PnL: +3.1% (held since 2024-01-25)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 5.45,
+      "mode": "MOMENTUM",
+      "momentum": 5.77,
+      "trend": 7,
+      "macd": 3
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 396.94,
+    "reason": "Dropped from top 10. Score: 8.0 Replaced by: META, NVDA, CRM PnL: -1.2% (held since 2024-01-30)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.0,
+      "mode": "MOMENTUM",
+      "momentum": 9.23,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 391.71,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 62.99,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 455.68,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 117.69,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 548.25,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "TRIM",
+    "ticker": "AMD",
+    "price": 202.64,
+    "reason": "PROFIT TARGET: +46%, trimming 1/3 (23 shares). Holding 47. Next trim at +25% from $203.",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 372.02,
+    "reason": "Dropped from top 10. Score: 7.72 Replaced by: AMZN, META, NVDA PnL: +0.7% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.72,
+      "mode": "MOMENTUM",
+      "momentum": 8.61,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 775.52,
+    "reason": "Dropped from top 10. Score: 7.13 Replaced by: AMZN, META, NVDA PnL: +1.9% (held since 2024-01-12)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.13,
+      "mode": "MOMENTUM",
+      "momentum": 7.3,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 471.22,
+    "reason": "Dropped from top 10. Score: 7.83 Replaced by: AMZN, META, NVDA PnL: +3.4% (held since 2024-02-01)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.83,
+      "mode": "MOMENTUM",
+      "momentum": 8.84,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 572.18,
+    "reason": "Dropped from top 10. Score: 7.94 Replaced by: AMZN, META, NVDA PnL: +4.4% (held since 2024-02-01)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.94,
+      "mode": "MOMENTUM",
+      "momentum": 9.08,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 178.22,
+    "reason": "Ranked in top 10. Score: 8.65 (momentum=10.0, trend=7.0, macd=7.0) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 771.36,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 167.02,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 741.3,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2024-03-05",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 114.39,
+    "reason": "STOP LOSS triggered (-2.81% loss) PnL: -2.8% (held since 2024-02-01)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-06",
+    "action": "TRIM",
+    "ticker": "NVDA",
+    "price": 88.65,
+    "reason": "PROFIT TARGET: +41%, trimming 1/3 (51 shares). Holding 103. Next trim at +25% from $89.",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-11",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 724.27,
+    "reason": "STOP LOSS triggered (-6.11% loss) PnL: -6.1% (held since 2024-03-01)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-11",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 706.32,
+    "reason": "STOP LOSS triggered (-4.72% loss) PnL: -4.7% (held since 2024-03-01)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-21",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 96.55,
+    "reason": "EARNINGS strong_beat: surprise 0.0798% [Adaptive] [Regime bullish: 47.0% win rate]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-22",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 89.88,
+    "reason": "STOP LOSS triggered (-6.9% loss) PnL: -6.9% (held since 2024-03-21)",
+    "regime": "bullish",
+    "news_context": null
+  }
+]

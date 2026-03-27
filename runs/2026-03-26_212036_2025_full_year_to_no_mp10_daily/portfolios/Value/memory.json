@@ -1,0 +1,1937 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2025-01-02",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-01-06",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-01-07",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-01-24",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-01-27",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-02-03",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-02-07",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-03-04",
+      "regime": "bearish"
+    },
+    {
+      "date": "2025-03-05",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-03-06",
+      "regime": "bearish"
+    },
+    {
+      "date": "2025-03-24",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-03-26",
+      "regime": "bearish"
+    },
+    {
+      "date": "2025-04-03",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2025-04-04",
+      "regime": "crisis"
+    },
+    {
+      "date": "2025-04-24",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2025-05-09",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-05-12",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-08-01",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-08-04",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-08-05",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-08-06",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-08-07",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-08-08",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-08-19",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-08-22",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-08-25",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-08-27",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-08-29",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-09-11",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-09-25",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-09-29",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-10",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-24",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-30",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-31",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-11-04",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-11-07",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-11-10",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-11-13",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-11-14",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-11-17",
+      "regime": "sideways"
+    },
+    {
+      "date": "2025-11-26",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-12-09",
+      "regime": "sideways"
+    },
+    {
+      "date": "2026-01-09",
+      "regime": "normal"
+    },
+    {
+      "date": "2026-01-14",
+      "regime": "sideways"
+    },
+    {
+      "date": "2026-01-15",
+      "regime": "normal"
+    },
+    {
+      "date": "2026-01-16",
+      "regime": "sideways"
+    },
+    {
+      "date": "2026-03-12",
+      "regime": "bearish"
+    },
+    {
+      "date": "2026-03-16",
+      "regime": "sideways"
+    },
+    {
+      "date": "2026-03-18",
+      "regime": "bearish"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2025-01-02",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2025-01-08",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2025-01-09",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2025-01-10",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-01-13",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2025-01-14",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2025-01-15",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2025-01-16",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2025-01-17",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2025-01-20",
+      "context": "geo_risk=0.71"
+    },
+    {
+      "date": "2025-01-21",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-01-22",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-01-23",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2025-01-24",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2025-01-27",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2025-01-28",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2025-01-29",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2025-01-30",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-01-31",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-02-03",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2025-02-04",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2025-02-05",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-02-06",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2025-02-07",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2025-02-10",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2025-02-11",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2025-02-12",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2025-02-13",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2025-02-14",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2025-02-17",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2025-02-18",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2025-02-19",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2025-02-20",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-02-21",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-02-24",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2025-02-25",
+      "context": "geo_risk=0.82"
+    },
+    {
+      "date": "2025-02-26",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2025-02-27",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2025-03-03",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2025-03-04",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2025-03-05",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-03-06",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2025-03-07",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-03-10",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2025-03-11",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2025-03-12",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2025-03-13",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2025-03-14",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2025-03-17",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-03-18",
+      "context": "geo_risk=0.71"
+    },
+    {
+      "date": "2025-03-19",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2025-03-20",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2025-03-21",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-03-24",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-03-25",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-03-26",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-03-27",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2025-03-28",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-03-31",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2025-04-01",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2025-04-02",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2025-04-03",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2025-04-04",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2025-04-07",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2025-04-08",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2025-04-09",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2025-04-10",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2025-04-11",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2025-04-14",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-04-15",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-04-17",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2025-04-18",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-04-21",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2025-04-22",
+      "context": "geo_risk=0.38"
+    },
+    {
+      "date": "2025-04-23",
+      "context": "geo_risk=0.41"
+    },
+    {
+      "date": "2025-04-24",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2025-04-25",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2025-04-28",
+      "context": "geo_risk=0.44"
+    },
+    {
+      "date": "2025-04-29",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2025-04-30",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2025-05-01",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2025-05-02",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2025-05-05",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-05-06",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-05-07",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-05-08",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2025-05-09",
+      "context": "geo_risk=0.23"
+    },
+    {
+      "date": "2025-05-12",
+      "context": "geo_risk=0.12"
+    },
+    {
+      "date": "2025-05-13",
+      "context": "geo_risk=0.07"
+    },
+    {
+      "date": "2025-05-14",
+      "context": "geo_risk=0.22"
+    },
+    {
+      "date": "2025-05-15",
+      "context": "geo_risk=0.31"
+    },
+    {
+      "date": "2025-05-16",
+      "context": "geo_risk=0.37"
+    },
+    {
+      "date": "2025-05-19",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2025-05-20",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-05-21",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2025-05-22",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2025-05-23",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2025-05-26",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2025-05-28",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2025-05-29",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2025-05-30",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2025-06-02",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-06-03",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2025-06-04",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2025-06-05",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2025-06-06",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2025-06-09",
+      "context": "geo_risk=0.37"
+    },
+    {
+      "date": "2025-06-10",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-06-11",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2025-06-12",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2025-06-13",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2025-06-16",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-06-17",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-06-18",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-06-19",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-06-20",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2025-06-23",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2025-06-24",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2025-06-25",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-06-26",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2025-06-27",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2025-06-30",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2025-07-01",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2025-07-02",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2025-07-03",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2025-07-04",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2025-07-07",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-07-08",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2025-07-09",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-07-10",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2025-07-11",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-07-14",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-07-15",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-07-16",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-07-18",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2025-07-22",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2025-07-23",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2025-07-24",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2025-07-25",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-07-28",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2025-07-29",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-07-30",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-07-31",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2025-08-01",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-08-04",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2025-08-05",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2025-08-06",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2025-08-07",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2025-08-08",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2025-08-11",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2025-08-12",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2025-08-13",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2025-08-14",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-08-15",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2025-08-18",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2025-08-19",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2025-08-20",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2025-08-21",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2025-08-22",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2025-08-25",
+      "context": "geo_risk=0.71"
+    },
+    {
+      "date": "2025-08-26",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2025-08-27",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2025-08-28",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2025-08-29",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2025-09-01",
+      "context": "geo_risk=0.38"
+    },
+    {
+      "date": "2025-09-02",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-09-03",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2025-09-04",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2025-09-08",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-09-09",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2025-09-10",
+      "context": "geo_risk=0.44"
+    },
+    {
+      "date": "2025-09-11",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2025-09-12",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2025-09-15",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2025-09-16",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2025-09-17",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2025-09-18",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2025-09-19",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-09-22",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2025-09-23",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-09-24",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-09-29",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2025-09-30",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2025-10-01",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-10-02",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-10-03",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-10-06",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-10-08",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2025-10-14",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2025-10-15",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-10-16",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-10-17",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-10-20",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-10-21",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-10-22",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-10-24",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-11-04",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2025-11-05",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-11-06",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-11-07",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2025-11-10",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2025-11-11",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-11-12",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2025-11-13",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2025-11-14",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-11-17",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2025-11-18",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2025-11-21",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2025-11-25",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2025-11-26",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2025-11-27",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2025-11-28",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-12-01",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2025-12-02",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2025-12-03",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2025-12-04",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2025-12-05",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2025-12-08",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2025-12-09",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2025-12-10",
+      "context": "geo_risk=0.71"
+    },
+    {
+      "date": "2025-12-11",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2025-12-12",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2025-12-15",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2025-12-17",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2025-12-19",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2025-12-22",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-12-23",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2025-12-24",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2025-12-25",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2025-12-26",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-12-29",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-12-30",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-12-31",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2026-01-01",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2026-01-02",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2026-01-05",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2026-01-07",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2026-01-08",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2026-01-09",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2026-01-12",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2026-01-13",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2026-01-14",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2026-01-15",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2026-01-16",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2026-01-19",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2026-01-20",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2026-01-21",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2026-01-22",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2026-01-23",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2026-01-26",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2026-01-27",
+      "context": "geo_risk=0.82"
+    },
+    {
+      "date": "2026-01-28",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2026-01-29",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2026-01-30",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2026-02-02",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2026-02-03",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2026-02-04",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2026-02-05",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2026-02-06",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2026-02-09",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2026-02-10",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2026-02-11",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2026-02-12",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2026-02-13",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2026-02-16",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2026-02-17",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2026-02-18",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2026-02-19",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2026-02-20",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2026-02-23",
+      "context": "geo_risk=0.37"
+    },
+    {
+      "date": "2026-02-24",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2026-02-25",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2026-02-26",
+      "context": "geo_risk=0.40"
+    },
+    {
+      "date": "2026-02-27",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2026-03-02",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2026-03-03",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2026-03-04",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2026-03-05",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2026-03-06",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2026-03-09",
+      "context": "geo_risk=0.26"
+    },
+    {
+      "date": "2026-03-10",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2026-03-11",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2026-03-12",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2026-03-16",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2026-03-17",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2026-03-18",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2026-03-19",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2026-03-20",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2026-03-23",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2026-03-24",
+      "context": "geo_risk=0.62"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "COST",
+      "pnl_pct": 5.02,
+      "date": "2025-04-01",
+      "held_from": "2025-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "DE",
+      "pnl_pct": 14.81,
+      "date": "2025-04-01",
+      "held_from": "2025-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "PEP",
+      "pnl_pct": 0.52,
+      "date": "2025-04-01",
+      "held_from": "2025-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "XOM",
+      "pnl_pct": 11.92,
+      "date": "2025-04-01",
+      "held_from": "2025-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "NVDA",
+      "pnl_pct": 39.18,
+      "date": "2025-07-01",
+      "held_from": "2025-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": 12.09,
+      "date": "2025-07-01",
+      "held_from": "2025-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": 11.26,
+      "date": "2025-10-01",
+      "held_from": "2025-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": 26.04,
+      "date": "2025-10-01",
+      "held_from": "2025-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MCD",
+      "pnl_pct": 3.94,
+      "date": "2026-01-01",
+      "held_from": "2025-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "KO",
+      "pnl_pct": 5.42,
+      "date": "2026-01-01",
+      "held_from": "2025-10-01",
+      "regime": "sideways"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "UPS",
+      "pnl_pct": -10.16,
+      "date": "2025-02-03",
+      "held_from": "2025-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": -8.5,
+      "date": "2025-02-04",
+      "held_from": "2025-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": -6.99,
+      "date": "2025-02-06",
+      "held_from": "2025-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": -14.32,
+      "date": "2025-03-13",
+      "held_from": "2025-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": -10.31,
+      "date": "2025-03-26",
+      "held_from": "2025-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": -1.03,
+      "date": "2025-04-01",
+      "held_from": "2025-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": -14.18,
+      "date": "2025-04-03",
+      "held_from": "2025-04-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "UPS",
+      "pnl_pct": -8.37,
+      "date": "2025-04-03",
+      "held_from": "2025-04-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -10.9,
+      "date": "2025-04-04",
+      "held_from": "2025-04-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": -9.33,
+      "date": "2025-04-04",
+      "held_from": "2025-04-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": -12.85,
+      "date": "2025-04-04",
+      "held_from": "2025-04-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -7.78,
+      "date": "2025-04-07",
+      "held_from": "2025-04-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": -9.38,
+      "date": "2025-04-08",
+      "held_from": "2025-04-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": -4.63,
+      "date": "2025-07-14",
+      "held_from": "2025-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": -7.12,
+      "date": "2025-07-15",
+      "held_from": "2025-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": -7.82,
+      "date": "2025-07-22",
+      "held_from": "2025-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -4.5,
+      "date": "2025-07-22",
+      "held_from": "2025-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CMCSA",
+      "pnl_pct": -6.44,
+      "date": "2025-07-25",
+      "held_from": "2025-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -7.79,
+      "date": "2025-08-01",
+      "held_from": "2025-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "T",
+      "pnl_pct": -6.1,
+      "date": "2025-10-06",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CMCSA",
+      "pnl_pct": -7.79,
+      "date": "2025-10-29",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": -5.7,
+      "date": "2025-12-05",
+      "held_from": "2025-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -6.06,
+      "date": "2025-12-15",
+      "held_from": "2025-10-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "HON",
+      "pnl_pct": -0.93,
+      "date": "2026-01-01",
+      "held_from": "2025-10-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": -11.45,
+      "date": "2026-01-13",
+      "held_from": "2026-01-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "T",
+      "pnl_pct": -5.1,
+      "date": "2026-01-13",
+      "held_from": "2026-01-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NFLX",
+      "pnl_pct": -6.14,
+      "date": "2026-01-16",
+      "held_from": "2026-01-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -10.41,
+      "date": "2026-02-02",
+      "held_from": "2025-10-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": -9.92,
+      "date": "2026-03-06",
+      "held_from": "2026-01-01",
+      "regime": "sideways"
+    }
+  ],
+  "lessons": [
+    "Win rate: 26% (10W / 29L)",
+    "Avg win: +13.0%, Avg loss: -8.0%",
+    "Regimes encountered: 50 changes",
+    "Regime 'bearish': avg PnL +0.9% over 7 trades",
+    "Regime 'bullish': avg PnL +4.0% over 11 trades",
+    "Regime 'sideways': avg PnL -3.4% over 7 trades",
+    "Regime 'normal': avg PnL -8.0% over 7 trades",
+    "Regime 'high_volatility': avg PnL -11.3% over 2 trades",
+    "Regime 'crisis': avg PnL -10.0% over 5 trades"
+  ],
+  "best_ticker": "NVDA +39.18%",
+  "worst_ticker": "ADBE -14.32%",
+  "ticker_history": {
+    "UPS": [
+      {
+        "pnl": -10.16,
+        "regime": "normal",
+        "date": "2025-02-03"
+      },
+      {
+        "pnl": -8.37,
+        "regime": "high_volatility",
+        "date": "2025-04-03"
+      }
+    ],
+    "MRK": [
+      {
+        "pnl": -8.5,
+        "regime": "normal",
+        "date": "2025-02-04"
+      },
+      {
+        "pnl": -9.38,
+        "regime": "crisis",
+        "date": "2025-04-08"
+      },
+      {
+        "pnl": 11.26,
+        "regime": "bullish",
+        "date": "2025-10-01"
+      }
+    ],
+    "LMT": [
+      {
+        "pnl": -6.99,
+        "regime": "normal",
+        "date": "2025-02-06"
+      },
+      {
+        "pnl": -7.82,
+        "regime": "bullish",
+        "date": "2025-07-22"
+      }
+    ],
+    "ADBE": [
+      {
+        "pnl": -14.32,
+        "regime": "bearish",
+        "date": "2025-03-13"
+      },
+      {
+        "pnl": -7.12,
+        "regime": "bullish",
+        "date": "2025-07-15"
+      },
+      {
+        "pnl": -11.45,
+        "regime": "normal",
+        "date": "2026-01-13"
+      }
+    ],
+    "NKE": [
+      {
+        "pnl": -10.31,
+        "regime": "bearish",
+        "date": "2025-03-26"
+      },
+      {
+        "pnl": -14.18,
+        "regime": "high_volatility",
+        "date": "2025-04-03"
+      },
+      {
+        "pnl": -9.92,
+        "regime": "sideways",
+        "date": "2026-03-06"
+      }
+    ],
+    "COST": [
+      {
+        "pnl": 5.02,
+        "regime": "bearish",
+        "date": "2025-04-01"
+      },
+      {
+        "pnl": -4.5,
+        "regime": "bullish",
+        "date": "2025-07-22"
+      },
+      {
+        "pnl": -6.06,
+        "regime": "sideways",
+        "date": "2025-12-15"
+      }
+    ],
+    "WMT": [
+      {
+        "pnl": -1.03,
+        "regime": "bearish",
+        "date": "2025-04-01"
+      }
+    ],
+    "DE": [
+      {
+        "pnl": 14.81,
+        "regime": "bearish",
+        "date": "2025-04-01"
+      }
+    ],
+    "PEP": [
+      {
+        "pnl": 0.52,
+        "regime": "bearish",
+        "date": "2025-04-01"
+      }
+    ],
+    "XOM": [
+      {
+        "pnl": 11.92,
+        "regime": "bearish",
+        "date": "2025-04-01"
+      }
+    ],
+    "CRM": [
+      {
+        "pnl": -10.9,
+        "regime": "crisis",
+        "date": "2025-04-04"
+      },
+      {
+        "pnl": -7.79,
+        "regime": "normal",
+        "date": "2025-08-01"
+      },
+      {
+        "pnl": -10.41,
+        "regime": "sideways",
+        "date": "2026-02-02"
+      }
+    ],
+    "TMO": [
+      {
+        "pnl": -9.33,
+        "regime": "crisis",
+        "date": "2025-04-04"
+      },
+      {
+        "pnl": 26.04,
+        "regime": "bullish",
+        "date": "2025-10-01"
+      }
+    ],
+    "CAT": [
+      {
+        "pnl": -12.85,
+        "regime": "crisis",
+        "date": "2025-04-04"
+      }
+    ],
+    "PFE": [
+      {
+        "pnl": -7.78,
+        "regime": "crisis",
+        "date": "2025-04-07"
+      }
+    ],
+    "NVDA": [
+      {
+        "pnl": 39.18,
+        "regime": "bullish",
+        "date": "2025-07-01"
+      }
+    ],
+    "GOOGL": [
+      {
+        "pnl": 12.09,
+        "regime": "bullish",
+        "date": "2025-07-01"
+      }
+    ],
+    "PG": [
+      {
+        "pnl": -4.63,
+        "regime": "bullish",
+        "date": "2025-07-14"
+      },
+      {
+        "pnl": -5.7,
+        "regime": "normal",
+        "date": "2025-12-05"
+      }
+    ],
+    "CMCSA": [
+      {
+        "pnl": -6.44,
+        "regime": "bullish",
+        "date": "2025-07-25"
+      },
+      {
+        "pnl": -7.79,
+        "regime": "bullish",
+        "date": "2025-10-29"
+      }
+    ],
+    "T": [
+      {
+        "pnl": -6.1,
+        "regime": "bullish",
+        "date": "2025-10-06"
+      },
+      {
+        "pnl": -5.1,
+        "regime": "normal",
+        "date": "2026-01-13"
+      }
+    ],
+    "MCD": [
+      {
+        "pnl": 3.94,
+        "regime": "sideways",
+        "date": "2026-01-01"
+      }
+    ],
+    "HON": [
+      {
+        "pnl": -0.93,
+        "regime": "sideways",
+        "date": "2026-01-01"
+      }
+    ],
+    "KO": [
+      {
+        "pnl": 5.42,
+        "regime": "sideways",
+        "date": "2026-01-01"
+      }
+    ],
+    "NFLX": [
+      {
+        "pnl": -6.14,
+        "regime": "sideways",
+        "date": "2026-01-16"
+      }
+    ]
+  },
+  "regime_performance": {
+    "normal": {
+      "wins": 0,
+      "losses": 7,
+      "total": 7,
+      "total_pnl": -55.690000000000005
+    },
+    "bearish": {
+      "wins": 4,
+      "losses": 3,
+      "total": 7,
+      "total_pnl": 6.609999999999996
+    },
+    "high_volatility": {
+      "wins": 0,
+      "losses": 2,
+      "total": 2,
+      "total_pnl": -22.549999999999997
+    },
+    "crisis": {
+      "wins": 0,
+      "losses": 5,
+      "total": 5,
+      "total_pnl": -50.24
+    },
+    "bullish": {
+      "wins": 4,
+      "losses": 7,
+      "total": 11,
+      "total_pnl": 44.169999999999995
+    },
+    "sideways": {
+      "wins": 2,
+      "losses": 5,
+      "total": 7,
+      "total_pnl": -24.1
+    }
+  }
+}

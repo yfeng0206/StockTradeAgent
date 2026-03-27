@@ -1,0 +1,1058 @@
+[
+  {
+    "date": "2022-10-03",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.00 -> 0.77. Themes: war/conflict, pandemic, geopolitical_tension",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS: Value \u2014 holding through volatility, watching for bargains",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 284.53,
+    "reason": "Ranked in top 10. Score: 6.881 (volatility=4.6, value_dist=10.0, rsi=6.9, stability=5.7, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.88,
+      "volatility": 4.56,
+      "value_dist": 10,
+      "rsi": 6.92,
+      "stability": 5.65,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 176.83,
+    "reason": "Ranked in top 10. Score: 6.74 (volatility=4.9, value_dist=9.0, rsi=6.6, stability=6.2, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.74,
+      "volatility": 4.94,
+      "value_dist": 8.97,
+      "rsi": 6.61,
+      "stability": 6.23,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 92.97,
+    "reason": "Ranked in top 10. Score: 6.722 (volatility=5.2, value_dist=10.0, rsi=5.5, stability=5.3, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.72,
+      "volatility": 5.2,
+      "value_dist": 10,
+      "rsi": 5.53,
+      "stability": 5.28,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 136.81,
+    "reason": "Ranked in top 10. Score: 6.68 (volatility=4.8, value_dist=10.0, rsi=6.6, stability=4.7, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.68,
+      "volatility": 4.77,
+      "value_dist": 10,
+      "rsi": 6.59,
+      "stability": 4.65,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 117.46,
+    "reason": "Ranked in top 10. Score: 6.6 (volatility=5.4, value_dist=8.3, rsi=6.2, stability=6.2, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.6,
+      "volatility": 5.39,
+      "value_dist": 8.34,
+      "rsi": 6.21,
+      "stability": 6.2,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 30.93,
+    "reason": "Ranked in top 10. Score: 6.508 (volatility=5.4, value_dist=10.0, rsi=4.6, stability=4.8, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.51,
+      "volatility": 5.44,
+      "value_dist": 10,
+      "rsi": 4.62,
+      "stability": 4.76,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 36.19,
+    "reason": "Ranked in top 10. Score: 6.468 (volatility=5.0, value_dist=10.0, rsi=4.8, stability=5.0, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.47,
+      "volatility": 5.01,
+      "value_dist": 10,
+      "rsi": 4.78,
+      "stability": 5.05,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 13.04,
+    "reason": "Ranked in top 10. Score: 6.362 (volatility=5.1, value_dist=9.8, rsi=4.9, stability=4.6, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.36,
+      "volatility": 5.13,
+      "value_dist": 9.77,
+      "rsi": 4.88,
+      "stability": 4.58,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "HON",
+    "price": 151.4,
+    "reason": "Ranked in top 10. Score: 6.304 (volatility=5.2, value_dist=9.0, rsi=4.5, stability=5.8, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.3,
+      "volatility": 5.16,
+      "value_dist": 9.0,
+      "rsi": 4.5,
+      "stability": 5.78,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 274.19,
+    "reason": "Ranked in top 10. Score: 6.131 (volatility=3.9, value_dist=10.0, rsi=5.0, stability=4.8, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.13,
+      "volatility": 3.94,
+      "value_dist": 10,
+      "rsi": 4.96,
+      "stability": 4.78,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2022-10-11",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> bearish. Elevated geo risk (0.54): war/conflict, geopolitical_tension",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2022-10-12",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 28.66,
+    "reason": "STOP LOSS triggered (-7.35% loss) PnL: -7.4% (held since 2022-10-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2022-10-13",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bearish -> high_volatility. No notable memory or context for today.",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2022-11-08",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2022-11-09",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> high_volatility. No notable memory or context for today.",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48"
+  },
+  {
+    "date": "2022-12-05",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.04 -> 0.44. Themes: war/conflict, sanctions/trade, oil/energy, geopolitical_tension",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.44"
+  },
+  {
+    "date": "2022-12-09",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> normal. Elevated geo risk (0.81): war/conflict, sanctions/trade, oil/energy, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.81"
+  },
+  {
+    "date": "2022-12-13",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2022-12-14",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.40"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 341.16,
+    "reason": "Dropped from top 10. Score: 4.13 Replaced by: WFC, AAPL, CRM PnL: +19.9% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 4.13,
+      "volatility": 4.02,
+      "value_dist": 4.78,
+      "rsi": 1.85,
+      "stability": 5.62,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 202.7,
+    "reason": "Dropped from top 10. Score: 4.37 Replaced by: WFC, AAPL, CRM PnL: +14.6% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 4.37,
+      "volatility": 4.59,
+      "value_dist": 4.43,
+      "rsi": 1.97,
+      "stability": 6.36,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 103.05,
+    "reason": "Dropped from top 10. Score: 4.97 Replaced by: WFC, AAPL, CRM PnL: +10.8% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 4.97,
+      "volatility": 4.52,
+      "value_dist": 8.27,
+      "rsi": 0.41,
+      "stability": 5.28,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 139.51,
+    "reason": "Dropped from top 10. Score: 4.09 Replaced by: WFC, AAPL, CRM PnL: +18.8% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 4.09,
+      "volatility": 6.3,
+      "value_dist": 2.39,
+      "rsi": 1.22,
+      "stability": 6.2,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 42.37,
+    "reason": "Dropped from top 10. Score: 4.3 Replaced by: WFC, AAPL, CRM PnL: +17.1% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 4.3,
+      "volatility": 5.0,
+      "value_dist": 4.16,
+      "rsi": 2.16,
+      "stability": 5.59,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 15.37,
+    "reason": "Dropped from top 10. Score: 4.33 Replaced by: WFC, AAPL, CRM PnL: +17.8% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 4.33,
+      "volatility": 4.81,
+      "value_dist": 4.38,
+      "rsi": 3.69,
+      "stability": 4.16,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "HON",
+    "price": 188.41,
+    "reason": "Dropped from top 10. Score: 3.11 Replaced by: WFC, AAPL, CRM PnL: +24.5% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 3.11,
+      "volatility": 5.02,
+      "value_dist": 0.52,
+      "rsi": 0.85,
+      "stability": 6.39,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 316.79,
+    "reason": "Dropped from top 10. Score: 4.77 Replaced by: WFC, AAPL, CRM PnL: +15.5% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 4.77,
+      "volatility": 4.5,
+      "value_dist": 5.4,
+      "rsi": 4.23,
+      "stability": 4.78,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 37.99,
+    "reason": "Ranked in top 10. Score: 5.577 (volatility=4.2, value_dist=10.0, rsi=3.8, stability=2.7, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.58,
+      "volatility": 4.24,
+      "value_dist": 10,
+      "rsi": 3.78,
+      "stability": 2.74,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 127.88,
+    "reason": "Ranked in top 10. Score: 5.535 (volatility=2.2, value_dist=10.0, rsi=4.8, stability=4.6, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.53,
+      "volatility": 2.24,
+      "value_dist": 10,
+      "rsi": 4.76,
+      "stability": 4.56,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 131.0,
+    "reason": "Ranked in top 10. Score: 5.532 (volatility=0.9, value_dist=10.0, rsi=1.1, stability=2.6, event_adj=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.53,
+      "volatility": 0.92,
+      "value_dist": 10,
+      "rsi": 1.15,
+      "stability": 2.63,
+      "event_adj": 1.5
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 437.54,
+    "reason": "Ranked in top 10. Score: 5.506 (volatility=4.2, value_dist=9.8, rsi=5.3, stability=3.7, event_adj=-0.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.51,
+      "volatility": 4.17,
+      "value_dist": 9.81,
+      "rsi": 5.33,
+      "stability": 3.72,
+      "event_adj": -0.5
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 31.65,
+    "reason": "Ranked in top 10. Score: 5.394 (volatility=5.3, value_dist=10.0, rsi=0.0, stability=4.0, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.39,
+      "volatility": 5.33,
+      "value_dist": 10,
+      "rsi": 0,
+      "stability": 3.98,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 110.23,
+    "reason": "Ranked in top 10. Score: 5.218 (volatility=0.4, value_dist=10.0, rsi=0.0, stability=3.0, event_adj=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.22,
+      "volatility": 0.4,
+      "value_dist": 10,
+      "rsi": 0,
+      "stability": 3.0,
+      "event_adj": 1.5
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 233.69,
+    "reason": "Ranked in top 10. Score: 5.196 (volatility=2.5, value_dist=10.0, rsi=2.6, stability=4.6, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.2,
+      "volatility": 2.51,
+      "value_dist": 10,
+      "rsi": 2.58,
+      "stability": 4.63,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "CMCSA",
+    "price": 29.44,
+    "reason": "Ranked in top 10. Score: 5.149 (volatility=3.5, value_dist=10.0, rsi=2.1, stability=3.3, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.15,
+      "volatility": 3.54,
+      "value_dist": 10,
+      "rsi": 2.09,
+      "stability": 3.34,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 87.51,
+    "reason": "Ranked in top 10. Score: 5.073 (volatility=2.1, value_dist=10.0, rsi=3.6, stability=3.7, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 5.07,
+      "volatility": 2.09,
+      "value_dist": 10,
+      "rsi": 3.56,
+      "stability": 3.67,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-01-04",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2023-01-06",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. In 'normal' regime (past: 8 trades, 100.0% win rate, avg +17.4%). \u2014 history says this regime works well for us",
+    "regime": "normal",
+    "news_context": "geo_risk=0.29"
+  },
+  {
+    "date": "2023-01-25",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. Elevated geo risk (0.62): war/conflict, oil/energy, rates/inflation, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2023-01-26",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.64): war/conflict, oil/energy, rates/inflation, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2023-01-30",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. Elevated geo risk (0.67): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-01-31",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.68): war/conflict, pandemic, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.68"
+  },
+  {
+    "date": "2023-02-02",
+    "action": "TRIM",
+    "ticker": "CRM",
+    "price": 172.54,
+    "reason": "PROFIT TARGET: +32%, trimming 1/3 (28 shares). Holding 57. Next trim at +25% from $173.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2023-02-17",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. Elevated geo risk (0.67): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-03-09",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 29.82,
+    "reason": "STOP LOSS triggered (-5.78% loss) PnL: -5.8% (held since 2023-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.39"
+  },
+  {
+    "date": "2023-03-10",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bearish. In 'bearish' regime (past: 1 trades, 0.0% win rate, avg -7.3%). \u2014 history says be cautious here",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2023-03-14",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bearish -> sideways. In 'sideways' regime (past: 1 trades, 0.0% win rate, avg -5.8%). \u2014 history says be cautious here",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.13"
+  },
+  {
+    "date": "2023-03-20",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. In 'normal' regime (past: 8 trades, 100.0% win rate, avg +17.4%). \u2014 history says this regime works well for us",
+    "regime": "normal",
+    "news_context": "geo_risk=0.25"
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 165.46,
+    "reason": "Dropped from top 10. Score: 3.23 Replaced by: PFE, ABT, HON PnL: +20.9% (held since 2022-10-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 3.23,
+      "volatility": 5.11,
+      "value_dist": 2.14,
+      "rsi": 0,
+      "stability": 5.27,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 163.8,
+    "reason": "Dropped from top 10. Score: 3.06 Replaced by: PFE, ABT, HON PnL: +28.1% (held since 2023-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 3.06,
+      "volatility": 4.5,
+      "value_dist": 2.52,
+      "rsi": 0,
+      "stability": 4.74,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "CRM",
+    "price": 194.13,
+    "reason": "Dropped from top 10. Score: 3.96 Replaced by: PFE, ABT, HON PnL: +48.2% (held since 2023-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 3.96,
+      "volatility": 1.84,
+      "value_dist": 4.09,
+      "rsi": 0,
+      "stability": 3.43,
+      "event_adj": 1.5
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 114.95,
+    "reason": "Dropped from top 10. Score: 4.67 Replaced by: PFE, ABT, HON PnL: +4.3% (held since 2023-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.67,
+      "volatility": 3.58,
+      "value_dist": 4.09,
+      "rsi": 0.81,
+      "stability": 3.54,
+      "event_adj": 1.5
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 280.59,
+    "reason": "Dropped from top 10. Score: 3.05 Replaced by: PFE, ABT, HON PnL: +20.1% (held since 2023-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 3.05,
+      "volatility": 3.91,
+      "value_dist": 3.17,
+      "rsi": 0,
+      "stability": 4.63,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "CMCSA",
+    "price": 32.25,
+    "reason": "Dropped from top 10. Score: 4.5 Replaced by: PFE, ABT, HON PnL: +9.5% (held since 2023-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.5,
+      "volatility": 5.13,
+      "value_dist": 7.65,
+      "rsi": 0,
+      "stability": 3.34,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 103.5,
+    "reason": "Dropped from top 10. Score: 4.51 Replaced by: PFE, ABT, HON PnL: +18.3% (held since 2023-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.51,
+      "volatility": 2.6,
+      "value_dist": 10,
+      "rsi": 0,
+      "stability": 3.67,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 34.5,
+    "reason": "Ranked in top 10. Score: 6.437 (volatility=5.7, value_dist=9.4, rsi=0.0, stability=4.6, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.44,
+      "volatility": 5.7,
+      "value_dist": 9.36,
+      "rsi": 0,
+      "stability": 4.59,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 95.78,
+    "reason": "Ranked in top 10. Score: 6.079 (volatility=6.0, value_dist=6.6, rsi=0.0, stability=6.5, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.08,
+      "volatility": 5.96,
+      "value_dist": 6.61,
+      "rsi": 0,
+      "stability": 6.54,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "HON",
+    "price": 170.83,
+    "reason": "Ranked in top 10. Score: 5.791 (volatility=6.0, value_dist=4.7, rsi=1.6, stability=6.4, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.79,
+      "volatility": 5.98,
+      "value_dist": 4.68,
+      "rsi": 1.57,
+      "stability": 6.39,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 303.4,
+    "reason": "Ranked in top 10. Score: 5.573 (volatility=4.7, value_dist=6.0, rsi=1.1, stability=5.8, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.57,
+      "volatility": 4.7,
+      "value_dist": 5.95,
+      "rsi": 1.07,
+      "stability": 5.83,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 26.45,
+    "reason": "Ranked in top 10. Score: 5.502 (volatility=4.3, value_dist=10.0, rsi=1.9, stability=4.2, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.5,
+      "volatility": 4.29,
+      "value_dist": 10,
+      "rsi": 1.85,
+      "stability": 4.22,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 47.88,
+    "reason": "Ranked in top 10. Score: 5.455 (volatility=6.8, value_dist=2.2, rsi=0.0, stability=6.2, event_adj=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.46,
+      "volatility": 6.84,
+      "value_dist": 2.2,
+      "rsi": 0,
+      "stability": 6.21,
+      "event_adj": 1.5
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 138.49,
+    "reason": "Ranked in top 10. Score: 5.198 (volatility=7.0, value_dist=2.7, rsi=0.0, stability=6.5, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.2,
+      "volatility": 6.98,
+      "value_dist": 2.67,
+      "rsi": 0,
+      "stability": 6.51,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 32.0,
+    "reason": "Ranked in top 10. Score: 5.152 (volatility=6.2, value_dist=10.0, rsi=0.0, stability=4.0, event_adj=0.0) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.65,
+      "volatility": 6.19,
+      "value_dist": 10,
+      "rsi": 0,
+      "stability": 3.98,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-12",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. In 'sideways' regime (past: 1 trades, 0.0% win rate, avg -5.8%). \u2014 history says be cautious here",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2023-04-17",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.69): war/conflict, oil/energy, pandemic, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. In 'sideways' regime (past: 1 trades, 0.0% win rate, avg -5.8%). \u2014 history says be cautious here. Elevated geo risk (0.88): war/conflict, oil/energy, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-25",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 32.82,
+    "reason": "STOP LOSS triggered (-4.89% loss) PnL: -4.9% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2023-04-28",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2023-05-02",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. In 'sideways' regime (past: 2 trades, 0.0% win rate, avg -5.3%). \u2014 history says be cautious here. Elevated geo risk (0.61): war/conflict, oil/energy, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2023-05-04",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 34.27,
+    "reason": "STOP LOSS triggered (-9.8% loss) PnL: -9.8% (held since 2023-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2023-05-16",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 29.9,
+    "reason": "STOP LOSS triggered (-6.56% loss) PnL: -6.6% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-18",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. In 'normal' regime (past: 15 trades, 100.0% win rate, avg +19.2%). \u2014 history says this regime works well for us",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.15 -> 0.45. Themes: war/conflict, pandemic, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-23",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. In 'sideways' regime (past: 4 trades, 0.0% win rate, avg -6.8%). \u2014 history says be cautious here. Elevated geo risk (0.58): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.58"
+  },
+  {
+    "date": "2023-05-26",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. In 'normal' regime (past: 15 trades, 100.0% win rate, avg +19.2%). \u2014 history says this regime works well for us. Elevated geo risk (0.72): war/conflict, pandemic, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.72"
+  },
+  {
+    "date": "2023-06-01",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. In 'sideways' regime (past: 4 trades, 0.0% win rate, avg -6.8%). \u2014 history says be cautious here. Elevated geo risk (0.70): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2023-06-02",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.70): war/conflict, pandemic, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.70"
+  }
+]

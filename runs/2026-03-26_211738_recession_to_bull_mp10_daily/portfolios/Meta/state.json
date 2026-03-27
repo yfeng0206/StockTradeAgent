@@ -1,0 +1,57 @@
+{
+  "final_value": 107108.49,
+  "cash": 2694.96,
+  "positions": {
+    "NFLX": {
+      "shares": 304,
+      "entry_price": 32.4119987487793,
+      "entry_date": "2023-05-01"
+    },
+    "MSFT": {
+      "shares": 33,
+      "entry_price": 298.49114990234375,
+      "entry_date": "2023-05-01"
+    },
+    "NVDA": {
+      "shares": 259,
+      "entry_price": 37.94640350341797,
+      "entry_date": "2023-05-25"
+    },
+    "WMT": {
+      "shares": 201,
+      "entry_price": 47.648826599121094,
+      "entry_date": "2023-06-01"
+    },
+    "CRM": {
+      "shares": 45,
+      "entry_price": 210.34423828125,
+      "entry_date": "2023-06-01"
+    },
+    "BA": {
+      "shares": 46,
+      "entry_price": 207.9600067138672,
+      "entry_date": "2023-06-01"
+    },
+    "LLY": {
+      "shares": 22,
+      "entry_price": 428.021728515625,
+      "entry_date": "2023-06-01"
+    },
+    "AAPL": {
+      "shares": 54,
+      "entry_price": 177.7637939453125,
+      "entry_date": "2023-06-01"
+    },
+    "MRK": {
+      "shares": 95,
+      "entry_price": 101.19184875488281,
+      "entry_date": "2023-06-01"
+    },
+    "DE": {
+      "shares": 28,
+      "entry_price": 339.1480407714844,
+      "entry_date": "2023-06-01"
+    }
+  },
+  "return_pct": 7.11
+}

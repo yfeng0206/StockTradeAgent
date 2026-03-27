@@ -1,0 +1,22 @@
+{
+  "final_value": 94163.48,
+  "cash": 66163.94,
+  "positions": {
+    "MRK": {
+      "shares": 118,
+      "entry_price": 77.80364990234375,
+      "entry_date": "2022-09-01"
+    },
+    "JNJ": {
+      "shares": 54,
+      "entry_price": 147.23458862304688,
+      "entry_date": "2022-10-03"
+    },
+    "PEP": {
+      "shares": 54,
+      "entry_price": 147.42788696289062,
+      "entry_date": "2022-10-03"
+    }
+  },
+  "return_pct": -5.84
+}

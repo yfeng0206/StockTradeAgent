@@ -1,0 +1,228 @@
+[
+  {
+    "ticker": "NKE",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NVDA",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.4,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "COST",
+    "strategy": "EventDriven",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "oversold_in_downtrend",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.4,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "WMT",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "HD",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "INTC",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.2,
+        "flagged": false
+      },
+      {
+        "conflict": "uptrend_with_extreme_vol",
+        "relevance": 0.4,
+        "flagged": false
+      },
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.3,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GOOGL",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.3,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "AMZN",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "uptrend_with_extreme_vol",
+        "relevance": 0.4,
+        "flagged": false
+      },
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.3,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "LLY",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.3,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CAT",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.2,
+        "flagged": false
+      },
+      {
+        "conflict": "uptrend_with_extreme_vol",
+        "relevance": 0.4,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "INTC",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "uptrend_with_extreme_vol",
+        "relevance": 0.4,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GS",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "BAC",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "WFC",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MS",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "EventDriven",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  }
+]

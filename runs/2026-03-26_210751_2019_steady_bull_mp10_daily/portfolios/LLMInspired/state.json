@@ -1,0 +1,57 @@
+{
+  "final_value": 115012.63,
+  "cash": 2426.29,
+  "positions": {
+    "VZ": {
+      "shares": 255,
+      "entry_price": 40.17509078979492,
+      "entry_date": "2019-09-02"
+    },
+    "V": {
+      "shares": 62,
+      "entry_price": 172.77296447753906,
+      "entry_date": "2019-11-01"
+    },
+    "AAPL": {
+      "shares": 170,
+      "entry_price": 63.67678451538086,
+      "entry_date": "2019-12-02"
+    },
+    "GOOGL": {
+      "shares": 170,
+      "entry_price": 63.91474533081055,
+      "entry_date": "2019-12-02"
+    },
+    "BAC": {
+      "shares": 381,
+      "entry_price": 28.53506851196289,
+      "entry_date": "2019-12-02"
+    },
+    "WFC": {
+      "shares": 238,
+      "entry_price": 45.71632385253906,
+      "entry_date": "2019-12-02"
+    },
+    "BLK": {
+      "shares": 26,
+      "entry_price": 418.3218994140625,
+      "entry_date": "2019-12-02"
+    },
+    "ABT": {
+      "shares": 143,
+      "entry_price": 75.63026428222656,
+      "entry_date": "2019-12-02"
+    },
+    "JPM": {
+      "shares": 98,
+      "entry_price": 110.92011260986328,
+      "entry_date": "2019-12-02"
+    },
+    "CAT": {
+      "shares": 86,
+      "entry_price": 125.89822387695312,
+      "entry_date": "2019-12-02"
+    }
+  },
+  "return_pct": 15.01
+}

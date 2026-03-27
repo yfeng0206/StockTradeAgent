@@ -1,0 +1,99 @@
+{
+  "strategies": {
+    "Value": {
+      "final_value": 136558.11,
+      "total_return_pct": 36.56,
+      "alpha_vs_spy": 5.84,
+      "sharpe_ratio": 2.94,
+      "max_drawdown_pct": -7.25,
+      "total_trades": 64,
+      "win_rate_pct": 69.2
+    },
+    "Momentum": {
+      "final_value": 118779.2,
+      "total_return_pct": 18.78,
+      "alpha_vs_spy": -11.94,
+      "sharpe_ratio": 1.329,
+      "max_drawdown_pct": -6.1,
+      "total_trades": 148,
+      "win_rate_pct": 55.1
+    },
+    "Balanced": {
+      "final_value": 118245.95,
+      "total_return_pct": 18.25,
+      "alpha_vs_spy": -12.47,
+      "sharpe_ratio": 1.78,
+      "max_drawdown_pct": -6.04,
+      "total_trades": 118,
+      "win_rate_pct": 55.6
+    },
+    "Defensive": {
+      "final_value": 119987.52,
+      "total_return_pct": 19.99,
+      "alpha_vs_spy": -10.73,
+      "sharpe_ratio": 2.134,
+      "max_drawdown_pct": -3.41,
+      "total_trades": 55,
+      "win_rate_pct": 40.9
+    },
+    "EventDriven": {
+      "final_value": 107644.49,
+      "total_return_pct": 7.64,
+      "alpha_vs_spy": -23.08,
+      "sharpe_ratio": 1.667,
+      "max_drawdown_pct": -3.97,
+      "total_trades": 80,
+      "win_rate_pct": 62.5
+    },
+    "Adaptive": {
+      "final_value": 120478.89,
+      "total_return_pct": 20.48,
+      "alpha_vs_spy": -10.24,
+      "sharpe_ratio": 1.591,
+      "max_drawdown_pct": -7.96,
+      "total_trades": 103,
+      "win_rate_pct": 60.9
+    },
+    "Commodity": {
+      "final_value": 96817.84,
+      "total_return_pct": -3.18,
+      "alpha_vs_spy": -33.9,
+      "sharpe_ratio": -0.332,
+      "max_drawdown_pct": -8.3,
+      "total_trades": 8,
+      "win_rate_pct": 25.0
+    },
+    "LLMInspired": {
+      "final_value": 115012.63,
+      "total_return_pct": 15.01,
+      "alpha_vs_spy": -15.71,
+      "sharpe_ratio": 1.56,
+      "max_drawdown_pct": -5.53,
+      "total_trades": 152,
+      "win_rate_pct": 59.2
+    },
+    "Meta": {
+      "final_value": 104907.5,
+      "total_return_pct": 4.91,
+      "alpha_vs_spy": -25.81,
+      "sharpe_ratio": 0.595,
+      "max_drawdown_pct": -4.61,
+      "total_trades": 115,
+      "win_rate_pct": 47.2
+    }
+  },
+  "benchmarks": {
+    "SPY": {
+      "final_value": 130723.67,
+      "total_return_pct": 30.72,
+      "sharpe_ratio": 2.217,
+      "max_drawdown_pct": -6.61
+    },
+    "QQQ": {
+      "final_value": 138117.24,
+      "total_return_pct": 38.12,
+      "sharpe_ratio": 2.086,
+      "max_drawdown_pct": -10.98
+    }
+  }
+}

@@ -1,0 +1,1031 @@
+[
+  {
+    "date": "2019-01-02",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (3.0). Best: AAPL=1.9. Holding cash.",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2019-01-16",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 166.56,
+    "reason": "VOLUME SPIKE: +9.5% on 3.1x vol \u2014 EventDriven catalyst play",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.23"
+  },
+  {
+    "date": "2019-01-30",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 376.75,
+    "reason": "VOLUME SPIKE: +6.2% on 3.0x vol \u2014 EventDriven catalyst play",
+    "regime": "normal",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-01-31",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 165.39,
+    "reason": "VOLUME SPIKE: +10.8% on 3.1x vol \u2014 EventDriven catalyst play",
+    "regime": "normal",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 166.11,
+    "reason": "Dropped from top 10. Replaced by: AAPL, AMD, INTC PnL: -0.3% (held since 2019-01-16)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 376.46,
+    "reason": "Dropped from top 10. Replaced by: AAPL, AMD, INTC PnL: -0.1% (held since 2019-01-30)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 164.42,
+    "reason": "Dropped from top 10. Replaced by: AAPL, AMD, INTC PnL: -0.6% (held since 2019-01-31)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 39.55,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 24.51,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 41.94,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 133.2,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 205.59,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 58.29,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 86.2,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 112.83,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 79.58,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 37.17,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 41.73,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +5.5% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 23.68,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: -3.4% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 46.16,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +10.1% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 142.31,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +6.8% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 218.55,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +6.3% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 62.26,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +6.8% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 89.76,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +4.1% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "CAT",
+    "price": 118.48,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +5.0% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 84.85,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: TMO, BA PnL: +6.6% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 39.47,
+    "reason": "Dropped from top 10. Score: 2.65 Replaced by: TMO, BA PnL: +6.2% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 2.65,
+      "event": 0,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 259.05,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 430.3,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-03-05",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 249.63,
+    "reason": "STOP LOSS triggered (-3.64% loss) PnL: -3.6% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2019-03-06",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 414.52,
+    "reason": "STOP LOSS triggered (-3.67% loss) PnL: -3.7% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.56"
+  },
+  {
+    "date": "2019-03-08",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 206.54,
+    "reason": "VOLUME SPIKE: +5.1% on 3.0x vol \u2014 EventDriven catalyst play",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2019-03-19",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 26.0,
+    "reason": "VOLUME SPIKE: +11.8% on 2.8x vol \u2014 EventDriven catalyst play [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2019-04-01",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (3.0). Best: JNJ=2.6. Holding cash.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26"
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 221.38,
+    "reason": "Dropped from top 10. Score: 1.85 PnL: +7.2% (held since 2019-03-08)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 1.85,
+      "event": 0,
+      "vol_spike": 5,
+      "momentum": 3
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 26.36,
+    "reason": "Dropped from top 10. Score: 3.48 PnL: +1.4% (held since 2019-03-19)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-04-12",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 125.53,
+    "reason": "VOLUME SPIKE: +11.5% on 3.2x vol \u2014 EventDriven catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.34"
+  },
+  {
+    "date": "2019-04-23",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 276.48,
+    "reason": "VOLUME SPIKE: +5.7% on 3.1x vol \u2014 EventDriven catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2019-04-25",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 191.76,
+    "reason": "VOLUME SPIKE: +5.8% on 3.2x vol \u2014 EventDriven catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.42"
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 131.63,
+    "reason": "Dropped from top 10. Replaced by: MRK, AAPL PnL: +4.9% (held since 2019-04-12)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26"
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 275.44,
+    "reason": "Dropped from top 10. Score: 2.65 Replaced by: MRK, AAPL PnL: -0.4% (held since 2019-04-23)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 2.65,
+      "event": 0,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 191.53,
+    "reason": "Dropped from top 10. Replaced by: MRK, AAPL PnL: -0.1% (held since 2019-04-25)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26"
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 60.43,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 50.21,
+    "reason": "Ranked in top 10. Score: 3.4 (event=0.0, vol_spike=8.0, momentum=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 3.4,
+      "event": 0,
+      "vol_spike": 8,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-05-09",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 47.87,
+    "reason": "STOP LOSS triggered (-4.66% loss) PnL: -4.7% (held since 2019-05-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2019-06-03",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (3.0). Best: DE=2.7. Holding cash.",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2019-06-03",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 61.61,
+    "reason": "Dropped from top 10. Score: 2.65 PnL: +2.0% (held since 2019-05-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.63",
+    "scores": {
+      "composite": 2.65,
+      "event": 0,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-06-19",
+    "action": "BUY",
+    "ticker": "ADBE",
+    "price": 291.21,
+    "reason": "VOLUME SPIKE: +5.2% on 3.4x vol \u2014 EventDriven catalyst play",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.76"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "ADBE",
+    "price": 300.97,
+    "reason": "Dropped from top 10. Score: 2.65 Replaced by: NKE, AMD PnL: +3.4% (held since 2019-06-19)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 2.65,
+      "event": 0,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 77.86,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 31.2,
+    "reason": "Ranked in top 10. Score: 3.1750000000000003 (event=1.5, vol_spike=5.0, momentum=7.0) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-07-11",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 233.0,
+    "reason": "VOLUME SPIKE: +5.5% on 2.7x vol \u2014 EventDriven catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2019-07-23",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 44.23,
+    "reason": "VOLUME SPIKE: +6.1% on 3.0x vol \u2014 EventDriven catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2019-07-24",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 87.39,
+    "reason": "VOLUME SPIKE: +8.7% on 4.0x vol \u2014 EventDriven catalyst play [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2019-07-25",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 221.88,
+    "reason": "STOP LOSS triggered (-4.77% loss) PnL: -4.8% (held since 2019-07-11)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-07-26",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 61.75,
+    "reason": "VOLUME SPIKE: +9.6% on 3.8x vol \u2014 EventDriven catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2019-07-31",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 42.85,
+    "reason": "STOP LOSS triggered (-3.13% loss) PnL: -3.1% (held since 2019-07-23)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2019-07-31",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 30.45,
+    "reason": "VOLUME CRASH: -10.1% \u2014 EventDriven cutting loss PnL: -2.4% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2019-08-01",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (3.0). Best: MRK=2.1. Holding cash.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2019-08-01",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 75.77,
+    "reason": "Dropped from top 10. Score: 3.48 PnL: -2.7% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 89.37,
+    "reason": "Dropped from top 10. Score: 3.48 PnL: +2.3% (held since 2019-07-24)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 60.09,
+    "reason": "Dropped from top 10. PnL: -2.7% (held since 2019-07-26)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2019-08-08",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 33.92,
+    "reason": "VOLUME SPIKE: +16.2% on 2.6x vol \u2014 EventDriven catalyst play [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2019-08-14",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 30.24,
+    "reason": "STOP LOSS triggered (-10.85% loss) PnL: -10.8% (held since 2019-08-08)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.33"
+  },
+  {
+    "date": "2019-08-15",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 34.29,
+    "reason": "VOLUME SPIKE: +6.1% on 3.2x vol \u2014 EventDriven catalyst play",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.32"
+  },
+  {
+    "date": "2019-08-16",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 3.96,
+    "reason": "VOLUME SPIKE: +7.2% on 2.5x vol \u2014 EventDriven catalyst play [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.31"
+  },
+  {
+    "date": "2019-09-02",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (3.0). Best: ABBV=2.1. Holding cash.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2019-09-02",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 34.77,
+    "reason": "Dropped from top 10. PnL: +1.4% (held since 2019-08-15)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2019-09-02",
+    "action": "SELL",
+    "ticker": "NVDA",
+    "price": 4.17,
+    "reason": "Dropped from top 10. PnL: +5.1% (held since 2019-08-16)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2019-10-01",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (3.0). Best: ABBV=2.1. Holding cash.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-10-15",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 213.87,
+    "reason": "VOLUME SPIKE: +8.2% on 2.6x vol \u2014 EventDriven catalyst play [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2019-10-24",
+    "action": "BUY",
+    "ticker": "TSLA",
+    "price": 19.98,
+    "reason": "VOLUME SPIKE: +17.7% on 3.5x vol \u2014 EventDriven catalyst play [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2019-10-25",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 49.53,
+    "reason": "VOLUME SPIKE: +8.1% on 3.3x vol \u2014 EventDriven catalyst play [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 226.07,
+    "reason": "Dropped from top 10. Replaced by: MRK, ABBV, AMD PnL: +5.7% (held since 2019-10-15)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43"
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "TSLA",
+    "price": 20.89,
+    "reason": "Dropped from top 10. Score: 1.1 Replaced by: MRK, ABBV, AMD PnL: +4.5% (held since 2019-10-24)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 1.1,
+      "event": 0,
+      "vol_spike": 2,
+      "momentum": 3
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 49.57,
+    "reason": "Dropped from top 10. Score: 3.48 Replaced by: MRK, ABBV, AMD PnL: +0.1% (held since 2019-10-25)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 66.08,
+    "reason": "Ranked in top 10. Score: 3.775 (event=1.5, vol_spike=5.0, momentum=7.0) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 63.23,
+    "reason": "Ranked in top 10. Score: 3.475 (event=1.5, vol_spike=5.0, momentum=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 34.89,
+    "reason": "Ranked in top 10. Score: 3.1750000000000003 (event=1.5, vol_spike=5.0, momentum=7.0) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-11-13",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 144.43,
+    "reason": "VOLUME SPIKE: +7.3% on 3.9x vol \u2014 EventDriven catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2019-11-15",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 241.48,
+    "reason": "VOLUME SPIKE: +5.3% on 2.8x vol \u2014 EventDriven catalyst play [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2019-12-02",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (3.0). Best: AMD=2.6. Holding cash.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 67.71,
+    "reason": "Dropped from top 10. Score: 3.48 PnL: +2.5% (held since 2019-11-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 67.32,
+    "reason": "Dropped from top 10. Score: 3.48 PnL: +6.5% (held since 2019-11-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 38.73,
+    "reason": "Dropped from top 10. Score: 2.65 PnL: +11.0% (held since 2019-11-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 2.65,
+      "event": 0,
+      "vol_spike": 5,
+      "momentum": 7
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 146.28,
+    "reason": "Dropped from top 10. PnL: +1.3% (held since 2019-11-13)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 250.68,
+    "reason": "Dropped from top 10. PnL: +3.8% (held since 2019-11-15)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64"
+  }
+]

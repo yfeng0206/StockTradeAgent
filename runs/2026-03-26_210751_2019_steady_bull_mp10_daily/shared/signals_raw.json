@@ -1,0 +1,3280 @@
+[
+  {
+    "ticker": "LMT",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.374
+  },
+  {
+    "ticker": "WFC",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.317
+  },
+  {
+    "ticker": "UPS",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.444
+  },
+  {
+    "ticker": "XOM",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.326
+  },
+  {
+    "ticker": "HON",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.294
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.223
+  },
+  {
+    "ticker": "JNJ",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.428
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.202
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.375
+  },
+  {
+    "ticker": "T",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.3
+  },
+  {
+    "ticker": "LLY",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.286
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.264
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.852
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.364
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.256
+  },
+  {
+    "ticker": "CRM",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.478
+  },
+  {
+    "ticker": "AMZN",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.603
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.433
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.399
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.433
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.211
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.185
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.283
+  },
+  {
+    "ticker": "ABBV",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.344
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.233
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.257
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.292
+  },
+  {
+    "ticker": "DE",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed",
+      "high_volatility"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.451
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend",
+      "market_stressed"
+    ],
+    "regime": "high_volatility",
+    "vol_20d": 0.314
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.231
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "sideways",
+    "vol_20d": 1.002
+  },
+  {
+    "ticker": "LLY",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.242
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.278
+  },
+  {
+    "ticker": "CRM",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.323
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.233
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.227
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.268
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.253
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_moderate_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.155
+  },
+  {
+    "ticker": "CVX",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.209
+  },
+  {
+    "ticker": "BLK",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.21
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.476
+  },
+  {
+    "ticker": "DE",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.335
+  },
+  {
+    "ticker": "CAT",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.469
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "market_moderate_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.17
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "market_moderate_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.158
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.238
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "market_moderate_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.142
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_moderate_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.185
+  },
+  {
+    "ticker": "AAPL",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.34
+  },
+  {
+    "ticker": "INTC",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.377
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.238
+  },
+  {
+    "ticker": "UPS",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.255
+  },
+  {
+    "ticker": "ABBV",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.39
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.327
+  },
+  {
+    "ticker": "WFC",
+    "bull_signals": [
+      "market_moderate_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.182
+  },
+  {
+    "ticker": "T",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.248
+  },
+  {
+    "ticker": "GS",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.385
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "market_moderate_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.158
+  },
+  {
+    "ticker": "NVDA",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.739
+  },
+  {
+    "ticker": "USO",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.314
+  },
+  {
+    "ticker": "TMO",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.256
+  },
+  {
+    "ticker": "CMCSA",
+    "bull_signals": [
+      "market_moderate_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.325
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.149
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.146
+  },
+  {
+    "ticker": "LLY",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.157
+  },
+  {
+    "ticker": "CRM",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.188
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.26
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.113
+  },
+  {
+    "ticker": "NKE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.135
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.141
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.134
+  },
+  {
+    "ticker": "CVX",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.164
+  },
+  {
+    "ticker": "BLK",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.149
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.173
+  },
+  {
+    "ticker": "GS",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.175
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.087
+  },
+  {
+    "ticker": "HD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.175
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.219
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.113
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.141
+  },
+  {
+    "ticker": "TMO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.165
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.126
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.121
+  },
+  {
+    "ticker": "BA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.186
+  },
+  {
+    "ticker": "NFLX",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.265
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.113
+  },
+  {
+    "ticker": "INTC",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.188
+  },
+  {
+    "ticker": "USO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.257
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.186
+  },
+  {
+    "ticker": "BAC",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.158
+  },
+  {
+    "ticker": "JNJ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.116
+  },
+  {
+    "ticker": "WFC",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.197
+  },
+  {
+    "ticker": "ABBV",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.154
+  },
+  {
+    "ticker": "GS",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.22
+  },
+  {
+    "ticker": "BLK",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.211
+  },
+  {
+    "ticker": "UNH",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.237
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.234
+  },
+  {
+    "ticker": "JPM",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.219
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.247
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.102
+  },
+  {
+    "ticker": "LMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.145
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.168
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "bullish",
+    "vol_20d": 0.652
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.161
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.145
+  },
+  {
+    "ticker": "BA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.359
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.1
+  },
+  {
+    "ticker": "TMO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.202
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.179
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.18
+  },
+  {
+    "ticker": "NKE",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.275
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.115
+  },
+  {
+    "ticker": "AAPL",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.227
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.12
+  },
+  {
+    "ticker": "JNJ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.1
+  },
+  {
+    "ticker": "NVDA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "bullish",
+    "vol_20d": 0.437
+  },
+  {
+    "ticker": "INTC",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.196
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.109
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.105
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.104
+  },
+  {
+    "ticker": "LLY",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.166
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.167
+  },
+  {
+    "ticker": "AMZN",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.241
+  },
+  {
+    "ticker": "NFLX",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.321
+  },
+  {
+    "ticker": "ADBE",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.231
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.209
+  },
+  {
+    "ticker": "XOM",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.143
+  },
+  {
+    "ticker": "CVX",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.148
+  },
+  {
+    "ticker": "CMCSA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.175
+  },
+  {
+    "ticker": "T",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.159
+  },
+  {
+    "ticker": "GOOGL",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.197
+  },
+  {
+    "ticker": "CRM",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.225
+  },
+  {
+    "ticker": "TMO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.258
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.234
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.152
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.239
+  },
+  {
+    "ticker": "MSFT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.163
+  },
+  {
+    "ticker": "CRM",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.223
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.157
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.089
+  },
+  {
+    "ticker": "HON",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.181
+  },
+  {
+    "ticker": "ADBE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.164
+  },
+  {
+    "ticker": "CMCSA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.122
+  },
+  {
+    "ticker": "BLK",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.186
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.122
+  },
+  {
+    "ticker": "AAPL",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.219
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.095
+  },
+  {
+    "ticker": "HD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.172
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.24
+  },
+  {
+    "ticker": "JNJ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.104
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.172
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.115
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.148
+  },
+  {
+    "ticker": "USO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.206
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.142
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.097
+  },
+  {
+    "ticker": "CMCSA",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.176
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.235
+  },
+  {
+    "ticker": "HD",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.157
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.144
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.165
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.123
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.163
+  },
+  {
+    "ticker": "MSFT",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.229
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.168
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.162
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.155
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.117
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.162
+  },
+  {
+    "ticker": "HON",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.158
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_broken_trend"
+    ],
+    "regime": "bearish",
+    "vol_20d": 0.138
+  },
+  {
+    "ticker": "ABBV",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "bullish",
+    "vol_20d": 0.64
+  },
+  {
+    "ticker": "UPS",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.255
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.125
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.145
+  },
+  {
+    "ticker": "XOM",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.167
+  },
+  {
+    "ticker": "LLY",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.264
+  },
+  {
+    "ticker": "WFC",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.217
+  },
+  {
+    "ticker": "BA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.289
+  },
+  {
+    "ticker": "GOOGL",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.174
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.11
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.139
+  },
+  {
+    "ticker": "HON",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.114
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.162
+  },
+  {
+    "ticker": "CRM",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.361
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.145
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.142
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.13
+  },
+  {
+    "ticker": "CMCSA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.148
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "bullish",
+    "vol_20d": 0.534
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.119
+  },
+  {
+    "ticker": "LMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.157
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.227
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.091
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.122
+  },
+  {
+    "ticker": "NKE",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.261
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.213
+  },
+  {
+    "ticker": "MSFT",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.208
+  },
+  {
+    "ticker": "BLK",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.191
+  },
+  {
+    "ticker": "ADBE",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.317
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.238
+  },
+  {
+    "ticker": "USO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.358
+  },
+  {
+    "ticker": "JNJ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.15
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.132
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.2
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.143
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.23
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.098
+  },
+  {
+    "ticker": "MSFT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.155
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.183
+  },
+  {
+    "ticker": "T",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.185
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.109
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.134
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.161
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.099
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.264
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.145
+  },
+  {
+    "ticker": "WFC",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.246
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.146
+  },
+  {
+    "ticker": "DE",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.226
+  },
+  {
+    "ticker": "JPM",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "sideways",
+    "vol_20d": 0.163
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.273
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.202
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend",
+      "high_volatility"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.791
+  },
+  {
+    "ticker": "MSFT",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.29
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.121
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.33
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.32
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.291
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.207
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.298
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.187
+  },
+  {
+    "ticker": "LMT",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.184
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.192
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.192
+  },
+  {
+    "ticker": "T",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.181
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.308
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.159
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.141
+  },
+  {
+    "ticker": "UPS",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.254
+  },
+  {
+    "ticker": "HD",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.3
+  },
+  {
+    "ticker": "AAPL",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.371
+  },
+  {
+    "ticker": "NVDA",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend",
+      "high_volatility"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.568
+  },
+  {
+    "ticker": "GOOGL",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "normal",
+    "vol_20d": 0.276
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.138
+  },
+  {
+    "ticker": "UNH",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.205
+  },
+  {
+    "ticker": "CAT",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.278
+  },
+  {
+    "ticker": "XOM",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.161
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.168
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.228
+  },
+  {
+    "ticker": "AMZN",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.182
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.229
+  },
+  {
+    "ticker": "CVX",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.188
+  },
+  {
+    "ticker": "NFLX",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.35
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.15
+  },
+  {
+    "ticker": "MCD",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.192
+  },
+  {
+    "ticker": "CMCSA",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.197
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.206
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.119
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.252
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.109
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.176
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.104
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.139
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.094
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.105
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "low_volatility"
+    ],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.192
+  },
+  {
+    "ticker": "T",
+    "bull_signals": [],
+    "bear_signals": [
+      "market_weakening_trend"
+    ],
+    "regime": "sideways",
+    "vol_20d": 0.206
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.206
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.268
+  },
+  {
+    "ticker": "MRK",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.24
+  },
+  {
+    "ticker": "T",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.213
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.137
+  },
+  {
+    "ticker": "MSFT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.19
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.185
+  },
+  {
+    "ticker": "LMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.133
+  },
+  {
+    "ticker": "TMO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.338
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.202
+  },
+  {
+    "ticker": "ABBV",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.17
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.132
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.148
+  },
+  {
+    "ticker": "BA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.327
+  },
+  {
+    "ticker": "HD",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.121
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.106
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.118
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.086
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.143
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.153
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.312
+  },
+  {
+    "ticker": "AAPL",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.202
+  },
+  {
+    "ticker": "NVDA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.33
+  },
+  {
+    "ticker": "INTC",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.33
+  },
+  {
+    "ticker": "TSLA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [
+      "high_volatility"
+    ],
+    "regime": "bullish",
+    "vol_20d": 0.726
+  },
+  {
+    "ticker": "CAT",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.318
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.191
+  },
+  {
+    "ticker": "JPM",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.192
+  },
+  {
+    "ticker": "DE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.157
+  },
+  {
+    "ticker": "USO",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.242
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.107
+  },
+  {
+    "ticker": "ADBE",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.229
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "bullish",
+    "vol_20d": 0.26
+  },
+  {
+    "ticker": "PG",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.183
+  },
+  {
+    "ticker": "NEE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.171
+  },
+  {
+    "ticker": "V",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.134
+  },
+  {
+    "ticker": "AMD",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.306
+  },
+  {
+    "ticker": "META",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.154
+  },
+  {
+    "ticker": "SO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.146
+  },
+  {
+    "ticker": "DIS",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.322
+  },
+  {
+    "ticker": "MA",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.17
+  },
+  {
+    "ticker": "HD",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.238
+  },
+  {
+    "ticker": "TMO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.184
+  },
+  {
+    "ticker": "PFE",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.172
+  },
+  {
+    "ticker": "ABBV",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.206
+  },
+  {
+    "ticker": "INTC",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.132
+  },
+  {
+    "ticker": "JPM",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.074
+  },
+  {
+    "ticker": "MSFT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.094
+  },
+  {
+    "ticker": "JNJ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.134
+  },
+  {
+    "ticker": "WMT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.114
+  },
+  {
+    "ticker": "VZ",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.107
+  },
+  {
+    "ticker": "PEP",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.098
+  },
+  {
+    "ticker": "KO",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.121
+  },
+  {
+    "ticker": "COST",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.098
+  },
+  {
+    "ticker": "ABT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.125
+  },
+  {
+    "ticker": "AAPL",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.134
+  },
+  {
+    "ticker": "TSLA",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.336
+  },
+  {
+    "ticker": "BAC",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.117
+  },
+  {
+    "ticker": "UNH",
+    "bull_signals": [
+      "market_strong_trend"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.225
+  },
+  {
+    "ticker": "CAT",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.162
+  },
+  {
+    "ticker": "MS",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.161
+  },
+  {
+    "ticker": "BLK",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.129
+  },
+  {
+    "ticker": "GOOGL",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.135
+  },
+  {
+    "ticker": "WFC",
+    "bull_signals": [
+      "market_strong_trend",
+      "low_volatility"
+    ],
+    "bear_signals": [],
+    "regime": "normal",
+    "vol_20d": 0.139
+  }
+]

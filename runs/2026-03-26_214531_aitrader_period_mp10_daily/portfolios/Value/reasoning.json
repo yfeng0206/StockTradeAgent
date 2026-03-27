@@ -1,0 +1,244 @@
+[
+  {
+    "date": "2025-10-01",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.00 -> 0.49. Themes: war/conflict, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "CMCSA",
+    "price": 28.66,
+    "reason": "Ranked in top 10. Score: 7.438 (volatility=6.0, value_dist=10.0, rsi=7.8, stability=5.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.44,
+      "volatility": 6.02,
+      "value_dist": 10,
+      "rsi": 7.81,
+      "stability": 5.36,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 914.79,
+    "reason": "Ranked in top 10. Score: 6.626 (volatility=6.5, value_dist=5.8, rsi=5.6, stability=6.5, event_adj=0.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.63,
+      "volatility": 6.49,
+      "value_dist": 5.83,
+      "rsi": 5.6,
+      "stability": 6.54,
+      "event_adj": 0.5
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 235.31,
+    "reason": "Ranked in top 10. Score: 6.233 (volatility=4.6, value_dist=10.0, rsi=3.6, stability=3.1, event_adj=0.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.23,
+      "volatility": 4.61,
+      "value_dist": 10,
+      "rsi": 3.65,
+      "stability": 3.1,
+      "event_adj": 0.5
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 151.04,
+    "reason": "Ranked in top 10. Score: 6.107 (volatility=7.1, value_dist=5.2, rsi=4.6, stability=7.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.11,
+      "volatility": 7.09,
+      "value_dist": 5.25,
+      "rsi": 4.61,
+      "stability": 7.43,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 26.94,
+    "reason": "Ranked in top 10. Score: 5.936 (volatility=6.6, value_dist=2.8, rsi=7.1, stability=8.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 5.94,
+      "volatility": 6.63,
+      "value_dist": 2.8,
+      "rsi": 7.09,
+      "stability": 8.45,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "ADBE",
+    "price": 343.72,
+    "reason": "Ranked in top 10. Score: 5.914 (volatility=4.8, value_dist=10.0, rsi=2.6, stability=2.3, event_adj=0.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 5.91,
+      "volatility": 4.79,
+      "value_dist": 10,
+      "rsi": 2.59,
+      "stability": 2.3,
+      "event_adj": 0.5
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 450.17,
+    "reason": "Ranked in top 10. Score: 5.79 (volatility=5.5, value_dist=5.8, rsi=5.8, stability=6.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 5.79,
+      "volatility": 5.45,
+      "value_dist": 5.78,
+      "rsi": 5.84,
+      "stability": 6.28,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "HON",
+    "price": 195.94,
+    "reason": "Ranked in top 10. Score: 5.49 (volatility=6.5, value_dist=4.8, rsi=4.9, stability=5.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 5.49,
+      "volatility": 6.49,
+      "value_dist": 4.85,
+      "rsi": 4.86,
+      "stability": 5.58,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 81.8,
+    "reason": "Ranked in top 10. Score: 5.463 (volatility=4.5, value_dist=10.0, rsi=1.9, stability=3.7, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 5.46,
+      "volatility": 4.5,
+      "value_dist": 10,
+      "rsi": 1.88,
+      "stability": 3.68,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 140.5,
+    "reason": "Ranked in top 10. Score: 5.253 (volatility=5.5, value_dist=6.2, rsi=2.3, stability=6.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 5.25,
+      "volatility": 5.48,
+      "value_dist": 6.23,
+      "rsi": 2.28,
+      "stability": 6.42,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 25.3,
+    "reason": "STOP LOSS triggered (-6.1% loss) PnL: -6.1% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-10",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-24",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. In 'bullish' regime (past: 1 trades, 0.0% win rate, avg -6.1%). \u2014 history says be cautious here. Elevated geo risk (0.55): war/conflict, sanctions/trade",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-10-29",
+    "action": "SELL",
+    "ticker": "CMCSA",
+    "price": 26.43,
+    "reason": "STOP LOSS triggered (-7.79% loss) PnL: -7.8% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-10-30",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. Elevated geo risk (0.55): war/conflict, sanctions/trade",
+    "regime": "normal",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-10-31",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. In 'bullish' regime (past: 2 trades, 0.0% win rate, avg -6.9%). \u2014 history says be cautious here. Elevated geo risk (0.55): war/conflict, sanctions/trade",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-11-04",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. Elevated geo risk (0.53): war/conflict, rates/inflation, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53"
+  }
+]

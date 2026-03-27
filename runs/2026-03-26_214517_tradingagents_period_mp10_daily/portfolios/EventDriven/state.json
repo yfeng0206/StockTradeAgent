@@ -1,0 +1,47 @@
+{
+  "final_value": 111653.57,
+  "cash": 21251.92,
+  "positions": {
+    "LLY": {
+      "shares": 17,
+      "entry_price": 714.1488647460938,
+      "entry_date": "2024-02-07"
+    },
+    "DE": {
+      "shares": 25,
+      "entry_price": 354.4005432128906,
+      "entry_date": "2024-02-15"
+    },
+    "NVDA": {
+      "shares": 129,
+      "entry_price": 82.2287368774414,
+      "entry_date": "2024-03-01"
+    },
+    "DIS": {
+      "shares": 96,
+      "entry_price": 109.73076629638672,
+      "entry_date": "2024-03-01"
+    },
+    "WMT": {
+      "shares": 184,
+      "entry_price": 57.39571762084961,
+      "entry_date": "2024-03-01"
+    },
+    "CAT": {
+      "shares": 32,
+      "entry_price": 327.2020568847656,
+      "entry_date": "2024-03-01"
+    },
+    "SO": {
+      "shares": 169,
+      "entry_price": 62.567806243896484,
+      "entry_date": "2024-03-01"
+    },
+    "HD": {
+      "shares": 29,
+      "entry_price": 363.6989440917969,
+      "entry_date": "2024-03-01"
+    }
+  },
+  "return_pct": 11.65
+}

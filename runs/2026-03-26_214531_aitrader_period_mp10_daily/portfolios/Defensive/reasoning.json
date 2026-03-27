@@ -1,0 +1,370 @@
+[
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 93.29,
+    "reason": "Ranked in top 10. Score: 7.372 (low_vol=7.7, trend=7.0, drawdown=7.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.37,
+      "low_vol": 7.68,
+      "trend": 7,
+      "drawdown": 7.34,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 297.07,
+    "reason": "Ranked in top 10. Score: 7.28 (low_vol=7.1, trend=7.0, drawdown=7.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.28,
+      "low_vol": 7.11,
+      "trend": 7,
+      "drawdown": 7.78,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 26.94,
+    "reason": "Ranked in top 10. Score: 7.26 (low_vol=6.7, trend=7.0, drawdown=8.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.26,
+      "low_vol": 6.69,
+      "trend": 7,
+      "drawdown": 8.29,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 42.35,
+    "reason": "Ranked in top 10. Score: 7.046 (low_vol=6.9, trend=7.0, drawdown=7.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.05,
+      "low_vol": 6.9,
+      "trend": 7,
+      "drawdown": 7.29,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 572.15,
+    "reason": "Ranked in top 10. Score: 6.835 (low_vol=6.8, trend=7.0, drawdown=6.7, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.83,
+      "low_vol": 6.85,
+      "trend": 7,
+      "drawdown": 6.65,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 346.43,
+    "reason": "Ranked in top 10. Score: 6.834 (low_vol=6.6, trend=7.0, drawdown=7.0, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.83,
+      "low_vol": 6.59,
+      "trend": 7,
+      "drawdown": 7.0,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 183.9,
+    "reason": "Ranked in top 10. Score: 6.793 (low_vol=6.3, trend=7.0, drawdown=7.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.79,
+      "low_vol": 6.28,
+      "trend": 7,
+      "drawdown": 7.27,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 110.28,
+    "reason": "Ranked in top 10. Score: 6.637 (low_vol=6.2, trend=7.0, drawdown=6.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.64,
+      "low_vol": 6.25,
+      "trend": 7,
+      "drawdown": 6.79,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 517.56,
+    "reason": "Ranked in top 10. Score: 6.473 (low_vol=6.7, trend=7.0, drawdown=5.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.47,
+      "low_vol": 6.71,
+      "trend": 7,
+      "drawdown": 5.63,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 151.39,
+    "reason": "Ranked in top 10. Score: 6.443 (low_vol=6.5, trend=7.0, drawdown=5.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.44,
+      "low_vol": 6.45,
+      "trend": 7,
+      "drawdown": 5.87,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 25.3,
+    "reason": "STOP LOSS triggered (-6.1% loss) PnL: -6.1% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-06",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 40.04,
+    "reason": "STOP LOSS triggered (-5.45% loss) PnL: -5.5% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-09",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 290.43,
+    "reason": "STOP LOSS triggered (-2.23% loss) PnL: -2.2% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-10",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 556.64,
+    "reason": "STOP LOSS triggered (-2.71% loss) PnL: -2.7% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-10",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 145.83,
+    "reason": "STOP LOSS triggered (-3.67% loss) PnL: -3.7% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-14",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 762.94,
+    "reason": "EARNINGS strong_beat: surprise 0.1049% [Defensive] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2025-10-15",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 51.72,
+    "reason": "EARNINGS strong_beat: surprise 0.1204% [Defensive] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2025-10-16",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 334.05,
+    "reason": "STOP LOSS triggered (-3.57% loss) PnL: -3.6% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2025-10-16",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 49.9,
+    "reason": "STOP LOSS triggered (-3.52% loss) PnL: -3.5% (held since 2025-10-15)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2025-10-21",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 70.24,
+    "reason": "EARNINGS strong_beat: surprise 0.0532% [Defensive] [Regime normal: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2025-10-21",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 483.26,
+    "reason": "EARNINGS strong_beat: surprise 0.0931% [Defensive] [Regime normal: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2025-10-24",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 68.75,
+    "reason": "STOP LOSS triggered (-2.12% loss) PnL: -2.1% (held since 2025-10-21)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-10-29",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 80.66,
+    "reason": "EARNINGS strong_beat: surprise 0.1062% [Defensive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-10-30",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 841.86,
+    "reason": "EARNINGS strong_beat: surprise 0.1915% [Defensive] [Regime normal: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-10-30",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 84.92,
+    "reason": "EARNINGS strong_beat: surprise 0.0985% [Defensive] [Regime normal: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-10-31",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 154.47,
+    "reason": "EARNINGS strong_beat: surprise 0.0839% [Defensive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 81.19,
+    "reason": "STOP LOSS triggered (-4.39% loss) PnL: -4.4% (held since 2025-10-30)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-11-04",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 150.23,
+    "reason": "STOP LOSS triggered (-2.75% loss) PnL: -2.7% (held since 2025-10-31)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53"
+  },
+  {
+    "date": "2025-11-04",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 23.49,
+    "reason": "EARNINGS strong_beat: surprise 0.3743% [Defensive] [Regime normal: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53"
+  },
+  {
+    "date": "2025-11-05",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 89.96,
+    "reason": "STOP LOSS triggered (-3.58% loss) PnL: -3.6% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2025-11-05",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 467.11,
+    "reason": "STOP LOSS triggered (-3.34% loss) PnL: -3.3% (held since 2025-10-21)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2025-11-06",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 495.04,
+    "reason": "STOP LOSS triggered (-4.35% loss) PnL: -4.4% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.50"
+  }
+]

@@ -1,0 +1,640 @@
+[
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 254.57,
+    "reason": "Ranked in top 10. Score: 7.566 (low_vol=7.3, trend=7.0, drawdown=8.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 7.57,
+      "low_vol": 7.33,
+      "trend": 7,
+      "drawdown": 8.44,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 163.84,
+    "reason": "Ranked in top 10. Score: 7.103 (low_vol=7.0, trend=7.0, drawdown=7.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 7.1,
+      "low_vol": 7.03,
+      "trend": 7,
+      "drawdown": 7.3,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 56.0,
+    "reason": "Ranked in top 10. Score: 7.033 (low_vol=7.3, trend=7.0, drawdown=6.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 7.03,
+      "low_vol": 7.27,
+      "trend": 7,
+      "drawdown": 6.75,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 281.83,
+    "reason": "Ranked in top 10. Score: 6.987 (low_vol=7.3, trend=7.0, drawdown=6.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 6.99,
+      "low_vol": 7.27,
+      "trend": 7,
+      "drawdown": 6.59,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 514.26,
+    "reason": "Ranked in top 10. Score: 6.986 (low_vol=6.9, trend=7.0, drawdown=7.1, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 6.99,
+      "low_vol": 6.9,
+      "trend": 7,
+      "drawdown": 7.09,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 389.63,
+    "reason": "Ranked in top 10. Score: 6.982 (low_vol=5.2, trend=7.0, drawdown=6.0, event_adj=1.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 6.98,
+      "low_vol": 5.19,
+      "trend": 7,
+      "drawdown": 6.02,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 105.46,
+    "reason": "Ranked in top 10. Score: 6.951 (low_vol=6.5, trend=7.0, drawdown=7.5, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 6.95,
+      "low_vol": 6.48,
+      "trend": 7,
+      "drawdown": 7.53,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 149.66,
+    "reason": "Ranked in top 10. Score: 6.931 (low_vol=7.0, trend=7.0, drawdown=6.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 6.93,
+      "low_vol": 6.97,
+      "trend": 7,
+      "drawdown": 6.81,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "HON",
+    "price": 187.81,
+    "reason": "Ranked in top 10. Score: 6.909 (low_vol=6.9, trend=7.0, drawdown=6.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 6.91,
+      "low_vol": 6.86,
+      "trend": 7,
+      "drawdown": 6.89,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-02",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 416.44,
+    "reason": "Ranked in top 10. Score: 6.904 (low_vol=6.4, trend=7.0, drawdown=7.5, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45",
+    "scores": {
+      "composite": 6.9,
+      "low_vol": 6.4,
+      "trend": 7,
+      "drawdown": 7.48,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-01-03",
+    "action": "SELL",
+    "ticker": "HON",
+    "price": 183.8,
+    "reason": "STOP LOSS triggered (-2.14% loss) PnL: -2.1% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2024-01-04",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 276.8,
+    "reason": "STOP LOSS triggered (-1.78% loss) PnL: -1.8% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2024-01-12",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 497.26,
+    "reason": "STOP LOSS triggered (-3.31% loss) PnL: -3.3% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-12",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 375.64,
+    "reason": "STOP LOSS triggered (-3.59% loss) PnL: -3.6% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-12",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 161.95,
+    "reason": "EARNINGS strong_miss: surprise -0.1565% [Defensive] PnL: -1.2% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-12",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 761.03,
+    "reason": "EARNINGS strong_beat: surprise 0.0879% [Defensive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2024-01-16",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 362.12,
+    "reason": "EARNINGS strong_beat: surprise 0.3902% [Defensive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.02"
+  },
+  {
+    "date": "2024-01-23",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 146.26,
+    "reason": "EARNINGS strong_beat: surprise 0.0828% [Defensive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-25",
+    "action": "BUY",
+    "ticker": "CMCSA",
+    "price": 39.49,
+    "reason": "EARNINGS strong_beat: surprise 0.0635% [Defensive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-25",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 54.27,
+    "reason": "EARNINGS strong_beat: surprise 0.066% [Defensive] [Regime bullish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-31",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 736.96,
+    "reason": "STOP LOSS triggered (-3.16% loss) PnL: -3.2% (held since 2024-01-12)",
+    "regime": "normal",
+    "news_context": null
+  },
+  {
+    "date": "2024-01-31",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 390.85,
+    "reason": "EARNINGS strong_beat: surprise 0.0595% [Defensive] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": null
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 57.08,
+    "reason": "Dropped from top 10. Score: 7.22 Replaced by: PG, MSFT, MRK PnL: +1.9% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.22,
+      "low_vol": 7.73,
+      "trend": 7,
+      "drawdown": 6.75,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 148.15,
+    "reason": "Dropped from top 10. Score: 7.11 Replaced by: PG, MSFT, MRK PnL: -1.0% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.11,
+      "low_vol": 7.42,
+      "trend": 7,
+      "drawdown": 6.81,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 55.92,
+    "reason": "Dropped from top 10. Score: 4.71 Replaced by: PG, MSFT, MRK PnL: +3.1% (held since 2024-01-25)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 4.71,
+      "low_vol": 4.71,
+      "trend": 3,
+      "drawdown": 3.09,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 391.71,
+    "reason": "Ranked in top 10. Score: 7.046 (low_vol=5.6, trend=7.0, drawdown=7.4, event_adj=1.0) [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.55,
+      "low_vol": 5.56,
+      "trend": 7,
+      "drawdown": 7.41,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 159.28,
+    "reason": "Ranked in top 10. Score: 6.767 (low_vol=5.9, trend=7.0, drawdown=6.1, event_adj=1.0) [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.27,
+      "low_vol": 5.86,
+      "trend": 7,
+      "drawdown": 6.07,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-02-01",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 747.07,
+    "reason": "Ranked in top 10. Score: 6.725 (low_vol=5.9, trend=7.0, drawdown=5.9, event_adj=1.0) [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.22,
+      "low_vol": 5.87,
+      "trend": 7,
+      "drawdown": 5.92,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-02-07",
+    "action": "SELL",
+    "ticker": "CMCSA",
+    "price": 37.39,
+    "reason": "STOP LOSS triggered (-5.32% loss) PnL: -5.3% (held since 2024-01-25)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-02-07",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 314.46,
+    "reason": "EARNINGS strong_beat: surprise 0.1006% [Defensive] [Regime bullish: 22.0% win rate] [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 471.22,
+    "reason": "Dropped from top 10. Score: 7.14 Replaced by: WMT, PG, MRK PnL: +13.2% (held since 2024-01-02)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.14,
+      "low_vol": 6.98,
+      "trend": 7,
+      "drawdown": 7.48,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 372.02,
+    "reason": "Dropped from top 10. Score: 7.31 Replaced by: WMT, PG, MRK PnL: +2.7% (held since 2024-01-16)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.31,
+      "low_vol": 5.8,
+      "trend": 7,
+      "drawdown": 6.29,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 498.92,
+    "reason": "Dropped from top 10. Score: 5.49 Replaced by: WMT, PG, MRK PnL: +27.4% (held since 2024-02-01)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 5.49,
+      "low_vol": 0.42,
+      "trend": 7,
+      "drawdown": 7.41,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 178.22,
+    "reason": "Dropped from top 10. Score: 6.93 Replaced by: WMT, PG, MRK PnL: +11.9% (held since 2024-02-01)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 6.93,
+      "low_vol": 4.7,
+      "trend": 7,
+      "drawdown": 6.51,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 775.52,
+    "reason": "Dropped from top 10. Score: 6.4 Replaced by: WMT, PG, MRK PnL: +3.8% (held since 2024-02-01)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 6.4,
+      "low_vol": 6.29,
+      "trend": 7,
+      "drawdown": 5.92,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "SELL",
+    "ticker": "CAT",
+    "price": 327.2,
+    "reason": "Dropped from top 10. Score: 6.87 Replaced by: WMT, PG, MRK PnL: +4.1% (held since 2024-02-07)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 6.87,
+      "low_vol": 5.12,
+      "trend": 7,
+      "drawdown": 5.74,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 57.4,
+    "reason": "Ranked in top 10. Score: 7.776999999999999 (low_vol=7.1, trend=7.0, drawdown=7.8, event_adj=1.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 8.28,
+      "low_vol": 7.06,
+      "trend": 7,
+      "drawdown": 7.84,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 140.16,
+    "reason": "Ranked in top 10. Score: 6.983 (low_vol=6.0, trend=7.0, drawdown=6.6, event_adj=1.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.48,
+      "low_vol": 6.01,
+      "trend": 7,
+      "drawdown": 6.6,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 98.98,
+    "reason": "Ranked in top 10. Score: 6.901 (low_vol=6.1, trend=7.0, drawdown=6.2, event_adj=1.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.4,
+      "low_vol": 6.06,
+      "trend": 7,
+      "drawdown": 6.25,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 741.3,
+    "reason": "Ranked in top 10. Score: 6.836 (low_vol=6.5, trend=7.0, drawdown=8.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.34,
+      "low_vol": 6.48,
+      "trend": 7,
+      "drawdown": 8.82,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "CMCSA",
+    "price": 37.34,
+    "reason": "Ranked in top 10. Score: 6.526 (low_vol=5.5, trend=7.0, drawdown=6.7, event_adj=1.0) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.33,
+      "low_vol": 5.52,
+      "trend": 7,
+      "drawdown": 6.73,
+      "event_adj": 1,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-01",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 177.51,
+    "reason": "Ranked in top 10. Score: 6.5120000000000005 (low_vol=7.5, trend=7.0, drawdown=7.3, event_adj=0.0) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 7.31,
+      "low_vol": 7.55,
+      "trend": 7,
+      "drawdown": 7.3,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2024-03-06",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 136.06,
+    "reason": "STOP LOSS triggered (-2.93% loss) PnL: -2.9% (held since 2024-03-01)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-08",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 717.68,
+    "reason": "STOP LOSS triggered (-3.19% loss) PnL: -3.2% (held since 2024-03-01)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-21",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 96.55,
+    "reason": "EARNINGS strong_beat: surprise 0.0798% [Defensive] [Regime bullish: 47.0% win rate]",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2024-03-22",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 89.88,
+    "reason": "STOP LOSS triggered (-6.9% loss) PnL: -6.9% (held since 2024-03-21)",
+    "regime": "bullish",
+    "news_context": null
+  }
+]

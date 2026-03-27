@@ -1,0 +1,27 @@
+{
+  "final_value": 108253.03,
+  "cash": 63395.45,
+  "positions": {
+    "CVX": {
+      "shares": 62,
+      "entry_price": 172.3440704345703,
+      "entry_date": "2026-02-02"
+    },
+    "GOOGL": {
+      "shares": 35,
+      "entry_price": 306.3043518066406,
+      "entry_date": "2026-03-02"
+    },
+    "PFE": {
+      "shares": 394,
+      "entry_price": 27.260000228881836,
+      "entry_date": "2026-03-02"
+    },
+    "T": {
+      "shares": 383,
+      "entry_price": 28.010000228881836,
+      "entry_date": "2026-03-02"
+    }
+  },
+  "return_pct": 8.25
+}

@@ -1,0 +1,47 @@
+{
+  "final_value": 111508.21,
+  "cash": 23661.67,
+  "positions": {
+    "PG": {
+      "shares": 69,
+      "entry_price": 146.25851440429688,
+      "entry_date": "2024-01-23"
+    },
+    "SO": {
+      "shares": 145,
+      "entry_price": 72.71640014648438,
+      "entry_date": "2024-07-01"
+    },
+    "V": {
+      "shares": 34,
+      "entry_price": 287.54876708984375,
+      "entry_date": "2024-11-01"
+    },
+    "T": {
+      "shares": 474,
+      "entry_price": 20.926252365112305,
+      "entry_date": "2024-11-01"
+    },
+    "WMT": {
+      "shares": 125,
+      "entry_price": 85.41399383544922,
+      "entry_date": "2024-11-19"
+    },
+    "MA": {
+      "shares": 21,
+      "entry_price": 527.5320434570312,
+      "entry_date": "2024-12-02"
+    },
+    "MSFT": {
+      "shares": 26,
+      "entry_price": 426.8497619628906,
+      "entry_date": "2024-12-02"
+    },
+    "NKE": {
+      "shares": 157,
+      "entry_price": 74.83367919921875,
+      "entry_date": "2024-12-19"
+    }
+  },
+  "return_pct": 11.51
+}

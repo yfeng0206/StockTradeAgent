@@ -1,0 +1,370 @@
+{
+  "MS": [
+    {
+      "note": "Entry: $46.46 on 2020-01-16. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-01-16"
+    }
+  ],
+  "NFLX": [
+    {
+      "note": "Entry: $34.96 on 2020-01-23. Regime: bullish. News: geo_risk=0.59.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-01-23"
+    },
+    {
+      "note": "Bought during geo risk 0.59. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-01-23"
+    }
+  ],
+  "INTC": [
+    {
+      "note": "Entry: $52.34 on 2020-04-23. Regime: high_volatility. News: geo_risk=0.39.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-23"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-23"
+    }
+  ],
+  "AMZN": [
+    {
+      "note": "Entry: $100.44 on 2020-01-31. Regime: normal. News: geo_risk=0.75.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-01-31"
+    },
+    {
+      "note": "Bought during geo risk 0.75. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-01-31"
+    }
+  ],
+  "TSLA": [
+    {
+      "note": "Entry: $52.00 on 2020-02-03. Regime: normal. News: geo_risk=0.73.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-02-03"
+    },
+    {
+      "note": "Bought during geo risk 0.73. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-02-03"
+    }
+  ],
+  "MSFT": [
+    {
+      "note": "Entry: $168.54 on 2020-04-29. Regime: high_volatility. News: geo_risk=0.53.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-29"
+    },
+    {
+      "note": "Bought during geo risk 0.53. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-04-29"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-29"
+    }
+  ],
+  "NVDA": [
+    {
+      "note": "Entry: $8.74 on 2020-05-21. Regime: normal. News: geo_risk=0.88.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-05-21"
+    },
+    {
+      "note": "Bought during geo risk 0.88. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-05-21"
+    }
+  ],
+  "DE": [
+    {
+      "note": "Entry: $163.41 on 2020-02-21. Regime: normal. News: geo_risk=0.77.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-02-21"
+    },
+    {
+      "note": "Bought during geo risk 0.77. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-02-21"
+    }
+  ],
+  "COST": [
+    {
+      "note": "Entry: $282.84 on 2020-03-02. Regime: high_volatility. News: geo_risk=0.77.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-03-02"
+    },
+    {
+      "note": "Bought during geo risk 0.77. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-03-02"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-03-02"
+    }
+  ],
+  "AAPL": [
+    {
+      "note": "Entry: $69.85 on 2020-05-01. Regime: high_volatility. News: geo_risk=0.62.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-05-01"
+    },
+    {
+      "note": "Bought during geo risk 0.62. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-05-01"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-05-01"
+    }
+  ],
+  "BA": [
+    {
+      "note": "Entry: $205.43 on 2020-06-05. Regime: bullish. News: geo_risk=0.77.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-06-05"
+    },
+    {
+      "note": "Bought during geo risk 0.77. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-06-05"
+    }
+  ],
+  "ABT": [
+    {
+      "note": "Entry: $86.64 on 2020-04-16. Regime: high_volatility. News: geo_risk=0.70.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-16"
+    },
+    {
+      "note": "Bought during geo risk 0.70. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-04-16"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-16"
+    }
+  ],
+  "JPM": [
+    {
+      "note": "Entry: $81.93 on 2020-04-14. Regime: high_volatility. News: geo_risk=0.92.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-14"
+    },
+    {
+      "note": "Bought during geo risk 0.92. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-04-14"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-14"
+    }
+  ],
+  "JNJ": [
+    {
+      "note": "Entry: $123.47 on 2020-04-14. Regime: high_volatility. News: geo_risk=0.92.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-14"
+    },
+    {
+      "note": "Bought during geo risk 0.92. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-04-14"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-14"
+    }
+  ],
+  "KO": [
+    {
+      "note": "Entry: $37.82 on 2020-04-21. Regime: crisis. News: geo_risk=0.34.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-21"
+    },
+    {
+      "note": "Bought in crisis. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-21"
+    }
+  ],
+  "NEE": [
+    {
+      "note": "Entry: $53.19 on 2020-04-22. Regime: high_volatility. News: geo_risk=0.31.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-22"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-22"
+    }
+  ],
+  "LLY": [
+    {
+      "note": "Entry: $153.56 on 2020-06-16. Regime: high_volatility. News: geo_risk=0.88.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-06-16"
+    },
+    {
+      "note": "Bought during geo risk 0.88. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-06-16"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-06-16"
+    }
+  ],
+  "MRK": [
+    {
+      "note": "Entry: $64.11 on 2020-04-28. Regime: high_volatility. News: geo_risk=0.52.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-28"
+    },
+    {
+      "note": "Bought during geo risk 0.52. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-04-28"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-28"
+    }
+  ],
+  "PFE": [
+    {
+      "note": "Entry: $26.90 on 2020-04-28. Regime: high_volatility. News: geo_risk=0.52.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-04-28"
+    },
+    {
+      "note": "Bought during geo risk 0.52. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-04-28"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-04-28"
+    }
+  ],
+  "BLK": [
+    {
+      "note": "Entry: $420.99 on 2020-05-13. Regime: high_volatility. News: geo_risk=0.70.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-05-13"
+    },
+    {
+      "note": "Bought during geo risk 0.70. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-05-13"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-05-13"
+    }
+  ],
+  "WMT": [
+    {
+      "note": "Entry: $38.53 on 2020-05-19. Regime: normal. News: geo_risk=0.96.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-05-19"
+    },
+    {
+      "note": "Bought during geo risk 0.96. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-05-19"
+    }
+  ],
+  "ADBE": [
+    {
+      "note": "Entry: $387.67 on 2020-06-11. Regime: high_volatility. News: geo_risk=0.81.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2020-06-11"
+    },
+    {
+      "note": "Bought during geo risk 0.81. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2020-06-11"
+    },
+    {
+      "note": "Bought in high_volatility. When regime improves, consider rotating to growth.",
+      "condition": "regime_change:bullish",
+      "action": "review_thesis",
+      "created": "2020-06-11"
+    }
+  ]
+}

@@ -1,0 +1,1367 @@
+[
+  {
+    "date": "2022-10-03",
+    "total_value": 100000.0,
+    "cash": 55369.38,
+    "num_positions": 5,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2022-10-04",
+    "total_value": 100470.32,
+    "cash": 55369.38,
+    "num_positions": 5,
+    "return_pct": 0.47
+  },
+  {
+    "date": "2022-10-05",
+    "total_value": 100361.95,
+    "cash": 55369.38,
+    "num_positions": 5,
+    "return_pct": 0.36
+  },
+  {
+    "date": "2022-10-06",
+    "total_value": 99588.49,
+    "cash": 55369.38,
+    "num_positions": 5,
+    "return_pct": -0.41
+  },
+  {
+    "date": "2022-10-07",
+    "total_value": 99122.86,
+    "cash": 55369.38,
+    "num_positions": 5,
+    "return_pct": -0.88
+  },
+  {
+    "date": "2022-10-10",
+    "total_value": 99321.31,
+    "cash": 63995.26,
+    "num_positions": 4,
+    "return_pct": -0.68
+  },
+  {
+    "date": "2022-10-11",
+    "total_value": 99565.39,
+    "cash": 63995.26,
+    "num_positions": 4,
+    "return_pct": -0.43
+  },
+  {
+    "date": "2022-10-12",
+    "total_value": 99871.14,
+    "cash": 63995.26,
+    "num_positions": 4,
+    "return_pct": -0.13
+  },
+  {
+    "date": "2022-10-13",
+    "total_value": 100670.69,
+    "cash": 63995.26,
+    "num_positions": 4,
+    "return_pct": 0.67
+  },
+  {
+    "date": "2022-10-14",
+    "total_value": 100414.65,
+    "cash": 63995.26,
+    "num_positions": 4,
+    "return_pct": 0.41
+  },
+  {
+    "date": "2022-10-17",
+    "total_value": 101016.63,
+    "cash": 63995.26,
+    "num_positions": 4,
+    "return_pct": 1.02
+  },
+  {
+    "date": "2022-10-18",
+    "total_value": 101167.35,
+    "cash": 53372.31,
+    "num_positions": 5,
+    "return_pct": 1.17
+  },
+  {
+    "date": "2022-10-19",
+    "total_value": 101031.58,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 1.03
+  },
+  {
+    "date": "2022-10-20",
+    "total_value": 100870.64,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 0.87
+  },
+  {
+    "date": "2022-10-21",
+    "total_value": 102742.29,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 2.74
+  },
+  {
+    "date": "2022-10-24",
+    "total_value": 103217.42,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 3.22
+  },
+  {
+    "date": "2022-10-25",
+    "total_value": 103647.55,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 3.65
+  },
+  {
+    "date": "2022-10-26",
+    "total_value": 104251.63,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 4.25
+  },
+  {
+    "date": "2022-10-27",
+    "total_value": 104524.95,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 4.52
+  },
+  {
+    "date": "2022-10-28",
+    "total_value": 105383.56,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 5.38
+  },
+  {
+    "date": "2022-10-31",
+    "total_value": 105303.07,
+    "cash": 42722.25,
+    "num_positions": 6,
+    "return_pct": 5.3
+  },
+  {
+    "date": "2022-11-01",
+    "total_value": 104703.71,
+    "cash": 11488.57,
+    "num_positions": 10,
+    "return_pct": 4.7
+  },
+  {
+    "date": "2022-11-02",
+    "total_value": 102230.56,
+    "cash": 11488.57,
+    "num_positions": 10,
+    "return_pct": 2.23
+  },
+  {
+    "date": "2022-11-03",
+    "total_value": 102010.6,
+    "cash": 19981.72,
+    "num_positions": 9,
+    "return_pct": 2.01
+  },
+  {
+    "date": "2022-11-04",
+    "total_value": 103131.74,
+    "cash": 19981.72,
+    "num_positions": 9,
+    "return_pct": 3.13
+  },
+  {
+    "date": "2022-11-07",
+    "total_value": 103261.22,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 3.26
+  },
+  {
+    "date": "2022-11-08",
+    "total_value": 103785.52,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 3.79
+  },
+  {
+    "date": "2022-11-09",
+    "total_value": 102003.95,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 2.0
+  },
+  {
+    "date": "2022-11-10",
+    "total_value": 106125.19,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 6.13
+  },
+  {
+    "date": "2022-11-11",
+    "total_value": 107829.7,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 7.83
+  },
+  {
+    "date": "2022-11-14",
+    "total_value": 107871.49,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 7.87
+  },
+  {
+    "date": "2022-11-15",
+    "total_value": 108203.64,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 8.2
+  },
+  {
+    "date": "2022-11-16",
+    "total_value": 107175.06,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 7.18
+  },
+  {
+    "date": "2022-11-17",
+    "total_value": 106672.24,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 6.67
+  },
+  {
+    "date": "2022-11-18",
+    "total_value": 106389.39,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 6.39
+  },
+  {
+    "date": "2022-11-21",
+    "total_value": 105910.09,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 5.91
+  },
+  {
+    "date": "2022-11-22",
+    "total_value": 107285.42,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 7.29
+  },
+  {
+    "date": "2022-11-23",
+    "total_value": 107521.5,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 7.52
+  },
+  {
+    "date": "2022-11-24",
+    "total_value": 107521.5,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 7.52
+  },
+  {
+    "date": "2022-11-25",
+    "total_value": 107271.05,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 7.27
+  },
+  {
+    "date": "2022-11-28",
+    "total_value": 105980.71,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 5.98
+  },
+  {
+    "date": "2022-11-29",
+    "total_value": 106284.05,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 6.28
+  },
+  {
+    "date": "2022-11-30",
+    "total_value": 108144.66,
+    "cash": 27864.92,
+    "num_positions": 8,
+    "return_pct": 8.14
+  },
+  {
+    "date": "2022-12-01",
+    "total_value": 108507.9,
+    "cash": 11691.24,
+    "num_positions": 10,
+    "return_pct": 8.51
+  },
+  {
+    "date": "2022-12-02",
+    "total_value": 108854.54,
+    "cash": 11691.24,
+    "num_positions": 10,
+    "return_pct": 8.85
+  },
+  {
+    "date": "2022-12-05",
+    "total_value": 107366.27,
+    "cash": 11691.24,
+    "num_positions": 10,
+    "return_pct": 7.37
+  },
+  {
+    "date": "2022-12-06",
+    "total_value": 105878.89,
+    "cash": 11691.24,
+    "num_positions": 10,
+    "return_pct": 5.88
+  },
+  {
+    "date": "2022-12-07",
+    "total_value": 106040.69,
+    "cash": 11691.24,
+    "num_positions": 10,
+    "return_pct": 6.04
+  },
+  {
+    "date": "2022-12-08",
+    "total_value": 106841.3,
+    "cash": 11691.24,
+    "num_positions": 10,
+    "return_pct": 6.84
+  },
+  {
+    "date": "2022-12-09",
+    "total_value": 106216.48,
+    "cash": 29505.2,
+    "num_positions": 8,
+    "return_pct": 6.22
+  },
+  {
+    "date": "2022-12-12",
+    "total_value": 106877.63,
+    "cash": 29505.2,
+    "num_positions": 8,
+    "return_pct": 6.88
+  },
+  {
+    "date": "2022-12-13",
+    "total_value": 107568.03,
+    "cash": 29505.2,
+    "num_positions": 8,
+    "return_pct": 7.57
+  },
+  {
+    "date": "2022-12-14",
+    "total_value": 107622.9,
+    "cash": 29505.2,
+    "num_positions": 8,
+    "return_pct": 7.62
+  },
+  {
+    "date": "2022-12-15",
+    "total_value": 105067.79,
+    "cash": 38103.32,
+    "num_positions": 7,
+    "return_pct": 5.07
+  },
+  {
+    "date": "2022-12-16",
+    "total_value": 104750.26,
+    "cash": 38103.32,
+    "num_positions": 7,
+    "return_pct": 4.75
+  },
+  {
+    "date": "2022-12-19",
+    "total_value": 104371.44,
+    "cash": 47006.74,
+    "num_positions": 6,
+    "return_pct": 4.37
+  },
+  {
+    "date": "2022-12-20",
+    "total_value": 104469.86,
+    "cash": 47006.74,
+    "num_positions": 6,
+    "return_pct": 4.47
+  },
+  {
+    "date": "2022-12-21",
+    "total_value": 105368.17,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 5.37
+  },
+  {
+    "date": "2022-12-22",
+    "total_value": 105055.87,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 5.06
+  },
+  {
+    "date": "2022-12-23",
+    "total_value": 105151.26,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 5.15
+  },
+  {
+    "date": "2022-12-26",
+    "total_value": 105151.26,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 5.15
+  },
+  {
+    "date": "2022-12-27",
+    "total_value": 104930.7,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 4.93
+  },
+  {
+    "date": "2022-12-28",
+    "total_value": 103977.05,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 3.98
+  },
+  {
+    "date": "2022-12-29",
+    "total_value": 104997.85,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 5.0
+  },
+  {
+    "date": "2022-12-30",
+    "total_value": 104935.79,
+    "cash": 35336.07,
+    "num_positions": 7,
+    "return_pct": 4.94
+  },
+  {
+    "date": "2023-01-02",
+    "total_value": 104935.79,
+    "cash": 2873.61,
+    "num_positions": 10,
+    "return_pct": 4.94
+  },
+  {
+    "date": "2023-01-03",
+    "total_value": 104683.16,
+    "cash": 2873.61,
+    "num_positions": 10,
+    "return_pct": 4.68
+  },
+  {
+    "date": "2023-01-04",
+    "total_value": 104430.55,
+    "cash": 12825.71,
+    "num_positions": 9,
+    "return_pct": 4.43
+  },
+  {
+    "date": "2023-01-05",
+    "total_value": 103651.19,
+    "cash": 22713.17,
+    "num_positions": 8,
+    "return_pct": 3.65
+  },
+  {
+    "date": "2023-01-06",
+    "total_value": 105101.95,
+    "cash": 22713.17,
+    "num_positions": 8,
+    "return_pct": 5.1
+  },
+  {
+    "date": "2023-01-09",
+    "total_value": 103336.5,
+    "cash": 22713.17,
+    "num_positions": 8,
+    "return_pct": 3.34
+  },
+  {
+    "date": "2023-01-10",
+    "total_value": 103193.33,
+    "cash": 22713.17,
+    "num_positions": 8,
+    "return_pct": 3.19
+  },
+  {
+    "date": "2023-01-11",
+    "total_value": 103160.23,
+    "cash": 22713.17,
+    "num_positions": 8,
+    "return_pct": 3.16
+  },
+  {
+    "date": "2023-01-12",
+    "total_value": 102507.26,
+    "cash": 51900.96,
+    "num_positions": 5,
+    "return_pct": 2.51
+  },
+  {
+    "date": "2023-01-13",
+    "total_value": 102747.83,
+    "cash": 51900.96,
+    "num_positions": 5,
+    "return_pct": 2.75
+  },
+  {
+    "date": "2023-01-16",
+    "total_value": 102747.83,
+    "cash": 51900.96,
+    "num_positions": 5,
+    "return_pct": 2.75
+  },
+  {
+    "date": "2023-01-17",
+    "total_value": 102703.35,
+    "cash": 51900.96,
+    "num_positions": 5,
+    "return_pct": 2.7
+  },
+  {
+    "date": "2023-01-18",
+    "total_value": 101550.71,
+    "cash": 71869.23,
+    "num_positions": 3,
+    "return_pct": 1.55
+  },
+  {
+    "date": "2023-01-19",
+    "total_value": 101524.09,
+    "cash": 71869.23,
+    "num_positions": 3,
+    "return_pct": 1.52
+  },
+  {
+    "date": "2023-01-20",
+    "total_value": 101580.72,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 1.58
+  },
+  {
+    "date": "2023-01-23",
+    "total_value": 102047.84,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 2.05
+  },
+  {
+    "date": "2023-01-24",
+    "total_value": 102132.33,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 2.13
+  },
+  {
+    "date": "2023-01-25",
+    "total_value": 102395.48,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 2.4
+  },
+  {
+    "date": "2023-01-26",
+    "total_value": 102222.39,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 2.22
+  },
+  {
+    "date": "2023-01-27",
+    "total_value": 101883.91,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 1.88
+  },
+  {
+    "date": "2023-01-30",
+    "total_value": 101655.57,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 1.66
+  },
+  {
+    "date": "2023-01-31",
+    "total_value": 101655.53,
+    "cash": 71446.86,
+    "num_positions": 3,
+    "return_pct": 1.66
+  },
+  {
+    "date": "2023-02-01",
+    "total_value": 101816.77,
+    "cash": 2535.43,
+    "num_positions": 10,
+    "return_pct": 1.82
+  },
+  {
+    "date": "2023-02-02",
+    "total_value": 103100.07,
+    "cash": 2535.43,
+    "num_positions": 10,
+    "return_pct": 3.1
+  },
+  {
+    "date": "2023-02-03",
+    "total_value": 102537.88,
+    "cash": 2535.43,
+    "num_positions": 10,
+    "return_pct": 2.54
+  },
+  {
+    "date": "2023-02-06",
+    "total_value": 102019.28,
+    "cash": 2535.43,
+    "num_positions": 10,
+    "return_pct": 2.02
+  },
+  {
+    "date": "2023-02-07",
+    "total_value": 102773.24,
+    "cash": 2535.43,
+    "num_positions": 10,
+    "return_pct": 2.77
+  },
+  {
+    "date": "2023-02-08",
+    "total_value": 102128.67,
+    "cash": 2535.43,
+    "num_positions": 10,
+    "return_pct": 2.13
+  },
+  {
+    "date": "2023-02-09",
+    "total_value": 101066.89,
+    "cash": 30578.94,
+    "num_positions": 7,
+    "return_pct": 1.07
+  },
+  {
+    "date": "2023-02-10",
+    "total_value": 100204.06,
+    "cash": 30578.94,
+    "num_positions": 7,
+    "return_pct": 0.2
+  },
+  {
+    "date": "2023-02-13",
+    "total_value": 100643.29,
+    "cash": 30578.94,
+    "num_positions": 7,
+    "return_pct": 0.64
+  },
+  {
+    "date": "2023-02-14",
+    "total_value": 101795.3,
+    "cash": 40084.92,
+    "num_positions": 6,
+    "return_pct": 1.8
+  },
+  {
+    "date": "2023-02-15",
+    "total_value": 101866.13,
+    "cash": 40084.92,
+    "num_positions": 6,
+    "return_pct": 1.87
+  },
+  {
+    "date": "2023-02-16",
+    "total_value": 100086.47,
+    "cash": 40084.92,
+    "num_positions": 6,
+    "return_pct": 0.09
+  },
+  {
+    "date": "2023-02-17",
+    "total_value": 100243.9,
+    "cash": 40084.92,
+    "num_positions": 6,
+    "return_pct": 0.24
+  },
+  {
+    "date": "2023-02-20",
+    "total_value": 100243.9,
+    "cash": 40084.92,
+    "num_positions": 6,
+    "return_pct": 0.24
+  },
+  {
+    "date": "2023-02-21",
+    "total_value": 98640.82,
+    "cash": 68336.95,
+    "num_positions": 3,
+    "return_pct": -1.36
+  },
+  {
+    "date": "2023-02-22",
+    "total_value": 98704.98,
+    "cash": 68336.95,
+    "num_positions": 3,
+    "return_pct": -1.3
+  },
+  {
+    "date": "2023-02-23",
+    "total_value": 98899.56,
+    "cash": 68336.95,
+    "num_positions": 3,
+    "return_pct": -1.1
+  },
+  {
+    "date": "2023-02-24",
+    "total_value": 98786.6,
+    "cash": 68336.95,
+    "num_positions": 3,
+    "return_pct": -1.21
+  },
+  {
+    "date": "2023-02-27",
+    "total_value": 99487.95,
+    "cash": 68336.95,
+    "num_positions": 3,
+    "return_pct": -0.51
+  },
+  {
+    "date": "2023-02-28",
+    "total_value": 99466.39,
+    "cash": 68336.95,
+    "num_positions": 3,
+    "return_pct": -0.53
+  },
+  {
+    "date": "2023-03-01",
+    "total_value": 99232.0,
+    "cash": 2510.0,
+    "num_positions": 10,
+    "return_pct": -0.77
+  },
+  {
+    "date": "2023-03-02",
+    "total_value": 99580.78,
+    "cash": 2510.0,
+    "num_positions": 10,
+    "return_pct": -0.42
+  },
+  {
+    "date": "2023-03-03",
+    "total_value": 100471.46,
+    "cash": 2510.0,
+    "num_positions": 10,
+    "return_pct": 0.47
+  },
+  {
+    "date": "2023-03-06",
+    "total_value": 100893.68,
+    "cash": 2510.0,
+    "num_positions": 10,
+    "return_pct": 0.89
+  },
+  {
+    "date": "2023-03-07",
+    "total_value": 99666.26,
+    "cash": 2510.0,
+    "num_positions": 10,
+    "return_pct": -0.33
+  },
+  {
+    "date": "2023-03-08",
+    "total_value": 98781.97,
+    "cash": 2510.0,
+    "num_positions": 10,
+    "return_pct": -1.22
+  },
+  {
+    "date": "2023-03-09",
+    "total_value": 97277.81,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.72
+  },
+  {
+    "date": "2023-03-10",
+    "total_value": 97104.99,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.9
+  },
+  {
+    "date": "2023-03-13",
+    "total_value": 97098.15,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.9
+  },
+  {
+    "date": "2023-03-14",
+    "total_value": 97807.5,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.19
+  },
+  {
+    "date": "2023-03-15",
+    "total_value": 97664.66,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.34
+  },
+  {
+    "date": "2023-03-16",
+    "total_value": 97921.93,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.08
+  },
+  {
+    "date": "2023-03-17",
+    "total_value": 96997.83,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -3.0
+  },
+  {
+    "date": "2023-03-20",
+    "total_value": 97986.85,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.01
+  },
+  {
+    "date": "2023-03-21",
+    "total_value": 98123.85,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -1.88
+  },
+  {
+    "date": "2023-03-22",
+    "total_value": 97272.5,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.73
+  },
+  {
+    "date": "2023-03-23",
+    "total_value": 97549.25,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -2.45
+  },
+  {
+    "date": "2023-03-24",
+    "total_value": 98079.52,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -1.92
+  },
+  {
+    "date": "2023-03-27",
+    "total_value": 98754.59,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -1.25
+  },
+  {
+    "date": "2023-03-28",
+    "total_value": 98256.89,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -1.74
+  },
+  {
+    "date": "2023-03-29",
+    "total_value": 98871.42,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -1.13
+  },
+  {
+    "date": "2023-03-30",
+    "total_value": 99106.07,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -0.89
+  },
+  {
+    "date": "2023-03-31",
+    "total_value": 99860.42,
+    "cash": 20858.78,
+    "num_positions": 8,
+    "return_pct": -0.14
+  },
+  {
+    "date": "2023-04-03",
+    "total_value": 100922.92,
+    "cash": 2554.91,
+    "num_positions": 10,
+    "return_pct": 0.92
+  },
+  {
+    "date": "2023-04-04",
+    "total_value": 100110.23,
+    "cash": 2554.91,
+    "num_positions": 10,
+    "return_pct": 0.11
+  },
+  {
+    "date": "2023-04-05",
+    "total_value": 100094.87,
+    "cash": 11706.61,
+    "num_positions": 9,
+    "return_pct": 0.09
+  },
+  {
+    "date": "2023-04-06",
+    "total_value": 99907.7,
+    "cash": 11706.61,
+    "num_positions": 9,
+    "return_pct": -0.09
+  },
+  {
+    "date": "2023-04-07",
+    "total_value": 99907.7,
+    "cash": 11706.61,
+    "num_positions": 9,
+    "return_pct": -0.09
+  },
+  {
+    "date": "2023-04-10",
+    "total_value": 100137.85,
+    "cash": 11706.61,
+    "num_positions": 9,
+    "return_pct": 0.14
+  },
+  {
+    "date": "2023-04-11",
+    "total_value": 100482.39,
+    "cash": 11706.61,
+    "num_positions": 9,
+    "return_pct": 0.48
+  },
+  {
+    "date": "2023-04-12",
+    "total_value": 100739.8,
+    "cash": 11706.61,
+    "num_positions": 9,
+    "return_pct": 0.74
+  },
+  {
+    "date": "2023-04-13",
+    "total_value": 101605.04,
+    "cash": 11706.61,
+    "num_positions": 9,
+    "return_pct": 1.61
+  },
+  {
+    "date": "2023-04-14",
+    "total_value": 101806.23,
+    "cash": 20783.56,
+    "num_positions": 8,
+    "return_pct": 1.81
+  },
+  {
+    "date": "2023-04-17",
+    "total_value": 101929.88,
+    "cash": 20783.56,
+    "num_positions": 8,
+    "return_pct": 1.93
+  },
+  {
+    "date": "2023-04-18",
+    "total_value": 102519.22,
+    "cash": 20783.56,
+    "num_positions": 8,
+    "return_pct": 2.52
+  },
+  {
+    "date": "2023-04-19",
+    "total_value": 102253.54,
+    "cash": 20783.56,
+    "num_positions": 8,
+    "return_pct": 2.25
+  },
+  {
+    "date": "2023-04-20",
+    "total_value": 100829.29,
+    "cash": 30060.72,
+    "num_positions": 7,
+    "return_pct": 0.83
+  },
+  {
+    "date": "2023-04-21",
+    "total_value": 100908.68,
+    "cash": 30060.72,
+    "num_positions": 7,
+    "return_pct": 0.91
+  },
+  {
+    "date": "2023-04-24",
+    "total_value": 101284.96,
+    "cash": 30060.72,
+    "num_positions": 7,
+    "return_pct": 1.28
+  },
+  {
+    "date": "2023-04-25",
+    "total_value": 100277.07,
+    "cash": 30060.72,
+    "num_positions": 7,
+    "return_pct": 0.28
+  },
+  {
+    "date": "2023-04-26",
+    "total_value": 99239.13,
+    "cash": 30060.72,
+    "num_positions": 7,
+    "return_pct": -0.76
+  },
+  {
+    "date": "2023-04-27",
+    "total_value": 100130.38,
+    "cash": 21066.03,
+    "num_positions": 8,
+    "return_pct": 0.13
+  },
+  {
+    "date": "2023-04-28",
+    "total_value": 100662.68,
+    "cash": 21066.03,
+    "num_positions": 8,
+    "return_pct": 0.66
+  },
+  {
+    "date": "2023-05-01",
+    "total_value": 100653.05,
+    "cash": 2485.14,
+    "num_positions": 10,
+    "return_pct": 0.65
+  },
+  {
+    "date": "2023-05-02",
+    "total_value": 99111.52,
+    "cash": 11829.68,
+    "num_positions": 9,
+    "return_pct": -0.89
+  },
+  {
+    "date": "2023-05-03",
+    "total_value": 98561.69,
+    "cash": 11829.68,
+    "num_positions": 9,
+    "return_pct": -1.44
+  },
+  {
+    "date": "2023-05-04",
+    "total_value": 97813.35,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -2.19
+  },
+  {
+    "date": "2023-05-05",
+    "total_value": 98839.51,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -1.16
+  },
+  {
+    "date": "2023-05-08",
+    "total_value": 99012.37,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -0.99
+  },
+  {
+    "date": "2023-05-09",
+    "total_value": 98933.6,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -1.07
+  },
+  {
+    "date": "2023-05-10",
+    "total_value": 99108.09,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -0.89
+  },
+  {
+    "date": "2023-05-11",
+    "total_value": 99085.28,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -0.91
+  },
+  {
+    "date": "2023-05-12",
+    "total_value": 98697.58,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -1.3
+  },
+  {
+    "date": "2023-05-15",
+    "total_value": 99032.98,
+    "cash": 21083.42,
+    "num_positions": 8,
+    "return_pct": -0.97
+  },
+  {
+    "date": "2023-05-16",
+    "total_value": 98498.99,
+    "cash": 30446.96,
+    "num_positions": 7,
+    "return_pct": -1.5
+  },
+  {
+    "date": "2023-05-17",
+    "total_value": 99524.97,
+    "cash": 30446.96,
+    "num_positions": 7,
+    "return_pct": -0.48
+  },
+  {
+    "date": "2023-05-18",
+    "total_value": 101044.86,
+    "cash": 30446.96,
+    "num_positions": 7,
+    "return_pct": 1.04
+  },
+  {
+    "date": "2023-05-19",
+    "total_value": 100828.29,
+    "cash": 30446.96,
+    "num_positions": 7,
+    "return_pct": 0.83
+  },
+  {
+    "date": "2023-05-22",
+    "total_value": 100550.82,
+    "cash": 39897.09,
+    "num_positions": 6,
+    "return_pct": 0.55
+  },
+  {
+    "date": "2023-05-23",
+    "total_value": 99625.15,
+    "cash": 39897.09,
+    "num_positions": 6,
+    "return_pct": -0.37
+  },
+  {
+    "date": "2023-05-24",
+    "total_value": 99613.42,
+    "cash": 49257.51,
+    "num_positions": 5,
+    "return_pct": -0.39
+  },
+  {
+    "date": "2023-05-25",
+    "total_value": 99994.43,
+    "cash": 39429.39,
+    "num_positions": 6,
+    "return_pct": -0.01
+  },
+  {
+    "date": "2023-05-26",
+    "total_value": 101604.95,
+    "cash": 39429.39,
+    "num_positions": 6,
+    "return_pct": 1.6
+  },
+  {
+    "date": "2023-05-29",
+    "total_value": 101604.95,
+    "cash": 39429.39,
+    "num_positions": 6,
+    "return_pct": 1.6
+  },
+  {
+    "date": "2023-05-30",
+    "total_value": 102252.9,
+    "cash": 39429.39,
+    "num_positions": 6,
+    "return_pct": 2.25
+  },
+  {
+    "date": "2023-05-31",
+    "total_value": 101404.09,
+    "cash": 48689.57,
+    "num_positions": 5,
+    "return_pct": 1.4
+  },
+  {
+    "date": "2023-06-01",
+    "total_value": 102720.26,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 2.72
+  },
+  {
+    "date": "2023-06-02",
+    "total_value": 103767.72,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 3.77
+  },
+  {
+    "date": "2023-06-05",
+    "total_value": 103371.91,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 3.37
+  },
+  {
+    "date": "2023-06-06",
+    "total_value": 103055.38,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 3.06
+  },
+  {
+    "date": "2023-06-07",
+    "total_value": 102223.32,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 2.22
+  },
+  {
+    "date": "2023-06-08",
+    "total_value": 103904.88,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 3.9
+  },
+  {
+    "date": "2023-06-09",
+    "total_value": 104636.91,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 4.64
+  },
+  {
+    "date": "2023-06-12",
+    "total_value": 105577.74,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 5.58
+  },
+  {
+    "date": "2023-06-13",
+    "total_value": 106520.66,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 6.52
+  },
+  {
+    "date": "2023-06-14",
+    "total_value": 107293.61,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.29
+  },
+  {
+    "date": "2023-06-15",
+    "total_value": 108479.17,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 8.48
+  },
+  {
+    "date": "2023-06-16",
+    "total_value": 107605.49,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.61
+  },
+  {
+    "date": "2023-06-19",
+    "total_value": 107605.49,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.61
+  },
+  {
+    "date": "2023-06-20",
+    "total_value": 107816.52,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.82
+  },
+  {
+    "date": "2023-06-21",
+    "total_value": 107120.15,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.12
+  },
+  {
+    "date": "2023-06-22",
+    "total_value": 107666.57,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.67
+  },
+  {
+    "date": "2023-06-23",
+    "total_value": 106962.37,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 6.96
+  },
+  {
+    "date": "2023-06-26",
+    "total_value": 105776.69,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 5.78
+  },
+  {
+    "date": "2023-06-27",
+    "total_value": 106936.39,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 6.94
+  },
+  {
+    "date": "2023-06-28",
+    "total_value": 107177.53,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.18
+  },
+  {
+    "date": "2023-06-29",
+    "total_value": 107108.49,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.11
+  },
+  {
+    "date": "2023-06-30",
+    "total_value": 107108.49,
+    "cash": 2694.96,
+    "num_positions": 10,
+    "return_pct": 7.11
+  }
+]

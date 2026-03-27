@@ -1,0 +1,1475 @@
+[
+  {
+    "ticker": "MA",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "V",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "ABT",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "VZ",
+    "conflicts": []
+  },
+  {
+    "ticker": "PFE",
+    "conflicts": []
+  },
+  {
+    "ticker": "T",
+    "conflicts": []
+  },
+  {
+    "ticker": "HON",
+    "conflicts": []
+  },
+  {
+    "ticker": "GS",
+    "conflicts": []
+  },
+  {
+    "ticker": "LLY",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "UNH",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": []
+  },
+  {
+    "ticker": "CVX",
+    "conflicts": []
+  },
+  {
+    "ticker": "SO",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "ABBV",
+    "conflicts": []
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": [
+      "stock_outpacing_sector"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": []
+  },
+  {
+    "ticker": "KO",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "DE",
+    "conflicts": []
+  },
+  {
+    "ticker": "MS",
+    "conflicts": []
+  },
+  {
+    "ticker": "WMT",
+    "conflicts": []
+  },
+  {
+    "ticker": "WFC",
+    "conflicts": []
+  },
+  {
+    "ticker": "DIS",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "HD",
+    "conflicts": []
+  },
+  {
+    "ticker": "NFLX",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "BAC",
+    "conflicts": []
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": []
+  },
+  {
+    "ticker": "PEP",
+    "conflicts": []
+  },
+  {
+    "ticker": "ADBE",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "conflicts": [
+      "stock_outpacing_sector"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "conflicts": [
+      "stock_lagging_sector",
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "conflicts": []
+  },
+  {
+    "ticker": "NVDA",
+    "conflicts": []
+  },
+  {
+    "ticker": "NEE",
+    "conflicts": []
+  },
+  {
+    "ticker": "MSFT",
+    "conflicts": [
+      "stock_outpacing_sector"
+    ]
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "LLY",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "ABBV",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "UNH",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "KO",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "JPM",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "CAT",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "GS",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "NFLX",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_outpacing_sector",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "T",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "INTC",
+    "conflicts": []
+  },
+  {
+    "ticker": "TSLA",
+    "conflicts": []
+  },
+  {
+    "ticker": "MA",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "BLK",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "conflicts": []
+  },
+  {
+    "ticker": "V",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "DE",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "conflicts": []
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "WMT",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "UNH",
+    "conflicts": []
+  },
+  {
+    "ticker": "CVX",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": []
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "LLY",
+    "conflicts": []
+  },
+  {
+    "ticker": "PEP",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "DE",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_lagging_sector",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "BAC",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "HD",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "HON",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "JPM",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "ABBV",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "KO",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "GS",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "META",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "NFLX",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "AMD",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "CMCSA",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "INTC",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "BA",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "MA",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "ABT",
+    "conflicts": [
+      "stock_rising_in_crisis"
+    ]
+  },
+  {
+    "ticker": "V",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "AAPL",
+    "conflicts": [
+      "stock_lagging_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "conflicts": [
+      "stock_rising_in_crisis",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "conflicts": []
+  },
+  {
+    "ticker": "WFC",
+    "conflicts": []
+  },
+  {
+    "ticker": "AAPL",
+    "conflicts": []
+  },
+  {
+    "ticker": "CRM",
+    "conflicts": []
+  },
+  {
+    "ticker": "COST",
+    "conflicts": [
+      "stock_lagging_sector",
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "VZ",
+    "conflicts": []
+  },
+  {
+    "ticker": "UPS",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "conflicts": [
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "conflicts": []
+  },
+  {
+    "ticker": "CMCSA",
+    "conflicts": []
+  },
+  {
+    "ticker": "GOOGL",
+    "conflicts": []
+  },
+  {
+    "ticker": "CVX",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": []
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": []
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": []
+  },
+  {
+    "ticker": "DE",
+    "conflicts": []
+  },
+  {
+    "ticker": "LLY",
+    "conflicts": []
+  },
+  {
+    "ticker": "ABBV",
+    "conflicts": []
+  },
+  {
+    "ticker": "CAT",
+    "conflicts": []
+  },
+  {
+    "ticker": "SO",
+    "conflicts": []
+  },
+  {
+    "ticker": "PEP",
+    "conflicts": []
+  },
+  {
+    "ticker": "ADBE",
+    "conflicts": []
+  },
+  {
+    "ticker": "ABT",
+    "conflicts": []
+  },
+  {
+    "ticker": "JPM",
+    "conflicts": []
+  },
+  {
+    "ticker": "HD",
+    "conflicts": []
+  },
+  {
+    "ticker": "PG",
+    "conflicts": []
+  },
+  {
+    "ticker": "MA",
+    "conflicts": []
+  },
+  {
+    "ticker": "PFE",
+    "conflicts": []
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": []
+  },
+  {
+    "ticker": "KO",
+    "conflicts": []
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": []
+  },
+  {
+    "ticker": "UNH",
+    "conflicts": []
+  },
+  {
+    "ticker": "HON",
+    "conflicts": []
+  },
+  {
+    "ticker": "TSLA",
+    "conflicts": [
+      "stock_lagging_sector",
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "DIS",
+    "conflicts": []
+  },
+  {
+    "ticker": "MS",
+    "conflicts": []
+  },
+  {
+    "ticker": "V",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": []
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "T",
+    "conflicts": []
+  },
+  {
+    "ticker": "V",
+    "conflicts": []
+  },
+  {
+    "ticker": "DE",
+    "conflicts": []
+  },
+  {
+    "ticker": "UNH",
+    "conflicts": []
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": []
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "NEE",
+    "conflicts": [
+      "stock_falling_in_bull_market",
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "LLY",
+    "conflicts": []
+  },
+  {
+    "ticker": "ABT",
+    "conflicts": []
+  },
+  {
+    "ticker": "CMCSA",
+    "conflicts": []
+  },
+  {
+    "ticker": "VZ",
+    "conflicts": []
+  },
+  {
+    "ticker": "UPS",
+    "conflicts": []
+  },
+  {
+    "ticker": "JPM",
+    "conflicts": []
+  },
+  {
+    "ticker": "WFC",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "MA",
+    "conflicts": []
+  },
+  {
+    "ticker": "BAC",
+    "conflicts": []
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": []
+  },
+  {
+    "ticker": "KO",
+    "conflicts": []
+  },
+  {
+    "ticker": "PG",
+    "conflicts": []
+  },
+  {
+    "ticker": "AMD",
+    "conflicts": [
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "TSLA",
+    "conflicts": [
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "BLK",
+    "conflicts": []
+  },
+  {
+    "ticker": "META",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "conflicts": [
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "NFLX",
+    "conflicts": [
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "conflicts": [
+      "stock_outpacing_sector"
+    ]
+  },
+  {
+    "ticker": "BA",
+    "conflicts": []
+  },
+  {
+    "ticker": "MS",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "TMO",
+    "conflicts": [
+      "stock_outpacing_sector"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "conflicts": [
+      "stock_falling_in_bull_market",
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "conflicts": [
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": []
+  },
+  {
+    "ticker": "DIS",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "AMD",
+    "conflicts": [
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": []
+  },
+  {
+    "ticker": "ABBV",
+    "conflicts": [
+      "stock_outpacing_sector",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "TSLA",
+    "conflicts": [
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "SO",
+    "conflicts": []
+  },
+  {
+    "ticker": "V",
+    "conflicts": []
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": []
+  },
+  {
+    "ticker": "UPS",
+    "conflicts": []
+  },
+  {
+    "ticker": "JPM",
+    "conflicts": []
+  },
+  {
+    "ticker": "WMT",
+    "conflicts": []
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "T",
+    "conflicts": []
+  },
+  {
+    "ticker": "ABT",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "conflicts": []
+  },
+  {
+    "ticker": "ABT",
+    "conflicts": []
+  },
+  {
+    "ticker": "HON",
+    "conflicts": []
+  },
+  {
+    "ticker": "GS",
+    "conflicts": []
+  },
+  {
+    "ticker": "WFC",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "BAC",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "WMT",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "conflicts": []
+  },
+  {
+    "ticker": "PG",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "VZ",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": []
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": []
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": []
+  },
+  {
+    "ticker": "NKE",
+    "conflicts": []
+  },
+  {
+    "ticker": "BA",
+    "conflicts": []
+  },
+  {
+    "ticker": "MS",
+    "conflicts": []
+  },
+  {
+    "ticker": "CAT",
+    "conflicts": []
+  },
+  {
+    "ticker": "T",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "conflicts": []
+  },
+  {
+    "ticker": "ADBE",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "INTC",
+    "conflicts": [
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "conflicts": []
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "TSLA",
+    "conflicts": [
+      "stock_lagging_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "DIS",
+    "conflicts": []
+  },
+  {
+    "ticker": "CMCSA",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "KO",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "V",
+    "conflicts": []
+  },
+  {
+    "ticker": "ABBV",
+    "conflicts": []
+  },
+  {
+    "ticker": "NVDA",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "HD",
+    "conflicts": []
+  },
+  {
+    "ticker": "DE",
+    "conflicts": []
+  },
+  {
+    "ticker": "CRM",
+    "conflicts": [
+      "stock_lagging_sector",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": []
+  },
+  {
+    "ticker": "AAPL",
+    "conflicts": [
+      "stock_lagging_sector",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "META",
+    "conflicts": []
+  },
+  {
+    "ticker": "AMD",
+    "conflicts": [
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "conflicts": []
+  },
+  {
+    "ticker": "JPM",
+    "conflicts": []
+  },
+  {
+    "ticker": "XOM",
+    "conflicts": []
+  },
+  {
+    "ticker": "NFLX",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": []
+  },
+  {
+    "ticker": "JPM",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "CAT",
+    "conflicts": []
+  },
+  {
+    "ticker": "META",
+    "conflicts": [
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "GS",
+    "conflicts": []
+  },
+  {
+    "ticker": "MSFT",
+    "conflicts": []
+  },
+  {
+    "ticker": "CVX",
+    "conflicts": []
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "SO",
+    "conflicts": []
+  },
+  {
+    "ticker": "KO",
+    "conflicts": []
+  },
+  {
+    "ticker": "NEE",
+    "conflicts": []
+  },
+  {
+    "ticker": "INTC",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "LMT",
+    "conflicts": []
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": []
+  },
+  {
+    "ticker": "V",
+    "conflicts": []
+  },
+  {
+    "ticker": "HON",
+    "conflicts": []
+  },
+  {
+    "ticker": "PG",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "CMCSA",
+    "conflicts": [
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "conflicts": []
+  },
+  {
+    "ticker": "MA",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "BAC",
+    "conflicts": []
+  },
+  {
+    "ticker": "WFC",
+    "conflicts": []
+  },
+  {
+    "ticker": "AAPL",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "conflicts": []
+  },
+  {
+    "ticker": "LLY",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "conflicts": [
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "NFLX",
+    "conflicts": [
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "BA",
+    "conflicts": []
+  },
+  {
+    "ticker": "WMT",
+    "conflicts": []
+  },
+  {
+    "ticker": "LLY",
+    "conflicts": []
+  },
+  {
+    "ticker": "AAPL",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "conflicts": [
+      "stock_lagging_sector",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "conflicts": [
+      "stock_lagging_sector"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "conflicts": []
+  },
+  {
+    "ticker": "PFE",
+    "conflicts": []
+  },
+  {
+    "ticker": "MCD",
+    "conflicts": []
+  },
+  {
+    "ticker": "SO",
+    "conflicts": []
+  },
+  {
+    "ticker": "UNH",
+    "conflicts": []
+  },
+  {
+    "ticker": "HD",
+    "conflicts": []
+  },
+  {
+    "ticker": "AMZN",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "AMD",
+    "conflicts": [
+      "stock_outpacing_sector",
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "V",
+    "conflicts": []
+  },
+  {
+    "ticker": "KO",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "JNJ",
+    "conflicts": [
+      "oversold_in_downtrend"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "conflicts": []
+  },
+  {
+    "ticker": "DE",
+    "conflicts": []
+  },
+  {
+    "ticker": "GOOGL",
+    "conflicts": []
+  },
+  {
+    "ticker": "META",
+    "conflicts": [
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "conflicts": [
+      "uptrend_with_extreme_vol",
+      "overbought_but_all_signals_bullish"
+    ]
+  },
+  {
+    "ticker": "INTC",
+    "conflicts": [
+      "stock_lagging_sector",
+      "uptrend_with_extreme_vol"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "conflicts": []
+  }
+]

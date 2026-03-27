@@ -1,0 +1,2181 @@
+[
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 539.56,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=55.6)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.236,
+      "rsi": 55.6
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 243.72,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.1, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=65.6)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.1,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.156,
+      "rsi": 65.6
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 52.27,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=68.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.164,
+      "rsi": 68.8
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 58.34,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=65.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.157,
+      "rsi": 65.7
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 151.77,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=59.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.155,
+      "rsi": 59.0
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 128.35,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=57.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.197,
+      "rsi": 57.8
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 45.67,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=53.4)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.176,
+      "rsi": 53.4
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 81.69,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=49.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.183,
+      "rsi": 49.7
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 323.16,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.3, conflict_penalty=0.0, vol=0.2, rsi=46.4)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.3,
+      "conflict_penalty": false,
+      "vol": 0.221,
+      "rsi": 46.4
+    }
+  },
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 146.32,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.1, rsi=65.4)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.142,
+      "rsi": 65.4
+    }
+  },
+  {
+    "date": "2022-01-05",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 305.43,
+    "reason": "STOP LOSS triggered (-5.49% loss) PnL: -5.5% (held since 2022-01-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-01-06",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 76.44,
+    "reason": "STOP LOSS triggered (-6.43% loss) PnL: -6.4% (held since 2022-01-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.82"
+  },
+  {
+    "date": "2022-01-07",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 510.49,
+    "reason": "STOP LOSS triggered (-5.39% loss) PnL: -5.4% (held since 2022-01-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.86"
+  },
+  {
+    "date": "2022-01-11",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 237.86,
+    "reason": "STOP LOSS triggered (-2.41% loss) PnL: -2.4% (held since 2022-01-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-01-12",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 123.44,
+    "reason": "STOP LOSS triggered (-3.83% loss) PnL: -3.8% (held since 2022-01-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-01-13",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 142.18,
+    "reason": "STOP LOSS triggered (-2.83% loss) PnL: -2.8% (held since 2022-01-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.86"
+  },
+  {
+    "date": "2022-01-18",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 147.84,
+    "reason": "STOP LOSS triggered (-2.59% loss) PnL: -2.6% (held since 2022-01-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.93"
+  },
+  {
+    "date": "2022-01-25",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 43.3,
+    "reason": "STOP LOSS triggered (-5.18% loss) PnL: -5.2% (held since 2022-01-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 189.06,
+    "reason": "VOLUME SPIKE: +14.1% on 5.5x vol \u2014 LLMInspired cautious entry [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89"
+  },
+  {
+    "date": "2022-02-01",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 189.06,
+    "reason": "Dropped from top 10. Score: 5.9 Replaced by: AAPL, PG, JNJ",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.356,
+      "rsi": 67.1
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 170.86,
+    "reason": "Ranked in top 10. Score: 5.6 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=49.3) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.298,
+      "rsi": 49.3
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 144.26,
+    "reason": "Ranked in top 10. Score: 5.5 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=54.8) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.163,
+      "rsi": 54.8
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 151.19,
+    "reason": "Ranked in top 10. Score: 5.3 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=49.0) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.159,
+      "rsi": 49.0
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 225.0,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.4, rsi=67.5) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.36,
+      "rsi": 67.5
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 42.16,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=36.3) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.264,
+      "rsi": 36.3
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 345.72,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=69.9) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.154,
+      "rsi": 69.9
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 118.41,
+    "reason": "Ranked in top 10. Score: 5.1 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=54.0) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.162,
+      "rsi": 54.0
+    }
+  },
+  {
+    "date": "2022-02-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 150.68,
+    "reason": "Ranked in top 10. Score: 5.0 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.1, rsi=44.7) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.89",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.149,
+      "rsi": 44.7
+    }
+  },
+  {
+    "date": "2022-02-15",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 55.64,
+    "reason": "STOP LOSS triggered (-4.62% loss) PnL: -4.6% (held since 2022-01-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.74"
+  },
+  {
+    "date": "2022-02-18",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 145.46,
+    "reason": "STOP LOSS triggered (-3.79% loss) PnL: -3.8% (held since 2022-02-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2022-02-22",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 161.0,
+    "reason": "STOP LOSS triggered (-5.77% loss) PnL: -5.8% (held since 2022-02-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2022-02-23",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 209.45,
+    "reason": "STOP LOSS triggered (-6.91% loss) PnL: -6.9% (held since 2022-02-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.96"
+  },
+  {
+    "date": "2022-02-24",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 137.05,
+    "reason": "STOP LOSS triggered (-5.0% loss) PnL: -5.0% (held since 2022-02-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.98"
+  },
+  {
+    "date": "2022-02-24",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 39.16,
+    "reason": "STOP LOSS triggered (-7.12% loss) PnL: -7.1% (held since 2022-02-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.98"
+  },
+  {
+    "date": "2022-02-24",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 143.21,
+    "reason": "STOP LOSS triggered (-4.96% loss) PnL: -5.0% (held since 2022-02-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.98"
+  },
+  {
+    "date": "2022-03-01",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 41.32,
+    "reason": "Ranked in top 10. Score: 5.5 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=57.2) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.183,
+      "rsi": 57.2
+    }
+  },
+  {
+    "date": "2022-03-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 68.99,
+    "reason": "Ranked in top 10. Score: 5.3 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=49.1) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.268,
+      "rsi": 49.1
+    }
+  },
+  {
+    "date": "2022-03-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 498.63,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=51.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.284,
+      "rsi": 51.0
+    }
+  },
+  {
+    "date": "2022-03-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 55.42,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=1.0, momentum_judge=1.0, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=35.4) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.18,
+      "rsi": 35.4
+    }
+  },
+  {
+    "date": "2022-03-01",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 170.15,
+    "reason": "Ranked in top 10. Score: 4.6 (value_judge=1.0, momentum_judge=0.6, earnings_judge=1.5, valuation_judge=1.4, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=24.2) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00",
+    "scores": {
+      "composite": 5.6,
+      "value_judge": 1.0,
+      "momentum_judge": 0.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.27,
+      "rsi": 24.2
+    }
+  },
+  {
+    "date": "2022-03-01",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 339.73,
+    "reason": "Ranked in top 10. Score: 4.6 (value_judge=1.0, momentum_judge=1.0, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=34.3) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00",
+    "scores": {
+      "composite": 5.6,
+      "value_judge": 1.0,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.293,
+      "rsi": 34.3
+    }
+  },
+  {
+    "date": "2022-03-01",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 441.72,
+    "reason": "Ranked in top 10. Score: 4.5 (value_judge=1.0, momentum_judge=1.0, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.3, conflict_penalty=0.0, vol=0.2, rsi=39.1) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00",
+    "scores": {
+      "composite": 5.5,
+      "value_judge": 1.0,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.3,
+      "conflict_penalty": false,
+      "vol": 0.225,
+      "rsi": 39.1
+    }
+  },
+  {
+    "date": "2022-03-18",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 39.15,
+    "reason": "STOP LOSS triggered (-5.24% loss) PnL: -5.2% (held since 2022-03-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.87"
+  },
+  {
+    "date": "2022-04-01",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 548.83,
+    "reason": "Dropped from top 10. Score: 5.4 Replaced by: DE, XOM, LMT PnL: +10.1% (held since 2022-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.4,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.234,
+      "rsi": 81.5
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 64.08,
+    "reason": "Dropped from top 10. Score: 5.6 Replaced by: DE, XOM, LMT PnL: +15.6% (held since 2022-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.6,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.3,
+      "conflict_penalty": false,
+      "vol": 0.202,
+      "rsi": 89.5
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "SELL",
+    "ticker": "CAT",
+    "price": 204.52,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: DE, XOM, LMT PnL: +20.2% (held since 2022-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.291,
+      "rsi": 60.3
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 476.83,
+    "reason": "Dropped from top 10. Score: 5.6 Replaced by: DE, XOM, LMT PnL: +7.9% (held since 2022-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.6,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.3,
+      "conflict_penalty": false,
+      "vol": 0.246,
+      "rsi": 69.6
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 73.96,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.0, momentum_judge=1.4, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=86.6)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.183,
+      "rsi": 86.6
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 41.61,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=45.4)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.273,
+      "rsi": 45.4
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 149.4,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.0, momentum_judge=1.4, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=89.2)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.182,
+      "rsi": 89.2
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 158.67,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=65.1)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.192,
+      "rsi": 65.1
+    }
+  },
+  {
+    "date": "2022-04-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 47.86,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.0, momentum_judge=1.4, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=71.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.92",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.194,
+      "rsi": 71.8
+    }
+  },
+  {
+    "date": "2022-04-22",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 38.84,
+    "reason": "STOP LOSS triggered (-6.67% loss) PnL: -6.7% (held since 2022-04-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2022-04-28",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 204.13,
+    "reason": "VOLUME SPIKE: +17.6% on 3.1x vol \u2014 LLMInspired cautious entry [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.84"
+  },
+  {
+    "date": "2022-04-29",
+    "action": "SELL",
+    "ticker": "XOM",
+    "price": 74.28,
+    "reason": "EARNINGS strong_miss: surprise -0.0696% [LLMInspired] PnL: +7.7% (held since 2022-03-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.82"
+  },
+  {
+    "date": "2022-05-02",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 387.5,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: LLY, KO, SO PnL: +12.1% (held since 2022-02-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.5,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.319,
+      "rsi": 23.1
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 128.9,
+    "reason": "Dropped from top 10. Score: 5.5 Replaced by: LLY, KO, SO PnL: +8.9% (held since 2022-02-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 5.5,
+      "value_judge": 1.0,
+      "momentum_judge": 1.2,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.252,
+      "rsi": 23.7
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 362.03,
+    "reason": "Dropped from top 10. Score: 5.0 Replaced by: LLY, KO, SO PnL: +6.6% (held since 2022-03-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 5.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.365,
+      "rsi": 29.7
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 48.17,
+    "reason": "Dropped from top 10. Score: 5.8 Replaced by: LLY, KO, SO PnL: +0.6% (held since 2022-04-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.204,
+      "rsi": 44.8
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 209.49,
+    "reason": "Dropped from top 10. Score: 4.16 Replaced by: LLY, KO, SO PnL: +2.6% (held since 2022-04-28)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 4.16,
+      "value_judge": 1.0,
+      "momentum_judge": 0.8,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 0.2,
+      "conflict_penalty": true,
+      "vol": 0.608,
+      "rsi": 47.6
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 279.65,
+    "reason": "Ranked in top 10. Score: 6.5 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=34.2)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.26,
+      "rsi": 34.2
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 63.3,
+    "reason": "Ranked in top 10. Score: 6.5 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.3, conflict_penalty=0.0, vol=0.2, rsi=43.8)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.3,
+      "conflict_penalty": false,
+      "vol": 0.232,
+      "rsi": 43.8
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 198.3,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=47.2)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.307,
+      "rsi": 47.2
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 225.06,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.1, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=45.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.1,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.217,
+      "rsi": 45.0
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 351.15,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.4, rsi=55.5)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.354,
+      "rsi": 55.5
+    }
+  },
+  {
+    "date": "2022-05-02",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 143.83,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=49.6)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.66",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.23,
+      "rsi": 49.6
+    }
+  },
+  {
+    "date": "2022-05-09",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 320.78,
+    "reason": "STOP LOSS triggered (-8.65% loss) PnL: -8.6% (held since 2022-05-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2022-05-18",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 210.83,
+    "reason": "STOP LOSS triggered (-6.32% loss) PnL: -6.3% (held since 2022-05-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2022-05-18",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 131.72,
+    "reason": "STOP LOSS triggered (-8.42% loss) PnL: -8.4% (held since 2022-05-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2022-06-01",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 173.96,
+    "reason": "VOLUME SPIKE: +9.9% on 3.8x vol \u2014 LLMInspired cautious entry",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.98"
+  },
+  {
+    "date": "2022-06-01",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 146.52,
+    "reason": "Dropped from top 10. Score: 5.4 Replaced by: MRK, SO, CAT PnL: -1.9% (held since 2022-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.98",
+    "scores": {
+      "composite": 5.4,
+      "value_judge": 1.0,
+      "momentum_judge": 1.1,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.24,
+      "rsi": 44.1
+    }
+  },
+  {
+    "date": "2022-06-01",
+    "action": "SELL",
+    "ticker": "CRM",
+    "price": 173.96,
+    "reason": "Dropped from top 10. Score: 3.9 Replaced by: MRK, SO, CAT",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.98",
+    "scores": {
+      "composite": 3.9,
+      "value_judge": 1.0,
+      "momentum_judge": 0.1,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.4,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.503,
+      "rsi": 63.3
+    }
+  },
+  {
+    "date": "2022-06-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 42.6,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=67.7) [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.98",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.276,
+      "rsi": 67.7
+    }
+  },
+  {
+    "date": "2022-06-01",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 17.18,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=83.0) [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.98",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.266,
+      "rsi": 83.0
+    }
+  },
+  {
+    "date": "2022-06-01",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 227.47,
+    "reason": "Ranked in top 10. Score: 5.5 (value_judge=1.1, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=55.5) [Memory adj: -0.8]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.98",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.1,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.231,
+      "rsi": 55.5
+    }
+  },
+  {
+    "date": "2022-06-01",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 292.79,
+    "reason": "Ranked in top 10. Score: 5.5 (value_judge=1.0, momentum_judge=1.0, earnings_judge=1.0, valuation_judge=1.4, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=67.3) [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.98",
+    "scores": {
+      "composite": 5.5,
+      "value_judge": 1.0,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.291,
+      "rsi": 67.3
+    }
+  },
+  {
+    "date": "2022-06-10",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 217.81,
+    "reason": "STOP LOSS triggered (-4.25% loss) PnL: -4.2% (held since 2022-06-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2022-06-10",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 261.1,
+    "reason": "STOP LOSS triggered (-10.82% loss) PnL: -10.8% (held since 2022-06-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2022-06-13",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 59.99,
+    "reason": "STOP LOSS triggered (-5.22% loss) PnL: -5.2% (held since 2022-05-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2022-06-13",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 38.97,
+    "reason": "STOP LOSS triggered (-8.52% loss) PnL: -8.5% (held since 2022-06-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2022-06-13",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 15.99,
+    "reason": "STOP LOSS triggered (-6.88% loss) PnL: -6.9% (held since 2022-06-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2022-06-14",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 150.72,
+    "reason": "STOP LOSS triggered (-5.01% loss) PnL: -5.0% (held since 2022-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2022-06-16",
+    "action": "SELL",
+    "ticker": "CAT",
+    "price": 182.15,
+    "reason": "STOP LOSS triggered (-8.15% loss) PnL: -8.1% (held since 2022-05-02)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2022-07-01",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 57.59,
+    "reason": "Dropped from top 10. Score: 5.4 Replaced by: LMT, ABBV, JNJ PnL: +10.2% (held since 2022-01-03)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.4,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.248,
+      "rsi": 67.7
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 392.37,
+    "reason": "Ranked in top 10. Score: 7.8 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=52.2) [Memory adj: +1.0]",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.238,
+      "rsi": 52.2
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 134.07,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=69.8) [Memory adj: +0.3]",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.278,
+      "rsi": 69.8
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 160.88,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=62.6)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.198,
+      "rsi": 62.6
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 17.25,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=56.4)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.296,
+      "rsi": 56.4
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 63.82,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=53.4)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.229,
+      "rsi": 53.4
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 483.02,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=65.2)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.279,
+      "rsi": 65.2
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 150.11,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=63.2)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.245,
+      "rsi": 63.2
+    }
+  },
+  {
+    "date": "2022-07-01",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 72.61,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=59.6)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.93",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.345,
+      "rsi": 59.6
+    }
+  },
+  {
+    "date": "2022-07-13",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 369.27,
+    "reason": "STOP LOSS triggered (-5.89% loss) PnL: -5.9% (held since 2022-07-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.87"
+  },
+  {
+    "date": "2022-07-19",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 153.86,
+    "reason": "STOP LOSS triggered (-4.36% loss) [MEMORY: repeated loser, 3 trades avg -3.8%] PnL: -4.4% (held since 2022-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.94"
+  },
+  {
+    "date": "2022-07-21",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 15.52,
+    "reason": "STOP LOSS triggered (-10.03% loss) PnL: -10.0% (held since 2022-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.94"
+  },
+  {
+    "date": "2022-07-29",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 126.27,
+    "reason": "STOP LOSS triggered (-5.82% loss) PnL: -5.8% (held since 2022-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.94"
+  },
+  {
+    "date": "2022-08-01",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 66.91,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: V, UNH, XOM PnL: +4.8% (held since 2022-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.86",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.219,
+      "rsi": 72.9
+    }
+  },
+  {
+    "date": "2022-08-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 205.39,
+    "reason": "Ranked in top 10. Score: 5.1 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=61.6) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.86",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.313,
+      "rsi": 61.6
+    }
+  },
+  {
+    "date": "2022-08-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 83.17,
+    "reason": "Ranked in top 10. Score: 5.0 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.4, rsi=71.4) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.86",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.418,
+      "rsi": 71.4
+    }
+  },
+  {
+    "date": "2022-08-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 343.36,
+    "reason": "Ranked in top 10. Score: 4.9 (value_judge=1.0, momentum_judge=1.4, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=78.1) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.86",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.334,
+      "rsi": 78.1
+    }
+  },
+  {
+    "date": "2022-08-01",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 583.12,
+    "reason": "Ranked in top 10. Score: 4.9 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.4, rsi=68.9) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.86",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.363,
+      "rsi": 68.9
+    }
+  },
+  {
+    "date": "2022-08-01",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 107.04,
+    "reason": "Ranked in top 10. Score: 4.7 (value_judge=1.3, momentum_judge=1.0, earnings_judge=1.5, valuation_judge=1.4, risk_judge=0.5, conflict_penalty=0.0, vol=0.5, rsi=67.4) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.86",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.3,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 0.5,
+      "conflict_penalty": false,
+      "vol": 0.45,
+      "rsi": 67.4
+    }
+  },
+  {
+    "date": "2022-08-04",
+    "action": "SELL",
+    "ticker": "XOM",
+    "price": 76.75,
+    "reason": "STOP LOSS triggered (-7.72% loss) PnL: -7.7% (held since 2022-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-08-04",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 296.32,
+    "reason": "EARNINGS strong_miss: surprise -0.2631% [LLMInspired] PnL: +6.0% (held since 2022-05-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-08-26",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 325.16,
+    "reason": "STOP LOSS triggered (-5.3% loss) PnL: -5.3% (held since 2022-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-08-26",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 557.56,
+    "reason": "STOP LOSS triggered (-4.38% loss) PnL: -4.4% (held since 2022-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-08-26",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 101.4,
+    "reason": "STOP LOSS triggered (-5.27% loss) PnL: -5.3% (held since 2022-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.79"
+  },
+  {
+    "date": "2022-08-30",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 196.04,
+    "reason": "STOP LOSS triggered (-4.55% loss) PnL: -4.6% (held since 2022-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.58"
+  },
+  {
+    "date": "2022-09-01",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 489.18,
+    "reason": "Dropped from top 10. Score: 5.1 Replaced by: SO, PEP, NEE PnL: +1.3% (held since 2022-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 5.1,
+      "value_judge": 1.0,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.264,
+      "rsi": 31.5
+    }
+  },
+  {
+    "date": "2022-09-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 69.34,
+    "reason": "Ranked in top 10. Score: 5.6 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=53.8) [Memory adj: -0.2]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.226,
+      "rsi": 53.8
+    }
+  },
+  {
+    "date": "2022-09-01",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 164.92,
+    "reason": "Ranked in top 10. Score: 4.9 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=34.2) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.238,
+      "rsi": 34.2
+    }
+  },
+  {
+    "date": "2022-09-01",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 236.62,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=1.1, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=41.8) [Memory adj: -0.8]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.1,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.177,
+      "rsi": 41.8
+    }
+  },
+  {
+    "date": "2022-09-01",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 109.94,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=1.0, momentum_judge=1.2, earnings_judge=1.5, valuation_judge=1.4, risk_judge=0.7, conflict_penalty=0.0, vol=0.3, rsi=29.4) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 0.7,
+      "conflict_penalty": false,
+      "vol": 0.342,
+      "rsi": 29.4
+    }
+  },
+  {
+    "date": "2022-09-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 506.28,
+    "reason": "Ranked in top 10. Score: 4.7 (value_judge=1.5, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.2, rsi=45.4) [Memory adj: -0.8]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.5,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.248,
+      "rsi": 45.4
+    }
+  },
+  {
+    "date": "2022-09-01",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 305.67,
+    "reason": "Ranked in top 10. Score: 4.7 (value_judge=1.0, momentum_judge=1.2, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=28.2) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.313,
+      "rsi": 28.2
+    }
+  },
+  {
+    "date": "2022-09-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 134.75,
+    "reason": "Ranked in top 10. Score: 4.7 (value_judge=1.0, momentum_judge=1.4, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.4, rsi=45.0) [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.378,
+      "rsi": 45.0
+    }
+  },
+  {
+    "date": "2022-09-15",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 155.19,
+    "reason": "STOP LOSS triggered (-5.91% loss) PnL: -5.9% (held since 2022-09-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2022-09-15",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 481.72,
+    "reason": "STOP LOSS triggered (-4.85% loss) PnL: -4.9% (held since 2022-09-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2022-09-21",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 102.09,
+    "reason": "STOP LOSS triggered (-7.14% loss) PnL: -7.1% (held since 2022-09-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.48"
+  },
+  {
+    "date": "2022-09-22",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 228.75,
+    "reason": "STOP LOSS triggered (-3.33% loss) [MEMORY: repeated loser, 3 trades avg -4.3%] PnL: -3.3% (held since 2022-09-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2022-09-22",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 286.81,
+    "reason": "STOP LOSS triggered (-6.17% loss) PnL: -6.2% (held since 2022-09-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2022-09-23",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 66.01,
+    "reason": "STOP LOSS triggered (-4.8% loss) PnL: -4.8% (held since 2022-09-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2022-09-23",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 125.42,
+    "reason": "STOP LOSS triggered (-6.92% loss) PnL: -6.9% (held since 2022-09-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 147.43,
+    "reason": "Dropped from top 10. Score: 4.9 Replaced by: LMT, KO, V PnL: -1.8% (held since 2022-07-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 4.9,
+      "value_judge": 1.0,
+      "momentum_judge": 0.5,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.168,
+      "rsi": 44.7
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 73.53,
+    "reason": "Dropped from top 10. Score: 5.1 Replaced by: LMT, KO, V PnL: +1.3% (held since 2022-07-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.1,
+      "value_judge": 1.0,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.251,
+      "rsi": 30.8
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 364.2,
+    "reason": "Ranked in top 10. Score: 6.9 (value_judge=1.0, momentum_judge=0.5, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=43.1) [Memory adj: +1.0]",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 4.9,
+      "value_judge": 1.0,
+      "momentum_judge": 0.5,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.195,
+      "rsi": 43.1
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 51.05,
+    "reason": "Ranked in top 10. Score: 6.7 (value_judge=1.0, momentum_judge=0.3, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=27.1) [Memory adj: +1.0]",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 4.7,
+      "value_judge": 1.0,
+      "momentum_judge": 0.3,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.165,
+      "rsi": 27.1
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 176.83,
+    "reason": "Ranked in top 10. Score: 5.6 (value_judge=1.5, momentum_judge=0.6, earnings_judge=1.0, valuation_judge=1.4, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=20.4)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.6,
+      "value_judge": 1.5,
+      "momentum_judge": 0.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.221,
+      "rsi": 20.4
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 312.61,
+    "reason": "Ranked in top 10. Score: 5.6 (value_judge=1.0, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=60.1)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.6,
+      "value_judge": 1.0,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.301,
+      "rsi": 60.1
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 233.92,
+    "reason": "Ranked in top 10. Score: 5.5 (value_judge=1.7, momentum_judge=0.4, earnings_judge=1.0, valuation_judge=1.4, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=36.2)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.5,
+      "value_judge": 1.7,
+      "momentum_judge": 0.4,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.306,
+      "rsi": 36.2
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 81.7,
+    "reason": "Ranked in top 10. Score: 5.4 (value_judge=1.0, momentum_judge=1.4, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=43.7)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.4,
+      "value_judge": 1.0,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.347,
+      "rsi": 43.7
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 117.46,
+    "reason": "Ranked in top 10. Score: 5.3 (value_judge=1.5, momentum_judge=0.3, earnings_judge=1.0, valuation_judge=1.4, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=22.8)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.3,
+      "value_judge": 1.5,
+      "momentum_judge": 0.3,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.227,
+      "rsi": 22.8
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 482.76,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.0, momentum_judge=1.1, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=51.1)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.1,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.226,
+      "rsi": 51.1
+    }
+  },
+  {
+    "date": "2022-10-03",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 121.7,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.0, momentum_judge=0.5, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=49.7) [Memory adj: +0.3]",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 4.6,
+      "value_judge": 1.0,
+      "momentum_judge": 0.5,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.246,
+      "rsi": 49.7
+    }
+  },
+  {
+    "date": "2022-10-10",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 49.01,
+    "reason": "STOP LOSS triggered (-3.99% loss) PnL: -4.0% (held since 2022-10-03)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2022-10-11",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 219.03,
+    "reason": "STOP LOSS triggered (-6.37% loss) PnL: -6.4% (held since 2022-10-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2022-10-19",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 27.24,
+    "reason": "VOLUME SPIKE: +13.1% on 3.1x vol \u2014 LLMInspired cautious entry",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.90"
+  }
+]

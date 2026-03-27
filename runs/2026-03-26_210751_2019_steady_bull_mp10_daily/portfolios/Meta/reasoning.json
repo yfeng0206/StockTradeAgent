@@ -1,0 +1,1867 @@
+[
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 35.5,
+    "reason": "Ranked in top 10. Score: 7.029 (low_vol=6.1, trend=7.0, drawdown=8.3, event_adj=0.0, meta_confidence=0.8)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 7.03,
+      "low_vol": 6.07,
+      "trend": 7,
+      "drawdown": 8.34,
+      "event_adj": 0,
+      "state": "DEFENSE",
+      "meta_regime": "bear",
+      "meta_specialist": "Defensive",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 37.58,
+    "reason": "Ranked in top 10. Score: 6.827 (low_vol=6.4, trend=7.0, drawdown=7.3, event_adj=0.0, meta_confidence=0.8)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 6.83,
+      "low_vol": 6.36,
+      "trend": 7,
+      "drawdown": 7.27,
+      "event_adj": 0,
+      "state": "DEFENSE",
+      "meta_regime": "bear",
+      "meta_specialist": "Defensive",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-01-16",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 166.56,
+    "reason": "VOLUME SPIKE: +9.5% on 3.1x vol \u2014 Meta cautious entry",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.23"
+  },
+  {
+    "date": "2019-01-31",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 165.39,
+    "reason": "VOLUME SPIKE: +10.8% on 3.1x vol \u2014 Meta cautious entry",
+    "regime": "normal",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (4.0). Best: AAPL=3.5. Holding cash.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 37.17,
+    "reason": "Dropped from top 10. Score: 3.48 PnL: +4.7% (held since 2019-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30",
+    "scores": {
+      "composite": 3.48,
+      "event": 1.5,
+      "vol_spike": 5,
+      "momentum": 7,
+      "meta_regime": "recovery",
+      "meta_specialist": "EventDriven",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-02-01",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 39.0,
+    "reason": "Dropped from top 10. PnL: +3.8% (held since 2019-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 166.11,
+    "reason": "Dropped from top 10. PnL: -0.3% (held since 2019-01-16)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 164.42,
+    "reason": "Dropped from top 10. PnL: -0.6% (held since 2019-01-31)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 62.26,
+    "reason": "Ranked in top 10. Score: 8.427 (momentum=10.0, trend=10.0, macd=7.0, volume=3.5, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 8.43,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.51,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 29.63,
+    "reason": "Ranked in top 10. Score: 8.099 (momentum=8.9, trend=10.0, macd=7.0, volume=4.3, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 8.1,
+      "momentum": 8.89,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.29,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 117.66,
+    "reason": "Ranked in top 10. Score: 7.8 (momentum=6.0, trend=10.0, macd=7.0, volume=10.0, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.8,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 10,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 162.55,
+    "reason": "Ranked in top 10. Score: 7.588 (momentum=9.5, trend=10.0, macd=3.0, volume=4.5, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.59,
+      "momentum": 9.54,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.48,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 23.68,
+    "reason": "Ranked in top 10. Score: 7.553 (momentum=10.0, trend=10.0, macd=3.0, volume=3.0, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.55,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.02,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 82.52,
+    "reason": "Ranked in top 10. Score: 7.517 (momentum=9.5, trend=10.0, macd=3.0, volume=4.1, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.52,
+      "momentum": 9.49,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.14,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 79.24,
+    "reason": "Ranked in top 10. Score: 7.374 (momentum=9.1, trend=10.0, macd=3.0, volume=4.1, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.37,
+      "momentum": 9.14,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.11,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 110.04,
+    "reason": "Ranked in top 10. Score: 7.347 (momentum=6.7, trend=10.0, macd=7.0, volume=5.0, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.35,
+      "momentum": 6.74,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.0,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 93.89,
+    "reason": "Ranked in top 10. Score: 7.062 (momentum=6.2, trend=10.0, macd=7.0, volume=4.7, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.06,
+      "momentum": 6.15,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.69,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 89.76,
+    "reason": "Ranked in top 10. Score: 6.997 (momentum=5.9, trend=9.0, macd=9.0, volume=4.0, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.0,
+      "momentum": 5.87,
+      "trend": 9,
+      "macd": 9,
+      "volume": 3.99,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-03-06",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 28.6,
+    "reason": "STOP LOSS triggered (-3.46% loss) PnL: -3.5% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.56"
+  },
+  {
+    "date": "2019-03-07",
+    "action": "SELL",
+    "ticker": "CRM",
+    "price": 153.73,
+    "reason": "STOP LOSS triggered (-5.43% loss) PnL: -5.4% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2019-03-07",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 22.08,
+    "reason": "STOP LOSS triggered (-6.76% loss) PnL: -6.8% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2019-03-11",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 112.78,
+    "reason": "STOP LOSS triggered (-4.14% loss) PnL: -4.1% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2019-03-19",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 106.17,
+    "reason": "STOP LOSS triggered (-3.52% loss) PnL: -3.5% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2019-03-19",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 26.0,
+    "reason": "VOLUME SPIKE: +11.8% on 2.8x vol \u2014 Meta cautious entry [Memory adj: -0.8]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2019-03-22",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 74.72,
+    "reason": "STOP LOSS triggered (-5.7% loss) PnL: -5.7% (held since 2019-03-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.14"
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 63.95,
+    "reason": "Dropped from top 10. Score: 7.75 Replaced by: MA, BA, AMD PnL: +2.7% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 7.75,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.33,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 98.6,
+    "reason": "Dropped from top 10. Score: 6.31 Replaced by: MA, BA, AMD PnL: +5.0% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 6.31,
+      "momentum": 4.22,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.79,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 91.9,
+    "reason": "Dropped from top 10. Score: 6.55 Replaced by: MA, BA, AMD PnL: +2.4% (held since 2019-03-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 6.55,
+      "momentum": 7.17,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.91,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 229.9,
+    "reason": "Ranked in top 10. Score: 8.533 (momentum=10.0, trend=10.0, macd=9.0, volume=4.9, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 9.03,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 9,
+      "volume": 4.89,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 382.37,
+    "reason": "Ranked in top 10. Score: 8.08 (momentum=10.0, trend=8.0, macd=9.0, volume=5.2, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.58,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 9,
+      "volume": 5.2,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 271.15,
+    "reason": "Ranked in top 10. Score: 7.933999999999999 (momentum=9.7, trend=10.0, macd=7.0, volume=4.5, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.43,
+      "momentum": 9.67,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.45,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 39.98,
+    "reason": "Ranked in top 10. Score: 7.824999999999999 (momentum=9.1, trend=10.0, macd=7.0, volume=5.2, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.33,
+      "momentum": 9.13,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.15,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 77.48,
+    "reason": "Ranked in top 10. Score: 7.698 (momentum=10.0, trend=10.0, macd=3.0, volume=7.3, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.2,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 7.32,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "ADBE",
+    "price": 272.17,
+    "reason": "Ranked in top 10. Score: 7.5489999999999995 (momentum=8.6, trend=10.0, macd=7.0, volume=4.7, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.05,
+      "momentum": 8.6,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.72,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 90.71,
+    "reason": "Ranked in top 10. Score: 7.505000000000001 (momentum=8.9, trend=9.0, macd=7.0, volume=5.2, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.0,
+      "momentum": 8.94,
+      "trend": 9,
+      "macd": 7,
+      "volume": 5.2,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 29.27,
+    "reason": "Ranked in top 10. Score: 7.502 (momentum=9.5, trend=10.0, macd=7.0, volume=3.9, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.3,
+      "momentum": 9.53,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.92,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-04-09",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 360.4,
+    "reason": "STOP LOSS triggered (-5.75% loss) PnL: -5.7% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43"
+  },
+  {
+    "date": "2019-04-12",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 28.5,
+    "reason": "STOP LOSS triggered (-2.64% loss) PnL: -2.6% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.34"
+  },
+  {
+    "date": "2019-04-12",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 125.53,
+    "reason": "VOLUME SPIKE: +11.5% on 3.2x vol \u2014 Meta cautious entry [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.34"
+  },
+  {
+    "date": "2019-04-17",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 252.81,
+    "reason": "STOP LOSS triggered (-6.76% loss) PnL: -6.8% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.42"
+  },
+  {
+    "date": "2019-04-25",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 38.18,
+    "reason": "STOP LOSS triggered (-4.51% loss) PnL: -4.5% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.42"
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 88.58,
+    "reason": "Dropped from top 10. Score: 7.89 Replaced by: TMO, ABT, MA PnL: +7.3% (held since 2019-03-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 7.89,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.3,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 26.81,
+    "reason": "Dropped from top 10. Score: 7.76 Replaced by: TMO, ABT, MA PnL: +3.1% (held since 2019-03-19)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 7.76,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.4,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 78.09,
+    "reason": "Dropped from top 10. Score: 7.55 Replaced by: TMO, ABT, MA PnL: +0.8% (held since 2019-04-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 7.55,
+      "momentum": 9.21,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.11,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 95.58,
+    "reason": "Dropped from top 10. Score: 7.65 Replaced by: TMO, ABT, MA PnL: +5.4% (held since 2019-04-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 7.65,
+      "momentum": 7.44,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.13,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 131.63,
+    "reason": "Dropped from top 10. Score: 6.34 Replaced by: TMO, ABT, MA PnL: +4.9% (held since 2019-04-12)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 6.34,
+      "momentum": 4.37,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.65,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 271.44,
+    "reason": "Ranked in top 10. Score: 9.399 (momentum=10.0, trend=10.0, macd=9.0, volume=7.3, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 9.4,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 9,
+      "volume": 7.33,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 69.92,
+    "reason": "Ranked in top 10. Score: 8.776 (momentum=10.0, trend=10.0, macd=7.0, volume=5.8, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.78,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.84,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 60.43,
+    "reason": "Ranked in top 10. Score: 8.536 (momentum=10.0, trend=8.0, macd=7.0, volume=7.6, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.54,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 7.57,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 119.89,
+    "reason": "Ranked in top 10. Score: 8.497 (momentum=9.6, trend=10.0, macd=7.0, volume=5.0, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.5,
+      "momentum": 9.6,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.05,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 160.2,
+    "reason": "Ranked in top 10. Score: 8.465 (momentum=10.0, trend=10.0, macd=7.0, volume=3.8, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.47,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.77,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 102.83,
+    "reason": "Ranked in top 10. Score: 8.362 (momentum=9.5, trend=10.0, macd=7.0, volume=4.5, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.36,
+      "momentum": 9.49,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.45,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 154.99,
+    "reason": "Ranked in top 10. Score: 8.176 (momentum=9.1, trend=10.0, macd=7.0, volume=4.2, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.18,
+      "momentum": 9.09,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.25,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "HON",
+    "price": 139.39,
+    "reason": "Ranked in top 10. Score: 8.128 (momentum=8.1, trend=10.0, macd=7.0, volume=6.5, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 8.13,
+      "momentum": 8.12,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.53,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-05-13",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 256.31,
+    "reason": "STOP LOSS triggered (-5.57% loss) PnL: -5.6% (held since 2019-05-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.44"
+  },
+  {
+    "date": "2019-05-13",
+    "action": "SELL",
+    "ticker": "CRM",
+    "price": 151.31,
+    "reason": "STOP LOSS triggered (-5.55% loss) PnL: -5.6% (held since 2019-05-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.44"
+  },
+  {
+    "date": "2019-05-13",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 149.79,
+    "reason": "STOP LOSS triggered (-3.35% loss) PnL: -3.4% (held since 2019-05-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.44"
+  },
+  {
+    "date": "2019-05-20",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 67.29,
+    "reason": "STOP LOSS triggered (-3.77% loss) PnL: -3.8% (held since 2019-05-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2019-05-29",
+    "action": "SELL",
+    "ticker": "HON",
+    "price": 134.69,
+    "reason": "STOP LOSS triggered (-3.38% loss) PnL: -3.4% (held since 2019-05-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2019-06-03",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 112.77,
+    "reason": "STOP LOSS triggered (-5.94% loss) PnL: -5.9% (held since 2019-05-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (4.0). Best: NKE=3.0. Holding cash.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 256.92,
+    "reason": "Dropped from top 10. PnL: +11.8% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "ADBE",
+    "price": 300.97,
+    "reason": "Dropped from top 10. PnL: +10.6% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 65.5,
+    "reason": "Dropped from top 10. PnL: +8.4% (held since 2019-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 107.35,
+    "reason": "Dropped from top 10. PnL: +4.4% (held since 2019-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-07-24",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 87.39,
+    "reason": "VOLUME SPIKE: +8.7% on 4.0x vol \u2014 Meta cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2019-07-26",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 61.75,
+    "reason": "VOLUME SPIKE: +9.6% on 3.8x vol \u2014 Meta cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2019-08-01",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 89.37,
+    "reason": "Dropped from top 10. Score: 6.16 Replaced by: PG, SO, MRK PnL: +2.3% (held since 2019-07-24)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 6.16,
+      "momentum": 3.24,
+      "trend": 9,
+      "macd": 7,
+      "volume": 8.06,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 60.09,
+    "reason": "Dropped from top 10. Score: 6.02 Replaced by: PG, SO, MRK PnL: -2.7% (held since 2019-07-26)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 6.02,
+      "momentum": 3.51,
+      "trend": 9,
+      "macd": 7,
+      "volume": 6.45,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 99.18,
+    "reason": "Ranked in top 10. Score: 8.324 (momentum=10.0, trend=10.0, macd=7.0, volume=6.2, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 8.82,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.16,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 43.92,
+    "reason": "Ranked in top 10. Score: 8.182 (momentum=8.8, trend=10.0, macd=9.0, volume=5.6, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 8.68,
+      "momentum": 8.84,
+      "trend": 10,
+      "macd": 9,
+      "volume": 5.64,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 64.68,
+    "reason": "Ranked in top 10. Score: 8.085 (momentum=10.0, trend=10.0, macd=7.0, volume=4.6, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 8.58,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.56,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 180.73,
+    "reason": "Ranked in top 10. Score: 7.475 (momentum=10.0, trend=10.0, macd=3.0, volume=5.8, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 7.98,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.83,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 44.53,
+    "reason": "Ranked in top 10. Score: 7.449 (momentum=9.6, trend=10.0, macd=3.0, volume=4.7, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.2]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 7.65,
+      "momentum": 9.59,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.74,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 129.91,
+    "reason": "Ranked in top 10. Score: 7.439 (momentum=10.0, trend=10.0, macd=3.0, volume=5.6, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 7.94,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.59,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 264.36,
+    "reason": "Ranked in top 10. Score: 7.332 (momentum=10.0, trend=10.0, macd=3.0, volume=4.9, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 7.83,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.88,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 16.37,
+    "reason": "Ranked in top 10. Score: 7.304 (momentum=7.2, trend=10.0, macd=7.0, volume=6.7, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 7.8,
+      "momentum": 7.23,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.74,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 137.76,
+    "reason": "Ranked in top 10. Score: 7.16 (momentum=9.6, trend=10.0, macd=3.0, volume=4.8, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 7.66,
+      "momentum": 9.59,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.82,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 76.73,
+    "reason": "Ranked in top 10. Score: 7.008 (momentum=10.0, trend=10.0, macd=3.0, volume=4.7, event_boost=0.0, meta_confidence=0.8) [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60",
+    "scores": {
+      "composite": 7.81,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.72,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-08-05",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 124.41,
+    "reason": "STOP LOSS triggered (-4.24% loss) PnL: -4.2% (held since 2019-08-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2019-08-05",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 247.66,
+    "reason": "STOP LOSS triggered (-6.32% loss) PnL: -6.3% (held since 2019-08-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2019-08-07",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 130.97,
+    "reason": "STOP LOSS triggered (-4.93% loss) PnL: -4.9% (held since 2019-08-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2019-08-08",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 33.92,
+    "reason": "VOLUME SPIKE: +16.2% on 2.6x vol \u2014 Meta cautious entry [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2019-08-14",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 30.24,
+    "reason": "STOP LOSS triggered (-10.85% loss) PnL: -10.8% (held since 2019-08-08)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.33"
+  },
+  {
+    "date": "2019-08-23",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 73.03,
+    "reason": "STOP LOSS triggered (-4.82% loss) PnL: -4.8% (held since 2019-08-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2019-09-02",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 111.31,
+    "reason": "Ranked in top 10. Score: 7.104 (low_vol=6.9, trend=7.0, drawdown=7.5, event_adj=0.0, meta_confidence=0.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35",
+    "scores": {
+      "composite": 7.1,
+      "low_vol": 6.86,
+      "trend": 7,
+      "drawdown": 7.53,
+      "event_adj": 0,
+      "state": "NORMAL",
+      "meta_regime": "weakening",
+      "meta_specialist": "Defensive",
+      "meta_confidence": 0.67
+    }
+  },
+  {
+    "date": "2019-09-02",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 40.18,
+    "reason": "Ranked in top 10. Score: 7.081 (low_vol=6.8, trend=7.0, drawdown=7.5, event_adj=0.0, meta_confidence=0.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35",
+    "scores": {
+      "composite": 7.08,
+      "low_vol": 6.83,
+      "trend": 7,
+      "drawdown": 7.49,
+      "event_adj": 0,
+      "state": "NORMAL",
+      "meta_regime": "weakening",
+      "meta_specialist": "Defensive",
+      "meta_confidence": 0.67
+    }
+  },
+  {
+    "date": "2019-09-02",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 44.81,
+    "reason": "Ranked in top 10. Score: 6.938 (low_vol=6.3, trend=7.0, drawdown=7.7, event_adj=0.0, meta_confidence=0.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35",
+    "scores": {
+      "composite": 6.94,
+      "low_vol": 6.29,
+      "trend": 7,
+      "drawdown": 7.73,
+      "event_adj": 0,
+      "state": "NORMAL",
+      "meta_regime": "weakening",
+      "meta_specialist": "Defensive",
+      "meta_confidence": 0.67
+    }
+  },
+  {
+    "date": "2019-09-02",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 76.05,
+    "reason": "Ranked in top 10. Score: 6.804 (low_vol=6.0, trend=7.0, drawdown=7.7, event_adj=0.0, meta_confidence=0.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35",
+    "scores": {
+      "composite": 6.8,
+      "low_vol": 6.02,
+      "trend": 7,
+      "drawdown": 7.65,
+      "event_adj": 0,
+      "state": "NORMAL",
+      "meta_regime": "weakening",
+      "meta_specialist": "Defensive",
+      "meta_confidence": 0.67
+    }
+  },
+  {
+    "date": "2019-09-27",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 72.95,
+    "reason": "STOP LOSS triggered (-4.08% loss) PnL: -4.1% (held since 2019-09-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 72.95,
+    "reason": "Ranked in top 10. Score: 5.849 (low_vol=5.6, trend=7.0, drawdown=7.7, event_adj=0.0, meta_confidence=0.7) [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 6.65,
+      "low_vol": 5.63,
+      "trend": 7,
+      "drawdown": 7.65,
+      "event_adj": 0,
+      "state": "NORMAL",
+      "meta_regime": "weakening",
+      "meta_specialist": "Defensive",
+      "meta_confidence": 0.67
+    }
+  },
+  {
+    "date": "2019-10-02",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 43.53,
+    "reason": "STOP LOSS triggered (-2.86% loss) PnL: -2.9% (held since 2019-09-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.56"
+  },
+  {
+    "date": "2019-10-15",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 213.87,
+    "reason": "VOLUME SPIKE: +8.2% on 2.6x vol \u2014 Meta cautious entry [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2019-10-22",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 171.38,
+    "reason": "STOP LOSS triggered (-5.17% loss) PnL: -5.2% (held since 2019-08-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.32"
+  },
+  {
+    "date": "2019-10-24",
+    "action": "BUY",
+    "ticker": "TSLA",
+    "price": 19.98,
+    "reason": "VOLUME SPIKE: +17.7% on 3.5x vol \u2014 Meta cautious entry [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 50.19,
+    "reason": "Dropped from top 10. Score: 7.78 Replaced by: MA, T, MSFT PnL: +12.7% (held since 2019-08-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 7.78,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.55,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 112.24,
+    "reason": "Dropped from top 10. Score: 7.66 Replaced by: MA, T, MSFT PnL: +0.8% (held since 2019-09-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 7.66,
+      "momentum": 9.94,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.89,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 42.14,
+    "reason": "Dropped from top 10. Score: 6.58 Replaced by: MA, T, MSFT PnL: +4.9% (held since 2019-09-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 6.58,
+      "momentum": 6.71,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.32,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 73.97,
+    "reason": "Dropped from top 10. Score: 7.91 Replaced by: MA, T, MSFT PnL: +1.4% (held since 2019-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 7.91,
+      "momentum": 8.06,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.26,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 226.07,
+    "reason": "Dropped from top 10. Score: 4.85 Replaced by: MA, T, MSFT PnL: +5.7% (held since 2019-10-15)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 4.85,
+      "momentum": 1.56,
+      "trend": 9,
+      "macd": 7,
+      "volume": 3.86,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "SELL",
+    "ticker": "TSLA",
+    "price": 20.89,
+    "reason": "Dropped from top 10. Score: 4.82 Replaced by: MA, T, MSFT PnL: +4.5% (held since 2019-10-24)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 4.82,
+      "momentum": 0,
+      "trend": 9,
+      "macd": 7,
+      "volume": 7.82,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 269.4,
+    "reason": "Ranked in top 10. Score: 9.761 (momentum=10.0, trend=10.0, macd=7.0, volume=5.7, event_boost=0.0, meta_confidence=0.8) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 8.76,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.74,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 135.69,
+    "reason": "Ranked in top 10. Score: 8.752 (momentum=10.0, trend=10.0, macd=7.0, volume=5.7, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 8.75,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.68,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 318.58,
+    "reason": "Ranked in top 10. Score: 8.681 (momentum=10.0, trend=8.0, macd=9.0, volume=5.9, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 8.68,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 9,
+      "volume": 5.88,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "ADBE",
+    "price": 277.82,
+    "reason": "Ranked in top 10. Score: 8.457 (momentum=7.2, trend=10.0, macd=7.0, volume=4.6, event_boost=0.0, meta_confidence=0.8) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 7.46,
+      "momentum": 7.15,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.64,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 172.77,
+    "reason": "Ranked in top 10. Score: 8.395 (momentum=9.3, trend=10.0, macd=7.0, volume=5.2, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 8.4,
+      "momentum": 9.3,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.18,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 192.11,
+    "reason": "Ranked in top 10. Score: 8.145 (momentum=8.2, trend=10.0, macd=7.0, volume=6.6, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43",
+    "scores": {
+      "composite": 8.15,
+      "momentum": 8.15,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.56,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 67.71,
+    "reason": "Dropped from top 10. Score: 7.35 Replaced by: PG, NEE, META PnL: +4.7% (held since 2019-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 7.35,
+      "momentum": 6.67,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.23,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 18.23,
+    "reason": "Dropped from top 10. Score: 7.55 Replaced by: PG, NEE, META PnL: +11.4% (held since 2019-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 7.55,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 6.31,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 324.29,
+    "reason": "Dropped from top 10. Score: 7.65 Replaced by: PG, NEE, META PnL: +1.8% (held since 2019-11-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 7.65,
+      "momentum": 9.78,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.26,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "ADBE",
+    "price": 302.75,
+    "reason": "Dropped from top 10. Score: 7.17 Replaced by: PG, NEE, META PnL: +9.0% (held since 2019-11-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 7.17,
+      "momentum": 6.79,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.72,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 49.51,
+    "reason": "Ranked in top 10. Score: 8.639 (momentum=10.0, trend=10.0, macd=7.0, volume=4.9, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 8.64,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.93,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 146.28,
+    "reason": "Ranked in top 10. Score: 8.112 (momentum=7.8, trend=10.0, macd=7.0, volume=5.4, event_boost=0.0, meta_confidence=0.8) [Memory adj: +0.3]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 7.81,
+      "momentum": 7.76,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.39,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "BUY",
+    "ticker": "HD",
+    "price": 185.79,
+    "reason": "Ranked in top 10. Score: 8.1 (momentum=10.0, trend=8.0, macd=3.0, volume=10.0, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 8.1,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 10,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 271.52,
+    "reason": "Ranked in top 10. Score: 7.769 (momentum=9.9, trend=10.0, macd=3.0, volume=4.8, event_boost=0.0, meta_confidence=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64",
+    "scores": {
+      "composite": 7.77,
+      "momentum": 9.88,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.78,
+      "event_boost": 0,
+      "meta_regime": "strong_bull",
+      "meta_specialist": "Momentum",
+      "meta_confidence": 0.83
+    }
+  },
+  {
+    "date": "2019-12-23",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 141.35,
+    "reason": "STOP LOSS triggered (-3.37% loss) PnL: -3.4% (held since 2019-12-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.44"
+  }
+]

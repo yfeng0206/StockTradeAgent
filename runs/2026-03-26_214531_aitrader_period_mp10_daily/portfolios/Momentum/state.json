@@ -1,0 +1,57 @@
+{
+  "final_value": 99042.42,
+  "cash": 95.42,
+  "positions": {
+    "V": {
+      "shares": 28,
+      "entry_price": 346.4280090332031,
+      "entry_date": "2025-10-01"
+    },
+    "NVDA": {
+      "shares": 52,
+      "entry_price": 187.21945190429688,
+      "entry_date": "2025-10-01"
+    },
+    "JPM": {
+      "shares": 31,
+      "entry_price": 307.8182067871094,
+      "entry_date": "2025-10-01"
+    },
+    "MS": {
+      "shares": 63,
+      "entry_price": 155.08570861816406,
+      "entry_date": "2025-10-01"
+    },
+    "MSFT": {
+      "shares": 18,
+      "entry_price": 517.557861328125,
+      "entry_date": "2025-10-01"
+    },
+    "WFC": {
+      "shares": 122,
+      "entry_price": 80.05359649658203,
+      "entry_date": "2025-10-01"
+    },
+    "GS": {
+      "shares": 12,
+      "entry_price": 777.5430297851562,
+      "entry_date": "2025-10-01"
+    },
+    "TMO": {
+      "shares": 24,
+      "entry_price": 566.2140502929688,
+      "entry_date": "2025-10-22"
+    },
+    "UPS": {
+      "shares": 102,
+      "entry_price": 94.41901397705078,
+      "entry_date": "2025-10-29"
+    },
+    "CVX": {
+      "shares": 56,
+      "entry_price": 150.86280822753906,
+      "entry_date": "2025-11-03"
+    }
+  },
+  "return_pct": -0.96
+}

@@ -1,0 +1,8338 @@
+[
+  {
+    "date": "2025-10-01",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Value",
+    "trigger": "NEWS_SPIKE",
+    "ticker": null,
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PFE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NKE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PFE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NKE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PFE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NKE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PFE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NKE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PFE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NKE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PFE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NKE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PFE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-01",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NKE",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Momentum",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-02",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "Adaptive",
+    "trigger": "STOP_LOSS",
+    "ticker": "ABBV",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-03",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NKE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Value",
+    "trigger": "STOP_LOSS",
+    "ticker": "T",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Momentum",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "T",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "VZ",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Defensive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-06",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-07",
+    "strategy": "EventDriven",
+    "trigger": "STOP_LOSS",
+    "ticker": "NKE",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-07",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Balanced",
+    "trigger": "STOP_LOSS",
+    "ticker": "PEP",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Balanced",
+    "trigger": "STOP_LOSS",
+    "ticker": "HD",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "EventDriven",
+    "trigger": "STOP_LOSS",
+    "ticker": "HD",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "EventDriven",
+    "trigger": "PRICE_ALERT",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-08",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "MCD",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Adaptive",
+    "trigger": "STOP_LOSS",
+    "ticker": "NKE",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-09",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Value",
+    "trigger": "REGIME_CHANGE",
+    "ticker": null,
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Momentum",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "MA",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "CVX",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "EventDriven",
+    "trigger": "PRICE_ALERT",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Adaptive",
+    "trigger": "STOP_LOSS",
+    "ticker": "TSLA",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Adaptive",
+    "trigger": "STOP_LOSS",
+    "ticker": "AAPL",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-10",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PEP",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-13",
+    "strategy": "Momentum",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-13",
+    "strategy": "Balanced",
+    "trigger": "STOP_LOSS",
+    "ticker": "MRK",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "PRICE_ALERT",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "GS",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-14",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "WFC",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "MS",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "MS",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "PRICE_ALERT",
+    "ticker": "AMD",
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-15",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "CRM",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "V",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "BAC",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "CRM",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-16",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BAC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "WFC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JPM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BLK",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "JNJ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-17",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LMT",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-21",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-22",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "PRICE_ALERT",
+    "ticker": "HON",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "HON",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-23",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "REGIME_CHANGE",
+    "ticker": null,
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "KO",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "PRICE_ALERT",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TSLA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NFLX",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "INTC",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "TMO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "KO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "HON",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LMT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-24",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "T",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "EventDriven",
+    "trigger": "PROFIT_TARGET",
+    "ticker": "AMD",
+    "severity": "LOW",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-27",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PG",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Value",
+    "trigger": "PRICE_ALERT",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "UPS",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "UPS",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "UPS",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "UPS",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "EventDriven",
+    "trigger": "PRICE_ALERT",
+    "ticker": "INTC",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "UPS",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "EventDriven",
+    "trigger": "PROFIT_TARGET",
+    "ticker": "AMD",
+    "severity": "LOW",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "INTC",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "UPS",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-28",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "UPS",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "STOP_LOSS",
+    "ticker": "CMCSA",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "PRICE_ALERT",
+    "ticker": "ADBE",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "BA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "PRICE_ALERT",
+    "ticker": "ADBE",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "EventDriven",
+    "trigger": "PROFIT_TARGET",
+    "ticker": "AMD",
+    "severity": "LOW",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-29",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "REGIME_CHANGE",
+    "ticker": null,
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "EventDriven",
+    "trigger": "PROFIT_TARGET",
+    "ticker": "AMD",
+    "severity": "LOW",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "GOOGL",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-30",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "REGIME_CHANGE",
+    "ticker": null,
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "EventDriven",
+    "trigger": "PROFIT_TARGET",
+    "ticker": "AMD",
+    "severity": "LOW",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "GOOGL",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "META",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "LLY",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MRK",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CAT",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "BA",
+    "severity": "HIGH",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UPS",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "NEE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "SO",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "AMZN",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AAPL",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MSFT",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "V",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "UNH",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CMCSA",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-10-31",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "VZ",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Momentum",
+    "trigger": "STOP_LOSS",
+    "ticker": "BLK",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "MRK",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "EventDriven",
+    "trigger": "PROFIT_TARGET",
+    "ticker": "AMD",
+    "severity": "LOW",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "CVX",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "ABBV",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-03",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "XOM",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Value",
+    "trigger": "REGIME_CHANGE",
+    "ticker": null,
+    "severity": "HIGH",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "CVX",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "EventDriven",
+    "trigger": "PRICE_ALERT",
+    "ticker": "INTC",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "INTC",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "TSLA",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-04",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Balanced",
+    "trigger": "STOP_LOSS",
+    "ticker": "LMT",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "SO",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "LMT",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Defensive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "EventDriven",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Adaptive",
+    "trigger": "VOLUME_ANOMALY",
+    "ticker": "LLY",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-05",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Value",
+    "trigger": "PRICE_ALERT",
+    "ticker": "CRM",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Defensive",
+    "trigger": "STOP_LOSS",
+    "ticker": "MSFT",
+    "severity": "CRITICAL",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-06",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Value",
+    "trigger": "PRICE_ALERT",
+    "ticker": "CRM",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Value",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Momentum",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Balanced",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Defensive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "EventDriven",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Adaptive",
+    "trigger": "PRICE_ALERT",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "REVIEW"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Adaptive",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "PFE",
+    "severity": "HIGH",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "AMD",
+    "severity": "MEDIUM",
+    "action": "BUY"
+  },
+  {
+    "date": "2025-11-07",
+    "strategy": "Commodity",
+    "trigger": "EARNINGS_RELEASE",
+    "ticker": "MCD",
+    "severity": "MEDIUM",
+    "action": "SELL"
+  }
+]

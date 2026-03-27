@@ -1,0 +1,508 @@
+[
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 73.24,
+    "reason": "EARNINGS strong_beat: surprise 0.8449% [Balanced]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 73.24,
+    "reason": "Dropped from top 10. Score: 5.98 Replaced by: MRK, LMT, PEP",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 5.98,
+      "value": 4.15,
+      "momentum": 4.18,
+      "stability": 4.98,
+      "event_adj": 1.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 88.71,
+    "reason": "Ranked in top 10. Score: 6.943 (value=5.9, momentum=8.4, stability=7.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.94,
+      "value": 5.88,
+      "momentum": 8.38,
+      "stability": 7.6,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 492.64,
+    "reason": "Ranked in top 10. Score: 6.592 (value=5.6, momentum=8.0, stability=7.2, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.59,
+      "value": 5.6,
+      "momentum": 7.98,
+      "stability": 7.19,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 140.5,
+    "reason": "Ranked in top 10. Score: 6.572 (value=5.8, momentum=5.2, stability=7.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.57,
+      "value": 5.85,
+      "momentum": 5.22,
+      "stability": 7.89,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 155.09,
+    "reason": "Ranked in top 10. Score: 6.172 (value=3.6, momentum=7.3, stability=7.4, event_adj=0.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.17,
+      "value": 3.56,
+      "momentum": 7.32,
+      "stability": 7.43,
+      "event_adj": 0.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 183.9,
+    "reason": "Ranked in top 10. Score: 6.168 (value=3.3, momentum=8.7, stability=8.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.17,
+      "value": 3.31,
+      "momentum": 8.72,
+      "stability": 8.43,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 93.29,
+    "reason": "Ranked in top 10. Score: 6.12 (value=3.8, momentum=6.2, stability=8.7, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.12,
+      "value": 3.83,
+      "momentum": 6.24,
+      "stability": 8.65,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "HD",
+    "price": 391.85,
+    "reason": "Ranked in top 10. Score: 6.113 (value=4.3, momentum=6.2, stability=8.1, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.11,
+      "value": 4.32,
+      "momentum": 6.23,
+      "stability": 8.09,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 517.56,
+    "reason": "Ranked in top 10. Score: 6.112 (value=3.7, momentum=6.2, stability=7.5, event_adj=0.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.11,
+      "value": 3.74,
+      "momentum": 6.21,
+      "stability": 7.49,
+      "event_adj": 0.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 343.3,
+    "reason": "Ranked in top 10. Score: 6.075 (value=5.9, momentum=8.5, stability=5.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.07,
+      "value": 5.89,
+      "momentum": 8.53,
+      "stability": 5.36,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 529.81,
+    "reason": "Ranked in top 10. Score: 6.066 (value=4.3, momentum=9.2, stability=6.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.07,
+      "value": 4.26,
+      "momentum": 9.25,
+      "stability": 6.9,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-10-08",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 136.28,
+    "reason": "STOP LOSS triggered (-3.0% loss) PnL: -3.0% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-08",
+    "action": "SELL",
+    "ticker": "HD",
+    "price": 378.79,
+    "reason": "STOP LOSS triggered (-3.33% loss) PnL: -3.3% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-13",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 84.35,
+    "reason": "STOP LOSS triggered (-4.92% loss) PnL: -4.9% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-14",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 762.94,
+    "reason": "EARNINGS strong_beat: surprise 0.1049% [Balanced] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2025-10-14",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 83.71,
+    "reason": "EARNINGS strong_beat: surprise 0.0743% [Balanced] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2025-10-15",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 51.72,
+    "reason": "EARNINGS strong_beat: surprise 0.1204% [Balanced] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 162.75,
+    "reason": "Dropped from top 10. Score: 7.58 Replaced by: UPS, MRK, LMT PnL: +4.9% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.58,
+      "value": 3.1,
+      "momentum": 8.09,
+      "stability": 7.43,
+      "event_adj": 2.0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 184.11,
+    "reason": "Dropped from top 10. Score: 7.23 Replaced by: UPS, MRK, LMT PnL: +0.1% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.23,
+      "value": 3.71,
+      "momentum": 6.85,
+      "stability": 8.84,
+      "event_adj": 1.0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 91.67,
+    "reason": "Dropped from top 10. Score: 7.0 Replaced by: UPS, MRK, LMT PnL: -1.7% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.0,
+      "value": 5.02,
+      "momentum": 4.23,
+      "stability": 6.5,
+      "event_adj": 1.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 514.89,
+    "reason": "Dropped from top 10. Score: 5.35 Replaced by: UPS, MRK, LMT PnL: -0.5% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 5.35,
+      "value": 3.8,
+      "momentum": 5.44,
+      "stability": 5.81,
+      "event_adj": 0.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 329.0,
+    "reason": "Dropped from top 10. Score: 7.62 Replaced by: UPS, MRK, LMT PnL: -4.2% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.62,
+      "value": 5.8,
+      "momentum": 7.33,
+      "stability": 6.02,
+      "event_adj": 1.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 777.55,
+    "reason": "Dropped from top 10. Score: 7.33 Replaced by: UPS, MRK, LMT PnL: +1.9% (held since 2025-10-14)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.33,
+      "value": 3.06,
+      "momentum": 6.73,
+      "stability": 7.36,
+      "event_adj": 2.0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 86.42,
+    "reason": "Dropped from top 10. Score: 7.33 Replaced by: UPS, MRK, LMT PnL: +3.2% (held since 2025-10-14)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.33,
+      "value": 2.31,
+      "momentum": 7.78,
+      "stability": 7.81,
+      "event_adj": 2.0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 91.21,
+    "reason": "Ranked in top 10. Score: 9.599 (value=6.9, momentum=8.1, stability=6.9, event_adj=2.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 9.6,
+      "value": 6.91,
+      "momentum": 8.09,
+      "stability": 6.94,
+      "event_adj": 2.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 81.19,
+    "reason": "Ranked in top 10. Score: 8.548 (value=5.7, momentum=5.7, stability=6.6, event_adj=2.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.55,
+      "value": 5.69,
+      "momentum": 5.72,
+      "stability": 6.57,
+      "event_adj": 2.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 80.68,
+    "reason": "Ranked in top 10. Score: 8.405 (value=3.0, momentum=8.2, stability=8.3, event_adj=2.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.4,
+      "value": 3.0,
+      "momentum": 8.23,
+      "stability": 8.3,
+      "event_adj": 2.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 283.34,
+    "reason": "Ranked in top 10. Score: 7.923 (value=2.4, momentum=9.2, stability=7.4, event_adj=2.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.92,
+      "value": 2.36,
+      "momentum": 9.25,
+      "stability": 7.43,
+      "event_adj": 2.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 150.86,
+    "reason": "Ranked in top 10. Score: 7.903 (value=4.4, momentum=5.5, stability=6.5, event_adj=2.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.9,
+      "value": 4.41,
+      "momentum": 5.54,
+      "stability": 6.47,
+      "event_adj": 2.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 569.26,
+    "reason": "Ranked in top 10. Score: 7.791 (value=2.2, momentum=9.2, stability=7.2, event_adj=2.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.79,
+      "value": 2.24,
+      "momentum": 9.25,
+      "stability": 7.24,
+      "event_adj": 2.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 210.27,
+    "reason": "Ranked in top 10. Score: 7.676 (value=5.2, momentum=4.8, stability=7.8, event_adj=1.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.68,
+      "value": 5.15,
+      "momentum": 4.85,
+      "stability": 7.82,
+      "event_adj": 1.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 467.11,
+    "reason": "STOP LOSS triggered (-5.18% loss) PnL: -5.2% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2025-11-05",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 23.79,
+    "reason": "EARNINGS strong_beat: surprise 0.3743% [Balanced] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  }
+]
