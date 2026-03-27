@@ -1,0 +1,337 @@
+{
+  "date": "2021-12-16",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 40,
+  "categories": {
+    "other": {
+      "count": 40,
+      "headlines": [
+        "Syrian civil war",
+        "Israeli–Palestinian conflict",
+        "Typhoon Rai",
+        "Five children are killed and four others are injured after falling from an inflatable castle that was blown into the air in Devonport, Tasmania, Australia.",
+        "COVID-19 pandemic"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iran–Israel conflict during the Syrian civil war, Israel's role in the Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli warplanes launch overnight airstrikes in southern Syria, with missiles originating from the Golan Heights, killing a soldier and causing some material damage, according to a Syrian military official. Syrian air defences engaged the Israeli missiles, with most missiles reportedly intercepted.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Operation Shader",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom's Ministry of Defence says a Royal Air Force Typhoon has shot down a \"small hostile drone\" over Syria. It is the first enemy aircraft shot down by an RAF pilot since the Falklands War.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gunmen open fire on a car carrying settlers near the outpost of Homesh, in the occupied West Bank, killing one person and wounding two more.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Typhoon Rai",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Thousands of people are evacuated from their homes in central and southern Philippines as Typhoon Rai, described as one of the strongest storms of the year, begins to make landfall in mid-eastern parts of the country, with warnings of very destructive typhoon-force winds.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Five children are killed and four others are injured after falling from an inflatable castle that was blown into the air in Devonport, Tasmania, Australia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News Australia"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Indonesia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Indonesia reports its first case of the SARS-CoV-2 Omicron variant in an hospital cleaning employee at the Kemayoran Athletes Village in Jakarta with no overseas travel history.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Japan, COVID-19 vaccination in Japan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan officially approves the usage of the Moderna COVID-19 vaccine as a booster dose for people over the age of 18 years. This comes after health ministry experts recommended the vaccine yesterday.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malaysia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Malaysian government announces that due to the threat of the Omicron variant, there will be a ban on all large-scale Christmas and New Year's Eve celebrations. The government will also require people over the age of 60 as well as adults who received the Sinovac Coronavac vaccine to receive a booster dose before February in order to maintain their full vaccination status.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Malay Mail''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the State of Palestine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Palestinian Authority reports its first cases of the Omicron variant in three people from different cities in the West Bank who travelled abroad.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Denmark",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 drug development",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Danish Health Authority approves the usage of the Molnupiravir antiviral pill developed by Merck & Co. for at-risk patients with symptoms, becoming the first EU country to authorize the usage of this drug.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NDTV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Denmark reports a record 9,999 new cases of COVID-19 in the past 24 hours.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''CPH Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Germany, COVID-19 vaccination in Germany",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Germany administers a record 1.5 million doses of the COVID-19 vaccine in the past 24 hours.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy, Travel during the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Italy imposes mandatory COVID-19 testing for all travellers from European Union countries and mandates a five-day quarantine on arrival for those who are unvaccinated due to an increase in the number of COVID-19 cases and the spread of the Omicron variant in Europe.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Poland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Poland reports its first case of the Omicron variant in a 30-year-old Mosotho woman who is currently in isolation in a hospital in the city of Katowice.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The First News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom reports a record for the second consecutive day of 88,376 new cases of COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malawi",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Malawi announces that public service workers, healthcare workers and journalists will be required to be vaccinated against COVID-19 beginning on December 20 amid an increase in the number of COVID-19 infections.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in New Zealand",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "New Zealand reports its first case of the Omicron variant in a fully vaccinated person who travelled from Germany and is currently isolated at a managed isolation quarantine facility in Christchurch.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''New Zealand Herald''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "History of COVID-19 vaccine development",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The WHO issues interim recommendations for mixing and matching COVID-19 vaccine for second and booster shot, where mRNA-based vaccines can be used as subsequent doses after initial doses of the Oxford-AstraZeneca COVID-19 vaccine and vice versa, while these vaccines can be used after initial doses of Sinopharm's inactived vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Caretaker Prime Minister of the Netherlands Mark Rutte is appointed as formateur and tasked with forming a new coalition government following the conclusion of the 2021 cabinet formation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Politico''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

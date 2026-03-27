@@ -1,0 +1,258 @@
+{
+  "date": "2021-12-30",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 30,
+  "categories": {
+    "other": {
+      "count": 30,
+      "headlines": [
+        "Tesla orders a recall of over 475,000 Model 3 and Model S cars due to safety defects found in their backup cameras and hoods, respectively.",
+        "2021–2022 Boulder County fires",
+        "COVID-19 pandemic",
+        "Crime in London"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Jihadists ambush an army patrol near the town of Nara in Koulikoro Region, Mali, killing four soldiers and injuring more than a dozen others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Voice of America"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Tesla orders a recall of over 475,000 Model 3 and Model S cars due to safety defects found in their backup cameras and hoods, respectively.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2021–2022 Boulder County fires",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Grass fires in Colorado, United States, prompt the evacuation of the town of Superior and the cities of Louisville and Broomfield.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Greece",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Greece bans music at New Year's Eve celebrations and orders all entertainment venues to close at midnight due to an increase in the number of COVID-19 cases caused by the Omicron variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Hill''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Greece reports a record for the fourth consecutive day of 35,580 new cases of COVID-19, bringing the nationwide total of confirmed cases to 1,170,293.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Ekathimerini''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Italy reports a record for the third consecutive day of 126,888 new cases of COVID-19, bringing the nationwide total of confirmed cases to 5.98 million.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ANSA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the Republic of Ireland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ireland reduces the mandatory quarantine for those who received the booster dose or completed their primary vaccination course and had COVID-19 within the previous three months, to seven days despite a record 20,554 new cases being reported.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Irish Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Portugal",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Portugal reports a record for the third consecutive day of 28,659 new cases of COVID-19. The country also reduces the mandatory quarantine for asymptomatic people who test positive from COVID-19 and high-risk contacts to seven days due to concerns about the spread of the Omicron variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Russia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia surpasses Brazil for the second highest Covid death toll in the world, with 658,634 deaths.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Turkey, COVID-19 vaccination in Turkey",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkey begins to roll-out its domestically-developed Turkovac inactive vaccine as part of its COVID-19 vaccination program. This comes after the health ministry issued an emergency use authorization for the vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Daily Sabah''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom reports a record for the third consecutive day of 189,213 new cases of COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Canada",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Quebec",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Premier of Quebec François Legault announces a curfew between 10 p.m. to 5 a.m. on New Year's Eve, bans private gatherings involving more than one household bubble, and closing dine-in restaurants amid the spread of COVID-19 cases caused by the Omicron variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Global News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Israel, COVID-19 vaccination in Israel",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Israeli Health ministry approves fourth doses of the COVID-19 vaccine for immunocompromised people, becoming the first country to do so.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in South Africa",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "South Africa lifts its midnight curfew, allowing alcohol sales to return to normal hours in certain premises, and also allowing gatherings of up to 1,000 people indoors and 2,000 people outdoors, due to a decrease in the number of new COVID-19 cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Business Insider'' South Africa"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Crime in London",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A 16-year-old boy is stabbed to death in Hillingdon, west London, making him the 30th teenage homicide in the British capital in 2021. It is now the deadliest year on record for killings of teenagers, surpassing a previous peak of 29 homicides in 2008.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

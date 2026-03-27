@@ -1,0 +1,267 @@
+{
+  "date": "2020-02-13",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 26,
+  "categories": {
+    "health": {
+      "count": 5,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "politics": {
+      "count": 5,
+      "headlines": [
+        "2020 British cabinet reshuffle",
+        "The U.S. Senate votes 55–45 to pass a measure requiring President Donald Trump to win approval from Congress before taking further military actions against Iran."
+      ]
+    },
+    "business": {
+      "count": 4,
+      "headlines": [
+        "American newspaper publisher McClatchy, whose assets include the Miami Herald and The Sacramento Bee, files for Chapter 11 bankruptcy protection.",
+        "Canadian airplane manufacturer Bombardier sells its remaining stake in the A220 model, previously called the C-Series, to France's Airbus, effectively closing its commercial aviation line of business.",
+        "Cannabis in the United Kingdom"
+      ]
+    },
+    "geopolitical": {
+      "count": 9,
+      "headlines": [
+        "War in Afghanistan (2001–2021)",
+        "Iran–Israel conflict during the Syrian Civil War",
+        "Around two dozen heavily armed men dressed in military fatigues storm a court building in El Progreso, north-western Honduras, freeing Alexander Mendoza, a senior leader of the MS-13 gang and killing ",
+        "Sudan–United States relations",
+        "United States–Venezuela relations"
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "The Indonesian government declares that all nationals who join ISIL automatically lose their citizenship, and refuses to repatriate fighters captured in Syria."
+      ]
+    },
+    "other": {
+      "count": 2,
+      "headlines": [
+        "45th César Awards"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. Defense Secretary Mark Esper says that the U.S. and the Taliban have negotiated a proposal for a seven-day reduction of violence in Afghanistan.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iran–Israel conflict during the Syrian Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Israeli Air Force launches an air raid on Iranian targets in the Syrian capital Damascus. Syrian state media says the Air Defense Force intercepted several missiles.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Around two dozen heavily armed men dressed in military fatigues storm a court building in El Progreso, north-western Honduras, freeing Alexander Mendoza, a senior leader of the MS-13 gang and killing four police officers. Honduran President Juan Orlando Hernández offers a $80,000 reward for information leading to Mendoza's recapture.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "45th César Awards",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The entire board of France's César Awards resigns following controversy over the Academy giving Roman Polanski's An Officer and a Spy 12 award nominations, the most out of any film this year.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "American newspaper publisher McClatchy, whose assets include the Miami Herald and The Sacramento Bee, files for Chapter 11 bankruptcy protection.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''The Hill''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Canadian airplane manufacturer Bombardier sells its remaining stake in the A220 model, previously called the C-Series, to France's Airbus, effectively closing its commercial aviation line of business.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "CBC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Cannabis in the United Kingdom",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Food Standards Agency gives producers of Cannabidiol-related products until March 2021 to register their goods, or they will be pulled from the market.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Mainland China",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Chinese officials report 15,152 new confirmed cases of the 2019-nCoV acute respiratory disease (COVID-19) and 254 new deaths in mainland China, the largest single day increase since the pandemic began. However, the number of confirmed cases now also includes the number of clinically diagnosed patients in Hubei province.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Japan",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan's Ministry of Health, Labour and Welfare reports the country's first death related to the COVID-19 pandemic, a woman in her 80s.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The Japan Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Sudan–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "As part of government efforts to remove the country from a list of State Sponsors of Terrorism, Sudan agrees to compensate the families of sailors killed in an al-Qaeda attack against the USS Cole.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United States–Venezuela relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Venezuelan Foreign Affairs minister Jorge Arreaza announces that his government, led by Nicolás Maduro, will take the U.S. to the International Criminal Court for alleged \"crimes against humanity\".",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Indonesian government declares that all nationals who join ISIL automatically lose their citizenship, and refuses to repatriate fighters captured in Syria.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Jakarta Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 British cabinet reshuffle",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Amid a cabinet reshuffle by Prime Minister Boris Johnson, Sajid Javid resigns as the United Kingdom's Chancellor of the Exchequer after reportedly refusing to sack his adviser team. Javid is replaced by Chief Secretary to the Treasury Rishi Sunak, who becomes the first Hindu to hold the senior position.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Sky News",
+        "''The Yorkshire Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Attorney General for England and Wales Geoffrey Cox is sacked by Johnson.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Secretary of State for Northern Ireland Julian Smith, Business Secretary Andrea Leadsom and Environment Secretary Theresa Villiers all leave the government.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The U.S. Senate votes 55–45 to pass a measure requiring President Donald Trump to win approval from Congress before taking further military actions against Iran.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

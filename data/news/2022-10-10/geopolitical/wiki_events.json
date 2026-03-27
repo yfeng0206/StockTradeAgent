@@ -1,0 +1,162 @@
+{
+  "date": "2022-10-10",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 17,
+  "categories": {
+    "other": {
+      "count": 17,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Americans Ben Bernanke, Douglas Diamond and Philip H. Dybvig are awarded the Nobel Memorial Prize in Economic Sciences \"for research on banks and financial crises\".",
+        "Belarus–Poland relations",
+        "Former Liberian rebel commander Kunti Kamara goes on trial in Paris, France for war crimes and crimes against humanity, in a precedent-setting French trial under the doctrine of universal jurisdiction",
+        "Fernando Santos, the manager of the Portuguese national football team, is convicted of creating a fictitious company to pay less taxes from his FPF salary."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "10 October 2022 missile strikes on Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Russian Armed Forces launch missile strikes on the Ukrainian cities and towns of Kyiv, Kharkiv, Khmelnytskyi, Zhytomyr, Zaporizhzhia, Ivano-Frankivsk, Sumy, Dnipro, Lviv, Ternopil and Poltava, killing at least nineteen people and injuring hundreds more.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Unian",
+        "UkrInform",
+        "Interfax"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Moldova–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Moldova confirms that Russian Navy warships in the Black Sea fired cruise missiles through its airspace to strike targets inside Ukraine. The Russian ambassador is subsequently summoned by Moldovan authorities to explain the violation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Americans Ben Bernanke, Douglas Diamond and Philip H. Dybvig are awarded the Nobel Memorial Prize in Economic Sciences \"for research on banks and financial crises\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Belarus–Poland relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Poland advises its citizens to leave Belarus by \"commercial or private means\" amid deteriorating relations between the two countries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Former Liberian rebel commander Kunti Kamara goes on trial in Paris, France for war crimes and crimes against humanity, in a precedent-setting French trial under the doctrine of universal jurisdiction.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''",
+        "''The Guardian''",
+        "France 24"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Fernando Santos, the manager of the Portuguese national football team, is convicted of creating a fictitious company to pay less taxes from his FPF salary.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Marca",
+        "Wirtualna Polska",
+        "Larazon"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Malaysian general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Prime Minister of Malaysia Ismail Sabri dissolves parliament, with snap elections to be held later this year.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Straits Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Lesotho general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Revolution for Prosperity party wins the election by a small margin, but falls short of controlling the National Assembly.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Chicago Marathon",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kenyans Benson Kipruto and Ruth Chepngetich win the Chicago Marathon, with Chepngetich defending her title.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

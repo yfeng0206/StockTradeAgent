@@ -1,0 +1,135 @@
+{
+  "date": "2019-05-01",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 12,
+  "categories": {
+    "legal": {
+      "count": 3,
+      "headlines": [
+        "WikiLeaks founder Julian Assange is sentenced to 50 weeks in prison by a judge in the United Kingdom for breaching bail in 2012. Assange still faces possible extradition to the United States on charge",
+        "Internet censorship in Russia"
+      ]
+    },
+    "other": {
+      "count": 6,
+      "headlines": [
+        "Naxalite–Maoist insurgency",
+        "2019 Japanese imperial transition",
+        "Monarchy of Thailand"
+      ]
+    },
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "Fiona Onasanya, the member of the UK Parliament for Peterborough, is removed from her position following a successful recall petition in the wake of her conviction for perverting the course of justice",
+        "British Prime Minister Theresa May fires Gavin Williamson as Secretary of State for Defence, following the leaking of information relating to a National Security Council meeting, regarding the securit",
+        "The UK Parliament declares \"an environment and climate emergency.\""
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Naxalite–Maoist insurgency",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Sixteen soldiers, including a driver, are killed in a landmine explosion in the Gadchiroli district of Maharashtra, India. Maoist insurgents are currently active in the area, leading officials to believe them to be responsible.",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Japanese imperial transition",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Japanese Era  begins as Emperor Naruhito accedes to the Chrysanthemum Throne as the 126th Emperor of Japan. The Emperor inherits two of the Three Sacred Treasures of Japan during a symbolic ceremony, which formalises his ascension.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "''The Mainichi''",
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Monarchy of Thailand",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Vajiralongkorn, King of Thailand, marries his head of security and mistress, General Suthida Tidjai, days before his coronation.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "WikiLeaks founder Julian Assange is sentenced to 50 weeks in prison by a judge in the United Kingdom for breaching bail in 2012. Assange still faces possible extradition to the United States on charges of conspiracy to commit computer intrusion.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "NPR",
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Internet censorship in Russia",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Russian President Vladimir Putin signs the  into law. The bill has drawn fierce criticism from civil society groups over fears that it would lead Russia to establish an isolated internet landscape.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Moscow Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Fiona Onasanya, the member of the UK Parliament for Peterborough, is removed from her position following a successful recall petition in the wake of her conviction for perverting the course of justice, becoming the first MP in the country's history to lose their seat in this manner. A by-election will be called to elect a replacement MP.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "British Prime Minister Theresa May fires Gavin Williamson as Secretary of State for Defence, following the leaking of information relating to a National Security Council meeting, regarding the security risk posed by Chinese multinational telecommunications company Huawei. Secretary of State for International Development Penny Mordaunt is appointed the first-ever female British Defence Secretary.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''",
+        "''Evening Standard''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The UK Parliament declares \"an environment and climate emergency.\"",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

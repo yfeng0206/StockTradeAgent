@@ -1,0 +1,166 @@
+{
+  "date": "2019-09-18",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 15,
+  "categories": {
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "Cabinet of Donald Trump"
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "2019 Japan–South Korea trade dispute"
+      ]
+    },
+    "geopolitical": {
+      "count": 3,
+      "headlines": [
+        "Solomon Islands–United States relations",
+        "Saudi Arabia joins the International Maritime Security Construct."
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "At least 27 people, a majority of them children, are killed in a fire caused by an electrical problem at a boarding school in a suburb near the Liberian capital of Monrovia.",
+        "A Twin Otter cargo plane carrying rice and four people goes missing shortly after its departure from Timika, Indonesia."
+      ]
+    },
+    "legal": {
+      "count": 6,
+      "headlines": [
+        "2019 Samoa assassination plot",
+        "Crisis in Venezuela",
+        "Murder of Derk Wiersum"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2019 Japan–South Korea trade dispute",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "South Korea officially removes Japan from its \"whitelist\" of countries with fast-track trade status.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 27 people, a majority of them children, are killed in a fire caused by an electrical problem at a boarding school in a suburb near the Liberian capital of Monrovia.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A Twin Otter cargo plane carrying rice and four people goes missing shortly after its departure from Timika, Indonesia.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "The Loadstar"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Solomon Islands–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. Vice President Mike Pence cancels a meeting with Solomon Islands Prime Minister Manasseh Sogavare in response to the country's move to cut ties with Taiwan and establish relations with China.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Saudi Arabia joins the International Maritime Security Construct.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Arab News''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Samoa assassination plot",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Prosecutiors in the case of the latest attempt to kill Samoan Prime Minister Tuilaepa Sailele Malielegaoi announce that Eletise Leafa Vitale, convicted of the assassination of one of Malielegoai's cabinet members in another failed attempt at killing him in 1999, will testify in the trial against the conspirators of this year's plot.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Crisis in Venezuela",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The NGO Human Rights Watch publishes details of what it deems to be arbitrary executions and arrests in Venezuela. The Venezuelan government alleges that most of those listed in the report were armed criminals, but admits to have placed several hundred security agents under investigation for abuses of power and extrajudicial actions.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Human Rights Watch"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Murder of Derk Wiersum",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Dutch lawyer Derk Wiersum has been shot to death near his home. At the time of his death he was the lawyer of state witness Nabil Bakkali in the Marengo-proces against the Mocro Maffia led by Ridouan Taghi.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Cabinet of Donald Trump",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. President Donald Trump appoints  attorney and former U.S. State Department hostage negotiator Robert C. O'Brien as his new National Security Advisor.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "date": "2023-07-17",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 21,
+  "categories": {
+    "other": {
+      "count": 21,
+      "headlines": [
+        "Russian invasion of Ukraine",
+        "Afghan conflict",
+        "2023 Pacific typhoon season",
+        "2023 Greece wildfires",
+        "Fifteen people are killed, six others are injured and thirteen more are missing during landslides caused by heavy rains in Quetame, Colombia."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Crimean Bridge explosion",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A couple are killed and their daughter is injured by explosions at the Crimean Bridge.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Black Sea Grain Initiative",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The agreement to allow safe passage of grain exports from Ukrainian ports, in effect since July 2022, expires following Russia's refusal to renew the deal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Afghan conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Three children are killed and two others are injured when a mortar warhead explodes in Dara-i Sufi Payin District, Samangan Province, Afghanistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Khaama Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Pacific typhoon season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Monsoon rains aggravated by Tropical Storm Talim have affected the northern Philippines, killing a person during a landslide in Rizal. Nine crew members of a fishing vessel who went missing off Camarines Norte are rescued off Camarines Sur.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Philippine Star''",
+        "''Abante Tonite''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Greece wildfires",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two wildfires near the Greek seaside towns of Lagonisi, East Attica, and Loutraki, Corinthia, cause significant property damage and prompt the evacuation of thousands. The Athens urban area and most of southern Greece are on the second highest level of wildfire alert.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP via ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Fifteen people are killed, six others are injured and thirteen more are missing during landslides caused by heavy rains in Quetame, Colombia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Thirteen people are killed and five others are injured when a building collapses in Cairo, Egypt.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Al-Ahram''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Five people are killed and seven others are injured when a Cessna 208 aircraft crashes into a hangar at an aerodrome in the village of Chrcynno, Poland.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via NDTV"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The World Health Organization reports that the avian influenza is responsible for killing dozens of cats across 13 regions of Poland, marking the first instance of the virus affecting a large number of felines over an extensive area.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Global News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Political status of Western Sahara, Israel–Morocco relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel recognizes Morocco's sovereignty over Western Sahara.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Shakahola Forest incident",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The number of people who died in Kenya after following a pastor who ordered them to fast to death in order to meet Jesus increases to 403 as the bodies of twelve more people are exhumed.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A Kenyan magistrate court acquits former British-based evangelist Gilbert Deya, who claimed to aid infertile couples conceive through prayer, due to insufficient prosecution evidence connecting Deya to the trafficking of five children between 1999 and 2004.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Manila Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Singaporean Parliament Speaker Tan Chuan-Jin and backbencher Cheng Li Hui resign from the Parliament of Singapore and the ruling People's Action Party after admitting to having an extramarital affair.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNA"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

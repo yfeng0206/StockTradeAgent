@@ -1,0 +1,264 @@
+{
+  "date": "2019-05-22",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 26,
+  "categories": {
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "2019 Indonesian general election",
+        "Andrea Leadsom resigns as the United Kingdom's Leader of the House of Commons with immediate effect in response to Prime Minister Theresa May's handling of Brexit. Several other cabinet ministers are "
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Economy of the United Kingdom"
+      ]
+    },
+    "geopolitical": {
+      "count": 13,
+      "headlines": [
+        "War in Donbass",
+        "At least nine people are killed when a car bomber attacks a police checkpoint in the Bondhere District of Mogadishu",
+        "Central African Republic Civil War (2012–present)",
+        "Syrian Civil War, Northwestern Syria offensive (April 2019–present)",
+        "Russia–United States relations"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "Tornadoes of 2019"
+      ]
+    },
+    "legal": {
+      "count": 6,
+      "headlines": [
+        "Timeline of investigations into Donald Trump and Russia (2019)",
+        "Lawyer Michael Avenatti is indicted in separate cases charging him with allegedly stealing about $300,000 from Stormy Daniels and blackmailing Nike.",
+        "Tax returns of Donald Trump"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Donbass",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Ukrainian military reports that eight Ukrainian soldiers have been captured by pro-Russian fighters near the village of Novotroyitske.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Newsweek''",
+        "UNIAN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least nine people are killed when a car bomber attacks a police checkpoint in the Bondhere District of Mogadishu",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Central African Republic Civil War (2012–present)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A French nun is found decapitated in a village in the Central African Republic.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "France24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Armed militias kill over 30 civilians in one of the deadliest attacks since a peace deal was reached back in February of this year.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian Civil War, Northwestern Syria offensive (April 2019–present)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Syrian government airstrikes in Syria’s northwestern de-escalation zones target the towns of Maarrat al-Nu'man and Maarat Herma in Idlib Governorate, killing twelve civilians.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "AA",
+        "''Daily Sabah''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Syrian Army and Iran-back militants shell the town of Khan Sheykhun and the villages of Al-Kassabiyya, Abdin, Karasaa, Kafr Sajna and Al-Naqeer.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "AA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Economy of the United Kingdom",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "British Steel Limited goes into compulsory liquidation after rescue talks between the British government and the company's owners, Greybull Capital, fail. Around 5,000 workers are employed by the company, 3,800 of whom are based in the UK.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Tornadoes of 2019",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A powerful tornado hits Jefferson City, Missouri, leaving people trapped or injured and structural damage according to city and state officials. At least three people are killed in southwestern Missouri when a storm system sweeps across the state causing extensive damage.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "CBS News",
+        "NBC News",
+        "''The Kansas City Star''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "United States F-22 Raptors intercept four Russian Tu-95 bombers and two Su-35 fighter jets off the coast of Alaska on Tuesday and Wednesday, according to a statement from the North American Aerospace Defense Command.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Chagos Archipelago sovereignty dispute",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United Nations General Assembly passes a non-binding resolution demanding the United Kingdom return control of the Chagos Archipelago to Mauritius. The Mauritians claim they were forced to give up the islands to the British in 1965 in exchange for independence.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Timeline of investigations into Donald Trump and Russia (2019)",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. Justice Department agrees to provide the House Intelligence Committee with  intelligence files from special counsel Robert Mueller's investigation of Russian interference in the 2016 election.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''USA Today'' via MSN.com"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Lawyer Michael Avenatti is indicted in separate cases charging him with allegedly stealing about $300,000 from Stormy Daniels and blackmailing Nike.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Tax returns of Donald Trump",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The New York State Legislature passes a bill that will authorize state tax officials to release U.S. President Donald Trump's state returns to Congress.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Judge Edgardo Ramos of the United States District Court for the Southern District of New York rules Deutsche Bank and Capital One can release President Trump's financial records to Congress.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Indonesian general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people die and more than 200 are injured in the Indonesian capital, Jakarta, after protesters of the announced results of the presidential election clash with security forces and set fire to a police dormitory and vehicles.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Andrea Leadsom resigns as the United Kingdom's Leader of the House of Commons with immediate effect in response to Prime Minister Theresa May's handling of Brexit. Several other cabinet ministers are reportedly threatening to resign.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

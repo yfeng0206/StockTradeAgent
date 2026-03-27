@@ -1,0 +1,830 @@
+"""Daily event-driven simulation engine.
+
+Replaces the old monthly-rebalance loop with a realistic daily workflow:
+- Every day: scan for triggers, only act when something happens
+- Monthly: full portfolio rebalance
+- Between: targeted trades on earnings, news, price alerts
+
+Usage:
+    python eval/daily_loop.py --period recession --max-positions 10
+    python eval/daily_loop.py --start 2025-01-02 --end 2026-03-24 --max-positions 10
+"""
+
+import argparse
+import csv
+import json
+import os
+import sys
+from datetime import datetime, timedelta
+
+import yfinance as yf
+import pandas as pd
+import numpy as np
+
+sys.path.insert(0, os.path.dirname(__file__))
+from signals import SignalEngine
+from triggers import TriggerEngine, TriggerEvent
+from sim_memory import SimulationMemory
+from events_data import build_events_calendar
+from risk_overlay import RiskOverlay, DEFAULT_FEATURES, DEFAULT_PARAMS
+from strategies import (ValueStrategy, MomentumStrategy, BalancedStrategy,
+                        DefensiveStrategy, EventDrivenStrategy, AdaptiveStrategy,
+                        CommodityStrategy)
+
+LOOP_DIR = os.path.dirname(__file__)
+RUNS_DIR = os.path.join(os.path.dirname(LOOP_DIR), "runs")
+NEWS_DIR = os.path.join(os.path.dirname(LOOP_DIR), "data", "news")
+
+PERIODS = {
+    "recession":         {"start": "2022-01-03", "end": "2022-10-31", "name": "2022 Bear Market"},
+    "normal":            {"start": "2019-01-02", "end": "2019-12-31", "name": "2019 Steady Bull"},
+    "black_swan":        {"start": "2020-01-02", "end": "2020-06-30", "name": "COVID Crash"},
+    "bull":              {"start": "2023-01-02", "end": "2023-12-29", "name": "2023 AI Rally"},
+    "bull_to_recession": {"start": "2021-07-01", "end": "2022-06-30", "name": "Bull to Recession"},
+    "recession_to_bull": {"start": "2022-10-01", "end": "2023-06-30", "name": "Recession to Bull"},
+    "2025_to_now":       {"start": "2025-01-02", "end": "2026-03-24", "name": "2025 Full Year to Now"},
+}
+
+UNIVERSE = [
+    "AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "TSLA", "CRM", "NFLX", "AMD", "ADBE", "INTC",
+    "JPM", "V", "MA", "GS", "BAC", "WFC", "MS", "BLK",
+    "UNH", "JNJ", "LLY", "ABBV", "MRK", "PFE", "TMO", "ABT",
+    "PG", "KO", "PEP", "COST", "WMT", "HD", "MCD", "NKE",
+    "XOM", "CVX", "CAT", "BA", "HON", "UPS", "DE", "LMT",
+    "DIS", "CMCSA", "T", "VZ", "NEE", "SO",
+]
+
+BENCHMARKS = ["SPY", "QQQ"]
+MACRO_ETFS = ["USO", "XLE", "GLD", "TLT", "HYG", "LQD"]  # oil, gold, bonds, credit
+
+
+def download_data(tickers, start, end):
+    buffer_start = (pd.Timestamp(start) - timedelta(days=400)).strftime("%Y-%m-%d")
+    all_data = {}
+    try:
+        raw = yf.download(tickers, start=buffer_start, end=end, progress=True, threads=True)
+        if raw.empty:
+            return all_data
+        if len(tickers) == 1:
+            all_data[tickers[0]] = raw
+        else:
+            for ticker in tickers:
+                try:
+                    ticker_df = pd.DataFrame({
+                        "Open": raw["Open"][ticker], "High": raw["High"][ticker],
+                        "Low": raw["Low"][ticker], "Close": raw["Close"][ticker],
+                        "Volume": raw["Volume"][ticker],
+                    }).dropna()
+                    if not ticker_df.empty:
+                        all_data[ticker] = ticker_df
+                except (KeyError, TypeError):
+                    continue
+    except Exception:
+        for ticker in tickers:
+            try:
+                t = yf.Ticker(ticker)
+                df = t.history(start=buffer_start, end=end)
+                if not df.empty:
+                    all_data[ticker] = df
+            except Exception:
+                continue
+    return all_data
+
+
+def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
+                         max_positions: int = 10, period_name: str = "custom",
+                         shared_price_data: dict = None, shared_events_cal: dict = None,
+                         quiet: bool = False,
+                         risk_features: dict = None, risk_params: dict = None):
+    if not quiet:
+        print("=" * 80)
+        print(f"DAILY EVENT-DRIVEN SIMULATION")
+        print(f"Period: {period_name} ({start} to {end})")
+        print(f"Cash: ${initial_cash:,.0f} | Max positions: {max_positions}")
+        print("=" * 80)
+
+    # Use shared data if provided (sweep mode), otherwise download
+    if shared_price_data is not None:
+        price_data = shared_price_data
+    else:
+        all_tickers = list(set(UNIVERSE + BENCHMARKS + MACRO_ETFS))
+        if not quiet:
+            print(f"\nDownloading data for {len(all_tickers)} tickers...")
+        price_data = download_data(all_tickers, start, end)
+        if not quiet:
+            print(f"Got data for {len(price_data)} tickers")
+
+    if shared_events_cal is not None:  # explicit None check — {} is a valid empty calendar
+        events_cal = shared_events_cal
+    else:
+        if not quiet:
+            print("Building events calendar...")
+        events_cal = build_events_calendar(UNIVERSE, cache=True)
+
+    # Initialize DataLoader (unified data access for both sim and real-time)
+    sys.path.insert(0, os.path.join(os.path.dirname(LOOP_DIR), "tools"))
+    from data_loader import DataLoader
+    data_loader = DataLoader(live_mode=False)  # simulation = read-only from cached files
+
+    # Initialize engines with DataLoader
+    signal_engine = SignalEngine(price_data, events_cal, NEWS_DIR, data_loader=data_loader)
+    trigger_engine = TriggerEngine(signal_engine)
+
+    # Initialize strategies
+    strategies = [
+        ValueStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
+        MomentumStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
+        BalancedStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
+        DefensiveStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
+        EventDrivenStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
+        AdaptiveStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
+        CommodityStrategy(initial_cash, events_calendar=events_cal),
+    ]
+
+    # Initialize risk overlay
+    risk_overlay = RiskOverlay(features=risk_features, params=risk_params)
+
+    # Daily stats tracking
+    daily_trigger_log = []
+    regime_log = []  # shared market-level log
+    trading_days = pd.date_range(start=start, end=end, freq="B")
+    total_trigger_days = 0
+    last_rebalance_month = None
+
+    if not quiet:
+        print(f"\nSimulating {len(trading_days)} trading days with event-driven triggers...")
+    milestone = max(1, len(trading_days) // 10)
+
+    for i, day in enumerate(trading_days):
+        date_str = day.strftime("%Y-%m-%d")
+        current_month = date_str[:7]
+        is_rebalance_day = (current_month != last_rebalance_month)
+        if is_rebalance_day:
+            last_rebalance_month = current_month
+
+        # === PHASE 1: MORNING ANALYSIS ===
+        _detect_cache = {}  # Reset per-day cache for shared signal detection
+        macro = signal_engine.compute_macro(date_str)
+        regime = macro.get("regime", "normal")
+        news = macro.get("news", {})
+        day_had_triggers = False
+
+        # Log regime for shared output
+        regime_log.append({
+            "date": date_str, "regime": regime,
+            "geo_risk": news.get("geo_risk", 0),
+            "vol_20d": macro.get("volatility", {}).get("vol_20d"),
+        })
+
+        # Cross-strategy consensus: compute once per rebalance day, before any strategy acts
+        if is_rebalance_day:
+            risk_overlay.update_consensus(strategies, price_data, date_str)
+
+        for strat in strategies:
+            # Use strategy-specific ATR multiplier for stops
+            trigger_engine.atr_stop_multiplier = getattr(strat, 'atr_stop_multiplier', 2.0)
+            triggers = trigger_engine.scan(UNIVERSE, strat.positions, date_str, price_data,
+                                           precomputed_macro=macro)
+
+            # Watchnotes are checked inside execute_rebalance() only
+            # Bug fix: was calling _check_watchnotes twice (here AND in execute_rebalance),
+            # first call consumed fired notes so second call saw stale data
+
+            strat._last_regime = regime
+            strat._last_news_summary = f"geo_risk={news.get('geo_risk', 0):.2f}" if news.get('geo_risk', 0) > 0 else None
+
+            insight = SimulationMemory.generate_insight(
+                date_str, strat.positions, strat.memory, regime, news
+            )
+
+            if triggers:
+                day_had_triggers = True
+
+                # Log triggers
+                for t in triggers:
+                    daily_trigger_log.append({
+                        "date": date_str, "strategy": strat.name,
+                        "trigger": t.type, "ticker": t.ticker,
+                        "severity": t.severity, "action": t.suggested_action,
+                    })
+
+                # === PHASE 2: REACT TO ALL TRIGGERS ===
+                def _get_price(tkr):
+                    if tkr in price_data and not price_data[tkr].empty:
+                        df = price_data[tkr]
+                        mask = df.index <= pd.Timestamp(date_str)
+                        if mask.any():
+                            return float(df.loc[mask, "Close"].iloc[-1])
+                    return None
+
+                # Track what was sold today — never buy back same day
+                sold_today = set()
+
+                for t in triggers:
+                    # --- STOP LOSS (CRITICAL) → Force sell ---
+                    if t.type == "STOP_LOSS" and t.ticker in strat.positions:
+                        price = _get_price(t.ticker)
+                        if price:
+                            record = SimulationMemory.read_ticker_record(t.ticker, strat.memory)
+                            reason = f"STOP LOSS triggered ({t.data.get('pnl_pct', '?')}% loss)"
+                            if record.get("warning") == "repeated_loser":
+                                reason += f" [MEMORY: repeated loser, {record['trades']} trades avg {record['avg_pnl']:+.1f}%]"
+                            strat._sell(t.ticker, price, date_str, reason)
+                            sold_today.add(t.ticker)
+
+                    # --- REGIME CHANGE → Strategy-specific reaction ---
+                    elif t.type == "REGIME_CHANGE":
+                        new_regime = t.data.get("to", "normal")
+                        old_regime = t.data.get("from", "normal")
+                        entering_danger = new_regime in ("crisis", "high_volatility") and old_regime not in ("crisis", "high_volatility")
+                        leaving_danger = old_regime in ("crisis", "high_volatility") and new_regime not in ("crisis", "high_volatility")
+
+                        strat._log_reasoning(date_str, "REGIME", "", 0,
+                            f"Regime changed: {old_regime} -> {new_regime}. {insight}")
+
+                        # ENTERING DANGER → sell based on strategy personality
+                        if entering_danger and strat.positions:
+                            pos_pnl = []
+                            for tkr, pos in strat.positions.items():
+                                p = _get_price(tkr)
+                                if p:
+                                    pnl = (p - pos["entry_price"]) / pos["entry_price"] * 100
+                                    pos_pnl.append((tkr, pnl, p))
+                            pos_pnl.sort(key=lambda x: x[1])
+
+                            if strat.name == "Defensive":
+                                to_sell = len(pos_pnl)  # sell ALL
+                            elif strat.name == "Momentum":
+                                to_sell = max(1, len(pos_pnl) // 3)
+                            elif strat.name in ("Balanced", "Adaptive"):
+                                to_sell = max(1, len(pos_pnl) // 4)
+                            elif strat.name == "Value":
+                                to_sell = 0  # hold through volatility
+                            else:
+                                to_sell = max(1, len(pos_pnl) // 5)
+
+                            for tkr, pnl, p in pos_pnl[:to_sell]:
+                                strat._sell(tkr, p, date_str,
+                                    f"REGIME SHIFT to {new_regime}: {strat.name} selling ({pnl:+.1f}%)")
+                                sold_today.add(tkr)
+
+                        # LEAVING DANGER → let monthly rebalance handle re-entry via scoring
+                        elif leaving_danger and len(strat.positions) < strat.max_positions // 2:
+                            strat._log_reasoning(date_str, "REGIME", "", 0,
+                                f"REGIME RECOVERY: {old_regime} -> {new_regime}. Will re-enter via next rebalance scoring.")
+
+                    # --- NEWS SPIKE → Strategy-specific reaction ---
+                    elif t.type == "NEWS_SPIKE":
+                        direction = t.data.get("direction", "")
+                        themes = t.data.get("themes", [])
+                        geo_risk = t.data.get("geo_risk", 0)
+
+                        strat._log_reasoning(date_str, "NEWS", "", 0,
+                            f"NEWS {direction.upper()}: geo_risk {t.data.get('previous',0):.2f} -> {geo_risk:.2f}. "
+                            f"Themes: {', '.join(themes)}")
+
+                        if direction == "escalation" and geo_risk > 0.6:
+                            # STRATEGY-SPECIFIC news reactions — NO hardcoded stock names
+                            if strat.name == "Defensive":
+                                # Defensive: reduce exposure proportional to geo_risk (3-state)
+                                # geo_risk 0.6-0.8: sell 50% of positions (highest vol first)
+                                # geo_risk >0.8: sell all
+                                if strat.positions:
+                                    pos_vol = []
+                                    for tkr in list(strat.positions.keys()):
+                                        tech = signal_engine.compute_technical(tkr, date_str)
+                                        vol = tech.get("vol_20d", 0.3)
+                                        pos_vol.append((tkr, vol))
+                                    pos_vol.sort(key=lambda x: -x[1])  # highest vol first
+
+                                    if geo_risk > 0.8:
+                                        to_sell = len(pos_vol)  # sell all
+                                    else:
+                                        to_sell = max(1, len(pos_vol) // 2)  # sell half
+
+                                    for tkr, vol in pos_vol[:to_sell]:
+                                        p = _get_price(tkr)
+                                        if p and tkr in strat.positions:
+                                            strat._sell(tkr, p, date_str,
+                                                f"NEWS: {strat.name} reducing exposure, selling highest-vol {tkr} (vol={vol:.0%}, geo={geo_risk:.2f})")
+                                            sold_today.add(tkr)
+
+                            elif strat.name in ("Balanced", "Adaptive"):
+                                # Sell highest-volatility positions (data-driven, not hardcoded names)
+                                if strat.positions:
+                                    pos_vol = []
+                                    for tkr in list(strat.positions.keys()):
+                                        tech = signal_engine.compute_technical(tkr, date_str)
+                                        vol = tech.get("vol_20d", 0.3)
+                                        pos_vol.append((tkr, vol))
+                                    pos_vol.sort(key=lambda x: -x[1])
+                                    # Sell top 1/3 by volatility
+                                    to_sell = max(1, len(pos_vol) // 3)
+                                    for tkr, vol in pos_vol[:to_sell]:
+                                        p = _get_price(tkr)
+                                        if p and tkr in strat.positions:
+                                            strat._sell(tkr, p, date_str,
+                                                f"NEWS: {strat.name} selling high-vol {tkr} (vol={vol:.0%}, geo={geo_risk:.2f})")
+                                            sold_today.add(tkr)
+
+                            elif strat.name == "Commodity":
+                                if "war/conflict" in themes or "oil/energy" in themes:
+                                    strat._log_reasoning(date_str, "NEWS", "", 0,
+                                        f"NEWS: Commodity — war/oil bullish signal, holding")
+
+                            elif strat.name == "EventDriven":
+                                # EventDriven: sell most exposed, log for tracking
+                                strat._log_reasoning(date_str, "NEWS", "", 0,
+                                    f"NEWS: EventDriven — geo escalation, reducing exposure")
+                                worst = None
+                                worst_pnl = 0
+                                for tkr, pos in strat.positions.items():
+                                    p = _get_price(tkr)
+                                    if p:
+                                        pnl = (p - pos["entry_price"]) / pos["entry_price"] * 100
+                                        if worst is None or pnl < worst_pnl:
+                                            worst, worst_pnl = tkr, pnl
+                                if worst and worst_pnl < 0:
+                                    p = _get_price(worst)
+                                    if p:
+                                        strat._sell(worst, p, date_str,
+                                            f"NEWS: EventDriven selling worst ({worst} {worst_pnl:+.1f}%) on geo escalation")
+                                        sold_today.add(worst)
+
+                            elif strat.name == "Momentum":
+                                pass  # follows price only
+
+                            elif strat.name == "Value":
+                                strat._log_reasoning(date_str, "NEWS", "", 0,
+                                    f"NEWS: Value — holding through volatility, watching for bargains")
+
+                        elif direction == "de-escalation":
+                            # De-escalation: let monthly rebalance handle re-entry via scoring
+                            strat._log_reasoning(date_str, "NEWS", "", 0,
+                                f"NEWS DE-ESCALATION: geo_risk {geo_risk:.2f}. Will re-enter via next rebalance scoring.")
+
+                    # --- EARNINGS RELEASE → Strategy-specific reaction ---
+                    elif t.type == "EARNINGS_RELEASE" and t.severity == "HIGH":
+                        ticker = t.ticker
+                        signal = t.data.get("signal", "neutral")
+                        surprise = t.data.get("surprise_pct", "?")
+                        record = SimulationMemory.read_ticker_record(ticker, strat.memory)
+
+                        # Strategy decides: should I act on this earnings?
+                        should_buy = False
+                        should_sell = False
+
+                        if strat.name == "Momentum":
+                            # Only buy strong beats (ride the drift), sell any miss
+                            should_buy = signal == "strong_beat" and ticker not in strat.positions
+                            should_sell = signal in ("strong_miss", "miss") and ticker in strat.positions
+
+                        elif strat.name == "Value":
+                            # Value does NOT trade on earnings triggers at all.
+                            # Monthly scoring already handles misses (-1.5 penalty).
+                            # No contradiction: misses are penalized, not chased.
+                            should_buy = False
+                            should_sell = False
+
+                        elif strat.name == "EventDriven":
+                            # Core signal: trade any strong earnings event
+                            should_buy = signal in ("strong_beat", "beat") and ticker not in strat.positions
+                            should_sell = signal in ("strong_miss", "miss") and ticker in strat.positions
+
+                        elif strat.name == "Defensive":
+                            # Only buy beats on low-vol stocks in non-danger regimes
+                            # BUG FIX: Defensive was buying NFLX earnings beat during bearish
+                            # regime and losing 21.8%. Now requires non-danger regime too.
+                            is_low_vol = False
+                            tech = signal_engine.compute_technical(ticker, date_str)
+                            if tech.get("vol_20d", 1) < 0.25:
+                                is_low_vol = True
+                            safe_regime = regime not in ("crisis", "high_volatility", "bearish")
+                            should_buy = signal in ("strong_beat", "beat") and is_low_vol and safe_regime and ticker not in strat.positions
+                            should_sell = signal in ("strong_miss",) and ticker in strat.positions
+
+                        elif strat.name in ("Balanced", "Adaptive"):
+                            # Moderate: only strong beats, and skip during danger regimes
+                            safe_regime = regime not in ("crisis", "high_volatility")
+                            should_buy = signal == "strong_beat" and safe_regime and ticker not in strat.positions
+                            should_sell = signal == "strong_miss" and ticker in strat.positions
+
+                        else:  # Commodity, default — don't react to individual stock earnings
+                            should_buy = False
+                            should_sell = signal in ("strong_miss",) and ticker in strat.positions
+
+                        # Memory override: skip repeated losers
+                        if should_buy and record.get("warning") == "repeated_loser":
+                            strat._log_reasoning(date_str, "SKIP", ticker, 0,
+                                f"EARNINGS {signal} on {ticker} but MEMORY: repeated loser — {strat.name} skipping")
+                            should_buy = False
+
+                        # Execute buy
+                        if should_buy and len(strat.positions) < strat.max_positions:
+                            price = _get_price(ticker)
+                            if price and strat.cash > price:
+                                per_pos = strat.cash / max(1, strat.max_positions - len(strat.positions))
+                                shares = int(min(per_pos, strat.cash) / price)
+                                if shares > 0:
+                                    reason = f"EARNINGS {signal}: surprise {surprise}% [{strat.name}]"
+                                    mem_note = SimulationMemory.read_regime_wisdom(regime, strat.memory)
+                                    if mem_note.get("known"):
+                                        reason += f" [Regime {regime}: {mem_note['win_rate']}% win rate]"
+                                    if ticker not in sold_today:
+                                        strat._buy(ticker, shares, price, date_str, reason)
+
+                        # Execute sell
+                        elif should_sell and ticker in strat.positions:
+                            price = _get_price(ticker)
+                            if price:
+                                pnl = (price - strat.positions[ticker]["entry_price"]) / strat.positions[ticker]["entry_price"] * 100
+                                strat._sell(ticker, price, date_str,
+                                    f"EARNINGS {signal}: surprise {surprise}% [{strat.name}]")
+                                sold_today.add(ticker)
+
+                        # Regular miss (not strong) on held position → watchnote
+                        elif signal == "miss" and ticker in strat.positions and strat.name != "Value":
+                            strat._log_reasoning(date_str, "WATCH", ticker, 0,
+                                f"EARNINGS miss (not strong) on {ticker}: monitoring. Next earnings could confirm weakness.")
+
+                    # --- VOLUME ANOMALY → Only event/momentum strategies react ---
+                    elif t.type == "VOLUME_ANOMALY" and t.severity in ("MEDIUM", "HIGH"):
+                        # Value, Balanced, Adaptive, Commodity: skip volume triggers
+                        # Their alpha comes from scoring, not chasing intraday moves
+                        if strat.name in ("Value", "Balanced", "Adaptive", "Commodity"):
+                            continue
+                        ticker = t.ticker
+                        price_move = t.data.get("price_move_pct", 0)
+                        vol_ratio = t.data.get("volume_ratio", 1)
+
+                        # Defensive + Value: NEVER chase volume spikes for buys
+                        # They only sell on volume crashes for held positions
+                        if strat.name in ("Defensive", "Value"):
+                            if price_move < -8 and ticker in strat.positions and strat.name == "Defensive":
+                                price = _get_price(ticker)
+                                if price:
+                                    pnl = (price - strat.positions[ticker]["entry_price"]) / strat.positions[ticker]["entry_price"] * 100
+                                    strat._sell(ticker, price, date_str,
+                                        f"VOLUME CRASH: {price_move:.1f}% on {vol_ratio}x volume — {strat.name} exiting")
+                                    sold_today.add(ticker)
+                            # Value watches crashes as potential buy later
+                            elif price_move < -10 and strat.name == "Value":
+                                strat._log_reasoning(date_str, "WATCH", ticker, 0,
+                                    f"VOLUME CRASH {price_move:.1f}%: Value watching {ticker} for potential bargain entry")
+
+                        # Momentum + EventDriven: chase positive spikes aggressively
+                        elif strat.name in ("Momentum", "EventDriven"):
+                            if price_move > 5 and ticker not in strat.positions and len(strat.positions) < strat.max_positions:
+                                record = SimulationMemory.read_ticker_record(ticker, strat.memory)
+                                if not record.get("warning"):
+                                    price = _get_price(ticker)
+                                    if price and strat.cash > price:
+                                        per_pos = strat.cash / max(1, strat.max_positions - len(strat.positions))
+                                        shares = int(min(per_pos, strat.cash * 0.5) / price)
+                                        if shares > 0:
+                                            if ticker not in sold_today:
+                                                strat._buy(ticker, shares, price, date_str,
+                                                f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} catalyst play")
+                            elif price_move < -8 and ticker in strat.positions:
+                                price = _get_price(ticker)
+                                if price:
+                                    pnl = (price - strat.positions[ticker]["entry_price"]) / strat.positions[ticker]["entry_price"] * 100
+                                    strat._sell(ticker, price, date_str,
+                                        f"VOLUME CRASH: {price_move:.1f}% — {strat.name} cutting loss")
+                                    sold_today.add(ticker)
+
+                        # Balanced + Adaptive: moderate — buy only very large spikes, sell crashes
+                        else:
+                            if price_move > 8 and ticker not in strat.positions and len(strat.positions) < strat.max_positions:
+                                record = SimulationMemory.read_ticker_record(ticker, strat.memory)
+                                if not record.get("warning"):
+                                    price = _get_price(ticker)
+                                    if price and strat.cash > price:
+                                        per_pos = strat.cash / max(1, strat.max_positions - len(strat.positions))
+                                        shares = int(min(per_pos, strat.cash * 0.3) / price)  # small position
+                                        if shares > 0:
+                                            if ticker not in sold_today:
+                                                strat._buy(ticker, shares, price, date_str,
+                                                f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} cautious entry")
+                            elif price_move < -8 and ticker in strat.positions:
+                                price = _get_price(ticker)
+                                if price:
+                                    pnl = (price - strat.positions[ticker]["entry_price"]) / strat.positions[ticker]["entry_price"] * 100
+                                    strat._sell(ticker, price, date_str,
+                                        f"VOLUME CRASH: {price_move:.1f}% — {strat.name} exiting")
+                                    sold_today.add(ticker)
+
+                    # --- PROFIT TARGET → Take partial profits on big winners ---
+                    elif t.type == "PROFIT_TARGET" and t.ticker in strat.positions:
+                        pnl_pct = t.data.get("pnl_pct", 0)
+                        ticker = t.ticker
+                        pos = strat.positions[ticker]
+
+                        # Only trim once per threshold: check if already trimmed at this level
+                        last_trim_price = pos.get("_last_trim_price", 0)
+                        price = _get_price(ticker)
+                        trim_thresh = getattr(strat, 'trim_threshold_pct', 40.0)
+                        if price and price > last_trim_price * 1.25 and pnl_pct > trim_thresh and pos["shares"] > 2:
+                            # Sell 1/3 of position (not half — less aggressive)
+                            trim_shares = max(1, pos["shares"] // 3)
+                            proceeds = trim_shares * price
+                            pnl = (price - pos["entry_price"]) * trim_shares
+                            strat.cash += proceeds
+                            strat.positions[ticker]["shares"] -= trim_shares
+                            # Mark trim price so we don't re-trim until another +25% from here
+                            strat.positions[ticker]["_last_trim_price"] = price
+                            strat.transactions.append({
+                                "date": date_str, "action": "TRIM",
+                                "ticker": ticker, "shares": trim_shares,
+                                "price": round(price, 2), "total": round(proceeds, 2),
+                                "pnl": round(pnl, 2),
+                                "pnl_pct": round(pnl_pct, 2),
+                                "cash_after": round(strat.cash, 2),
+                            })
+                            strat._log_reasoning(date_str, "TRIM", ticker, price,
+                                f"PROFIT TARGET: +{pnl_pct:.0f}%, trimming 1/3 ({trim_shares} shares). "
+                                f"Holding {strat.positions[ticker]['shares']}. Next trim at +25% from ${price:.0f}.")
+
+            # === REBALANCE (respects per-strategy frequency) ===
+            # Bug fix: rebalance_frequency was defined but never used
+            # Bug fix: only block rebalance if a SELL happened today (stop-loss, regime sell)
+            # Trims and logs should NOT block the monthly rebalance
+            sold_today_in_rebalance = any(
+                tx["date"] == date_str and tx["action"] == "SELL"
+                for tx in strat.transactions
+            ) if strat.transactions else False
+            freq = getattr(strat, 'rebalance_frequency', 'monthly')
+            if freq == "quarterly":
+                # Quarterly: only rebalance in Jan, Apr, Jul, Oct
+                is_strat_rebalance = is_rebalance_day and current_month[5:7] in ("01", "04", "07", "10")
+            elif freq == "biweekly":
+                # Biweekly: rebalance on 1st and 15th of each month
+                day_of_month = int(date_str[8:10])
+                is_strat_rebalance = day_of_month <= 2 or (14 <= day_of_month <= 16)
+            else:
+                is_strat_rebalance = is_rebalance_day
+            if is_strat_rebalance and not sold_today_in_rebalance:
+                # Full rebalance using strategy's scoring + memory adjustments
+                pre_rebal_count = len(strat.transactions)
+                # Bug fix: save macro regime before score_stocks (strategies overwrite _last_regime
+                # with internal labels like "defensive:NORMAL" which corrupts memory writes)
+                saved_regime = strat._last_regime
+                scores = strat.score_stocks(UNIVERSE, price_data, date_str)
+                strat._last_regime = saved_regime  # restore macro regime for memory
+
+                # Adjust scores based on memory
+                adjusted = []
+                for ticker, score in scores:
+                    mem_adj = strat._read_memory_for_scoring(ticker, regime)
+                    adjusted.append((ticker, score + mem_adj))
+                adjusted.sort(key=lambda x: x[1], reverse=True)
+
+                # === RISK OVERLAY: shared detect → per-strategy judge ===
+                # Bug fix: cache detect_raw per-ticker per-day (was calling 7x per stock)
+                size_multipliers = {}
+                qualified = [(t, s) for t, s in adjusted if s >= strat.min_score_threshold]
+                for ticker, score in qualified[:strat.max_positions]:
+                    tech = signal_engine.compute_technical(ticker, date_str)
+
+                    # SHARED: detect raw signals + conflicts ONCE per ticker per day
+                    cache_key = (ticker, date_str)
+                    if cache_key not in _detect_cache:
+                        _detect_cache[cache_key] = risk_overlay.detect_raw(ticker, tech, macro)
+                    raw_signals, raw_conflicts = _detect_cache[cache_key]
+
+                    # PER-STRATEGY: this judge interprets through its own lens
+                    conv, conf = risk_overlay.judge_for_strategy(
+                        ticker, raw_signals, raw_conflicts, strat)
+
+                    # Combined size multiplier
+                    size_multipliers[ticker] = risk_overlay.compute_final_size_multiplier(conv, conf)
+
+                # Attach size multipliers and cash floor to strategy for execute_rebalance
+                strat._risk_size_multipliers = size_multipliers
+
+                # Cash floor: dynamic minimum cash reserve
+                consensus_active = hasattr(risk_overlay, 'consensus_signal') and \
+                    risk_overlay.consensus_signal and risk_overlay.consensus_signal._active
+                floor = risk_overlay.get_cash_floor(
+                    strat.get_portfolio_value(price_data, date_str),
+                    regime, consensus_active)
+                strat._cash_floor_amount = floor["floor_amount"]
+
+                strat.execute_rebalance(adjusted, price_data, date_str)
+                # Memory writes happen inside _sell() automatically
+
+                # Clean up temporary attributes
+                if hasattr(strat, '_risk_size_multipliers'):
+                    del strat._risk_size_multipliers
+                if hasattr(strat, '_cash_floor_amount'):
+                    del strat._cash_floor_amount
+
+            # === CLOSE: Record snapshot ===
+            strat.snapshot(price_data, date_str)
+
+        if day_had_triggers:
+            total_trigger_days += 1
+
+        # Progress
+        if not quiet and (i + 1) % milestone == 0:
+            pct = int((i + 1) / len(trading_days) * 100)
+            print(f"  [{pct:>3}%] {date_str}", end="")
+            trig_today = sum(1 for t in daily_trigger_log if t["date"] == date_str)
+            print(f" | triggers: {trig_today}", end="")
+            for s in strategies[:4]:
+                val = s.portfolio_history[-1]["total_value"] if s.portfolio_history else initial_cash
+                ret = (val - initial_cash) / initial_cash * 100
+                print(f" | {s.name[:3]}: {ret:+.1f}%", end="")
+            print()
+
+    # Finalize
+    for strat in strategies:
+        strat.finalize_memory()
+
+    # Compute benchmarks
+    benchmarks = {}
+    for bm in BENCHMARKS:
+        if bm in price_data:
+            df = price_data[bm]
+            mask = (df.index >= pd.Timestamp(start)) & (df.index <= pd.Timestamp(end))
+            bench = df.loc[mask]
+            if not bench.empty:
+                entry = float(bench["Close"].iloc[0])
+                shares = int(initial_cash / entry)
+                cash_left = initial_cash - shares * entry
+                final = float(bench["Close"].iloc[-1])
+                fv = shares * final + cash_left
+                values = (bench["Close"] * shares + cash_left).values
+                peak = np.maximum.accumulate(values)
+                dd = (values - peak) / peak * 100
+                daily_ret = pd.Series(values).pct_change().dropna()
+                sharpe = float(daily_ret.mean() / daily_ret.std() * np.sqrt(252)) if daily_ret.std() > 0 else 0
+                benchmarks[bm] = {
+                    "final_value": round(fv, 2),
+                    "total_return_pct": round((fv - initial_cash) / initial_cash * 100, 2),
+                    "sharpe_ratio": round(sharpe, 3),
+                    "max_drawdown_pct": round(float(np.min(dd)), 2),
+                }
+
+    # === SAVE RESULTS ===
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+    period_slug = period_name.lower().replace(" ", "_")[:20]
+    run_name = f"{timestamp}_{period_slug}_mp{max_positions}_daily"
+    run_dir = os.path.join(RUNS_DIR, run_name)
+    os.makedirs(run_dir, exist_ok=True)
+
+    # Config (with feature flags for reproducibility)
+    with open(os.path.join(run_dir, "config.json"), "w") as f:
+        json.dump({
+            "run_name": run_name, "engine": "daily_event_driven",
+            "engine_version": "2.0",
+            "period": period_name, "start": start, "end": end,
+            "initial_cash": initial_cash, "max_positions": max_positions,
+            "universe_size": len(UNIVERSE), "trading_days": len(trading_days),
+            "total_triggers": len(daily_trigger_log),
+            "trigger_days": total_trigger_days,
+            "features": risk_overlay.features,
+            "params": risk_overlay.params,
+        }, f, indent=2)
+
+    # Trigger log
+    with open(os.path.join(run_dir, "trigger_log.json"), "w") as f:
+        json.dump(daily_trigger_log, f, indent=2, default=str)
+
+    # === SHARED DATA (computed once, read by all strategies) ===
+    shared_dir = os.path.join(run_dir, "shared")
+    os.makedirs(shared_dir, exist_ok=True)
+
+    with open(os.path.join(shared_dir, "regime_log.json"), "w") as f:
+        json.dump(regime_log, f, indent=2)
+
+    if risk_overlay.consensus_logs:
+        with open(os.path.join(shared_dir, "consensus_log.json"), "w") as f:
+            json.dump(risk_overlay.consensus_logs, f, indent=2, default=str)
+
+    # Raw signals + conflicts (shared detection — same facts for all strategies)
+    if risk_overlay.raw_signals_log:
+        with open(os.path.join(shared_dir, "signals_raw.json"), "w") as f:
+            json.dump(risk_overlay.raw_signals_log, f, indent=2, default=str)
+
+    if risk_overlay.raw_conflicts_log:
+        with open(os.path.join(shared_dir, "conflicts_raw.json"), "w") as f:
+            json.dump(risk_overlay.raw_conflicts_log, f, indent=2, default=str)
+
+    # Per-strategy results
+    results = {"strategies": {}, "benchmarks": benchmarks}
+    for strat in strategies:
+        history = strat.portfolio_history
+        if not history:
+            continue
+        fv = history[-1]["total_value"]
+        tr = (fv - initial_cash) / initial_cash * 100
+        values = pd.Series([h["total_value"] for h in history])
+        dr = values.pct_change().dropna()
+        sharpe = float(dr.mean() / dr.std() * np.sqrt(252)) if len(dr) > 1 and dr.std() > 0 else 0
+        peak = values.cummax()
+        dd = (values - peak) / peak * 100
+        max_dd = float(dd.min())
+        sells = [t for t in strat.transactions if t["action"] == "SELL"]
+        wins = sum(1 for t in sells if t.get("pnl", 0) > 0)
+        spy_ret = benchmarks.get("SPY", {}).get("total_return_pct", 0)
+
+        results["strategies"][strat.name] = {
+            "final_value": round(fv, 2), "total_return_pct": round(tr, 2),
+            "alpha_vs_spy": round(tr - spy_ret, 2), "sharpe_ratio": round(sharpe, 3),
+            "max_drawdown_pct": round(max_dd, 2),
+            "total_trades": len(strat.transactions),
+            "win_rate_pct": round(wins / len(sells) * 100, 1) if sells else 0,
+        }
+
+        # Save per-strategy files
+        sdir = os.path.join(run_dir, "portfolios", strat.name)
+        os.makedirs(sdir, exist_ok=True)
+
+        with open(os.path.join(sdir, "state.json"), "w") as f:
+            json.dump({"final_value": round(fv, 2), "cash": round(strat.cash, 2),
+                       "positions": strat.positions, "return_pct": round(tr, 2)}, f, indent=2, default=str)
+
+        if strat.transactions:
+            all_keys = set()
+            for t in strat.transactions:
+                all_keys.update(t.keys())
+            fieldnames = ["date", "action", "ticker", "shares", "price", "total", "pnl", "pnl_pct", "cash_after"]
+            fieldnames = [k for k in fieldnames if k in all_keys]
+            fieldnames.extend(k for k in sorted(all_keys) if k not in fieldnames)
+            with open(os.path.join(sdir, "transactions.csv"), "w", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+                w.writeheader()
+                w.writerows(strat.transactions)
+
+        if strat.reasoning_log:
+            with open(os.path.join(sdir, "reasoning.json"), "w") as f:
+                json.dump(strat.reasoning_log, f, indent=2, default=str)
+
+        with open(os.path.join(sdir, "memory.json"), "w") as f:
+            json.dump(strat.memory, f, indent=2, default=str)
+
+        with open(os.path.join(sdir, "history.json"), "w") as f:
+            json.dump(history, f, indent=2)
+
+        if strat.watchnotes:
+            with open(os.path.join(sdir, "watchnotes.json"), "w") as f:
+                json.dump(strat.watchnotes, f, indent=2, default=str)
+
+        # Save conviction logs (per-strategy, from risk overlay)
+        # Per-strategy risk overlay logs (how THIS judge interpreted shared signals)
+        conv_logs = risk_overlay.conviction_logs.get(strat.name, [])
+        if conv_logs:
+            with open(os.path.join(sdir, "conviction_log.json"), "w") as f:
+                json.dump(conv_logs, f, indent=2, default=str)
+
+        conf_logs = risk_overlay.conflict_logs.get(strat.name, [])
+        if conf_logs:
+            with open(os.path.join(sdir, "conflicts.json"), "w") as f:
+                json.dump(conf_logs, f, indent=2, default=str)
+
+    # Summary
+    with open(os.path.join(run_dir, "summary.json"), "w") as f:
+        json.dump(results, f, indent=2, default=str)
+
+    # Print results
+    if not quiet:
+        print(f"\n{'=' * 80}")
+        print(f"RESULTS: {period_name} (Daily Event-Driven Engine)")
+        print(f"{'=' * 80}")
+        print(f"Trading days: {len(trading_days)} | Total triggers: {len(daily_trigger_log)} | Trigger days: {total_trigger_days}")
+        print()
+        print(f"{'Strategy':<14} {'Return':>10} {'Alpha':>10} {'Sharpe':>10} {'MaxDD':>10} {'WinRate':>10} {'Trades':>8}")
+        print("-" * 72)
+        for name, data in results["strategies"].items():
+            print(f"{name:<14} {data['total_return_pct']:>9.1f}% {data['alpha_vs_spy']:>9.1f}% "
+                  f"{data['sharpe_ratio']:>10.3f} {data['max_drawdown_pct']:>9.1f}% "
+                  f"{data['win_rate_pct']:>9.1f}% {data['total_trades']:>8}")
+        print("-" * 72)
+        for name, data in benchmarks.items():
+            print(f"{name + ' (B&H)':<14} {data['total_return_pct']:>9.1f}% {'--':>10} "
+                  f"{data['sharpe_ratio']:>10.3f} {data['max_drawdown_pct']:>9.1f}% {'--':>10} {'--':>8}")
+        print(f"\nRun saved to: {run_dir}")
+    return results
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Daily event-driven simulation")
+    parser.add_argument("--period", choices=list(PERIODS.keys()), help="Named period")
+    parser.add_argument("--start", help="Start date YYYY-MM-DD")
+    parser.add_argument("--end", help="End date YYYY-MM-DD")
+    parser.add_argument("--cash", type=float, default=100_000)
+    parser.add_argument("--max-positions", type=int, default=10)
+    args = parser.parse_args()
+
+    if args.period:
+        p = PERIODS[args.period]
+        run_daily_simulation(p["start"], p["end"], args.cash, args.max_positions, p["name"])
+    elif args.start and args.end:
+        run_daily_simulation(args.start, args.end, args.cash, args.max_positions, "Custom")
+    else:
+        parser.print_help()
+
+
+if __name__ == "__main__":
+    main()

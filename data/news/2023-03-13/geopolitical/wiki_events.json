@@ -1,0 +1,92 @@
+{
+  "date": "2023-03-13",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 9,
+  "categories": {
+    "other": {
+      "count": 9,
+      "headlines": [
+        "2022–23 South-West Indian Ocean cyclone season",
+        "Thirty-four people are killed after a boat carrying migrants from Madagascar to the island of Mayotte sinks.",
+        "One person is killed and three others are injured by an apparent gas explosion in Swansea, Wales, United Kingdom.",
+        "2023 Amqui truck attack",
+        "2023 Tokelauan general election"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2022–23 South-West Indian Ocean cyclone season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Cyclone Freddy",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Cyclone Freddy kills at least 99 people in Malawi, including 85 people in Blantyre. It is the longest-lived tropical cyclone on record, according to the WMO, having formed on February 4.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Thirty-four people are killed after a boat carrying migrants from Madagascar to the island of Mayotte sinks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Arab News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and three others are injured by an apparent gas explosion in Swansea, Wales, United Kingdom.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Amqui truck attack",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two people are killed and nine others are injured when a truck strikes a group of pedestrians in Amqui, Quebec, Canada.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Tokelauan general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kerisiano Kalolo becomes the new Head of Government of Tokelau.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

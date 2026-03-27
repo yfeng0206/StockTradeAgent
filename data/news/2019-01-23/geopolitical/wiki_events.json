@@ -1,0 +1,176 @@
+{
+  "date": "2019-01-23",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 17,
+  "categories": {
+    "legal": {
+      "count": 8,
+      "headlines": [
+        "Three residents of the U.S. state of Michigan are arrested at Gerald R. Ford International Airport for allegedly conspiring to support the Islamic State.",
+        "2019 Sebring, Florida shooting",
+        "The Diocese of Covington building in the U.S. state of Kentucky is evacuated after \"suspicious\" packages were reportedly found outside. Authorities cleared the building of threats later in the evening",
+        "Abortion in the United States",
+        "LGBT rights in Angola"
+      ]
+    },
+    "tech": {
+      "count": 2,
+      "headlines": [
+        "2019 in spaceflight"
+      ]
+    },
+    "politics": {
+      "count": 7,
+      "headlines": [
+        "2019 Venezuelan protests, 2019 Venezuelan presidential crisis, United States–Venezuela relations",
+        "2018–19 United States federal government shutdown"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Three residents of the U.S. state of Michigan are arrested at Gerald R. Ford International Airport for allegedly conspiring to support the Islamic State.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Sebring, Florida shooting",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A gunman kills five people at a SunTrust Banks branch in Sebring, Florida, United States, following a hostage situation. The suspect later surrenders himself to the authorities.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Diocese of Covington building in the U.S. state of Kentucky is evacuated after \"suspicious\" packages were reportedly found outside. Authorities cleared the building of threats later in the evening.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Washington Post''",
+        "''USA Today''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Abortion in the United States",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "New York passes the Reproductive Health Act, which allows abortion rights.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CBS News",
+        "''Wall Street Journal''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "LGBT rights in Angola",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Angola decriminalizes homosexuality.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Human Rights Watch''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Venezuelan protests, 2019 Venezuelan presidential crisis, United States–Venezuela relations",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Opposition leader Juan Guaidó swears himself in as President of Venezuela, with de facto President Nicolás Maduro not recognizing this.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States, Canada and several Latin American nations recognize opposition leader Juan Guaidó as President of Venezuela.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Chicago Tribune''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "President Nicolás Maduro says his government is breaking off diplomatic relations with the United States, giving American diplomats 72 hours to leave the country. Juan Guaidó, in turn, asks diplomats of countries that have recognized him as president to remain in Venezuela.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Venezuelan military rejects Juan Guaidó's self-proclaimed Presidency and remains loyal to President Nicolás Maduro.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "RT"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2018–19 United States federal government shutdown",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "House Speaker Nancy Pelosi says she will not authorize President Donald Trump's 2019 State of the Union Address in the House chamber until the government shutdown has ended.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 in spaceflight",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Blue Origin successfully launches its New Shepard 3 rocket and completes the tenth sub-orbital test flight, reaching an altitude of 106.9 km (351,000 ft), carrying its crew capsule and making a controlled upright landing in West Texas.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "NASA",
+        "''Ars Technica''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

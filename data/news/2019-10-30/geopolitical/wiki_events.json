@@ -1,0 +1,236 @@
+{
+  "date": "2019-10-30",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 23,
+  "categories": {
+    "sports": {
+      "count": 2,
+      "headlines": [
+        "2019 World Series"
+      ]
+    },
+    "geopolitical": {
+      "count": 4,
+      "headlines": [
+        "A motorcycle bomb explodes in front of a hotel in Spin Boldak, Kandahar Province, Afghanistan. Seven are wounded.",
+        "The Afghan army, together with its international partners, launch a series of counterterrorism airstrikes in Kandahar, Uruzgan and Zabul, killing 58, including a Taliban governor. Ten mines are also d",
+        "Syrian peace process"
+      ]
+    },
+    "disaster": {
+      "count": 3,
+      "headlines": [
+        "2013 Glasgow helicopter crash",
+        "A fire destroys much of the 500-year-old Shuri Castle in Shuri, Okinawa, Japan, which is a UNESCO World Heritage Site."
+      ]
+    },
+    "legal": {
+      "count": 12,
+      "headlines": [
+        "2019 Samoa assassination plot",
+        "Murder of Aya Maasarwe",
+        "2019 Chilean protests",
+        "Death of Jeffrey Epstein",
+        "Crime in California"
+      ]
+    },
+    "other": {
+      "count": 2,
+      "headlines": [
+        "Twitter announces it will ban all political ads on its platform starting November 22.",
+        "A man, 66-year-old Coy Featherson, homeless for 20 years, finds a permanent home, with the help of friends who had known him since middle school."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "A motorcycle bomb explodes in front of a hotel in Spin Boldak, Kandahar Province, Afghanistan. Seven are wounded.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Hindustan Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Afghan army, together with its international partners, launch a series of counterterrorism airstrikes in Kandahar, Uruzgan and Zabul, killing 58, including a Taliban governor. Ten mines are also destroyed.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Hindustan Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Syrian peace process",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The first meeting of the Syrian Constitutional Committee takes place in Geneva in a bid to end the country's eight-year-long civil war.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Twitter announces it will ban all political ads on its platform starting November 22.",
+      "category": "Business and economics",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A man, 66-year-old Coy Featherson, homeless for 20 years, finds a permanent home, with the help of friends who had known him since middle school.",
+      "category": "Business and economics",
+      "market_category": "other",
+      "sources": [
+        "People"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2013 Glasgow helicopter crash",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The fatal accident inquiry into the crash concludes with the issuing of a report by Sheriff Principal Craig Turnbull. Turnbull criticises the helicopter's pilot, prompting concerns by some victims over excessive blame being placed upon pilot error. The aircraft crashed into a bar after running out of fuel.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A fire destroys much of the 500-year-old Shuri Castle in Shuri, Okinawa, Japan, which is a UNESCO World Heritage Site.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "NHK World-Japan"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Samoa assassination plot",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "After months of delay, the Supreme Court of Samoa accepts a closed court bail hearing for two defendants accused of attempting to assassinate Prime Minister of Samoa Tuilaepa Sailele Malielegaoi. A third defendant who pleaded guilty is due to be sentenced on November 1.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Radio New Zealand"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Murder of Aya Maasarwe",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Australia sentences Maasarwe's confessed killer, Codey Herrmann, to 36 years in prison with parole eligibility after 30 for rape and murder. The case prompted widespread debate about violence against women in Australia.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Chilean protests",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Due to the escalation in the protests, President Sebastián Piñera announces the cancellation of the 2019 APEC Summit and the United Nations Climate Change Conference, due to be hosted in Santiago in the following weeks.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Death of Jeffrey Epstein",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Dr. Michael Baden, a medical examiner who observed the autopsy of Jeffrey Epstein, says that it shows signs consistent with homicide.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Yahoo! News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Crime in California",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A mass shooting at a Halloween party at a residence in Long Beach, California, by at least one gunman, who is believed to have targeted the party but to have fired at random, kills three and injures at least nine, with some having significant injuries.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "MSN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Censorship in Myanmar",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Yangon convicts five members of satirical thangyat troupe Peacock Generation over an April performance in which they lampoon the nation's military. They each are jailed for one year.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 World Series",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Washington Nationals beat the Houston Astros 6–2 in Game 7 to win the World Series. It is the franchise's first World Series championship and the first World Series victory for an MLB team based in the district since the Washington Senators (now known as the Minnesota Twins) won in 1924. This World Series is also notable as the first in which all games were won by the visiting team.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

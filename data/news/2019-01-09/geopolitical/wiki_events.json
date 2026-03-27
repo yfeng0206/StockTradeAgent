@@ -1,0 +1,130 @@
+{
+  "date": "2019-01-09",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 11,
+  "categories": {
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "Remnants of a Dassault Mirage 2000D fighter jet are found in Jura, France, after the aircraft with two pilots onboard disappeared from radar."
+      ]
+    },
+    "legal": {
+      "count": 3,
+      "headlines": [
+        "Diplomatic offices in Melbourne, Australia, are evacuated after suspicious packages were found.",
+        "Former Israeli minister Gonen Segev pleads guilty to spying for Iran, in exchange for an 11-year prison sentence.",
+        "German prosecutors say, based on CCTV images, that most of AfD politician Frank Magnitz's injuries yesterday may have been sustained as he hit the ground after having been elbowed once by three people"
+      ]
+    },
+    "tech": {
+      "count": 3,
+      "headlines": [
+        "Havana syndrome",
+        "Scientists announce through the Nature journal, the discovery of 13 deep-space fast radio bursts (FRBs), named FRB 180814, by the CHIME radio telescope in British Columbia, Canada."
+      ]
+    },
+    "politics": {
+      "count": 4,
+      "headlines": [
+        "Brexit negotiations",
+        "2020 United States presidential election, 2020 Democratic Party presidential primaries"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Remnants of a Dassault Mirage 2000D fighter jet are found in Jura, France, after the aircraft with two pilots onboard disappeared from radar.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "France Info"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Diplomatic offices in Melbourne, Australia, are evacuated after suspicious packages were found.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Former Israeli minister Gonen Segev pleads guilty to spying for Iran, in exchange for an 11-year prison sentence.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "German prosecutors say, based on CCTV images, that most of AfD politician Frank Magnitz's injuries yesterday may have been sustained as he hit the ground after having been elbowed once by three people and falling over. Magnitz says the attack may have been an attempted robbery.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Brexit negotiations",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "After a vote by MPs in the House of Commons, the government is required to table an alternative Brexit plan within 3 days of the vote, if it fails to pass a majority on January 15.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 United States presidential election, 2020 Democratic Party presidential primaries",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Joining several other Democrats in the race, Senator Kamala Harris of California announces her intention for running in the 2020 United States presidential election.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "KCBS Radio"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Havana syndrome",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two biologists who analysed a sound recording obtained by the Associated Press in 2017, say that it closely matches the calling song of the Indies short-tailed cricket, a species not known to exist in Cuba.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Scientists announce through the Nature journal, the discovery of 13 deep-space fast radio bursts (FRBs), named FRB 180814, by the CHIME radio telescope in British Columbia, Canada.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

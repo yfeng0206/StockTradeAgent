@@ -1,0 +1,253 @@
+{
+  "date": "2022-08-01",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 29,
+  "categories": {
+    "other": {
+      "count": 29,
+      "headlines": [
+        "War on terror",
+        "Nagorno-Karabakh conflict",
+        "2022 Russian invasion of Ukraine",
+        "July 2022 United States floods",
+        "Twenty-four people are killed by heavy flooding in eastern Uganda."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War on terror",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Afghanistan conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Drone strikes in Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Killing of Ayman al-Zawahiri",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A U.S. drone strike in Kabul kills Ayman al-Zawahiri, al-Qaeda's leader since the death of Osama bin Laden in 2011. The airstrike is also the first U.S. military action in Afghanistan following the Taliban's takeover of Afghanistan last year.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''",
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nagorno-Karabakh conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2021–2022 Armenia–Azerbaijan border crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Shelling and heavy gunfire is reported near two villages by Artsakh authorities in Nagorno-Karabakh. The reports are denied by Azerbaijan and Russian forces in the region.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "JAM news"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The first ship with Ukrainian grain leaves the port of Odesa for Lebanon after an agreement was signed with Russia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "July 2022 United States floods",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The death toll from the ongoing flash floods in Kentucky and Virginia, United States, increases to 35 with 37 people missing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Lexington Herald Leader''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Twenty-four people are killed by heavy flooding in eastern Uganda.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Nine people are killed and 76 others are injured after a fuel tanker explodes in Bent Bayya, Wadi al Hayaa District, Libya.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "More than two million people are under red flag warnings in the United States as wildfires continue to spread in Northern California, Oregon, Washington, Montana, South Dakota, and Nebraska.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A Pakistan Army Aviation Corps helicopter carrying several senior Pakistan Army officials crashes in Balochistan. Rescuers have not yet reached the crash site due to ongoing floods in the region.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''India Today''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 monkeypox outbreak",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 monkeypox outbreak in India",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "India reports its first confirmed monkeypox related death in Kerala.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak in Peru",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Peru reports its first confirmed death from monkeypox in a 45-year-old male with underlying health conditions.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Infobae"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ghana reports its first confirmed death from monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "New Zealand has fully reopened its international borders after two years, becoming the last country in the western world to open for tourists.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A post made by the VK social media account of Dmitry Medvedev, the incumbent Deputy Chairman of the Security Council of Russia and former President of Russia, refers to Georgia and Kazakhstan as \"artificial\" creations and advocates the return of the two countries to Russian sovereignty. The post is quickly taken down and attributed to hackers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RFE/RL"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Persecution of Baháʼís",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iran announces the arrest of several members of the Baháʼí Faith on charges of spying.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Arabiya"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Cook Islands general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Citizens of the Cook Islands head to the polls to vote in a general election.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Foreign Brief''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

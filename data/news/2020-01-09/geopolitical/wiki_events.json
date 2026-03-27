@@ -1,0 +1,129 @@
+{
+  "date": "2020-01-09",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 11,
+  "categories": {
+    "geopolitical": {
+      "count": 6,
+      "headlines": [
+        "Battle of Chinagodrar",
+        "Ukraine International Airlines Flight 752"
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "A bus crashes in Iran's Mazandaran Province, killing at least 20 passengers and injuring 24 others."
+      ]
+    },
+    "legal": {
+      "count": 3,
+      "headlines": [
+        "Judge Ghassan Ouiedat, a Lebanese prosecutor, imposes a travel ban on former Chairman of Nissan Carlos Ghosn after he was summoned over an Interpol warrant issued by Japan seeking his arrest on financ",
+        "Trial of Catalonia independence leaders"
+      ]
+    },
+    "politics": {
+      "count": 1,
+      "headlines": []
+    }
+  },
+  "events": [
+    {
+      "text": "Battle of Chinagodrar",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Islamist militants kill over 25 Nigerien soldiers in an attack on an army base in Tillabéri Region, Niger. 63 militants are also killed in the ensuing shootout.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Punch''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukraine International Airlines Flight 752",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S., Canadian, British and Iraqi officials say they believe the plane crash near Tehran in which 176 were killed yesterday was likely caused accidentally by an Iranian anti-aircraft missile, while Iran says it was due to \"mechanical failure\".",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Newsweek''",
+        "NPR",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The New York Times releases a verified video obtained from an Iranian citizen showing the plane being struck by what appears to be a surface-to-air missile.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In a news conference, Canadian Prime Minister Justin Trudeau says it's \"too early to draw definitive conclusions\" that the downing of the plane was an \"act of war\". Trudeau also condemns Iran's attack on U.S. bases in Iraq.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''National Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A bus crashes in Iran's Mazandaran Province, killing at least 20 passengers and injuring 24 others.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Judge Ghassan Ouiedat, a Lebanese prosecutor, imposes a travel ban on former Chairman of Nissan Carlos Ghosn after he was summoned over an Interpol warrant issued by Japan seeking his arrest on financial misconduct charges.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Trial of Catalonia independence leaders",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Spanish Supreme Court revokes the immunity of jailed Oriol Junqueras declared by the European Court of Justice in a sentence on 19 December. This happens after the board of European Parliament recognized the former Vice President of Catalonia as a MEP since 3 July and was elected president of the Greens–European Free Alliance parliamentary group.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom House of Commons votes 330–231 to pass the Withdrawal Agreement Bill authorizing the country’s departure from the European Union at the end of the month.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Associated Press"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

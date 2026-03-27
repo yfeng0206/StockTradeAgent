@@ -1,0 +1,678 @@
+[
+  {
+    "date": "2022-10-03",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.00 -> 0.77. Themes: war/conflict, pandemic, geopolitical_tension",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS: Value \u2014 holding through volatility, watching for bargains",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "MA",
+    "price": 284.53,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $285",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "V",
+    "price": 176.83,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $177",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "ABT",
+    "price": 92.97,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $93",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "UPS",
+    "price": 136.81,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $137",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "PG",
+    "price": 117.46,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $117",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "VZ",
+    "price": 30.93,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $31",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "PFE",
+    "price": 36.19,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $36",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "T",
+    "price": 13.04,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $13",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "HON",
+    "price": 151.4,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $151",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "GS",
+    "price": 274.19,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $274",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-11",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> bearish. Elevated geo risk (0.54): war/conflict, geopolitical_tension",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2022-10-11",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "REGIME RECOVERY: high_volatility -> bearish. Will re-enter via next rebalance scoring.",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2022-10-13",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bearish -> high_volatility. No notable memory or context for today.",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2022-11-08",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2022-11-08",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "REGIME RECOVERY: high_volatility -> normal. Will re-enter via next rebalance scoring.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2022-11-09",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> high_volatility. No notable memory or context for today.",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48"
+  },
+  {
+    "date": "2022-12-05",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.04 -> 0.44. Themes: war/conflict, sanctions/trade, oil/energy, geopolitical_tension",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.44"
+  },
+  {
+    "date": "2022-12-09",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> normal. Elevated geo risk (0.81): war/conflict, sanctions/trade, oil/energy, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.81"
+  },
+  {
+    "date": "2022-12-09",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "REGIME RECOVERY: high_volatility -> normal. Will re-enter via next rebalance scoring.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.81"
+  },
+  {
+    "date": "2022-12-13",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2022-12-14",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.40"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "WFC",
+    "price": 37.99,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $38",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "AAPL",
+    "price": 127.88,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $128",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "CRM",
+    "price": 131.0,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $131",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "COST",
+    "price": 437.54,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $438",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "VZ",
+    "price": 31.65,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $32",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "UPS",
+    "price": 147.19,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $147",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "NKE",
+    "price": 110.23,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $110",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "MSFT",
+    "price": 233.69,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $234",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "CMCSA",
+    "price": 29.44,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $29",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "GOOGL",
+    "price": 87.51,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $88",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-04",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2023-01-06",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.29"
+  },
+  {
+    "date": "2023-01-25",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. Elevated geo risk (0.62): war/conflict, oil/energy, rates/inflation, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2023-01-26",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.64): war/conflict, oil/energy, rates/inflation, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2023-01-30",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. Elevated geo risk (0.67): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-01-31",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.68): war/conflict, pandemic, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.68"
+  },
+  {
+    "date": "2023-02-17",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. Elevated geo risk (0.67): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-03-10",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bearish. No notable memory or context for today.",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2023-03-14",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bearish -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.13"
+  },
+  {
+    "date": "2023-03-20",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.25"
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 32.0,
+    "reason": "Ranked in top 10. Score: 5.652 (volatility=6.2, value_dist=10.0, rsi=0.0, stability=4.0, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.65,
+      "volatility": 6.19,
+      "value_dist": 10,
+      "rsi": 0,
+      "stability": 3.98,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SKIP_RISK",
+    "ticker": "WFC",
+    "price": 34.93,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $35",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SKIP_RISK",
+    "ticker": "BAC",
+    "price": 26.45,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $26",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 47.88,
+    "reason": "Ranked in top 10. Score: 5.455 (volatility=6.8, value_dist=2.2, rsi=0.0, stability=6.2, event_adj=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.46,
+      "volatility": 6.84,
+      "value_dist": 2.2,
+      "rsi": 0,
+      "stability": 6.21,
+      "event_adj": 1.5
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 34.5,
+    "reason": "Ranked in top 10. Score: 5.437 (volatility=5.7, value_dist=9.4, rsi=0.0, stability=4.6, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.44,
+      "volatility": 5.7,
+      "value_dist": 9.36,
+      "rsi": 0,
+      "stability": 4.59,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 477.21,
+    "reason": "Ranked in top 10. Score: 5.385 (volatility=5.1, value_dist=7.1, rsi=0.0, stability=6.2, event_adj=0.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.39,
+      "volatility": 5.07,
+      "value_dist": 7.08,
+      "rsi": 0,
+      "stability": 6.21,
+      "event_adj": 0.5
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 143.44,
+    "reason": "Ranked in top 10. Score: 5.128 (volatility=7.1, value_dist=5.4, rsi=0.1, stability=6.9, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.13,
+      "volatility": 7.09,
+      "value_dist": 5.36,
+      "rsi": 0.09,
+      "stability": 6.88,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 95.78,
+    "reason": "Ranked in top 10. Score: 5.079 [risk_overlay: 50% size] (volatility=6.0, value_dist=6.6, rsi=0.0, stability=6.5, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.08,
+      "volatility": 5.96,
+      "value_dist": 6.61,
+      "rsi": 0,
+      "stability": 6.54,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 97.46,
+    "reason": "Ranked in top 10. Score: 4.961 [risk_overlay: 50% size] (volatility=4.0, value_dist=10.0, rsi=0.0, stability=3.7, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.96,
+      "volatility": 4.05,
+      "value_dist": 10,
+      "rsi": 0,
+      "stability": 3.73,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 78.95,
+    "reason": "Ranked in top 10. Score: 4.831 [risk_overlay: 50% size] (volatility=4.7, value_dist=5.4, rsi=2.7, stability=6.4, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 4.83,
+      "volatility": 4.65,
+      "value_dist": 5.42,
+      "rsi": 2.68,
+      "stability": 6.37,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2023-04-12",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2023-04-17",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.69): war/conflict, oil/energy, pandemic, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. Elevated geo risk (0.88): war/conflict, oil/energy, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-25",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 32.82,
+    "reason": "STOP LOSS triggered (-4.89% loss) PnL: -4.9% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2023-04-28",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2023-05-02",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. In 'sideways' regime (past: 1 trades, 0.0% win rate, avg -4.9%). \u2014 history says be cautious here. Elevated geo risk (0.61): war/conflict, oil/energy, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2023-05-16",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 29.9,
+    "reason": "STOP LOSS triggered (-6.56% loss) PnL: -6.6% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-16",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 88.89,
+    "reason": "STOP LOSS triggered (-8.8% loss) PnL: -8.8% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-18",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.15 -> 0.45. Themes: war/conflict, pandemic, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-23",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. In 'sideways' regime (past: 3 trades, 0.0% win rate, avg -6.8%). \u2014 history says be cautious here. Elevated geo risk (0.58): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.58"
+  },
+  {
+    "date": "2023-05-26",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. Elevated geo risk (0.72): war/conflict, pandemic, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.72"
+  },
+  {
+    "date": "2023-06-01",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. In 'sideways' regime (past: 3 trades, 0.0% win rate, avg -6.8%). \u2014 history says be cautious here. Elevated geo risk (0.70): war/conflict, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2023-06-02",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.70): war/conflict, pandemic, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.70"
+  }
+]

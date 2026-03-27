@@ -1,0 +1,34 @@
+{
+  "run_name": "2026-03-26_173540_bull_to_recession_mp10_daily",
+  "engine": "daily_event_driven",
+  "engine_version": "2.0",
+  "period": "Bull to Recession",
+  "start": "2021-07-01",
+  "end": "2022-06-30",
+  "initial_cash": 100000,
+  "max_positions": 10,
+  "universe_size": 50,
+  "trading_days": 261,
+  "total_triggers": 5274,
+  "trigger_days": 246,
+  "features": {
+    "conviction_gate": true,
+    "contradiction_detection": true,
+    "cross_strategy_consensus": true,
+    "dynamic_cash_floor": true,
+    "partial_fill": true
+  },
+  "params": {
+    "conviction_full_threshold": 0.3,
+    "conviction_half_threshold": 0.1,
+    "conflict_reduce_pct": 0.5,
+    "conflict_skip_threshold": 0.75,
+    "consensus_bearish_threshold": 0.7,
+    "consensus_persistence_required": 1,
+    "consensus_exposure_cap": 0.6,
+    "cash_floor_base_pct": 0.05,
+    "cash_floor_danger_add_pct": 0.15,
+    "cash_floor_consensus_add_pct": 0.1,
+    "cash_floor_max_pct": 0.4
+  }
+}

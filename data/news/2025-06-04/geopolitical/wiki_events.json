@@ -1,0 +1,160 @@
+{
+  "date": "2025-06-04",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 17,
+  "categories": {
+    "other": {
+      "count": 17,
+      "headlines": [
+        "Islamic State insurgency in Puntland",
+        "Israeli invasion of Syria",
+        "2025 Bengaluru stampede",
+        "Immigration policy of the second Donald Trump administration",
+        "2025 South Korean presidential election"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Islamic State insurgency in Puntland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Puntland counter-terrorism operations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Puntland's elite security forces kills over 35 ISIS militants, including several foreign fighters, in a major military operation conducted in the mountainous rural areas in the Bari region of Puntland. The troops also destroy weapons caches and military equipment used by the group.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Shabelle Media",
+        "AllAfrica"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United States support for Israel in the Gaza war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States vetoes a United Nations Security Council resolution calling for a ceasefire in the Gaza Strip, with the remaining fourteen other members voting in favor.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli invasion of Syria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel launches airstrikes against Syria in retaliation for the alleged firing of two projectiles at Israel yesterday. Israeli defense minister Israel Katz says that Israel holds Syrian president Ahmed al-Sharaa \"directly responsible\" for the attacks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Arab News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 Bengaluru stampede",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Eleven people are killed and 50 others are injured in a stampede at the M. Chinnaswamy Stadium in Bengaluru, Karnataka, India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Immigration policy of the second Donald Trump administration",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. president Donald Trump signs a proclamation banning entry into the United States for nationals of 12 countries deemed \"very high-risk\" due to terrorist activity, hostile governments, and high visa overstay rates, while imposing additional restrictions on visitors from several others. Exemptions apply for select categories, including athletes and diplomats. Trump cited the recent firebombing attack in Boulder, Colorado, as reason for the ban.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN",
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 South Korean presidential election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Lee Jae-myung is inaugurated as President of South Korea at the National Assembly Building in Yeouido, Seoul, one day after winning the presidential election.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Vietnamese two-child policy",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Vietnam formally ends the two-child policy in effect since 2009 amid record-low total fertility rates of 1.91 per woman in 2024, causing declining birth rate and a shrinking workforce.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NPR",
+        "AFP via ''VnExpress''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. president Donald Trump issues an order banning new visas for foreign nationals enrolling at Harvard University in Cambridge, Massachusetts, citing national security concerns and alleging the institution's lack of cooperation in disclosing foreign student misconduct. The directive also allows for possible visa revocations of currently enrolled international students.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABS-CBN News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Chile signs an agreement with Google to build the first submarine fiber-optic cable connecting between South America and Australia. Google invested at least $300 million while the Chilean government will invest $25 million.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW",
+        "AP"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

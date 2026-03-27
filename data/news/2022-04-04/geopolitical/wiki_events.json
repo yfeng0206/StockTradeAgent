@@ -1,0 +1,316 @@
+{
+  "date": "2022-04-04",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 37,
+  "categories": {
+    "other": {
+      "count": 37,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Kashmir conflict",
+        "International sanctions during the Russo-Ukrainian War",
+        "Lebanese liquidity crisis",
+        "A train derails in Lualaba Province, Democratic Republic of the Congo, killing seven people and injuring 14 others."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Battle of Bucha",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. President Joe Biden calls for Russian President Vladimir Putin to face trials for war crimes after more images emerge of the Bucha massacre.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Russia–Ukraine peace negotiations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian President Volodymyr Zelenskyy says that peace talks will continue despite the Bucha massacre.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kashmir conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An Indian Central Reserve Police Force officer is killed and another is wounded by militants in the Maisuma neighbourhood of Srinagar, Jammu and Kashmir.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Times of India''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "International sanctions during the Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Lithuania bans Russian IT companies from relocating to Lithuania.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "LRT"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Germany assumes control of Gazprom Germania, Gazprom's German subsidiary, after the German economy ministry declines to approve the subsidiary's acquisition by two entities with unclear beneficiaries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Financial Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Lebanese liquidity crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Deputy PM Saadeh Al Shami says that Lebanon and its central bank are bankrupt.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A train derails in Lualaba Province, Democratic Republic of the Congo, killing seven people and injuring 14 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Punch''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Lithuania",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Lithuania lifts requirements for masks in indoor spaces, except in public transport and medical facilities, and reduces the COVID-19 isolation period to five days.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "LRT"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Sweden, COVID-19 vaccination in Sweden",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Public Health Agency of Sweden recommends a fourth COVID-19 vaccine dose for people over age of 65 years, as well as other adults aged 18–64 with weak immune response.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Local Sweden''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in mainland China",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "China reports  13,146 new cases of COVID-19 in the past 24 hours, which is the highest single-day total of new cases since the height of the pandemic in Wuhan in February 2020.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Lithuania–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Lithuania orders the closure of the Russian consulate in Klaipėda and downgrades diplomatic ties with Russia, ordering the Russian ambassador to leave the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "LRT"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "France–Russia relations, Germany–Russia relations, Latvia–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "France, Germany and Latvia expel Russian diplomats in response to war crimes in the 2022 Russian invasion of Ukraine, specifically the Bucha massacre.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Radio Free Europe",
+        "''Axios''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia–European Union relations, Iceland–Russia relations, Norway–Russia relations, Russia–Switzerland relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia restricts diplomats, journalists, and politicians from the European Union, Iceland, Norway, Switzerland, and Liechtenstein from obtaining a visa by a simplified procedure.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Kommersant''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Sacramento shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Sacramento Police Department arrests a 26-year-old man in connection to yesterday's mass shooting that left six people dead and 12 others injured.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KTVU-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Discoveries of exoplanets",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Astronomers announce the discovery of K2-2016-BLG-0005Lb, an exoplanet that is said to resemble Jupiter. The discovery was made using the now-retired Kepler space telescope.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ScienceAlert"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The third part of the IPCC Sixth Assessment Report is released, studying methods to mitigate climate change.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Met Office"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Centerra Gold announces that they have reached an agreement with Kyrgyzstan to hand control of the Kumtor Gold Mine to the Kyrgyz government.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Mining.com"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 NCAA Division I Men's Basketball Tournament",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In basketball, the Kansas Jayhawks rally from a 15-point deficit to defeat the 8th-seeded North Carolina Tar Heels 72–69 in the National Championship Game. This is the 4th championship for the Kansas Jayhawks men's basketball team, and their first since 2008.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

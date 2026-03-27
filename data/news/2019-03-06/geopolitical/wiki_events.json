@@ -1,0 +1,159 @@
+{
+  "date": "2019-03-06",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 14,
+  "categories": {
+    "business": {
+      "count": 4,
+      "headlines": [
+        "The United States Commerce Department reports the country's 2018 trade deficit was $621 billion (£472.5 bn), the highest since 2008.",
+        "Economy of the United States"
+      ]
+    },
+    "sports": {
+      "count": 2,
+      "headlines": [
+        "2018–19 UEFA Champions League"
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "The flooding of the Citarum River, Indonesia, causes at least two deaths."
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "2019 Venezuelan presidential crisis, Corruption in Venezuela, Censorship in Venezuela",
+        "China–United States trade war"
+      ]
+    },
+    "other": {
+      "count": 3,
+      "headlines": [
+        "Weinstein effect",
+        "Alex Trebek, host of the American syndicated game show Jeopardy! since 1984, announces that he has been diagnosed with terminal stage 4 pancreatic cancer. He plans to continue hosting during his treat"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "The flooding of the Citarum River, Indonesia, causes at least two deaths.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Jakarta Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Weinstein effect",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Celebrity chef Mario Batali gives up his stake in his restaurants more than a year after being accused of sexual misconduct.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Alex Trebek, host of the American syndicated game show Jeopardy! since 1984, announces that he has been diagnosed with terminal stage 4 pancreatic cancer. He plans to continue hosting during his treatment.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States Commerce Department reports the country's 2018 trade deficit was $621 billion (£472.5 bn), the highest since 2008.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Economy of the United States",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Production ends at General Motors' Lordstown Assembly complex in Lordstown, Ohio, United States.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Dollar Tree announces it will close 390 Family Dollar stores, and rebrand a further 200 Family Dollar stores as Dollar Tree.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Venezuelan presidential crisis, Corruption in Venezuela, Censorship in Venezuela",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Venezuelan journalist Alí Domínguez, who disappeared a week ago, dies from injuries of beating and torture. ,",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''El Universal''",
+        "Fox News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–United States trade war",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Huawei sues the U.S. Government to challenge the constitutionality of Section 889 of the National Defense Authorization Act which prohibits U.S. executive government agencies from procuring telecommunications equipment from two Chinese companies, Huawei and ZTE.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2018–19 UEFA Champions League",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Manchester United defeats Paris Saint-Germain 3–1 in Paris, overcoming a 2–0 home-leg deficit to advance to the quarter-finals with a 3–3 win on away goals. United becomes the first side in the history of the Champions League or European Cup to overcome a first-leg home deficit of 2–0 or greater in a knockout tie.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "BBC Sport"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

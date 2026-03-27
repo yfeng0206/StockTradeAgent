@@ -1,0 +1,401 @@
+{
+  "date": "2022-03-28",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 48,
+  "categories": {
+    "other": {
+      "count": 48,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Nigerian bandit conflict",
+        "Kivu conflict",
+        "P&O sacking of 800 staff",
+        "COVID-19 pandemic"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Kyiv offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Battle of Irpin",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Mayor Oleksandr Markushyn says that Irpin has been recaptured by Ukrainian Ground Forces.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Northeastern Ukraine offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Battle of Kharkiv",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian artillery damages a school in Kharkiv.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Yahoo News",
+        "Sky News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Eastern Ukraine offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian troops shell Rubizhne, Luhansk Oblast, killing one person.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Ukrinform"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Trostyanets is retaken by Ukrainian Armed Forces.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Russia–Ukraine peace negotiations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia cautions against expecting any \"significant breakthroughs\" ahead of the first round of in-person negotiations with Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "MSN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two Ukrainian negotiators as well as sanctioned Russian oligarch Roman Abramovich are reported to have fallen victim to suspected poisoning during peace talks on the Belarus–Ukraine border earlier this month. Their health has since improved.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian President Volodymyr Zelenskyy says that some mayors abducted by invading Russian forces have been found dead.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Ukrayinska Pravda''",
+        "''The Economist''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nigerian bandit conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Abuja–Kaduna train attack",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Bandits bomb and open fire at a train in Kaduna State carrying 970 passengers travelling from Abuja to Kaduna, Nigeria, killing 7 people and wounding 22 more. Some others are kidnapped.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kivu conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Militants belonging to the March 23 Movement attack military bases near Goma in the Democratic Republic of the Congo. Congolese authorities say that two Rwandan soldiers were participating in the attack. The movement have regrouped and retaken strategic areas for the first time since their defeat in 2013.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "P&O sacking of 800 staff",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United Kingdom's Maritime and Coastguard Agency seizes P&O Ferries-operated ferry MS Pride of Kent at the Port of Dover after the ferry \"failed safety checks\" by authorities. It is the second P&O Ferries ship to be detained by UK authorities since the firm fired all 800 British crew members and replaced them with cheaper agency workers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Department for Transport gives P&O Ferries a deadline of March 31 to rehire all the fired staff.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in mainland China",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Shanghai",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Shanghai enters two-stage lockdown which close all non-essential businesses after the city reporting 3,500 new COVID-19 cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Forbes''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Indonesia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Indonesia surpasses six million cases of COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Medcom.id"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Israel",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Prime Minister Naftali Bennett tests positive for COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Australia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Victoria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Premier Daniel Andrews tests positive for COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Sky News Australia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Andorra",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Andorran government announces the lifting of indoor mask usage, except in health care institutions, as well as the need for antigen testing for nightlife. The government also announces the relaxation of the protocol for positive contacts.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Andorra Difusió''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kazakhstan–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Kazakhstan says that it does not want to be behind a \"new iron curtain\", and that international companies boycotting Russia are welcome to \"move production to Kazakhstan\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Abraham Accords",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The foreign ministers of Israel, Egypt, Morocco, Bahrain and the United Arab Emirates, as well as the United States Secretary of State, meet in Sde Boker, Israel, and agree to hold regular meetings about regional security and commit to further expanding economic and diplomatic cooperation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Times of Israel''",
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mexican drug war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Las Tinajas massacre",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Twenty people are killed and four more are injured in a mass shooting at an illegal cockfighting pit in Las Tinajas, Michoacán, Mexico.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Former Honduran President Juan Orlando Hernández will be extradited to the United States on drug trafficking charges.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2021–2022 Tunisian political crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Speaker of the Assembly Rached Ghannouchi announces that the parliament will hold two full sessions this week, the first time since President Kais Saied seized most executive powers and suspended parliament last July, to try to block attempts by Saied to adopt a new constitution that will solidify his rule.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,1468 @@
+[
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "MRK",
+    "price": 78.79,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $79",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "UNH",
+    "price": 482.76,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $483",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-03",
+    "action": "SKIP_RISK",
+    "ticker": "NEE",
+    "price": 73.53,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $74",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2022-10-12",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 151.12,
+    "reason": "EARNINGS strong_beat: surprise 0.0668% [Adaptive]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2022-11-01",
+    "action": "SKIP_RISK",
+    "ticker": "JNJ",
+    "price": 156.16,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $156",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2022-11-01",
+    "action": "SKIP_RISK",
+    "ticker": "UNH",
+    "price": 512.54,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $513",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2022-11-01",
+    "action": "SKIP_RISK",
+    "ticker": "MRK",
+    "price": 89.78,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $90",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2022-11-01",
+    "action": "SKIP_RISK",
+    "ticker": "MCD",
+    "price": 251.82,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $252",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 166.89,
+    "reason": "Dropped from top 10. Score: 4.45 Replaced by: META, NVDA, NFLX PnL: +10.4% (held since 2022-10-12)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07",
+    "scores": {
+      "composite": 4.45,
+      "mode": "RECOVERY",
+      "bounce": 5.25,
+      "upside": 0,
+      "momentum": 7.47
+    }
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "META",
+    "price": 119.5,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $120",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "NVDA",
+    "price": 17.12,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $17",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "NFLX",
+    "price": 31.69,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $32",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "AMD",
+    "price": 77.48,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $77",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "NKE",
+    "price": 104.35,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $104",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "ADBE",
+    "price": 344.11,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $344",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "CMCSA",
+    "price": 30.54,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $31",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "INTC",
+    "price": 28.76,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $29",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "GOOGL",
+    "price": 100.16,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $100",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-01",
+    "action": "SKIP_RISK",
+    "ticker": "BA",
+    "price": 175.78,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $176",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2022-12-20",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 97.23,
+    "reason": "EARNINGS strong_beat: surprise 0.2923% [Adaptive]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 110.23,
+    "reason": "Dropped from top 10. Score: 3.64 Replaced by: COST, WFC, AAPL PnL: +13.4% (held since 2022-12-20)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51",
+    "scores": {
+      "composite": 3.64,
+      "mode": "VALUE",
+      "low_vol": 0.4,
+      "value_dist": 10,
+      "rsi": 0
+    }
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "COST",
+    "price": 437.54,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $438",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "WFC",
+    "price": 37.99,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $38",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "AAPL",
+    "price": 127.88,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $128",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "TSLA",
+    "price": 123.18,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $123",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "INTC",
+    "price": 25.49,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $25",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "CMCSA",
+    "price": 29.44,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $29",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "VZ",
+    "price": 31.65,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $32",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "DIS",
+    "price": 84.88,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $85",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "UPS",
+    "price": 147.19,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $147",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-02",
+    "action": "SKIP_RISK",
+    "ticker": "MS",
+    "price": 76.4,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $76",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2023-01-13",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 133.2,
+    "reason": "EARNINGS strong_beat: surprise 0.1504% [Adaptive] [Regime normal: 100.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2023-01-13",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 32.38,
+    "reason": "EARNINGS strong_beat: surprise 0.1052% [Adaptive] [Regime normal: 100.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2023-01-13",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 40.69,
+    "reason": "EARNINGS strong_beat: surprise 0.1041% [Adaptive] [Regime normal: 100.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2023-01-13",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 697.51,
+    "reason": "EARNINGS strong_beat: surprise 0.1031% [Adaptive] [Regime normal: 100.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2023-01-18",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 127.2,
+    "reason": "STOP LOSS triggered (-4.5% loss) PnL: -4.5% (held since 2023-01-13)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2023-01-19",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 30.54,
+    "reason": "STOP LOSS triggered (-5.68% loss) PnL: -5.7% (held since 2023-01-13)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2023-01-24",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 152.82,
+    "reason": "EARNINGS strong_beat: surprise 0.0507% [Adaptive] [Regime normal: 33.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2023-01-25",
+    "action": "BUY",
+    "ticker": "TSLA",
+    "price": 144.43,
+    "reason": "EARNINGS strong_beat: surprise 0.072% [Adaptive]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2023-01-25",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 104.65,
+    "reason": "EARNINGS strong_beat: surprise 0.0965% [Adaptive]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2023-01-25",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 17.29,
+    "reason": "EARNINGS strong_beat: surprise 0.0665% [Adaptive]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2023-01-26",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 219.24,
+    "reason": "EARNINGS strong_beat: surprise 0.0846% [Adaptive]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2023-01-26",
+    "action": "BUY",
+    "ticker": "CMCSA",
+    "price": 34.28,
+    "reason": "EARNINGS strong_beat: surprise 0.0562% [Adaptive]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2023-01-30",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 147.1,
+    "reason": "STOP LOSS triggered (-3.75% loss) PnL: -3.7% (held since 2023-01-24)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-01-31",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 36.85,
+    "reason": "EARNINGS strong_beat: surprise 0.094% [Adaptive]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.68"
+  },
+  {
+    "date": "2023-01-31",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 248.09,
+    "reason": "EARNINGS strong_beat: surprise 0.0525% [Adaptive]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.68"
+  },
+  {
+    "date": "2023-02-01",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 43.55,
+    "reason": "Dropped from top 10. Score: 6.26 Replaced by: META, NVDA, NFLX PnL: +7.0% (held since 2023-01-13)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 6.26,
+      "mode": "MOMENTUM",
+      "momentum": 5.36,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "SELL",
+    "ticker": "TSLA",
+    "price": 181.41,
+    "reason": "Dropped from top 10. Score: 3.85 Replaced by: META, NVDA, NFLX PnL: +25.6% (held since 2023-01-25)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 3.85,
+      "mode": "MOMENTUM",
+      "momentum": 0,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 105.43,
+    "reason": "Dropped from top 10. Score: 7.57 Replaced by: META, NVDA, NFLX PnL: +0.7% (held since 2023-01-25)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.57,
+      "mode": "MOMENTUM",
+      "momentum": 8.28,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 17.09,
+    "reason": "Dropped from top 10. Score: 7.4 Replaced by: META, NVDA, NFLX PnL: -1.2% (held since 2023-01-25)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.4,
+      "mode": "MOMENTUM",
+      "momentum": 7.89,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 225.28,
+    "reason": "Dropped from top 10. Score: 7.43 Replaced by: META, NVDA, NFLX PnL: +2.8% (held since 2023-01-26)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.43,
+      "mode": "MOMENTUM",
+      "momentum": 7.96,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 36.69,
+    "reason": "Dropped from top 10. Score: 3.14 Replaced by: META, NVDA, NFLX PnL: -0.4% (held since 2023-01-31)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 3.14,
+      "mode": "MOMENTUM",
+      "momentum": 3.3,
+      "trend": 3,
+      "macd": 3
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 247.04,
+    "reason": "Dropped from top 10. Score: 4.69 Replaced by: META, NVDA, NFLX PnL: -0.4% (held since 2023-01-31)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 4.69,
+      "mode": "MOMENTUM",
+      "momentum": 4.53,
+      "trend": 3,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 151.93,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 20.92,
+    "reason": "Ranked in top 10. Score: 8.35 [risk_overlay: 50% size] (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 36.2,
+    "reason": "Ranked in top 10. Score: 8.35 [risk_overlay: 50% size] (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 84.64,
+    "reason": "Ranked in top 10. Score: 8.35 [risk_overlay: 50% size] (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "ADBE",
+    "price": 383.92,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 122.0,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 214.75,
+    "reason": "Ranked in top 10. Score: 8.35 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-01",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 88.95,
+    "reason": "Ranked in top 10. Score: 8.151 (momentum=9.6, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.15,
+      "mode": "MOMENTUM",
+      "momentum": 9.56,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-02-02",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 187.3,
+    "reason": "EARNINGS strong_miss: surprise -0.2153% [Adaptive] PnL: +23.3% (held since 2023-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2023-02-02",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 322.4,
+    "reason": "EARNINGS strong_beat: surprise 0.1411% [Adaptive] [Regime bullish: 62.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2023-02-08",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 115.79,
+    "reason": "STOP LOSS triggered (-5.09% loss) PnL: -5.1% (held since 2023-02-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.38"
+  },
+  {
+    "date": "2023-02-08",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 109.21,
+    "reason": "EARNINGS strong_beat: surprise 0.2597% [Adaptive] [Regime bullish: 56.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.38"
+  },
+  {
+    "date": "2023-02-09",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 662.34,
+    "reason": "STOP LOSS triggered (-5.04% loss) PnL: -5.0% (held since 2023-01-13)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2023-02-09",
+    "action": "SELL",
+    "ticker": "CMCSA",
+    "price": 32.15,
+    "reason": "STOP LOSS triggered (-6.21% loss) PnL: -6.2% (held since 2023-01-26)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2023-02-16",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 58.59,
+    "reason": "EARNINGS strong_beat: surprise 0.0704% [Adaptive] [Regime bullish: 45.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2023-02-17",
+    "action": "SELL",
+    "ticker": "ADBE",
+    "price": 356.85,
+    "reason": "STOP LOSS triggered (-7.05% loss) PnL: -7.1% (held since 2023-02-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-02-17",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 102.8,
+    "reason": "STOP LOSS triggered (-5.87% loss) PnL: -5.9% (held since 2023-02-08)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-02-17",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 415.51,
+    "reason": "EARNINGS strong_beat: surprise 0.2014% [Adaptive] [Regime sideways: 0.0% win rate]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2023-02-21",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 33.75,
+    "reason": "STOP LOSS triggered (-6.77% loss) PnL: -6.8% (held since 2023-02-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.31"
+  },
+  {
+    "date": "2023-02-21",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 76.77,
+    "reason": "STOP LOSS triggered (-9.3% loss) PnL: -9.3% (held since 2023-02-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.31"
+  },
+  {
+    "date": "2023-02-21",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 47.25,
+    "reason": "EARNINGS strong_beat: surprise 0.1288% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.31"
+  },
+  {
+    "date": "2023-02-24",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 198.15,
+    "reason": "STOP LOSS triggered (-7.73% loss) PnL: -7.7% (held since 2023-02-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.20"
+  },
+  {
+    "date": "2023-02-27",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 45.36,
+    "reason": "STOP LOSS triggered (-4.0% loss) PnL: -4.0% (held since 2023-02-21)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.10"
+  },
+  {
+    "date": "2023-02-28",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 304.39,
+    "reason": "STOP LOSS triggered (-5.59% loss) PnL: -5.6% (held since 2023-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.06"
+  },
+  {
+    "date": "2023-03-01",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 56.02,
+    "reason": "STOP LOSS triggered (-4.39% loss) PnL: -4.4% (held since 2023-02-16)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.04"
+  },
+  {
+    "date": "2023-03-01",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 165.34,
+    "reason": "EARNINGS strong_beat: surprise 0.2343% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.04"
+  },
+  {
+    "date": "2023-03-09",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 83.52,
+    "reason": "STOP LOSS triggered (-6.1% loss) PnL: -6.1% (held since 2023-02-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.39"
+  },
+  {
+    "date": "2023-03-10",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 379.67,
+    "reason": "STOP LOSS triggered (-8.63% loss) PnL: -8.6% (held since 2023-02-17)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2023-03-21",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 118.67,
+    "reason": "EARNINGS strong_beat: surprise 0.4631% [Adaptive] [Regime normal: 33.0% win rate] [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.35"
+  },
+  {
+    "date": "2023-03-22",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 112.9,
+    "reason": "STOP LOSS triggered (-4.86% loss) PnL: -4.9% (held since 2023-03-21)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.40"
+  },
+  {
+    "date": "2023-03-23",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 114.29,
+    "reason": "EARNINGS strong_beat: surprise 0.4631% [Adaptive] [Regime normal: 25.0% win rate] [Memory adj: -0.2]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.43"
+  },
+  {
+    "date": "2023-04-03",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 114.95,
+    "reason": "Dropped from top 10. Score: 5.21 Replaced by: AAPL, MSFT, META PnL: +0.6% (held since 2023-03-23)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.21,
+      "mode": "MOMENTUM",
+      "momentum": 5.69,
+      "trend": 3,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 163.8,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 280.59,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 211.41,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "TSLA",
+    "price": 194.77,
+    "reason": "Ranked in top 10. Score: 7.85 [risk_overlay: 50% size] (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 96.56,
+    "reason": "Ranked in top 10. Score: 7.85 [risk_overlay: 50% size] (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 32.1,
+    "reason": "Ranked in top 10. Score: 7.85 [risk_overlay: 50% size] (momentum=10.0, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 102.41,
+    "reason": "Ranked in top 10. Score: 7.775 (momentum=9.8, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.27,
+      "mode": "MOMENTUM",
+      "momentum": 9.83,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-03",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 34.83,
+    "reason": "Ranked in top 10. Score: 7.634 [risk_overlay: 50% size] (momentum=9.5, trend=7.0, macd=7.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.13,
+      "mode": "MOMENTUM",
+      "momentum": 9.52,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-04-19",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 32.31,
+    "reason": "STOP LOSS triggered (-7.22% loss) PnL: -7.2% (held since 2023-04-03)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2023-04-19",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 313.03,
+    "reason": "EARNINGS strong_beat: surprise 0.0889% [Adaptive] [Regime bullish: 42.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "SELL",
+    "ticker": "TSLA",
+    "price": 162.99,
+    "reason": "STOP LOSS triggered (-16.32% loss) PnL: -16.3% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 90.11,
+    "reason": "STOP LOSS triggered (-6.68% loss) PnL: -6.7% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 30.12,
+    "reason": "STOP LOSS triggered (-6.17% loss) PnL: -6.2% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 27.66,
+    "reason": "EARNINGS strong_beat: surprise 0.1393% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 149.6,
+    "reason": "EARNINGS strong_beat: surprise 0.0717% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-20",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 452.6,
+    "reason": "EARNINGS strong_beat: surprise 0.094% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2023-04-25",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 269.05,
+    "reason": "STOP LOSS triggered (-4.11% loss) PnL: -4.1% (held since 2023-04-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2023-04-25",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 103.0,
+    "reason": "EARNINGS strong_beat: surprise 0.0952% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2023-04-26",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 26.31,
+    "reason": "STOP LOSS triggered (-4.88% loss) PnL: -4.9% (held since 2023-04-20)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2023-04-26",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 425.86,
+    "reason": "STOP LOSS triggered (-5.91% loss) PnL: -5.9% (held since 2023-04-20)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2023-04-26",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 288.54,
+    "reason": "EARNINGS strong_beat: surprise 0.0952% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2023-04-26",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 223.03,
+    "reason": "EARNINGS strong_beat: surprise 0.0518% [Adaptive] [Regime sideways: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2023-05-01",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 102.05,
+    "reason": "Dropped from top 10. Score: 5.98 Replaced by: META, MSFT, NVDA PnL: -0.4% (held since 2023-04-03)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.98,
+      "mode": "MOMENTUM",
+      "momentum": 4.74,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 316.45,
+    "reason": "Dropped from top 10. Score: 5.4 Replaced by: META, MSFT, NVDA PnL: +1.1% (held since 2023-04-19)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.4,
+      "mode": "MOMENTUM",
+      "momentum": 3.44,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 149.62,
+    "reason": "Dropped from top 10. Score: 6.19 Replaced by: META, MSFT, NVDA PnL: +0.0% (held since 2023-04-20)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 6.19,
+      "mode": "MOMENTUM",
+      "momentum": 5.21,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 106.32,
+    "reason": "Dropped from top 10. Score: 7.05 Replaced by: META, MSFT, NVDA PnL: +3.2% (held since 2023-04-25)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 7.05,
+      "mode": "MOMENTUM",
+      "momentum": 7.11,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 227.29,
+    "reason": "Dropped from top 10. Score: 6.23 Replaced by: META, MSFT, NVDA PnL: +1.9% (held since 2023-04-26)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 6.23,
+      "mode": "MOMENTUM",
+      "momentum": 5.3,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 396.9,
+    "reason": "Ranked in top 10. Score: 8.159 (momentum=9.6, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.16,
+      "mode": "MOMENTUM",
+      "momentum": 9.57,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 173.24,
+    "reason": "Ranked in top 10. Score: 7.544 (momentum=8.2, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 7.54,
+      "mode": "MOMENTUM",
+      "momentum": 8.21,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 145.94,
+    "reason": "Ranked in top 10. Score: 7.299 (momentum=7.7, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 7.3,
+      "mode": "MOMENTUM",
+      "momentum": 7.66,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 66.6,
+    "reason": "Ranked in top 10. Score: 7.294 (momentum=7.7, trend=7.0, macd=7.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 7.29,
+      "mode": "MOMENTUM",
+      "momentum": 7.65,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-01",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 277.68,
+    "reason": "Ranked in top 10. Score: 7.142 (momentum=8.0, trend=7.0, macd=7.0) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 7.44,
+      "mode": "MOMENTUM",
+      "momentum": 7.98,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-05-16",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 64.33,
+    "reason": "STOP LOSS triggered (-3.4% loss) PnL: -3.4% (held since 2023-05-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-17",
+    "action": "TRIM",
+    "ticker": "NVDA",
+    "price": 30.15,
+    "reason": "PROFIT TARGET: +44%, trimming 1/3 (78 shares). Holding 158. Next trim at +25% from $30.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-18",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 48.96,
+    "reason": "EARNINGS strong_beat: surprise 0.1164% [Adaptive] [Regime bullish: 53.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.16"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 168.68,
+    "reason": "STOP LOSS triggered (-2.63% loss) PnL: -2.6% (held since 2023-05-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 139.03,
+    "reason": "STOP LOSS triggered (-4.73% loss) PnL: -4.7% (held since 2023-05-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 270.0,
+    "reason": "STOP LOSS triggered (-2.77% loss) PnL: -2.8% (held since 2023-05-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-22",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 346.78,
+    "reason": "EARNINGS strong_beat: surprise 0.1168% [Adaptive] [Regime normal: 25.0% win rate] [Memory adj: -0.5]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2023-05-25",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 47.24,
+    "reason": "STOP LOSS triggered (-3.51% loss) PnL: -3.5% (held since 2023-05-18)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2023-05-25",
+    "action": "TRIM",
+    "ticker": "NVDA",
+    "price": 37.95,
+    "reason": "PROFIT TARGET: +81%, trimming 1/3 (52 shares). Holding 106. Next trim at +25% from $38.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2023-06-01",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 339.15,
+    "reason": "Dropped from top 10. Score: 1.9 Replaced by: GOOGL, AMZN, META PnL: -2.2% (held since 2023-05-22)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 1.9,
+      "mode": "MOMENTUM",
+      "momentum": 0.55,
+      "trend": 3,
+      "macd": 3
+    }
+  },
+  {
+    "date": "2023-06-01",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 122.71,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-06-01",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 122.77,
+    "reason": "Ranked in top 10. Score: 7.85 (momentum=10.0, trend=7.0, macd=7.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-06-01",
+    "action": "BUY",
+    "ticker": "ADBE",
+    "price": 426.75,
+    "reason": "Ranked in top 10. Score: 7.55 [risk_overlay: 50% size] (momentum=10.0, trend=7.0, macd=7.0) [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 8.35,
+      "mode": "MOMENTUM",
+      "momentum": 10,
+      "trend": 7,
+      "macd": 7
+    }
+  },
+  {
+    "date": "2023-06-01",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 30.51,
+    "reason": "Ranked in top 10. Score: 7.37 [risk_overlay: 50% size] (momentum=9.6, trend=7.0, macd=7.0) [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 8.17,
+      "mode": "MOMENTUM",
+      "momentum": 9.6,
+      "trend": 7,
+      "macd": 7
+    }
+  }
+]

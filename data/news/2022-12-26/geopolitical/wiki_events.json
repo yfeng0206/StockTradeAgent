@@ -1,0 +1,196 @@
+{
+  "date": "2022-12-26",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "other": {
+      "count": 22,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Syrian civil war",
+        "Korean conflict",
+        "Jihadist insurgency in Burkina Faso",
+        "Seventeen people are killed and 93 more injured as heavy snow affects Japan."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Western Russia attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Three Russian military members are killed by debris after Russia shoots down a drone that was approaching the Engels air base in Saratov Oblast, Russia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Six Syrian Democratic Forces members are killed and an unknown number of others are injured during an ambush by five Islamic State gunmen in Raqqa. One of the attackers is killed and another is arrested.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Six Turkish-backed National Front for Liberation militants are killed during a fight with the Syrian Democratic Forces and the Syrian Army in Aleppo.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Korean conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five North Korean drones cross the DMZ into South Korea, which prompted the South Korean military to launch aircraft to intercept the drones. One of the South Korean FA-1 light attack aircraft crashed shortly after takeoff and a North Korean drone crashed after breaching Seoul's airspace. It is believed that North Korea launched the drones in response to criticism of the quality of North Korean satellite images.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via MSN",
+        "Daily NK"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Jihadist insurgency in Burkina Faso",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least ten people are killed and five others are injured when a bus hits a landmine in Fada N'gourma, Est, Burkina Faso.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Seventeen people are killed and 93 more injured as heavy snow affects Japan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Three Nigerien soldiers are killed when their military helicopter crashes while attempting to land at Diori Hamani International Airport in Niamey, Niger.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in mainland China",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Travel during the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The National Health Commission announces that China will suspend their COVID-19 quarantine requirements for passengers arriving from abroad beginning on January 8.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Three members of the endangered Irrawaddy dolphin have died within ten days from each other in Cambodia, prompting an increasing alarming situation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Cross-Strait relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "It is announced that a record seventy-one military vehicles from the Chinese Air Force entered Taiwan's air defense identification zone in the past 24 hours.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the 2022 Paris shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A French judge indicts a 69-year-old man with murder, attempted murder due to race, and the unlawful procurement and possession of a weapon for killing three people and injuring three others in the 10th arrondissement of Paris on December 23. The suspect had confessed to having been motivated by racism.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Deccan Herald''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

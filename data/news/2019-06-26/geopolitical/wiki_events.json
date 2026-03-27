@@ -1,0 +1,201 @@
+{
+  "date": "2019-06-26",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 19,
+  "categories": {
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "2020 United States presidential election, 2020 Democratic Party presidential debates and forums"
+      ]
+    },
+    "tech": {
+      "count": 2,
+      "headlines": [
+        "2019 European heat wave"
+      ]
+    },
+    "geopolitical": {
+      "count": 9,
+      "headlines": [
+        "In Pakistan three suicide bombers attempted to storm a police housing complex in the southern Balochistan province. One of them was killed by guards, while the two others entered and blew themselves u",
+        "International military intervention against ISIL",
+        "War in Afghanistan",
+        "Four men with ties to ISIL are arrested in Nicaragua.",
+        "Germany–United States relations"
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "An unnamed Brazilian Air Force sergeant is arrested in Seville for smuggling 39 kilograms of cocaine inside an Embraer E190 airliner. The aircraft, now grounded, was being used as a backup plane durin",
+        "In a unanimous decision, the Supreme Court of Japan rejects retrial for a 92-year-old woman, Ayako Haraguchi, who had already served 10 years in prison for the 1979 murder of her former brother-in-law",
+        "Terrorism in Canada"
+      ]
+    },
+    "other": {
+      "count": 2,
+      "headlines": [
+        "LGBT in the United States"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "In Pakistan three suicide bombers attempted to storm a police housing complex in the southern Balochistan province. One of them was killed by guards, while the two others entered and blew themselves up, killing a senior constable and wounding five others. The Pakistani Taliban has claimed responsibility",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "International military intervention against ISIL",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Canada and the Iraq War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Defence Minister Harjit Sajjan announces that Canada will continue to command a NATO mission in Iraq for a second year until November 2020.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Arabiya"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two U.S. Troops are killed in an ambush by the Taliban in Wardak Province, Afghanistan.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Four men with ties to ISIL are arrested in Nicaragua.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "LGBT in the United States",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "New York City begins the 50th Annual World Pride festival, expecting to draw four million people over six days.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Germany–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. President Donald Trump states that Germany is \"delinquent\" on NATO defense, saying, \"So they are giving Russia billions of dollars yet we are supposed to protect Germany and Germany is delinquent! Okay?\"",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Arabiya"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An unnamed Brazilian Air Force sergeant is arrested in Seville for smuggling 39 kilograms of cocaine inside an Embraer E190 airliner. The aircraft, now grounded, was being used as a backup plane during President Bolsonaro's official visit to Japan, connecting in the Spanish city.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Olive Press''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "In a unanimous decision, the Supreme Court of Japan rejects retrial for a 92-year-old woman, Ayako Haraguchi, who had already served 10 years in prison for the 1979 murder of her former brother-in-law.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Japan Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Terrorism in Canada",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Canada's government adds Neo-Nazi groups Blood & Honour and Combat 18 to its list of designated terrorist organizations. It is the first time that extreme far-right groups have been designated as terrorist in Canada. Three Shia militant groups, including the Iranian-backed Al-Ashtar Brigades are also banned.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Global News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 United States presidential election, 2020 Democratic Party presidential debates and forums",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The first of two Democratic Party debates for the nomination of the party's nominee in the 2020 United States presidential election is held in Miami, Florida.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 European heat wave",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Germany, Poland and the Czech Republic record their highest ever recorded temperatures for June amid a heat wave in Western and Central Europe.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "BBC News",
+        "Weather Underground"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

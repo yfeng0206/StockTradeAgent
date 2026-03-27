@@ -1,0 +1,75 @@
+{
+  "date": "2022-11-28",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 7,
+  "categories": {
+    "other": {
+      "count": 7,
+      "headlines": [
+        "2022 eruption of Mauna Loa",
+        "Comoros passport sales scandal",
+        "Aftermath of the 2022 Buffalo shooting",
+        "The Data Protection Commissioner of Ireland fines American technology company Meta for  (US$275 million) for a data breach on its international users."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2022 eruption of Mauna Loa",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Mauna Loa, the world's largest active volcano, erupts for the first time since 1984, triggering an ash advisory for Hawaii's biggest island.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Comoros passport sales scandal",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in the Comoros sentences former president Ahmed Abdallah Sambi to life in prison after Sambi was convicted of high treason for selling passports to stateless people in the Persian Gulf, and for other crimes, including embezzlement.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the 2022 Buffalo shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Payton S. Gendron, who shot and killed 10 people and injured three others at a supermarket in Buffalo, New York, United States, in May, pleads guilty to all state charges: first-degree murder, domestic terrorism motivated by hate, and attempted murder as a hate crime.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''PBS NewsHour''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Data Protection Commissioner of Ireland fines American technology company Meta for  (US$275 million) for a data breach on its international users.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Philippine Star''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

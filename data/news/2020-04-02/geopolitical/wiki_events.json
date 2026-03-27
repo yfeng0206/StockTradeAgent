@@ -1,0 +1,339 @@
+{
+  "date": "2020-04-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 38,
+  "categories": {
+    "health": {
+      "count": 30,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "business": {
+      "count": 1,
+      "headlines": [
+        "The United States Food and Drug Administration asks companies to stop selling all forms of the heartburn drug Ranitidine (Zantac). The agency says some medications contain a nitrosamine impurity calle"
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "American rapper 6ix9ine is released early from prison due to coronavirus concerns.",
+        "A court in Pakistan overturns the convictions of four men for the murder of Daniel Pearl. The men have been jailed for 18 years."
+      ]
+    },
+    "politics": {
+      "count": 5,
+      "headlines": [
+        "Impact of the COVID-19 pandemic on politics",
+        "COVID-19 pandemic in the United States"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "The United States Food and Drug Administration asks companies to stop selling all forms of the heartburn drug Ranitidine (Zantac). The agency says some medications contain a nitrosamine impurity called N-Nitrosodimethylamine (NDMA), a probable human carcinogen.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The number of confirmed cases of COVID-19 reaches more than one million worldwide.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Lebanon",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Philippines ambassador to Lebanon, Bernardita Catalla, dies from COVID-19 in Beirut, according to the Department of Foreign Affairs.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The New Arab''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Taiwan",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Taiwan donates 10 million masks to countries hardest hit by COVID-19.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Oceania",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Fiji",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Fiji announces a lockdown of the capital Suva, beginning tomorrow, as two more cases are confirmed.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Spain",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Spain records its deadliest day with 950 deaths, exceeding 10,000, as employment falls by 834,000 jobs in 15 days.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''El Periódico''",
+        "''La Vanguardia''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in France",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "France reports 1,355 more deaths from COVID-19, the highest daily death toll in the country to date, bringing the country's death toll to 5,387, the new figures include deaths in retirement homes for the first time.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Department of Health and Social Care reports 4,244 new cases and 569 more deaths from COVID-19, the highest daily death toll in the country to date, bringing the United Kingdom's death toll to 2,921 and 33,718 confirmed cases.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Scottish comedian and member of comedy double act Little and Large, Eddie Large, dies due to complications from COVID-19 at Southmead Hospital in Bristol.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The National Health Service announces that two more Nightingale field hospitals will be built at Harrogate Convention Centre in Harrogate, North Yorkshire, and the University of the West of England in Bristol.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Africa",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Zambia",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Zambia reports the country's first death from COVID-19 as confirmed cases rise to 39; the patient had underlying health conditions, according to Health Minister Chitalu Chilufya.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "CGTN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malawi",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "In an address to the nation, President Peter Mutharika reports Malawi's first confirmed cases of COVID-19.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "CGTN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in South America",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Ecuador",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Mayor of Guayaquil, Cynthia Viteri, herself infected with COVID-19, condemns the federal government's response to the pandemic as the virus rapidly spreads inside the city. A joint military and police task force has collected at least 150 bodies off the streets. The government's spokesman Jorge Wated apologizes in a message broadcast on state television.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "France 24",
+        "CBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Guam",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "United States Navy Captain Brett Crozier is dismissed as the commander of the USS Theodore Roosevelt aircraft carrier after he publicly raised concerns about a COVID-19 outbreak on the ship. U.S. Navy Secretary Thomas Modly says the commander \"exercised extremely poor judgement\". At least 100 people aboard the vessel have been reportedly infected.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "American rapper 6ix9ine is released early from prison due to coronavirus concerns.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Complex"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Pakistan overturns the convictions of four men for the murder of Daniel Pearl. The men have been jailed for 18 years.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Impact of the COVID-19 pandemic on politics",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 Democratic National Convention",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Democratic National Convention is postponed from July 13 to August 17 due to COVID-19 concerns.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Vox"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "United States President Donald Trump invokes the Defense Production Act to clear up supply-chain issues encountered in the manufacturing of ventilator machines.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

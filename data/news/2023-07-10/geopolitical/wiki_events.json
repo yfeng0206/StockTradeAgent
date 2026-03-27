@@ -1,0 +1,278 @@
+{
+  "date": "2023-07-10",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 32,
+  "categories": {
+    "other": {
+      "count": 32,
+      "headlines": [
+        "Russian invasion of Ukraine",
+        "European Union–United States relations",
+        "European migrant crisis",
+        "Six people are killed and three others are reported missing after heavy rains trigger landslides in Kyushu and Chūgoku, Japan.",
+        "Two people are killed and six others are injured when a building catches fire in Leishan County, Guizhou, China."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Attacks on civilians in the Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian forces strike a residential area in Orikhiv, Zaporizhzhia Oblast, killing seven civilians and injuring 11 others, according to Governor Yuriy Malashko.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian military commissariats attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Stanislav Rzhitsky, deputy chief in charge of military mobilization in the Russian city of Krasnodar and commander of the Russian Navy submarine B-265 Krasnodar, is shot dead near the city's sports complex.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''",
+        "Reuters via ''The Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "European Union–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The European Commission and the U.S. government sign a new data communication agreement aimed at resolving legal uncertainties that European and American companies face when transferring personal data. However, non-profit organization NOYB plans to challenge the agreement.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "European migrant crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Spain's Maritime Safety and Rescue Society rescues 86 people from a pirogue off the Canary Islands after human rights defender Helena Maleno reports that three boats carrying around 300 people from Senegal have gone missing since June.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP via VOA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Six people are killed and three others are reported missing after heavy rains trigger landslides in Kyushu and Chūgoku, Japan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Two people are killed and six others are injured when a building catches fire in Leishan County, Guizhou, China.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Effects of climate change",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The World Meteorological Organization reports that the Earth experienced its hottest week on record at the beginning of July, attributing the unprecedented temperatures to climate change and the early stages of El Niño.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via RFI"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In a study published in the medical journal Nature Medicine, researchers from the Barcelona Centre for International Health Research and Inserm estimate that Europe's record heat waves in 2022 resulted in 61,672 deaths.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Volcanism of Iceland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Icelandic volcano Litli-Hrútur begins erupting.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Metro''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Enlargement of NATO",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Sweden–NATO relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkish president Recep Tayyip Erdoğan agrees to send Sweden's NATO accession protocol to the Grand National Assembly.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–Solomon Islands relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "China and the Solomon Islands sign a cooperation agreement between the People's Police and the Royal Solomon Islands Police Force during Prime Minister Manasseh Sogavare's official visit to Beijing in an effort to strengthen their \"comprehensive strategic partnership\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "North Korea–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "North Korea threatens to shoot down any U.S. reconnaissance aircraft breaching its airspace following U.S. plans to deploy a ballistic missile submarine near Korea.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iran and weapons of mass destruction, Nuclear program of Iran",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. Office of the Director of National Intelligence says that Iran is not developing a nuclear weapon. However, it also warns that Iran has ramped up activities that could help develop one.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "School attacks in China",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people, including three children, are killed and another person is injured in a mass stabbing at a kindergarten in Lianjiang, Guangdong. The suspect is detained by the police.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''India Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "German businessman Hans Peter Walter Mack, 62, suspected of running a child sex trafficking ring in Thailand, is found mutilated with a chainsaw in a freezer in Pattaya.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Metro''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Dutch general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Prime Minister Mark Rutte announces his retirement from politics following the collapse of his cabinet.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Uzbek presidential election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Uzbek authorities announce that incumbent president Shavkat Mirziyoyev has been re-elected with 87.1% of the votes.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

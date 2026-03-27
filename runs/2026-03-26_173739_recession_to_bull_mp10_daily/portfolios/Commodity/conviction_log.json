@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": -0.4,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=-1*40%"
+    ]
+  }
+]

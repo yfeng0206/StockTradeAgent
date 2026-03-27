@@ -1,0 +1,522 @@
+{
+  "date": "2021-07-22",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 64,
+  "categories": {
+    "other": {
+      "count": 64,
+      "headlines": [
+        "War in Afghanistan",
+        "COVID-19 pandemic",
+        "North Korea and weapons of mass destruction",
+        "Haiti–United States relations",
+        "Foreign relations of Equatorial Guinea"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2021 Afghanistan attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Spin Boldak shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Gunmen shoot and kill at least 100 people in Spin Boldak District, Kandahar Province.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "TOLOnews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Withdrawal of United States troops from Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States House of Representatives votes 407–16 to pass the Allies Act, a bill that would improve and provide visas for Afghan interpreters who worked for American personnel during the war.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Taliban offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Tajikistan holds its largest military exercise, mobilizing 130,000 servicemen in addition to 100,000 active servicemen and parades more than 1,000 military vehicles and many more warfare equipment and military helicopters. President Emomali Rakhmon urged Tajik people to protect the \"peace and stability achieved at a high price\" amid a Taliban offensive in neighboring Afghanistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Investigations into the origin of COVID-19, COVID-19 pandemic in mainland China",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "China rejects the next stage of a World Health Organization (WHO) investigation into COVID-19. Chinese Deputy Minister of Health Zeng Yixin rebuffed the proposal to investigate the origins in Wuhan as \"disrespect for common sense and arrogance towards Science\". WHO experts said it was very unlikely that the virus escaped from a Chinese lab, but the theory has endured.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Indonesia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Indonesia reports a record 36,370 recoveries and 1,449 deaths from COVID-19 in the past 24 hours, thereby bringing the nationwide total of recoveries to 2.39 million and the nationwide death toll to 79,302. The country also surpasses three million cases of the virus.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "detikNews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Singapore, 2020–21 Singapore circuit breaker measures",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Singapore reverts to \"Phase 2 Heightened Alert\" which bans dine-in service in all food and beverage establishments and closes all personalised care services that would require patrons to remove their masks. These restrictions will remain in effect until August 18.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Straits Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in South Korea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "South Korea reports a record for the second consecutive day of 1,842 new cases of COVID-19, thereby bringing the nationwide total of confirmed cases to 184,103.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Yonhap News Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Thailand",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Thailand reports a record for the second consecutive day of 13,655 new cases of COVID-19, thereby bringing the nationwide total of confirmed cases to 453,132.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Vietnam",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Vietnam reports a record 6,194 new cases of COVID-19 in the past 24 hours, thereby bringing the nationwide total of confirmed cases to 74,371.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Viet Nam News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in Italy",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Government of Italy announces that it will require people in the country to show a proof of vaccination of at least one dose, a negative COVID-19 test, or that they have recovered from COVID-19 in order to participate in social activities such as indoor dining, visiting museums, and attending shows beginning on August 6.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Greece",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Greece expands its mandatory regular COVID-19 testing to unvaccinated tourism and restaurant workers nationwide as the number of COVID-19 cases continues to increase.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Russia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia reports its first case of the Lineage P.1 Gamma variant, which was originally detected in Brazil.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in North America",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in New York (state)",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in New York City",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "New York City Mayor Bill de Blasio announces that 70% of adults in the city have received a dose of the COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Patch.com"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Illinois",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Chicago Public Schools announces that face masks will be required in all of their public schools this fall, regardless of the vaccination status in the city.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Chicago Sun-Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Missouri",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Missouri officials announce that ambulances and medical staff will be sent to Springfield and Greene County amid an increase in the number of COVID-19 cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Kansas City Star''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Sanford Health announces that all employees will be required to receive a dose of the COVID-19 vaccine by November 1.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Bismark Tribune''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Cuba",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Cuba reports a record 7,745 new cases of COVID-19 in the past 24 hours, thereby bringing the nationwide total of confirmed cases to 308,599.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Xinhuanet"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Mexico",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Mexico reports 16,244 new cases of COVID-19 in the past 24 hours, the highest daily total in the country since January.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Australia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in Australia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Australian Prime Minister Scott Morrison apologises during a press conference for the slow rollout of the vaccination program and appeals for changes to the restrictions on the Oxford–AstraZeneca vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC Australia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Chile, Travel restrictions related to the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Chilean government announces that beginning on July 26, fully vaccinated residents will be able to travel internationally by airplane without special permission as the number of COVID-19 cases continues to decrease and the number of people who have received a vaccine continues to increase.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "North Korea and weapons of mass destruction",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "North Korea–United States relations, North Korea–South Korea relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. Deputy Secretary of State Wendy Sherman and South Korea Foreign Minister Chung Eui-yong announces that both countries have reached an agreement to convince North Korea to return to nuclear talks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Haiti–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Biden administration announces that Daniel Lewis Foote will serve as the U.S. special envoy to Haiti amid political turmoil in the country since the assassination of President Jovenel Moïse.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign relations of Equatorial Guinea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United Kingdom imposes sanctions on Teodoro Nguema Obiang Mangue, the son of the president of Equatorial Guinea, over his \"lavish lifestyle\" spending, which includes mansions and private jets. Mangue is also the incumbent vice president.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Asylum in Australia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An Afghan Tajik asylum seeker who has been held in immigration detention by Australia for eight years sues the Australian Government in the Federal Court. A former employee of the Islamic Republican government, the man fled an assassination attempt by the Taliban and argues that his family is still being targeted in Afghanistan and that his indefinite detention prevents him from organising their escape from the violence. The Government has requested the case be dismissed and denied they had any legal obligations towards Afghan citizens.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Police in Madagascar arrest six individuals, including a foreign national, after months of investigation into a plot to kill President Andry Rajoelina. The Attorney General accuses those arrested of having \"a plan for the elimination of the head of state\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Tanzanian opposition leader Freeman Mbowe and 15 members of his Chadema party, who were arrested yesterday, are charged with terrorism, according to a statement from the party. Amnesty International condemns the charges and the United States said yesterday that Mbowe's arrest was \"very concerning\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2021 Brazilian military crisis, 2022 Brazilian general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "It is revealed that Brazilian Minister of Defence Braga Netto communicated to President of the Chamber of Deputies Arthur Lira that the 2022 elections would not be held if a controversial bill that bans electronic voting and reinstates the use of paper ballots does not pass through Congress. This report follows similar threats made by President Jair Bolsonaro, whose approval ratings and chances of re-election are continuing to decrease. [https://politica.estadao.com.br/noticias/geral,ministro-da-defesa-faz-ameaca-e-condiciona-eleicoes-de-2022-ao-voto-impresso,70003785916 (O Estado de S. Paulo)]",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Both Netto and Lira deny that such a threat happened, with the former declaring that the Estadão reported an \"invention\" and Superior Electoral Court President Luís Roberto Barroso commenting that \"the [democratic] institutions are working\". Estadãos editor, João Caminoto, reaffirms the veracity of the report in a social media post.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "G1"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

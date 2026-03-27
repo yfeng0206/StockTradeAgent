@@ -1,0 +1,143 @@
+{
+  "date": "2019-02-13",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 13,
+  "categories": {
+    "geopolitical": {
+      "count": 6,
+      "headlines": [
+        "2019 Khash-Zahedan suicide bombing",
+        "Israel–Venezuela relations, 2019 Venezuelan presidential crisis",
+        "Foreign involvement in the Syrian Civil War"
+      ]
+    },
+    "legal": {
+      "count": 3,
+      "headlines": [
+        "The Public Prosecutor General of Germany announces the arrest of two members of the Syrian military intelligence service on charges of crimes against humanity. The arrests happened the day before in t",
+        "Special Counsel investigation"
+      ]
+    },
+    "tech": {
+      "count": 2,
+      "headlines": [
+        "Exploration of Mars"
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "Trump administration dismissals and resignations"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2019 Khash-Zahedan suicide bombing",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 27 Iranian Revolutionary Guards are killed after a suicide bombing attack in southeastern Iran. The attack is claimed by Jaish ul-Adl militants.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The New York Times''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israel–Venezuela relations, 2019 Venezuelan presidential crisis",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Venezuelan disputed interim President Juan Guaidó states that he is working to restore ties with Israel, which were broken by Hugo Chávez's anti-Israeli policy, while also weighing whether to relocate the nation's embassy into Jerusalem.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign involvement in the Syrian Civil War",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Kremlin announces that Russia, Iran and Turkey will hold their fourth round of talks in Sochi on Thursday with regards to their roles in the Syrian Civil War.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Public Prosecutor General of Germany announces the arrest of two members of the Syrian military intelligence service on charges of crimes against humanity. The arrests happened the day before in the states of Berlin and Rhineland-Palatinate.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Special Counsel investigation",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. District Court Judge Amy Berman Jackson rules that political consultant and former Trump campaign chairman Paul Manafort  breached his plea deal with special counsel Robert Mueller by  intentionally lying, about three of five matters, to investigators and the federal grand jury.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News",
+        "''Daily Mail''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Trump administration dismissals and resignations",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "FEMA Administrator Brock Long announces his resignation.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Fox News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Exploration of Mars",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The mission of NASA's Opportunity rover on Mars comes to an end. The rover stopped communicating in June 2018 after a Martian dust storm, and attempts to reestablish communications have not been successful.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "NASA"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

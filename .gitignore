@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude CLI internals
+.claude/projects/
+.claude/memory/
+.claude/plans/
+
+# AI-Trader reference files (not part of our project)
+ai_trader_*
+
+# Old test results (keep only curated runs in runs/)
+eval/cache/
+eval/__pycache__/
+eval/strategies/__pycache__/
+eval/pipeline_results/
+eval/test_results_*.json
+eval/FULL_TEST_REPORT.txt
+
+# Large data that should be downloaded fresh
+data/news/*/company/
+data/news/*/macro/
+data/news/*/currencies/
+data/news/*/sectors/
+data/news/*/sentiment/
+
+# Temp
+*.tmp
+*.bak

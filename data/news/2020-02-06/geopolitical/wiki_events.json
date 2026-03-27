@@ -1,0 +1,237 @@
+{
+  "date": "2020-02-06",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 23,
+  "categories": {
+    "politics": {
+      "count": 1,
+      "headlines": [
+        "Minister-President of the central German state of Thuringia, Thomas Kemmerich, resigns under national pressure after his controversial election to the position with the help of the far-right party Alt"
+      ]
+    },
+    "tech": {
+      "count": 1,
+      "headlines": [
+        "Christina Koch returns to Earth from the International Space Station after a continuous 328 days in space, longer than any woman in history."
+      ]
+    },
+    "geopolitical": {
+      "count": 14,
+      "headlines": [
+        "Israeli–Palestinian conflict",
+        "Syrian civil war, Iran–Israel conflict during the Syrian Civil War",
+        "An Australian and two Chinese citizens, one of whom was a tourist, are stabbed and injured by ISIL sympathisers in Hulhumalé, Maldives. The attackers are arrested.",
+        "Brexit Day bomb plot",
+        "War in Afghanistan (2001–2021)"
+      ]
+    },
+    "disaster": {
+      "count": 5,
+      "headlines": [
+        "Winter Storm Kade",
+        "Livraga derailment"
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "Algerian President Abdelmadjid Tebboune pardons a further 6,000 prisoners after doing the same to another 3,000 two days ago. The mass pardons this week follow an offer of dialogue with the protesters",
+        "A man is charged with raping a five-year-old girl inside of the United States embassy in New Delhi. The high-security mansion in the Indian capital is one of the most secure in Delhi, with multiple la"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two Palestinians are killed and seven others are wounded by Israeli soldiers in the occupied West Bank. In a separate incident, twelve Israeli soldiers are injured in a car-ramming attack by a Palestinian in Jerusalem, while a police officer was shot and wounded in another attack in the city. Airstrikes in the Gaza Strip also occurred.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war, Iran–Israel conflict during the Syrian Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli warplanes fire missiles near Damascus, Syria. A pro-opposition war monitor says army positions and Iran-backed militias are targeted, killing 12 fighters. Syria says eight fighters are wounded and Israel intends to \"save the armed terrorist organisations which have been collapsing in Idlib and western Aleppo Governorate in front of the strikes of the Syrian Army\".",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Syrian Army's Tiger Forces with Russian air support enters and takes control of the city of Saraqib, and the nearby town of Sarmin, after rebel forces withdrew from the area.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Washington Post''",
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An Australian and two Chinese citizens, one of whom was a tourist, are stabbed and injured by ISIL sympathisers in Hulhumalé, Maldives. The attackers are arrested.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Brexit Day bomb plot",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The PSNI announce they foiled a plot, allegedly by the dissident republican CIRA, to detonate a truck bomb in the United Kingdom on the day Brexit occurred.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A U.S. civil contractor is kidnapped by the Taliban in eastern Afghanistan's Khost Province. A Taliban leader who declined to be named tells Reuters<nowiki> they had kidnapped an </nowiki>American in Khost but did not provide further details.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Yemeni Crisis (2011–present)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. President Donald Trump announces that the United States military has killed al-Qaeda in the Arabian Peninsula (AQAP) leader Qasim al-Raymi in a drone strike in Yemen.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Winter Storm Kade",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Several tornadoes are reported across the southern United States as Winter Storm Kade continues to cross the country, with more than 200 reports of damaging winds across Mississippi, Alabama and North Carolina.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Weather.com"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Heavy rainfall causes severe flooding in southern states, particularly western South Carolina and western Virginia, where several flash flood emergencies have been declared.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Weather.com"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Livraga derailment",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A train crash in Livraga, Lombardy, Italy, kills 2 people and injures all the other 31 on board.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United States–Venezuela relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Venezuelan security forces move six American Citgo executives from house arrest to El Helicoide prison in Caracas, prompting condemnation from the United States. The move comes shortly after Venezuelan opposition leader Juan Guaidó met with U.S. President Donald Trump at the White House.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Algerian President Abdelmadjid Tebboune pardons a further 6,000 prisoners after doing the same to another 3,000 two days ago. The mass pardons this week follow an offer of dialogue with the protesters, the release of detainees arrested at demonstrations, the formation of a committee to amend the constitution and meetings with opposition figures.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A man is charged with raping a five-year-old girl inside of the United States embassy in New Delhi. The high-security mansion in the Indian capital is one of the most secure in Delhi, with multiple layers of manned and electronic security.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Minister-President of the central German state of Thuringia, Thomas Kemmerich, resigns under national pressure after his controversial election to the position with the help of the far-right party Alternative for Germany.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Christina Koch returns to Earth from the International Space Station after a continuous 328 days in space, longer than any woman in history.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "CNN via MSN"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

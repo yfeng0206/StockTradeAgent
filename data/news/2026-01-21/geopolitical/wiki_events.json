@@ -1,0 +1,222 @@
+{
+  "date": "2026-01-21",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 25,
+  "categories": {
+    "other": {
+      "count": 25,
+      "headlines": [
+        "Israel–Hezbollah conflict",
+        "Yemeni civil war",
+        "Orbanomics, Economy of Hungary",
+        "January 2026 New Zealand storms",
+        "Severe storms in Greece kill two people as strong winds and heavy rainfall cause flooding, prompting authorities to suspend maritime traffic and close schools in several regions."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Killing of journalists in the Gaza war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "At least eleven Palestinians, including two children and three journalists documenting Egyptian state aid distribution, are killed in Israeli airstrikes in the Netzarim Corridor in Gaza.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israel–Hezbollah conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel launches a series of airstrikes in Lebanon, killing one person each in Tyre and Sidon and wounding 19 others in Qanarit.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Yemeni civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A car bombing near Aden, Yemen, targeting the motorcade of Southern Giants Brigades commander Hamdy Shoukry, kills three people and injures four others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP via ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Orbanomics, Economy of Hungary",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hungarian prime minister Viktor Orbán announces a 100-billion-forint (US$300-million) support package for the restaurant sector and commits to covering additional household heating costs for January, as part of broader measures to ease cost-of-living pressures and revive the economy ahead of the upcoming parliamentary elections.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "January 2026 New Zealand storms",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "New Zealand territorial authorities order evacuations in low-lying areas of the North Island after heavy rain and strong winds cause flooding and landslides, while police search for a man missing after being swept away while fording.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Severe storms in Greece kill two people as strong winds and heavy rainfall cause flooding, prompting authorities to suspend maritime traffic and close schools in several regions.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via BSS"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "EU–Mercosur Partnership Agreement",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The European Parliament approves a measure by a vote of 334–324 to ask the European Court of Justice to rule on whether the free trade agreement between the EU and Mercosur can be applied before full ratification by all member states and whether its provisions restrict the EU's ability to set environmental and consumer health policies.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Greenland crisis, Tariffs in the second Trump administration",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "United States president Donald Trump announces he will cancel the planned tariffs on Denmark, Finland, France, Germany, the Netherlands, Norway, Sweden, and the United Kingdom after reaching an agreement with NATO Secretary General Mark Rutte for a Greenland framework. He also stated at the World Economic Forum that he has ruled out sending forces amidst invasion fears.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "''Fortune''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2024 South Korean martial law crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A high court in Seoul, South Korea, sentences former prime minister Han Duck-soo to 23 years in prison for being an accomplice in giving procedural legitimacy to the martial law decree during a cabinet meeting.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Corruption in Malaysia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Malaysian anti-corruption commission charges two former military chiefs and one of their wives with money laundering, abuse of power, and criminal breach of trust.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Trial of Tetsuya Yamagami",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A district court in Nara, Japan, sentences Tetsuya Yamagami to life in prison for assassinating former prime minister Shinzo Abe in 2022.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War on drugs",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Europol announces an end to an operation against synthetic drug production and trafficking in Belgium, the Czech Republic, Germany, Netherlands, Poland, and Spain, resulting in the arrests of 85 people and the seizure of 1,000 metric tons of chemicals in 24 labs.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Politics in Australia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Opposition Liberal–National Coalition splits less than a year after reforming as the Liberal and National parties take opposing stances on the Albanese government's proposed tightening of hate speech laws in the wake of the Bondi Beach shooting.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News Australia"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

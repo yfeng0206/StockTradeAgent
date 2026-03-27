@@ -1,0 +1,164 @@
+{
+  "date": "2020-04-23",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 15,
+  "categories": {
+    "health": {
+      "count": 4,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "2020 Kiribati parliamentary election",
+        "Lesotho Prime Minister Tom Thabane rejects a deal between South African mediators and his coalition government asking him to resign amid accusations that he was involved in the murder of his ex-wife."
+      ]
+    },
+    "business": {
+      "count": 5,
+      "headlines": [
+        "COVID-19 pandemic in the United States; Unemployment in the United States",
+        "COVID-19 pandemic in Italy, Impact of the COVID-19 pandemic on aviation",
+        "Facebook removes \"pseudoscience\" and \"conspiracy theory\" as options for targeted ads, as criticism mounts against social media for their role in spreading misinformation about the coronavirus."
+      ]
+    },
+    "sports": {
+      "count": 2,
+      "headlines": [
+        "2020 NFL season, Impact of the COVID-19 pandemic on sports"
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "Two former high-ranking members of the Syrian Army go on trial in Koblenz, Rhineland-Palatinate, Germany, for alleged war crimes committed during the Syrian Civil War. This is the first time that Syri"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "COVID-19 pandemic in the United States; Unemployment in the United States",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Over the last week, 4.4 million Americans filed for unemployment benefits. Since mid-March, 26.4 million have filed, which is more than 15 percent of the workforce.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy, Impact of the COVID-19 pandemic on aviation",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Italian Minister of Economic Development Stefano Patuanelli announces the government will nationalize the country's main flag carrier Alitalia by June, claiming the airline will go bankrupt otherwise. This reverses earlier plans to have it fully privatized.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Facebook removes \"pseudoscience\" and \"conspiracy theory\" as options for targeted ads, as criticism mounts against social media for their role in spreading misinformation about the coronavirus.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Japan",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Fifty crew members on the cruise ship Costa Atlantica test positive for COVID-19 after it docks in Nagasaki, Japan.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two former high-ranking members of the Syrian Army go on trial in Koblenz, Rhineland-Palatinate, Germany, for alleged war crimes committed during the Syrian Civil War. This is the first time that Syrian military officials are being prosecuted for their roles in the conflict.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 Kiribati parliamentary election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Results show that four women win seats in the parliament and that most ministers of the current government keep their seats, including President Taneti Mamau. However, it is too early to say whether he would be his party's nomination for President again.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Lesotho Prime Minister Tom Thabane rejects a deal between South African mediators and his coalition government asking him to resign amid accusations that he was involved in the murder of his ex-wife.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 NFL season, Impact of the COVID-19 pandemic on sports",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In American football, the National Football League starts its draft for the 2020 season, with the Cincinnati Bengals selecting Joe Burrow with the first overall pick. The draft's public events in Las Vegas were canceled, with teams selecting players from private offices to comply with social distancing guidelines.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "NFL"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

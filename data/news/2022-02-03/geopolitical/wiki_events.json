@@ -1,0 +1,282 @@
+{
+  "date": "2022-02-03",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 33,
+  "categories": {
+    "other": {
+      "count": 33,
+      "headlines": [
+        "2021–2022 Russo-Ukrainian crisis",
+        "Syrian civil war",
+        "The oil tanker Trinity Spirit catches fire and explodes off the coast of Nigeria.",
+        "COVID-19 pandemic",
+        "Germany–Russia relations, Media freedom in Russia, Censorship in Germany"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2021–2022 Russo-Ukrainian crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "War in Donbas",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States Embassy in Kyiv calls on Russia to \"fully comply\" with the ceasefire in Donbas after pro-Russian forces shelled the strategic Hnutove entry-exit checkpoint and a humanitarian road corridor.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Ukranews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Belarus–Ukraine relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Belarus says that a Ukrainian Air Force drone violated its airspace over a military training area, and that the military forced the aircraft to land. The Belarusian Ministry of Foreign Affairs summons the Ukrainian ambassador in response to the incident.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Belta"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Abu Ibrahim al-Hashimi al-Qurashi, the leader of the Islamic State, dies after killing himself with a suicide bombing during a U.S. Joint Special Operations Command raid and battle in Atme, Idlib Governorate, Syria. Twelve more people are killed during the raid.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The oil tanker Trinity Spirit catches fire and explodes off the coast of Nigeria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Newsweek''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in India",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "India surpasses 500,000 deaths from COVID-19, becoming the third country to do so after the United States and Brazil.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Times of India''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Japan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan surpasses three million COVID-19 cases after a record 104,270 new cases in the past 24 hours.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malaysia, COVID-19 vaccination in Malaysia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Malaysia begins administering COVID-19 vaccines for children between the ages of 5 and 11 years using the Pfizer-BioNTech COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in France",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "France surpasses 20 million COVID-19 cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Germany, COVID-19 vaccination in Germany",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Standing Committee on Vaccination issues a recommendation for the approval of the protein-based Novavax COVID-19 vaccine for use in adults.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom, COVID-19 vaccination in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Medicines and Healthcare products Regulatory Agency approves the use of the protein-based Novavax COVID-19 vaccine for use in adults over the age of 18 years.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Brazil",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Brazil reports a record 298,408 new COVID-19 cases in the past 24 hours, thereby bringing the nationwide total of confirmed cases to 26.09 million.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in South Africa, History of COVID-19 vaccine development",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "South Africa's Afrigen Biologics uses the publicly available sequence of the mRNA-based Moderna COVID-19 vaccine to make its own version of the vaccine, which will become the world's first vaccine based on an existing vaccine once it is tested on humans later this year.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Germany–Russia relations, Media freedom in Russia, Censorship in Germany",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Russia withdraws the press credentials of all Deutsche Welle staff and closes the German media organization's studio in Moscow in response to German regulators blocking the Russian television channel RT Deutsch.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Twenty people die and 74 others are hospitalized in Buenos Aires, Argentina, after consuming cocaine laced with poison or \"cut\" with another substance. Nine people are arrested.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Four senior aides to UK Prime Minister Boris Johnson resign, including Downing Street Chief of Staff Dan Rosenfield, Principal Private Secretary Martin Reynolds, Downing Street Director of Communications Jack Doyle, and political adviser Munira Mirza, amid controversy over the Prime Minister's handling of the Partygate scandal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Caribbean Series",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Professional baseball team Caimanes de Barranquilla defeats the Gigantes del Cibao 4&ndash;1 to win the 2022 Caribbean Series and becoming the first Colombian team to win the tournament.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "MLB"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

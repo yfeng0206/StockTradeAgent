@@ -1,0 +1,120 @@
+{
+  "date": "2023-05-15",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 12,
+  "categories": {
+    "other": {
+      "count": 12,
+      "headlines": [
+        "American-Canadian mass media company Vice Media files for Chapter 11 bankruptcy.",
+        "One person is killed and 59 others are injured when a bus and a truck collide on the  D2 motorway in Slovakia.",
+        "One person is killed and two others are injured after a fire breaks out in a refinery in  Texas City, Texas, United States.",
+        "2023 visit by Volodymyr Zelenskyy to Europe",
+        "Moldova announces that it will initiate a procedure to withdraw from the CIS Interparliamentary Assembly."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "American-Canadian mass media company Vice Media files for Chapter 11 bankruptcy.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and 59 others are injured when a bus and a truck collide on the  D2 motorway in Slovakia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and two others are injured after a fire breaks out in a refinery in  Texas City, Texas, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 visit by Volodymyr Zelenskyy to Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ukrainian President Volodymyr Zelenskyy meets with British Prime Minister Rishi Sunak at Chequers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Moldova announces that it will initiate a procedure to withdraw from the CIS Interparliamentary Assembly.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "China–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "China convicts and sentences American citizen John Shing-Wan Leung to life in prison for espionage.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Capital punishment in Malaysia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The government of Malaysia announces that it will introduce a bill to decriminalize the possession and use of small quantities of illicit drugs after ending the mandatory imposition of a death sentence for drug trafficking earlier this year.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Farmington, New Mexico shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Three civilians are killed and two police officers are injured in a mass shooting in Farmington, New Mexico, United States. The shooter is killed by police.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

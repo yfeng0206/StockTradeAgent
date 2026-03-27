@@ -1,0 +1,218 @@
+{
+  "date": "2019-05-08",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "geopolitical": {
+      "count": 14,
+      "headlines": [
+        "2019 Lahore bombing",
+        "War in Afghanistan (2001–2021)",
+        "Syrian Civil War, Northwestern Syria offensive (April 2019–present)",
+        "Nuclear program of Iran",
+        "Cross-Strait relations"
+      ]
+    },
+    "legal": {
+      "count": 5,
+      "headlines": [
+        "Asia Bibi blasphemy case",
+        "Aftermath of the Mueller special counsel investigation"
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "Prince Harry and Meghan, the Duke and Duchess of Sussex, name their son Archie Harrison Mountbatten-Windsor."
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "2019 South African general election"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2019 Lahore bombing",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A blast near the 11th-century Data Darbar Sufi shrine in Lahore, Pakistan, kills at least eleven people, half of them police officers.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Guardian''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Nine people were killed after the Taliban launches an attack on the Kabul offices of international non-governmental organization Counterpart International.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian Civil War, Northwestern Syria offensive (April 2019–present)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Syrian government forces capture the town of Kafr Nabudah in an ongoing offensive, marking the first major territorial change between government and rebel forces since the start of the demilitarization agreement last year.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Miami Herald''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Prince Harry and Meghan, the Duke and Duchess of Sussex, name their son Archie Harrison Mountbatten-Windsor.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "CBS News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Nuclear program of Iran",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iranian President Hassan Rouhani sends letters to the P5+1 leaders of the United Kingdom, China, Russia, Germany, France and the European Union announcing the country's partial withdrawal from the 2015 Joint Comprehensive Plan of Action agreement. Furthermore, Iran announces that it will stop exporting uranium and heavy water from its nuclear program.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Miami Herald''",
+        "CBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Cross-Strait relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Taiwan passes a law under which spies from China would be subject to life imprisonment or even the death penalty.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Mainichi"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Brazil–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. President Donald Trump notifies the Congress that he will designate Brazil as a major non-NATO ally in light of recent commitments to increase defense cooperation between both countries.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "White House"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Belizean–Guatemalan territorial dispute",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In a referendum, 55.37% of the Belizean population voted in favor of allowing the International Court of Justice to adjudicate Belize's border dispute with its neighbor Guatemala.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Asia Bibi blasphemy case",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Asia Bibi, a Christian woman acquitted of blasphemy after spending eight years on death row, has left Pakistan for Canada to be reunited with her daughters.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the Mueller special counsel investigation",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States House Committee on the Judiciary votes to hold United States Attorney General William Barr in contempt of Congress after he failed to comply with a subpoena ordering him to provide them with the full, unredacted version of the Mueller report last week. The full House will vote on the measure in the near future.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Donald Trump Jr., son of U.S. President Donald Trump, is subpoenaed to testify before the United States Senate Select Committee on Intelligence about the Trump Tower Moscow project and his Russian contacts in June 2016.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 South African general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Voters in South Africa go to the polls to elect new members of the National Assembly and provincial legislatures.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

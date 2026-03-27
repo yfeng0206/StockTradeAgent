@@ -1,0 +1,108 @@
+{
+  "date": "2019-08-07",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 9,
+  "categories": {
+    "geopolitical": {
+      "count": 3,
+      "headlines": [
+        "War in Afghanistan"
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "2019 California stabbing rampage"
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "The death toll of the heat wave in Japan rises to 57, while 18,347 others are hospitalized."
+      ]
+    },
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "2019 Argentine general election",
+        "Cyntoia Brown is released from prison after serving fifteen years for killing Johnny Allen in 2004."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "7 August 2019 Kabul bombing",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A car bombing by the Taliban kills 14 and injures over 150 in Kabul, Afghanistan.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The death toll of the heat wave in Japan rises to 57, while 18,347 others are hospitalized.",
+      "category": "Disaster and accidents",
+      "market_category": "other",
+      "sources": [
+        "''Japan Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 California stabbing rampage",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A Garden Grove, California, man stabs and kills four people and wounds two others in a two-hour crime spree at a series of Orange County locations. Both injured victims are expected to survive. The motive of the 33-year-old suspect, who was arrested at the last scene, appears to be robbery as well as \"anger and hate.\"",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN",
+        "AP via KESQ-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Argentine general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Sources from the Brazilian government reveal that Brazilian President Jair Bolsonaro suggested U.S. President Donald Trump visit Argentina in order to back the re-election of President Mauricio Macri.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''La Nación''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Cyntoia Brown is released from prison after serving fifteen years for killing Johnny Allen in 2004.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "NY Times"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

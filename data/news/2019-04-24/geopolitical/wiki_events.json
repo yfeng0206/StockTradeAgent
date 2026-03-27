@@ -1,0 +1,122 @@
+{
+  "date": "2019-04-24",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 10,
+  "categories": {
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "North Korea–Russia relations"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "Floods and mudslides in the South African city of Durban and the wider KwaZulu-Natal province have killed at least 60 people.",
+        "Police evacuate 148 homes in Sokndal, Norway. Wildfires have burned through about 7.5 square kilometers (2.9 sq. miles) of land in the area. A spokesperson for the European Union Forest Fire Informati"
+      ]
+    },
+    "legal": {
+      "count": 5,
+      "headlines": [
+        "2019 Guatemalan general election",
+        "Murder of James Byrd Jr.",
+        "Illinois Governor J. B. Pritzker is investigated federally for a property tax break that netted him $331,000 in tax relief by taking toilets out of a Chicago mansion he owns. Pritzker stated he has \"n"
+      ]
+    },
+    "politics": {
+      "count": 1,
+      "headlines": [
+        "Asia Press reports that North Korean leader Kim Jong-un ordered the execution by firing squad of four foreign ministry officials following the failure of his February Hanoi summit with U.S. President "
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Floods and mudslides in the South African city of Durban and the wider KwaZulu-Natal province have killed at least 60 people.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Police evacuate 148 homes in Sokndal, Norway. Wildfires have burned through about 7.5 square kilometers (2.9 sq. miles) of land in the area. A spokesperson for the European Union Forest Fire Information System says wildfires in northern Europe \"are way above the average\" for this time of year.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "North Korea–Russia relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "North Korean leader Kim Jong-un arrives by train in Vladivostok, Russia, for his first talks with Russian President Vladimir Putin, expected to start Thursday.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Guatemalan general election",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A judge in Miami orders the arrest of Guatemalan presidential candidate Roberto Arzú. Arzú is the second presidential candidate who has had legal problems with the United States.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Prensa Libre''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Murder of James Byrd Jr.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "John William King is executed by lethal injection by the state of Texas, 21 years after the murder of James Byrd Jr., for which he was sentenced.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Illinois Governor J. B. Pritzker is investigated federally for a property tax break that netted him $331,000 in tax relief by taking toilets out of a Chicago mansion he owns. Pritzker stated he has \"no concerns\" about the report.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Washington Post''",
+        "Governing",
+        "''Washington Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Asia Press reports that North Korean leader Kim Jong-un ordered the execution by firing squad of four foreign ministry officials following the failure of his February Hanoi summit with U.S. President Donald Trump, after accusing them of \"selling information to the U.S.\" before the summit.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Yahoo! News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

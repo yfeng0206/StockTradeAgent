@@ -1,0 +1,286 @@
+{
+  "date": "2020-02-20",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 27,
+  "categories": {
+    "health": {
+      "count": 5,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "politics": {
+      "count": 9,
+      "headlines": [
+        "2020 Dominican Republic municipal elections",
+        "South Sudanese President Salva Kiir Mayardit and SPLM-IO leader Riek Machar agree to form a unity government by Saturday, in a major step to end the South Sudanese Civil War.",
+        "The California State Legislature unanimously passes a resolution apologizing for the state's role in  interning Japanese-Americans during World War II.",
+        "Aftermath of the 2020 Irish general election"
+      ]
+    },
+    "business": {
+      "count": 1,
+      "headlines": [
+        "Morgan Stanley purchases electronic trading firm E-Trade for US$13 billion, in the largest banking deal since the 2008 financial crisis."
+      ]
+    },
+    "geopolitical": {
+      "count": 4,
+      "headlines": [
+        "Syrian civil war, Northwestern Syria offensive (December 2019–March 2020), Turkish involvement in the Syrian Civil War",
+        "The Guardian reveals that Australian ambassador to Myanmar Andrea Faulkner met with Commander-in-chief of the Burmese Armed Forces Min Aung Hlaing last month to discuss improving relations between the"
+      ]
+    },
+    "disaster": {
+      "count": 3,
+      "headlines": [
+        "2020 Wallan derailment",
+        "A 200-car pileup in La Prairie, Quebec, Canada, kills two people and injures 69 others."
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "Weeks after the First Lady of Lesotho Maesiah Thabane was arrested and charged with the killing of former First Lady Lipolelo Thabane, it is announced that current Prime Minister of Lesotho Tom Thaban",
+        "Criminal charges brought in the Mueller special counsel investigation",
+        "New Mexican Attorney General Hector Balderas sues Google for allegedly collecting private information of the state's schoolchildren without parental consent."
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "An 18th-century Ethiopian ceremonial crown, one of the 20 in existence, is returned to Prime Minister Abiy Ahmed. It was discovered in the Netherlands in 1998, and was held by Dutch authorities until "
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Syrian civil war, Northwestern Syria offensive (December 2019–March 2020), Turkish involvement in the Syrian Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Turkish-backed rebels launch an offensive in the Idlib Governorate against government forces. A Russian  air strike kills two Turkish soldiers and injures five others, while Turkey says a retaliatory strike killed 50 Syrian troops. Several tanks and armoured personnel carriers are destroyed near the village of Nayrab.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "News AU",
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkey formally requests the deployment of Patriot surface-to-air missile systems by its NATO ally United States on the Syria–Turkey border to deter Syrian and Russian air strikes on its troops.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Telegraph''",
+        "''Al Masdar News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An 18th-century Ethiopian ceremonial crown, one of the 20 in existence, is returned to Prime Minister Abiy Ahmed. It was discovered in the Netherlands in 1998, and was held by Dutch authorities until now so it could be returned when the country was more politically stable.",
+      "category": "Art and culture",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Morgan Stanley purchases electronic trading firm E-Trade for US$13 billion, in the largest banking deal since the 2008 financial crisis.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 Wallan derailment",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A XPT train derails in Victoria, Australia, killing two people.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A 200-car pileup in La Prairie, Quebec, Canada, kills two people and injures 69 others.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "News AU"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in South Korea",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "South Korea reports its first death from COVID-19.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Sputnik"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two Japanese passengers who were on board of the Diamond Princess cruise ship have died from the disease. Both, a man and a woman in their 80s, had underlying health conditions.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Australia extends its ban on travel from China for the fourth week in a row.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Guardian reveals that Australian ambassador to Myanmar Andrea Faulkner met with Commander-in-chief of the Burmese Armed Forces Min Aung Hlaing last month to discuss improving relations between the two nations and possibly training Hlaing's officers in Australia, among others. Human Rights Watch criticized this meeting as enabling Hlaing's genocide against the Rohingya.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Weeks after the First Lady of Lesotho Maesiah Thabane was arrested and charged with the killing of former First Lady Lipolelo Thabane, it is announced that current Prime Minister of Lesotho Tom Thabane will also be charged with the murder in the upcoming hours. He also announced he will be stepping down at the end of July citing old age.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Criminal charges brought in the Mueller special counsel investigation",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. District Court for the District of Columbia Judge Amy Berman Jackson sentences Roger Stone, long-time adviser and ally to the President of the United States Donald Trump, to 40 months in federal prison for seven charges of obstruction, lying to Congress and witness tampering.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN",
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "New Mexican Attorney General Hector Balderas sues Google for allegedly collecting private information of the state's schoolchildren without parental consent.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 Dominican Republic municipal elections",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Protests happen in major Dominican Republic cities over the election problems.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Dominican Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Col. Ramón A. Guzmán and Claro telecom technician Manuel Antonio Regalado were arrested for the election sabotage.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Dominican Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "South Sudanese President Salva Kiir Mayardit and SPLM-IO leader Riek Machar agree to form a unity government by Saturday, in a major step to end the South Sudanese Civil War.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The California State Legislature unanimously passes a resolution apologizing for the state's role in  interning Japanese-Americans during World War II.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Aftermath of the 2020 Irish general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The 33rd Dáil Éireann meets for the election of the Taoiseach (head of government) and Ceann Comhairle (speaker of parliament).",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Seán Ó Fearghaíl of Fianna Fáil is re-elected as Ceann Comhairle. No candidate for Taoiseach attains the 80 votes required to form a government. The Dáil adjourns until March 5. [https://www.rte.ie/news/politics/2020/0220/1116469-ireland-politics/ (RTÉ)]",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Incumbent Taoiseach Leo Varadkar offers his resignation to President Michael D. Higgins, but will remain as Taoiseach in a caretaker capacity until the formation of a new government.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

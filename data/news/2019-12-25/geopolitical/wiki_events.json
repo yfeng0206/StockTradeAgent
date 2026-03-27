@@ -1,0 +1,137 @@
+{
+  "date": "2019-12-25",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 12,
+  "categories": {
+    "geopolitical": {
+      "count": 7,
+      "headlines": [
+        "War in Afghanistan (2001–2021)",
+        "Arbinda attack",
+        "Two \"wanted terrorists\" are killed in Dammam, Saudi Arabia, after exchanging gunfire with security forces.",
+        "Israeli Prime Minister Benjamin Netanyahu is briefly brought to a bomb shelter during an election rally in Ashkelon, Israel, after a rocket is fired from the Gaza Strip. The rocket is intercepted with"
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "Japanese National Diet member Tsukasa Akimoto of the ruling Liberal Democratic Party is arrested for allegedly receiving up to ¥3 million in bribes from a Chinese company interested in setting up a ca"
+      ]
+    },
+    "other": {
+      "count": 2,
+      "headlines": [
+        "Notre-Dame de Paris fire"
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "2019 Iraqi protests"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Taliban militants say they have kidnapped 27 local peace activists in Farah Province as they were traveling from Herat Province.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Arbinda attack",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In Burkina Faso, the government orders 48 hours of mourning after the jihadist attack yesterday in Soum Province.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A dozen Burkina Faso soldiers are killed in an armed attack in the night by militants responsible for the previous attack.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "DW News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two \"wanted terrorists\" are killed in Dammam, Saudi Arabia, after exchanging gunfire with security forces.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli Prime Minister Benjamin Netanyahu is briefly brought to a bomb shelter during an election rally in Ashkelon, Israel, after a rocket is fired from the Gaza Strip. The rocket is intercepted with no casualties reported.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "NBCWashington",
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Notre-Dame de Paris fire",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Notre-Dame rector Patrick Chauvet states there is \"maybe a 50 percent chance that [the building] will be saved\" due to deterioration of scaffolding near the vaults, and that renovations will not start until 2021 at the soonest.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Japanese National Diet member Tsukasa Akimoto of the ruling Liberal Democratic Party is arrested for allegedly receiving up to ¥3 million in bribes from a Chinese company interested in setting up a casino in the country.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Iraqi protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The largest parliamentary bloc, Binaa Bloc, including Fatah Alliance and State of Law Coalition, nominates Basra governor Asaad Al Eidani to succeed Adil Abdul-Mahdi as Prime Minister of Iraq. Protesters reject the nomination, seeing him as part of the establishment.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "date": "2019-09-25",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 26,
+  "categories": {
+    "health": {
+      "count": 4,
+      "headlines": [
+        "Climate change mitigation",
+        "Economy of Poland"
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "September 2019 Israeli legislative election"
+      ]
+    },
+    "business": {
+      "count": 4,
+      "headlines": [
+        "Collapse of Thomas Cook",
+        "Northern Irish bus manufacturer Wrightbus collapses into administration after buyout talks fail, with 1,200 jobs lost. Local politicians urge action from UK Prime Minister Boris Johnson, who commissio"
+      ]
+    },
+    "tech": {
+      "count": 1,
+      "headlines": [
+        "The Soyuz-MS spacecraft Sarmat, carrying Hazza Al Mansouri, the first United Arab Emirates astronaut, and Expedition 61 crew members Jessica Meir and Oleg Skripochka, is launched to the International "
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "Foreign relations of Kiribati"
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "Rescuers reach the wreckage of a Twin Otter cargo plane that crashed last week between Timika and Ilaga in Papua, Indonesia. All four persons on board are found dead, and their bodies are recovered."
+      ]
+    },
+    "legal": {
+      "count": 12,
+      "headlines": [
+        "A bomb explodes as a police riot bus passes by in Yüreğir, Adana Province, Turkey. At least five officers are injured.",
+        "Cannabis in Australia",
+        "Millionaire Italian yacht businessman Giulio Lolli is convicted of terrorism in Libya and sentenced to life imprisonment by a court in Tripoli. Lolli is wanted for fraud in Italy, and his Italian lawy",
+        "A jury in New York convicts Dilkhayot Kasimov, a citizen of Uzbekistan, of terrorism offences for attempting to raise funds to assist a friend in travelling to join ISIL. Five others pleaded guilty in",
+        "Suspected serial killer Gracious David-West confesses to fifteen murders at a hotel in Port Harcourt, Nigeria."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Collapse of Thomas Cook",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "German airline Condor, a subsidiary of the now insolvent Thomas Cook Group, files for bankruptcy.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Secretary of State for Transport Grant Shapps announces that the UK government is planning to introduce new legislation in the aftermath of Thomas Cook's collapse in order to allow \"more orderly\" bankruptcies by travel agencies and airlines.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Northern Irish bus manufacturer Wrightbus collapses into administration after buyout talks fail, with 1,200 jobs lost. Local politicians urge action from UK Prime Minister Boris Johnson, who commissioned the so-called \"Boris Bus\" from the company when he was Mayor of London and previously promised to \"do everything we can to ensure the future of\" Wrightbus.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Rescuers reach the wreckage of a Twin Otter cargo plane that crashed last week between Timika and Ilaga in Papua, Indonesia. All four persons on board are found dead, and their bodies are recovered.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "The Malaysian Insight"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Climate change mitigation",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An advisory board to the Dutch government recommends reducing speed limits on roads and using public money to purchase outdated cattle farms as part of a raft of measures to tackle global warming-linked nitrogen emissions in the country.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Associated Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Economy of Poland",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Polish Energy Minister Krzysztof Tchórzewski announces the ruling Law and Justice party plans to pass new laws to enable more coal mines to be built.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters via Euronews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign relations of Kiribati",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kiribatian President Taneti Mamau condemns Australia for the alleged apathy the Australian government shows toward small island nations in the Pacific facing the threat of global warming.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A bomb explodes as a police riot bus passes by in Yüreğir, Adana Province, Turkey. At least five officers are injured.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Bianet"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Cannabis in Australia",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Australian Capital Territory (ACT) becomes the first jurisdiction in Australia to legalize the recreational use of cannabis. From January 31, 2020, adults within ACT will be allowed to have 50 grams of the drug and can grow up to four cannabis plants at home.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Millionaire Italian yacht businessman Giulio Lolli is convicted of terrorism in Libya and sentenced to life imprisonment by a court in Tripoli. Lolli is wanted for fraud in Italy, and his Italian lawyer says the Libyan legal case appears to be based on Lolli using a yacht to evacuate fighters from Tripoli.  <!--A non-paywall source would be better, but all details are sourced to the readable extract for the time being until a better source is found-->",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A jury in New York convicts Dilkhayot Kasimov, a citizen of Uzbekistan, of terrorism offences for attempting to raise funds to assist a friend in travelling to join ISIL. Five others pleaded guilty in 2015.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Associated Press"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Suspected serial killer Gracious David-West confesses to fifteen murders at a hotel in Port Harcourt, Nigeria.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Telegraph''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The military court in Blida sentences Mohamed Mediène, ,  and Louisa Hanoune, four persons from the ruling elite around former Algerian President Abdelaziz Bouteflika, to 15-year jail terms for conspiracy against the army and the authority of the Algerian state.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Impeachment inquiry into Donald Trump",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States House of Representatives issues an impeachment inquiry into President Donald Trump.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Danske Bank money laundering scandal",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Authorities raid the German bank Deutsche Bank as part of a money laundering probe into €200 billion of suspicious payments identified into the accounts of Danske Bank's branch in Estonia. Danske Bank's Estonian boss from 2007 to 2015 is found dead near Tallinn at his home in circumstances police describe as neither suspicious nor accidental.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "City A.M."
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A federal grand jury indicts a US Army soldier on charges of distributing explosives information as part of an alleged far-right terror plot.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "September 2019 Israeli legislative election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli President Reuven Rivlin formally gives Benjamin Netanyahu the mandate to form the next Israeli government by October 24, after 55 members of the Knesset recommended the latter, compared with 54 recommendations for Benny Gantz. If Netanyahu fails, the mandate could be transferred to Gantz.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Soyuz-MS spacecraft Sarmat, carrying Hazza Al Mansouri, the first United Arab Emirates astronaut, and Expedition 61 crew members Jessica Meir and Oleg Skripochka, is launched to the International Space Station. It was the final flight of the Soyuz-FG launch vehicle – all future Soyuz MS spacecraft launches will be conducted with the Soyuz-2.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "Spaceflight Now",
+        "CBS News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

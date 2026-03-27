@@ -1,0 +1,215 @@
+{
+  "date": "2025-05-14",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 24,
+  "categories": {
+    "other": {
+      "count": 24,
+      "headlines": [
+        "Israeli–Palestinian conflict",
+        "Hezbollah–Israel conflict",
+        "Naxalite–Maoist insurgency",
+        "Two hikers are found dead and seven others are rescued after they were swept away by a river while hiking near Didier Waterfall on the island of Martinique.",
+        "Two Japanese Air Force pilots are killed after their Kawasaki T-4 aircraft crashes into a reservoir minutes after taking off from Komaki Air Base in Komaki, Aichi Prefecture, Japan."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli bombing of the Gaza Strip",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli airstrikes kill at least 80 Palestinians across the Gaza Strip.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Palestinian political violence",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Two Israelis, including a pregnant woman and her child, are critically wounded in a shooting near Brukhin in the West Bank.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Jerusalem Post''",
+        "YNet"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Hezbollah–Israel conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli invasion of Lebanon",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Israel Defense Forces claim that a drone strike in Qaaqaait al-Jisr, Nabatieh Governorate, Lebanon, killed a Hezbollah commander.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Naxalite–Maoist insurgency",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Operation Black Forest",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Indian authorities declare a \"major success\" in a military operation against Naxal insurgents in the border between the states of Chhattisgarh and Telangana, killing 31 militants, including top leaders of the Maoist group.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Hindustan Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two hikers are found dead and seven others are rescued after they were swept away by a river while hiking near Didier Waterfall on the island of Martinique.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Two Japanese Air Force pilots are killed after their Kawasaki T-4 aircraft crashes into a reservoir minutes after taking off from Komaki Air Base in Komaki, Aichi Prefecture, Japan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP",
+        "AP 2"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Twenty-one people are killed after a tanker truck collided with two other vehicles on Federal Highway 135D near Tehuacán, Puebla, Mexico.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "El Universal"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "China–Colombia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Colombia joins China's Belt and Road Initiative during the China-CELAC Forum in Beijing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via RFI"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syria–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. president Donald Trump meets with Syrian interim president Ahmed al-Sharaa during a trip to Saudi Arabia prior to departing for Qatar, marking the first meeting between a U.S. and Syrian president since 2000.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Immigration to Argentina",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Argentine president Javier Milei orders restrictions on immigration to Argentina, saying that immigrants are bringing \"chaos and abuse\" to Argentina.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Tajik president Emomali Rahmon signs a law decriminalizing the \"liking\" of posts on social media publicly calling for terrorism or other serious crimes.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Russian election observer  is convicted on charges of working with an \"undesirable organization\" and sentenced to five years in prison.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Deportation of undocumented Afghans from Pakistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Pakistani interior minister Mohsin Naqvi says that more than 1 million Afghans have been deported back to Afghanistan since November 2023 as Pakistani authorities intensify a crackdown on illegal immigration.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AMU TV"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

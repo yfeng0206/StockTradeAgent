@@ -1,0 +1,167 @@
+{
+  "date": "2022-09-12",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "other": {
+      "count": 18,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Kurdish–Turkish conflict",
+        "2022 Armenian-Azerbaijani clashes",
+        "Five people are killed during an attack on a senator's convoy in Anambra, Nigeria.",
+        "A 1500 year old ancient Mayan settlement is uncovered in central Belize by archaeologists from the Belize Archaeological Institute and UIUC, dating from between 250 to 600 AD."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Ukrainian Kharkiv counteroffensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian forces continue to recapture Russian-occupied territory in Kharkiv Oblast, saying that they have seized 20 more settlements in the last 24 hours, including Dvorichna, and also claim to have captured many Russian prisoners of war.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Battle of Donbas",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Ukrainian general staff reports that Russian troops abandoned the city of Svatove in Luhansk Oblast as Ukrainian forces advanced.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Western Russia attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Multiple explosions are reported near the city of Taganrog in Rostov Oblast, Russia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Meduza",
+        "HalkTV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "More than 30 municipal deputies of Russian cities sign a petition calling for Russian President Vladimir Putin's resignation amid substantial Ukrainian advances in the war.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Hill''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kurdish–Turkish conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Operation Claw-Lock",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Four Turkish soldiers are killed in clashes with PKK insurgents in Iraqi Kurdistan, according to the Turkish Defense Ministry.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Armenian-Azerbaijani clashes",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Azerbaijan shells Armenian villages in the eastern region of the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Five people are killed during an attack on a senator's convoy in Anambra, Nigeria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A 1500 year old ancient Mayan settlement is uncovered in central Belize by archaeologists from the Belize Archaeological Institute and UIUC, dating from between 250 to 600 AD.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Heritage Daily",
+        "Onet.pl"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A gunman kills two people, including a Toronto Police constable, and injures three others in Mississauga and Milton, Ontario, Canada, before police shoot him dead in Hamilton Cemetery.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The James Webb Space Telescope reveals its first photos of the Orion Nebula, which is located in the Orion constellation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Phys.org"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

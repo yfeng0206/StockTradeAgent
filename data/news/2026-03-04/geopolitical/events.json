@@ -1,0 +1,12 @@
+{
+  "collected": "2026-03-25T10:49:32.934178",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 0,
+  "articles": []
+}

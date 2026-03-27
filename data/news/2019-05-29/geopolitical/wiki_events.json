@@ -1,0 +1,150 @@
+{
+  "date": "2019-05-29",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 13,
+  "categories": {
+    "politics": {
+      "count": 4,
+      "headlines": [
+        "2019 Latvian presidential election",
+        "Elections in Israel"
+      ]
+    },
+    "tech": {
+      "count": 2,
+      "headlines": [
+        "China–United States trade war"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "Sinking of Hableány"
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "A 55-year-old pediatrician, Ricardo Russo, is arrested at the Hospital Garrahan in Buenos Aires, Argentina, where he was Chief of the Immunology Department. He is accused of sexually abusing minors, d",
+        "Maine becomes the 17th U.S. state to ban conversion therapy for minors.",
+        "Trial of Catalonia independence leaders"
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "Indian record label and film production company T-Series' most-subscribed YouTube channel reaches 100 million subscribers."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Indian record label and film production company T-Series' most-subscribed YouTube channel reaches 100 million subscribers.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "''Times News Now''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Sinking of Hableány",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Hableány, a sightseeing river cruise ship on the Danube in Budapest, capsizes and sinks with 34 South Korean tourists on board. At least seven people are killed and 19 remain missing.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A 55-year-old pediatrician, Ricardo Russo, is arrested at the Hospital Garrahan in Buenos Aires, Argentina, where he was Chief of the Immunology Department. He is accused of sexually abusing minors, distributing and possessing child pornography, including handicapped children and babies. He was wanted by the U.S. FBI and public prosecutors in Brazil.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Clarín''",
+        "Fox News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Maine becomes the 17th U.S. state to ban conversion therapy for minors.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Hill''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Trial of Catalonia independence leaders",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Imprisoned politician Raül Romeva is suspended as Senator by the Board of the Spanish Senate.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''MSN''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Latvian presidential election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Egils Levits, a Judge of the European Court of Justice, is elected President by the Saeima.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Elections in Israel",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel is expected to hold a new election on September 17 as Prime Minister Benjamin Netanyahu fails to form a government.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–United States trade war",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Institute of Electrical and Electronics Engineers (IEEE) bans Huawei scientists from reviewing submissions to its peer-reviewed journals, due to the \"severe legal implications\" of U.S. sanctions against the Chinese company.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "Sciencemag"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

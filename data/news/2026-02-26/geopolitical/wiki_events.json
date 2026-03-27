@@ -1,0 +1,125 @@
+{
+  "date": "2026-02-26",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 13,
+  "categories": {
+    "other": {
+      "count": 13,
+      "headlines": [
+        "2026 Afghanistan–Pakistan war",
+        "2026 Zona da Mata floods",
+        "Seven people are killed and 25 others are injured after a gas cylinder explodes inside a house in Chaman, Pakistan.",
+        "2022 Greek surveillance scandal",
+        "2026 Gorton and Denton by-election"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2026 Afghanistan–Pakistan war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Afghanistan announces attacks against Pakistani military positions along their shared border in response to Pakistani air strikes launched 4 days prior. Pakistan, in turn, says its forces have responded.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2026 Zona da Mata floods",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The death toll from the floods across Minas Gerais, Brazil, rises to 54 people, with fourteen more still missing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Seven people are killed and 25 others are injured after a gas cylinder explodes inside a house in Chaman, Pakistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Daily Times"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Greek surveillance scandal",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A Greek court sentences four individuals, including Intellexa's Israel-based founder Tal Dilian, to eight years in prison for breaching data and violating privacy laws after they deployed the Predator spyware, targeting the mobile phones of more than 90 politicians, journalists, businesspeople, and military officials in 2022.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2026 Gorton and Denton by-election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Green Party candidate Hannah Spencer wins the constituency of Gorton and Denton in Greater Manchester, England, in the party's first by-election win.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''",
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2026 Danish general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Danish prime minister Mette Frederiksen calls a snap election for March 24 amid the Greenland crisis.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP via NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Corruption in Albania",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Albanian prime minister Edi Rama dismisses deputy prime minister and infrastructure minister Belinda Balluku after anti-corruption prosecutors indicted her on suspicion of interfering in the award of two public construction contracts worth more than €200 million.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "date": "2025-05-08",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 12,
+  "categories": {
+    "other": {
+      "count": 12,
+      "headlines": [
+        "Insurgency in Southeastern Nigeria",
+        "Six people are reportedly killed when a Piper PA-31T Cheyenne air ambulance crashes between Tiltil and Curacaví in Chile.",
+        "Five tourists and a pilot are killed, and one other person is injured, when a Bell 407 helicopter crashes and falls into a deep gorge near Bhagirathi River in Uttarakhand, India.",
+        "One hundred and twenty-three vultures are killed, more than 80 others are rescued, and an elephant is also poisoned in a mass poisoning at Kruger National Park in South Africa. South African National ",
+        "Abundant Life Christian School shooting"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Insurgency in Southeastern Nigeria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least thirty travellers are killed and more than twenty vehicles are set ablaze in an arson and mass shooting attack by gunmen suspected to be from the Eastern Security Network along the Okigwe-Owerri highway in Southeastern Nigeria, Nigeria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Six people are reportedly killed when a Piper PA-31T Cheyenne air ambulance crashes between Tiltil and Curacaví in Chile.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''El Morrocotudo''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Five tourists and a pilot are killed, and one other person is injured, when a Bell 407 helicopter crashes and falls into a deep gorge near Bhagirathi River in Uttarakhand, India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Hindu''",
+        "NDTV"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One hundred and twenty-three vultures are killed, more than 80 others are rescued, and an elephant is also poisoned in a mass poisoning at Kruger National Park in South Africa. South African National Parks and the Endangered Wildlife Trust says it was one of the largest vulture poisoning events in the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Abundant Life Christian School shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The father of Natalie Rupnow, the perpetrator of the shooting that killed three people, including herself, and injured six others at the Abundant Life Christian School in Madison, Wisconsin, United States, in December 2024, is charged with felonies in connection with the shooting.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Murder of Cassius Turvey",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Jack Brearley and Brodie Lee Palmer are found guilty of the murder of Aboriginal Australian schoolboy Cassius Turvey in Middle Swan, Western Australia, in 2022, while Mitchell Forth is convicted of manslaughter.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A member of the MS-13 gang is sentenced to 55 years imprisonment for the mass stabbing murders of five people, including a teenager and three young men at a park in Long Island, New York, United States, in April 2017.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Toronto Sun''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 papal conclave",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Cardinal Robert Francis Prevost of the United States is elected to the papacy on the fourth ballot and takes the name Leo XIV. He is the first pope from North America and the second from the Americas, after Pope Francis. A dual citizen of the United States and Peru, he also becomes the second South American pope.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN",
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

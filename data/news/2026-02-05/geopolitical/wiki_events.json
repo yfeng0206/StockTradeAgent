@@ -1,0 +1,277 @@
+{
+  "date": "2026-02-05",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 31,
+  "categories": {
+    "other": {
+      "count": 31,
+      "headlines": [
+        "Sudanese civil war",
+        "Middle Eastern crisis",
+        "United States strikes on alleged drug traffickers during Operation Southern Spear",
+        "2026 Pacific typhoon season",
+        "An explosion at an illegal coal mine in East Jaintia Hills district, Meghalaya, India, kills at least 25 people."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Sudanese civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kordofan Campaign",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 22 people are killed and eight others are injured in a bombing by the Rapid Support Forces at a military hospital in South Kordofan, Sudan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Middle Eastern crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iran's Islamic Revolutionary Guard Corps Navy seizes two foreign oil tankers allegedly smuggling fuel in the Persian Gulf. Fifteen crew members onboard both tankers are taken into custody.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Canadian Press'' via MSN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United States strikes on alleged drug traffickers during Operation Southern Spear",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States Navy strikes a boat suspected of transporting illegal narcotics in the Eastern Pacific, killing two people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2026 Pacific typhoon season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least eight people are killed and more than 28,000 are displaced after Tropical Storm Penha makes landfall in the southern Philippines.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An explosion at an illegal coal mine in East Jaintia Hills district, Meghalaya, India, kills at least 25 people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Hindustan Times''",
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Thirteen people are killed and 34 others are injured after a bus carrying wedding guests falls down a 200-meter slope near Kathmandu, Nepal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Ten people are killed and several others injured after a bus falls down a 100-meter ravine in Eliodoro Camacho Province, Bolivia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "At least three people are killed and seven others are injured when a car crashes into a 99 Ranch Market in Westwood, Los Angeles, California, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KGO-TV"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and three others are injured when a double-decker bus strikes pedestrians in Dublin, Ireland.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "English Channel illegal migrant crossings",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Angola, Namibia, and the Democratic Republic of the Congo agree to take back foreign offenders and illegal migrants from the United Kingdom after Home Secretary Shabana Mahmood threatened them with visa penalties. Around 3,000 people are expected to be returned following the deal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "International sanctions against North Korea, United Nations and North Korea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The UN Security Council Sanctions Committee on North Korea approves exemptions for 17 humanitarian projects in North Korea, allowing international organizations and non-governmental groups to deliver humanitarian aid despite existing restrictions linked to the country's nuclear program.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "New START, the last treaty on limiting strategic nuclear weapons between Russia and the United States, expires.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "swissinfo"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia and the United States agree to re-establish high-level military communication for the first time since it was suspended in 2021 under the Biden administration.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Moldovan parliament ratifies the United Nations Law of the Sea Treaty.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Parliament of Moldova"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Kidnapping in Nigeria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The remaining 89 people kidnapped from three churches in Kaduna State, Nigeria, by criminal gangs on January 18, are released.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Africanews via MSN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nagorno-Karabakh conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An Azerbaijani military court sentences 13 former Nagorno-Karabakh officials, including ex-leader Arayik Harutyunyan, to penalties ranging from 15 years to life imprisonment after convicting them of offences such as war crimes, crimes against humanity, terrorism, genocide, and attempting to seize power by force.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mexican drug war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The mayor of Tequila, Jalisco, Mexico, is arrested on charges of alleged extortion and organized crime.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "SpaceX deactivates Starlink terminals in Russian-occupied territories of Ukraine, preventing their use by Russian forces following pressure from Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2026 Winter Olympics",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The match between Finland and Canada in the women's ice hockey tournament at the Winter Olympics is postponed to February 12 after a norovirus outbreak affected 13 members of the Finnish team.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NBC"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "date": "2020-05-07",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 15,
+  "categories": {
+    "geopolitical": {
+      "count": 5,
+      "headlines": [
+        "The U.S. removes four Patriot missile batteries, two jet fighter squadrons and dozens of military personnel from Saudi Arabia while considering a reduction in the U.S. Navy presence in the Persian Gul",
+        "Saudi Arabian-led intervention in Yemen",
+        "China–Indonesia relations"
+      ]
+    },
+    "health": {
+      "count": 3,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "Visakhapatnam gas leak"
+      ]
+    },
+    "legal": {
+      "count": 5,
+      "headlines": [
+        "Shooting of Ahmaud Arbery",
+        "Lesothan King Letsie III approves a law barring Prime Minister Tom Thabane from dissolving parliament and calling an election in the event of a vote of no confidence.",
+        "Criminal charges brought in the Mueller special counsel investigation"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "The U.S. removes four Patriot missile batteries, two jet fighter squadrons and dozens of military personnel from Saudi Arabia while considering a reduction in the U.S. Navy presence in the Persian Gulf.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Wall Street Journal''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Saudi Arabian-led intervention in Yemen",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Saudi Arabia withdraws its troops from the Yemeni island of Socotra amid separatist unrest.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Middle East Monitor"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Visakhapatnam gas leak",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Eleven people die and over 5,000 fall ill from a styrene gas leak from an LG Polymers chemical plant in Visakhapatnam in Andhra Pradesh, India.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''Times of India''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Canada",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Canadian Catholic Jesuit community at Pickering, Ontario mourns the deaths of five members of their community, including four priests, who died of COVID-19 at the religious order’s long-term care facility.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Crux''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–Indonesia relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Indonesian Foreign Minister Retno Marsudi summons Chinese Ambassador to Indonesia Xiao Qian to express concerns about the alleged human rights violation of Indonesian workers aboard Chinese fishing vessels. This comes after a video showing Chinese sailors throwing the body of a dead Indonesian crew member overboard went viral.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Jakarta Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Shooting of Ahmaud Arbery",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gregory and Travis McMichael are arrested for murder and aggravated assault in relation to the February shooting of an African American man in Brunswick, Georgia.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Lesothan King Letsie III approves a law barring Prime Minister Tom Thabane from dissolving parliament and calling an election in the event of a vote of no confidence.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Criminal charges brought in the Mueller special counsel investigation",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. Department of Justice drops its prosecution of Michael Flynn for lying to the FBI. He previously pleaded guilty to the charges during the investigation led by Robert Mueller.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Politico''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "date": "2019-11-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 21,
+  "categories": {
+    "politics": {
+      "count": 6,
+      "headlines": [
+        "2019 Guinea-Bissau presidential election",
+        "2019 Namibian general election",
+        "Ninth European Parliament"
+      ]
+    },
+    "sports": {
+      "count": 2,
+      "headlines": [
+        "The Arena Football League announces that it has filed for Chapter 7 bankruptcy and will immediately cease operations. This marks the effective end of the 32-year-old league, and the second liquidation",
+        "City Football Group (CFG) owner Khaldoon Al Mubarak, who is also chairman of Premier League club Manchester City F.C., the fifth most valuable association football club in the world, agrees to sell a "
+      ]
+    },
+    "tech": {
+      "count": 1,
+      "headlines": [
+        "Following a public outcry, Twitter apologises and backtracks one day after saying that it would begin deleting inactive accounts outside the United States on December 11, after users were upset that t"
+      ]
+    },
+    "geopolitical": {
+      "count": 10,
+      "headlines": [
+        "Allied Democratic Forces insurgency",
+        "Second Libyan Civil War",
+        "2019 Iraqi protests",
+        "War in Afghanistan (2001–2021)",
+        "China–United States relations, Hong Kong–United States relations, 2019 Hong Kong protests"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "A chemical plant producing butadiene in Port Neches, Texas, United States, explodes and burns. It damages thousands of buildings over several square miles and sending three workers to the hospital.",
+        "A fire at a Minneapolis apartment building leaves five dead and three injured."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Allied Democratic Forces insurgency",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Islamist militants of the Allied Democratic Forces kill nineteen people near the city of Oicha in the Democratic Republic of the Congo, following a week's worth of protests against the mass killings from rebels that killed four others near a United Nations base.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Second Libyan Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The eastern-based Libyan National Army loyal to Field Marshal Khalifa Haftar recaptures the strategic Elephant Field oil field in southwestern Libya after driving out GNA forces with airstrikes.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Iraqi protests",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iraqi protesters storm and set fire to the Iranian Consulate General in Najaf.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters",
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A roadside bomb in Kunduz Province kills 15 civilians and injures two others.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera",
+        "VOA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A chemical plant producing butadiene in Port Neches, Texas, United States, explodes and burns. It damages thousands of buildings over several square miles and sending three workers to the hospital.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Yahoo! News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A fire at a Minneapolis apartment building leaves five dead and three injured.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "China–United States relations, Hong Kong–United States relations, 2019 Hong Kong protests",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. President Donald Trump signs the Hong Kong Human Rights and Democracy Act into law despite strong opposition from China. The bill means the U.S. will only trade with Hong Kong if it retains enough autonomy and bans the export of crowd-control munitions to Hong Kong Police Force.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Guinea-Bissau presidential election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The latest presidential election in Guinea-Bissau has to go into a second round on December 29 as no candidate managed to win more than 50% of the votes during the first round. The second round will be a run-off between Domingos Simões Pereira and Umaro Sissoco Embaló while incumbent president José Mário Vaz was eliminated from the race.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Namibian general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Citizens of Namibia head to the polls to elect both the country's president and National Assembly members.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ninth European Parliament",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The European Parliament confirms the Von der Leyen Commission, which will begin acting on December 1.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Following a public outcry, Twitter apologises and backtracks one day after saying that it would begin deleting inactive accounts outside the United States on December 11, after users were upset that the measure would cause the removal of accounts belonging to users who had died. It now says that it will first implement a process for \"memorialising\" dead users. It would have been the first large scale cull of inactive accounts on the social media platform.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Arena Football League announces that it has filed for Chapter 7 bankruptcy and will immediately cease operations. This marks the effective end of the 32-year-old league, and the second liquidation bankruptcy in its history.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "City Football Group (CFG) owner Khaldoon Al Mubarak, who is also chairman of Premier League club Manchester City F.C., the fifth most valuable association football club in the world, agrees to sell a $500 million stake to American private equity firm Silver Lake Partners, making CFG the most valuable association football group in the world.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "Reuters",
+        "BBC News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

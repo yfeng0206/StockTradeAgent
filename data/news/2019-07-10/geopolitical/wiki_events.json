@@ -1,0 +1,183 @@
+{
+  "date": "2019-07-10",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "business": {
+      "count": 1,
+      "headlines": [
+        "Three large shipbuilders in the People's Republic of China announce that they are in talks to merge. This is part of an ongoing shake-up and consolidation of that industry in the face of high operatio"
+      ]
+    },
+    "sports": {
+      "count": 4,
+      "headlines": [
+        "2019 Cricket World Cup",
+        "2019 ESPY Awards"
+      ]
+    },
+    "tech": {
+      "count": 2,
+      "headlines": [
+        "2019 in archaeology"
+      ]
+    },
+    "geopolitical": {
+      "count": 6,
+      "headlines": [
+        "Assailants raid a village in Papua New Guinea's Hela province, killing and dismembering 16 women and children, and burning buildings.",
+        "Three or five of Iran's IRGC Navy gunboats unsuccessfully attempt to seize control of British oil tanker British Heritage in the Persian Gulf, according to UK's Ministry of Defense as well as two anon",
+        "United Kingdom–United States relations",
+        "Kosovo–Serbia relations"
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "An unexpected violent storm hits the Greek region of Halkidiki with heavy rain, hail, and strong winds, killing six foreign tourists."
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "List of lawsuits involving Donald Trump"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Assailants raid a village in Papua New Guinea's Hela province, killing and dismembering 16 women and children, and burning buildings.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Three or five of Iran's IRGC Navy gunboats unsuccessfully attempt to seize control of British oil tanker British Heritage in the Persian Gulf, according to UK's Ministry of Defense as well as two anonymous U.S. officials. The Royal Navy's HMS Montrose reportedly warns the boats to back away from the BP Shipping-owned tanker, which they do. The incident is allegedly captured on a U.S. aircraft's camera.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Three large shipbuilders in the People's Republic of China announce that they are in talks to merge. This is part of an ongoing shake-up and consolidation of that industry in the face of high operational costs and sluggish new orders.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Caixin Eng."
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "An unexpected violent storm hits the Greek region of Halkidiki with heavy rain, hail, and strong winds, killing six foreign tourists.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "United Kingdom–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Sir Kim Darroch, the United Kingdom's ambassador to the United States, resigns his appointment amid public disagreements with U.S. President Donald Trump initiated by a series of leaked diplomatic cables in which the ambassador criticized the president, and will leave the post upon the appointment of his successor.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kosovo–Serbia relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Serbian Defense Minister Aleksandar Vulin is banned from entering Kosovo.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "List of lawsuits involving Donald Trump",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. Court of Appeals for the Fourth Circuit dismisses a lawsuit by the state of Maryland and the District of Columbia against President Donald Trump, citing lack of legal standing in challenging payments to President Trump's private properties by foreign customers.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNBC",
+        "Politico"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 in archaeology",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Paleoanthropologists announce, through the Nature journal, that a human skull (Apidima 1) discovered inside a cave in Greece, is dated to 210,000 years ago, making it the oldest known Homo sapiens individual found outside of Africa.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "BBC News",
+        "''Nature''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Cricket World Cup",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "New Zealand defeats India in the first semi-final of the Cricket World Cup.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 ESPY Awards",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The 27th annual ESPY Awards are held in the Microsoft Theater in Los Angeles, California. The United States women's national soccer team wins the Outstanding Team Award for their 2019 FIFA Women's World Cup victory, Giannis Antetokounmpo wins the Best Male Athlete Award, Alex Morgan wins the Best Female Athlete Award, and Saquon Barkley wins the Breakthrough Athlete of the Year Award.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

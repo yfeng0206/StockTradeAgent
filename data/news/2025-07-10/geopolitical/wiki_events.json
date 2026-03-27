@@ -1,0 +1,199 @@
+{
+  "date": "2025-07-10",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "other": {
+      "count": 22,
+      "headlines": [
+        "Israeli–Palestinian conflict",
+        "Russian invasion of Ukraine",
+        "Nigerian bandit conflict",
+        "Armenia–Azerbaijan relations, Nagorno-Karabakh conflict",
+        "France–United Kingdom relations"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli bombing of the Gaza Strip",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli airstrikes kill at least 15 Palestinians, including eight children and two women, queuing for nutritional supplements near a medical point in Deir al-Balah, Gaza. They were among at least 82 killed in strikes in Gaza. The Israel Defense Forces said in a statement that it struck a member Hamas's elite Nukhba forces who took part in the October 7 attacks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Palestinian political violence",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Two Palestinians kill a 20-year-old Israeli settler in a combined shooting and stabbing attack at the Gush Etzion Mall in the Israeli-occupied West Bank.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "YNet"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kyiv strikes",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "An overnight Russian missile and drone attack on Kyiv, Ukraine, kills two people, injures 28 others, and causes fires across the capital with multiple districts targeted. 397 drones and 18 missiles are launched in total.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "The Kyiv Independent"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nigerian bandit conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 30 bandits, five security officers and one civilian are killed during an insurgent attack on three villages in Faskari, Katsina State, Nigeria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Armenia–Azerbaijan relations, Nagorno-Karabakh conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Armenian prime minister Nikol Pashinyan and Azerbaijani president Ilham Aliyev meet in Abu Dhabi, United Arab Emirates, for peace talks regarding the Nagorno-Karabakh conflict.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "France–United Kingdom relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "French president Emmanuel Macron and United Kingdom prime minister Keir Starmer announce a joint migration deal for the UK to deport illegal migrants to France in exchange for accepting asylum seekers with British family connections.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Irish Amateur Swimming Association abuse scandal",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former swimming coach George Gibney agrees to be extradited from the United States to Ireland to face trial for indecent assault and rape.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RTÉ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom's National Crime Agency arrests four people for conducting cyberattacks as part of an organized crime ring against national retailers Marks & Spencer, Harrods, and Co-op Food.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "In a case concerning regulations requiring the South African athlete Caster Semenya to decrease her natural testosterone levels to be allowed to participate in the female category, the European Court of Human Rights finds that Switzerland violated her right to a fair hearing, requiring the case to be sent back to Swiss courts.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ECHR",
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Labour in India",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Sporadic clashes occur in East India between trade unionists and left-wing groups against police and Trinamool Congress supporters during a current general strike opposing the \"Special Intensive Revision\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Von der Leyen Commission II",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "European Commission president Ursula von der Leyen survives a vote of confidence at the European Parliament.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

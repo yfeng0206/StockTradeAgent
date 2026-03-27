@@ -1,0 +1,331 @@
+[
+  {
+    "ticker": "AAPL",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "AMD",
+    "strategy": "EventDriven",
+    "conviction": -0.1,
+    "size_multiplier": 0.0,
+    "trend_score": 0.5,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%",
+      "vol=-1*20%"
+    ]
+  },
+  {
+    "ticker": "INTC",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "V",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "MA",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "CVX",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "CAT",
+    "strategy": "EventDriven",
+    "conviction": -0.1,
+    "size_multiplier": 0.0,
+    "trend_score": 0.5,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%",
+      "vol=-1*20%"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "NEE",
+    "strategy": "EventDriven",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+0*20%"
+    ]
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "EventDriven",
+    "conviction": 0.4,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*20%"
+    ]
+  },
+  {
+    "ticker": "BA",
+    "strategy": "EventDriven",
+    "conviction": 0.4,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*20%"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "EventDriven",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "AAPL",
+    "strategy": "EventDriven",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "AMD",
+    "strategy": "EventDriven",
+    "conviction": 0.0,
+    "size_multiplier": 0.0,
+    "trend_score": 1.0,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=-1*20%"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "EventDriven",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "AMD",
+    "strategy": "EventDriven",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "EventDriven",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "ABBV",
+    "strategy": "EventDriven",
+    "conviction": 0.4,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.2,
+      "memory": 0.6
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*20%"
+    ]
+  }
+]

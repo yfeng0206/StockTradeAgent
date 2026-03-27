@@ -1,0 +1,189 @@
+{
+  "date": "2020-01-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "geopolitical": {
+      "count": 6,
+      "headlines": [
+        "Second Libyan Civil War",
+        "American-led intervention in Iraq (2014–2021), Iranian intervention in Iraq (2014–present), Aftermath of the Attack on the United States embassy in Baghdad",
+        "China–United Kingdom relations"
+      ]
+    },
+    "disaster": {
+      "count": 8,
+      "headlines": [
+        "The Swedish Royal Court confirms that Princess Estelle of Sweden, second-in-line to the Swedish throne, is injured in a skiing accident in the Alps where the Crown Princess Family is on vacation.",
+        "2020 New Taipei helicopter crash",
+        "2019–20 Australian bushfire season",
+        "A military plane crashes shortly after takeoff from an airport in Sudan's West Darfur, killing the 18 people on board."
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "Lebanese justice minister says he has received an arrest warrant from Interpol against former Chairman of Nissan, Carlos Ghosn, who escaped house arrest in Japan and fled to Lebanon days ago."
+      ]
+    },
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "2020 Democratic Party presidential primaries",
+        "Italy's ruling Five Star Movement expels Senator Gianluigi Paragone from its ranks over disciplinary issues, shrinking the coalition's majority in the Senate to five."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Second Libyan Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Turkish Grand National Assembly votes 325–184 to send troops to help the internationally-recognized Government of National Accord in Libya.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "American-led intervention in Iraq (2014–2021), Iranian intervention in Iraq (2014–present), Aftermath of the Attack on the United States embassy in Baghdad",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A missile strike hits a convoy near Baghdad International Airport in Iraq, killing Iranian Major general Qasem Soleimani and Popular Mobilization Forces leader Abu Mahdi al-Muhandis.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "TRT World"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Swedish Royal Court confirms that Princess Estelle of Sweden, second-in-line to the Swedish throne, is injured in a skiing accident in the Alps where the Crown Princess Family is on vacation.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Royal Central"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 New Taipei helicopter crash",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A UH-60 Black Hawk helicopter carrying 13 people crashes in New Taipei, Taiwan. Eight people are killed, including the Chief of the General Staff Shen Yi-ming, the head of the Republic of China Armed Forces.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019–20 Australian bushfire season",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "New South Wales Premier Gladys Berejiklian declares a state of emergency for seven days starting on January 3.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An elderly woman dies of suffocation while leaving a Brisbane, Queensland-originated Qantas plane at Canberra Airport. Canberra's air quality had been reported as the worst in the world because of heavy smoke from the bushfires in New South Wales.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A second person is confirmed dead in the East Gippsland region of Victoria as thousands of people are evacuated from Mallacoota by sea. State premier Daniel Andrews has declared a state of disaster in six government areas. 17 people remain missing.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A military plane crashes shortly after takeoff from an airport in Sudan's West Darfur, killing the 18 people on board.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "China–United Kingdom relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "China temporarily suspends plans to cross-link companies on the London and Shanghai Stock Exchange due to increased political tensions between the two nations, particularly Britain's stance on the Hong Kong protests.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Lebanese justice minister says he has received an arrest warrant from Interpol against former Chairman of Nissan, Carlos Ghosn, who escaped house arrest in Japan and fled to Lebanon days ago.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 Democratic Party presidential primaries",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former Secretary of Housing and Urban Development Julian Castro drops out of the presidential race.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Italy's ruling Five Star Movement expels Senator Gianluigi Paragone from its ranks over disciplinary issues, shrinking the coalition's majority in the Senate to five.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

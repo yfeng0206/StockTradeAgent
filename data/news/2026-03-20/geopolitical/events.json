@@ -1,0 +1,355 @@
+{
+  "collected": "2026-03-24T21:36:40.295274",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 38,
+  "articles": [
+    {
+      "title": "Iran Tegaskan Perang Berlanjut Hingga Seluruh Sanksi Ekonomi Dicabut",
+      "source": "cnnindonesia.com",
+      "url": "https://www.cnnindonesia.com/internasional/20260324104249-120-1340779/iran-tegaskan-perang-berlanjut-hingga-seluruh-sanksi-ekonomi-dicabut",
+      "published": "20260324T053000Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "अमेरिकी प्रतिबंधों के खिलाफ एक अभेद्य दीवार : कैसे चीन और रूस ईरान की अर्थव्यवस्था को ढहने से बचा रहे हैं - how china and russia are saving iran economy from collapse",
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-how-china-and-russia-are-saving-iran-economy-from-collapse-40183117.html",
+      "published": "20260324T201500Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Главное о войне на Ближнем Востоке за последние сутки - 25 марта 2026",
+      "source": "161.ru",
+      "url": "https://161.ru/text/politics/2026/03/25/76328899/",
+      "published": "20260325T041500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Tri scenarija za Trampov izlazak iz ćorsokaka u Iranu : Vreme ističe",
+      "source": "blic.rs",
+      "url": "https://www.blic.rs/vesti/svet/tri-scenarija-za-trampov-izlazak-iz-corsokaka-u-iranu-vreme-istice/9m075bv",
+      "published": "20260324T121500Z",
+      "language": "Serbian",
+      "source_country": "Serbia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "An Arsenal of Missiles Lessons Learned from Iraq How Iran Stands Its Ground Against a Superpower Like the US मिसाइलों का जखीरा , इराक से मिली सीख ; अमेरिका जैसे सुपरपावर के सामने कैसे टिका है ईरान , India News in Hindi",
+      "source": "livehindustan.com",
+      "url": "https://www.livehindustan.com/national/an-arsenal-of-missiles-lessons-learned-from-iraq-how-iran-stands-its-ground-against-a-superpower-like-the-us-201774398809966.html",
+      "published": "20260325T024500Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "美方向伊朗提出含  15项条件  的和谈方案 ， 伊朗重申结束战争条件 _ 广州日报大洋网",
+      "source": "news.dayoo.com",
+      "url": "https://news.dayoo.com/world/202603/25/139998_54940156.htm",
+      "published": "20260325T023000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Когда завершится война между Ираном и США",
+      "source": "5-tv.ru",
+      "url": "https://www.5-tv.ru/news/5062179/virane-nazvali-tri-uslovia-dla-zaversenia-konflikta-sssa/",
+      "published": "20260324T070000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Trump Tiba - tiba Mengeklaim Bisa Berbagi Kendali Selat Hormuz Bersama  Ayatollah  ",
+      "source": "internasional.kompas.com",
+      "url": "https://internasional.kompas.com/read/2026/03/24/180000570/trump-tiba-tiba-mengeklaim-bisa-berbagi-kendali-selat-hormuz-bersama",
+      "published": "20260324T114500Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Vācijas prezidents kritizē ASV un Izraēlas karu pret Irānu",
+      "source": "delfi.lv",
+      "url": "https://www.delfi.lv/46713439/arzemes/120111992/vacijas-prezidents-kritize-asv-un-izraelas-karu-pret-iranu",
+      "published": "20260324T171500Z",
+      "language": "Latvian",
+      "source_country": "Latvia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Переговоры Ирана и США по урегулированию конфликта : последние новости",
+      "source": "iz.ru",
+      "url": "https://iz.ru/2065246/2026-03-24/eksperty-vyrazili-somneniia-v-realnom-starte-peregovorov-mezhdu-ssha-i-iranom",
+      "published": "20260324T121500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Kanali 12 : Propozimi 14 - pikësh i Trump për ti dhënë fund luftës – kushtet për pasurimin e uraniumit dhe Ngushticën e Hormuzit – Balkanweb . com – News24",
+      "source": "balkanweb.com",
+      "url": "https://www.balkanweb.com/kanali-12-propozimi-14-pikesh-i-trump-per-ti-dhene-fund-luftes-kushtet-per-pasurimin-e-uraniumit-dhe-ngushticen-e-hormuzit/",
+      "published": "20260325T004500Z",
+      "language": "Albanian",
+      "source_country": "Albania",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Tidligere MI6 - sjef : Iran har overtaket i krigen",
+      "source": "vg.no",
+      "url": "https://www.vg.no/nyheter/i/0ppQvo/tidligere-mi6-sjef-iran-har-overtaket-i-krigen",
+      "published": "20260325T041500Z",
+      "language": "Norwegian",
+      "source_country": "Norway",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "  美国有意停火一个月 ， 与伊朗达成协议 ， 以色列担心特朗普为宣布胜利而妥协 ， 美国前CIA局长 ： 特朗普现在正手忙脚乱 ， 比起他我更信伊朗",
+      "source": "nbd.com.cn",
+      "url": "https://www.nbd.com.cn/articles/2026-03-25/4307127.html",
+      "published": "20260325T013000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Trump i wojna z Iranem : trzy możliwe scenariusze .  To również może być blef  ",
+      "source": "fakt.pl",
+      "url": "https://www.fakt.pl/wydarzenia/trump-i-wojna-z-iranem-trzy-mozliwe-scenariusze-to-rowniez-moze-byc-blef/4z36c6c",
+      "published": "20260324T124500Z",
+      "language": "Polish",
+      "source_country": "Poland",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "LIVE : Όροι και ανταλλάγματα Τραμπ στη Τεχεράνη για το τέλος του πολέμου - Συνεχίζονται οι εκατέρωθεν επιθέσεις Ισραήλ - Ιράν",
+      "source": "inewsgr.com",
+      "url": "https://www.inewsgr.com/184/LIVE-oroi-kai-antallagmata-trab-sti-techerani-gia-to-telos-tou-polemou--synechizontai-oi-ekaterothen-epitheseis-israil-iran.htm",
+      "published": "20260324T230000Z",
+      "language": "Greek",
+      "source_country": "Greece",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "一边空袭 ， 一边放行石油 ： 美国对伊朗的矛盾政策 ？ - 博客",
+      "source": "blog.wenxuecity.com",
+      "url": "https://blog.wenxuecity.com/myblog/61002/202603/18850.html",
+      "published": "20260324T053000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "How to End the War in Iran",
+      "source": "theamericanconservative.com",
+      "url": "https://www.theamericanconservative.com/how-to-end-the-war-in-iran/",
+      "published": "20260324T070000Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "India energy woes amid Trump conflicting claims , Iran denials , and Pakistan mediation gambit - The Week",
+      "source": "theweek.in",
+      "url": "https://www.theweek.in/news/middle-east/2026/03/24/india-energy-woes-amid-trump-conflicting-claims-iran-denials-and-pakistan-mediation-gambit.html",
+      "published": "20260324T130000Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Trump Sebut Dirinya dan Pemimpin Iran Bisa Berbagi Kendali Selat Hormuz",
+      "source": "viva.co.id",
+      "url": "https://www.viva.co.id/berita/dunia/1887690-trump-sebut-dirinya-dan-pemimpin-iran-bisa-berbagi-kendali-selat-hormuz",
+      "published": "20260324T071500Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Ситуация на Ближнем Востоке Владимир Путин зарабатывает на войне в Иране",
+      "source": "focus.ua",
+      "url": "https://focus.ua/economics/748268-situaciya-na-blizhnem-vostoke-vladimir-putin-zarabatyvaet-na-voyne-v-irane",
+      "published": "20260324T150000Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": " （ 聚焦博鳌 ） 关税战冲击全球贸易 多国人士吁加强地区合作",
+      "source": "163.com",
+      "url": "https://www.163.com/news/article/KORV7V5C000189FH.html",
+      "published": "20260325T023000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "关税战难解中美失衡 专家 ： G2格局不太可能出现",
+      "source": "zaobao.com.sg",
+      "url": "https://www.zaobao.com.sg/news/china/story20260324-8785750",
+      "published": "20260324T163000Z",
+      "language": "Chinese",
+      "source_country": "Singapore",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "关税战下如何构建全球贸易新格局 ？ 多方嘉宾呼吁合作共建稳定贸易秩序",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860594729283165502",
+      "published": "20260325T014500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "美国  税来税又去  的闹剧",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860314663518392302",
+      "published": "20260324T060000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "风光产业链冲击万亿美元规模 ， 亚洲引领全球能源转型",
+      "source": "yicai.com",
+      "url": "https://www.yicai.com/news/103102343.html",
+      "published": "20260324T140000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "  和中国打贸易战 ？ 欧盟打不赢也打不起",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860547020475738786",
+      "published": "20260324T181500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "社评 ： 和中国打贸易战 ？ 欧盟打不赢也打不起",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860542635500181893",
+      "published": "20260324T234500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "German firms were growing gloomier on foreign business ahead of Iran war , DIHK says",
+      "source": "marketscreener.com",
+      "url": "https://www.marketscreener.com/news/german-firms-were-growing-gloomier-on-foreign-business-ahead-of-iran-war-dihk-says-ce7e5edddf8af527",
+      "published": "20260324T090000Z",
+      "language": "English",
+      "source_country": "",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "La Unión Europea y Australia cierran un acuerdo histórico de libre comercio tras casi una década de negociaciones",
+      "source": "marca.com",
+      "url": "https://www.marca.com/tiramillas/economia/2026/03/24/union-europea-australia-cierran-acuerdo-historico-libre-comercio-decada-negociaciones.html",
+      "published": "20260324T150000Z",
+      "language": "Spanish",
+      "source_country": "Spain",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "The Iran war is surging – and Cuba is caught in the crosshairs",
+      "source": "independent.co.uk",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-cuba-maduro-iran-oil-b2944415.html",
+      "published": "20260324T131500Z",
+      "language": "English",
+      "source_country": "United Kingdom",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Cuba has been in Washington crosshairs for decades . The Iran war is raising the stakes",
+      "source": "theconversation.com",
+      "url": "https://theconversation.com/cuba-has-been-in-washingtons-crosshairs-for-decades-the-iran-war-is-raising-the-stakes-278774",
+      "published": "20260324T053000Z",
+      "language": "English",
+      "source_country": "Australia",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "顏慧欣 | 搜尋結果 | 聯合新聞網",
+      "source": "udn.com",
+      "url": "https://udn.com/search/word/1/%E9%A1%8F%E6%85%A7%E6%AC%A3",
+      "published": "20260324T090000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Aid flotilla arrives in Cuba as US oil blockade bites",
+      "source": "digitaljournal.com",
+      "url": "https://www.digitaljournal.com/world/aid-flotilla-arrives-in-cuba-as-us-oil-blockade-bites/article",
+      "published": "20260324T163000Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "對川習會樂觀 美前商務部長 ： 美中達成協議會給世界貿易立下典範 | 兩岸要聞 | 兩岸",
+      "source": "udn.com",
+      "url": "https://udn.com/news/story/7331/9400520",
+      "published": "20260324T120000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "China Is About to Lose Its Cuban Military Bases",
+      "source": "gatestoneinstitute.org",
+      "url": "https://www.gatestoneinstitute.org/22365/china-cuba-military-bases",
+      "published": "20260324T133000Z",
+      "language": "English",
+      "source_country": "Israel",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Cuba has been in Washington crosshairs for decades . The Iran war is raising the stakes - 25 - Mar - 2026",
+      "source": "home.nzcity.co.nz",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=442547",
+      "published": "20260324T223000Z",
+      "language": "English",
+      "source_country": "New Zealand",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "对冲  美国风险 ！ 欧盟与澳大利亚达成贸易协议|欧洲",
+      "source": "163.com",
+      "url": "https://www.163.com/dy/article/KOQLMFUV0519DTSV.html",
+      "published": "20260324T144500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Key vote due on EU - US deal amid tariff warning",
+      "source": "africa.chinadaily.com.cn",
+      "url": "http://africa.chinadaily.com.cn/a/202603/25/WS69c33796a310d6866eb3fb66.html",
+      "published": "20260325T023000Z",
+      "language": "English",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    }
+  ]
+}

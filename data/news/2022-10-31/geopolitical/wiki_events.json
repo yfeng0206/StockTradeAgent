@@ -1,0 +1,160 @@
+{
+  "date": "2022-10-31",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 17,
+  "categories": {
+    "other": {
+      "count": 17,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "The Iranian Islamic Revolutionary Guard Corps seizes an oil tanker in international waters that was transporting fuel to the Persian Gulf.",
+        "The Prime Minister of Chad Saleh Kebzabo confirms that government forces in North Tibesti have successfully found and subsequently freed hostage Jerome Hugonnot, a Franco-Australian conservationist, k",
+        "2022 Pacific typhoon season",
+        "Two people are killed and another is injured by a helicopter crash in Verdal, Trøndelag, Norway."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian forces damage critical infrastructure in Kyiv again, leaving parts of the capital without energy and water. Other energy facilities are damaged in Zaporizhzhia, Kherson, and Cherkasy.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A Russian cruise missile reportedly shot down by a Ukrainian anti-aircraft system crashes in the outskirts of Naslavcea, Moldova. No casualties are reported, though some houses were damaged by the blast, according to the Moldovan government.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Romania Journal"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Norwegian Prime Minister Jonas Gahr Støre announces that the country's military alert level will be increased tomorrow, in response to military drone sightings near offshore oil rigs in the past few weeks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Iranian Islamic Revolutionary Guard Corps seizes an oil tanker in international waters that was transporting fuel to the Persian Gulf.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Tasnim"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Prime Minister of Chad Saleh Kebzabo confirms that government forces in North Tibesti have successfully found and subsequently freed hostage Jerome Hugonnot, a Franco-Australian conservationist, kidnapped in Wadi Fira three days prior.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Pacific typhoon season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Tropical Storm Nalgae",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The death toll from floods and landslides caused by Tropical Storm Nalgae (Paeng) in the Philippines, mostly in Bangsamoro, increases to 98 with at least 64 others reported missing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two people are killed and another is injured by a helicopter crash in Verdal, Trøndelag, Norway.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Mahsa Amini protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Tehran's chief prosecutor confirms that over 1,000 people have been charged by the authorities in connection to anti-government protests in the capital.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Central African Republic Civil War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A special court in the Central African Republic sentences three 3R militiamen to 20 years to life in prison for crimes against humanity.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Bangkok Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Fifteen people are injured by a mass drive-by shooting in Chicago, Illinois, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "British Cycling CEO Brian Facer resigns after a recent series of controversial decisions made by the organization, including the announcement of a partnership with the oil and gas company Shell.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

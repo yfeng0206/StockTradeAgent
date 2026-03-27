@@ -1,0 +1,205 @@
+{
+  "date": "2026-01-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "other": {
+      "count": 22,
+      "headlines": [
+        "Russo-Ukrainian war",
+        "Suspected armed gang members ambush a police patrol on the Guga–Bakori road in Katsina State, Nigeria, killing three officers and injuring two.",
+        "Sinking of MV Trisha Kerstin 3",
+        "Four Cuban nationals are killed and another is injured in a fire at an unlicensed migrant hostel in Balashikha, Moscow Oblast, Russia.",
+        "Three people are killed and two others injured after a boat carrying 25 tourists from France capsizes off the coast of Muscat, Oman."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kharkiv strikes",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "At least five people are killed and two others are injured in a Russian drone strike on a passenger train in Kharkiv Oblast, Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli forces kill six Palestinians by shelling and gunfire in al-Tuffah, Gaza City, Gaza.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New Arab''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Suspected armed gang members ambush a police patrol on the Guga–Bakori road in Katsina State, Nigeria, killing three officers and injuring two.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Sinking of MV Trisha Kerstin 3",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Philippine officials ground the fleet of passenger ships belonging to Aleson Shipping Lines, owner of the sunken ferry Trisha Kerstin 3.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP via CTV News",
+        "GMA News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Seven people are killed and three injured after a minibus carrying Greek PAOK FC fans crashes on E70 in Timiș County, Romania.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP",
+        "Caliber"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Four Cuban nationals are killed and another is injured in a fire at an unlicensed migrant hostel in Balashikha, Moscow Oblast, Russia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via Al Arabiya"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people are killed and two others injured after a boat carrying 25 tourists from France capsizes off the coast of Muscat, Oman.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "United States–Venezuela relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "United States sanctions during the Venezuelan crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States begins releasing frozen Venezuelan assets under sanctions, as acting Venezuelan president Delcy Rodríguez confirms renewed diplomatic contacts between the two countries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "India–European Union relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The European Union and India sign a free trade agreement, eliminating tariffs on metals, plastics, chemicals, and pharmaceutical products.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iran–Saudi Arabia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Saudi Arabia bans the use of its territory or airspace for any military action against Iran.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Azerbaijani State Security Service announces that it has foiled an attempt by the Islamic State's Khorasan Province to bomb an embassy in Baku.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 Honduran general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Nasry Asfura is sworn in as President of Honduras, succeeding Xiomara Castro.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In an overnight session, the National Assembly of France approves a bill banning social media for children under the age of 15. The bill will now go to the Senate for approval.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Bulletin of the Atomic Scientists announces that the Doomsday Clock has been set to 85 seconds before midnight, the closest it has been to midnight, citing rising global tensions.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN",
+        "Reuters"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "date": "2025-10-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "other": {
+      "count": 22,
+      "headlines": [
+        "Terrorism in the United Kingdom",
+        "At least eleven people are killed after a tractor trolley topples into a pond in Khandwa district, Madhya Pradesh, India.",
+        "One person is killed and four others are injured in a hydrogen capsule explosion in a laboratory at Tehran University in Tehran, Iran.",
+        "Twelve people are injured in panic from a  earthquake in Istanbul, Turkey.",
+        "At least 500 families are displaced and 400 houses are destroyed in a large fire in Cagayan de Oro, Misamis Occidental, Northern Mindanao, Philippines."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli invasion of the Gaza Strip",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 Gaza City offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 53 Palestinians are killed in Israeli attacks across the Gaza Strip and in Gaza City.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli blockade of the Gaza Strip",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israel intercepts the Global Sumud Flotilla in international waters and detains hundreds of activists from 44 countries carrying humanitarian aid bound for Gaza, sparking international condemnation and accusations of violations of the United Nations Convention on the Law of the Sea.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "''The National''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Terrorism in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Manchester synagogue attack",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Two people are killed and four others are injured in a vehicle-ramming and mass stabbing attack at the Heaton Park Hebrew Congregation synagogue in Crumpsall, Manchester, England, United Kingdom. The perpetrator and one of the victims are shot dead by police. The attack is later declared a terror attack.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN",
+        "''The New York Times''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least eleven people are killed after a tractor trolley topples into a pond in Khandwa district, Madhya Pradesh, India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Hindu''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and four others are injured in a hydrogen capsule explosion in a laboratory at Tehran University in Tehran, Iran.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Twelve people are injured in panic from a  earthquake in Istanbul, Turkey.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Monitor",
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 500 families are displaced and 400 houses are destroyed in a large fire in Cagayan de Oro, Misamis Occidental, Northern Mindanao, Philippines.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Philippine Daily Inquirer''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Australia–Papua New Guinea relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Papua New Guinean Cabinet approves a bilateral defense treaty with Australia, which will increase integration of military equipment and personnel between the two countries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign relations of Nicaragua, Foreign relations of Ukraine, International recognition of the Donetsk People's Republic and the Luhansk People's Republic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ukraine breaks off diplomatic relations with Nicaragua over the latter's recognition of Russian-occupied territories in the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Priamyi''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 Azad Kashmir protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least eight people are killed in violent protests in Muzaffarabad, Azad Kashmir, Pakistan, against benefits for the political class in the region. The regional government warns local media against covering the protests.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 195,000 people hold protests across France to denounce planned budget cuts.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The seventh summit of the European Political Community is held in Copenhagen, Denmark.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "NASA's Perseverance rover captures its first images of interstellar object 3I/ATLAS as it passes by Mars.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Economic Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States' National Football League announce it will roll out national flag football leagues for both men and women in 2026 ahead of its inclusion in the 2028 Summer Olympics.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

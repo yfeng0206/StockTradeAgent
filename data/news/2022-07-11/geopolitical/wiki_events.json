@@ -1,0 +1,293 @@
+{
+  "date": "2022-07-11",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 34,
+  "categories": {
+    "other": {
+      "count": 34,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Colombian conflict",
+        "New South Wales premier Dominic Perrottet announces that the Australian Aboriginal Flag will be flown permanently above the Sydney Harbour Bridge, which is widely regarded as an iconic Australian land",
+        "A Russian court lifts the suspension for the CPC pipeline and instead fines its operators 200,000 rubles ($3,300) for oil spills. The oil pipeline, one of the world's largest, is the route for nearly ",
+        "The Nord Stream 1 natural gas pipeline from Russia to Germany is suspended for the first of ten days of scheduled annual maintenance."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Three civilians are killed and 31 others are injured in a Russian shelling of Kharkiv. The city's mayor says that the latest shelling has targeted civilian infrastructure.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "SwissInfo"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian occupation of Kharkiv Oblast",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Russian-appointed military-civilian administration leader of Velykyi Burluk in Kharkiv Oblast, Yevgeny Yunakov, is assassinated in a car bombing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Ukrainian summer counteroffensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian Ground Forces recapture the town of Ivanivka in Kherson Oblast after launching a counter-offensive against Russian forces.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Colombian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Colombian Army launches an airstrike on a FARC dissidents' camp in the Caquetá Department, killing ten people. Iván Mordisco, one of the group's leaders, was at the scene during the strike; his fate is unknown.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "New South Wales premier Dominic Perrottet announces that the Australian Aboriginal Flag will be flown permanently above the Sydney Harbour Bridge, which is widely regarded as an iconic Australian landmark. The flag will be flown on top of the bridge's arches alongside the national flag, replacing the flag of New South Wales, after the state government decided against accommodating all three flags.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A Russian court lifts the suspension for the CPC pipeline and instead fines its operators 200,000 rubles ($3,300) for oil spills. The oil pipeline, one of the world's largest, is the route for nearly all of Kazakhstan's oil exports, which represents about 1% of global oil supply.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Nord Stream 1 natural gas pipeline from Russia to Germany is suspended for the first of ten days of scheduled annual maintenance.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "July 2022 European heat wave",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "French authorities issue a warning as temperatures reach as high as  amid ongoing wildfires.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RFI"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two people are killed and four others are injured after a three car pileup caused by a pack of boars north of Thessaloniki, Greece.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Biden administration announces that the United States will purchase 3.2 million doses of the Novavax COVID-19 vaccine once the vaccine is approved.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Macau",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Macau closes all of its casinos in order to contain an outbreak of COVID-19 in the city.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Straits Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 monkeypox outbreak in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "New Mexico reports its first case of monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KRQE-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Government and intergovernmental reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Lithuania–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Lithuania expands sanctions on the Russian exclave of Kaliningrad to include cement, concrete, wood, alcohol and alcohol-based industrial chemicals.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The 51st Pacific Islands Forum begins in Suva, Fiji, amid escalating geopolitical competition between China and the United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "LGBT rights in Russia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Lawmakers in Russia propose to extend the anti-\"gay propaganda\" bill to all people regardless of their age.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 vote of no confidence in the government of Élisabeth Borne",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The French government survives a no confidence vote tabled by the left-wing NUPES coalition. The no confidence vote received only 146 yes votes out of the 289 needed.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Le Monde''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian president Vladimir Putin signs a decree extending a fast-track process to obtain Russian citizenship to all Ukrainians, which previously only applied to those living in the Donetsk People's Republic and the Luhansk People's Republic.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "NASA releases the first full-color image taken by the James Webb Space Telescope, showing a segment of a galaxy cluster 4.6 billion light-years away from Earth.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Verge''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2023-02-20",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 7,
+  "categories": {
+    "other": {
+      "count": 7,
+      "headlines": [
+        "British authorities repatriate 77 pieces of Khmer jewellery from indicted art trafficker Douglas Latchford's family to the Ministry of Culture and Fine Arts of Cambodia.",
+        "Aftermath of the 2023 Turkey–Syria earthquake",
+        "Ukraine–United States relations",
+        "C. B. Claiborne appears at a Duke home game, where he is honored by players wearing his name and 23, his jersey number."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "British authorities repatriate 77 pieces of Khmer jewellery from indicted art trafficker Douglas Latchford's family to the Ministry of Culture and Fine Arts of Cambodia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Jakarta Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Aftermath of the 2023 Turkey–Syria earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A magnitude 6.4 earthquake strikes southeastern Turkey and Syria, killing eight people and injuring 600 others. The earthquake is also felt in Lebanon and Egypt. This aftershock comes fourteen days after the main earthquake killed more than 47,000 people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Associated Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukraine–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 visit by Joe Biden to Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. President Joe Biden makes an unannounced visit to Kyiv, Ukraine, where he meets with President Volodymyr Zelenskyy.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "C. B. Claiborne appears at a Duke home game, where he is honored by players wearing his name and 23, his jersey number.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Duke Chronicle"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

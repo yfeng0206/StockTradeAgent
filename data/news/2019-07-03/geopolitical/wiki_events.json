@@ -1,0 +1,137 @@
+{
+  "date": "2019-07-03",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 12,
+  "categories": {
+    "disaster": {
+      "count": 4,
+      "headlines": [
+        "Over one million people in the Japanese prefectures of Miyazaki and Kagoshima are ordered to evacuate their homes due to torrential rainfall. An elderly woman in Kagoshima city died after a mudslide h",
+        "One tourist is killed and several injured when Mt. Stromboli in Italy erupts.",
+        "At least 26 people have died after a fishing boat capsized off the coast of Honduras.",
+        "At least six people are killed and 190 injured after a tornado hits the city of Kaiyuan in Liaoning Province, China."
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "Death of Otto Warmbier, North Korea–United States relations"
+      ]
+    },
+    "other": {
+      "count": 4,
+      "headlines": [
+        "Insurgency in Jammu and Kashmir",
+        "Syrian Civil War"
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "Ninth European Parliament"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Insurgency in Jammu and Kashmir",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five Pakistani soldiers are killed and one is injured by a bomb blast in Jammu and Kashmir.",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [
+        "''Economic Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian Civil War",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A mass grave containing over 200 bodies is discovered in Raqqa, Syria. The victims, who were shackled and shot in the head, are believed to have been killed by ISIL militants.",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Over one million people in the Japanese prefectures of Miyazaki and Kagoshima are ordered to evacuate their homes due to torrential rainfall. An elderly woman in Kagoshima city died after a mudslide hit her home.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One tourist is killed and several injured when Mt. Stromboli in Italy erupts.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 26 people have died after a fishing boat capsized off the coast of Honduras.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "At least six people are killed and 190 injured after a tornado hits the city of Kaiyuan in Liaoning Province, China.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Global News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Death of Otto Warmbier, North Korea–United States relations",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The parents of Otto Warmbier, an American student who died in North Korean custody after allegedly being tortured, file a claim for a seized North Korean cargo ship in an attempt to collect on a $501 million judgment they received after suing the country.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Associated Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ninth European Parliament",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "David Sassoli of the Progressive Alliance of Socialists and Democrats is elected President of the European Parliament.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "date": "2021-08-12",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 58,
+  "categories": {
+    "other": {
+      "count": 58,
+      "headlines": [
+        "War in Afghanistan",
+        "Plymouth shooting",
+        "A helicopter carrying 13 tourists and three crew members crashes into Kurile Lake in Kamchatka Krai, Russia. Eight of the people on board survived, while the fate of the others remain unknown.",
+        "Flash flooding in Turkey's northern Kastamonu Province kills nine people, while flooding in the Sinop Province leaves one person missing. Four bridges have collapsed and 170 villages are without power",
+        "COVID-19 pandemic"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Taliban insurgency",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Taliban offensive, Battle of Kandahar (2021)",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Taliban captures the provincial capitals of Ghazni, Qala e Naw, Kandahar and Herat, bringing the number of provincial capitals taken in the past seven days to thirteen.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "Al Jazeera",
+        "Associated Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Withdrawal of United States troops from Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Pentagon announces it will send U.S. troops to Kabul's Hamid Karzai International Airport to help evacuate staff from the U.S. Embassy while U.S. Department of State spokesperson Ned Price states that the embassy will remain open.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Wall Street Journal''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The British government announces that 600 troops will be deployed to Afghanistan on a short-term basis in order to help evacuate British citizens and protect Afghan staff and interpreters. Around 4,000 UK nationals are currently in the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Afghan authorities arrest Dawood Laghmani, the governor of Ghazni province, for abandoning the city of Ghazni when the Taliban captured it. The Interior Ministry also reports the arrest of many of Laghmani's colleagues.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Asian News International"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Tigray Defense Forces seize the city of Weldiya in the Amhara Region as they continue to advance south.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Foreign Policy''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Plymouth shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people, including the gunman, are killed and two more are wounded in a mass shooting in Plymouth, Devon, England. Eyewitnesses say that the shooting began at a house before the shooter \"randomly started shooting\" on the street.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A helicopter carrying 13 tourists and three crew members crashes into Kurile Lake in Kamchatka Krai, Russia. Eight of the people on board survived, while the fate of the others remain unknown.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Flash flooding in Turkey's northern Kastamonu Province kills nine people, while flooding in the Sinop Province leaves one person missing. Four bridges have collapsed and 170 villages are without power while over 900 people have been evacuated, according to a statement from the Disaster and Emergency Management Presidency.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in North America",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Canada, COVID-19 vaccination in Canada",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in British Columbia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "British Columbia announces that everyone working in long-term care and seniors’ assisted living facilities will be required to be vaccinated against COVID-19 by mid-October, becoming the first province in Canada to impose such a mandate.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Globe and Mail''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in California",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the San Francisco Bay Area",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "San Francisco mayor London Breed issues a mandate requiring proof of full vaccination in indoor public spaces, making San Francisco the first major U.S. city to do so.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KTVU"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Missouri",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Missouri surpasses 10,000 deaths from COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KTVI"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. Health Secretary Xavier Becerra announces that the U.S. Department of Health and Human Services will require healthcare workers to receive a COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Politico''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The U.S. Food and Drug Administration authorizes a booster dose of the Pfizer–BioNTech and Moderna COVID-19 vaccines for immunocompromised people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Cambodia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Cambodia begins to administer the Oxford–AstraZeneca COVID-19 vaccine as a third \"booster\" dose to people who have received the inactivated virus vaccines developed by Sinopharm (BBIBP-CorV) and Sinovac (CoronaVac) in order to strengthen immunity against the SARS-CoV-2 Delta variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Jakarta Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Japan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan reports a record for the second consecutive day of 18,822 new cases of COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Japan Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malaysia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Malaysia reports a record 21,688 new cases of COVID-19 in the past 24 hours, thereby bringing the nationwide total of confirmed cases to 1,342,215.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Free Malaysia Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Thailand",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Thailand reports a record 22,782 new cases of COVID-19 in the past 24 hours, thereby bringing the nationwide total of confirmed cases to 839,771.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Philippine Daily Inquirer''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the Republic of Ireland, COVID-19 vaccination in the Republic of Ireland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ireland opens registration for children between the ages of 12 and 15 to receive a COVID-19 vaccine. Around 280,000 children will be eligible for vaccination with the Pfizer–BioNTech or Moderna vaccines, with more than 50,000 already registered.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Russia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia reports a record 808 deaths from COVID-19 in the past 24 hours, thereby bringing the nationwide death toll to 168,049.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Moscow Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Australia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the Australian Capital Territory",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Australian Capital Territory enters a lockdown after the first locally acquired case of COVID-19 in over a year was reported. Every state and territory on the east coast of Australia, where the majority of the national population lives, is now under a lockdown. The last time this occurred was at the beginning of the pandemic in 2020.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Australian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Lesotho",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Lesotho prime minister Moeketsi Majoro self-isolates after testing positive for COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Moderna COVID-19 vaccine is found to be effective against the Lineage B.1.617 Delta variant for six months.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The population of white Americans declines for the first time, and population growth is at its lowest since the Great Depression, per the results of the 2020 census.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Foreign relations of Vanuatu",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Vanuatu stops the sale of its citizenship and revokes the citizenship it gave last April to a Syrian national for US$130,000.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RNZ International"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign relations of Argentina, AMIA bombing, Iran and state-sponsored terrorism",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Argentina condemns the designation of Ahmad Vahidi to a ministerial rank in the new government of President Ebrahim Raisi in Iran. Argentina issued a red notice through INTERPOL against Vahidi for his alleged connection with the 1994 AMIA bombing. The Foreign Ministry expressed its condemnation of the designation as \"an affront to the Argentine justice and the victims of the brutal terrorist attack\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Buenos Aires Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkey's migrant crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Armed locals in Ankara, Turkey, attack shops, houses and cars owned by Syrians. The assaults occurred after a Turkish teenager was killed yesterday during a fight between Syrians and locals, and the wounding of Turkish men who were stabbed by a Syrian man in another incident.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Algeria wildfires",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "President Abdelmadjid Tebboune, in a televised address, announces that 22 people have been arrested for causing the wildfires which have left 65 people dead so far.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Political impact of the COVID-19 pandemic, 2021 Madagascar food crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "President Andry Rajoelina dismisses his entire cabinet citing \"failures in government\" as the country struggles with severe food shortages, an increasing number of COVID-19 infections and a political crisis over a recently uncovered plot to assassinate the president.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

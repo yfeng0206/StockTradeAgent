@@ -1,0 +1,38 @@
+{
+  "final_value": 99001.92,
+  "cash": 54942.19,
+  "positions": {
+    "PEP": {
+      "shares": 35,
+      "entry_price": 131.47756958007812,
+      "entry_date": "2025-07-01"
+    },
+    "DE": {
+      "shares": 14,
+      "entry_price": 450.17279052734375,
+      "entry_date": "2025-10-01",
+      "_last_trim_price": 585.6699829101562
+    },
+    "COST": {
+      "shares": 11,
+      "entry_price": 861.16357421875,
+      "entry_date": "2026-01-01"
+    },
+    "PG": {
+      "shares": 36,
+      "entry_price": 142.29966735839844,
+      "entry_date": "2026-01-01"
+    },
+    "UPS": {
+      "shares": 52,
+      "entry_price": 97.82576751708984,
+      "entry_date": "2026-01-01"
+    },
+    "HD": {
+      "shares": 30,
+      "entry_price": 341.81475830078125,
+      "entry_date": "2026-01-01"
+    }
+  },
+  "return_pct": -1.0
+}

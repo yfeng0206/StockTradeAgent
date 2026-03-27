@@ -1,0 +1,192 @@
+{
+  "date": "2023-05-22",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 21,
+  "categories": {
+    "other": {
+      "count": 21,
+      "headlines": [
+        "Russian invasion of Ukraine",
+        "Israeli–Palestinian conflict",
+        "The Irish Data Protection Commissioner fines Meta, the parent company of Facebook and Instagram, a record €1.2 billion ($1.3 billion) for violating General Data Protection Regulations protections.",
+        "2023 Mahdia school fire",
+        "Six people are killed and seven others are injured in a fire at a house in Abu Dhabi, United Arab Emirates."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022–2023 Western Russia attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Belgorod Oblast attack",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Governor of Belgorod Oblast Vyacheslav Gladkov says that Ukrainian \"sabotage groups\" have entered Grayvoronsky District. Ukrainian media reports that the cross-border excursion is being performed by the Russian rebel opposition groups, the Russian Volunteer Corps and the Freedom of Russia Legion. The Freedom of Russia Legion reports that it has captured the Russian towns of Kozinka and Gora-Podol. A bridge crossing the Vorskla near Grayvoron is destroyed in an explosion.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''",
+        "Ukrainska Pravda via Yahoo! News",
+        "''Meduza''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli security forces kill three Al Aqsa Martyrs Brigades militants and injure six others during a raid in Nablus, West Bank.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Irish Data Protection Commissioner fines Meta, the parent company of Facebook and Instagram, a record €1.2 billion ($1.3 billion) for violating General Data Protection Regulations protections.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Mahdia school fire",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 19 children are killed in a fire at a secondary school in Mahdia, Guyana.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Six people are killed and seven others are injured in a fire at a house in Abu Dhabi, United Arab Emirates.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Seventeen people are injured by a magnitude 4.9 earthquake near Sarab, East Azerbaijan, Iran.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Kuwait Times"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Seven people are killed and 18 others are injured after a roof collapses at a school during a storm in Phichit province, Thailand.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020–2023 H5N1 outbreak",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Brazil declares an animal health emergency for the next 180 days after the detection of the influenza A virus subtype H5N1 for the first time in the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Papua New Guinea–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Papua New Guinea and the United States sign a security pact that will see American troops stationed in the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Palau–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Palau and the United States sign an agreement to renew the countries' Compact of Free Association for an additional 20 years.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Island Times"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Lafayette Square U-Haul crash",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A U-Haul truck crashes into the north barriers of the Lafayette Square in Washington, D.C., United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Belarusian democracy activist Roman Protasevich is pardoned by president Alexander Lukashenko and released from custody. Protasevich had been sentenced to eight years in prison on May 3.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

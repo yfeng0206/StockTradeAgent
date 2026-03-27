@@ -1,0 +1,142 @@
+{
+  "date": "2023-09-04",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 15,
+  "categories": {
+    "other": {
+      "count": 15,
+      "headlines": [
+        "Colombian conflict",
+        "Internal conflict in Peru",
+        "Syrian civil war",
+        "American consumer packaged goods holding company Conagra Brands recalls over 245,000 pounds of Banquet frozen chicken over concerns of plastic contamination.",
+        "The 13-kilometre-long (8-mile) Lagos Rail Mass Transit Blue Line rapid transit system begins service in Lagos, Nigeria, after being delayed since 1983."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Colombian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Nine people are killed and five others are injured in clashes between FARC dissidents and the National Liberation Army (ELN) in Arauca, Colombia. It occurs as the ELN concludes a fourth round of peace talks with the government.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Daily Star''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Internal conflict in Peru",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Four Peruvian soldiers and two Shining Path militants are killed in a clash in Huanta Province, Peru, in the early morning hours.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Eastern Syria insurgency",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Deir ez-Zor clashes (2023)",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "An SDF counterattack recaptures all areas lost to tribal fighters and the SNA except for one town.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "SOHR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Displacement of civilians is reported in Northeastern Syria amid intense multi-sided clashes.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "SOHR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "American consumer packaged goods holding company Conagra Brands recalls over 245,000 pounds of Banquet frozen chicken over concerns of plastic contamination.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Fox Business"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The 13-kilometre-long (8-mile) Lagos Rail Mass Transit Blue Line rapid transit system begins service in Lagos, Nigeria, after being delayed since 1983.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Five people are killed and three more are missing during floods across Spain. The heaviest rains occurred in the coastal provinces of Cádiz, Tarragona and Castellón.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "The Local Europe"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Relocation of Marine Corps Air Station Futenma",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Supreme Court of Japan orders Okinawa to allow the United States Armed Forces to expand its runways and military infrastructure on the island despite protests from locals opposing the American military's presence.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The parliament of Vanuatu elects Sato Kilman as the new prime minister, replacing Ishmael Kalsakau. Vanuatu entered a political crisis after opposition parties lodged a no-confidence petition criticizing then Kalsakau for signing a security pact with Australia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

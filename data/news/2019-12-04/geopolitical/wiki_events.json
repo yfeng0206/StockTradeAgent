@@ -1,0 +1,236 @@
+{
+  "date": "2019-12-04",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 23,
+  "categories": {
+    "health": {
+      "count": 2,
+      "headlines": [
+        "2019 Samoa measles outbreak"
+      ]
+    },
+    "geopolitical": {
+      "count": 10,
+      "headlines": [
+        "War in Afghanistan (2001–2021)",
+        "Syrian Civil War, Iran–Israel proxy conflict",
+        "In Madrid, Spain, a man throws a hand grenade at a migrant unaccompanied minor centre, although it did not explode.",
+        "Eighteen Indian sailors are abducted near the Nigerian coast.",
+        "Japan–United States relations"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "A boat carrying refugees capsized near Nouadhibou, off the coast of Mauritania, in one of the deadliest maritime disasters this year, leaving 58 people dead and many more who tried to swim to shore in",
+        "A gas explosion in Szczyrk, Poland causes a three-story building to collapse and kills 8 people"
+      ]
+    },
+    "legal": {
+      "count": 6,
+      "headlines": [
+        "Crime in Hawaii",
+        "Impeachment inquiry into Donald Trump",
+        "Nunes v. CNN"
+      ]
+    },
+    "other": {
+      "count": 3,
+      "headlines": [
+        "Gadhimai festival",
+        "CBS and Viacom cease operations and become ViacomCBS."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Japanese doctor Tetsu Nakamura and five Afghans are killed in Jalalabad, Nangarhar Province, Afghanistan when militants open fire on their car while they were travelling to monitor a project.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News",
+        "Euronews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian Civil War, Iran–Israel proxy conflict",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An Iranian Islamic Revolutionary Guard Corps weapons depot in Abu Kamal District, Deir ez-Zor Governorate, Syria, is hit by an airstrike. Arab media say Israel is behind the attack. The United States denies any involvement.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Ynet",
+        "''Haaretz''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In Madrid, Spain, a man throws a hand grenade at a migrant unaccompanied minor centre, although it did not explode.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Eighteen Indian sailors are abducted near the Nigerian coast.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Hindu''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Gadhimai festival",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Thousands of animals are sacrificed by beheading at the Hindu Gadhimai Temple in southern Nepal.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "CBS and Viacom cease operations and become ViacomCBS.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A boat carrying refugees capsized near Nouadhibou, off the coast of Mauritania, in one of the deadliest maritime disasters this year, leaving 58 people dead and many more who tried to swim to shore in need of treatment. The boat had departed The Gambia on 27 November 2019. It was heading towards the Canary Islands when it approached the Mauritanian coast to get fuel and food. The boat had been carrying between 150–180 people when it capsized, most of them aged between 20 and 30.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A gas explosion in Szczyrk, Poland causes a three-story building to collapse and kills 8 people",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "tvn24.pl"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Samoa measles outbreak",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Amid the imposed curfew, the Samoan government asks unvaccinated families to display a red flag or red cloth in front of their homes to warn others and to aid mass vaccination efforts as the death toll hits 60 and confirmed cases surpass 4,000.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The National Diet of Japan ratifies a United States–Japan trade deal. Under the deal, Japan will reduce its tariffs on U.S. beef and pork; in return, Japan will receive reductions in tariffs on certain manufactured goods.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Financial Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iran–United States relations, Iran and weapons of mass destruction",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Pentagon says the United States Navy's USS Forrest Sherman (DDG-98) intercepted a vessel in the Arabian Sea last month and seized advanced missile parts that were of Iranian origin. The crew were handed over to the Yemen Coast Guard, while the missile parts are in the possession of the United States military.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Crime in Hawaii",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. military says a sailor shot and killed two people at Joint Base Pearl Harbor–Hickam, Hawaii, before killing himself.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "UPI"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Impeachment inquiry into Donald Trump",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. House Judiciary Committee begins its hearings into the impeachment inquiry of U.S. President Donald Trump.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nunes v. CNN",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. Rep. Devin Nunes files a US$435 million defamation lawsuit against CNN.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

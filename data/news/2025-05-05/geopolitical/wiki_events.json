@@ -1,0 +1,215 @@
+{
+  "date": "2025-05-05",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 24,
+  "categories": {
+    "other": {
+      "count": 24,
+      "headlines": [
+        "Red Sea crisis",
+        "Syrian civil war",
+        "Three people are killed, four others are injured, and nine are missing after a panga boat capsizes near a beach at the Del Mar Fairgrounds near San Diego, California, United States.",
+        "Eight people are killed and one injured after two cars collided head-on on U.S. Route 169 near Greeley, Kansas, United States.",
+        "Holy See–Palestine relations, Humanitarian aid during the Gaza war"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Red Sea crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "May 2025 Israeli attacks on Yemen",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Israeli military carry out six airstrikes on Hudaydah Port in Hodeidah, Houthi-controlled Yemen, in response to yesterday's attack on Ben Gurion Airport in Tel Aviv, Israel.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera English"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Israel Security Cabinet confirms they plan to control more than 70% of the Gaza Strip indefinitely, alongside moving its civilians southwards.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A woman is killed and others are wounded after unidentified armed men open fire with automatic weapons inside a nightclub in Damascus, Syria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Three people are killed, four others are injured, and nine are missing after a panga boat capsizes near a beach at the Del Mar Fairgrounds near San Diego, California, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Eight people are killed and one injured after two cars collided head-on on U.S. Route 169 near Greeley, Kansas, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Holy See–Palestine relations, Humanitarian aid during the Gaza war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Vatican announces that it will convert and donate a Popemobile into a mobile health clinic for wounded children in Gaza, Palestine, in accordance with one of Pope Francis' final wishes.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Sydney Morning Herald''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Sudanese civil war, Sudan–United Arab Emirates relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Darfur campaign",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The International Court of Justice dismisses Sudan's case against the United Arab Emirates (UAE) alleging that the UAE violated the Genocide Convention by supplying weapons to the Rapid Support Forces and other paramilitary groups in the Darfur region.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW",
+        "PBS"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Gaza war protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five pro-Palestinian protesters are arrested by police during a World War II anniversary event in Wageningen, Netherlands, after throwing a smoke bomb onto the stage during a speech by Dutch prime minister Dick Schoof while Polish prime minister Donald Tusk was visiting, and holding up banners and flags.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mass shootings in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people are killed and five are injured in a mass shooting in Glendale, Arizona, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Three traffic police officers and two gunmen are killed and at least four others, including a police officer and two other shooters, are injured in a mass shooting and shootout by gunmen in Makhachkala, Dagestan, Russia. One of the attackers fled in a police car.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 Australian federal election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 Australian Senate election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The incumbent Australian Labor Party overtakes the Liberal–National Coalition as the largest plurality in the Senate, meaning support will be required only from the Coalition or the Australian Greens to pass legislation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian'' Australia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "After more than twenty years of activity, Microsoft telecommunications application Skype is shut down in favor of its alternative Teams.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Microsoft",
+        "GSMArena"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 World Snooker Championship",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In snooker, Zhao Xintong of China defeats three-time champion Mark Williams of Wales 18–12 at the World Snooker Championship to win his first championship, becoming the first amateur player and the first player from China to do so.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "date": "2022-08-15",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 21,
+  "categories": {
+    "other": {
+      "count": 21,
+      "headlines": [
+        "War in Afghanistan",
+        "Israeli–Syrian ceasefire line incidents during the Syrian civil war",
+        "COVID-19 pandemic",
+        "Liberia–United States relations",
+        "Prime minister of New Zealand Jacinda Ardern announces the deployment of 120 New Zealand troops to the United Kingdom to train Ukrainian forces."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Operation Barkhane",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "France formally ends its military intervention in Mali after withdrawing its last remaining troops from a military base in Gao. The base was handed over to Malian Armed Forces before the French forces crossed into neighbouring Niger.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Ecofin Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Four Russian Wagner Group paramilitaries are killed during an ambush by Jama'at Nasr al-Islam wal Muslimin militants in Bandiagara.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Africanews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Fall of Kabul",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Taliban stages a Victory Day parade on the first anniversary of the capture of Kabul.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Syrian ceasefire line incidents during the Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel launches a series of airstrikes on Damascus and Tartus, Syria, killing three soldiers and injuring three others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom approves a Moderna COVID-19 vaccine aimed at targeting the Omicron variant and other variants of SARS-CoV-2, becoming the first country to do so.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''EuroWeekly News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Liberia–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States imposes sanctions on three senior members of the cabinet of Liberian president George Weah, accusing them of corruption.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Prime minister of New Zealand Jacinda Ardern announces the deployment of 120 New Zealand troops to the United Kingdom to train Ukrainian forces.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2021 Myanmar coup d'état",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The military junta court sentences former state counsellor Aung San Suu Kyi to six years in prison for corruption.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A lawsuit is filed against the Central Intelligence Agency and its former director Mike Pompeo, accusing the agency of spying on lawyers and journalists who met with Julian Assange.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Axios''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Kenyan general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Independent Electoral and Boundaries Commission declares William Ruto as the winner of the election.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "FIFA suspends the All India Football Federation for violating its statutes on third-party interference. India is stripped of its hosting rights for international football tournaments, including the 2022 FIFA U-17 Women's World Cup scheduled for October 2022.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

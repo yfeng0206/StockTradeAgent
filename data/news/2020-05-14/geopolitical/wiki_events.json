@@ -1,0 +1,317 @@
+{
+  "date": "2020-05-14",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 32,
+  "categories": {
+    "health": {
+      "count": 10,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "COVID-19 pandemic in Burundi"
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Equinor, a multinational oil company two-thirds owned by the government of Norway, rejected a group of environmental and climate change-related resolutions at its shareholders meeting. One of these ca",
+        "The New York Stock Exchange is expected to partially reopen following Memorial Day."
+      ]
+    },
+    "tech": {
+      "count": 2,
+      "headlines": [
+        "UFO sightings in the United States"
+      ]
+    },
+    "geopolitical": {
+      "count": 12,
+      "headlines": [
+        "May 2020 Afghanistan attacks",
+        "Insurgency in Cabo Delgado",
+        "Second Libyan Civil War",
+        "Colombian conflict",
+        "Gunmen opened fire against two social workers delivering aid for people amid the COVID-19 pandemic in Van Province, Turkey, killing them at the scene."
+      ]
+    },
+    "disaster": {
+      "count": 3,
+      "headlines": [
+        "2020 Pacific typhoon season",
+        "The Cathedral Church of St Peter and St Paul in Sheffield, England, suffers damage due to a fire. There were no injuries. A 40-year-old woman has been arrested and charged with arson, burglary and ass"
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "The Vatican announces that Pope Francis is sending a donation to Lebanon for 400 scholarships in an expression of his concern for the country’s young people. Lebanon is experiencing a “severe crisis” "
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "May 2020 Afghanistan attacks",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A truck bomb explodes near a court in Gardez, Paktia, Afghanistan, killing five civilians. The Taliban claims responsibility, calling it a retaliation to statements by President Ashraf Ghani blaming the group for an attack on a maternity hospital two days ago.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Insurgency in Cabo Delgado",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The government of Mozambique announces that 50 Islamist insurgents have been killed in recent operations in Cabo Delgado Province.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Second Libyan Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "NATO Secretary General Jens Stoltenberg says the military alliance is \"ready to support\" the UN-recognized Government of National Accord.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Libya Observer''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Greece, a member state of NATO, strongly criticizes Stoltenberg's remarks, saying his recognition of the \"Muslim Brotherhood  government\" does not reflect the positions of the military alliance.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Greek Reporter"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Colombian conflict",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An air force raid kills a senior National Liberation Army (ELN) commander and three others in a rural area of Bolívar.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Gunmen opened fire against two social workers delivering aid for people amid the COVID-19 pandemic in Van Province, Turkey, killing them at the scene.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Xinhua"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Vatican announces that Pope Francis is sending a donation to Lebanon for 400 scholarships in an expression of his concern for the country’s young people. Lebanon is experiencing a “severe crisis” that is robbing younger generations of hope.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "Catholic News Agency"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Equinor, a multinational oil company two-thirds owned by the government of Norway, rejected a group of environmental and climate change-related resolutions at its shareholders meeting. One of these called on Equinor to stop oil exploration in ecologically sensitive areas.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The New York Stock Exchange is expected to partially reopen following Memorial Day.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''Forbes''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 Pacific typhoon season",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Typhoon Vongfong makes landfall in the Philippines.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Cathedral Church of St Peter and St Paul in Sheffield, England, suffers damage due to a fire. There were no injuries. A 40-year-old woman has been arrested and charged with arson, burglary and assault of an emergency worker.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in New Jersey",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Governor Phil Murphy announces that their beaches will reopen for Memorial Day, but with restrictions.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Politico''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Yemen",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Save the Children reports a surge in deaths of people with coronavirus-like symptoms in Aden, with at least 380 in the last week. Officially, Yemen has only reported 13 COVID-19 deaths.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in mainland China",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "China marks a month without announcing new deaths.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Seychelles",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Seychelles bans cruise ships until the end of 2021 effective immediately, amid fears over COVID-19.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. Senate unanimously passes a bill placing visa and property sanctions on Chinese officials involved in the persecution of Uyghur Muslims in Xinjiang.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Burundi",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Burundi expels the country's top World Health Organization representative and three other experts coordinating the COVID-19 response. The government says they are persona non grata and must leave Burundi. They accused them of \"interfering with the government response to the pandemic\".",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "UFO sightings in the United States",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States Navy's Naval Safety Center discloses \"hazard reports\" of Navy pilot encounters with unidentified aerial phenomena, including an incident in March 2014, in which a fighter jet pilot encountered an \"unknown aircraft\", which was \"approximately the size of a suitcase, and silver in colour.\"",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "final_value": 99259.67,
+  "cash": 5118.63,
+  "positions": {
+    "MCD": {
+      "shares": 21,
+      "entry_price": 244.49819946289062,
+      "entry_date": "2023-01-02"
+    },
+    "PEP": {
+      "shares": 44,
+      "entry_price": 164.9402313232422,
+      "entry_date": "2023-04-03"
+    },
+    "AAPL": {
+      "shares": 74,
+      "entry_price": 163.42250061035156,
+      "entry_date": "2023-05-04"
+    },
+    "WMT": {
+      "shares": 196,
+      "entry_price": 47.64883041381836,
+      "entry_date": "2023-06-01"
+    },
+    "V": {
+      "shares": 42,
+      "entry_price": 221.84690856933594,
+      "entry_date": "2023-06-01"
+    },
+    "SO": {
+      "shares": 148,
+      "entry_price": 62.77213668823242,
+      "entry_date": "2023-06-01"
+    },
+    "MRK": {
+      "shares": 92,
+      "entry_price": 101.19184875488281,
+      "entry_date": "2023-06-01"
+    },
+    "KO": {
+      "shares": 170,
+      "entry_price": 54.866920471191406,
+      "entry_date": "2023-06-01"
+    },
+    "JNJ": {
+      "shares": 65,
+      "entry_price": 142.39724731445312,
+      "entry_date": "2023-06-01"
+    },
+    "PG": {
+      "shares": 69,
+      "entry_price": 134.18508911132812,
+      "entry_date": "2023-06-01"
+    }
+  },
+  "return_pct": -0.74
+}

@@ -1,0 +1,165 @@
+{
+  "date": "2019-06-19",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 14,
+  "categories": {
+    "health": {
+      "count": 1,
+      "headlines": [
+        "Millions of people in southeast India face water shortages due to drought and depleted groundwater."
+      ]
+    },
+    "politics": {
+      "count": 5,
+      "headlines": [
+        "Assassination of Jamal Khashoggi",
+        "2019 Conservative Party leadership election",
+        "The House Democrats vote to repeal the Authorization for Use of Military Force Against Terrorists, which is used to authorize war."
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "Japan–North Korea relations"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "Venezuelan refugee crisis"
+      ]
+    },
+    "legal": {
+      "count": 3,
+      "headlines": [
+        "Malaysia Airlines Flight 17",
+        "NXIVM leader Keith Raniere is found guilty of seven charges, including human trafficking, sex trafficking, sexual exploitation of a child, forced labor conspiracy, and racketeering."
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "Li Ka-shing, \"Hong Kong's richest man\", pledges to pay, via his charitable foundation, the tuition fees of the Shantou University's 2019 incoming class for up to five years."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Li Ka-shing, \"Hong Kong's richest man\", pledges to pay, via his charitable foundation, the tuition fees of the Shantou University's 2019 incoming class for up to five years.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Venezuelan refugee crisis",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The UN predicts that over five million Venezuelans, over 15% of the nation's population, will have left the country by the end of 2019 since the start of the crisis in Venezuela—the total at the end of 2018 was 3.3 million. One million have left the country since November, with a daily average of 5,000 departures. Additionally, over 20% of all worldwide UN asylum requests are from Venezuelans; 350,000 applied in 2018 alone.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''Financial Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Millions of people in southeast India face water shortages due to drought and depleted groundwater.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "CBC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Japan–North Korea relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Japanese coast guard says its patrol boats have been pushing back hundreds of North Korean boats trying to poach in fishing grounds rich with squid off Japan's northern coast.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Japan Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Malaysia Airlines Flight 17",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Four people, three Russians and a Ukrainian, will be charged with murder for the crash that killed 298 people on July 17, 2014.  The trial is to be held on March 9, 2020 and take place in Badhoevedorp, Netherlands.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "NXIVM leader Keith Raniere is found guilty of seven charges, including human trafficking, sex trafficking, sexual exploitation of a child, forced labor conspiracy, and racketeering.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Assassination of Jamal Khashoggi",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Saudi Minister of State for Foreign Affairs Adel al-Jubeir says that the UN's report on the killing of journalist Jamal Khashoggi is unfounded, saying it has \"clear contradictions and baseless allegations.\"",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Gulf News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Conservative Party leadership election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Rory Stewart is eliminated after coming in fifth place in today's third round voting. The front runner remains Boris Johnson. Jeremy Hunt, Michael Gove, and Sajid Javid came in second, third, and fourth respectively. A fourth round will be taken tomorrow.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The House Democrats vote to repeal the Authorization for Use of Military Force Against Terrorists, which is used to authorize war.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Vox",
+        "''HuffPost''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

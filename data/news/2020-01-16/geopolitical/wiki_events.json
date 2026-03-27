@@ -1,0 +1,136 @@
+{
+  "date": "2020-01-16",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 10,
+  "categories": {
+    "politics": {
+      "count": 1,
+      "headlines": [
+        "Mikhail Mishustin is appointed as new  Prime Minister of Russia."
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "The U.S. Senate votes 89–10 to pass the United States–Mexico–Canada Agreement. Once ratified by Canada, it will supersede the North America Free Trade Agreement.",
+        "Alphabet Inc., parent company of Google, becomes the fourth American company to hit a stock market capitalization of US$1 trillion."
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "The American-led coalition issues a statement saying that 11 U.S. service members were injured by the January 8, 2020 attack by Iran on U.S. forces in Iraq. The U.S. Department of Defense had initiall",
+        "Guatemalan President Alejandro Giammattei cuts ties with the government of disputed Venezuelan President Nicolás Maduro and closes Guatemala's embassy in Caracas."
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "Winter Storm Jacob continues to move eastwards across the northern United States, bringing up to  of snowfall from Montana to Idaho and Utah and down into the Sierra Nevada of California."
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "After his escape from Japan, Carlos Ghosn's Japanese lawyer Junichiro Hironaka and seven other members of his defense resign. Hironaka says Ghosn's escape was a \"complete surprise\".",
+        "The bodies of seven people are found in a mass grave in the indigenous Ngäbe-Buglé region of Panama. Authorities believe a religious sect performed an exorcism on the victims. Police rescued 15 people"
+      ]
+    },
+    "other": {
+      "count": 2,
+      "headlines": [
+        "LGBT rights in South Korea"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "The American-led coalition issues a statement saying that 11 U.S. service members were injured by the January 8, 2020 attack by Iran on U.S. forces in Iraq. The U.S. Department of Defense had initially assessed that there had been no injuries.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "LGBT rights in South Korea",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In a landmark case, the South Korean military is set to decide on the first transgender soldier's possible discharge. The soldier underwent surgery overseas and is stationed in Gyeonggi Province. The case sparks a national debate on LGBT issues in the military, which punishes sex between two males with up to two years imprisonment.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The U.S. Senate votes 89–10 to pass the United States–Mexico–Canada Agreement. Once ratified by Canada, it will supersede the North America Free Trade Agreement.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Alphabet Inc., parent company of Google, becomes the fourth American company to hit a stock market capitalization of US$1 trillion.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Winter Storm Jacob continues to move eastwards across the northern United States, bringing up to  of snowfall from Montana to Idaho and Utah and down into the Sierra Nevada of California.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "The Weather Channel"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Guatemalan President Alejandro Giammattei cuts ties with the government of disputed Venezuelan President Nicolás Maduro and closes Guatemala's embassy in Caracas.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "After his escape from Japan, Carlos Ghosn's Japanese lawyer Junichiro Hironaka and seven other members of his defense resign. Hironaka says Ghosn's escape was a \"complete surprise\".",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN Business"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The bodies of seven people are found in a mass grave in the indigenous Ngäbe-Buglé region of Panama. Authorities believe a religious sect performed an exorcism on the victims. Police rescued 15 people who had  suffered bodily injuries.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Mikhail Mishustin is appointed as new  Prime Minister of Russia.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

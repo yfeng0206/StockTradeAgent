@@ -1,0 +1,521 @@
+[
+  {
+    "ticker": "MA",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "V",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "VZ",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "T",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "HON",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "GS",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "WFC",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "AAPL",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Value",
+    "conviction": 0.1,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "VZ",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "Value",
+    "conviction": -0.5,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%",
+      "vol=-1*30%"
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "CMCSA",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "VZ",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "WFC",
+    "strategy": "Value",
+    "conviction": -0.1,
+    "size_multiplier": 0.0,
+    "trend_score": 1.0,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=-1*30%"
+    ]
+  },
+  {
+    "ticker": "BAC",
+    "strategy": "Value",
+    "conviction": -0.1,
+    "size_multiplier": 0.0,
+    "trend_score": 1.0,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=-1*30%"
+    ]
+  },
+  {
+    "ticker": "WMT",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "DIS",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "MS",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  }
+]

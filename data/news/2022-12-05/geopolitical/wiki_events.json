@@ -1,0 +1,207 @@
+{
+  "date": "2022-12-05",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 24,
+  "categories": {
+    "other": {
+      "count": 24,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Syrian civil war",
+        "Kurdish–Turkish conflict",
+        "Irish finance minister Paschal Donohoe is re-elected as President of the Eurogroup.",
+        "2022 Risaralda landslide"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Attacks on civilians in the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Russian strikes against Ukrainian infrastructure",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian forces launch another wave of cruise missile strikes on Ukraine, destroying homes and killing two people in Zaporizhzhia Oblast, while causing power outages in many other areas after damaging critical infrastructure.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Western Russia attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia says that a long-range drone attack on its Dyagilevo Air Base and Engels-2 Air Base has killed three servicemen, injured four others, and damaged two aircraft.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Turkish occupation of northern Syria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Protests occur in the town of Atarib, Aleppo Governorate, Syria, after a Turkish military vehicle ran over and killed a woman and a child while conducting a patrol with a local rebel group, according to the Syrian Observatory for Human Rights.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kurdish–Turkish conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Iraqi military is deployed to its borders with Turkey and Iran.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Mehr"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Irish finance minister Paschal Donohoe is re-elected as President of the Eurogroup.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Barron's''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Risaralda landslide",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 33 people are killed, four others are critically injured, and many others are missing after a landslide hits a bus in Risaralda, Colombia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "TRT World"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021–2022 global energy crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "International sanctions during the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Russian oil price cap",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The US$60-per-barrel price ceiling on Russian seaborne oil imposed by Australia, the European Union, and the G7 comes into force.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Corruption in the Democratic Republic of the Congo",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Swiss multinational mining company Glencore agrees to pay the Democratic Republic of the Congo $180 million to settle corruption claims dating from 2007 to 2018. Glencore has admitted to bribing African officials in order to secure \"improper business advantages\", including in the DRC.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "One person is killed and another is injured in a stabbing attack in Ulm, Baden-Württemberg, Germany.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Mongolian protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Protests occur in the Mongolian capital Ulaanbaatar in response to a corruption scandal. Four policemen are reported injured.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Tengrinews''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

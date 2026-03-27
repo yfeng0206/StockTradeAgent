@@ -1,0 +1,201 @@
+[
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": 0.7,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=+1*40%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": 0.4,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=+1*40%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=+1*40%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": -0.5,
+    "size_multiplier": 0.0,
+    "trend_score": -0.5,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=-0*40%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=+1*40%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": 0.1,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=+1*40%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": -0.5,
+    "size_multiplier": 0.0,
+    "trend_score": -0.5,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=-0*40%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": -0.7,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=-1*40%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": 1.0,
+    "vol_score": -1.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=+1*40%",
+      "vol=-1*30%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": -0.7,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=-1*40%",
+      "mem=-1*30%"
+    ]
+  },
+  {
+    "ticker": "USO",
+    "strategy": "Commodity",
+    "conviction": -1.0,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": -1.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.4,
+      "volatility": 0.3,
+      "memory": 0.3
+    },
+    "details": [
+      "trend=-1*40%",
+      "vol=-1*30%",
+      "mem=-1*30%"
+    ]
+  }
+]

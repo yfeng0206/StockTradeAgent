@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2019-02-01",
+    "action": "BUY",
+    "ticker": "USO",
+    "price": 93.04,
+    "reason": "Oil bullish signal (score=5.0)",
+    "regime": "sideways",
+    "news_context": null,
+    "scores": {
+      "composite": 5.0,
+      "mode": "OIL",
+      "above_50ma": true,
+      "above_200ma": false,
+      "ret_1m": 16.9,
+      "ret_3m": -15.7,
+      "rsi": 65.0,
+      "geo_boost": 0.0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "USO",
+    "price": 102.56,
+    "reason": "Oil signal bearish/neutral, going to cash PnL: +10.2% (held since 2019-02-01)",
+    "regime": "bullish",
+    "news_context": null
+  },
+  {
+    "date": "2019-05-01",
+    "action": "BUY",
+    "ticker": "USO",
+    "price": 105.76,
+    "reason": "Oil bullish signal (score=8.0)",
+    "regime": "normal",
+    "news_context": null,
+    "scores": {
+      "composite": 8.0,
+      "mode": "OIL",
+      "above_50ma": true,
+      "above_200ma": true,
+      "ret_1m": 1.6,
+      "ret_3m": 16.5,
+      "rsi": 45.1,
+      "geo_boost": 0.0
+    }
+  },
+  {
+    "date": "2019-05-23",
+    "action": "SELL",
+    "ticker": "USO",
+    "price": 96.72,
+    "reason": "STOP LOSS triggered (-8.55% loss) PnL: -8.5% (held since 2019-05-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "USO",
+    "price": 98.24,
+    "reason": "Oil bullish signal (score=6.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 5.0,
+      "mode": "OIL",
+      "above_50ma": true,
+      "above_200ma": false,
+      "ret_1m": 11.7,
+      "ret_3m": -5.6,
+      "rsi": 70.2,
+      "geo_boost": 0.0
+    }
+  },
+  {
+    "date": "2019-08-01",
+    "action": "SELL",
+    "ticker": "USO",
+    "price": 90.48,
+    "reason": "STOP LOSS triggered (-7.9% loss) PnL: -7.9% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2019-11-01",
+    "action": "BUY",
+    "ticker": "USO",
+    "price": 93.52,
+    "reason": "Oil bullish signal (score=6.5) [Memory adj: +0.5]",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 6.0,
+      "mode": "OIL",
+      "above_50ma": true,
+      "above_200ma": false,
+      "ret_1m": 5.9,
+      "ret_3m": 4.9,
+      "rsi": 63.1,
+      "geo_boost": 0.0
+    }
+  },
+  {
+    "date": "2019-12-02",
+    "action": "SELL",
+    "ticker": "USO",
+    "price": 93.36,
+    "reason": "Oil signal bearish/neutral, going to cash PnL: -0.2% (held since 2019-11-01)",
+    "regime": "normal",
+    "news_context": null
+  }
+]
