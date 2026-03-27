@@ -14,42 +14,26 @@
 
 ---
 
-## Key Results
+## Results
 
-### Beating the Benchmarks
+### 2024 Performance
 
-We tested the same periods used by [TradingAgents](https://github.com/TauricResearch/TradingAgents) and [AI-Trader](https://github.com/HKUDS/AI-Trader):
+| Strategy | Return | Sharpe | Max Drawdown |
+|:---------|:------:|:------:|:------------:|
+| **EventDriven** | **+34.3%** | 2.22 | -4.9% |
+| **Momentum** | **+33.5%** | 2.04 | -8.8% |
+| QQQ | +28.8% | 1.51 | -13.5% |
+| SPY | +26.0% | 1.92 | -8.4% |
+| ONEQ | +25.4% | 1.68 | -12.1% |
 
-#### Full Year 2024 (not just 3 months)
+### Crash Protection
 
-| | Return | vs SPY (+26%) | vs QQQ (+28.8%) |
-|--|--------|---------------|-----------------|
-| **EventDriven** | **+34.3%** | **+8.3%** | **+5.5%** |
-| **Momentum** | **+33.5%** | **+7.5%** | **+4.7%** |
-| QQQ Buy & Hold | +28.8% | -- | -- |
-| SPY Buy & Hold | +26.0% | -- | -- |
-
-#### TradingAgents Paper Period (Jan-Mar 2024)
-
-| | Return | vs QQQ |
-|--|--------|--------|
-| **Our Momentum** | **+16.8%** | **+6.4%** |
-| Our Adaptive | +12.6% | +2.2% |
-| Our EventDriven | +11.7% | +1.3% |
-| QQQ Buy & Hold | +10.4% | -- |
-
-*Their paper claims +26.6% on AAPL — which actually lost -7.5% in this period.*
-
-#### Crash Protection: Where We Really Shine
-
-| | COVID Drawdown | 2022 Bear Drawdown |
-|--|----------------|-------------------|
-| **Our Defensive** | **-14.2%** | **-10.1%** |
-| **Our Commodity** | **-3.8%** | **-8.2%** |
-| SPY Buy & Hold | -33.6% | -24.4% |
-| QQQ Buy & Hold | -28.6% | -34.7% |
-
-**Defensive's worst crash (-14.2%) is 2.4x better than SPY (-33.6%).**
+| Strategy | COVID Max Drawdown | 2022 Bear Max Drawdown |
+|:---------|:------------------:|:----------------------:|
+| **Commodity** | -3.8% | -8.2% |
+| **Defensive** | -14.2% | -10.1% |
+| SPY | -33.6% | -24.4% |
+| QQQ | -28.6% | -34.7% |
 
 ---
 
@@ -72,15 +56,15 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 | QQQ | +38.1% | +12.8% | +56.5% | -19.5% | -29.6% | +33.7% | +15.9% |
 | ONEQ | +36.1% | +8.8% | +47.2% | -21.8% | -29.0% | +26.8% | +14.6% |
 
-#### Max Drawdown (Lower is Better)
+#### Max Drawdown
 
-| Strategy | Worst Ever | vs SPY -33.6% | vs QQQ -34.7% |
-|:---------|:---------:|:-------------:|:-------------:|
-| **Commodity** | **-11.6%** | 2.9x better | 3.0x better |
-| **Defensive** | **-14.2%** | 2.4x better | 2.4x better |
-| **Value** | -22.1% | 1.5x better | 1.6x better |
-| SPY | -33.6% | -- | -- |
-| QQQ | -34.7% | -- | -- |
+| Strategy | Worst Ever |
+|:---------|:---------:|
+| **Commodity** | -11.6% |
+| **Defensive** | -14.2% |
+| **Value** | -22.1% |
+| SPY | -33.6% |
+| QQQ | -34.7% |
 
 ---
 
@@ -298,7 +282,7 @@ All turns logged to `runs/research/{ticker}_{date}/` as structured JSON.
 | **Universe** | 3 stocks | NASDAQ-100 | **93 stocks** |
 | **Strategies** | LLM-only | LLM-only | **7 coded + LLM** |
 | **Ablation tested** | No | No | **Yes** |
-| **Beats QQQ** | Claimed | 1 of 6 LLMs | **4 of 7 strategies** |
+| **Beats QQQ (2024)** | Not tested | Not tested | **2 of 7** |
 
 ---
 
