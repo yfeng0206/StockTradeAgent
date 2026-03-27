@@ -1,0 +1,54 @@
+{
+  "final_value": 113540.87,
+  "cash": 10367.79,
+  "positions": {
+    "GOOGL": {
+      "shares": 26,
+      "entry_price": 189.8021697998047,
+      "entry_date": "2025-07-23",
+      "_last_trim_price": 338.0120544433594
+    },
+    "MRK": {
+      "shares": 107,
+      "entry_price": 100.22469329833984,
+      "entry_date": "2025-12-01"
+    },
+    "LRCX": {
+      "shares": 46,
+      "entry_price": 154.35064697265625,
+      "entry_date": "2025-12-01",
+      "_last_trim_price": 218.09869384765625
+    },
+    "ON": {
+      "shares": 181,
+      "entry_price": 61.529998779296875,
+      "entry_date": "2026-02-02"
+    },
+    "JNJ": {
+      "shares": 48,
+      "entry_price": 229.52980041503906,
+      "entry_date": "2026-02-02"
+    },
+    "MRNA": {
+      "shares": 261,
+      "entry_price": 42.54999923706055,
+      "entry_date": "2026-02-02"
+    },
+    "WMT": {
+      "shares": 90,
+      "entry_price": 123.80591583251953,
+      "entry_date": "2026-02-02"
+    },
+    "XOM": {
+      "shares": 81,
+      "entry_price": 137.48361206054688,
+      "entry_date": "2026-02-02"
+    },
+    "AMD": {
+      "shares": 63,
+      "entry_price": 200.19000244140625,
+      "entry_date": "2026-02-04"
+    }
+  },
+  "return_pct": 13.54
+}

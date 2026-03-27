@@ -1,0 +1,52 @@
+{
+  "final_value": 114976.44,
+  "cash": 13724.26,
+  "positions": {
+    "DIS": {
+      "shares": 123,
+      "entry_price": 90.44996643066406,
+      "entry_date": "2023-12-01"
+    },
+    "SO": {
+      "shares": 168,
+      "entry_price": 66.22761535644531,
+      "entry_date": "2023-12-01"
+    },
+    "AAPL": {
+      "shares": 58,
+      "entry_price": 189.2737274169922,
+      "entry_date": "2023-12-01"
+    },
+    "CRM": {
+      "shares": 43,
+      "entry_price": 256.8788757324219,
+      "entry_date": "2023-12-01"
+    },
+    "FIS": {
+      "shares": 197,
+      "entry_price": 56.50648880004883,
+      "entry_date": "2023-12-01"
+    },
+    "GE": {
+      "shares": 115,
+      "entry_price": 96.37321472167969,
+      "entry_date": "2023-12-01"
+    },
+    "HON": {
+      "shares": 62,
+      "entry_price": 177.72962951660156,
+      "entry_date": "2023-12-01"
+    },
+    "MCD": {
+      "shares": 41,
+      "entry_price": 271.3148498535156,
+      "entry_date": "2023-12-01"
+    },
+    "LLY": {
+      "shares": 19,
+      "entry_price": 574.9971923828125,
+      "entry_date": "2023-12-01"
+    }
+  },
+  "return_pct": 14.98
+}

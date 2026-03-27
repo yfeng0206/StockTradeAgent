@@ -46,15 +46,39 @@ PERIODS = {
 }
 
 UNIVERSE = [
+    # Tech mega-cap (12)
     "AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "TSLA", "CRM", "NFLX", "AMD", "ADBE", "INTC",
-    "JPM", "V", "MA", "GS", "BAC", "WFC", "MS", "BLK",
-    "UNH", "JNJ", "LLY", "ABBV", "MRK", "PFE", "TMO", "ABT",
-    "PG", "KO", "PEP", "COST", "WMT", "HD", "MCD", "NKE",
-    "XOM", "CVX", "CAT", "BA", "HON", "UPS", "DE", "LMT",
-    "DIS", "CMCSA", "T", "VZ", "NEE", "SO",
+    # Semiconductors (9) — was missing most of the chip sector
+    "AVGO", "QCOM", "TXN", "MU", "LRCX", "AMAT", "KLAC", "MRVL", "ON",
+    # Software/Cloud/Cybersecurity (5)
+    "NOW", "PANW", "ZS", "CRWD", "DDOG",
+    # Internet/E-commerce/Fintech (7) — high-growth names we were missing
+    "SHOP", "UBER", "ABNB", "DASH", "PYPL", "COIN", "PLTR",
+    # Finance (8)
+    "JPM", "V", "MA", "GS", "BAC", "WFC", "MS", "AXP",
+    # Healthcare/Biotech (10)
+    "UNH", "JNJ", "LLY", "ABBV", "MRK", "PFE", "TMO", "AMGN", "REGN", "VRTX",
+    # Pharma/Med devices (3)
+    "ABT", "ISRG", "MRNA",
+    # Consumer staples (6)
+    "PG", "KO", "PEP", "COST", "WMT", "SBUX",
+    # Consumer discretionary (7)
+    "HD", "MCD", "NKE", "LULU", "TGT", "ROKU", "SPOT",
+    # Energy (5) — was only 2, now 5
+    "XOM", "CVX", "COP", "SLB", "OXY",
+    # Industrials/Defense (8)
+    "CAT", "BA", "HON", "UPS", "DE", "LMT", "RTX", "GE",
+    # Telecom/Media (4)
+    "DIS", "CMCSA", "TMUS", "CHTR",
+    # Utilities (2)
+    "NEE", "SO",
+    # Real Estate (3)
+    "AMT", "PLD", "D",
+    # Other (4)
+    "BLK", "FIS", "EMR", "MMM",
 ]
 
-BENCHMARKS = ["SPY", "QQQ"]
+BENCHMARKS = ["SPY", "QQQ", "ONEQ"]  # S&P 500, NASDAQ-100, NASDAQ Composite
 MACRO_ETFS = ["USO", "XLE", "GLD", "TLT", "HYG", "LQD"]  # oil, gold, bonds, credit
 
 

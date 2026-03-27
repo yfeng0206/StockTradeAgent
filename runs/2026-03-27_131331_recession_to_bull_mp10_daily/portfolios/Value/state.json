@@ -1,0 +1,32 @@
+{
+  "final_value": 118387.76,
+  "cash": 56633.89,
+  "positions": {
+    "COST": {
+      "shares": 23,
+      "entry_price": 437.5390319824219,
+      "entry_date": "2023-01-02"
+    },
+    "ABT": {
+      "shares": 124,
+      "entry_price": 95.78170776367188,
+      "entry_date": "2023-04-03"
+    },
+    "HON": {
+      "shares": 70,
+      "entry_price": 170.83367919921875,
+      "entry_date": "2023-04-03"
+    },
+    "BAC": {
+      "shares": 452,
+      "entry_price": 26.448450088500977,
+      "entry_date": "2023-04-03"
+    },
+    "WMT": {
+      "shares": 249,
+      "entry_price": 47.88068771362305,
+      "entry_date": "2023-04-03"
+    }
+  },
+  "return_pct": 18.39
+}

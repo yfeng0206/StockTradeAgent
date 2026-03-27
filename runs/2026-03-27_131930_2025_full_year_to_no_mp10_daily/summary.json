@@ -1,0 +1,81 @@
+{
+  "strategies": {
+    "Value": {
+      "final_value": 94596.49,
+      "total_return_pct": -5.4,
+      "alpha_vs_spy": -19.08,
+      "sharpe_ratio": -0.323,
+      "max_drawdown_pct": -13.13,
+      "total_trades": 96,
+      "win_rate_pct": 28.9
+    },
+    "Momentum": {
+      "final_value": 114720.46,
+      "total_return_pct": 14.72,
+      "alpha_vs_spy": 1.04,
+      "sharpe_ratio": 0.68,
+      "max_drawdown_pct": -23.09,
+      "total_trades": 260,
+      "win_rate_pct": 43.8
+    },
+    "Balanced": {
+      "final_value": 94166.62,
+      "total_return_pct": -5.83,
+      "alpha_vs_spy": -19.51,
+      "sharpe_ratio": -0.315,
+      "max_drawdown_pct": -18.36,
+      "total_trades": 279,
+      "win_rate_pct": 36.2
+    },
+    "Defensive": {
+      "final_value": 106488.4,
+      "total_return_pct": 6.49,
+      "alpha_vs_spy": -7.19,
+      "sharpe_ratio": 0.553,
+      "max_drawdown_pct": -13.98,
+      "total_trades": 199,
+      "win_rate_pct": 30.5
+    },
+    "EventDriven": {
+      "final_value": 112422.61,
+      "total_return_pct": 12.42,
+      "alpha_vs_spy": -1.26,
+      "sharpe_ratio": 0.679,
+      "max_drawdown_pct": -20.61,
+      "total_trades": 300,
+      "win_rate_pct": 43.2
+    },
+    "Adaptive": {
+      "final_value": 113540.87,
+      "total_return_pct": 13.54,
+      "alpha_vs_spy": -0.14,
+      "sharpe_ratio": 0.614,
+      "max_drawdown_pct": -23.73,
+      "total_trades": 235,
+      "win_rate_pct": 37.6
+    },
+    "Commodity": {
+      "final_value": 123413.4,
+      "total_return_pct": 23.41,
+      "alpha_vs_spy": 9.73,
+      "sharpe_ratio": 1.184,
+      "max_drawdown_pct": -9.95,
+      "total_trades": 8,
+      "win_rate_pct": 33.3
+    }
+  },
+  "benchmarks": {
+    "SPY": {
+      "final_value": 113684.24,
+      "total_return_pct": 13.68,
+      "sharpe_ratio": 0.669,
+      "max_drawdown_pct": -18.7
+    },
+    "QQQ": {
+      "final_value": 115953.83,
+      "total_return_pct": 15.95,
+      "sharpe_ratio": 0.657,
+      "max_drawdown_pct": -22.74
+    }
+  }
+}

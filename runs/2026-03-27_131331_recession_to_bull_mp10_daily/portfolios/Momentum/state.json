@@ -1,0 +1,57 @@
+{
+  "final_value": 128510.79,
+  "cash": 3199.22,
+  "positions": {
+    "NFLX": {
+      "shares": 330,
+      "entry_price": 32.4119987487793,
+      "entry_date": "2023-05-01"
+    },
+    "NVDA": {
+      "shares": 296,
+      "entry_price": 39.734825134277344,
+      "entry_date": "2023-06-01"
+    },
+    "CRM": {
+      "shares": 55,
+      "entry_price": 210.34426879882812,
+      "entry_date": "2023-06-01"
+    },
+    "BA": {
+      "shares": 56,
+      "entry_price": 207.9600067138672,
+      "entry_date": "2023-06-01"
+    },
+    "WMT": {
+      "shares": 246,
+      "entry_price": 47.64883041381836,
+      "entry_date": "2023-06-01"
+    },
+    "ON": {
+      "shares": 133,
+      "entry_price": 87.94999694824219,
+      "entry_date": "2023-06-01"
+    },
+    "GE": {
+      "shares": 143,
+      "entry_price": 82.22598266601562,
+      "entry_date": "2023-06-01"
+    },
+    "ISRG": {
+      "shares": 37,
+      "entry_price": 310.5400085449219,
+      "entry_date": "2023-06-01"
+    },
+    "UBER": {
+      "shares": 305,
+      "entry_price": 38.47999954223633,
+      "entry_date": "2023-06-01"
+    },
+    "PANW": {
+      "shares": 108,
+      "entry_price": 108.3949966430664,
+      "entry_date": "2023-06-01"
+    }
+  },
+  "return_pct": 28.51
+}

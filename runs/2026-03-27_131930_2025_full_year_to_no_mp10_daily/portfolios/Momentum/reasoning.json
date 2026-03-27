@@ -1,0 +1,3726 @@
+[
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "AVGO",
+    "price": 229.42,
+    "reason": "Ranked in top 10. Score: 8.963 (momentum=10.0, trend=10.0, macd=7.0, volume=7.1, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 8.96,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 7.09,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "MMM",
+    "price": 126.73,
+    "reason": "Ranked in top 10. Score: 8.537 (momentum=10.0, trend=10.0, macd=7.0, volume=4.2, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 8.54,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.25,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "GE",
+    "price": 167.39,
+    "reason": "Ranked in top 10. Score: 8.104 (momentum=10.0, trend=8.0, macd=7.0, volume=4.7, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 8.1,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.69,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "RTX",
+    "price": 113.51,
+    "reason": "Ranked in top 10. Score: 8.077 (momentum=10.0, trend=8.0, macd=7.0, volume=4.5, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 8.08,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.52,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 138.26,
+    "reason": "Ranked in top 10. Score: 8.076 (momentum=10.0, trend=8.0, macd=7.0, volume=4.5, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 8.08,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.5,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "PLTR",
+    "price": 75.19,
+    "reason": "Ranked in top 10. Score: 7.992 (momentum=10.0, trend=10.0, macd=3.0, volume=6.0, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.99,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.95,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 233.97,
+    "reason": "Ranked in top 10. Score: 7.941 (momentum=10.0, trend=10.0, macd=3.0, volume=5.6, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.94,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.61,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 88.96,
+    "reason": "Ranked in top 10. Score: 7.936 (momentum=10.0, trend=10.0, macd=3.0, volume=5.6, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.94,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.57,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 596.85,
+    "reason": "Ranked in top 10. Score: 7.905 (momentum=10.0, trend=10.0, macd=3.0, volume=5.4, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.91,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.37,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "AXP",
+    "price": 294.6,
+    "reason": "Ranked in top 10. Score: 7.852 (momentum=10.0, trend=10.0, macd=3.0, volume=5.0, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.85,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.02,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-01-27",
+    "action": "SELL",
+    "ticker": "AVGO",
+    "price": 199.9,
+    "reason": "STOP LOSS triggered (-12.87% loss) PnL: -12.9% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.36"
+  },
+  {
+    "date": "2025-01-27",
+    "action": "SELL",
+    "ticker": "NVDA",
+    "price": 118.38,
+    "reason": "STOP LOSS triggered (-14.38% loss) PnL: -14.4% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.36"
+  },
+  {
+    "date": "2025-01-28",
+    "action": "BUY",
+    "ticker": "CRWD",
+    "price": 408.68,
+    "reason": "VOLUME SPIKE: +9.3% on 2.6x vol \u2014 Momentum catalyst play",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.34"
+  },
+  {
+    "date": "2025-01-29",
+    "action": "BUY",
+    "ticker": "SBUX",
+    "price": 105.09,
+    "reason": "VOLUME SPIKE: +8.1% on 4.4x vol \u2014 Momentum catalyst play",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "MMM",
+    "price": 146.6,
+    "reason": "Dropped from top 10. Score: 7.39 Replaced by: BAC, META, EMR PnL: +15.7% (held since 2025-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 7.39,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 7.29,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "GE",
+    "price": 202.66,
+    "reason": "Dropped from top 10. Score: 7.27 Replaced by: BAC, META, EMR PnL: +21.1% (held since 2025-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 7.27,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.48,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "PLTR",
+    "price": 83.74,
+    "reason": "Dropped from top 10. Score: 6.96 Replaced by: BAC, META, EMR PnL: +11.4% (held since 2025-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.96,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.43,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 98.39,
+    "reason": "Dropped from top 10. Score: 6.99 Replaced by: BAC, META, EMR PnL: +10.6% (held since 2025-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.99,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.62,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "AXP",
+    "price": 313.2,
+    "reason": "Dropped from top 10. Score: 8.01 Replaced by: BAC, META, EMR PnL: +6.3% (held since 2025-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 8.01,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 6.04,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "CRWD",
+    "price": 397.57,
+    "reason": "Dropped from top 10. Score: 7.74 Replaced by: BAC, META, EMR PnL: -2.7% (held since 2025-01-28)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 7.74,
+      "momentum": 7.67,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.12,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "SBUX",
+    "price": 104.69,
+    "reason": "Dropped from top 10. Score: 6.3 Replaced by: BAC, META, EMR PnL: -0.4% (held since 2025-01-29)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.3,
+      "momentum": 3.13,
+      "trend": 10,
+      "macd": 7,
+      "volume": 7.68,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 44.91,
+    "reason": "Ranked in top 10. Score: 9.368 (momentum=10.0, trend=10.0, macd=3.0, volume=5.1, event_boost=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 9.37,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.12,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "EMR",
+    "price": 125.23,
+    "reason": "Ranked in top 10. Score: 8.783 (momentum=10.0, trend=10.0, macd=7.0, volume=5.9, event_boost=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 8.78,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.89,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 616.48,
+    "reason": "Ranked in top 10. Score: 8.724 (momentum=6.0, trend=10.0, macd=7.0, volume=6.2, event_boost=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 8.72,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.16,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "SHOP",
+    "price": 114.39,
+    "reason": "Ranked in top 10. Score: 8.704 (momentum=10.0, trend=10.0, macd=7.0, volume=5.4, event_boost=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 8.7,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.36,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 133.58,
+    "reason": "Ranked in top 10. Score: 8.543 (momentum=6.0, trend=10.0, macd=7.0, volume=5.0, event_boost=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 8.54,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.95,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 76.1,
+    "reason": "Ranked in top 10. Score: 8.408 (momentum=6.0, trend=10.0, macd=7.0, volume=4.0, event_boost=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 8.41,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.05,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 97.89,
+    "reason": "Ranked in top 10. Score: 8.317 (momentum=6.0, trend=10.0, macd=7.0, volume=8.1, event_boost=0.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 8.32,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 8.11,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2025-02-25",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 42.7,
+    "reason": "STOP LOSS triggered (-4.91% loss) PnL: -4.9% (held since 2025-02-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.82"
+  },
+  {
+    "date": "2025-02-25",
+    "action": "SELL",
+    "ticker": "EMR",
+    "price": 117.76,
+    "reason": "STOP LOSS triggered (-5.96% loss) PnL: -6.0% (held since 2025-02-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.82"
+  },
+  {
+    "date": "2025-02-26",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 131.24,
+    "reason": "EARNINGS strong_beat: surprise 0.0525% [Momentum] [Regime sideways: 0.0% win rate] [Memory adj: -1.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.89"
+  },
+  {
+    "date": "2025-02-26",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 305.34,
+    "reason": "EARNINGS strong_beat: surprise 0.0643% [Momentum] [Regime sideways: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.89"
+  },
+  {
+    "date": "2025-03-03",
+    "action": "SELL",
+    "ticker": "NVDA",
+    "price": 114.02,
+    "reason": "STOP LOSS triggered (-13.12% loss) PnL: -13.1% (held since 2025-02-26)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2025-03-04",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 569.34,
+    "reason": "STOP LOSS triggered (-7.65% loss) PnL: -7.6% (held since 2025-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2025-03-04",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 118.54,
+    "reason": "STOP LOSS triggered (-11.26% loss) PnL: -11.3% (held since 2025-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2025-03-06",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 90.64,
+    "reason": "VOLUME CRASH: -8.5% \u2014 Momentum cutting loss PnL: -7.4% (held since 2025-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.66"
+  },
+  {
+    "date": "2025-03-07",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 69.54,
+    "reason": "STOP LOSS triggered (-8.62% loss) PnL: -8.6% (held since 2025-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2025-03-07",
+    "action": "SELL",
+    "ticker": "CRM",
+    "price": 281.06,
+    "reason": "STOP LOSS triggered (-7.95% loss) PnL: -8.0% (held since 2025-02-26)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2025-03-07",
+    "action": "BUY",
+    "ticker": "AVGO",
+    "price": 192.81,
+    "reason": "VOLUME SPIKE: +8.6% on 2.5x vol \u2014 Momentum catalyst play [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2025-03-10",
+    "action": "SELL",
+    "ticker": "SHOP",
+    "price": 92.75,
+    "reason": "STOP LOSS triggered (-18.92% loss) PnL: -18.9% (held since 2025-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-03-20",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 70.1,
+    "reason": "EARNINGS strong_beat: surprise 0.9487% [Momentum] [Regime bearish: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.68"
+  },
+  {
+    "date": "2025-03-26",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 64.13,
+    "reason": "STOP LOSS triggered (-8.52% loss) PnL: -8.5% (held since 2025-03-20)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2025-03-28",
+    "action": "SELL",
+    "ticker": "AVGO",
+    "price": 167.76,
+    "reason": "STOP LOSS triggered (-12.99% loss) PnL: -13.0% (held since 2025-03-07)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2025-04-01",
+    "action": "SELL",
+    "ticker": "RTX",
+    "price": 130.64,
+    "reason": "Dropped from top 10. Score: 7.85 Replaced by: SO, CHTR, TMUS PnL: +15.1% (held since 2025-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 7.85,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.03,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 584.18,
+    "reason": "Dropped from top 10. Score: 7.38 Replaced by: SO, CHTR, TMUS PnL: -2.1% (held since 2025-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 7.38,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.18,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 88.9,
+    "reason": "Ranked in top 10. Score: 8.472 (momentum=10.0, trend=10.0, macd=9.0, volume=4.5, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.97,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 9,
+      "volume": 4.48,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "CHTR",
+    "price": 370.91,
+    "reason": "Ranked in top 10. Score: 8.188 (momentum=9.9, trend=10.0, macd=7.0, volume=5.4, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.69,
+      "momentum": 9.94,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.42,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "TMUS",
+    "price": 264.03,
+    "reason": "Ranked in top 10. Score: 8.167 (momentum=10.0, trend=10.0, macd=7.0, volume=5.1, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.67,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.12,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 343.78,
+    "reason": "Ranked in top 10. Score: 8.05 (momentum=9.6, trend=10.0, macd=7.0, volume=5.4, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.55,
+      "momentum": 9.59,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.44,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 69.85,
+    "reason": "Ranked in top 10. Score: 7.769 (momentum=8.0, trend=10.0, macd=9.0, volume=5.0, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.27,
+      "momentum": 8.04,
+      "trend": 10,
+      "macd": 9,
+      "volume": 5.01,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 88.05,
+    "reason": "Ranked in top 10. Score: 7.682 (momentum=10.0, trend=8.0, macd=7.0, volume=5.2, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.18,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 5.22,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 949.2,
+    "reason": "Ranked in top 10. Score: 7.621 (momentum=10.0, trend=8.0, macd=7.0, volume=4.8, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.12,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.8,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "SBUX",
+    "price": 95.59,
+    "reason": "Ranked in top 10. Score: 7.586 (momentum=9.3, trend=8.0, macd=9.0, volume=3.9, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.09,
+      "momentum": 9.26,
+      "trend": 8,
+      "macd": 9,
+      "volume": 3.88,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "DASH",
+    "price": 182.42,
+    "reason": "Ranked in top 10. Score: 7.507 (momentum=10.0, trend=8.0, macd=3.0, volume=9.4, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 8.01,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 9.38,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-04-03",
+    "action": "SELL",
+    "ticker": "SBUX",
+    "price": 85.89,
+    "reason": "STOP LOSS triggered (-10.15% loss) PnL: -10.1% (held since 2025-04-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.92"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 207.32,
+    "reason": "STOP LOSS triggered (-11.39% loss) PnL: -11.4% (held since 2025-01-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "CHTR",
+    "price": 338.29,
+    "reason": "STOP LOSS triggered (-8.79% loss) PnL: -8.8% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "TMUS",
+    "price": 243.94,
+    "reason": "STOP LOSS triggered (-7.61% loss) PnL: -7.6% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 310.8,
+    "reason": "STOP LOSS triggered (-9.59% loss) PnL: -9.6% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-07",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 84.45,
+    "reason": "STOP LOSS triggered (-5.01% loss) PnL: -5.0% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.97"
+  },
+  {
+    "date": "2025-04-08",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 81.07,
+    "reason": "STOP LOSS triggered (-7.93% loss) PnL: -7.9% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.86"
+  },
+  {
+    "date": "2025-04-09",
+    "action": "BUY",
+    "ticker": "TXN",
+    "price": 164.31,
+    "reason": "VOLUME SPIKE: +16.1% on 2.6x vol \u2014 Momentum catalyst play [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-04-09",
+    "action": "BUY",
+    "ticker": "ON",
+    "price": 39.2,
+    "reason": "VOLUME SPIKE: +22.7% on 2.7x vol \u2014 Momentum catalyst play [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-04-09",
+    "action": "BUY",
+    "ticker": "OXY",
+    "price": 39.38,
+    "reason": "VOLUME SPIKE: +11.4% on 2.5x vol \u2014 Momentum catalyst play [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-04-09",
+    "action": "BUY",
+    "ticker": "PLD",
+    "price": 94.92,
+    "reason": "VOLUME SPIKE: +9.4% on 2.9x vol \u2014 Momentum catalyst play [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-04-09",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 36.33,
+    "reason": "VOLUME SPIKE: +6.0% on 2.8x vol \u2014 Momentum catalyst play [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-04-11",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 232.88,
+    "reason": "EARNINGS strong_beat: surprise 0.0915% [Momentum] [Regime crisis: 0.0% win rate] [Memory adj: -1.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.75"
+  },
+  {
+    "date": "2025-04-11",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 61.18,
+    "reason": "EARNINGS strong_beat: surprise 0.1331% [Momentum] [Regime crisis: 0.0% win rate] [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.75"
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 69.28,
+    "reason": "Dropped from top 10. Score: 7.82 Replaced by: JPM, MS, V PnL: -0.8% (held since 2025-04-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 7.82,
+      "momentum": 8.16,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.42,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 993.59,
+    "reason": "Dropped from top 10. Score: 8.52 Replaced by: JPM, MS, V PnL: +4.7% (held since 2025-04-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.52,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.11,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "DASH",
+    "price": 196.2,
+    "reason": "Dropped from top 10. Score: 8.28 Replaced by: JPM, MS, V PnL: +7.6% (held since 2025-04-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.28,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 2.5,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "TXN",
+    "price": 154.72,
+    "reason": "Dropped from top 10. Score: 5.67 Replaced by: JPM, MS, V PnL: -5.8% (held since 2025-04-09)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 5.67,
+      "momentum": 5.64,
+      "trend": 5,
+      "macd": 7,
+      "volume": 5.12,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "ON",
+    "price": 39.6,
+    "reason": "Dropped from top 10. Score: 3.26 Replaced by: JPM, MS, V PnL: +1.0% (held since 2025-04-09)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 3.26,
+      "momentum": 0,
+      "trend": 5,
+      "macd": 7,
+      "volume": 4.08,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "OXY",
+    "price": 39.58,
+    "reason": "Dropped from top 10. Score: 3.53 Replaced by: JPM, MS, V PnL: +0.5% (held since 2025-04-09)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 3.53,
+      "momentum": 0.98,
+      "trend": 5,
+      "macd": 7,
+      "volume": 3.26,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "PLD",
+    "price": 99.62,
+    "reason": "Dropped from top 10. Score: 6.24 Replaced by: JPM, MS, V PnL: +4.9% (held since 2025-04-09)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 6.24,
+      "momentum": 7.31,
+      "trend": 5,
+      "macd": 7,
+      "volume": 4.45,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 39.29,
+    "reason": "Dropped from top 10. Score: 6.56 Replaced by: JPM, MS, V PnL: +8.1% (held since 2025-04-09)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 6.56,
+      "momentum": 4.59,
+      "trend": 5,
+      "macd": 7,
+      "volume": 3.83,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 70.28,
+    "reason": "Dropped from top 10. Score: 8.33 Replaced by: JPM, MS, V PnL: +14.9% (held since 2025-04-11)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.33,
+      "momentum": 5.48,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.95,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 114.62,
+    "reason": "Ranked in top 10. Score: 9.955 (momentum=10.0, trend=10.0, macd=7.0, volume=3.7, event_boost=1.5)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 9.96,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.7,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 339.91,
+    "reason": "Ranked in top 10. Score: 9.337 (momentum=10.0, trend=10.0, macd=7.0, volume=4.3, event_boost=0.8)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 9.34,
+      "momentum": 9.98,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.3,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 88.55,
+    "reason": "Ranked in top 10. Score: 9.18 (momentum=9.8, trend=10.0, macd=7.0, volume=3.9, event_boost=0.8)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 9.18,
+      "momentum": 9.75,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.86,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 570.43,
+    "reason": "Ranked in top 10. Score: 9.126 (momentum=10.0, trend=6.0, macd=7.0, volume=4.8, event_boost=1.5)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 9.13,
+      "momentum": 10,
+      "trend": 6,
+      "macd": 7,
+      "volume": 4.84,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 188.79,
+    "reason": "Ranked in top 10. Score: 8.909 (momentum=9.9, trend=8.0, macd=7.0, volume=4.9, event_boost=0.8)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.91,
+      "momentum": 9.92,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.93,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "SPOT",
+    "price": 602.26,
+    "reason": "Ranked in top 10. Score: 8.78 (momentum=10.0, trend=10.0, macd=7.0, volume=5.9, event_boost=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.78,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.87,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "CHTR",
+    "price": 383.0,
+    "reason": "Ranked in top 10. Score: 8.75 (momentum=10.0, trend=10.0, macd=7.0, volume=5.7, event_boost=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.75,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.67,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 113.35,
+    "reason": "Ranked in top 10. Score: 8.642 (momentum=6.0, trend=10.0, macd=7.0, volume=5.6, event_boost=1.5)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.64,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.61,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-05-01",
+    "action": "BUY",
+    "ticker": "AMT",
+    "price": 218.21,
+    "reason": "Ranked in top 10. Score: 8.625 (momentum=10.0, trend=10.0, macd=7.0, volume=4.8, event_boost=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48",
+    "scores": {
+      "composite": 8.63,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.84,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-05-12",
+    "action": "SELL",
+    "ticker": "AMT",
+    "price": 202.52,
+    "reason": "STOP LOSS triggered (-7.19% loss) PnL: -7.2% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.12"
+  },
+  {
+    "date": "2025-05-13",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 82.85,
+    "reason": "STOP LOSS triggered (-6.44% loss) PnL: -6.4% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2025-05-13",
+    "action": "BUY",
+    "ticker": "COIN",
+    "price": 256.9,
+    "reason": "VOLUME SPIKE: +24.0% on 4.2x vol \u2014 Momentum catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.07"
+  },
+  {
+    "date": "2025-05-14",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 173.27,
+    "reason": "STOP LOSS triggered (-8.22% loss) PnL: -8.2% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.22"
+  },
+  {
+    "date": "2025-05-15",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 511.13,
+    "reason": "EARNINGS strong_beat: surprise 0.1776% [Momentum] [Regime bullish: 0.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.31"
+  },
+  {
+    "date": "2025-05-16",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 283.9,
+    "reason": "VOLUME SPIKE: +6.4% on 3.2x vol \u2014 Momentum catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.37"
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 260.94,
+    "reason": "Dropped from top 10. Score: 7.6 Replaced by: COST, DE, CRWD PnL: +12.0% (held since 2025-04-11)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 7.6,
+      "momentum": 9.94,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.52,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 126.05,
+    "reason": "Dropped from top 10. Score: 7.21 Replaced by: COST, DE, CRWD PnL: +10.0% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 7.21,
+      "momentum": 9.6,
+      "trend": 9,
+      "macd": 3,
+      "volume": 3.48,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 363.21,
+    "reason": "Dropped from top 10. Score: 7.63 Replaced by: COST, DE, CRWD PnL: +6.9% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 7.63,
+      "momentum": 9.81,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.04,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "SPOT",
+    "price": 672.0,
+    "reason": "Dropped from top 10. Score: 7.69 Replaced by: COST, DE, CRWD PnL: +11.6% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 7.69,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.93,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 121.9,
+    "reason": "Dropped from top 10. Score: 5.94 Replaced by: COST, DE, CRWD PnL: +7.5% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 5.94,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 3,
+      "volume": 2.94,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "COIN",
+    "price": 246.72,
+    "reason": "Dropped from top 10. Score: 4.64 Replaced by: COST, DE, CRWD PnL: -4.0% (held since 2025-05-13)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 4.64,
+      "momentum": 2.88,
+      "trend": 9,
+      "macd": 3,
+      "volume": 4.22,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 296.36,
+    "reason": "Dropped from top 10. Score: 4.83 Replaced by: COST, DE, CRWD PnL: +4.4% (held since 2025-05-16)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 4.83,
+      "momentum": 2.39,
+      "trend": 5,
+      "macd": 7,
+      "volume": 8.17,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 1052.46,
+    "reason": "Ranked in top 10. Score: 9.41 (momentum=9.1, trend=10.0, macd=9.0, volume=4.6, event_boost=0.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 9.41,
+      "momentum": 9.05,
+      "trend": 10,
+      "macd": 9,
+      "volume": 4.59,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "CRWD",
+    "price": 479.17,
+    "reason": "Ranked in top 10. Score: 8.571 (momentum=10.0, trend=10.0, macd=7.0, volume=4.5, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 8.57,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.47,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "DASH",
+    "price": 212.79,
+    "reason": "Ranked in top 10. Score: 8.485 (momentum=10.0, trend=10.0, macd=7.0, volume=3.9, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 8.49,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.9,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "RTX",
+    "price": 135.87,
+    "reason": "Ranked in top 10. Score: 8.264 (momentum=9.2, trend=10.0, macd=7.0, volume=4.6, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 8.26,
+      "momentum": 9.19,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.6,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "TMUS",
+    "price": 239.86,
+    "reason": "Ranked in top 10. Score: 8.064 (momentum=10.0, trend=8.0, macd=7.0, volume=4.4, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 8.06,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.43,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "UBER",
+    "price": 83.64,
+    "reason": "Ranked in top 10. Score: 7.84 (momentum=10.0, trend=10.0, macd=3.0, volume=4.9, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 7.84,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.93,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 69.97,
+    "reason": "Ranked in top 10. Score: 7.733 (momentum=8.2, trend=10.0, macd=7.0, volume=3.7, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 7.73,
+      "momentum": 8.18,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.74,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-06-11",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 992.64,
+    "reason": "STOP LOSS triggered (-5.68% loss) PnL: -5.7% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2025-06-11",
+    "action": "SELL",
+    "ticker": "TMUS",
+    "price": 227.9,
+    "reason": "STOP LOSS triggered (-4.99% loss) PnL: -5.0% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2025-06-16",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 126.39,
+    "reason": "VOLUME SPIKE: +8.8% on 2.6x vol \u2014 Momentum catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2025-06-16",
+    "action": "BUY",
+    "ticker": "ROKU",
+    "price": 82.17,
+    "reason": "VOLUME SPIKE: +10.4% on 2.6x vol \u2014 Momentum catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2025-06-20",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 67.38,
+    "reason": "STOP LOSS triggered (-3.71% loss) PnL: -3.7% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.48"
+  },
+  {
+    "date": "2025-06-26",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 61.41,
+    "reason": "EARNINGS strong_beat: surprise 0.1348% [Momentum] [Regime bullish: 46.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 504.84,
+    "reason": "Dropped from top 10. Score: 7.89 Replaced by: SPOT, NFLX, DASH PnL: -1.2% (held since 2025-05-15)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.89,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.27,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "CRWD",
+    "price": 492.07,
+    "reason": "Dropped from top 10. Score: 7.48 Replaced by: SPOT, NFLX, DASH PnL: +2.7% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.48,
+      "momentum": 9.17,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.77,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "RTX",
+    "price": 142.52,
+    "reason": "Dropped from top 10. Score: 8.03 Replaced by: SPOT, NFLX, DASH PnL: +4.9% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.03,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 6.19,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "UBER",
+    "price": 92.13,
+    "reason": "Dropped from top 10. Score: 7.64 Replaced by: SPOT, NFLX, DASH PnL: +10.2% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.64,
+      "momentum": 7.51,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.9,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 136.11,
+    "reason": "Dropped from top 10. Score: 4.76 Replaced by: SPOT, NFLX, DASH PnL: +7.7% (held since 2025-06-16)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 4.76,
+      "momentum": 0.11,
+      "trend": 9,
+      "macd": 7,
+      "volume": 7.11,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "ROKU",
+    "price": 86.2,
+    "reason": "Dropped from top 10. Score: 7.76 Replaced by: SPOT, NFLX, DASH PnL: +4.9% (held since 2025-06-16)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.76,
+      "momentum": 8.64,
+      "trend": 9,
+      "macd": 7,
+      "volume": 4.37,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 72.09,
+    "reason": "Dropped from top 10. Score: 7.33 Replaced by: SPOT, NFLX, DASH PnL: +17.4% (held since 2025-06-26)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 7.33,
+      "momentum": 2.24,
+      "trend": 9,
+      "macd": 7,
+      "volume": 8.54,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "SPOT",
+    "price": 722.35,
+    "reason": "Ranked in top 10. Score: 9.542 (momentum=10.0, trend=10.0, macd=7.0, volume=4.3, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.54,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.28,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 129.36,
+    "reason": "Ranked in top 10. Score: 8.855 (momentum=10.0, trend=10.0, macd=7.0, volume=4.4, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.55,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.36,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "AXP",
+    "price": 320.19,
+    "reason": "Ranked in top 10. Score: 8.789 (momentum=9.8, trend=10.0, macd=7.0, volume=6.4, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.79,
+      "momentum": 9.83,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.38,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 80.2,
+    "reason": "Ranked in top 10. Score: 8.694 (momentum=9.8, trend=10.0, macd=7.0, volume=5.8, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.69,
+      "momentum": 9.81,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.81,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 97.61,
+    "reason": "Ranked in top 10. Score: 8.689 (momentum=10.0, trend=10.0, macd=7.0, volume=5.3, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.69,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.26,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "MMM",
+    "price": 151.77,
+    "reason": "Ranked in top 10. Score: 8.634 (momentum=10.0, trend=10.0, macd=7.0, volume=4.9, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.63,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.9,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "TMUS",
+    "price": 238.33,
+    "reason": "Ranked in top 10. Score: 8.628 (momentum=10.0, trend=10.0, macd=7.0, volume=6.9, event_boost=0.0) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 8.93,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.86,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-07-10",
+    "action": "SELL",
+    "ticker": "TMUS",
+    "price": 225.15,
+    "reason": "STOP LOSS triggered (-5.53% loss) PnL: -5.5% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.58"
+  },
+  {
+    "date": "2025-07-15",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 283.88,
+    "reason": "EARNINGS strong_beat: surprise 0.1089% [Momentum] [Regime bullish: 57.0% win rate] [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2025-07-18",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 120.92,
+    "reason": "STOP LOSS triggered (-6.52% loss) PnL: -6.5% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-07-18",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 697.34,
+    "reason": "EARNINGS strong_beat: surprise 0.1291% [Momentum] [Regime bullish: 55.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-07-21",
+    "action": "SELL",
+    "ticker": "AXP",
+    "price": 301.53,
+    "reason": "STOP LOSS triggered (-5.83% loss) PnL: -5.8% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-07-23",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 189.8,
+    "reason": "EARNINGS strong_beat: surprise 0.0567% [Momentum] [Regime bullish: 52.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2025-07-25",
+    "action": "SELL",
+    "ticker": "CHTR",
+    "price": 309.75,
+    "reason": "STOP LOSS triggered (-19.13% loss) PnL: -19.1% (held since 2025-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2025-07-29",
+    "action": "SELL",
+    "ticker": "SPOT",
+    "price": 620.01,
+    "reason": "STOP LOSS triggered (-14.17% loss) PnL: -14.2% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2025-07-29",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 80.53,
+    "reason": "EARNINGS strong_beat: surprise 0.0504% [Momentum] [Regime bullish: 48.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2025-07-30",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 510.28,
+    "reason": "EARNINGS strong_beat: surprise 0.0801% [Momentum] [Regime bullish: 48.0% win rate]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2025-08-01",
+    "action": "SELL",
+    "ticker": "DASH",
+    "price": 248.35,
+    "reason": "Dropped from top 10. Score: 7.58 Replaced by: META, MSFT, WMT PnL: +16.7% (held since 2025-06-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 7.58,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.23,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "action": "SELL",
+    "ticker": "MMM",
+    "price": 142.49,
+    "reason": "Dropped from top 10. Score: 7.02 Replaced by: META, MSFT, WMT PnL: -6.1% (held since 2025-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 7.02,
+      "momentum": 8.73,
+      "trend": 8,
+      "macd": 3,
+      "volume": 6.2,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 77.28,
+    "reason": "Dropped from top 10. Score: 4.3 Replaced by: META, MSFT, WMT PnL: -4.0% (held since 2025-07-29)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 4.3,
+      "momentum": 0.66,
+      "trend": 5,
+      "macd": 3,
+      "volume": 4.55,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "action": "BUY",
+    "ticker": "GE",
+    "price": 268.35,
+    "reason": "Ranked in top 10. Score: 9.406 (momentum=10.0, trend=10.0, macd=7.0, volume=3.4, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 8.41,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.37,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 137.49,
+    "reason": "Ranked in top 10. Score: 9.3 (momentum=10.0, trend=10.0, macd=3.0, volume=4.7, event_boost=1.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 9.3,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.66,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-08-01",
+    "action": "BUY",
+    "ticker": "PLTR",
+    "price": 154.27,
+    "reason": "Ranked in top 10. Score: 8.603 (momentum=10.0, trend=10.0, macd=3.0, volume=3.4, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 7.6,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.35,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "action": "SELL",
+    "ticker": "PLTR",
+    "price": 157.75,
+    "reason": "VOLUME CRASH: -9.3% \u2014 Momentum cutting loss PnL: +2.3% (held since 2025-08-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2025-08-21",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 97.56,
+    "reason": "EARNINGS strong_miss: surprise -0.0797% [Momentum] PnL: -0.1% (held since 2025-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.81"
+  },
+  {
+    "date": "2025-09-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 736.97,
+    "reason": "Dropped from top 10. Score: 7.72 Replaced by: DASH, GE, BA PnL: +29.2% (held since 2025-05-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 7.72,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.13,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 212.43,
+    "reason": "Dropped from top 10. Score: 7.58 Replaced by: DASH, GE, BA PnL: +11.9% (held since 2025-07-23)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 7.58,
+      "momentum": 7.78,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.81,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 504.59,
+    "reason": "Dropped from top 10. Score: 7.3 Replaced by: DASH, GE, BA PnL: -1.1% (held since 2025-07-30)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 7.3,
+      "momentum": 9.73,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.4,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "DASH",
+    "price": 245.25,
+    "reason": "Ranked in top 10. Score: 8.701 (momentum=10.0, trend=10.0, macd=3.0, volume=4.0, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 7.7,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.0,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 234.68,
+    "reason": "Ranked in top 10. Score: 8.571 (momentum=10.0, trend=10.0, macd=7.0, volume=4.5, event_boost=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 8.57,
+      "momentum": 10.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.48,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "RTX",
+    "price": 157.45,
+    "reason": "Ranked in top 10. Score: 8.451 (momentum=10.0, trend=10.0, macd=7.0, volume=3.7, event_boost=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 8.45,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.67,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "PLTR",
+    "price": 156.71,
+    "reason": "Ranked in top 10. Score: 8.4 (momentum=10.0, trend=10.0, macd=3.0, volume=6.7, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 8.1,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 6.67,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "TSLA",
+    "price": 333.87,
+    "reason": "Ranked in top 10. Score: 8.26 (momentum=10.0, trend=9.0, macd=7.0, volume=4.1, event_boost=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 8.26,
+      "momentum": 10,
+      "trend": 9,
+      "macd": 7,
+      "volume": 4.06,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-09-09",
+    "action": "SELL",
+    "ticker": "RTX",
+    "price": 150.65,
+    "reason": "STOP LOSS triggered (-4.32% loss) PnL: -4.3% (held since 2025-09-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.47"
+  },
+  {
+    "date": "2025-09-11",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 219.99,
+    "reason": "STOP LOSS triggered (-6.26% loss) PnL: -6.3% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2025-09-11",
+    "action": "BUY",
+    "ticker": "MU",
+    "price": 150.42,
+    "reason": "VOLUME SPIKE: +7.5% on 2.8x vol \u2014 Momentum catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2025-09-18",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 30.57,
+    "reason": "VOLUME SPIKE: +22.8% on 5.3x vol \u2014 Momentum catalyst play",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.81"
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 80.05,
+    "reason": "Dropped from top 10. Score: 7.86 Replaced by: V, ROKU, CRWD PnL: -0.2% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 7.86,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.1,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 777.54,
+    "reason": "Dropped from top 10. Score: 7.86 Replaced by: V, ROKU, CRWD PnL: +11.5% (held since 2025-07-18)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 7.86,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.04,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 155.09,
+    "reason": "Dropped from top 10. Score: 8.0 Replaced by: V, ROKU, CRWD PnL: +12.8% (held since 2025-08-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 8.0,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.99,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "MU",
+    "price": 181.96,
+    "reason": "Dropped from top 10. Score: 8.42 Replaced by: V, ROKU, CRWD PnL: +21.0% (held since 2025-09-11)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 8.42,
+      "momentum": 7.5,
+      "trend": 10,
+      "macd": 9,
+      "volume": 7.47,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 35.94,
+    "reason": "Dropped from top 10. Score: 7.31 Replaced by: V, ROKU, CRWD PnL: +17.6% (held since 2025-09-18)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 7.31,
+      "momentum": 5.38,
+      "trend": 10,
+      "macd": 7,
+      "volume": 8.37,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 346.43,
+    "reason": "Ranked in top 10. Score: 9.473 (momentum=9.8, trend=10.0, macd=9.0, volume=6.5, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 9.17,
+      "momentum": 9.75,
+      "trend": 10,
+      "macd": 9,
+      "volume": 6.48,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "ROKU",
+    "price": 103.57,
+    "reason": "Ranked in top 10. Score: 9.214 (momentum=10.0, trend=10.0, macd=9.0, volume=4.1, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 8.91,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 9,
+      "volume": 4.09,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "CRWD",
+    "price": 499.96,
+    "reason": "Ranked in top 10. Score: 9.089 (momentum=10.0, trend=10.0, macd=7.0, volume=5.9, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 8.79,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.93,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 73.24,
+    "reason": "Ranked in top 10. Score: 8.703 (momentum=2.7, trend=8.0, macd=9.0, volume=8.7, event_boost=1.5) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 7.7,
+      "momentum": 2.74,
+      "trend": 8,
+      "macd": 9,
+      "volume": 8.72,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "ZS",
+    "price": 304.53,
+    "reason": "Ranked in top 10. Score: 8.587 (momentum=10.0, trend=10.0, macd=7.0, volume=4.6, event_boost=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 8.59,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.58,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-10-07",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 68.02,
+    "reason": "STOP LOSS triggered (-7.13% loss) PnL: -7.1% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2025-10-08",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 235.56,
+    "reason": "VOLUME SPIKE: +11.4% on 2.5x vol \u2014 Momentum catalyst play [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-10",
+    "action": "SELL",
+    "ticker": "ROKU",
+    "price": 92.02,
+    "reason": "STOP LOSS triggered (-11.15% loss) PnL: -11.2% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-14",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 762.94,
+    "reason": "EARNINGS strong_beat: surprise 0.1049% [Momentum] [Regime normal: 53.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2025-10-22",
+    "action": "SELL",
+    "ticker": "TSLA",
+    "price": 438.97,
+    "reason": "EARNINGS strong_miss: surprise -0.1053% [Momentum] PnL: +31.5% (held since 2025-09-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2025-10-22",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 566.21,
+    "reason": "EARNINGS strong_beat: surprise 0.0532% [Momentum] [Regime normal: 56.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "GE",
+    "price": 307.82,
+    "reason": "Dropped from top 10. Score: 8.67 Replaced by: GS, MS, INTC PnL: +14.7% (held since 2025-08-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.67,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.13,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "DASH",
+    "price": 242.05,
+    "reason": "Dropped from top 10. Score: 7.48 Replaced by: GS, MS, INTC PnL: -1.3% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.48,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.86,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "PLTR",
+    "price": 207.18,
+    "reason": "Dropped from top 10. Score: 8.56 Replaced by: GS, MS, INTC PnL: +32.2% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.56,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.42,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 335.54,
+    "reason": "Dropped from top 10. Score: 6.84 Replaced by: GS, MS, INTC PnL: -3.1% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.84,
+      "momentum": 8.56,
+      "trend": 5,
+      "macd": 3,
+      "volume": 5.14,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "CRWD",
+    "price": 551.92,
+    "reason": "Dropped from top 10. Score: 6.83 Replaced by: GS, MS, INTC PnL: +10.4% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.83,
+      "momentum": 6.0,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.5,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "ZS",
+    "price": 336.27,
+    "reason": "Dropped from top 10. Score: 8.46 Replaced by: GS, MS, INTC PnL: +10.4% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.46,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.75,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 259.65,
+    "reason": "Dropped from top 10. Score: 8.04 Replaced by: GS, MS, INTC PnL: +10.2% (held since 2025-10-08)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.04,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.25,
+      "event_boost": -0.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 563.9,
+    "reason": "Dropped from top 10. Score: 7.33 Replaced by: GS, MS, INTC PnL: -0.4% (held since 2025-10-22)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.33,
+      "momentum": 4.99,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.9,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 162.75,
+    "reason": "Ranked in top 10. Score: 11.037 (momentum=10.0, trend=10.0, macd=7.0, volume=4.2, event_boost=1.5) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 10.04,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.25,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 39.5,
+    "reason": "Ranked in top 10. Score: 10.352 (momentum=10.0, trend=10.0, macd=3.0, volume=5.0, event_boost=1.5) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 9.35,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.02,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 569.26,
+    "reason": "Ranked in top 10. Score: 10.218 (momentum=10.0, trend=10.0, macd=7.0, volume=5.5, event_boost=1.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 10.22,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.46,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 254.0,
+    "reason": "Ranked in top 10. Score: 9.681 (momentum=8.1, trend=10.0, macd=7.0, volume=7.0, event_boost=1.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 9.68,
+      "momentum": 8.08,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.98,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 86.42,
+    "reason": "Ranked in top 10. Score: 9.664 (momentum=9.5, trend=10.0, macd=7.0, volume=5.1, event_boost=1.5) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 9.96,
+      "momentum": 9.51,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.07,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 52.98,
+    "reason": "Ranked in top 10. Score: 9.651 (momentum=8.9, trend=10.0, macd=7.0, volume=4.6, event_boost=1.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 9.65,
+      "momentum": 8.89,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.64,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "UBER",
+    "price": 99.72,
+    "reason": "Ranked in top 10. Score: 9.602 (momentum=10.0, trend=10.0, macd=7.0, volume=4.7, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.6,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.68,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "ROKU",
+    "price": 108.63,
+    "reason": "Ranked in top 10. Score: 9.201 (momentum=10.0, trend=10.0, macd=7.0, volume=6.7, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 8.9,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.67,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-11-06",
+    "action": "SELL",
+    "ticker": "UBER",
+    "price": 92.12,
+    "reason": "STOP LOSS triggered (-7.62% loss) PnL: -7.6% (held since 2025-11-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2025-11-06",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 24.02,
+    "reason": "EARNINGS strong_beat: surprise 0.3743% [Momentum] [Regime normal: 53.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2025-11-14",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 234.69,
+    "reason": "STOP LOSS triggered (-7.6% loss) PnL: -7.6% (held since 2025-11-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2025-11-14",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 105.09,
+    "reason": "EARNINGS strong_beat: surprise 0.0842% [Momentum] [Regime normal: 50.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2025-11-17",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 34.71,
+    "reason": "STOP LOSS triggered (-12.13% loss) PnL: -12.1% (held since 2025-11-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2025-11-19",
+    "action": "SELL",
+    "ticker": "ROKU",
+    "price": 93.1,
+    "reason": "STOP LOSS triggered (-14.3% loss) PnL: -14.3% (held since 2025-11-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.93"
+  },
+  {
+    "date": "2025-11-20",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 106.67,
+    "reason": "VOLUME SPIKE: +6.5% on 2.9x vol \u2014 Momentum catalyst play [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.93"
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "CAT",
+    "price": 566.73,
+    "reason": "Dropped from top 10. Score: 7.74 Replaced by: GOOGL, TSLA, DASH PnL: -0.4% (held since 2025-11-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 7.74,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.25,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 84.98,
+    "reason": "Dropped from top 10. Score: 6.75 Replaced by: GOOGL, TSLA, DASH PnL: -1.7% (held since 2025-11-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.75,
+      "momentum": 7.41,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.59,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 52.67,
+    "reason": "Dropped from top 10. Score: 8.06 Replaced by: GOOGL, TSLA, DASH PnL: -0.6% (held since 2025-11-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 8.06,
+      "momentum": 7.42,
+      "trend": 10,
+      "macd": 9,
+      "volume": 5.27,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 24.85,
+    "reason": "Dropped from top 10. Score: 6.5 Replaced by: GOOGL, TSLA, DASH PnL: +3.5% (held since 2025-11-06)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.5,
+      "momentum": 5.09,
+      "trend": 10,
+      "macd": 7,
+      "volume": 3.77,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 106.05,
+    "reason": "Dropped from top 10. Score: 6.25 Replaced by: GOOGL, TSLA, DASH PnL: +0.9% (held since 2025-11-14)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.25,
+      "momentum": 4.43,
+      "trend": 6,
+      "macd": 3,
+      "volume": 5.83,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 314.46,
+    "reason": "Ranked in top 10. Score: 10.127 (momentum=10.0, trend=10.0, macd=7.0, volume=8.2, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 9.13,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 8.18,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "TSLA",
+    "price": 430.14,
+    "reason": "Ranked in top 10. Score: 9.086 (momentum=10.0, trend=8.0, macd=7.0, volume=4.6, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 8.09,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.57,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "DASH",
+    "price": 205.58,
+    "reason": "Ranked in top 10. Score: 9.063 (momentum=10.0, trend=6.0, macd=7.0, volume=7.8, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 8.06,
+      "momentum": 10,
+      "trend": 6,
+      "macd": 7,
+      "volume": 7.75,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "MMM",
+    "price": 169.72,
+    "reason": "Ranked in top 10. Score: 8.766 (momentum=9.6, trend=10.0, macd=7.0, volume=4.9, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 8.47,
+      "momentum": 9.58,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.88,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "AMAT",
+    "price": 254.43,
+    "reason": "Ranked in top 10. Score: 8.646 (momentum=10.0, trend=10.0, macd=7.0, volume=5.0, event_boost=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 8.65,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.97,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "GE",
+    "price": 287.7,
+    "reason": "Ranked in top 10. Score: 8.475 (momentum=10.0, trend=8.0, macd=3.0, volume=5.8, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 7.48,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.84,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "action": "SELL",
+    "ticker": "MMM",
+    "price": 161.24,
+    "reason": "STOP LOSS triggered (-5.0% loss) PnL: -5.0% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2025-12-19",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 58.32,
+    "reason": "EARNINGS strong_beat: surprise 0.419% [Momentum] [Regime sideways: 0.0% win rate] [Memory adj: -1.0]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2025-12-19",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 58.32,
+    "reason": "VOLUME CRASH: -10.5% \u2014 Momentum cutting loss",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 111.18,
+    "reason": "Dropped from top 10. Score: 7.49 Replaced by: MU, JPM, LRCX PnL: +4.2% (held since 2025-11-20)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 7.49,
+      "momentum": 9.17,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.81,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 312.78,
+    "reason": "Dropped from top 10. Score: 7.62 Replaced by: MU, JPM, LRCX PnL: -0.5% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 7.62,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.49,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "TSLA",
+    "price": 449.72,
+    "reason": "Dropped from top 10. Score: 5.96 Replaced by: MU, JPM, LRCX PnL: +4.6% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 5.96,
+      "momentum": 5.47,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.49,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "DASH",
+    "price": 226.48,
+    "reason": "Dropped from top 10. Score: 7.46 Replaced by: MU, JPM, LRCX PnL: +10.2% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 7.46,
+      "momentum": 9.66,
+      "trend": 7,
+      "macd": 7,
+      "volume": 2.96,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "AMAT",
+    "price": 256.67,
+    "reason": "Dropped from top 10. Score: 7.74 Replaced by: MU, JPM, LRCX PnL: +0.9% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 7.74,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.25,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "MU",
+    "price": 285.41,
+    "reason": "Ranked in top 10. Score: 8.344 (momentum=10.0, trend=10.0, macd=7.0, volume=6.3, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 8.84,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 6.29,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "LRCX",
+    "price": 170.98,
+    "reason": "Ranked in top 10. Score: 8.149 (momentum=10.0, trend=10.0, macd=7.0, volume=5.0, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 8.65,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.0,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 226.67,
+    "reason": "Ranked in top 10. Score: 8.081 (momentum=10.0, trend=10.0, macd=7.0, volume=4.5, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 8.58,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.54,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "RTX",
+    "price": 182.79,
+    "reason": "Ranked in top 10. Score: 8.034 (momentum=10.0, trend=10.0, macd=7.0, volume=4.2, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 8.53,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.23,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "AMGN",
+    "price": 325.06,
+    "reason": "Ranked in top 10. Score: 7.377 (momentum=10.0, trend=10.0, macd=3.0, volume=5.2, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 7.88,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.18,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 214.16,
+    "reason": "Ranked in top 10. Score: 7.332 (momentum=10.0, trend=8.0, macd=7.0, volume=2.9, event_boost=0.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 7.83,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 2.88,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-01-28",
+    "action": "TRIM",
+    "ticker": "MU",
+    "price": 435.28,
+    "reason": "PROFIT TARGET: +53%, trimming 1/3 (11 shares). Holding 22. Next trim at +25% from $435.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 308.14,
+    "reason": "Dropped from top 10. Score: 5.98 Replaced by: CAT, MS, GS PnL: +8.5% (held since 2025-07-15)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.98,
+      "momentum": 8.95,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.32,
+      "event_boost": -1.0
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "GE",
+    "price": 308.26,
+    "reason": "Dropped from top 10. Score: 8.29 Replaced by: CAT, MS, GS PnL: +7.1% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.29,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 7.95,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 225.64,
+    "reason": "Dropped from top 10. Score: 8.08 Replaced by: CAT, MS, GS PnL: -0.5% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.08,
+      "momentum": 9.64,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.48,
+      "event_boost": -0.5
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "RTX",
+    "price": 200.42,
+    "reason": "Dropped from top 10. Score: 8.06 Replaced by: CAT, MS, GS PnL: +9.6% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.06,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 6.43,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "AMGN",
+    "price": 342.31,
+    "reason": "Dropped from top 10. Score: 7.89 Replaced by: CAT, MS, GS PnL: +5.3% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 7.89,
+      "momentum": 8.09,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.06,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 246.27,
+    "reason": "Dropped from top 10. Score: 8.22 Replaced by: CAT, MS, GS PnL: +15.0% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.22,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.45,
+      "event_boost": -0.5
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 690.91,
+    "reason": "Ranked in top 10. Score: 9.731 (momentum=10.0, trend=10.0, macd=7.0, volume=5.5, event_boost=1.5)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 10.23,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.54,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 233.02,
+    "reason": "Ranked in top 10. Score: 8.873 (momentum=9.8, trend=10.0, macd=3.0, volume=5.6, event_boost=1.5)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 9.37,
+      "momentum": 9.84,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.58,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 53.73,
+    "reason": "Ranked in top 10. Score: 8.564 (momentum=8.9, trend=10.0, macd=9.0, volume=4.6, event_boost=0.8) [Memory adj: -0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 9.36,
+      "momentum": 8.94,
+      "trend": 10,
+      "macd": 9,
+      "volume": 4.59,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 172.34,
+    "reason": "Ranked in top 10. Score: 8.396 (momentum=6.6, trend=10.0, macd=7.0, volume=5.8, event_boost=1.5)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.9,
+      "momentum": 6.56,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.82,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 48.81,
+    "reason": "Ranked in top 10. Score: 8.29 (momentum=10.0, trend=10.0, macd=3.0, volume=7.9, event_boost=1.5) [Memory adj: -1.0]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 9.79,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 7.93,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 85.75,
+    "reason": "Ranked in top 10. Score: 8.136 (momentum=7.8, trend=10.0, macd=7.0, volume=5.5, event_boost=0.8)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 8.64,
+      "momentum": 7.77,
+      "trend": 10,
+      "macd": 7,
+      "volume": 5.52,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2026-02-24",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 50.13,
+    "reason": "STOP LOSS triggered (-6.7% loss) PnL: -6.7% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2026-02-24",
+    "action": "BUY",
+    "ticker": "HD",
+    "price": 381.93,
+    "reason": "EARNINGS strong_beat: surprise 0.078% [Momentum] [Regime sideways: 43.0% win rate]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 861.7,
+    "reason": "Dropped from top 10. Score: 7.37 Replaced by: RTX, AMAT, GE PnL: +12.9% (held since 2025-10-14)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.37,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.15,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 167.0,
+    "reason": "Dropped from top 10. Score: 7.4 Replaced by: RTX, AMAT, GE PnL: +2.6% (held since 2025-11-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.4,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.3,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "MU",
+    "price": 412.67,
+    "reason": "Dropped from top 10. Score: 7.72 Replaced by: RTX, AMAT, GE PnL: +44.6% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.72,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.12,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "LRCX",
+    "price": 230.72,
+    "reason": "Dropped from top 10. Score: 7.69 Replaced by: RTX, AMAT, GE PnL: +34.9% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.69,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.92,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "CAT",
+    "price": 752.32,
+    "reason": "Dropped from top 10. Score: 7.84 Replaced by: RTX, AMAT, GE PnL: +8.9% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.84,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.95,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 229.74,
+    "reason": "Dropped from top 10. Score: 7.13 Replaced by: RTX, AMAT, GE PnL: -1.4% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.13,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 3.56,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 189.6,
+    "reason": "Dropped from top 10. Score: 6.8 Replaced by: RTX, AMAT, GE PnL: +10.0% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.8,
+      "momentum": 7.57,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.49,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 45.5,
+    "reason": "Dropped from top 10. Score: 7.62 Replaced by: RTX, AMAT, GE PnL: -6.8% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.62,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 3.47,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "HD",
+    "price": 368.35,
+    "reason": "Dropped from top 10. Score: 5.87 Replaced by: RTX, AMAT, GE PnL: -3.6% (held since 2026-02-24)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 5.87,
+      "momentum": 4.47,
+      "trend": 5,
+      "macd": 3,
+      "volume": 4.9,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "RTX",
+    "price": 212.16,
+    "reason": "Ranked in top 10. Score: 9.558 (momentum=10.0, trend=10.0, macd=9.0, volume=6.4, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 9.26,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 9,
+      "volume": 6.39,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "AMAT",
+    "price": 372.18,
+    "reason": "Ranked in top 10. Score: 8.933 (momentum=10.0, trend=10.0, macd=7.0, volume=4.9, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 8.63,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.88,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "GE",
+    "price": 345.24,
+    "reason": "Ranked in top 10. Score: 8.918000000000001 (momentum=10.0, trend=10.0, macd=7.0, volume=4.8, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 8.62,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 7,
+      "volume": 4.79,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 630.88,
+    "reason": "Ranked in top 10. Score: 8.451 (momentum=6.9, trend=10.0, macd=3.0, volume=7.3, event_boost=1.5)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 8.45,
+      "momentum": 6.89,
+      "trend": 10,
+      "macd": 3,
+      "volume": 7.31,
+      "event_boost": 1.5
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 198.62,
+    "reason": "Ranked in top 10. Score: 8.379 (momentum=10.0, trend=8.0, macd=3.0, volume=5.2, event_boost=0.0) [Memory adj: +1.0]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.38,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 3,
+      "volume": 5.2,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "TSLA",
+    "price": 403.32,
+    "reason": "Ranked in top 10. Score: 8.364 (momentum=10.0, trend=8.0, macd=7.0, volume=4.4, event_boost=0.0) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 8.06,
+      "momentum": 10,
+      "trend": 8,
+      "macd": 7,
+      "volume": 4.43,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 126.84,
+    "reason": "Ranked in top 10. Score: 8.303 (momentum=8.7, trend=10.0, macd=3.0, volume=4.2, event_boost=0.8) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 8.0,
+      "momentum": 8.66,
+      "trend": 10,
+      "macd": 3,
+      "volume": 4.25,
+      "event_boost": 0.8
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 248.56,
+    "reason": "Ranked in top 10. Score: 7.918 (momentum=10.0, trend=10.0, macd=3.0, volume=5.5, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.92,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.45,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 154.22,
+    "reason": "Ranked in top 10. Score: 7.877 (momentum=10.0, trend=10.0, macd=3.0, volume=5.2, event_boost=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 7.88,
+      "momentum": 10,
+      "trend": 10,
+      "macd": 3,
+      "volume": 5.18,
+      "event_boost": 0
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "action": "SELL",
+    "ticker": "AMAT",
+    "price": 324.74,
+    "reason": "STOP LOSS triggered (-12.75% loss) PnL: -12.7% (held since 2026-03-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.36"
+  },
+  {
+    "date": "2026-03-12",
+    "action": "SELL",
+    "ticker": "GE",
+    "price": 306.7,
+    "reason": "STOP LOSS triggered (-11.16% loss) PnL: -11.2% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2026-03-13",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 577.5,
+    "reason": "STOP LOSS triggered (-8.46% loss) PnL: -8.5% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2026-03-18",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 237.28,
+    "reason": "STOP LOSS triggered (-4.54% loss) PnL: -4.5% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2026-03-20",
+    "action": "SELL",
+    "ticker": "TSLA",
+    "price": 367.96,
+    "reason": "STOP LOSS triggered (-8.77% loss) PnL: -8.8% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.86"
+  },
+  {
+    "date": "2026-03-20",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 119.02,
+    "reason": "STOP LOSS triggered (-6.17% loss) PnL: -6.2% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.86"
+  },
+  {
+    "date": "2026-03-23",
+    "action": "SELL",
+    "ticker": "RTX",
+    "price": 194.82,
+    "reason": "STOP LOSS triggered (-8.17% loss) PnL: -8.2% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.59"
+  }
+]

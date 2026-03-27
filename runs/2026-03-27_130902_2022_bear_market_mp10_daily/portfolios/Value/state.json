@@ -1,0 +1,47 @@
+{
+  "final_value": 84531.31,
+  "cash": 21611.18,
+  "positions": {
+    "HON": {
+      "shares": 49,
+      "entry_price": 152.4468231201172,
+      "entry_date": "2022-07-01"
+    },
+    "MA": {
+      "shares": 25,
+      "entry_price": 284.5309143066406,
+      "entry_date": "2022-10-03"
+    },
+    "V": {
+      "shares": 40,
+      "entry_price": 176.8297119140625,
+      "entry_date": "2022-10-03"
+    },
+    "ABT": {
+      "shares": 77,
+      "entry_price": 92.96847534179688,
+      "entry_date": "2022-10-03"
+    },
+    "UPS": {
+      "shares": 52,
+      "entry_price": 136.80624389648438,
+      "entry_date": "2022-10-03"
+    },
+    "FIS": {
+      "shares": 104,
+      "entry_price": 69.60466003417969,
+      "entry_date": "2022-10-03"
+    },
+    "PG": {
+      "shares": 61,
+      "entry_price": 117.46289825439453,
+      "entry_date": "2022-10-03"
+    },
+    "PFE": {
+      "shares": 200,
+      "entry_price": 36.18544387817383,
+      "entry_date": "2022-10-03"
+    }
+  },
+  "return_pct": -15.47
+}

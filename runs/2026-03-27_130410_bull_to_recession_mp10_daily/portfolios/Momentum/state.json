@@ -1,0 +1,37 @@
+{
+  "final_value": 80714.85,
+  "cash": 35232.3,
+  "positions": {
+    "OXY": {
+      "shares": 62,
+      "entry_price": 54.131439208984375,
+      "entry_date": "2022-03-09"
+    },
+    "PANW": {
+      "shares": 99,
+      "entry_price": 79.77999877929688,
+      "entry_date": "2022-05-20"
+    },
+    "COST": {
+      "shares": 19,
+      "entry_price": 436.46600341796875,
+      "entry_date": "2022-06-01"
+    },
+    "CHTR": {
+      "shares": 20,
+      "entry_price": 441.9599914550781,
+      "entry_date": "2022-06-17"
+    },
+    "ABNB": {
+      "shares": 84,
+      "entry_price": 103.51000213623047,
+      "entry_date": "2022-06-24"
+    },
+    "NKE": {
+      "shares": 85,
+      "entry_price": 103.4818115234375,
+      "entry_date": "2022-06-27"
+    }
+  },
+  "return_pct": -19.29
+}

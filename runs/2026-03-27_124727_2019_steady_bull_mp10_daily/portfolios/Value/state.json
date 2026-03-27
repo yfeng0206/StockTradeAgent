@@ -1,0 +1,60 @@
+{
+  "final_value": 138846.09,
+  "cash": 17487.27,
+  "positions": {
+    "MMM": {
+      "shares": 108,
+      "entry_price": 104.80547332763672,
+      "entry_date": "2019-10-01"
+    },
+    "PFE": {
+      "shares": 462,
+      "entry_price": 24.650434494018555,
+      "entry_date": "2019-10-01"
+    },
+    "UNH": {
+      "shares": 39,
+      "entry_price": 194.7010498046875,
+      "entry_date": "2019-10-01",
+      "_last_trim_price": 253.37754821777344
+    },
+    "CAT": {
+      "shares": 106,
+      "entry_price": 106.92511749267578,
+      "entry_date": "2019-10-01"
+    },
+    "SPOT": {
+      "shares": 68,
+      "entry_price": 112.5199966430664,
+      "entry_date": "2019-10-01",
+      "_last_trim_price": 146.9199981689453
+    },
+    "XOM": {
+      "shares": 222,
+      "entry_price": 51.22256088256836,
+      "entry_date": "2019-10-01"
+    },
+    "DIS": {
+      "shares": 90,
+      "entry_price": 125.81558227539062,
+      "entry_date": "2019-10-01"
+    },
+    "SLB": {
+      "shares": 410,
+      "entry_price": 27.834598541259766,
+      "entry_date": "2019-10-01"
+    },
+    "COP": {
+      "shares": 261,
+      "entry_price": 43.61310577392578,
+      "entry_date": "2019-10-01"
+    },
+    "GE": {
+      "shares": 183,
+      "entry_price": 41.639183044433594,
+      "entry_date": "2019-10-01",
+      "_last_trim_price": 54.600040435791016
+    }
+  },
+  "return_pct": 38.85
+}

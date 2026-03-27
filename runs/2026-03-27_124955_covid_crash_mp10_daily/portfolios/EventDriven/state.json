@@ -1,0 +1,52 @@
+{
+  "final_value": 94666.18,
+  "cash": 10184.32,
+  "positions": {
+    "INTC": {
+      "shares": 173,
+      "entry_price": 52.335174560546875,
+      "entry_date": "2020-04-23"
+    },
+    "AAPL": {
+      "shares": 119,
+      "entry_price": 69.8468017578125,
+      "entry_date": "2020-05-01"
+    },
+    "NVDA": {
+      "shares": 1370,
+      "entry_price": 8.99100112915039,
+      "entry_date": "2020-05-22"
+    },
+    "DE": {
+      "shares": 51,
+      "entry_price": 138.13436889648438,
+      "entry_date": "2020-06-01"
+    },
+    "CRM": {
+      "shares": 41,
+      "entry_price": 174.24290466308594,
+      "entry_date": "2020-06-01"
+    },
+    "MSFT": {
+      "shares": 41,
+      "entry_price": 174.15509033203125,
+      "entry_date": "2020-06-01"
+    },
+    "TSLA": {
+      "shares": 119,
+      "entry_price": 59.87333297729492,
+      "entry_date": "2020-06-01"
+    },
+    "ADBE": {
+      "shares": 44,
+      "entry_price": 406.5400085449219,
+      "entry_date": "2020-06-12"
+    },
+    "LLY": {
+      "shares": 22,
+      "entry_price": 153.55711364746094,
+      "entry_date": "2020-06-16"
+    }
+  },
+  "return_pct": -5.33
+}

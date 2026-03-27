@@ -1,0 +1,822 @@
+{
+  "COST": [
+    {
+      "note": "Entry: $437.54 on 2023-01-02. Regime: normal. News: geo_risk=0.25.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-01-02"
+    }
+  ],
+  "PANW": [
+    {
+      "note": "Entry: $148.08 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "WFC": [
+    {
+      "note": "Entry: $40.50 on 2023-07-03. Regime: bullish. News: geo_risk=0.67.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-07-03"
+    },
+    {
+      "note": "Bought during geo risk 0.67. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-07-03"
+    }
+  ],
+  "MMM": [
+    {
+      "note": "Entry: $70.13 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "AXP": [
+    {
+      "note": "Entry: $142.03 on 2023-01-02. Regime: normal. News: geo_risk=0.25.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-01-02"
+    }
+  ],
+  "AAPL": [
+    {
+      "note": "Entry: $189.97 on 2023-07-03. Regime: bullish. News: geo_risk=0.67.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-07-03"
+    },
+    {
+      "note": "Bought during geo risk 0.67. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-07-03"
+    }
+  ],
+  "ROKU": [
+    {
+      "note": "Entry: $103.54 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "TSLA": [
+    {
+      "note": "Entry: $261.07 on 2023-08-01. Regime: bullish. News: geo_risk=0.71.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-08-01"
+    },
+    {
+      "note": "Bought during geo risk 0.71. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-08-01"
+    }
+  ],
+  "MU": [
+    {
+      "note": "Entry: $68.24 on 2023-06-01. Regime: sideways. News: geo_risk=0.70.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-06-01"
+    },
+    {
+      "note": "Bought during geo risk 0.70. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-06-01"
+    }
+  ],
+  "INTC": [
+    {
+      "note": "Entry: $43.16 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "JNJ": [
+    {
+      "note": "Entry: $149.60 on 2023-04-20. Regime: sideways. News: geo_risk=0.88.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-04-20"
+    },
+    {
+      "note": "Bought during geo risk 0.88. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-04-20"
+    }
+  ],
+  "V": [
+    {
+      "note": "Entry: $224.44 on 2023-04-25. Regime: sideways. News: geo_risk=0.59.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-04-25"
+    },
+    {
+      "note": "Bought during geo risk 0.59. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-04-25"
+    }
+  ],
+  "PFE": [
+    {
+      "note": "Entry: $29.87 on 2023-08-04. Regime: normal. News: geo_risk=0.72.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-08-04"
+    },
+    {
+      "note": "Bought during geo risk 0.72. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-08-04"
+    }
+  ],
+  "META": [
+    {
+      "note": "Entry: $211.41 on 2023-04-03. Regime: normal. News: geo_risk=0.57.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-04-03"
+    },
+    {
+      "note": "Bought during geo risk 0.57. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-04-03"
+    }
+  ],
+  "NVDA": [
+    {
+      "note": "Entry: $49.91 on 2023-11-21. Regime: bullish. News: geo_risk=0.76.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-21"
+    },
+    {
+      "note": "Bought during geo risk 0.76. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-11-21"
+    }
+  ],
+  "NFLX": [
+    {
+      "note": "Entry: $34.62 on 2023-10-18. Regime: sideways. News: geo_risk=0.57.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-18"
+    },
+    {
+      "note": "Bought during geo risk 0.57. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-18"
+    }
+  ],
+  "AMD": [
+    {
+      "note": "Entry: $96.56 on 2023-04-03. Regime: normal. News: geo_risk=0.57.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-04-03"
+    },
+    {
+      "note": "Bought during geo risk 0.57. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-04-03"
+    }
+  ],
+  "ADBE": [
+    {
+      "note": "Entry: $563.21 on 2023-09-01. Regime: normal. News: geo_risk=0.66.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-09-01"
+    },
+    {
+      "note": "Bought during geo risk 0.66. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-09-01"
+    }
+  ],
+  "AVGO": [
+    {
+      "note": "Entry: $57.51 on 2023-02-01. Regime: bullish. News: geo_risk=0.69.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-02-01"
+    }
+  ],
+  "LRCX": [
+    {
+      "note": "Entry: $63.42 on 2023-07-03. Regime: bullish. News: geo_risk=0.67.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-07-03"
+    },
+    {
+      "note": "Bought during geo risk 0.67. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-07-03"
+    }
+  ],
+  "AMAT": [
+    {
+      "note": "Entry: $119.20 on 2023-04-03. Regime: normal. News: geo_risk=0.57.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-04-03"
+    },
+    {
+      "note": "Bought during geo risk 0.57. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-04-03"
+    }
+  ],
+  "KLAC": [
+    {
+      "note": "Entry: $397.37 on 2023-02-01. Regime: bullish. News: geo_risk=0.69.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-02-01"
+    }
+  ],
+  "ON": [
+    {
+      "note": "Entry: $77.84 on 2023-02-01. Regime: bullish. News: geo_risk=0.69.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-02-01"
+    }
+  ],
+  "LLY": [
+    {
+      "note": "Entry: $516.02 on 2023-08-09. Regime: normal. News: geo_risk=0.54.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-08-09"
+    },
+    {
+      "note": "Bought during geo risk 0.54. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-08-09"
+    }
+  ],
+  "DE": [
+    {
+      "note": "Entry: $359.01 on 2023-11-22. Regime: bullish. News: geo_risk=0.77.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-22"
+    },
+    {
+      "note": "Bought during geo risk 0.77. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-11-22"
+    }
+  ],
+  "WMT": [
+    {
+      "note": "Entry: $53.48 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "CRM": [
+    {
+      "note": "Entry: $256.88 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "BAC": [
+    {
+      "note": "Entry: $25.10 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "D": [
+    {
+      "note": "Entry: $37.48 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "AMT": [
+    {
+      "note": "Entry: $148.42 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "DIS": [
+    {
+      "note": "Entry: $96.27 on 2023-03-01. Regime: sideways. News: geo_risk=0.04.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-03-01"
+    }
+  ],
+  "ISRG": [
+    {
+      "note": "Entry: $303.02 on 2023-05-01. Regime: bullish. News: geo_risk=0.57.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-05-01"
+    },
+    {
+      "note": "Bought during geo risk 0.57. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-05-01"
+    }
+  ],
+  "PLD": [
+    {
+      "note": "Entry: $109.29 on 2023-03-01. Regime: sideways. News: geo_risk=0.04.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-03-01"
+    }
+  ],
+  "ABT": [
+    {
+      "note": "Entry: $95.07 on 2023-03-01. Regime: sideways. News: geo_risk=0.04.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-03-01"
+    }
+  ],
+  "SO": [
+    {
+      "note": "Entry: $62.74 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "NKE": [
+    {
+      "note": "Entry: $116.92 on 2023-12-21. Regime: bullish. News: geo_risk=0.64.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-21"
+    },
+    {
+      "note": "Bought during geo risk 0.64. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-12-21"
+    }
+  ],
+  "MSFT": [
+    {
+      "note": "Entry: $324.27 on 2023-10-24. Regime: normal. News: geo_risk=0.52.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-24"
+    },
+    {
+      "note": "Bought during geo risk 0.52. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-24"
+    }
+  ],
+  "JPM": [
+    {
+      "note": "Entry: $141.56 on 2023-07-14. Regime: bullish. News: geo_risk=0.52.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-07-14"
+    },
+    {
+      "note": "Bought during geo risk 0.52. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-07-14"
+    }
+  ],
+  "GS": [
+    {
+      "note": "Entry: $314.72 on 2023-04-20. Regime: sideways. News: geo_risk=0.88.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-04-20"
+    },
+    {
+      "note": "Bought during geo risk 0.88. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-04-20"
+    }
+  ],
+  "GOOGL": [
+    {
+      "note": "Entry: $121.28 on 2023-10-26. Regime: bearish. News: geo_risk=0.50.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-26"
+    }
+  ],
+  "LULU": [
+    {
+      "note": "Entry: $395.29 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "SPOT": [
+    {
+      "note": "Entry: $167.63 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "GE": [
+    {
+      "note": "Entry: $79.48 on 2023-05-01. Regime: bullish. News: geo_risk=0.57.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-05-01"
+    },
+    {
+      "note": "Bought during geo risk 0.57. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-05-01"
+    }
+  ],
+  "AMZN": [
+    {
+      "note": "Entry: $127.74 on 2023-10-27. Regime: bearish. News: geo_risk=0.50.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-27"
+    }
+  ],
+  "MRVL": [
+    {
+      "note": "Entry: $65.37 on 2023-08-01. Regime: bullish. News: geo_risk=0.71.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-08-01"
+    },
+    {
+      "note": "Bought during geo risk 0.71. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-08-01"
+    }
+  ],
+  "NOW": [
+    {
+      "note": "Entry: $118.70 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "CRWD": [
+    {
+      "note": "Entry: $178.35 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "DDOG": [
+    {
+      "note": "Entry: $118.62 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "SHOP": [
+    {
+      "note": "Entry: $73.86 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "PEP": [
+    {
+      "note": "Entry: $170.67 on 2023-07-13. Regime: bullish. News: geo_risk=0.54.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-07-13"
+    },
+    {
+      "note": "Bought during geo risk 0.54. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-07-13"
+    }
+  ],
+  "MRK": [
+    {
+      "note": "Entry: $96.42 on 2023-08-04. Regime: normal. News: geo_risk=0.72.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-08-04"
+    },
+    {
+      "note": "Bought during geo risk 0.72. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-08-04"
+    }
+  ],
+  "CAT": [
+    {
+      "note": "Entry: $266.03 on 2023-08-04. Regime: normal. News: geo_risk=0.72.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-08-04"
+    },
+    {
+      "note": "Bought during geo risk 0.72. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-08-04"
+    }
+  ],
+  "DASH": [
+    {
+      "note": "Entry: $84.04 on 2023-09-01. Regime: normal. News: geo_risk=0.66.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-09-01"
+    },
+    {
+      "note": "Bought during geo risk 0.66. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-09-01"
+    }
+  ],
+  "COP": [
+    {
+      "note": "Entry: $112.82 on 2023-09-01. Regime: normal. News: geo_risk=0.66.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-09-01"
+    },
+    {
+      "note": "Bought during geo risk 0.66. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-09-01"
+    }
+  ],
+  "SLB": [
+    {
+      "note": "Entry: $56.00 on 2023-09-01. Regime: normal. News: geo_risk=0.66.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-09-01"
+    },
+    {
+      "note": "Bought during geo risk 0.66. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-09-01"
+    }
+  ],
+  "CHTR": [
+    {
+      "note": "Entry: $422.32 on 2023-09-01. Regime: normal. News: geo_risk=0.66.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-09-01"
+    },
+    {
+      "note": "Bought during geo risk 0.66. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-09-01"
+    }
+  ],
+  "EMR": [
+    {
+      "note": "Entry: $94.53 on 2023-09-01. Regime: normal. News: geo_risk=0.66.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-09-01"
+    },
+    {
+      "note": "Bought during geo risk 0.66. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-09-01"
+    }
+  ],
+  "AMGN": [
+    {
+      "note": "Entry: $237.80 on 2023-09-01. Regime: normal. News: geo_risk=0.66.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-09-01"
+    },
+    {
+      "note": "Bought during geo risk 0.66. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-09-01"
+    }
+  ],
+  "NEE": [
+    {
+      "note": "Entry: $48.41 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "TGT": [
+    {
+      "note": "Entry: $97.23 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "BA": [
+    {
+      "note": "Entry: $187.83 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "RTX": [
+    {
+      "note": "Entry: $67.70 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "SBUX": [
+    {
+      "note": "Entry: $85.49 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "BLK": [
+    {
+      "note": "Entry: $607.96 on 2023-10-02. Regime: bearish. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-10-02"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2023-10-02"
+    }
+  ],
+  "VRTX": [
+    {
+      "note": "Entry: $369.33 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "TMUS": [
+    {
+      "note": "Entry: $139.46 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "UNH": [
+    {
+      "note": "Entry: $505.16 on 2023-11-01. Regime: normal. News: geo_risk=0.36.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-11-01"
+    }
+  ],
+  "ZS": [
+    {
+      "note": "Entry: $198.03 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "UBER": [
+    {
+      "note": "Entry: $57.35 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "COIN": [
+    {
+      "note": "Entry: $133.76 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ],
+  "PLTR": [
+    {
+      "note": "Entry: $20.27 on 2023-12-01. Regime: bullish. News: geo_risk=0.48.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2023-12-01"
+    }
+  ]
+}

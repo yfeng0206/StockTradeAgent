@@ -1,0 +1,57 @@
+{
+  "final_value": 137863.42,
+  "cash": 8395.68,
+  "positions": {
+    "MSFT": {
+      "shares": 35,
+      "entry_price": 334.2225341796875,
+      "entry_date": "2023-10-25"
+    },
+    "AMZN": {
+      "shares": 77,
+      "entry_price": 119.56999969482422,
+      "entry_date": "2023-10-26"
+    },
+    "DIS": {
+      "shares": 156,
+      "entry_price": 88.26148986816406,
+      "entry_date": "2023-11-09"
+    },
+    "CRM": {
+      "shares": 51,
+      "entry_price": 256.87884521484375,
+      "entry_date": "2023-12-01"
+    },
+    "HD": {
+      "shares": 43,
+      "entry_price": 302.3681640625,
+      "entry_date": "2023-12-01"
+    },
+    "DE": {
+      "shares": 36,
+      "entry_price": 357.1219177246094,
+      "entry_date": "2023-12-01"
+    },
+    "NVDA": {
+      "shares": 281,
+      "entry_price": 46.732322692871094,
+      "entry_date": "2023-12-01"
+    },
+    "AAPL": {
+      "shares": 69,
+      "entry_price": 189.27374267578125,
+      "entry_date": "2023-12-01"
+    },
+    "ABBV": {
+      "shares": 99,
+      "entry_price": 132.61138916015625,
+      "entry_date": "2023-12-01"
+    },
+    "LULU": {
+      "shares": 16,
+      "entry_price": 489.6400146484375,
+      "entry_date": "2023-12-08"
+    }
+  },
+  "return_pct": 37.86
+}

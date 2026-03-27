@@ -1,0 +1,52 @@
+{
+  "final_value": 120143.2,
+  "cash": 11103.93,
+  "positions": {
+    "NFLX": {
+      "shares": 213,
+      "entry_price": 40.09600067138672,
+      "entry_date": "2023-10-20"
+    },
+    "INTC": {
+      "shares": 241,
+      "entry_price": 34.95536804199219,
+      "entry_date": "2023-10-27"
+    },
+    "CRM": {
+      "shares": 46,
+      "entry_price": 201.46217346191406,
+      "entry_date": "2023-11-01"
+    },
+    "PANW": {
+      "shares": 78,
+      "entry_price": 148.0800018310547,
+      "entry_date": "2023-12-01"
+    },
+    "NVDA": {
+      "shares": 247,
+      "entry_price": 46.732322692871094,
+      "entry_date": "2023-12-01"
+    },
+    "LRCX": {
+      "shares": 164,
+      "entry_price": 70.55504608154297,
+      "entry_date": "2023-12-01"
+    },
+    "TSLA": {
+      "shares": 48,
+      "entry_price": 238.8300018310547,
+      "entry_date": "2023-12-01"
+    },
+    "AVGO": {
+      "shares": 128,
+      "entry_price": 90.33647918701172,
+      "entry_date": "2023-12-01"
+    },
+    "DASH": {
+      "shares": 119,
+      "entry_price": 96.58000183105469,
+      "entry_date": "2023-12-01"
+    }
+  },
+  "return_pct": 20.14
+}

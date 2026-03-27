@@ -1,0 +1,87 @@
+{
+  "strategies": {
+    "Value": {
+      "final_value": 138846.09,
+      "total_return_pct": 38.85,
+      "alpha_vs_spy": 8.13,
+      "sharpe_ratio": 2.629,
+      "max_drawdown_pct": -8.9,
+      "total_trades": 70,
+      "win_rate_pct": 60.7
+    },
+    "Momentum": {
+      "final_value": 135530.52,
+      "total_return_pct": 35.53,
+      "alpha_vs_spy": 4.81,
+      "sharpe_ratio": 1.955,
+      "max_drawdown_pct": -6.3,
+      "total_trades": 177,
+      "win_rate_pct": 60.2
+    },
+    "Balanced": {
+      "final_value": 118604.73,
+      "total_return_pct": 18.6,
+      "alpha_vs_spy": -12.12,
+      "sharpe_ratio": 1.586,
+      "max_drawdown_pct": -6.79,
+      "total_trades": 114,
+      "win_rate_pct": 55.8
+    },
+    "Defensive": {
+      "final_value": 121555.8,
+      "total_return_pct": 21.56,
+      "alpha_vs_spy": -9.16,
+      "sharpe_ratio": 2.336,
+      "max_drawdown_pct": -2.99,
+      "total_trades": 71,
+      "win_rate_pct": 33.3
+    },
+    "EventDriven": {
+      "final_value": 114029.82,
+      "total_return_pct": 14.03,
+      "alpha_vs_spy": -16.69,
+      "sharpe_ratio": 1.689,
+      "max_drawdown_pct": -5.35,
+      "total_trades": 165,
+      "win_rate_pct": 59.8
+    },
+    "Adaptive": {
+      "final_value": 122963.27,
+      "total_return_pct": 22.96,
+      "alpha_vs_spy": -7.76,
+      "sharpe_ratio": 1.423,
+      "max_drawdown_pct": -9.3,
+      "total_trades": 136,
+      "win_rate_pct": 58.1
+    },
+    "Commodity": {
+      "final_value": 96817.84,
+      "total_return_pct": -3.18,
+      "alpha_vs_spy": -33.9,
+      "sharpe_ratio": -0.332,
+      "max_drawdown_pct": -8.3,
+      "total_trades": 8,
+      "win_rate_pct": 25.0
+    }
+  },
+  "benchmarks": {
+    "SPY": {
+      "final_value": 130723.72,
+      "total_return_pct": 30.72,
+      "sharpe_ratio": 2.217,
+      "max_drawdown_pct": -6.61
+    },
+    "QQQ": {
+      "final_value": 138117.29,
+      "total_return_pct": 38.12,
+      "sharpe_ratio": 2.086,
+      "max_drawdown_pct": -10.98
+    },
+    "ONEQ": {
+      "final_value": 136099.27,
+      "total_return_pct": 36.1,
+      "sharpe_ratio": 2.07,
+      "max_drawdown_pct": -10.05
+    }
+  }
+}

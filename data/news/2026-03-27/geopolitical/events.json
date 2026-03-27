@@ -1,0 +1,199 @@
+{
+  "collected": "2026-03-27T12:20:46.268349",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 20,
+  "articles": [
+    {
+      "title": "Putin warns about unpredictable course in Middle East conflict",
+      "source": "dailypost.ng",
+      "url": "https://dailypost.ng/2026/03/26/putin-warns-about-unpredictable-course-in-middle-east-conflict/",
+      "published": "20260326T210000Z",
+      "language": "English",
+      "source_country": "Nigeria",
+      "query": "(war OR conflict OR military OR sanctions)",
+      "summary": "President Vladimir Putin on Thursday said the consequences of the Middle East conflict are unforeseeable and could be long-term due to its widespread impact. The war is inflicting significant damage on international logistics, production, and supply chains, Putin said at the 35th Congress of the Russian Union of Industrialists and Entrepreneurs. Putin decried how different sectors, including the extraction and processing of hydrocarbons, metals, fertilizers, and other goods and commodities, have been badly affected."
+    },
+    {
+      "title": "Канада розширила санкції проти Ірану за військову підтримку Росії",
+      "source": "ukrinform.ua",
+      "url": "https://www.ukrinform.ua/rubric-world/4106070-kanada-rozsirila-sankcii-proti-iranu-za-vijskovu-pidtrimku-rosii.html",
+      "published": "20260327T060000Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Что ответил Иран на мирный план Трампа и виден ли конец войны",
+      "source": "korrespondent.net",
+      "url": "https://korrespondent.net/articles/4865988-chto-otvetyl-yran-na-myrnyi-plan-trampa-y-vyden-ly-konets-voiny",
+      "published": "20260327T120000Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "  Вашингтон умоляет . Внезапный шаг Ирана шокировал Запад",
+      "source": "1prime.ru",
+      "url": "https://1prime.ru/20260326/iran-868666313.html",
+      "published": "20260326T203000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "China top chipmaker has supplied chipmaking tech to Iran military , US officials say",
+      "source": "asiaone.com",
+      "url": "https://www.asiaone.com:443/world/chinas-top-chipmaker-has-supplied-chipmaking-tech-iran-military-us-officials-say",
+      "published": "20260327T073000Z",
+      "language": "English",
+      "source_country": "Singapore",
+      "query": "(war OR conflict OR military OR sanctions)",
+      "summary": "China&#x27;s top chipmaker has supplied chipmaking tech to Iran military, US officials say A logo of Semiconductor Manufacturing International Corporation (SMIC) is seen at China International Semiconductor Expo in Shanghai, China on Oct 14, 2020. Manufacturing International Corporation (SMIC), China&#x27;s largest chipmaker, has sent chipmaking tools to Iran&#x27;s military, two senior Trump administration officials said on Thursday (March 26), raising questions about Beijing&#x27;s stance in the month-old US-Israeli conflict with Iran. SMIC, which has been heavily sanctioned by the US government over alleged ties to the Chinese military, began sending the tools to Iran roughly a year ago and \"we have no reason to believe that any of this has stopped\", one of the officials said."
+    },
+    {
+      "title": "中芯國際疑向伊朗軍方提供晶片製造設備 ， 美中緊張關係再度升溫",
+      "source": "technews.tw",
+      "url": "https://technews.tw/2026/03/27/china-smic-iran-military/",
+      "published": "20260327T044500Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Лавров подтвердил военные поставки Ирану",
+      "source": "deita.ru",
+      "url": "https://deita.ru/article/583140",
+      "published": "20260327T073000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "专家 ： 核心利益冲突叠加战略失信 ， 美伊短期恐难以达成协议",
+      "source": "sputniknews.cn",
+      "url": "https://sputniknews.cn/20260327/1070473806.html",
+      "published": "20260327T091500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Iran military may have received chipmaking support from China : US officials",
+      "source": "geo.tv",
+      "url": "https://www.geo.tv/latest/657358-us-says-iran-may-have-received-chipmaking-support-from-china",
+      "published": "20260327T061500Z",
+      "language": "English",
+      "source_country": "Pakistan",
+      "query": "(war OR conflict OR military OR sanctions)",
+      "summary": "Tech Food Fact Check big picture Videos shows Watch --> Iran military may have received chipmaking support from China: US officials Chinese government maintains that it carries out normal commercial trade with Iran By Reuters | March 27, 2026 The representational image shows the troops of the IRGC. AFP/File US officials say shipments began year ago and may still be ongoing. Says collaboration may include training on semiconductor technology."
+    },
+    {
+      "title": "川普急喊停戰卻碰壁 美伊 「 認知落差 」 戰局失控升溫 - 政治圈",
+      "source": "chinatimes.com",
+      "url": "https://www.chinatimes.com/realtimenews/20260327001716-260408",
+      "published": "20260327T031500Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Pasiruošė galimai JAV invazijai : Iranas sutelkė per 1 mln . žmonių pajėgas",
+      "source": "15min.lt",
+      "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/pasiruose-galimai-jav-invazijai-iranas-sutelke-per-1-mln-zmoniu-pajegas-57-2651134",
+      "published": "20260327T181500Z",
+      "language": "Lithuanian",
+      "source_country": "Lithuania",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Keir Starmer warns against forgetting threat posed by Russia during Iran War",
+      "source": "lbc.co.uk",
+      "url": "https://www.lbc.co.uk/article/keir-starmer-warning-iran-russia-5HjdWwW_2/",
+      "published": "20260326T211500Z",
+      "language": "English",
+      "source_country": "United Kingdom",
+      "query": "(war OR conflict OR military OR sanctions)",
+      "summary": "Russia during Iran War The Prime Minister said the West faced a \"war on two fronts\" against Iran and Russia 26 Mar 2026, 20:01 | Updated: 23h ago Share Facebook WhatsApp Email Link Copied Link CheckCircle The Prime Minister's comments came during a meeting with military partners in Finland. Picture: Getty By Thomas Layton Sir Keir Starmer has warned that Britain and its allies should not forget about the threat Russia poses to the West amid the Iran war. Speaking at Helsinkiâs presidential palace, Sir Keir said the threat posed by Russia had grown, and announced that Ukraine&#x27;s navy would join military drills with Northern European nations for the first time this autumn."
+    },
+    {
+      "title": "North Korea and Belarus sign treaty as Alexander Lukashenko visits Kim Jong Un in Pyongyang",
+      "source": "independent.ie",
+      "url": "https://www.independent.ie/world-news/europe/north-korea-and-belarus-sign-treaty-as-lukashenko-visits-kim-in-pyongyang/a411002682.html",
+      "published": "20260327T071500Z",
+      "language": "English",
+      "source_country": "Ireland",
+      "query": "(war OR conflict OR military OR sanctions)",
+      "summary": "Belarusian President Aleksandr Lukashenko (centre) begins an official visit to the North Korea, where he is welcomed at the airport by Kim Tok-hun (R), First Vice Premier of the DPRK. Photo: Getty Belarusian President Alexander Lukashenko. Getty Images Namita Singh ©UK Independent Today at 06:30 North Korean leader Kim Jong Un and Belarusian president Alexander Lukashenko signed a new treaty on friendship and co-operation in Pyongyang, marking what Minsk described as a shift to a “fundamentally new stage” in relations."
+    },
+    {
+      "title": "Irak yargısı : Tek taraflı savaş kararları devlet otoritesini zayıflatır",
+      "source": "haberler.com",
+      "url": "https://www.haberler.com/guncel/irak-yuksek-yargi-konseyi-baskani-ndan-savas-kararlarina-elestiri-19692193-haberi/",
+      "published": "20260327T070000Z",
+      "language": "Turkish",
+      "source_country": "Turkey",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Канада ввела дополнительные санкции против Ирана , в частности производства шахедов | Новости Украины",
+      "source": "news.liga.net",
+      "url": "https://news.liga.net/war/news/kanada-vvela-sanktsii-protiv-proizvoditelei-shahedov-v-irane",
+      "published": "20260327T080000Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "特朗普批美国媒体造假新闻 伊朗谈判真相存疑 _ 军事频道 _ 中华网",
+      "source": "military.china.com",
+      "url": "https://military.china.com/news/13004177/20260327/49361834.html",
+      "published": "20260327T031500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "AS Tuduh SMIC Kirim Teknologi Chip ke Militer Iran , Ketegangan dengan China Memanas",
+      "source": "internasional.kontan.co.id",
+      "url": "https://internasional.kontan.co.id/news/as-tuduh-smic-kirim-teknologi-chip-ke-militer-iran-ketegangan-dengan-china-memanas",
+      "published": "20260327T110000Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "From drones to rocket fuel , China and Russia are helping Iran through supply chains",
+      "source": "atlanticcouncil.org",
+      "url": "https://www.atlanticcouncil.org/dispatches/from-drones-to-rocket-fuel-china-and-russia-are-helping-iran-through-supply-chains/",
+      "published": "20260326T201500Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(war OR conflict OR military OR sanctions)",
+      "summary": "An Iran-made unmanned aerial vehicle, the Shahed-136, is displayed in a rally in Tehran, Iran, on February 11, 2026. Photo by Morteza Nikoubazl/NurPhoto) WASHINGTON—As the US-Israeli war with Iran continues, some commentators have speculated about why China and Russia appear to be keeping their distance from the conflict. Neither appears eager to intervene militarily to support Iran."
+    },
+    {
+      "title": "Donald Trump Extends Deadline on Iran Energy Strikes ; Reports Dispute Tehran  Pause Request  Claim - Pragativadi I Latest Odisha News in English I Breaking News",
+      "source": "pragativadi.com",
+      "url": "https://pragativadi.com/donald-trump-extends-deadline-on-iran-energy-strikes-reports-dispute-tehrans-pause-request-claim/",
+      "published": "20260327T073000Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Iranul amenință cu mobilizarea unui milion de soldați dacă armata americană invadează : „ Îi vom trimite în iad  ",
+      "source": "antena3.ro",
+      "url": "https://www.antena3.ro/externe/iranul-ameninta-cu-mobilizarea-unui-milion-de-soldati-daca-armata-americana-invadeaza-ii-vom-trimite-in-iad-782296.html",
+      "published": "20260327T120000Z",
+      "language": "Romanian",
+      "source_country": "Romania",
+      "query": "(war OR conflict OR military OR sanctions)"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "final_value": 94596.49,
+  "cash": 67463.15,
+  "positions": {
+    "COST": {
+      "shares": 11,
+      "entry_price": 861.16357421875,
+      "entry_date": "2026-01-01"
+    },
+    "AMT": {
+      "shares": 54,
+      "entry_price": 175.57000732421875,
+      "entry_date": "2026-01-01"
+    },
+    "TXN": {
+      "shares": 37,
+      "entry_price": 172.36492919921875,
+      "entry_date": "2026-01-01",
+      "_last_trim_price": 225.00999450683594
+    }
+  },
+  "return_pct": -5.4
+}

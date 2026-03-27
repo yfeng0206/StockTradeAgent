@@ -1,0 +1,1019 @@
+[
+  {
+    "ticker": "HD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MMM",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "DE",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SBUX",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "UNH",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CMCSA",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JPM",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CMCSA",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "WMT",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GOOGL",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PLD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GOOGL",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "WMT",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "oversold_in_downtrend",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "UNH",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JPM",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GOOGL",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GS",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MS",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CVX",
+    "strategy": "Defensive",
+    "conflict_score": 0.5,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.6,
+        "flagged": true
+      },
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 2,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.6,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "HD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.4,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GOOGL",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.6,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CVX",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.6,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABBV",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PLD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "GOOGL",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "BAC",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABBV",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABBV",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "D",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "AAPL",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "XOM",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "DE",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.4,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "UNH",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "WMT",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABBV",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "D",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "JNJ",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "UNH",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.6,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Defensive",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.5,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "DE",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "D",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "LLY",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Defensive",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.4,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "final_value": 75480.04,
+  "cash": 52859.91,
+  "positions": {
+    "MRK": {
+      "shares": 84,
+      "entry_price": 78.79085540771484,
+      "entry_date": "2022-10-03"
+    },
+    "UNH": {
+      "shares": 13,
+      "entry_price": 482.7638854980469,
+      "entry_date": "2022-10-03"
+    },
+    "PEP": {
+      "shares": 51,
+      "entry_price": 151.12139892578125,
+      "entry_date": "2022-10-12"
+    }
+  },
+  "return_pct": -24.52
+}

@@ -1,0 +1,539 @@
+[
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 112.11,
+    "reason": "Ranked in top 10. Score: 7.941 (low_vol=8.2, trend=7.0, drawdown=8.5, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.94,
+      "low_vol": 8.22,
+      "trend": 7,
+      "drawdown": 8.51,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "D",
+    "price": 62.44,
+    "reason": "Ranked in top 10. Score: 7.876 (low_vol=7.9, trend=7.0, drawdown=8.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.88,
+      "low_vol": 7.87,
+      "trend": 7,
+      "drawdown": 8.76,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 266.13,
+    "reason": "Ranked in top 10. Score: 7.826 (low_vol=7.8, trend=7.0, drawdown=8.7, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.83,
+      "low_vol": 7.79,
+      "trend": 7,
+      "drawdown": 8.69,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 36.36,
+    "reason": "Ranked in top 10. Score: 7.819 (low_vol=8.0, trend=7.0, drawdown=8.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.82,
+      "low_vol": 8.0,
+      "trend": 7,
+      "drawdown": 8.39,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 337.61,
+    "reason": "Ranked in top 10. Score: 7.622 (low_vol=7.3, trend=7.0, drawdown=8.7, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.62,
+      "low_vol": 7.3,
+      "trend": 7,
+      "drawdown": 8.67,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 49.28,
+    "reason": "Ranked in top 10. Score: 7.617 (low_vol=6.9, trend=7.0, drawdown=9.2, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.62,
+      "low_vol": 6.9,
+      "trend": 7,
+      "drawdown": 9.19,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 45.43,
+    "reason": "Ranked in top 10. Score: 7.561 (low_vol=7.7, trend=7.0, drawdown=8.0, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.56,
+      "low_vol": 7.69,
+      "trend": 7,
+      "drawdown": 7.95,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 152.16,
+    "reason": "Ranked in top 10. Score: 7.555 (low_vol=7.3, trend=7.0, drawdown=8.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.55,
+      "low_vol": 7.32,
+      "trend": 7,
+      "drawdown": 8.42,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 51.09,
+    "reason": "Ranked in top 10. Score: 7.521 (low_vol=7.1, trend=7.0, drawdown=8.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.52,
+      "low_vol": 7.08,
+      "trend": 7,
+      "drawdown": 8.64,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 105.52,
+    "reason": "Ranked in top 10. Score: 7.465 (low_vol=6.8, trend=7.0, drawdown=8.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 7.47,
+      "low_vol": 6.83,
+      "trend": 7,
+      "drawdown": 8.78,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-01-07",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 35.63,
+    "reason": "STOP LOSS triggered (-2.0% loss) PnL: -2.0% (held since 2020-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2020-01-07",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 149.28,
+    "reason": "STOP LOSS triggered (-1.89% loss) PnL: -1.9% (held since 2020-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 34.93,
+    "reason": "Ranked in top 10. Score: 7.75 (low_vol=7.8, trend=7.0, drawdown=8.4, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 7.75,
+      "low_vol": 7.83,
+      "trend": 7,
+      "drawdown": 8.39,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 126.17,
+    "reason": "Ranked in top 10. Score: 7.576 (low_vol=7.9, trend=7.0, drawdown=7.7, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 7.58,
+      "low_vol": 7.91,
+      "trend": 7,
+      "drawdown": 7.71,
+      "event_adj": 0,
+      "state": "NORMAL"
+    }
+  },
+  {
+    "date": "2020-02-24",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 123.37,
+    "reason": "STOP LOSS triggered (-2.22% loss) PnL: -2.2% (held since 2020-02-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-27",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 325.12,
+    "reason": "STOP LOSS triggered (-3.7% loss) PnL: -3.7% (held since 2020-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-27",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 97.63,
+    "reason": "STOP LOSS triggered (-7.48% loss) PnL: -7.5% (held since 2020-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-27",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 33.75,
+    "reason": "STOP LOSS triggered (-3.39% loss) PnL: -3.4% (held since 2020-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-28",
+    "action": "SELL",
+    "ticker": "D",
+    "price": 60.21,
+    "reason": "STOP LOSS triggered (-3.57% loss) PnL: -3.6% (held since 2020-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-28",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 257.23,
+    "reason": "STOP LOSS triggered (-3.35% loss) PnL: -3.3% (held since 2020-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-28",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 44.19,
+    "reason": "STOP LOSS triggered (-2.73% loss) PnL: -2.7% (held since 2020-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 50.77,
+    "reason": "Dropped from top 10. Score: 6.36 Replaced by: PEP, JNJ, CHTR PnL: +3.0% (held since 2020-01-02)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.36,
+      "low_vol": 5.26,
+      "trend": 7,
+      "drawdown": 7.19,
+      "event_adj": 0,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-03-02",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 118.39,
+    "reason": "Ranked in top 10. Score: 7.034 (low_vol=6.7, trend=7.0, drawdown=7.6, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 7.03,
+      "low_vol": 6.65,
+      "trend": 7,
+      "drawdown": 7.58,
+      "event_adj": 0,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-03-02",
+    "action": "BUY",
+    "ticker": "CHTR",
+    "price": 497.13,
+    "reason": "Ranked in top 10. Score: 6.909 (low_vol=6.0, trend=7.0, drawdown=8.1, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.91,
+      "low_vol": 5.99,
+      "trend": 7,
+      "drawdown": 8.05,
+      "event_adj": 0,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-03-02",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 46.2,
+    "reason": "Ranked in top 10. Score: 6.899 (low_vol=6.2, trend=7.0, drawdown=7.8, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.9,
+      "low_vol": 6.15,
+      "trend": 7,
+      "drawdown": 7.79,
+      "event_adj": 0,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-03-09",
+    "action": "SELL",
+    "ticker": "CHTR",
+    "price": 463.21,
+    "reason": "STOP LOSS triggered (-6.82% loss) PnL: -6.8% (held since 2020-03-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-09",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 42.85,
+    "reason": "STOP LOSS triggered (-7.26% loss) PnL: -7.3% (held since 2020-03-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-11",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 111.44,
+    "reason": "STOP LOSS triggered (-5.87% loss) PnL: -5.9% (held since 2020-03-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-12",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 95.85,
+    "reason": "STOP LOSS triggered (-14.51% loss) PnL: -14.5% (held since 2020-01-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2020-03-12",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 44.95,
+    "reason": "STOP LOSS triggered (-12.0% loss) PnL: -12.0% (held since 2020-01-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "CASH",
+    "ticker": "",
+    "price": 0,
+    "reason": "No stocks above threshold (4.0). Best: AMZN=3.5. Holding cash.",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 143.43,
+    "reason": "Ranked in top 10. Score: 4.973 (low_vol=0.0, trend=7.0, drawdown=6.2, event_adj=1.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 4.97,
+      "low_vol": 0,
+      "trend": 7,
+      "drawdown": 6.24,
+      "event_adj": 1,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-05-01",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 125.38,
+    "reason": "Ranked in top 10. Score: 4.458 (low_vol=0.0, trend=7.0, drawdown=4.5, event_adj=1.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 4.46,
+      "low_vol": 0,
+      "trend": 7,
+      "drawdown": 4.53,
+      "event_adj": 1,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-05-01",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 165.83,
+    "reason": "Ranked in top 10. Score: 4.418 (low_vol=0.0, trend=7.0, drawdown=4.4, event_adj=1.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 4.42,
+      "low_vol": 0,
+      "trend": 7,
+      "drawdown": 4.39,
+      "event_adj": 1,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-05-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 26.71,
+    "reason": "Ranked in top 10. Score: 4.342 (low_vol=0.0, trend=7.0, drawdown=4.1, event_adj=1.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 4.34,
+      "low_vol": 0,
+      "trend": 7,
+      "drawdown": 4.14,
+      "event_adj": 1,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-05-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 276.87,
+    "reason": "Ranked in top 10. Score: 4.281 (low_vol=0.0, trend=7.0, drawdown=7.3, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62",
+    "scores": {
+      "composite": 4.28,
+      "low_vol": 0,
+      "trend": 7,
+      "drawdown": 7.27,
+      "event_adj": 0,
+      "state": "REDUCED"
+    }
+  },
+  {
+    "date": "2020-05-19",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 38.53,
+    "reason": "EARNINGS strong_beat: surprise 0.0848% [Defensive] [Regime normal: 0.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.96"
+  },
+  {
+    "date": "2020-05-27",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 136.66,
+    "reason": "STOP LOSS triggered (-4.72% loss) PnL: -4.7% (held since 2020-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.72"
+  },
+  {
+    "date": "2020-06-01",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 25.41,
+    "reason": "STOP LOSS triggered (-4.85% loss) PnL: -4.9% (held since 2020-05-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.76"
+  },
+  {
+    "date": "2020-06-10",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 37.37,
+    "reason": "STOP LOSS triggered (-3.03% loss) PnL: -3.0% (held since 2020-05-19)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-06-11",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 119.93,
+    "reason": "STOP LOSS triggered (-4.35% loss) PnL: -4.3% (held since 2020-05-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.81"
+  }
+]

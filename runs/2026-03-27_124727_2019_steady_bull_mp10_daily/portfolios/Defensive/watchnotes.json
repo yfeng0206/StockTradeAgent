@@ -1,0 +1,214 @@
+{
+  "NEE": [
+    {
+      "note": "Entry: $35.50 on 2019-01-02. Regime: high_volatility. News: geo_risk=0.65.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-01-02"
+    }
+  ],
+  "KO": [
+    {
+      "note": "Entry: $44.41 on 2019-12-02. Regime: normal. News: geo_risk=0.64.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-12-02"
+    },
+    {
+      "note": "Bought during geo risk 0.64. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2019-12-02"
+    }
+  ],
+  "AMT": [
+    {
+      "note": "Entry: $141.90 on 2019-02-01. Regime: sideways. News: geo_risk=0.30.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-02-01"
+    }
+  ],
+  "MCD": [
+    {
+      "note": "Entry: $149.36 on 2019-02-01. Regime: sideways. News: geo_risk=0.30.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-02-01"
+    }
+  ],
+  "SO": [
+    {
+      "note": "Entry: $36.50 on 2019-02-01. Regime: sideways. News: geo_risk=0.30.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-02-01"
+    }
+  ],
+  "MRK": [
+    {
+      "note": "Entry: $65.04 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "TMUS": [
+    {
+      "note": "Entry: $74.65 on 2019-12-02. Regime: normal. News: geo_risk=0.64.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-12-02"
+    },
+    {
+      "note": "Bought during geo risk 0.64. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2019-12-02"
+    }
+  ],
+  "D": [
+    {
+      "note": "Entry: $51.58 on 2019-02-01. Regime: sideways. News: geo_risk=0.30.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-02-01"
+    }
+  ],
+  "DIS": [
+    {
+      "note": "Entry: $128.92 on 2019-11-01. Regime: bullish. News: geo_risk=0.43.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-11-01"
+    }
+  ],
+  "PG": [
+    {
+      "note": "Entry: $81.70 on 2019-02-01. Regime: sideways. News: geo_risk=0.30.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-02-01"
+    }
+  ],
+  "PEP": [
+    {
+      "note": "Entry: $93.89 on 2019-03-01. Regime: bullish. News: geo_risk=0.53.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-03-01"
+    }
+  ],
+  "FIS": [
+    {
+      "note": "Entry: $114.68 on 2019-08-01. Regime: sideways. News: geo_risk=0.60.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-08-01"
+    },
+    {
+      "note": "Bought during geo risk 0.60. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2019-08-01"
+    }
+  ],
+  "LLY": [
+    {
+      "note": "Entry: $117.66 on 2019-03-01. Regime: bullish. News: geo_risk=0.53.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-03-01"
+    }
+  ],
+  "JNJ": [
+    {
+      "note": "Entry: $116.76 on 2019-05-01. Regime: normal. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-05-01"
+    }
+  ],
+  "SBUX": [
+    {
+      "note": "Entry: $72.02 on 2019-11-01. Regime: bullish. News: geo_risk=0.43.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-11-01"
+    }
+  ],
+  "V": [
+    {
+      "note": "Entry: $154.99 on 2019-05-01. Regime: normal. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-05-01"
+    }
+  ],
+  "PFE": [
+    {
+      "note": "Entry: $30.17 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "ABT": [
+    {
+      "note": "Entry: $75.63 on 2019-12-02. Regime: normal. News: geo_risk=0.64.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-12-02"
+    },
+    {
+      "note": "Bought during geo risk 0.64. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2019-12-02"
+    }
+  ],
+  "WMT": [
+    {
+      "note": "Entry: $36.30 on 2019-12-02. Regime: normal. News: geo_risk=0.64.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-12-02"
+    },
+    {
+      "note": "Bought during geo risk 0.64. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2019-12-02"
+    }
+  ],
+  "CHTR": [
+    {
+      "note": "Entry: $409.59 on 2019-09-02. Regime: normal. News: geo_risk=0.35.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-09-02"
+    }
+  ],
+  "HD": [
+    {
+      "note": "Entry: $202.62 on 2019-11-01. Regime: bullish. News: geo_risk=0.43.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-11-01"
+    }
+  ],
+  "COST": [
+    {
+      "note": "Entry: $271.52 on 2019-12-02. Regime: normal. News: geo_risk=0.64.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-12-02"
+    },
+    {
+      "note": "Bought during geo risk 0.64. If tensions ease, catalyst may weaken.",
+      "condition": "geo_risk_drops",
+      "action": "review_thesis",
+      "created": "2019-12-02"
+    }
+  ]
+}

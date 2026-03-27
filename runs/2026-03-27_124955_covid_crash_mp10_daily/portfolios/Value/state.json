@@ -1,0 +1,64 @@
+{
+  "final_value": 115974.99,
+  "cash": 42650.93,
+  "positions": {
+    "KO": {
+      "shares": 231,
+      "entry_price": 35.10470962524414,
+      "entry_date": "2020-04-01"
+    },
+    "ABBV": {
+      "shares": 94,
+      "entry_price": 57.55699920654297,
+      "entry_date": "2020-04-01",
+      "_last_trim_price": 75.25895690917969
+    },
+    "PFE": {
+      "shares": 361,
+      "entry_price": 22.531391143798828,
+      "entry_date": "2020-04-01"
+    },
+    "SPOT": {
+      "shares": 20,
+      "entry_price": 121.61000061035156,
+      "entry_date": "2020-04-01",
+      "_last_trim_price": 267.4700012207031
+    },
+    "GOOGL": {
+      "shares": 99,
+      "entry_price": 54.653289794921875,
+      "entry_date": "2020-04-01",
+      "_last_trim_price": 71.08846282958984
+    },
+    "UPS": {
+      "shares": 114,
+      "entry_price": 70.880615234375,
+      "entry_date": "2020-04-01"
+    },
+    "TGT": {
+      "shares": 67,
+      "entry_price": 80.91748809814453,
+      "entry_date": "2020-04-01",
+      "_last_trim_price": 106.33850860595703
+    },
+    "CMCSA": {
+      "shares": 210,
+      "entry_price": 25.833690643310547,
+      "entry_date": "2020-04-01",
+      "_last_trim_price": 34.359928131103516
+    },
+    "PYPL": {
+      "shares": 40,
+      "entry_price": 90.89404296875,
+      "entry_date": "2020-04-01",
+      "_last_trim_price": 150.13729858398438
+    },
+    "TXN": {
+      "shares": 66,
+      "entry_price": 81.71122741699219,
+      "entry_date": "2020-04-01",
+      "_last_trim_price": 108.11964416503906
+    }
+  },
+  "return_pct": 15.97
+}
