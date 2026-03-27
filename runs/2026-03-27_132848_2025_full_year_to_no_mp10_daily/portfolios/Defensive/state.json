@@ -1,0 +1,44 @@
+{
+  "final_value": 105584.35,
+  "cash": 37549.06,
+  "positions": {
+    "D": {
+      "shares": 150,
+      "entry_price": 52.40266036987305,
+      "entry_date": "2025-05-01"
+    },
+    "JNJ": {
+      "shares": 34,
+      "entry_price": 175.12124633789062,
+      "entry_date": "2025-09-01",
+      "_last_trim_price": 236.53256225585938
+    },
+    "KO": {
+      "shares": 137,
+      "entry_price": 67.03498840332031,
+      "entry_date": "2025-11-03"
+    },
+    "MCD": {
+      "shares": 26,
+      "entry_price": 301.88360595703125,
+      "entry_date": "2025-12-01"
+    },
+    "CVX": {
+      "shares": 42,
+      "entry_price": 150.9335174560547,
+      "entry_date": "2026-01-01",
+      "_last_trim_price": 205.2100067138672
+    },
+    "PFE": {
+      "shares": 450,
+      "entry_price": 27.260000228881836,
+      "entry_date": "2026-03-02"
+    },
+    "GOOGL": {
+      "shares": 40,
+      "entry_price": 306.3043518066406,
+      "entry_date": "2026-03-02"
+    }
+  },
+  "return_pct": 5.58
+}

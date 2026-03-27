@@ -1,0 +1,39 @@
+[
+  {
+    "date": "2022-01-03",
+    "action": "BUY",
+    "ticker": "USO",
+    "price": 54.83,
+    "reason": "Oil bullish signal (score=7.0)",
+    "regime": "normal",
+    "news_context": null,
+    "scores": {
+      "composite": 7.0,
+      "mode": "OIL",
+      "above_50ma": true,
+      "above_200ma": true,
+      "ret_1m": 14.2,
+      "ret_3m": -1.4,
+      "rsi": 67.2,
+      "geo_boost": 0.0
+    }
+  },
+  {
+    "date": "2022-03-07",
+    "action": "TRIM",
+    "ticker": "USO",
+    "price": 82.37,
+    "reason": "PROFIT TARGET: +50%, trimming 1/3 (303 shares). Holding 608. Next trim at +25% from $82.",
+    "regime": "bearish",
+    "news_context": "geo_risk=1.00"
+  },
+  {
+    "date": "2022-07-01",
+    "action": "SELL",
+    "ticker": "USO",
+    "price": 81.67,
+    "reason": "Oil signal bearish/neutral, going to cash PnL: +49.0% (held since 2022-01-03)",
+    "regime": "high_volatility",
+    "news_context": null
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "final_value": 135530.51,
+  "cash": 2914.33,
+  "positions": {
+    "PG": {
+      "shares": 134,
+      "entry_price": 93.27281951904297,
+      "entry_date": "2019-07-01"
+    },
+    "MRK": {
+      "shares": 203,
+      "entry_price": 66.07896423339844,
+      "entry_date": "2019-11-01"
+    },
+    "TGT": {
+      "shares": 120,
+      "entry_price": 104.70642852783203,
+      "entry_date": "2019-12-02"
+    },
+    "QCOM": {
+      "shares": 176,
+      "entry_price": 71.17103576660156,
+      "entry_date": "2019-12-02"
+    },
+    "SBUX": {
+      "shares": 171,
+      "entry_price": 73.56266021728516,
+      "entry_date": "2019-12-02"
+    },
+    "PLD": {
+      "shares": 167,
+      "entry_price": 75.17449951171875,
+      "entry_date": "2019-12-02"
+    },
+    "NEE": {
+      "shares": 254,
+      "entry_price": 49.50812911987305,
+      "entry_date": "2019-12-02"
+    },
+    "FIS": {
+      "shares": 105,
+      "entry_price": 118.95671844482422,
+      "entry_date": "2019-12-02"
+    },
+    "PANW": {
+      "shares": 336,
+      "entry_price": 37.45166778564453,
+      "entry_date": "2019-12-02"
+    },
+    "V": {
+      "shares": 72,
+      "entry_price": 173.88497924804688,
+      "entry_date": "2019-12-02"
+    }
+  },
+  "return_pct": 35.53
+}

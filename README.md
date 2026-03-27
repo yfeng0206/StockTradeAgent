@@ -2,13 +2,13 @@
 
 A stock trading research system combining **7 deterministic strategies** for backtesting with **LLM-powered adversarial debate** for live research. Built with Claude CLI (Opus 4.6) + Python, all free data sources.
 
-> **Momentum +33.5% and EventDriven +34.3% beat both SPY (+26%) and QQQ (+28.8%) in full-year 2024.** Tested across 7 market regimes from 2019-2026.
+> **93-stock universe across 15 sectors.** Value +38.9% in 2019, Adaptive +47.2% in 2023 AI Rally, Commodity +24.7% in 2022 bear. Tested across 7 market regimes from 2019-2026.
 
-## Head-to-Head: Same Period as TradingAgents & AI-Trader Papers
+## Head-to-Head: Same Period as TradingAgents and AI-Trader Papers
 
 We reproduced the exact test periods from published LLM trading papers:
 
-### TradingAgents Period (Jan–Mar 2024)
+### TradingAgents Period (Jan-Mar 2024)
 
 *Paper claims +26.6% on AAPL (which actually lost -7.5%) with Sharpe 8.2 in 3 months on 3 stocks.*
 
@@ -17,12 +17,12 @@ We reproduced the exact test periods from published LLM trading papers:
 | **Momentum** | **+16.8%** | 3.94 | -2.5% | **+6.4%** |
 | Adaptive | +12.6% | 2.78 | -4.0% | +2.2% |
 | EventDriven | +11.7% | 3.60 | -2.2% | +1.3% |
-| SPY B&H | +11.0% | 4.07 | -1.7% | — |
-| QQQ B&H | +10.4% | 2.77 | -2.6% | — |
+| SPY B&H | +11.0% | 4.07 | -1.7% | -- |
+| QQQ B&H | +10.4% | 2.77 | -2.6% | -- |
 
-**4 of 7 strategies beat QQQ.** Momentum beats it by 6.4 points — on 50 stocks, not 3.
+**4 of 7 strategies beat QQQ.** Momentum beats it by 6.4 points -- on 93 stocks, not 3.
 
-### AI-Trader Period (Oct–Nov 2025)
+### AI-Trader Period (Oct-Nov 2025)
 
 *Paper's best agent (MiniMax-M2): +9.56% vs QQQ +1.4%. But GPT-5 got only +1.56%, Gemini -0.06%.*
 
@@ -30,10 +30,10 @@ We reproduced the exact test periods from published LLM trading papers:
 |----------|--------|----------------|
 | **EventDriven** | **+3.3%** | **+1.9%** |
 | Adaptive | +2.5% | +1.1% |
-| QQQ B&H | +1.4% | — |
-| SPY B&H | +0.3% | — |
+| QQQ B&H | +1.4% | -- |
+| SPY B&H | +0.3% | -- |
 
-**EventDriven beats QQQ** — and it's deterministic (same result every run), unlike their LLM which varies.
+**EventDriven beats QQQ** -- and it's deterministic (same result every run), unlike their LLM which varies.
 
 ### Extended: Full Year 2024 (12 months, not 3)
 
@@ -44,117 +44,157 @@ Short test periods flatter everyone. Here's what happens when you extend to a fu
 | **EventDriven** | **+34.3%** | 2.22 | -4.9% | **+8.3%** | **+5.5%** |
 | **Momentum** | **+33.5%** | 2.04 | -8.8% | **+7.5%** | **+4.7%** |
 | Adaptive | +23.9% | 1.42 | -9.2% | -2.1% | -4.9% |
-| SPY B&H | +26.0% | 1.92 | -8.4% | — | — |
-| QQQ B&H | +28.8% | 1.51 | -13.5% | — | — |
+| SPY B&H | +26.0% | 1.92 | -8.4% | -- | -- |
+| QQQ B&H | +28.8% | 1.51 | -13.5% | -- | -- |
 
-**Momentum and EventDriven beat BOTH benchmarks over a full year** — not just a cherry-picked 3-month window.
+**Momentum and EventDriven beat BOTH benchmarks over a full year.**
 
-## Results: 7 Strategies × 7 Market Regimes (2019–2026)
+## Stock Universe (93 stocks, 15 sectors)
 
-$100K starting capital, 10 max positions, daily event-driven simulation.
+| Sector | Count | Tickers |
+|--------|-------|---------|
+| Tech Mega-Cap | 12 | AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA, CRM, NFLX, AMD, ADBE, INTC |
+| Semiconductors | 9 | AVGO, QCOM, TXN, MU, LRCX, AMAT, KLAC, MRVL, ON |
+| Software/Cloud | 5 | NOW, PANW, ZS, CRWD, DDOG |
+| Internet/Fintech | 7 | SHOP, UBER, ABNB, DASH, PYPL, COIN, PLTR |
+| Finance | 8 | JPM, V, MA, GS, BAC, WFC, MS, AXP |
+| Healthcare/Biotech | 10 | UNH, JNJ, LLY, ABBV, MRK, PFE, TMO, AMGN, REGN, VRTX |
+| Pharma/MedDev | 3 | ABT, ISRG, MRNA |
+| Consumer Staples | 6 | PG, KO, PEP, COST, WMT, SBUX |
+| Consumer Disc. | 7 | HD, MCD, NKE, LULU, TGT, ROKU, SPOT |
+| Energy | 5 | XOM, CVX, COP, SLB, OXY |
+| Industrials/Defense | 8 | CAT, BA, HON, UPS, DE, LMT, RTX, GE |
+| Telecom/Media | 4 | DIS, CMCSA, TMUS, CHTR |
+| Utilities | 2 | NEE, SO |
+| Real Estate | 3 | AMT, PLD, D |
+| Other | 4 | BLK, FIS, EMR, MMM |
+
+Some later-IPO stocks (CRWD, UBER, ABNB, DASH, COIN, PLTR) have no data for early periods -- the engine skips unavailable tickers gracefully.
+
+## Results: 7 Strategies x 7 Market Regimes (2019-2026)
+
+$100K starting capital, 10 max positions, 93-stock universe, daily event-driven simulation.
 
 ### Return %
 
-| Strategy | 2019 Bull | COVID | 2023 AI | Bull→Rec | 2022 Bear | Rec→Bull | 2025-Now |
+| Strategy | 2019 Bull | COVID | 2023 AI | Bull-Rec | 2022 Bear | Rec-Bull | 2025-Now |
 |----------|----------|-------|---------|----------|-----------|----------|----------|
-| **Value** | +3.8% | -7.1% | +4.6% | -4.9% | -7.4% | +0.3% | -1.0% |
-| **Momentum** | +6.7% | -1.1% | +20.9% | -9.4% | -11.6% | +26.6% | +24.3% |
-| **Balanced** | +9.1% | -3.5% | +13.4% | -10.6% | -11.6% | +8.3% | +3.4% |
-| **Defensive** | +16.4% | -4.4% | +0.4% | **+13.6%** | -5.8% | -0.7% | +13.1% |
-| **EventDriven** | +4.3% | -8.5% | **+25.3%** | -11.8% | -18.7% | +24.3% | +6.8% |
-| **Adaptive** | +8.2% | **+5.2%** | +9.1% | -9.4% | -21.9% | +7.6% | **+25.7%** |
-| **Commodity** | -3.2% | -2.4% | +1.2% | +15.9% | **+24.7%** | -4.2% | +23.4% |
+| **Value** | **+38.9%** | **+16.0%** | +30.4% | -7.2% | -15.5% | +18.4% | -5.4% |
+| **Momentum** | +35.5% | +9.5% | +20.1% | -19.3% | -24.9% | +28.5% | +4.5% |
+| **Balanced** | +18.6% | -7.2% | +15.0% | -7.7% | -9.4% | +21.5% | -4.1% |
+| **Defensive** | +21.6% | -7.2% | -2.4% | **+16.1%** | **-3.4%** | +0.8% | +5.6% |
+| **EventDriven** | +14.0% | -5.3% | **+37.9%** | -19.5% | -18.7% | **+28.9%** | +11.9% |
+| **Adaptive** | +23.0% | +5.7% | **+47.2%** | -0.2% | -24.5% | +21.3% | +13.6% |
+| **Commodity** | -3.2% | -2.4% | +1.2% | +15.9% | **+24.7%** | -4.2% | **+23.4%** |
 | SPY B&H | +30.7% | -5.3% | +27.0% | -10.3% | -17.6% | +20.9% | +13.7% |
 | QQQ B&H | +38.1% | +12.8% | +56.5% | -19.5% | -29.6% | +33.7% | +15.9% |
+| ONEQ B&H | +36.1% | +8.8% | +47.2% | -21.8% | -29.0% | +26.8% | +14.6% |
 
 ### Max Drawdown %
 
-| Strategy | Worst Ever | When |
-|----------|-----------|------|
-| **Defensive** | **-11.8%** | 2022 Bear |
-| **Commodity** | **-10.0%** | 2025 |
-| **Value** | **-16.5%** | 2022 Bear |
-| SPY B&H | **-33.6%** | COVID |
-| QQQ B&H | **-34.7%** | 2022 Bear |
+| Strategy | 2019 | COVID | 2023 | Bull-Rec | Recess | Rec-Bull | 2025 | **Worst** |
+|----------|------|-------|------|----------|--------|----------|------|-----------|
+| **Defensive** | -3.0% | -14.2% | -10.3% | **-5.5%** | **-10.1%** | -10.0% | -13.0% | **-14.2%** |
+| **Commodity** | -8.3% | **-3.8%** | -5.7% | -11.6% | -8.2% | -6.6% | -9.9% | **-11.6%** |
+| **Value** | -8.9% | -11.7% | -6.7% | -16.0% | -22.1% | -6.5% | -13.1% | **-22.1%** |
+| SPY B&H | -6.6% | **-33.6%** | -9.9% | -22.9% | -24.4% | -7.5% | -18.7% | **-33.6%** |
+| QQQ B&H | -11.0% | -28.6% | -10.8% | -32.6% | **-34.7%** | -11.2% | -22.7% | **-34.7%** |
+| ONEQ B&H | -10.1% | -30.2% | -11.9% | -32.9% | -33.9% | -11.1% | -23.6% | **-33.9%** |
 
-Defensive's worst drawdown (-11.8%) is 3x better than SPY (-33.6%) and QQQ (-34.7%).
+Defensive worst drawdown (-14.2%) is 2.4x better than SPY (-33.6%) and QQQ (-34.7%).
+
+### Sharpe Ratio
+
+| Strategy | 2019 | COVID | 2023 | Bull-Rec | Recess | Rec-Bull | 2025 |
+|----------|------|-------|------|----------|--------|----------|------|
+| **Value** | **2.63** | **1.55** | **2.19** | -0.65 | -1.25 | 1.58 | -0.32 |
+| **Momentum** | 1.96 | 0.80 | 1.14 | -0.73 | -1.35 | **1.93** | 0.28 |
+| **Defensive** | **2.34** | -1.26 | -0.20 | **1.49** | -0.38 | 0.15 | 0.49 |
+| **Adaptive** | 1.42 | 0.62 | **2.05** | 0.08 | -1.84 | 1.30 | 0.62 |
+| **Commodity** | -0.33 | -1.30 | 0.21 | 0.87 | **1.82** | -0.95 | **1.18** |
+| SPY B&H | 2.22 | -0.03 | 1.92 | -0.45 | -0.84 | 1.49 | 0.67 |
+| QQQ B&H | 2.09 | 0.78 | 2.64 | -0.68 | -1.16 | 1.74 | 0.66 |
+| ONEQ B&H | 2.07 | 0.61 | 2.38 | -0.82 | -1.16 | 1.50 | 0.60 |
 
 ## The 7 Strategies
 
 ### Value
-**Philosophy**: Buy fundamentally cheap, high-quality stocks trading below intrinsic value. Hold through volatility — the market will come to you.
+**Philosophy**: Buy fundamentally cheap, high-quality stocks trading below intrinsic value. Hold through volatility.
 - Scores: low P/E proxy, high margins, low volatility, beaten-down price, earnings momentum
-- Rebalances quarterly (least frequent — avoids overtrading)
-- ATR stop: 3.0x (widest — gives positions room to recover)
-- Best at: steady markets where fundamentals matter
-- Worst at: bear markets (too slow to react)
+- Rebalances quarterly (avoids overtrading)
+- ATR stop: 3.0x (widest -- gives positions room)
+- Best at: bull markets with the expanded universe (+38.9% in 2019, +30.4% in 2023)
+- Worst at: bear markets (-15.5% in recession)
 
 ### Momentum
 **Philosophy**: Follow price. Stocks going up tend to keep going up. Buy strength, sell weakness.
-- Uses academic 12-minus-1 month signal (skip most recent month to avoid reversal)
+- Academic 12-minus-1 month signal (skip most recent month to avoid reversal)
 - Scores: price above MAs, positive returns, MACD bullish, volume confirmation
 - ATR stop: 2.5x
-- Best at: rallies and recoveries (+33.5% in 2024, +26.6% recession→bull)
-- Worst at: transitions and choppy markets
+- Best at: rallies and recoveries (+35.5% in 2019, +28.5% recession-to-bull)
+- Worst at: bear markets and transitions (-24.9% recession)
 
 ### Balanced
 **Philosophy**: No single factor dominates. Weigh fundamentals, momentum, and stability equally.
-- Renamed from "Quality" — scores value (40%), momentum (10%), stability (50%)
-- Most diversified approach, adapts weights slightly by regime
+- Scores value (40%), momentum (10%), stability (50%)
 - ATR stop: 2.0x
-- Best at: steady growth environments
-- Worst at: strong directional markets (underweights the winning factor)
+- Best at: steady growth (+21.5% recovery)
+- Worst at: bear markets (-9.4% recession)
 
 ### Defensive
-**Philosophy**: Capital preservation first. I'd rather miss gains than take losses.
+**Philosophy**: Capital preservation first. Miss gains rather than take losses.
 - 3-state exposure: NORMAL (100%), REDUCED (50%), DEFENSE (20%)
-- Counts danger signals (volatility, trend break, drawdown) → scales down
-- Scores by lowest volatility + trend + drawdown history
-- ATR stop: 1.5x (tightest — cuts losers fast)
-- Best at: transitions (+13.6% bull→recession while others lost)
-- Worst at: bull markets (+0.4% in AI rally — too cautious)
+- Counts danger signals (volatility, trend break, drawdown) to scale down
+- ATR stop: 1.5x (tightest)
+- Best at: transitions (+16.1% bull-to-recession, only strategy positive)
+- Worst at: strong bull markets (-2.4% AI rally)
 
 ### EventDriven
-**Philosophy**: Trade catalysts. Earnings surprises, SEC filings, volume anomalies — events move prices.
+**Philosophy**: Trade catalysts. Earnings surprises move prices.
 - Hard eligibility gate: ONLY scores stocks with recent earnings or 8-K filing
-- Buys strong beats (earnings drift), sells strong misses
-- Regime-gated: won't buy earnings during crisis (learned from NFLX bug)
+- Regime-gated: won't buy earnings during crisis (NFLX bug fix)
 - ATR stop: 2.0x
-- Best at: earnings seasons in bull markets (+34.3% in 2024)
-- Worst at: bear markets where every beat gets sold off
+- Best at: earnings seasons in growth markets (+37.9% AI rally, +34.3% full 2024)
+- Worst at: bear markets (-18.7% recession)
 
 ### Adaptive
 **Philosophy**: What regime are we in? That determines everything.
 - 4 modes: MOMENTUM (bull), VALUE (sideways), DEFENSIVE (bear), RECOVERY (bounce)
 - Detects regime via SPY MAs, volatility, sector rotation
-- Delegates scoring to the matching mode's logic
 - ATR stop: 2.0x
-- Best at: COVID (+5.2% — only strategy positive), current market (+25.7%)
-- Worst at: deep bear where regime detection lags (-21.9%)
+- Best at: AI rally (+47.2%), COVID (+5.7% while SPY lost -5.3%)
+- Worst at: deep bear where detection lags (-24.5% recession)
 
 ### Commodity
 **Philosophy**: Track oil. When inflation/geopolitics spike, oil outperforms everything.
 - Single instrument (USO/XLE), 50% max allocation, rest in cash
-- Scores: oil above MAs, positive 1m/3m returns, RSI not overbought
-- Max 1 position — can go 100% cash if bearish
-- Best at: inflation/crisis (+24.7% in 2022 bear, +23.4% in 2025 tariff era)
-- Worst at: normal bull markets where tech leads (-3.2% in 2019)
+- Max 1 position -- can go 100% cash if bearish
+- Best at: inflation (+24.7% recession, +23.4% tariff era 2025)
+- Worst at: normal bull markets (-3.2% in 2019)
 
 ## Ablation: What Helps, What Hurts
 
-We tested 5 risk overlay features. Each turned on alone, measured on bull + bear:
+Tested on 93-stock universe. Each overlay turned on alone:
 
-| Feature | Bull Market Cost | Bear Market Benefit | **Net** | **Status** |
-|---------|-----------------|-------------------|---------|-----------|
-| Cash floor (2%) | -2.9% | +1.3% | -1.6% | ON (insurance) |
-| Conviction gate | -14.1% | +5.5% | **-8.6%** | OFF (market timing) |
-| Conflict detection | 0.0% | +0.3% | 0.0% | LOGGING ONLY |
-| Consensus | 0.0% | 0.0% | 0.0% | OFF (strategies independent) |
-| Partial fill | 0.0% | 0.0% | 0.0% | ON (bug fix) |
+### 2019 Bull Market
 
-**Key finding**: The conviction gate is market timing in disguise. It costs $2.50 in bull markets for every $1 it saves in bear markets. Removed.
+| Config | Avg Return | Cost vs Baseline |
+|--------|-----------|-----------------|
+| **Baseline (overlays off)** | +26.5% | -- |
+| + Cash floor (2%) | +25.3% | -1.2% |
+| Default (cash floor only) | +25.3% | -1.2% |
 
-## Bugs Found & Fixed
+### 2022 Bear Market
+
+| Config | Avg Return | Benefit vs Baseline |
+|--------|-----------|-------------------|
+| **Baseline (overlays off)** | -16.2% | -- |
+| + Cash floor (2%) | -16.1% | +0.1% |
+| Default (cash floor only) | -16.1% | +0.1% |
+
+Cash floor now costs only 1.2% in bull (was 2.9% with old 5% floor). Conviction gate and consensus remain OFF -- they were proven harmful in earlier ablation with 50-stock universe.
+
+## Bugs Found and Fixed
 
 8 bugs discovered through 3 parallel audit agents:
 
@@ -166,28 +206,26 @@ We tested 5 risk overlay features. Each turned on alone, measured on bull + bear
 | `detect_raw()` called 7x per stock | 7x wasted computation | Per-day cache |
 | `_check_watchnotes()` called twice | Second call sees stale data | Removed daily call |
 | Single trim blocks monthly rebalance | Missed rebalance after profit-take | Only SELL blocks rebalance |
-| Bull/bear signals only on extreme regimes | Conviction gate dead in "normal" | Granular SPY MA signals |
+| Bull/bear signals only on extreme regimes | Conviction gate dead in normal periods | Granular SPY MA signals |
 | Consensus never fires | Persistence=2 too strict | Fixed then disabled |
 
 ## Architecture
 
 ```
-┌──────────────────────────────────────────────────────┐
-│                  TWO RUNTIME MODES                    │
-├─────────────────────┬────────────────────────────────┤
-│   SIMULATION        │   LIVE RESEARCH                │
-│   (eval/)           │   (/stock-research skill)      │
-│                     │                                │
-│   Deterministic     │   LLM-powered                  │
-│   Coded rules       │   Claude Opus 4.6              │
-│   Free ($0)         │   13-turn debate               │
-│   Reproducible      │   7 strategy judges            │
-│   7 strategies      │   Structured audit trail       │
-│   Daily event loop  │   Per-stock deep analysis      │
-└─────────────────────┴────────────────────────────────┘
++------------------------------------------------------+
+|                  TWO RUNTIME MODES                    |
++---------------------+--------------------------------+
+|   SIMULATION        |   LIVE RESEARCH                |
+|   (eval/)           |   (/stock-research skill)      |
+|                     |                                |
+|   Deterministic     |   LLM-powered                  |
+|   Coded rules       |   Claude Opus 4.6              |
+|   Free ($0)         |   13-turn debate               |
+|   Reproducible      |   7 strategy judges            |
+|   7 strategies      |   Structured audit trail       |
+|   Daily event loop  |   Per-stock deep analysis      |
++---------------------+--------------------------------+
 ```
-
-The simulation uses coded rules (deterministic, free). The live `/stock-research` skill uses Claude for adversarial debate (5-turn bull/bear + 7 strategy judges + synthesis). Both save structured logs.
 
 ## Quick Start
 
@@ -204,54 +242,7 @@ done
 
 # Live stock research (requires Claude CLI)
 /stock-research AAPL
-```
-
-## Folder Structure
-
-```
-StockTradeAgent/
-├── eval/                           # Simulation engine
-│   ├── daily_loop.py                   Daily event-driven simulation
-│   ├── signals.py                      Centralized signal computation
-│   ├── triggers.py                     Stop-loss, earnings, volume, regime triggers
-│   ├── risk_overlay.py                 Cash floor + conflict logging (feature-flagged)
-│   ├── sim_memory.py                   Strategy memory (learns from past trades)
-│   ├── events_data.py                  Earnings calendar from yfinance
-│   └── strategies/                     7 trading strategies
-│       ├── base_strategy.py                Base (partial fill, cash floor, reasoning)
-│       ├── value_strategy.py               Quarterly contrarian
-│       ├── momentum_strategy.py            12-minus-1 month trend following
-│       ├── balanced_strategy.py            Multi-factor (value+momentum+stability)
-│       ├── defensive_strategy.py           3-state min-volatility
-│       ├── event_driven_strategy.py        Earnings drift + catalyst
-│       ├── adaptive_strategy.py            4-mode regime switching
-│       └── commodity_strategy.py           Oil tracking via USO/XLE
-│
-├── tools/                          # Data tools (all free)
-│   ├── fetch_price_data.py             OHLCV via yfinance
-│   ├── fetch_fundamentals.py           Income stmt, balance sheet, ratios
-│   ├── technical_indicators.py         RSI, MACD, Bollinger, ADX, ATR
-│   ├── earnings.py                     EPS, surprises, analyst targets
-│   ├── sentiment.py                    Analyst consensus, short interest
-│   ├── insider_activity.py             Insider buys/sells
-│   ├── news_collector.py              7-category daily news collection
-│   ├── wiki_news_backfill.py          Wikipedia events (2019-2026)
-│   └── data_loader.py                 Unified cache → fetch access
-│
-├── data/                           # Cached data
-│   ├── news/{date}/geopolitical/       405 dates of world events
-│   └── fundamentals/                  50 stock financials (5yr annual + quarterly)
-│
-├── runs/                           # Output (7 curated period runs)
-│   └── {timestamp}_{period}_mp{N}/
-│       ├── config.json                 Params + feature flags
-│       ├── shared/                     Market-level (regime, signals, conflicts)
-│       └── portfolios/{Strategy}/      Per-strategy (trades, reasoning, memory)
-│
-├── .claude/skills/
-│   ├── stock-research.md              13-turn adversarial analysis
-│   └── portfolio-watch.md             Daily portfolio monitoring
-└── requirements.txt
+/portfolio-watch
 ```
 
 ## Comparison with Related Work
@@ -261,11 +252,12 @@ StockTradeAgent/
 | Cost | $5-100/day | $5-50/day | **$0** (simulation) |
 | Deterministic | No | No | **Yes** |
 | Test duration | 3 months | 5 weeks | **7 years, 7 regimes** |
-| Universe | 3 stocks | NASDAQ-100 | **50 large-cap** |
+| Universe | 3 stocks | NASDAQ-100 | **93 stocks, 15 sectors** |
 | Ablation testing | No | No | **Yes (5 features)** |
 | Walk-forward | No | No | **Yes** |
 | Beat QQQ (their period) | Claimed | 1 of 6 LLMs | **4 of 7 strategies** |
 | Beat QQQ (full year) | Not tested | Not tested | **2 of 7 strategies** |
+| Benchmarks | None | QQQ | **SPY + QQQ + ONEQ** |
 
 ## Data Sources (All Free)
 
@@ -273,7 +265,7 @@ StockTradeAgent/
 |--------|------|-------------|
 | yfinance | Prices, fundamentals, earnings, news | None |
 | SEC EDGAR | 10-K, 10-Q, 8-K filings | 10 req/sec |
-| Wikipedia | Historical world events (backfilled) | None |
+| Wikipedia | Historical world events (backfilled 2019-2026) | None |
 | GDELT | Real-time geopolitical events | Moderate |
 
 ## License

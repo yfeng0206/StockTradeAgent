@@ -1,0 +1,57 @@
+{
+  "final_value": 74941.89,
+  "cash": 68.22,
+  "positions": {
+    "UNH": {
+      "shares": 14,
+      "entry_price": 483.01824951171875,
+      "entry_date": "2022-07-01"
+    },
+    "LLY": {
+      "shares": 23,
+      "entry_price": 325.0805358886719,
+      "entry_date": "2022-09-28"
+    },
+    "VRTX": {
+      "shares": 21,
+      "entry_price": 297.42999267578125,
+      "entry_date": "2022-10-03"
+    },
+    "COP": {
+      "shares": 66,
+      "entry_price": 97.97025299072266,
+      "entry_date": "2022-10-03"
+    },
+    "OXY": {
+      "shares": 106,
+      "entry_price": 60.5427360534668,
+      "entry_date": "2022-10-03"
+    },
+    "XOM": {
+      "shares": 79,
+      "entry_price": 81.70365905761719,
+      "entry_date": "2022-10-03"
+    },
+    "SLB": {
+      "shares": 183,
+      "entry_price": 35.19779586791992,
+      "entry_date": "2022-10-03"
+    },
+    "CVX": {
+      "shares": 49,
+      "entry_price": 131.4504852294922,
+      "entry_date": "2022-10-03"
+    },
+    "AMGN": {
+      "shares": 31,
+      "entry_price": 206.50991821289062,
+      "entry_date": "2022-10-03"
+    },
+    "PEP": {
+      "shares": 42,
+      "entry_price": 151.12135314941406,
+      "entry_date": "2022-10-12"
+    }
+  },
+  "return_pct": -25.06
+}
