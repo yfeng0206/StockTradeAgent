@@ -1,0 +1,47 @@
+{
+  "final_value": 108874.69,
+  "cash": 22073.49,
+  "positions": {
+    "V": {
+      "shares": 38,
+      "entry_price": 254.5695037841797,
+      "entry_date": "2024-01-02"
+    },
+    "MRK": {
+      "shares": 92,
+      "entry_price": 105.45626831054688,
+      "entry_date": "2024-01-02"
+    },
+    "PG": {
+      "shares": 69,
+      "entry_price": 146.25851440429688,
+      "entry_date": "2024-01-23"
+    },
+    "MSFT": {
+      "shares": 24,
+      "entry_price": 390.84710693359375,
+      "entry_date": "2024-01-31"
+    },
+    "WMT": {
+      "shares": 184,
+      "entry_price": 57.39571762084961,
+      "entry_date": "2024-03-01"
+    },
+    "XOM": {
+      "shares": 106,
+      "entry_price": 98.98314666748047,
+      "entry_date": "2024-03-01"
+    },
+    "CMCSA": {
+      "shares": 283,
+      "entry_price": 37.33648681640625,
+      "entry_date": "2024-03-01"
+    },
+    "JPM": {
+      "shares": 59,
+      "entry_price": 177.50914001464844,
+      "entry_date": "2024-03-01"
+    }
+  },
+  "return_pct": 8.87
+}

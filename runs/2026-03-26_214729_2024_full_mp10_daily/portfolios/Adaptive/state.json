@@ -1,0 +1,53 @@
+{
+  "final_value": 123862.72,
+  "cash": 14193.95,
+  "positions": {
+    "WMT": {
+      "shares": 104,
+      "entry_price": 64.73406982421875,
+      "entry_date": "2024-06-03",
+      "_last_trim_price": 91.23320007324219
+    },
+    "GS": {
+      "shares": 25,
+      "entry_price": 513.9979858398438,
+      "entry_date": "2024-10-16"
+    },
+    "NVDA": {
+      "shares": 80,
+      "entry_price": 135.34632873535156,
+      "entry_date": "2024-11-01"
+    },
+    "AMZN": {
+      "shares": 55,
+      "entry_price": 197.92999267578125,
+      "entry_date": "2024-11-01"
+    },
+    "CRM": {
+      "shares": 37,
+      "entry_price": 292.4747009277344,
+      "entry_date": "2024-11-01"
+    },
+    "NFLX": {
+      "shares": 144,
+      "entry_price": 75.61000061035156,
+      "entry_date": "2024-11-01"
+    },
+    "DE": {
+      "shares": 27,
+      "entry_price": 429.98828125,
+      "entry_date": "2024-11-21"
+    },
+    "TSLA": {
+      "shares": 35,
+      "entry_price": 357.0899963378906,
+      "entry_date": "2024-12-02"
+    },
+    "NKE": {
+      "shares": 166,
+      "entry_price": 74.83367919921875,
+      "entry_date": "2024-12-19"
+    }
+  },
+  "return_pct": 23.86
+}

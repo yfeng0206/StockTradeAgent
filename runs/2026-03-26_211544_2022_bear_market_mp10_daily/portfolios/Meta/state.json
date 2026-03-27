@@ -1,0 +1,37 @@
+{
+  "final_value": 90293.15,
+  "cash": 35786.03,
+  "positions": {
+    "MRK": {
+      "shares": 111,
+      "entry_price": 77.80364227294922,
+      "entry_date": "2022-09-01"
+    },
+    "JNJ": {
+      "shares": 58,
+      "entry_price": 149.16522216796875,
+      "entry_date": "2022-09-01"
+    },
+    "UNH": {
+      "shares": 15,
+      "entry_price": 482.7637939453125,
+      "entry_date": "2022-10-03"
+    },
+    "PEP": {
+      "shares": 50,
+      "entry_price": 147.42788696289062,
+      "entry_date": "2022-10-03"
+    },
+    "LMT": {
+      "shares": 22,
+      "entry_price": 393.4425964355469,
+      "entry_date": "2022-10-18"
+    },
+    "NFLX": {
+      "shares": 328,
+      "entry_price": 27.238000869750977,
+      "entry_date": "2022-10-19"
+    }
+  },
+  "return_pct": -9.71
+}

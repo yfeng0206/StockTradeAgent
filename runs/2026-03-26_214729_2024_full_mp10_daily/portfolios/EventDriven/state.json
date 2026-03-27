@@ -1,0 +1,42 @@
+{
+  "final_value": 134341.79,
+  "cash": 41708.67,
+  "positions": {
+    "AMZN": {
+      "shares": 60,
+      "entry_price": 197.92999267578125,
+      "entry_date": "2024-11-01"
+    },
+    "WMT": {
+      "shares": 146,
+      "entry_price": 91.37128448486328,
+      "entry_date": "2024-12-02"
+    },
+    "NVDA": {
+      "shares": 96,
+      "entry_price": 138.57504272460938,
+      "entry_date": "2024-12-02"
+    },
+    "AAPL": {
+      "shares": 56,
+      "entry_price": 238.2882843017578,
+      "entry_date": "2024-12-02"
+    },
+    "META": {
+      "shares": 22,
+      "entry_price": 589.9850463867188,
+      "entry_date": "2024-12-02"
+    },
+    "MSFT": {
+      "shares": 31,
+      "entry_price": 426.8497619628906,
+      "entry_date": "2024-12-02"
+    },
+    "MA": {
+      "shares": 25,
+      "entry_price": 527.5320434570312,
+      "entry_date": "2024-12-02"
+    }
+  },
+  "return_pct": 34.34
+}

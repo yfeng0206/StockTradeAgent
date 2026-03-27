@@ -1,0 +1,58 @@
+{
+  "final_value": 122752.32,
+  "cash": 7455.88,
+  "positions": {
+    "CRM": {
+      "shares": 65,
+      "entry_price": 165.34107971191406,
+      "entry_date": "2023-03-01"
+    },
+    "AAPL": {
+      "shares": 65,
+      "entry_price": 163.79702758789062,
+      "entry_date": "2023-04-03"
+    },
+    "META": {
+      "shares": 50,
+      "entry_price": 211.41094970703125,
+      "entry_date": "2023-04-03"
+    },
+    "GOOGL": {
+      "shares": 103,
+      "entry_price": 103.50453186035156,
+      "entry_date": "2023-04-03"
+    },
+    "MSFT": {
+      "shares": 32,
+      "entry_price": 288.5368957519531,
+      "entry_date": "2023-04-26"
+    },
+    "NVDA": {
+      "shares": 238,
+      "entry_price": 28.884428024291992,
+      "entry_date": "2023-05-01",
+      "_last_trim_price": 40.989959716796875
+    },
+    "LLY": {
+      "shares": 25,
+      "entry_price": 396.9044494628906,
+      "entry_date": "2023-05-01"
+    },
+    "AMZN": {
+      "shares": 80,
+      "entry_price": 122.7699966430664,
+      "entry_date": "2023-06-01"
+    },
+    "ADBE": {
+      "shares": 23,
+      "entry_price": 426.75,
+      "entry_date": "2023-06-01"
+    },
+    "NFLX": {
+      "shares": 246,
+      "entry_price": 40.3129997253418,
+      "entry_date": "2023-06-01"
+    }
+  },
+  "return_pct": 22.75
+}

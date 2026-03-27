@@ -1,0 +1,81 @@
+{
+  "strategies": {
+    "Value": {
+      "final_value": 92584.35,
+      "total_return_pct": -7.42,
+      "alpha_vs_spy": 10.13,
+      "sharpe_ratio": -0.547,
+      "max_drawdown_pct": -16.47,
+      "total_trades": 67,
+      "win_rate_pct": 17.2
+    },
+    "Momentum": {
+      "final_value": 88389.55,
+      "total_return_pct": -11.61,
+      "alpha_vs_spy": 5.94,
+      "sharpe_ratio": -0.722,
+      "max_drawdown_pct": -22.67,
+      "total_trades": 156,
+      "win_rate_pct": 24.7
+    },
+    "Balanced": {
+      "final_value": 88432.05,
+      "total_return_pct": -11.57,
+      "alpha_vs_spy": 5.98,
+      "sharpe_ratio": -0.845,
+      "max_drawdown_pct": -18.05,
+      "total_trades": 163,
+      "win_rate_pct": 30.0
+    },
+    "Defensive": {
+      "final_value": 94163.48,
+      "total_return_pct": -5.84,
+      "alpha_vs_spy": 11.71,
+      "sharpe_ratio": -0.714,
+      "max_drawdown_pct": -11.8,
+      "total_trades": 115,
+      "win_rate_pct": 21.4
+    },
+    "EventDriven": {
+      "final_value": 81341.2,
+      "total_return_pct": -18.66,
+      "alpha_vs_spy": -1.11,
+      "sharpe_ratio": -1.149,
+      "max_drawdown_pct": -27.16,
+      "total_trades": 160,
+      "win_rate_pct": 24.0
+    },
+    "Adaptive": {
+      "final_value": 78066.31,
+      "total_return_pct": -21.93,
+      "alpha_vs_spy": -4.38,
+      "sharpe_ratio": -1.764,
+      "max_drawdown_pct": -24.1,
+      "total_trades": 177,
+      "win_rate_pct": 28.7
+    },
+    "Commodity": {
+      "final_value": 124663.34,
+      "total_return_pct": 24.66,
+      "alpha_vs_spy": 42.21,
+      "sharpe_ratio": 1.818,
+      "max_drawdown_pct": -8.21,
+      "total_trades": 3,
+      "win_rate_pct": 100.0
+    }
+  },
+  "benchmarks": {
+    "SPY": {
+      "final_value": 82449.03,
+      "total_return_pct": -17.55,
+      "sharpe_ratio": -0.841,
+      "max_drawdown_pct": -24.4
+    },
+    "QQQ": {
+      "final_value": 70431.82,
+      "total_return_pct": -29.57,
+      "sharpe_ratio": -1.156,
+      "max_drawdown_pct": -34.68
+    }
+  }
+}

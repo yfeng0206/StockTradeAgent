@@ -1,0 +1,47 @@
+{
+  "final_value": 99370.15,
+  "cash": 21876.63,
+  "positions": {
+    "COST": {
+      "shares": 10,
+      "entry_price": 914.7943115234375,
+      "entry_date": "2025-10-01"
+    },
+    "CRM": {
+      "shares": 41,
+      "entry_price": 235.3101806640625,
+      "entry_date": "2025-10-01"
+    },
+    "PG": {
+      "shares": 64,
+      "entry_price": 151.04383850097656,
+      "entry_date": "2025-10-01"
+    },
+    "ADBE": {
+      "shares": 28,
+      "entry_price": 343.7200012207031,
+      "entry_date": "2025-10-01"
+    },
+    "DE": {
+      "shares": 21,
+      "entry_price": 450.17279052734375,
+      "entry_date": "2025-10-01"
+    },
+    "HON": {
+      "shares": 50,
+      "entry_price": 195.94387817382812,
+      "entry_date": "2025-10-01"
+    },
+    "UPS": {
+      "shares": 119,
+      "entry_price": 81.79749298095703,
+      "entry_date": "2025-10-01"
+    },
+    "PEP": {
+      "shares": 69,
+      "entry_price": 140.498291015625,
+      "entry_date": "2025-10-01"
+    }
+  },
+  "return_pct": -0.63
+}

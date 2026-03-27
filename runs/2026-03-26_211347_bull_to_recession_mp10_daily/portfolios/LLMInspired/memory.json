@@ -1,0 +1,2215 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2021-07-01",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-07-02",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-07-08",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-07-09",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-07-16",
+      "regime": "sideways"
+    },
+    {
+      "date": "2021-07-21",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-07-22",
+      "regime": "sideways"
+    },
+    {
+      "date": "2021-07-23",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-07-30",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-08-03",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-08-04",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-08-05",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-08-09",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-08-11",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-08-17",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-08-25",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-08-26",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-08-27",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-09-07",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-09-20",
+      "regime": "sideways"
+    },
+    {
+      "date": "2021-10-04",
+      "regime": "bearish"
+    },
+    {
+      "date": "2021-10-05",
+      "regime": "sideways"
+    },
+    {
+      "date": "2021-10-28",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-11-26",
+      "regime": "sideways"
+    },
+    {
+      "date": "2021-12-07",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-12-09",
+      "regime": "sideways"
+    },
+    {
+      "date": "2021-12-10",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-12-13",
+      "regime": "sideways"
+    },
+    {
+      "date": "2021-12-15",
+      "regime": "normal"
+    },
+    {
+      "date": "2021-12-27",
+      "regime": "bullish"
+    },
+    {
+      "date": "2021-12-30",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-01-13",
+      "regime": "sideways"
+    },
+    {
+      "date": "2022-01-20",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-01-31",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-02-03",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-02-04",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-02-11",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-02-15",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-02-17",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-03-09",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-03-10",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-03-15",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-03-23",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-03-25",
+      "regime": "bullish"
+    },
+    {
+      "date": "2022-03-31",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-04-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2022-04-05",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-04-13",
+      "regime": "sideways"
+    },
+    {
+      "date": "2022-04-14",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-04-18",
+      "regime": "sideways"
+    },
+    {
+      "date": "2022-04-22",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-04-26",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-04-28",
+      "regime": "normal"
+    },
+    {
+      "date": "2022-04-29",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-05-02",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-05-03",
+      "regime": "bearish"
+    },
+    {
+      "date": "2022-05-04",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-05-09",
+      "regime": "crisis"
+    },
+    {
+      "date": "2022-05-27",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-05-31",
+      "regime": "crisis"
+    },
+    {
+      "date": "2022-06-02",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-06-13",
+      "regime": "crisis"
+    },
+    {
+      "date": "2022-06-16",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-06-21",
+      "regime": "crisis"
+    },
+    {
+      "date": "2022-06-22",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2022-06-23",
+      "regime": "crisis"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2021-07-01",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2021-07-08",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2021-07-09",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2021-07-12",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2021-07-13",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2021-07-14",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2021-07-15",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2021-07-16",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2021-07-19",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2021-07-21",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2021-07-22",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2021-07-23",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2021-07-26",
+      "context": "geo_risk=0.98"
+    },
+    {
+      "date": "2021-07-27",
+      "context": "geo_risk=0.99"
+    },
+    {
+      "date": "2021-07-29",
+      "context": "geo_risk=1.00"
+    },
+    {
+      "date": "2021-08-12",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2021-08-13",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2021-08-16",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2021-08-17",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2021-08-20",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2021-08-26",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2021-08-27",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2021-08-30",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2021-08-31",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2021-09-01",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2021-09-06",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2021-09-09",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2021-09-10",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2021-09-13",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2021-09-14",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2021-09-15",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2021-09-16",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2021-09-17",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2021-09-20",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2021-09-21",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2021-09-22",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2021-09-23",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2021-09-24",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2021-09-27",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2021-09-28",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2021-09-29",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2021-09-30",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2021-10-04",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2021-10-21",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2021-10-22",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2021-10-25",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2021-10-26",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2021-10-27",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2021-10-28",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2021-10-29",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2021-11-01",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2021-11-02",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2021-11-03",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2021-11-08",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2021-11-11",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2021-11-12",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2021-11-15",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2021-11-16",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2021-11-17",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2021-11-18",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2021-11-19",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2021-11-23",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2021-12-02",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2021-12-03",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2021-12-06",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2021-12-07",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2021-12-08",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2021-12-09",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2021-12-10",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2021-12-13",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2021-12-14",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2021-12-16",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2021-12-17",
+      "context": "geo_risk=0.71"
+    },
+    {
+      "date": "2021-12-20",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2021-12-21",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2021-12-22",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2021-12-23",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2021-12-24",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2021-12-27",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2021-12-28",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2021-12-29",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2021-12-30",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2021-12-31",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2022-01-03",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2022-01-04",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2022-01-05",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2022-01-06",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2022-01-07",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2022-01-10",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2022-01-11",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2022-01-12",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2022-01-13",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2022-01-14",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2022-01-17",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2022-01-18",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2022-01-20",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2022-01-21",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2022-01-24",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2022-01-25",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2022-01-26",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2022-01-31",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2022-02-01",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2022-02-02",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2022-02-03",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2022-02-04",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2022-02-07",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2022-02-08",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2022-02-09",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2022-02-10",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2022-02-11",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2022-02-14",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2022-02-15",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2022-02-16",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2022-02-17",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2022-02-18",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2022-02-21",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2022-02-22",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2022-02-23",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2022-02-24",
+      "context": "geo_risk=0.98"
+    },
+    {
+      "date": "2022-02-28",
+      "context": "geo_risk=0.99"
+    },
+    {
+      "date": "2022-03-01",
+      "context": "geo_risk=1.00"
+    },
+    {
+      "date": "2022-03-17",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2022-03-18",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2022-03-21",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2022-03-22",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2022-03-23",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2022-03-24",
+      "context": "geo_risk=0.98"
+    },
+    {
+      "date": "2022-03-25",
+      "context": "geo_risk=0.99"
+    },
+    {
+      "date": "2022-03-28",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2022-03-29",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2022-03-30",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2022-03-31",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2022-04-01",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2022-04-04",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2022-04-05",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2022-04-06",
+      "context": "geo_risk=0.98"
+    },
+    {
+      "date": "2022-04-07",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2022-04-08",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2022-04-11",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2022-04-12",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2022-04-13",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2022-04-14",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2022-04-15",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2022-04-18",
+      "context": "geo_risk=0.82"
+    },
+    {
+      "date": "2022-04-19",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2022-04-20",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2022-04-21",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2022-04-22",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2022-04-25",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2022-04-26",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2022-04-27",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2022-04-28",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2022-04-29",
+      "context": "geo_risk=0.82"
+    },
+    {
+      "date": "2022-05-02",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2022-05-03",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2022-05-04",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2022-05-05",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2022-05-06",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2022-05-09",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2022-05-10",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2022-05-11",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2022-05-12",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2022-05-13",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2022-05-16",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2022-05-17",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2022-05-18",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2022-05-19",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2022-05-20",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2022-05-26",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2022-05-27",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2022-05-30",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2022-05-31",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2022-06-01",
+      "context": "geo_risk=0.98"
+    },
+    {
+      "date": "2022-06-02",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2022-06-03",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2022-06-06",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2022-06-07",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2022-06-08",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2022-06-09",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2022-06-10",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2022-06-13",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2022-06-17",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2022-06-20",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2022-06-21",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2022-06-22",
+      "context": "geo_risk=0.86"
+    },
+    {
+      "date": "2022-06-23",
+      "context": "geo_risk=0.83"
+    },
+    {
+      "date": "2022-06-24",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2022-06-27",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2022-06-28",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2022-06-29",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2022-06-30",
+      "context": "geo_risk=0.94"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "HD",
+      "pnl_pct": 1.77,
+      "date": "2021-08-02",
+      "held_from": "2021-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": 8.92,
+      "date": "2021-08-02",
+      "held_from": "2021-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "JNJ",
+      "pnl_pct": 3.8,
+      "date": "2021-08-02",
+      "held_from": "2021-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": 5.57,
+      "date": "2021-08-02",
+      "held_from": "2021-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "UNH",
+      "pnl_pct": 3.08,
+      "date": "2021-09-01",
+      "held_from": "2021-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "META",
+      "pnl_pct": 8.55,
+      "date": "2021-09-01",
+      "held_from": "2021-08-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": 9.5,
+      "date": "2021-10-01",
+      "held_from": "2021-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": 11.51,
+      "date": "2021-10-01",
+      "held_from": "2021-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "HD",
+      "pnl_pct": 11.1,
+      "date": "2021-11-01",
+      "held_from": "2021-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": 9.99,
+      "date": "2021-11-01",
+      "held_from": "2021-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": 10.89,
+      "date": "2021-11-01",
+      "held_from": "2021-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": 9.89,
+      "date": "2021-11-01",
+      "held_from": "2021-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": 10.86,
+      "date": "2021-11-01",
+      "held_from": "2021-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "TSLA",
+      "pnl_pct": 17.93,
+      "date": "2021-11-01",
+      "held_from": "2021-10-25",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NFLX",
+      "pnl_pct": 0.75,
+      "date": "2021-12-01",
+      "held_from": "2021-10-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AAPL",
+      "pnl_pct": 10.78,
+      "date": "2021-12-01",
+      "held_from": "2021-11-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": 17.97,
+      "date": "2022-01-03",
+      "held_from": "2021-08-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": 1.04,
+      "date": "2022-01-03",
+      "held_from": "2021-11-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": 16.54,
+      "date": "2022-01-03",
+      "held_from": "2021-11-05",
+      "regime": "normal"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": 3.04,
+      "date": "2022-01-03",
+      "held_from": "2021-12-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "CVX",
+      "pnl_pct": 6.39,
+      "date": "2022-01-03",
+      "held_from": "2021-12-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "ABBV",
+      "pnl_pct": 16.83,
+      "date": "2022-01-03",
+      "held_from": "2021-12-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MCD",
+      "pnl_pct": 9.06,
+      "date": "2022-02-01",
+      "held_from": "2021-08-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "KO",
+      "pnl_pct": 2.12,
+      "date": "2022-02-01",
+      "held_from": "2022-01-03",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": 6.51,
+      "date": "2022-04-01",
+      "held_from": "2021-12-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PEP",
+      "pnl_pct": 5.3,
+      "date": "2022-04-01",
+      "held_from": "2022-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": 15.63,
+      "date": "2022-04-01",
+      "held_from": "2022-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": 20.2,
+      "date": "2022-04-01",
+      "held_from": "2022-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "XOM",
+      "pnl_pct": 7.68,
+      "date": "2022-04-29",
+      "held_from": "2022-03-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "ABBV",
+      "pnl_pct": 8.85,
+      "date": "2022-05-02",
+      "held_from": "2022-02-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": 12.08,
+      "date": "2022-05-02",
+      "held_from": "2022-02-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": 1.32,
+      "date": "2022-05-02",
+      "held_from": "2022-03-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "HD",
+      "pnl_pct": 1.68,
+      "date": "2022-05-02",
+      "held_from": "2022-04-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "META",
+      "pnl_pct": 2.62,
+      "date": "2022-05-02",
+      "held_from": "2022-04-28",
+      "regime": "high_volatility"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "BLK",
+      "pnl_pct": -3.87,
+      "date": "2021-07-19",
+      "held_from": "2021-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -1.68,
+      "date": "2021-08-02",
+      "held_from": "2021-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": -4.13,
+      "date": "2021-08-20",
+      "held_from": "2021-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "V",
+      "pnl_pct": -3.38,
+      "date": "2021-08-20",
+      "held_from": "2021-08-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "JNJ",
+      "pnl_pct": -3.26,
+      "date": "2021-09-09",
+      "held_from": "2021-09-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -5.3,
+      "date": "2021-09-13",
+      "held_from": "2021-09-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": -3.41,
+      "date": "2021-09-20",
+      "held_from": "2021-09-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "ABT",
+      "pnl_pct": -5.35,
+      "date": "2021-09-27",
+      "held_from": "2021-09-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AAPL",
+      "pnl_pct": -1.83,
+      "date": "2021-10-01",
+      "held_from": "2021-08-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": 0.0,
+      "date": "2021-10-01",
+      "held_from": "2021-10-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": -4.44,
+      "date": "2021-10-04",
+      "held_from": "2021-10-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": -1.51,
+      "date": "2021-11-01",
+      "held_from": "2021-08-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": -7.09,
+      "date": "2021-11-05",
+      "held_from": "2021-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "GS",
+      "pnl_pct": -4.22,
+      "date": "2021-11-10",
+      "held_from": "2021-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "JPM",
+      "pnl_pct": -3.14,
+      "date": "2021-11-17",
+      "held_from": "2021-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "BAC",
+      "pnl_pct": -5.12,
+      "date": "2021-11-19",
+      "held_from": "2021-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "UPS",
+      "pnl_pct": -5.48,
+      "date": "2021-11-30",
+      "held_from": "2021-11-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": -10.27,
+      "date": "2021-12-13",
+      "held_from": "2021-12-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "LLY",
+      "pnl_pct": -1.29,
+      "date": "2022-01-03",
+      "held_from": "2021-12-15",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": -6.43,
+      "date": "2022-01-06",
+      "held_from": "2022-01-03",
+      "regime": "normal"
+    },
+    {
+      "ticker": "HD",
+      "pnl_pct": -5.18,
+      "date": "2022-01-10",
+      "held_from": "2022-01-03",
+      "regime": "normal"
+    },
+    {
+      "ticker": "ABT",
+      "pnl_pct": -3.83,
+      "date": "2022-01-12",
+      "held_from": "2022-01-03",
+      "regime": "normal"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -5.07,
+      "date": "2022-01-14",
+      "held_from": "2021-12-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "JNJ",
+      "pnl_pct": -2.59,
+      "date": "2022-01-18",
+      "held_from": "2022-01-03",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": -5.18,
+      "date": "2022-01-25",
+      "held_from": "2022-01-03",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "UPS",
+      "pnl_pct": 0.0,
+      "date": "2022-02-01",
+      "held_from": "2022-02-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -6.16,
+      "date": "2022-02-14",
+      "held_from": "2022-02-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": -4.62,
+      "date": "2022-02-15",
+      "held_from": "2022-01-03",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": -6.55,
+      "date": "2022-02-18",
+      "held_from": "2022-02-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "JNJ",
+      "pnl_pct": -3.79,
+      "date": "2022-02-18",
+      "held_from": "2022-02-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "AAPL",
+      "pnl_pct": -5.77,
+      "date": "2022-02-22",
+      "held_from": "2022-02-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": -7.31,
+      "date": "2022-02-23",
+      "held_from": "2022-02-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "BAC",
+      "pnl_pct": -7.12,
+      "date": "2022-02-24",
+      "held_from": "2022-02-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "KO",
+      "pnl_pct": -5.34,
+      "date": "2022-03-08",
+      "held_from": "2022-03-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "VZ",
+      "pnl_pct": -5.24,
+      "date": "2022-03-18",
+      "held_from": "2022-03-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "TSLA",
+      "pnl_pct": -10.02,
+      "date": "2022-04-11",
+      "held_from": "2022-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": -8.24,
+      "date": "2022-04-14",
+      "held_from": "2022-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": -5.24,
+      "date": "2022-04-22",
+      "held_from": "2022-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "DE",
+      "pnl_pct": -7.51,
+      "date": "2022-04-25",
+      "held_from": "2022-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "UNH",
+      "pnl_pct": -2.23,
+      "date": "2022-05-02",
+      "held_from": "2022-04-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": -8.65,
+      "date": "2022-05-09",
+      "held_from": "2022-05-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "MCD",
+      "pnl_pct": -6.32,
+      "date": "2022-05-18",
+      "held_from": "2022-05-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": -8.42,
+      "date": "2022-05-18",
+      "held_from": "2022-05-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "KO",
+      "pnl_pct": -5.42,
+      "date": "2022-05-19",
+      "held_from": "2022-05-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": 0.0,
+      "date": "2022-06-01",
+      "held_from": "2022-06-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "MCD",
+      "pnl_pct": -4.25,
+      "date": "2022-06-10",
+      "held_from": "2022-06-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "GS",
+      "pnl_pct": -10.82,
+      "date": "2022-06-10",
+      "held_from": "2022-06-01",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": -5.22,
+      "date": "2022-06-13",
+      "held_from": "2022-05-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "JNJ",
+      "pnl_pct": -3.77,
+      "date": "2022-06-13",
+      "held_from": "2022-05-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -8.52,
+      "date": "2022-06-13",
+      "held_from": "2022-06-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "T",
+      "pnl_pct": -6.88,
+      "date": "2022-06-13",
+      "held_from": "2022-06-01",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "PEP",
+      "pnl_pct": -6.29,
+      "date": "2022-06-14",
+      "held_from": "2022-05-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": -8.15,
+      "date": "2022-06-16",
+      "held_from": "2022-05-02",
+      "regime": "high_volatility"
+    }
+  ],
+  "lessons": [
+    "Win rate: 39% (34W / 53L)",
+    "Avg win: +8.5%, Avg loss: -5.1%",
+    "Regimes encountered: 66 changes",
+    "Regime 'normal': avg PnL +0.8% over 27 trades",
+    "Regime 'bullish': avg PnL +6.4% over 17 trades",
+    "Regime 'sideways': avg PnL -0.4% over 13 trades",
+    "Regime 'bearish': avg PnL -4.4% over 10 trades",
+    "Regime 'high_volatility': avg PnL -0.4% over 10 trades",
+    "Regime 'crisis': avg PnL -5.9% over 10 trades"
+  ],
+  "best_ticker": "CAT +20.2%",
+  "worst_ticker": "GS -10.82%",
+  "ticker_history": {
+    "BLK": [
+      {
+        "pnl": -3.87,
+        "regime": "sideways",
+        "date": "2021-07-19"
+      }
+    ],
+    "CRM": [
+      {
+        "pnl": -1.68,
+        "regime": "normal",
+        "date": "2021-08-02"
+      },
+      {
+        "pnl": -5.3,
+        "regime": "normal",
+        "date": "2021-09-13"
+      },
+      {
+        "pnl": 9.99,
+        "regime": "bullish",
+        "date": "2021-11-01"
+      },
+      {
+        "pnl": 0.0,
+        "regime": "crisis",
+        "date": "2022-06-01"
+      }
+    ],
+    "HD": [
+      {
+        "pnl": 1.77,
+        "regime": "normal",
+        "date": "2021-08-02"
+      },
+      {
+        "pnl": 11.1,
+        "regime": "bullish",
+        "date": "2021-11-01"
+      },
+      {
+        "pnl": -5.18,
+        "regime": "normal",
+        "date": "2022-01-10"
+      },
+      {
+        "pnl": 1.68,
+        "regime": "high_volatility",
+        "date": "2022-05-02"
+      }
+    ],
+    "COST": [
+      {
+        "pnl": 8.92,
+        "regime": "normal",
+        "date": "2021-08-02"
+      },
+      {
+        "pnl": 9.89,
+        "regime": "bullish",
+        "date": "2021-11-01"
+      },
+      {
+        "pnl": -5.07,
+        "regime": "sideways",
+        "date": "2022-01-14"
+      },
+      {
+        "pnl": 1.32,
+        "regime": "high_volatility",
+        "date": "2022-05-02"
+      }
+    ],
+    "JNJ": [
+      {
+        "pnl": 3.8,
+        "regime": "normal",
+        "date": "2021-08-02"
+      },
+      {
+        "pnl": -3.26,
+        "regime": "normal",
+        "date": "2021-09-09"
+      },
+      {
+        "pnl": -2.59,
+        "regime": "sideways",
+        "date": "2022-01-18"
+      },
+      {
+        "pnl": -3.79,
+        "regime": "bearish",
+        "date": "2022-02-18"
+      },
+      {
+        "pnl": -3.77,
+        "regime": "crisis",
+        "date": "2022-06-13"
+      }
+    ],
+    "PG": [
+      {
+        "pnl": 5.57,
+        "regime": "normal",
+        "date": "2021-08-02"
+      },
+      {
+        "pnl": 6.51,
+        "regime": "bullish",
+        "date": "2022-04-01"
+      },
+      {
+        "pnl": -8.42,
+        "regime": "crisis",
+        "date": "2022-05-18"
+      }
+    ],
+    "MA": [
+      {
+        "pnl": -4.13,
+        "regime": "normal",
+        "date": "2021-08-20"
+      },
+      {
+        "pnl": -4.44,
+        "regime": "bearish",
+        "date": "2021-10-04"
+      },
+      {
+        "pnl": -8.65,
+        "regime": "crisis",
+        "date": "2022-05-09"
+      }
+    ],
+    "V": [
+      {
+        "pnl": -3.38,
+        "regime": "normal",
+        "date": "2021-08-20"
+      }
+    ],
+    "UNH": [
+      {
+        "pnl": 3.08,
+        "regime": "bullish",
+        "date": "2021-09-01"
+      },
+      {
+        "pnl": -2.23,
+        "regime": "high_volatility",
+        "date": "2022-05-02"
+      }
+    ],
+    "META": [
+      {
+        "pnl": 8.55,
+        "regime": "bullish",
+        "date": "2021-09-01"
+      },
+      {
+        "pnl": 2.62,
+        "regime": "high_volatility",
+        "date": "2022-05-02"
+      }
+    ],
+    "WMT": [
+      {
+        "pnl": -3.41,
+        "regime": "sideways",
+        "date": "2021-09-20"
+      },
+      {
+        "pnl": -5.18,
+        "regime": "bearish",
+        "date": "2022-01-25"
+      }
+    ],
+    "ABT": [
+      {
+        "pnl": -5.35,
+        "regime": "sideways",
+        "date": "2021-09-27"
+      },
+      {
+        "pnl": -3.83,
+        "regime": "normal",
+        "date": "2022-01-12"
+      }
+    ],
+    "PFE": [
+      {
+        "pnl": 9.5,
+        "regime": "sideways",
+        "date": "2021-10-01"
+      },
+      {
+        "pnl": 16.54,
+        "regime": "normal",
+        "date": "2022-01-03"
+      },
+      {
+        "pnl": -6.16,
+        "regime": "bearish",
+        "date": "2022-02-14"
+      },
+      {
+        "pnl": -8.52,
+        "regime": "crisis",
+        "date": "2022-06-13"
+      }
+    ],
+    "GOOGL": [
+      {
+        "pnl": 11.51,
+        "regime": "sideways",
+        "date": "2021-10-01"
+      },
+      {
+        "pnl": 1.04,
+        "regime": "normal",
+        "date": "2022-01-03"
+      },
+      {
+        "pnl": -7.31,
+        "regime": "bearish",
+        "date": "2022-02-23"
+      }
+    ],
+    "AAPL": [
+      {
+        "pnl": -1.83,
+        "regime": "sideways",
+        "date": "2021-10-01"
+      },
+      {
+        "pnl": 10.78,
+        "regime": "sideways",
+        "date": "2021-12-01"
+      },
+      {
+        "pnl": -5.77,
+        "regime": "bearish",
+        "date": "2022-02-22"
+      }
+    ],
+    "MRK": [
+      {
+        "pnl": 0.0,
+        "regime": "sideways",
+        "date": "2021-10-01"
+      },
+      {
+        "pnl": -7.09,
+        "regime": "bullish",
+        "date": "2021-11-05"
+      }
+    ],
+    "SO": [
+      {
+        "pnl": -1.51,
+        "regime": "bullish",
+        "date": "2021-11-01"
+      },
+      {
+        "pnl": -4.62,
+        "regime": "normal",
+        "date": "2022-02-15"
+      },
+      {
+        "pnl": 15.63,
+        "regime": "bullish",
+        "date": "2022-04-01"
+      },
+      {
+        "pnl": -5.22,
+        "regime": "crisis",
+        "date": "2022-06-13"
+      }
+    ],
+    "TMO": [
+      {
+        "pnl": 10.89,
+        "regime": "bullish",
+        "date": "2021-11-01"
+      },
+      {
+        "pnl": 3.04,
+        "regime": "normal",
+        "date": "2022-01-03"
+      },
+      {
+        "pnl": -5.24,
+        "regime": "normal",
+        "date": "2022-04-22"
+      }
+    ],
+    "ADBE": [
+      {
+        "pnl": 10.86,
+        "regime": "bullish",
+        "date": "2021-11-01"
+      },
+      {
+        "pnl": -8.24,
+        "regime": "normal",
+        "date": "2022-04-14"
+      }
+    ],
+    "TSLA": [
+      {
+        "pnl": 17.93,
+        "regime": "bullish",
+        "date": "2021-11-01"
+      },
+      {
+        "pnl": -10.02,
+        "regime": "normal",
+        "date": "2022-04-11"
+      }
+    ],
+    "GS": [
+      {
+        "pnl": -4.22,
+        "regime": "bullish",
+        "date": "2021-11-10"
+      },
+      {
+        "pnl": -10.82,
+        "regime": "high_volatility",
+        "date": "2022-06-10"
+      }
+    ],
+    "JPM": [
+      {
+        "pnl": -3.14,
+        "regime": "bullish",
+        "date": "2021-11-17"
+      }
+    ],
+    "BAC": [
+      {
+        "pnl": -5.12,
+        "regime": "bullish",
+        "date": "2021-11-19"
+      },
+      {
+        "pnl": -7.12,
+        "regime": "bearish",
+        "date": "2022-02-24"
+      }
+    ],
+    "UPS": [
+      {
+        "pnl": -5.48,
+        "regime": "sideways",
+        "date": "2021-11-30"
+      },
+      {
+        "pnl": 0.0,
+        "regime": "normal",
+        "date": "2022-02-01"
+      }
+    ],
+    "NFLX": [
+      {
+        "pnl": 0.75,
+        "regime": "sideways",
+        "date": "2021-12-01"
+      }
+    ],
+    "AMD": [
+      {
+        "pnl": -10.27,
+        "regime": "sideways",
+        "date": "2021-12-13"
+      }
+    ],
+    "MSFT": [
+      {
+        "pnl": 17.97,
+        "regime": "normal",
+        "date": "2022-01-03"
+      },
+      {
+        "pnl": -6.55,
+        "regime": "bearish",
+        "date": "2022-02-18"
+      }
+    ],
+    "CVX": [
+      {
+        "pnl": 6.39,
+        "regime": "normal",
+        "date": "2022-01-03"
+      }
+    ],
+    "ABBV": [
+      {
+        "pnl": 16.83,
+        "regime": "normal",
+        "date": "2022-01-03"
+      },
+      {
+        "pnl": 8.85,
+        "regime": "high_volatility",
+        "date": "2022-05-02"
+      }
+    ],
+    "LLY": [
+      {
+        "pnl": -1.29,
+        "regime": "normal",
+        "date": "2022-01-03"
+      }
+    ],
+    "NEE": [
+      {
+        "pnl": -6.43,
+        "regime": "normal",
+        "date": "2022-01-06"
+      }
+    ],
+    "MCD": [
+      {
+        "pnl": 9.06,
+        "regime": "normal",
+        "date": "2022-02-01"
+      },
+      {
+        "pnl": -6.32,
+        "regime": "crisis",
+        "date": "2022-05-18"
+      },
+      {
+        "pnl": -4.25,
+        "regime": "high_volatility",
+        "date": "2022-06-10"
+      }
+    ],
+    "KO": [
+      {
+        "pnl": 2.12,
+        "regime": "normal",
+        "date": "2022-02-01"
+      },
+      {
+        "pnl": -5.34,
+        "regime": "bearish",
+        "date": "2022-03-08"
+      },
+      {
+        "pnl": -5.42,
+        "regime": "crisis",
+        "date": "2022-05-19"
+      }
+    ],
+    "VZ": [
+      {
+        "pnl": -5.24,
+        "regime": "high_volatility",
+        "date": "2022-03-18"
+      }
+    ],
+    "PEP": [
+      {
+        "pnl": 5.3,
+        "regime": "bullish",
+        "date": "2022-04-01"
+      },
+      {
+        "pnl": -6.29,
+        "regime": "crisis",
+        "date": "2022-06-14"
+      }
+    ],
+    "CAT": [
+      {
+        "pnl": 20.2,
+        "regime": "bullish",
+        "date": "2022-04-01"
+      },
+      {
+        "pnl": -8.15,
+        "regime": "high_volatility",
+        "date": "2022-06-16"
+      }
+    ],
+    "DE": [
+      {
+        "pnl": -7.51,
+        "regime": "normal",
+        "date": "2022-04-25"
+      }
+    ],
+    "XOM": [
+      {
+        "pnl": 7.68,
+        "regime": "bearish",
+        "date": "2022-04-29"
+      }
+    ],
+    "LMT": [
+      {
+        "pnl": 12.08,
+        "regime": "high_volatility",
+        "date": "2022-05-02"
+      }
+    ],
+    "T": [
+      {
+        "pnl": -6.88,
+        "regime": "crisis",
+        "date": "2022-06-13"
+      }
+    ]
+  },
+  "regime_performance": {
+    "sideways": {
+      "wins": 4,
+      "losses": 9,
+      "total": 13,
+      "total_pnl": -5.33
+    },
+    "normal": {
+      "wins": 12,
+      "losses": 15,
+      "total": 27,
+      "total_pnl": 22.940000000000005
+    },
+    "bullish": {
+      "wins": 12,
+      "losses": 5,
+      "total": 17,
+      "total_pnl": 108.85
+    },
+    "bearish": {
+      "wins": 1,
+      "losses": 9,
+      "total": 10,
+      "total_pnl": -43.98
+    },
+    "high_volatility": {
+      "wins": 5,
+      "losses": 5,
+      "total": 10,
+      "total_pnl": -4.140000000000002
+    },
+    "crisis": {
+      "wins": 0,
+      "losses": 10,
+      "total": 10,
+      "total_pnl": -59.49000000000001
+    }
+  }
+}

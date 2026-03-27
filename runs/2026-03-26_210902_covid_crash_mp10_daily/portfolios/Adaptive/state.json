@@ -1,0 +1,42 @@
+{
+  "final_value": 101824.32,
+  "cash": 30354.9,
+  "positions": {
+    "NVDA": {
+      "shares": 1154,
+      "entry_price": 8.740978240966797,
+      "entry_date": "2020-05-21"
+    },
+    "AMZN": {
+      "shares": 80,
+      "entry_price": 123.552001953125,
+      "entry_date": "2020-06-01"
+    },
+    "TSLA": {
+      "shares": 165,
+      "entry_price": 59.87333297729492,
+      "entry_date": "2020-06-01"
+    },
+    "NFLX": {
+      "shares": 232,
+      "entry_price": 42.59199905395508,
+      "entry_date": "2020-06-01"
+    },
+    "AMD": {
+      "shares": 184,
+      "entry_price": 53.630001068115234,
+      "entry_date": "2020-06-01"
+    },
+    "TMO": {
+      "shares": 28,
+      "entry_price": 343.8708801269531,
+      "entry_date": "2020-06-01"
+    },
+    "BLK": {
+      "shares": 21,
+      "entry_price": 466.42926025390625,
+      "entry_date": "2020-06-01"
+    }
+  },
+  "return_pct": 1.82
+}

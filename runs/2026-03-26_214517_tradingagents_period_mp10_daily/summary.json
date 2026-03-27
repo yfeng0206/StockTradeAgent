@@ -1,0 +1,81 @@
+{
+  "strategies": {
+    "Value": {
+      "final_value": 98951.22,
+      "total_return_pct": -1.05,
+      "alpha_vs_spy": -12.04,
+      "sharpe_ratio": -0.529,
+      "max_drawdown_pct": -2.66,
+      "total_trades": 18,
+      "win_rate_pct": 0.0
+    },
+    "Momentum": {
+      "final_value": 116830.45,
+      "total_return_pct": 16.83,
+      "alpha_vs_spy": 5.84,
+      "sharpe_ratio": 3.939,
+      "max_drawdown_pct": -2.48,
+      "total_trades": 44,
+      "win_rate_pct": 50.0
+    },
+    "Balanced": {
+      "final_value": 106100.73,
+      "total_return_pct": 6.1,
+      "alpha_vs_spy": -4.89,
+      "sharpe_ratio": 1.935,
+      "max_drawdown_pct": -2.88,
+      "total_trades": 52,
+      "win_rate_pct": 45.5
+    },
+    "Defensive": {
+      "final_value": 108874.69,
+      "total_return_pct": 8.87,
+      "alpha_vs_spy": -2.12,
+      "sharpe_ratio": 3.369,
+      "max_drawdown_pct": -2.05,
+      "total_trades": 46,
+      "win_rate_pct": 42.1
+    },
+    "EventDriven": {
+      "final_value": 111653.57,
+      "total_return_pct": 11.65,
+      "alpha_vs_spy": 0.66,
+      "sharpe_ratio": 3.598,
+      "max_drawdown_pct": -2.21,
+      "total_trades": 54,
+      "win_rate_pct": 56.5
+    },
+    "Adaptive": {
+      "final_value": 112615.39,
+      "total_return_pct": 12.62,
+      "alpha_vs_spy": 1.63,
+      "sharpe_ratio": 2.775,
+      "max_drawdown_pct": -3.95,
+      "total_trades": 45,
+      "win_rate_pct": 44.4
+    },
+    "Commodity": {
+      "final_value": 106984.18,
+      "total_return_pct": 6.98,
+      "alpha_vs_spy": -4.01,
+      "sharpe_ratio": 3.299,
+      "max_drawdown_pct": -1.19,
+      "total_trades": 1,
+      "win_rate_pct": 0
+    }
+  },
+  "benchmarks": {
+    "SPY": {
+      "final_value": 110991.33,
+      "total_return_pct": 10.99,
+      "sharpe_ratio": 4.073,
+      "max_drawdown_pct": -1.7
+    },
+    "QQQ": {
+      "final_value": 110415.48,
+      "total_return_pct": 10.42,
+      "sharpe_ratio": 2.771,
+      "max_drawdown_pct": -2.62
+    }
+  }
+}

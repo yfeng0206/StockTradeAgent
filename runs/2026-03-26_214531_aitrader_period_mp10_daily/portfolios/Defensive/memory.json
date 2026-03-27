@@ -1,0 +1,290 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-10",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-24",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-30",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-31",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-11-04",
+      "regime": "normal"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2025-10-01",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2025-10-14",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2025-10-15",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-10-16",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-10-17",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-10-20",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-10-21",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-10-22",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-10-24",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-11-04",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2025-11-05",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-11-06",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-11-07",
+      "context": "geo_risk=0.67"
+    }
+  ],
+  "profitable_trades": [],
+  "losing_trades": [
+    {
+      "ticker": "T",
+      "pnl_pct": -6.1,
+      "date": "2025-10-06",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "VZ",
+      "pnl_pct": -5.45,
+      "date": "2025-10-06",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MCD",
+      "pnl_pct": -2.23,
+      "date": "2025-10-09",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": -2.71,
+      "date": "2025-10-10",
+      "held_from": "2025-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "CVX",
+      "pnl_pct": -3.67,
+      "date": "2025-10-10",
+      "held_from": "2025-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "V",
+      "pnl_pct": -3.57,
+      "date": "2025-10-16",
+      "held_from": "2025-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "BAC",
+      "pnl_pct": -3.52,
+      "date": "2025-10-16",
+      "held_from": "2025-10-15",
+      "regime": "normal"
+    },
+    {
+      "ticker": "KO",
+      "pnl_pct": -2.12,
+      "date": "2025-10-24",
+      "held_from": "2025-10-21",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": -4.39,
+      "date": "2025-11-03",
+      "held_from": "2025-10-30",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CVX",
+      "pnl_pct": -2.75,
+      "date": "2025-11-04",
+      "held_from": "2025-10-31",
+      "regime": "normal"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": -3.58,
+      "date": "2025-11-05",
+      "held_from": "2025-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": -3.34,
+      "date": "2025-11-05",
+      "held_from": "2025-10-21",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": -4.35,
+      "date": "2025-11-06",
+      "held_from": "2025-10-01",
+      "regime": "normal"
+    }
+  ],
+  "lessons": [
+    "Win rate: 0% (0W / 13L)",
+    "Avg win: +0.0%, Avg loss: -3.7%",
+    "Regimes encountered: 6 changes",
+    "Regime 'bullish': avg PnL -4.1% over 5 trades",
+    "Regime 'normal': avg PnL -3.4% over 8 trades"
+  ],
+  "best_ticker": null,
+  "worst_ticker": "T -6.1%",
+  "ticker_history": {
+    "T": [
+      {
+        "pnl": -6.1,
+        "regime": "bullish",
+        "date": "2025-10-06"
+      }
+    ],
+    "VZ": [
+      {
+        "pnl": -5.45,
+        "regime": "bullish",
+        "date": "2025-10-06"
+      }
+    ],
+    "MCD": [
+      {
+        "pnl": -2.23,
+        "regime": "bullish",
+        "date": "2025-10-09"
+      }
+    ],
+    "MA": [
+      {
+        "pnl": -2.71,
+        "regime": "normal",
+        "date": "2025-10-10"
+      }
+    ],
+    "CVX": [
+      {
+        "pnl": -3.67,
+        "regime": "normal",
+        "date": "2025-10-10"
+      },
+      {
+        "pnl": -2.75,
+        "regime": "normal",
+        "date": "2025-11-04"
+      }
+    ],
+    "V": [
+      {
+        "pnl": -3.57,
+        "regime": "normal",
+        "date": "2025-10-16"
+      }
+    ],
+    "BAC": [
+      {
+        "pnl": -3.52,
+        "regime": "normal",
+        "date": "2025-10-16"
+      }
+    ],
+    "KO": [
+      {
+        "pnl": -2.12,
+        "regime": "bullish",
+        "date": "2025-10-24"
+      }
+    ],
+    "MRK": [
+      {
+        "pnl": -4.39,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ],
+    "SO": [
+      {
+        "pnl": -3.58,
+        "regime": "normal",
+        "date": "2025-11-05"
+      }
+    ],
+    "LMT": [
+      {
+        "pnl": -3.34,
+        "regime": "normal",
+        "date": "2025-11-05"
+      }
+    ],
+    "MSFT": [
+      {
+        "pnl": -4.35,
+        "regime": "normal",
+        "date": "2025-11-06"
+      }
+    ]
+  },
+  "regime_performance": {
+    "bullish": {
+      "wins": 0,
+      "losses": 5,
+      "total": 5,
+      "total_pnl": -20.290000000000003
+    },
+    "normal": {
+      "wins": 0,
+      "losses": 8,
+      "total": 8,
+      "total_pnl": -27.489999999999995
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "final_value": 115436.25,
+  "cash": 58087.01,
+  "positions": {
+    "MSFT": {
+      "shares": 30,
+      "entry_price": 398.54998779296875,
+      "entry_date": "2026-03-02"
+    },
+    "BAC": {
+      "shares": 241,
+      "entry_price": 49.53000259399414,
+      "entry_date": "2026-03-02"
+    },
+    "ADBE": {
+      "shares": 45,
+      "entry_price": 260.8800048828125,
+      "entry_date": "2026-03-02"
+    },
+    "JPM": {
+      "shares": 40,
+      "entry_price": 297.55999755859375,
+      "entry_date": "2026-03-02"
+    },
+    "MS": {
+      "shares": 71,
+      "entry_price": 167.0,
+      "entry_date": "2026-03-02"
+    }
+  },
+  "return_pct": 15.44
+}

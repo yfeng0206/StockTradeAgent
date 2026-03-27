@@ -1,0 +1,58 @@
+{
+  "final_value": 136558.11,
+  "cash": 7743.65,
+  "positions": {
+    "PFE": {
+      "shares": 473,
+      "entry_price": 24.650428771972656,
+      "entry_date": "2019-10-01"
+    },
+    "UNH": {
+      "shares": 40,
+      "entry_price": 194.70103454589844,
+      "entry_date": "2019-10-01",
+      "_last_trim_price": 253.3775177001953
+    },
+    "CAT": {
+      "shares": 109,
+      "entry_price": 106.92510986328125,
+      "entry_date": "2019-10-01"
+    },
+    "XOM": {
+      "shares": 227,
+      "entry_price": 51.22254943847656,
+      "entry_date": "2019-10-01"
+    },
+    "DIS": {
+      "shares": 92,
+      "entry_price": 125.81556701660156,
+      "entry_date": "2019-10-01"
+    },
+    "META": {
+      "shares": 66,
+      "entry_price": 174.44110107421875,
+      "entry_date": "2019-10-01"
+    },
+    "AMZN": {
+      "shares": 134,
+      "entry_price": 86.78250122070312,
+      "entry_date": "2019-10-01"
+    },
+    "MS": {
+      "shares": 345,
+      "entry_price": 33.80488586425781,
+      "entry_date": "2019-10-01"
+    },
+    "CVX": {
+      "shares": 134,
+      "entry_price": 87.05276489257812,
+      "entry_date": "2019-10-01"
+    },
+    "NFLX": {
+      "shares": 432,
+      "entry_price": 26.95800018310547,
+      "entry_date": "2019-10-01"
+    }
+  },
+  "return_pct": 36.56
+}

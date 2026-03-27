@@ -1,0 +1,3491 @@
+[
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 88.96,
+    "reason": "Ranked in top 10. Score: 7.2 (value_judge=1.2, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=31.3)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 7.2,
+      "value_judge": 1.2,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.173,
+      "rsi": 31.3
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 518.64,
+    "reason": "Ranked in top 10. Score: 6.8 (value_judge=1.6, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=38.1)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.8,
+      "value_judge": 1.6,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.155,
+      "rsi": 38.1
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 311.54,
+    "reason": "Ranked in top 10. Score: 6.7 (value_judge=1.4, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=50.9)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.4,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.176,
+      "rsi": 50.9
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 560.52,
+    "reason": "Ranked in top 10. Score: 6.7 (value_judge=1.5, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.2, conflict_penalty=0.0, vol=0.3, rsi=40.1)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.5,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.2,
+      "conflict_penalty": false,
+      "vol": 0.343,
+      "rsi": 40.1
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 903.85,
+    "reason": "Ranked in top 10. Score: 6.7 (value_judge=1.6, momentum_judge=1.2, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=12.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.6,
+      "momentum_judge": 1.2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.175,
+      "rsi": 12.0
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 242.53,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.5, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=46.6)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.5,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.174,
+      "rsi": 46.6
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 188.56,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.5, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=41.6)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.5,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.296,
+      "rsi": 41.6
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 596.85,
+    "reason": "Ranked in top 10. Score: 6.5 (value_judge=1.8, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=35.6)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.8,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.264,
+      "rsi": 35.6
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 138.26,
+    "reason": "Ranked in top 10. Score: 6.4 (value_judge=2.0, momentum_judge=1.4, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.5, conflict_penalty=0.0, vol=0.4, rsi=48.5)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 2,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.5,
+      "conflict_penalty": false,
+      "vol": 0.369,
+      "rsi": 48.5
+    }
+  },
+  {
+    "date": "2025-01-02",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 88.67,
+    "reason": "Ranked in top 10. Score: 6.4 (value_judge=1.5, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=32.1)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.5,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.32,
+      "rsi": 32.1
+    }
+  },
+  {
+    "date": "2025-01-10",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 501.77,
+    "reason": "STOP LOSS triggered (-3.25% loss) PnL: -3.3% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2025-01-10",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 83.77,
+    "reason": "STOP LOSS triggered (-5.53% loss) PnL: -5.5% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2025-01-14",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 232.01,
+    "reason": "STOP LOSS triggered (-4.33% loss) PnL: -4.3% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.76"
+  },
+  {
+    "date": "2025-01-17",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 21.49,
+    "reason": "VOLUME SPIKE: +9.2% on 2.6x vol \u2014 LLMInspired cautious entry",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.91"
+  },
+  {
+    "date": "2025-01-22",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 95.4,
+    "reason": "VOLUME SPIKE: +9.7% on 3.6x vol \u2014 LLMInspired cautious entry [Memory adj: -0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2025-01-27",
+    "action": "SELL",
+    "ticker": "NVDA",
+    "price": 118.38,
+    "reason": "STOP LOSS triggered (-14.38% loss) PnL: -14.4% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.36"
+  },
+  {
+    "date": "2025-01-28",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 19.8,
+    "reason": "STOP LOSS triggered (-7.86% loss) PnL: -7.9% (held since 2025-01-17)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.34"
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 98.39,
+    "reason": "Dropped from top 10. Score: 6.1 Replaced by: META, MA, V PnL: +10.6% (held since 2025-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.1,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.179,
+      "rsi": 87.2
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 97.89,
+    "reason": "Dropped from top 10. Score: 6.1 Replaced by: META, MA, V PnL: +2.6% (held since 2025-01-22)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.5,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.311,
+      "rsi": 83.0
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 560.71,
+    "reason": "Ranked in top 10. Score: 6.8 (value_judge=1.6, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=85.2)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.8,
+      "value_judge": 1.6,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.181,
+      "rsi": 85.2
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "BAC",
+    "price": 44.91,
+    "reason": "Ranked in top 10. Score: 6.5 (value_judge=1.2, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=59.9)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.2,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.249,
+      "rsi": 59.9
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 261.45,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=88.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.297,
+      "rsi": 88.8
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 133.58,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=79.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.345,
+      "rsi": 79.5
+    }
+  },
+  {
+    "date": "2025-02-03",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 164.25,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.2, momentum_judge=1.4, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=73.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.61",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.2,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.189,
+      "rsi": 73.8
+    }
+  },
+  {
+    "date": "2025-02-24",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 178.43,
+    "reason": "STOP LOSS triggered (-5.37% loss) PnL: -5.4% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2025-02-24",
+    "action": "SELL",
+    "ticker": "BAC",
+    "price": 43.21,
+    "reason": "STOP LOSS triggered (-3.79% loss) PnL: -3.8% (held since 2025-02-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2025-02-24",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 126.57,
+    "reason": "STOP LOSS triggered (-5.24% loss) PnL: -5.2% (held since 2025-02-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2025-03-03",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 592.98,
+    "reason": "Dropped from top 10. Score: 5.8 Replaced by: META, V, LLY PnL: +5.8% (held since 2025-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.5,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.3,
+      "conflict_penalty": false,
+      "vol": 0.265,
+      "rsi": 34.2
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 255.38,
+    "reason": "Dropped from top 10. Score: 6.0 Replaced by: META, V, LLY PnL: -2.3% (held since 2025-02-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.3,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.2,
+      "rsi": 37.8
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 922.89,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.8, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=71.6) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 6.8,
+      "value_judge": 1.8,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.29,
+      "rsi": 71.6
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 111.56,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.2, momentum_judge=1.6, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=61.4) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.2,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.164,
+      "rsi": 61.4
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 69.77,
+    "reason": "Ranked in top 10. Score: 5.5 (value_judge=1.2, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=82.4) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.194,
+      "rsi": 82.4
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 26.56,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.3, conflict_penalty=0.0, vol=0.2, rsi=92.3) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.3,
+      "conflict_penalty": false,
+      "vol": 0.222,
+      "rsi": 92.3
+    }
+  },
+  {
+    "date": "2025-03-03",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 205.02,
+    "reason": "Ranked in top 10. Score: 5.1 (value_judge=1.3, momentum_judge=1.2, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=16.0) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.3,
+      "momentum_judge": 1.2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.27,
+      "rsi": 16.0
+    }
+  },
+  {
+    "date": "2025-03-04",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 25.12,
+    "reason": "STOP LOSS triggered (-5.41% loss) PnL: -5.4% (held since 2025-03-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2025-03-06",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 104.28,
+    "reason": "STOP LOSS triggered (-6.53% loss) PnL: -6.5% (held since 2025-03-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.66"
+  },
+  {
+    "date": "2025-03-07",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 863.19,
+    "reason": "STOP LOSS triggered (-6.47% loss) PnL: -6.5% (held since 2025-03-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2025-03-10",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 534.04,
+    "reason": "STOP LOSS triggered (-4.76% loss) PnL: -4.8% (held since 2025-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-03-21",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 66.74,
+    "reason": "STOP LOSS triggered (-4.35% loss) PnL: -4.3% (held since 2025-03-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.74"
+  },
+  {
+    "date": "2025-03-31",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 190.26,
+    "reason": "STOP LOSS triggered (-7.2% loss) PnL: -7.2% (held since 2025-03-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-04-01",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 949.2,
+    "reason": "Dropped from top 10. Score: 5.3 Replaced by: V, ABT, ABBV PnL: +5.0% (held since 2025-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 5.3,
+      "value_judge": 1.3,
+      "momentum_judge": 1.1,
+      "earnings_judge": 0.8,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.26,
+      "rsi": 57.9
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 129.26,
+    "reason": "Ranked in top 10. Score: 5.3 (value_judge=1.2, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=53.6) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.2,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.244,
+      "rsi": 53.6
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 199.58,
+    "reason": "Ranked in top 10. Score: 5.0 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=39.7) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.227,
+      "rsi": 39.7
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 115.09,
+    "reason": "Ranked in top 10. Score: 5.0 (value_judge=1.2, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=88.3) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.221,
+      "rsi": 88.3
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "HON",
+    "price": 196.96,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=1.1, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=67.9) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.1,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.209,
+      "rsi": 67.9
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 473.64,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=0.7, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=55.8) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 0.7,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.294,
+      "rsi": 55.8
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 42.47,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=77.4) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.243,
+      "rsi": 77.4
+    }
+  },
+  {
+    "date": "2025-04-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 88.9,
+    "reason": "Ranked in top 10. Score: 4.8 (value_judge=1.3, momentum_judge=1.9, earnings_judge=0.8, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=66.1) [Memory adj: -0.5]",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.83",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.3,
+      "momentum_judge": 1.9,
+      "earnings_judge": 0.8,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.221,
+      "rsi": 66.1
+    }
+  },
+  {
+    "date": "2025-04-03",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 529.97,
+    "reason": "STOP LOSS triggered (-11.21% loss) PnL: -11.2% (held since 2025-01-02)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.92"
+  },
+  {
+    "date": "2025-04-03",
+    "action": "SELL",
+    "ticker": "XOM",
+    "price": 108.7,
+    "reason": "STOP LOSS triggered (-5.55% loss) PnL: -5.6% (held since 2025-04-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.92"
+  },
+  {
+    "date": "2025-04-03",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 442.95,
+    "reason": "STOP LOSS triggered (-6.48% loss) PnL: -6.5% (held since 2025-04-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.92"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 122.15,
+    "reason": "STOP LOSS triggered (-5.51% loss) PnL: -5.5% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 180.89,
+    "reason": "STOP LOSS triggered (-9.36% loss) PnL: -9.4% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "HON",
+    "price": 176.23,
+    "reason": "STOP LOSS triggered (-10.52% loss) PnL: -10.5% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-04",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 40.27,
+    "reason": "STOP LOSS triggered (-5.18% loss) PnL: -5.2% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.95"
+  },
+  {
+    "date": "2025-04-07",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 155.95,
+    "reason": "STOP LOSS triggered (-5.05% loss) PnL: -5.1% (held since 2025-02-03)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.97"
+  },
+  {
+    "date": "2025-04-07",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 84.45,
+    "reason": "STOP LOSS triggered (-5.01% loss) PnL: -5.0% (held since 2025-04-01)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.97"
+  },
+  {
+    "date": "2025-04-09",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 197.99,
+    "reason": "VOLUME SPIKE: +15.3% on 2.6x vol \u2014 LLMInspired cautious entry [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2025-04-17",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 833.79,
+    "reason": "VOLUME SPIKE: +14.3% on 2.7x vol \u2014 LLMInspired cautious entry [Memory adj: -0.5]",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2025-05-01",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 788.26,
+    "reason": "EARNINGS strong_miss: surprise -0.0573% [LLMInspired] PnL: -5.5% (held since 2025-04-17)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.48"
+  },
+  {
+    "date": "2025-05-07",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 100.97,
+    "reason": "VOLUME SPIKE: +10.8% on 2.9x vol \u2014 LLMInspired cautious entry [Memory adj: -0.5]",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2025-05-19",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 307.23,
+    "reason": "VOLUME SPIKE: +8.2% on 2.6x vol \u2014 LLMInspired cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43"
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 363.21,
+    "reason": "Dropped from top 10. Score: 5.9 Replaced by: MSFT, NVDA, PFE PnL: +16.6% (held since 2025-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.4,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.307,
+      "rsi": 63.0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 201.09,
+    "reason": "Dropped from top 10. Score: 4.0 Replaced by: MSFT, NVDA, PFE PnL: +1.6% (held since 2025-04-09)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 4.0,
+      "value_judge": 1.5,
+      "momentum_judge": 0.1,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.53,
+      "rsi": 33.3
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 111.71,
+    "reason": "Dropped from top 10. Score: 5.6 Replaced by: MSFT, NVDA, PFE PnL: +10.6% (held since 2025-05-07)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 5.6,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.49,
+      "rsi": 58.5
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 296.36,
+    "reason": "Dropped from top 10. Score: 3.8 Replaced by: MSFT, NVDA, PFE PnL: -3.5% (held since 2025-05-19)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 3.8,
+      "value_judge": 1.1,
+      "momentum_judge": 0.1,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.4,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.728,
+      "rsi": 30.3
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 459.3,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.7, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=0.7, risk_judge=0.8, conflict_penalty=0.0, vol=0.4, rsi=66.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.7,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.353,
+      "rsi": 66.0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 137.35,
+    "reason": "Ranked in top 10. Score: 6.4 (value_judge=2.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.2, conflict_penalty=0.0, vol=0.6, rsi=70.2)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.641,
+      "rsi": 70.2
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 22.29,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.3, momentum_judge=1.1, earnings_judge=1.5, valuation_judge=1.4, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=54.2)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.3,
+      "momentum_judge": 1.1,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.305,
+      "rsi": 54.2
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 87.81,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=59.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.225,
+      "rsi": 59.0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 578.8,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.6, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=52.2)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.6,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.306,
+      "rsi": 52.2
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 69.97,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.3, momentum_judge=1.6, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=67.4)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.3,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.203,
+      "rsi": 67.4
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 152.48,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=55.9)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.255,
+      "rsi": 55.9
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 164.32,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.2, momentum_judge=1.6, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=68.2)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.2,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.236,
+      "rsi": 68.2
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 668.81,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.7, momentum_judge=1.6, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.2, conflict_penalty=0.0, vol=0.6, rsi=66.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.7,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.551,
+      "rsi": 66.0
+    }
+  },
+  {
+    "date": "2025-06-02",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 958.32,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.5, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.4, rsi=58.9)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.5,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.39,
+      "rsi": 58.9
+    }
+  },
+  {
+    "date": "2025-06-09",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 159.2,
+    "reason": "STOP LOSS triggered (-3.11% loss) PnL: -3.1% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.37"
+  },
+  {
+    "date": "2025-06-13",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 559.69,
+    "reason": "STOP LOSS triggered (-3.3% loss) PnL: -3.3% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2025-06-16",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 126.39,
+    "reason": "VOLUME SPIKE: +8.8% on 2.6x vol \u2014 LLMInspired cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.57"
+  },
+  {
+    "date": "2025-06-17",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 68.14,
+    "reason": "STOP LOSS triggered (-2.62% loss) PnL: -2.6% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2025-06-18",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 147.9,
+    "reason": "STOP LOSS triggered (-3.01% loss) PnL: -3.0% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2025-06-27",
+    "action": "BUY",
+    "ticker": "NKE",
+    "price": 70.74,
+    "reason": "VOLUME SPIKE: +15.2% on 5.9x vol \u2014 LLMInspired cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.68"
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "NVDA",
+    "price": 153.27,
+    "reason": "Dropped from top 10. Score: 5.36 Replaced by: V, DIS, WMT PnL: +11.6% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 5.36,
+      "value_judge": 2,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.2,
+      "conflict_penalty": true,
+      "vol": 0.573,
+      "rsi": 64.9
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 23.79,
+    "reason": "Dropped from top 10. Score: 5.3 Replaced by: V, DIS, WMT PnL: +6.7% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 5.3,
+      "value_judge": 1.3,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.303,
+      "rsi": 62.8
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 90.12,
+    "reason": "Dropped from top 10. Score: 5.8 Replaced by: V, DIS, WMT PnL: +2.6% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.1,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.2,
+      "rsi": 68.8
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 717.53,
+    "reason": "Dropped from top 10. Score: 4.84 Replaced by: V, DIS, WMT PnL: +7.3% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 4.84,
+      "value_judge": 1.8,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.2,
+      "conflict_penalty": true,
+      "vol": 0.485,
+      "rsi": 56.2
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 136.11,
+    "reason": "Dropped from top 10. Score: 5.4 Replaced by: V, DIS, WMT PnL: +7.7% (held since 2025-06-16)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 5.4,
+      "value_judge": 1.3,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.719,
+      "rsi": 64.9
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "SELL",
+    "ticker": "NKE",
+    "price": 72.09,
+    "reason": "Dropped from top 10. Score: 4.5 Replaced by: V, DIS, WMT PnL: +1.9% (held since 2025-06-27)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 4.5,
+      "value_judge": 0.7,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.2,
+      "conflict_penalty": true,
+      "vol": 0.547,
+      "rsi": 69.7
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 353.42,
+    "reason": "Ranked in top 10. Score: 8.1 (value_judge=1.4, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=40.1) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.4,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.328,
+      "rsi": 40.1
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 122.66,
+    "reason": "Ranked in top 10. Score: 6.505 (value_judge=1.4, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=0.7, risk_judge=0.5, conflict_penalty=1.0, vol=0.4, rsi=70.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 4.5,
+      "value_judge": 1.4,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.5,
+      "conflict_penalty": true,
+      "vol": 0.427,
+      "rsi": 70.0
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 97.61,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.1, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=54.2)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.1,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.284,
+      "rsi": 54.2
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 175.44,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.5, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=0.5, conflict_penalty=0.0, vol=0.4, rsi=45.9)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.5,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.5,
+      "conflict_penalty": false,
+      "vol": 0.381,
+      "rsi": 45.9
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 129.36,
+    "reason": "Ranked in top 10. Score: 6.0 (value_judge=1.6, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=71.1)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.6,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.345,
+      "rsi": 71.1
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "ABT",
+    "price": 134.37,
+    "reason": "Ranked in top 10. Score: 5.9 (value_judge=1.4, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=55.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.4,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.227,
+      "rsi": 55.5
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 70.15,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=48.9) [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.19,
+      "rsi": 48.9
+    }
+  },
+  {
+    "date": "2025-07-01",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 220.46,
+    "reason": "Ranked in top 10. Score: 5.8 (value_judge=1.3, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=1.0, risk_judge=0.5, conflict_penalty=0.0, vol=0.4, rsi=53.7)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.69",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.3,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.5,
+      "conflict_penalty": false,
+      "vol": 0.422,
+      "rsi": 53.7
+    }
+  },
+  {
+    "date": "2025-07-09",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 68.0,
+    "reason": "STOP LOSS triggered (-3.06% loss) PnL: -3.1% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2025-07-10",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 94.25,
+    "reason": "STOP LOSS triggered (-3.44% loss) PnL: -3.4% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.58"
+  },
+  {
+    "date": "2025-07-15",
+    "action": "SELL",
+    "ticker": "DIS",
+    "price": 118.18,
+    "reason": "STOP LOSS triggered (-3.65% loss) PnL: -3.7% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2025-07-17",
+    "action": "SELL",
+    "ticker": "ABT",
+    "price": 119.37,
+    "reason": "STOP LOSS triggered (-11.16% loss) PnL: -11.2% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2025-07-18",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 120.92,
+    "reason": "STOP LOSS triggered (-6.52% loss) PnL: -6.5% (held since 2025-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-07-23",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 465.48,
+    "reason": "VOLUME SPIKE: +9.1% on 2.9x vol \u2014 LLMInspired cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.59"
+  },
+  {
+    "date": "2025-07-31",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 771.63,
+    "reason": "VOLUME SPIKE: +11.2% on 3.1x vol \u2014 LLMInspired cautious entry [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.58"
+  },
+  {
+    "date": "2025-08-01",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 337.39,
+    "reason": "STOP LOSS triggered (-4.53% loss) PnL: -4.5% (held since 2025-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2025-08-01",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 214.75,
+    "reason": "VOLUME CRASH: -8.3% \u2014 LLMInspired exiting PnL: -2.6% (held since 2025-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2025-08-15",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 297.77,
+    "reason": "VOLUME SPIKE: +12.0% on 3.1x vol \u2014 LLMInspired cautious entry [Memory adj: -0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2025-08-29",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 736.97,
+    "reason": "STOP LOSS triggered (-4.49% loss) PnL: -4.5% (held since 2025-07-31)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.43"
+  },
+  {
+    "date": "2025-09-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 212.43,
+    "reason": "Dropped from top 10. Score: 6.2 Replaced by: WMT, NVDA, AAPL PnL: +21.1% (held since 2025-07-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.5,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.222,
+      "rsi": 72.4
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 491.42,
+    "reason": "Dropped from top 10. Score: 5.8 Replaced by: WMT, NVDA, AAPL PnL: +5.6% (held since 2025-07-23)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.7,
+      "conflict_penalty": false,
+      "vol": 0.343,
+      "rsi": 67.6
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 303.51,
+    "reason": "Dropped from top 10. Score: 4.0 Replaced by: WMT, NVDA, AAPL PnL: +1.9% (held since 2025-08-15)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 4.0,
+      "value_judge": 1.1,
+      "momentum_judge": 0.8,
+      "earnings_judge": 0.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.457,
+      "rsi": 81.0
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 96.58,
+    "reason": "Ranked in top 10. Score: 7.2 (value_judge=1.1, momentum_judge=1.2, earnings_judge=0.5, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=25.5) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 5.2,
+      "value_judge": 1.1,
+      "momentum_judge": 1.2,
+      "earnings_judge": 0.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.189,
+      "rsi": 25.5
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 174.15,
+    "reason": "Ranked in top 10. Score: 6.9 (value_judge=2.0, momentum_judge=1.9, earnings_judge=1.2, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.3, rsi=35.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.9,
+      "value_judge": 2,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.259,
+      "rsi": 35.7
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 231.7,
+    "reason": "Ranked in top 10. Score: 6.7 (value_judge=1.5, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.2, rsi=60.4)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.5,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.218,
+      "rsi": 60.4
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 81.98,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.3, momentum_judge=1.3, earnings_judge=1.5, valuation_judge=1.4, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=65.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.3,
+      "momentum_judge": 1.3,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.25,
+      "rsi": 65.8
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 23.93,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=52.7)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.241,
+      "rsi": 52.7
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 157.29,
+    "reason": "Ranked in top 10. Score: 6.5 (value_judge=1.2, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=75.1)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.188,
+      "rsi": 75.1
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 736.97,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.8, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.7, conflict_penalty=0.0, vol=0.3, rsi=39.2) [Memory adj: -0.3]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.9,
+      "value_judge": 1.8,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.7,
+      "conflict_penalty": false,
+      "vol": 0.328,
+      "rsi": 39.2
+    }
+  },
+  {
+    "date": "2025-09-01",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 298.61,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.3, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=69.9)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.38",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.3,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.169,
+      "rsi": 69.9
+    }
+  },
+  {
+    "date": "2025-09-05",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 150.49,
+    "reason": "STOP LOSS triggered (-4.32% loss) PnL: -4.3% (held since 2025-09-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2025-09-12",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 23.07,
+    "reason": "STOP LOSS triggered (-3.59% loss) PnL: -3.6% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.75"
+  },
+  {
+    "date": "2025-09-18",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 30.57,
+    "reason": "VOLUME SPIKE: +22.8% on 5.3x vol \u2014 LLMInspired cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.81"
+  },
+  {
+    "date": "2025-09-23",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 78.7,
+    "reason": "STOP LOSS triggered (-4.01% loss) PnL: -4.0% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.74"
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 822.84,
+    "reason": "VOLUME SPIKE: +8.2% on 2.6x vol \u2014 LLMInspired cautious entry [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54"
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 1129.26,
+    "reason": "Dropped from top 10. Score: 6.0 Replaced by: NVDA, V, SO PnL: +17.8% (held since 2025-06-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.5,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.224,
+      "rsi": 52.4
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 101.54,
+    "reason": "Dropped from top 10. Score: 4.59 Replaced by: NVDA, V, SO PnL: +5.1% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 4.59,
+      "value_judge": 1.1,
+      "momentum_judge": 1.7,
+      "earnings_judge": 0.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": true,
+      "vol": 0.188,
+      "rsi": 44.9
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 716.14,
+    "reason": "Dropped from top 10. Score: 5.2 Replaced by: NVDA, V, SO PnL: -2.8% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 5.2,
+      "value_judge": 1.5,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.7,
+      "conflict_penalty": false,
+      "vol": 0.318,
+      "rsi": 34.8
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 35.94,
+    "reason": "Dropped from top 10. Score: 4.8 Replaced by: NVDA, V, SO PnL: +17.6% (held since 2025-09-18)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 4.8,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.2,
+      "conflict_penalty": false,
+      "vol": 0.698,
+      "rsi": 77.4
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 822.84,
+    "reason": "Dropped from top 10. Score: 5.9 Replaced by: NVDA, V, SO",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.8,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.5,
+      "conflict_penalty": false,
+      "vol": 0.468,
+      "rsi": 67.5
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 346.43,
+    "reason": "Ranked in top 10. Score: 8.5 (value_judge=1.4, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=54.5) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.4,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.171,
+      "rsi": 54.5
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 93.29,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.3, momentum_judge=1.6, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.1, rsi=67.7) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.3,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.116,
+      "rsi": 67.7
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 110.28,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.2, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=49.6)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.188,
+      "rsi": 49.6
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 26.3,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.3, momentum_judge=1.4, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=70.4) [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.3,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.309,
+      "rsi": 70.4
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 244.57,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.6, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=0.8, conflict_penalty=0.0, vol=0.3, rsi=56.8)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.6,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.265,
+      "rsi": 56.8
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 42.35,
+    "reason": "Ranked in top 10. Score: 6.1 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=46.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.54",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.155,
+      "rsi": 46.0
+    }
+  },
+  {
+    "date": "2025-10-06",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 40.04,
+    "reason": "STOP LOSS triggered (-5.45% loss) PnL: -5.5% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2025-10-06",
+    "action": "BUY",
+    "ticker": "AMD",
+    "price": 203.71,
+    "reason": "VOLUME SPIKE: +23.7% on 4.6x vol \u2014 LLMInspired cautious entry [Memory adj: +0.3]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2025-10-08",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 24.82,
+    "reason": "STOP LOSS triggered (-5.62% loss) PnL: -5.6% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2025-10-31",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 244.22,
+    "reason": "VOLUME SPIKE: +9.6% on 3.1x vol \u2014 LLMInspired cautious entry",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 307.96,
+    "reason": "Dropped from top 10. Score: 6.3 Replaced by: BLK, V, NVDA PnL: +3.1% (held since 2025-09-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.173,
+      "rsi": 58.3
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 283.34,
+    "reason": "Dropped from top 10. Score: 6.3 Replaced by: BLK, V, NVDA PnL: +15.9% (held since 2025-10-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.6,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.288,
+      "rsi": 85.0
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "AMD",
+    "price": 259.65,
+    "reason": "Dropped from top 10. Score: 4.17 Replaced by: BLK, V, NVDA PnL: +27.5% (held since 2025-10-06)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 4.17,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.2,
+      "conflict_penalty": true,
+      "vol": 0.697,
+      "rsi": 71.7
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 254.0,
+    "reason": "Dropped from top 10. Score: 5.02 Replaced by: BLK, V, NVDA PnL: +4.0% (held since 2025-10-31)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 5.02,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.7,
+      "conflict_penalty": true,
+      "vol": 0.333,
+      "rsi": 77.9
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 1057.76,
+    "reason": "Ranked in top 10. Score: 8.0 (value_judge=1.5, momentum_judge=1.2, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=12.1) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.5,
+      "momentum_judge": 1.2,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.211,
+      "rsi": 12.1
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 481.72,
+    "reason": "Ranked in top 10. Score: 6.9 (value_judge=1.1, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=35.7)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.9,
+      "value_judge": 1.1,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.158,
+      "rsi": 35.7
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "INTC",
+    "price": 39.5,
+    "reason": "Ranked in top 10. Score: 6.675 (value_judge=1.2, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=0.7, risk_judge=0.2, conflict_penalty=1.0, vol=0.7, rsi=67.7) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 4.67,
+      "value_judge": 1.2,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.2,
+      "conflict_penalty": true,
+      "vol": 0.686,
+      "rsi": 67.7
+    }
+  },
+  {
+    "date": "2025-11-03",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 86.42,
+    "reason": "Ranked in top 10. Score: 6.5 (value_judge=1.2, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=58.9)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.2,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.275,
+      "rsi": 58.9
+    }
+  },
+  {
+    "date": "2025-11-05",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 89.96,
+    "reason": "STOP LOSS triggered (-3.58% loss) PnL: -3.6% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2025-11-07",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 452.51,
+    "reason": "STOP LOSS triggered (-6.06% loss) PnL: -6.1% (held since 2025-11-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2025-11-10",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 333.5,
+    "reason": "STOP LOSS triggered (-3.73% loss) PnL: -3.7% (held since 2025-10-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.58"
+  },
+  {
+    "date": "2025-11-14",
+    "action": "SELL",
+    "ticker": "INTC",
+    "price": 35.52,
+    "reason": "STOP LOSS triggered (-10.08% loss) PnL: -10.1% (held since 2025-11-03)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2025-11-17",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 1013.2,
+    "reason": "STOP LOSS triggered (-4.21% loss) PnL: -4.2% (held since 2025-11-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2025-11-20",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 82.0,
+    "reason": "STOP LOSS triggered (-5.12% loss) PnL: -5.1% (held since 2025-11-03)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.93"
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 485.63,
+    "reason": "Dropped from top 10. Score: 6.1 Replaced by: WMT, GOOGL, KO PnL: +5.7% (held since 2025-06-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.5,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.183,
+      "rsi": 38.8
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "NVDA",
+    "price": 179.9,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: WMT, GOOGL, KO PnL: +3.3% (held since 2025-09-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 2,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.5,
+      "conflict_penalty": false,
+      "vol": 0.378,
+      "rsi": 32.7
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 282.84,
+    "reason": "Dropped from top 10. Score: 6.0 Replaced by: WMT, GOOGL, KO PnL: +22.1% (held since 2025-09-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.6,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.222,
+      "rsi": 70.2
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 111.08,
+    "reason": "Ranked in top 10. Score: 7.8 (value_judge=1.1, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=70.9) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.1,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.232,
+      "rsi": 70.9
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 314.46,
+    "reason": "Ranked in top 10. Score: 7.44 (value_judge=1.6, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=0.7, risk_judge=0.7, conflict_penalty=1.0, vol=0.3, rsi=65.4) [Memory adj: +1.0]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 5.44,
+      "value_judge": 1.6,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.7,
+      "conflict_penalty": true,
+      "vol": 0.302,
+      "rsi": 65.4
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 71.46,
+    "reason": "Ranked in top 10. Score: 6.7 (value_judge=1.3, momentum_judge=1.6, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.6, conflict_penalty=0.0, vol=0.2, rsi=65.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.3,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.6,
+      "conflict_penalty": false,
+      "vol": 0.161,
+      "rsi": 65.5
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 100.22,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.4, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=78.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.4,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.33,
+      "rsi": 78.8
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "TMO",
+    "price": 584.13,
+    "reason": "Ranked in top 10. Score: 6.6 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=0.7, risk_judge=0.8, conflict_penalty=0.0, vol=0.3, rsi=55.2) [Memory adj: +0.3]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.0,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.299,
+      "rsi": 55.2
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 24.85,
+    "reason": "Ranked in top 10. Score: 6.5 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.0, conflict_penalty=0.0, vol=0.3, rsi=57.9)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.5,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.0,
+      "conflict_penalty": false,
+      "vol": 0.302,
+      "rsi": 57.9
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 307.53,
+    "reason": "Ranked in top 10. Score: 6.4 (value_judge=1.3, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=42.8)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.189,
+      "rsi": 42.8
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 93.91,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=1.0, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.8, conflict_penalty=0.0, vol=0.3, rsi=63.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.269,
+      "rsi": 63.0
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 84.08,
+    "reason": "Ranked in top 10. Score: 6.2 (value_judge=0.9, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=52.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.77",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 0.9,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.211,
+      "rsi": 52.0
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 80.0,
+    "reason": "STOP LOSS triggered (-4.84% loss) PnL: -4.8% (held since 2025-12-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.76"
+  },
+  {
+    "date": "2025-12-11",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 68.64,
+    "reason": "STOP LOSS triggered (-3.95% loss) [MEMORY: repeated loser, 3 trades avg -3.3%] PnL: -3.9% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.70"
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "XOM",
+    "price": 119.54,
+    "reason": "Dropped from top 10. Score: 5.8 Replaced by: CRM, JNJ, TMO PnL: +8.4% (held since 2025-10-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 5.8,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.174,
+      "rsi": 52.8
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 312.78,
+    "reason": "Dropped from top 10. Score: 5.19 Replaced by: CRM, JNJ, TMO PnL: -0.5% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 5.19,
+      "value_judge": 1.7,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.7,
+      "conflict_penalty": true,
+      "vol": 0.305,
+      "rsi": 41.6
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 104.49,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: CRM, JNJ, TMO PnL: +4.3% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.27,
+      "rsi": 77.3
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 24.49,
+    "reason": "Dropped from top 10. Score: 4.4 Replaced by: CRM, JNJ, TMO PnL: -1.5% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 4.4,
+      "value_judge": 0.3,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.223,
+      "rsi": 35.0
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 320.77,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: CRM, JNJ, TMO PnL: +4.3% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.3,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.229,
+      "rsi": 65.1
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 97.83,
+    "reason": "Dropped from top 10. Score: 5.9 Replaced by: CRM, JNJ, TMO PnL: +4.2% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.1,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.281,
+      "rsi": 47.2
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 264.91,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.5, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.7, conflict_penalty=0.0, vol=0.3, rsi=52.2) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.5,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.7,
+      "conflict_penalty": false,
+      "vol": 0.323,
+      "rsi": 52.2
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 205.86,
+    "reason": "Ranked in top 10. Score: 5.4 (value_judge=1.3, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=50.9) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.3,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.153,
+      "rsi": 50.9
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 150.93,
+    "reason": "Ranked in top 10. Score: 5.3 (value_judge=1.2, momentum_judge=1.7, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=53.3) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.175,
+      "rsi": 53.3
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 349.99,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.4, momentum_judge=1.4, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=80.7) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.4,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.196,
+      "rsi": 80.7
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 482.52,
+    "reason": "Ranked in top 10. Score: 5.1 (value_judge=1.6, momentum_judge=1.1, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=57.3) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.6,
+      "momentum_judge": 1.1,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.187,
+      "rsi": 57.3
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 861.16,
+    "reason": "Ranked in top 10. Score: 5.1 (value_judge=1.3, momentum_judge=0.5, earnings_judge=1.5, valuation_judge=1.4, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=42.8) [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.3,
+      "momentum_judge": 0.5,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.4,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.182,
+      "rsi": 42.8
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 874.4,
+    "reason": "Ranked in top 10. Score: 5.1 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.0, valuation_judge=0.7, risk_judge=0.8, conflict_penalty=0.0, vol=0.3, rsi=46.2) [Memory adj: -0.2]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 5.5,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.255,
+      "rsi": 46.2
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 570.02,
+    "reason": "Ranked in top 10. Score: 5.0 (value_judge=1.8, momentum_judge=1.4, earnings_judge=1.0, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=75.7) [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.72",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.8,
+      "momentum_judge": 1.4,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.194,
+      "rsi": 75.7
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "action": "SELL",
+    "ticker": "CRM",
+    "price": 241.06,
+    "reason": "STOP LOSS triggered (-9.0% loss) PnL: -9.0% (held since 2026-01-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2026-01-13",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 327.21,
+    "reason": "STOP LOSS triggered (-6.51% loss) PnL: -6.5% (held since 2026-01-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2026-01-13",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 544.99,
+    "reason": "STOP LOSS triggered (-4.39% loss) [MEMORY: repeated loser, 3 trades avg -3.8%] PnL: -4.4% (held since 2026-01-01)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.45"
+  },
+  {
+    "date": "2026-01-14",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 458.33,
+    "reason": "STOP LOSS triggered (-5.01% loss) PnL: -5.0% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.47"
+  },
+  {
+    "date": "2026-01-29",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 737.68,
+    "reason": "VOLUME SPIKE: +10.4% on 3.4x vol \u2014 LLMInspired cautious entry [Memory adj: -0.5]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.80"
+  },
+  {
+    "date": "2026-01-30",
+    "action": "BUY",
+    "ticker": "VZ",
+    "price": 44.52,
+    "reason": "VOLUME SPIKE: +11.8% on 3.6x vol \u2014 LLMInspired cautious entry [Memory adj: -1.0]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 123.81,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: UPS, BA, META PnL: +11.5% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.234,
+      "rsi": 69.1
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "TMO",
+    "price": 581.2,
+    "reason": "Dropped from top 10. Score: 5.2 Replaced by: UPS, BA, META PnL: -0.5% (held since 2025-12-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.2,
+      "value_judge": 1.2,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.215,
+      "rsi": 35.7
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 229.53,
+    "reason": "Dropped from top 10. Score: 5.9 Replaced by: UPS, BA, META PnL: +11.5% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 0.8,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.168,
+      "rsi": 91.9
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "CVX",
+    "price": 172.34,
+    "reason": "Dropped from top 10. Score: 6.2 Replaced by: UPS, BA, META PnL: +14.2% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 6.2,
+      "value_judge": 1.2,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.229,
+      "rsi": 77.0
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "SELL",
+    "ticker": "VZ",
+    "price": 44.61,
+    "reason": "Dropped from top 10. Score: 5.7 Replaced by: UPS, BA, META PnL: +0.2% (held since 2026-01-30)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.287,
+      "rsi": 76.9
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 108.75,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.1, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=55.3) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.1,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.244,
+      "rsi": 55.3
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 233.02,
+    "reason": "Ranked in top 10. Score: 5.7 (value_judge=1.5, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=1.0, risk_judge=0.7, conflict_penalty=0.0, vol=0.3, rsi=40.4)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 6.7,
+      "value_judge": 1.5,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.7,
+      "conflict_penalty": false,
+      "vol": 0.314,
+      "rsi": 40.4
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "CMCSA",
+    "price": 29.59,
+    "reason": "Ranked in top 10. Score: 5.6 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=57.8)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 6.6,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.271,
+      "rsi": 57.8
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 112.54,
+    "reason": "Ranked in top 10. Score: 5.5 (value_judge=1.2, momentum_judge=1.9, earnings_judge=1.0, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=60.5) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.9,
+      "value_judge": 1.2,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.0,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.264,
+      "rsi": 60.5
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 1113.46,
+    "reason": "Ranked in top 10. Score: 5.4 (value_judge=1.7, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.3, rsi=56.9) [Memory adj: -0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 7.0,
+      "value_judge": 1.7,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.26,
+      "rsi": 56.9
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 137.48,
+    "reason": "Ranked in top 10. Score: 5.3 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.2, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=81.6) [Memory adj: +0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 5.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.2,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.225,
+      "rsi": 81.6
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 269.76,
+    "reason": "Ranked in top 10. Score: 5.2 (value_judge=1.6, momentum_judge=1.6, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=61.4) [Memory adj: -0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.57",
+    "scores": {
+      "composite": 6.8,
+      "value_judge": 1.6,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.181,
+      "rsi": 61.4
+    }
+  },
+  {
+    "date": "2026-02-03",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 691.11,
+    "reason": "STOP LOSS triggered (-6.31% loss) PnL: -6.3% (held since 2026-01-29)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2026-02-05",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 1048.96,
+    "reason": "STOP LOSS triggered (-5.79% loss) PnL: -5.8% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.75"
+  },
+  {
+    "date": "2026-02-13",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 255.78,
+    "reason": "STOP LOSS triggered (-5.18% loss) PnL: -5.2% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.69"
+  },
+  {
+    "date": "2026-02-19",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 662.0,
+    "reason": "VOLUME SPIKE: +11.6% on 3.5x vol \u2014 LLMInspired cautious entry",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.51"
+  },
+  {
+    "date": "2026-02-26",
+    "action": "SELL",
+    "ticker": "DE",
+    "price": 619.46,
+    "reason": "STOP LOSS triggered (-6.43% loss) PnL: -6.4% (held since 2026-02-19)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.40"
+  },
+  {
+    "date": "2026-02-27",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 96.24,
+    "reason": "VOLUME SPIKE: +13.8% on 3.7x vol \u2014 LLMInspired cautious entry [Memory adj: -0.8]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.48"
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 1002.77,
+    "reason": "Dropped from top 10. Score: 6.1 Replaced by: CVX, WMT, JNJ PnL: +16.4% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.3,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.211,
+      "rsi": 51.6
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 861.7,
+    "reason": "Dropped from top 10. Score: 4.7 Replaced by: CVX, WMT, JNJ PnL: -1.5% (held since 2026-01-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 4.7,
+      "value_judge": 1.0,
+      "momentum_judge": 1.0,
+      "earnings_judge": 1.0,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.7,
+      "conflict_penalty": false,
+      "vol": 0.333,
+      "rsi": 34.2
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 229.74,
+    "reason": "Dropped from top 10. Score: 6.1 Replaced by: CVX, WMT, JNJ PnL: -1.4% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.5,
+      "momentum_judge": 1.3,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.8,
+      "conflict_penalty": false,
+      "vol": 0.238,
+      "rsi": 31.7
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 97.09,
+    "reason": "Dropped from top 10. Score: 5.0 Replaced by: CVX, WMT, JNJ PnL: +0.9% (held since 2026-02-27)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 5.0,
+      "value_judge": 1.5,
+      "momentum_judge": 0.8,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 0.5,
+      "conflict_penalty": false,
+      "vol": 0.424,
+      "rsi": 71.9
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 189.6,
+    "reason": "Ranked in top 10. Score: 8.4 (value_judge=1.2, momentum_judge=1.9, earnings_judge=1.5, valuation_judge=0.7, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=69.0) [Memory adj: +1.0]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.2,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.5,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.23,
+      "rsi": 69.0
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 126.84,
+    "reason": "Ranked in top 10. Score: 8.3 (value_judge=1.0, momentum_judge=2.0, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=46.9) [Memory adj: +1.0]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.0,
+      "momentum_judge": 2,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.249,
+      "rsi": 46.9
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 248.56,
+    "reason": "Ranked in top 10. Score: 8.1 (value_judge=1.3, momentum_judge=1.9, earnings_judge=0.8, valuation_judge=0.7, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=69.5) [Memory adj: +1.0]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.1,
+      "value_judge": 1.3,
+      "momentum_judge": 1.9,
+      "earnings_judge": 0.8,
+      "valuation_judge": 0.7,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.172,
+      "rsi": 69.5
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "PG",
+    "price": 163.51,
+    "reason": "Ranked in top 10. Score: 6.4 (value_judge=1.2, momentum_judge=1.9, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=61.9)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.2,
+      "momentum_judge": 1.9,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.2,
+      "rsi": 61.9
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 332.96,
+    "reason": "Ranked in top 10. Score: 6.4 (value_judge=1.2, momentum_judge=1.6, earnings_judge=1.2, valuation_judge=1.0, risk_judge=1.4, conflict_penalty=0.0, vol=0.2, rsi=61.3)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.4,
+      "value_judge": 1.2,
+      "momentum_judge": 1.6,
+      "earnings_judge": 1.2,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.4,
+      "conflict_penalty": false,
+      "vol": 0.159,
+      "rsi": 61.3
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 28.01,
+    "reason": "Ranked in top 10. Score: 6.3 (value_judge=1.0, momentum_judge=1.7, earnings_judge=1.5, valuation_judge=1.0, risk_judge=1.1, conflict_penalty=0.0, vol=0.2, rsi=59.3)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.53",
+    "scores": {
+      "composite": 6.3,
+      "value_judge": 1.0,
+      "momentum_judge": 1.7,
+      "earnings_judge": 1.5,
+      "valuation_judge": 1.0,
+      "risk_judge": 1.1,
+      "conflict_penalty": false,
+      "vol": 0.24,
+      "rsi": 59.3
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 239.63,
+    "reason": "STOP LOSS triggered (-3.59% loss) PnL: -3.6% (held since 2026-03-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2026-03-05",
+    "action": "SELL",
+    "ticker": "PG",
+    "price": 153.99,
+    "reason": "STOP LOSS triggered (-5.82% loss) PnL: -5.8% (held since 2026-03-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2026-03-06",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 102.36,
+    "reason": "STOP LOSS triggered (-5.88% loss) PnL: -5.9% (held since 2026-02-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.36"
+  },
+  {
+    "date": "2026-03-18",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 315.73,
+    "reason": "STOP LOSS triggered (-5.17% loss) PnL: -5.2% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.78"
+  },
+  {
+    "date": "2026-03-19",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 120.84,
+    "reason": "STOP LOSS triggered (-4.73% loss) PnL: -4.7% (held since 2026-03-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.85"
+  }
+]

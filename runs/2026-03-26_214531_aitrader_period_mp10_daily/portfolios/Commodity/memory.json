@@ -1,0 +1,93 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-10",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-24",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-30",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-31",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-11-04",
+      "regime": "normal"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2025-10-02",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2025-10-14",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2025-10-15",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-10-16",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-10-17",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-10-20",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-10-21",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-10-22",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-10-24",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-11-04",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2025-11-05",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-11-06",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-11-07",
+      "context": "geo_risk=0.67"
+    }
+  ],
+  "profitable_trades": [],
+  "losing_trades": [],
+  "lessons": [
+    "Win rate: 0% (0W / 0L)",
+    "Avg win: +0.0%, Avg loss: 0.0%",
+    "Regimes encountered: 6 changes"
+  ],
+  "best_ticker": null,
+  "worst_ticker": null,
+  "ticker_history": {},
+  "regime_performance": {}
+}

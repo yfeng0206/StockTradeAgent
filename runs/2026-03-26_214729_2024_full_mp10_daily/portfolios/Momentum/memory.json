@@ -1,0 +1,1573 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-01-17",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-01-18",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-01-31",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-04-02",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-04-18",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-05-13",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-05-15",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-05-16",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-05-17",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-05-22",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-06-05",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-07-18",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-08-02",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-08-05",
+      "regime": "bearish"
+    },
+    {
+      "date": "2024-08-08",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-09-03",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-09-19",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-10-03",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-10-04",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-10-07",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-10-08",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-10-23",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-11-06",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-11-15",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-11-25",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-11-27",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-11-29",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-12-10",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-12-11",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-12-12",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-12-18",
+      "regime": "sideways"
+    },
+    {
+      "date": "2024-12-24",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-12-27",
+      "regime": "sideways"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2024-01-02",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2024-01-09",
+      "context": "geo_risk=0.26"
+    },
+    {
+      "date": "2024-01-10",
+      "context": "geo_risk=0.16"
+    },
+    {
+      "date": "2024-01-11",
+      "context": "geo_risk=0.11"
+    },
+    {
+      "date": "2024-01-12",
+      "context": "geo_risk=0.07"
+    },
+    {
+      "date": "2024-01-15",
+      "context": "geo_risk=0.04"
+    },
+    {
+      "date": "2024-01-16",
+      "context": "geo_risk=0.02"
+    },
+    {
+      "date": "2024-01-17",
+      "context": "geo_risk=0.01"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "COST",
+      "pnl_pct": 8.43,
+      "date": "2024-02-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": 23.02,
+      "date": "2024-02-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NVDA",
+      "pnl_pct": 30.85,
+      "date": "2024-02-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NFLX",
+      "pnl_pct": 21.13,
+      "date": "2024-02-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "META",
+      "pnl_pct": 45.21,
+      "date": "2024-03-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "LLY",
+      "pnl_pct": 32.3,
+      "date": "2024-03-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": 1.74,
+      "date": "2024-03-01",
+      "held_from": "2024-01-26",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": 3.09,
+      "date": "2024-03-01",
+      "held_from": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "INTC",
+      "pnl_pct": 1.36,
+      "date": "2024-03-01",
+      "held_from": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMZN",
+      "pnl_pct": 13.62,
+      "date": "2024-04-01",
+      "held_from": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": 6.64,
+      "date": "2024-04-01",
+      "held_from": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": 12.71,
+      "date": "2024-04-01",
+      "held_from": "2024-02-06",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": 2.46,
+      "date": "2024-04-01",
+      "held_from": "2024-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": 0.37,
+      "date": "2024-04-01",
+      "held_from": "2024-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": 6.34,
+      "date": "2024-04-01",
+      "held_from": "2024-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NVDA",
+      "pnl_pct": 0.93,
+      "date": "2024-05-01",
+      "held_from": "2024-03-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MS",
+      "pnl_pct": 3.64,
+      "date": "2024-05-01",
+      "held_from": "2024-04-16",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": 3.33,
+      "date": "2024-05-01",
+      "held_from": "2024-04-19",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "PEP",
+      "pnl_pct": 2.3,
+      "date": "2024-05-01",
+      "held_from": "2024-04-23",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "LLY",
+      "pnl_pct": 9.48,
+      "date": "2024-06-03",
+      "held_from": "2024-04-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "WFC",
+      "pnl_pct": 5.69,
+      "date": "2024-06-03",
+      "held_from": "2024-04-12",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "GS",
+      "pnl_pct": 14.18,
+      "date": "2024-06-03",
+      "held_from": "2024-04-15",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": 11.01,
+      "date": "2024-06-03",
+      "held_from": "2024-04-25",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": 0.09,
+      "date": "2024-06-03",
+      "held_from": "2024-05-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "BLK",
+      "pnl_pct": 3.43,
+      "date": "2024-06-03",
+      "held_from": "2024-05-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": 8.28,
+      "date": "2024-07-01",
+      "held_from": "2024-06-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": 3.71,
+      "date": "2024-07-01",
+      "held_from": "2024-06-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": 2.52,
+      "date": "2024-07-01",
+      "held_from": "2024-06-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "HD",
+      "pnl_pct": 2.49,
+      "date": "2024-07-01",
+      "held_from": "2024-06-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "VZ",
+      "pnl_pct": 1.85,
+      "date": "2024-07-01",
+      "held_from": "2024-06-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "T",
+      "pnl_pct": 5.39,
+      "date": "2024-07-01",
+      "held_from": "2024-06-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ABBV",
+      "pnl_pct": 19.52,
+      "date": "2024-08-01",
+      "held_from": "2024-06-03",
+      "regime": "normal"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": 1.15,
+      "date": "2024-08-01",
+      "held_from": "2024-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PEP",
+      "pnl_pct": 5.16,
+      "date": "2024-08-01",
+      "held_from": "2024-07-12",
+      "regime": "normal"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": 9.49,
+      "date": "2024-08-01",
+      "held_from": "2024-07-23",
+      "regime": "normal"
+    },
+    {
+      "ticker": "CMCSA",
+      "pnl_pct": 4.54,
+      "date": "2024-08-01",
+      "held_from": "2024-07-23",
+      "regime": "normal"
+    },
+    {
+      "ticker": "JPM",
+      "pnl_pct": 23.6,
+      "date": "2024-09-02",
+      "held_from": "2024-04-15",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MS",
+      "pnl_pct": 5.43,
+      "date": "2024-09-02",
+      "held_from": "2024-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "META",
+      "pnl_pct": 9.79,
+      "date": "2024-09-02",
+      "held_from": "2024-07-31",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": 4.53,
+      "date": "2024-09-02",
+      "held_from": "2024-08-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "BLK",
+      "pnl_pct": 4.21,
+      "date": "2024-09-02",
+      "held_from": "2024-08-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": 0.19,
+      "date": "2024-09-02",
+      "held_from": "2024-08-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": 2.82,
+      "date": "2024-09-02",
+      "held_from": "2024-08-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "XOM",
+      "pnl_pct": 3.59,
+      "date": "2024-09-02",
+      "held_from": "2024-08-05",
+      "regime": "normal"
+    },
+    {
+      "ticker": "T",
+      "pnl_pct": 13.66,
+      "date": "2024-10-01",
+      "held_from": "2024-08-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": 20.2,
+      "date": "2024-10-01",
+      "held_from": "2024-08-06",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ABBV",
+      "pnl_pct": 0.33,
+      "date": "2024-10-01",
+      "held_from": "2024-09-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": 5.91,
+      "date": "2024-10-01",
+      "held_from": "2024-09-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "HD",
+      "pnl_pct": 11.0,
+      "date": "2024-10-01",
+      "held_from": "2024-09-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": 3.02,
+      "date": "2024-10-01",
+      "held_from": "2024-09-20",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "VZ",
+      "pnl_pct": 0.54,
+      "date": "2024-11-01",
+      "held_from": "2024-09-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": 2.48,
+      "date": "2024-11-01",
+      "held_from": "2024-09-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NVDA",
+      "pnl_pct": 15.73,
+      "date": "2024-11-01",
+      "held_from": "2024-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "BLK",
+      "pnl_pct": 5.47,
+      "date": "2024-11-01",
+      "held_from": "2024-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": 8.8,
+      "date": "2024-11-01",
+      "held_from": "2024-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "AMZN",
+      "pnl_pct": 13.82,
+      "date": "2024-12-02",
+      "held_from": "2024-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": 0.12,
+      "date": "2024-12-02",
+      "held_from": "2024-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "T",
+      "pnl_pct": 2.62,
+      "date": "2024-12-02",
+      "held_from": "2024-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MS",
+      "pnl_pct": 12.14,
+      "date": "2024-12-02",
+      "held_from": "2024-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "TSLA",
+      "pnl_pct": 43.42,
+      "date": "2024-12-02",
+      "held_from": "2024-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "V",
+      "pnl_pct": 9.12,
+      "date": "2024-12-02",
+      "held_from": "2024-11-01",
+      "regime": "bullish"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "TSLA",
+      "pnl_pct": -8.53,
+      "date": "2024-01-11",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "INTC",
+      "pnl_pct": -8.68,
+      "date": "2024-01-26",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "BLK",
+      "pnl_pct": -1.83,
+      "date": "2024-02-01",
+      "held_from": "2024-01-12",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CMCSA",
+      "pnl_pct": -4.94,
+      "date": "2024-02-06",
+      "held_from": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": -0.75,
+      "date": "2024-03-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": -1.58,
+      "date": "2024-03-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -4.72,
+      "date": "2024-03-11",
+      "held_from": "2024-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": -6.9,
+      "date": "2024-03-22",
+      "held_from": "2024-03-21",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": -12.22,
+      "date": "2024-03-26",
+      "held_from": "2024-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "INTC",
+      "pnl_pct": -9.41,
+      "date": "2024-04-03",
+      "held_from": "2024-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "JPM",
+      "pnl_pct": -7.58,
+      "date": "2024-04-12",
+      "held_from": "2024-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "GS",
+      "pnl_pct": -5.81,
+      "date": "2024-04-12",
+      "held_from": "2024-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": -10.94,
+      "date": "2024-04-12",
+      "held_from": "2024-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "BAC",
+      "pnl_pct": -7.57,
+      "date": "2024-04-16",
+      "held_from": "2024-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": -4.78,
+      "date": "2024-04-18",
+      "held_from": "2024-04-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "NFLX",
+      "pnl_pct": -10.38,
+      "date": "2024-04-19",
+      "held_from": "2024-03-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "META",
+      "pnl_pct": -10.17,
+      "date": "2024-04-25",
+      "held_from": "2024-04-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "UPS",
+      "pnl_pct": -1.98,
+      "date": "2024-05-01",
+      "held_from": "2024-04-23",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AMZN",
+      "pnl_pct": -0.37,
+      "date": "2024-06-03",
+      "held_from": "2024-05-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": -0.3,
+      "date": "2024-06-03",
+      "held_from": "2024-05-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": -0.94,
+      "date": "2024-06-03",
+      "held_from": "2024-05-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": -3.58,
+      "date": "2024-07-01",
+      "held_from": "2024-06-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "WFC",
+      "pnl_pct": -6.68,
+      "date": "2024-07-12",
+      "held_from": "2024-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "META",
+      "pnl_pct": -8.46,
+      "date": "2024-07-17",
+      "held_from": "2024-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMZN",
+      "pnl_pct": -6.82,
+      "date": "2024-07-18",
+      "held_from": "2024-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "LLY",
+      "pnl_pct": -7.16,
+      "date": "2024-07-18",
+      "held_from": "2024-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NFLX",
+      "pnl_pct": -6.93,
+      "date": "2024-07-29",
+      "held_from": "2024-07-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": 0.0,
+      "date": "2024-07-30",
+      "held_from": "2024-07-30",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NVDA",
+      "pnl_pct": -5.03,
+      "date": "2024-08-01",
+      "held_from": "2024-06-03",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -2.36,
+      "date": "2024-08-01",
+      "held_from": "2024-07-30",
+      "regime": "normal"
+    },
+    {
+      "ticker": "AMZN",
+      "pnl_pct": -8.78,
+      "date": "2024-08-02",
+      "held_from": "2024-08-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "GS",
+      "pnl_pct": -8.22,
+      "date": "2024-08-05",
+      "held_from": "2024-08-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "GOOGL",
+      "pnl_pct": -7.3,
+      "date": "2024-08-06",
+      "held_from": "2024-08-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "NVDA",
+      "pnl_pct": -13.86,
+      "date": "2024-09-06",
+      "held_from": "2024-09-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "BAC",
+      "pnl_pct": -3.13,
+      "date": "2024-10-01",
+      "held_from": "2024-09-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "LLY",
+      "pnl_pct": -4.26,
+      "date": "2024-10-30",
+      "held_from": "2024-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -1.56,
+      "date": "2024-11-01",
+      "held_from": "2024-09-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "AAPL",
+      "pnl_pct": -1.46,
+      "date": "2024-11-01",
+      "held_from": "2024-10-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -1.51,
+      "date": "2024-11-01",
+      "held_from": "2024-10-30",
+      "regime": "normal"
+    },
+    {
+      "ticker": "ABBV",
+      "pnl_pct": -14.31,
+      "date": "2024-11-11",
+      "held_from": "2024-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -3.14,
+      "date": "2024-12-02",
+      "held_from": "2024-11-11",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CAT",
+      "pnl_pct": -5.4,
+      "date": "2024-12-12",
+      "held_from": "2024-12-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": -5.0,
+      "date": "2024-12-12",
+      "held_from": "2024-12-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "HD",
+      "pnl_pct": -7.76,
+      "date": "2024-12-18",
+      "held_from": "2024-12-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -5.41,
+      "date": "2024-12-30",
+      "held_from": "2024-12-02",
+      "regime": "sideways"
+    }
+  ],
+  "lessons": [
+    "Win rate: 58% (61W / 45L)",
+    "Avg win: +9.0%, Avg loss: -5.7%",
+    "Regimes encountered: 35 changes",
+    "Regime 'bullish': avg PnL +5.8% over 48 trades",
+    "Regime 'sideways': avg PnL -0.5% over 21 trades",
+    "Regime 'normal': avg PnL +1.1% over 35 trades",
+    "Regime 'bearish': avg PnL -7.8% over 2 trades"
+  ],
+  "best_ticker": "META +45.21%",
+  "worst_ticker": "ABBV -14.31%",
+  "ticker_history": {
+    "TSLA": [
+      {
+        "pnl": -8.53,
+        "regime": "bullish",
+        "date": "2024-01-11"
+      },
+      {
+        "pnl": 43.42,
+        "regime": "bullish",
+        "date": "2024-12-02"
+      }
+    ],
+    "INTC": [
+      {
+        "pnl": -8.68,
+        "regime": "bullish",
+        "date": "2024-01-26"
+      },
+      {
+        "pnl": 1.36,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      },
+      {
+        "pnl": -9.41,
+        "regime": "normal",
+        "date": "2024-04-03"
+      }
+    ],
+    "COST": [
+      {
+        "pnl": 8.43,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      },
+      {
+        "pnl": -4.72,
+        "regime": "bullish",
+        "date": "2024-03-11"
+      },
+      {
+        "pnl": 3.71,
+        "regime": "bullish",
+        "date": "2024-07-01"
+      },
+      {
+        "pnl": -1.56,
+        "regime": "normal",
+        "date": "2024-11-01"
+      },
+      {
+        "pnl": -5.41,
+        "regime": "sideways",
+        "date": "2024-12-30"
+      }
+    ],
+    "AMD": [
+      {
+        "pnl": 23.02,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      },
+      {
+        "pnl": -12.22,
+        "regime": "bullish",
+        "date": "2024-03-26"
+      },
+      {
+        "pnl": -10.94,
+        "regime": "normal",
+        "date": "2024-04-12"
+      },
+      {
+        "pnl": -3.58,
+        "regime": "bullish",
+        "date": "2024-07-01"
+      }
+    ],
+    "NVDA": [
+      {
+        "pnl": 30.85,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      },
+      {
+        "pnl": 0.93,
+        "regime": "sideways",
+        "date": "2024-05-01"
+      },
+      {
+        "pnl": -5.03,
+        "regime": "normal",
+        "date": "2024-08-01"
+      },
+      {
+        "pnl": -13.86,
+        "regime": "sideways",
+        "date": "2024-09-06"
+      },
+      {
+        "pnl": 15.73,
+        "regime": "normal",
+        "date": "2024-11-01"
+      }
+    ],
+    "NFLX": [
+      {
+        "pnl": 21.13,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      },
+      {
+        "pnl": -10.38,
+        "regime": "sideways",
+        "date": "2024-04-19"
+      },
+      {
+        "pnl": -6.93,
+        "regime": "normal",
+        "date": "2024-07-29"
+      }
+    ],
+    "BLK": [
+      {
+        "pnl": -1.83,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      },
+      {
+        "pnl": 3.43,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": 4.21,
+        "regime": "normal",
+        "date": "2024-09-02"
+      },
+      {
+        "pnl": 5.47,
+        "regime": "normal",
+        "date": "2024-11-01"
+      }
+    ],
+    "CMCSA": [
+      {
+        "pnl": -4.94,
+        "regime": "bullish",
+        "date": "2024-02-06"
+      },
+      {
+        "pnl": 4.54,
+        "regime": "normal",
+        "date": "2024-08-01"
+      }
+    ],
+    "GOOGL": [
+      {
+        "pnl": -0.75,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      },
+      {
+        "pnl": 11.01,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": -7.3,
+        "regime": "bearish",
+        "date": "2024-08-06"
+      },
+      {
+        "pnl": 0.12,
+        "regime": "bullish",
+        "date": "2024-12-02"
+      }
+    ],
+    "META": [
+      {
+        "pnl": 45.21,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      },
+      {
+        "pnl": -10.17,
+        "regime": "sideways",
+        "date": "2024-04-25"
+      },
+      {
+        "pnl": -8.46,
+        "regime": "bullish",
+        "date": "2024-07-17"
+      },
+      {
+        "pnl": 9.79,
+        "regime": "normal",
+        "date": "2024-09-02"
+      }
+    ],
+    "LLY": [
+      {
+        "pnl": 32.3,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      },
+      {
+        "pnl": 9.48,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": -7.16,
+        "regime": "normal",
+        "date": "2024-07-18"
+      },
+      {
+        "pnl": -4.26,
+        "regime": "normal",
+        "date": "2024-10-30"
+      }
+    ],
+    "ADBE": [
+      {
+        "pnl": -1.58,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      }
+    ],
+    "PG": [
+      {
+        "pnl": 1.74,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      },
+      {
+        "pnl": 3.33,
+        "regime": "sideways",
+        "date": "2024-05-01"
+      }
+    ],
+    "MSFT": [
+      {
+        "pnl": 3.09,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      },
+      {
+        "pnl": -4.78,
+        "regime": "sideways",
+        "date": "2024-04-18"
+      },
+      {
+        "pnl": 0.19,
+        "regime": "normal",
+        "date": "2024-09-02"
+      }
+    ],
+    "NKE": [
+      {
+        "pnl": -6.9,
+        "regime": "bullish",
+        "date": "2024-03-22"
+      },
+      {
+        "pnl": 3.02,
+        "regime": "bullish",
+        "date": "2024-10-01"
+      }
+    ],
+    "AMZN": [
+      {
+        "pnl": 13.62,
+        "regime": "bullish",
+        "date": "2024-04-01"
+      },
+      {
+        "pnl": -0.37,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": -6.82,
+        "regime": "normal",
+        "date": "2024-07-18"
+      },
+      {
+        "pnl": -8.78,
+        "regime": "sideways",
+        "date": "2024-08-02"
+      },
+      {
+        "pnl": 13.82,
+        "regime": "bullish",
+        "date": "2024-12-02"
+      }
+    ],
+    "CRM": [
+      {
+        "pnl": 6.64,
+        "regime": "bullish",
+        "date": "2024-04-01"
+      },
+      {
+        "pnl": 8.28,
+        "regime": "bullish",
+        "date": "2024-07-01"
+      },
+      {
+        "pnl": 8.8,
+        "regime": "normal",
+        "date": "2024-11-01"
+      },
+      {
+        "pnl": -3.14,
+        "regime": "bullish",
+        "date": "2024-12-02"
+      }
+    ],
+    "CAT": [
+      {
+        "pnl": 12.71,
+        "regime": "bullish",
+        "date": "2024-04-01"
+      },
+      {
+        "pnl": 0.09,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": 1.15,
+        "regime": "normal",
+        "date": "2024-08-01"
+      },
+      {
+        "pnl": 20.2,
+        "regime": "bullish",
+        "date": "2024-10-01"
+      },
+      {
+        "pnl": -5.4,
+        "regime": "normal",
+        "date": "2024-12-12"
+      }
+    ],
+    "WMT": [
+      {
+        "pnl": 2.46,
+        "regime": "bullish",
+        "date": "2024-04-01"
+      },
+      {
+        "pnl": 2.52,
+        "regime": "bullish",
+        "date": "2024-07-01"
+      }
+    ],
+    "MA": [
+      {
+        "pnl": 0.37,
+        "regime": "bullish",
+        "date": "2024-04-01"
+      },
+      {
+        "pnl": 4.53,
+        "regime": "normal",
+        "date": "2024-09-02"
+      }
+    ],
+    "SO": [
+      {
+        "pnl": 6.34,
+        "regime": "bullish",
+        "date": "2024-04-01"
+      },
+      {
+        "pnl": 2.48,
+        "regime": "normal",
+        "date": "2024-11-01"
+      }
+    ],
+    "JPM": [
+      {
+        "pnl": -7.58,
+        "regime": "normal",
+        "date": "2024-04-12"
+      },
+      {
+        "pnl": 23.6,
+        "regime": "normal",
+        "date": "2024-09-02"
+      }
+    ],
+    "GS": [
+      {
+        "pnl": -5.81,
+        "regime": "normal",
+        "date": "2024-04-12"
+      },
+      {
+        "pnl": 14.18,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": -8.22,
+        "regime": "bearish",
+        "date": "2024-08-05"
+      }
+    ],
+    "BAC": [
+      {
+        "pnl": -7.57,
+        "regime": "normal",
+        "date": "2024-04-16"
+      },
+      {
+        "pnl": -3.13,
+        "regime": "bullish",
+        "date": "2024-10-01"
+      }
+    ],
+    "MS": [
+      {
+        "pnl": 3.64,
+        "regime": "sideways",
+        "date": "2024-05-01"
+      },
+      {
+        "pnl": 5.43,
+        "regime": "normal",
+        "date": "2024-09-02"
+      },
+      {
+        "pnl": 12.14,
+        "regime": "bullish",
+        "date": "2024-12-02"
+      }
+    ],
+    "PEP": [
+      {
+        "pnl": 2.3,
+        "regime": "sideways",
+        "date": "2024-05-01"
+      },
+      {
+        "pnl": 5.16,
+        "regime": "normal",
+        "date": "2024-08-01"
+      }
+    ],
+    "UPS": [
+      {
+        "pnl": -1.98,
+        "regime": "sideways",
+        "date": "2024-05-01"
+      }
+    ],
+    "WFC": [
+      {
+        "pnl": 5.69,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": -6.68,
+        "regime": "bullish",
+        "date": "2024-07-12"
+      }
+    ],
+    "MRK": [
+      {
+        "pnl": -0.3,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      },
+      {
+        "pnl": 0.0,
+        "regime": "normal",
+        "date": "2024-07-30"
+      },
+      {
+        "pnl": 2.82,
+        "regime": "normal",
+        "date": "2024-09-02"
+      }
+    ],
+    "TMO": [
+      {
+        "pnl": -0.94,
+        "regime": "sideways",
+        "date": "2024-06-03"
+      }
+    ],
+    "HD": [
+      {
+        "pnl": 2.49,
+        "regime": "bullish",
+        "date": "2024-07-01"
+      },
+      {
+        "pnl": 11.0,
+        "regime": "bullish",
+        "date": "2024-10-01"
+      },
+      {
+        "pnl": -7.76,
+        "regime": "sideways",
+        "date": "2024-12-18"
+      }
+    ],
+    "VZ": [
+      {
+        "pnl": 1.85,
+        "regime": "bullish",
+        "date": "2024-07-01"
+      },
+      {
+        "pnl": 0.54,
+        "regime": "normal",
+        "date": "2024-11-01"
+      }
+    ],
+    "T": [
+      {
+        "pnl": 5.39,
+        "regime": "bullish",
+        "date": "2024-07-01"
+      },
+      {
+        "pnl": 13.66,
+        "regime": "bullish",
+        "date": "2024-10-01"
+      },
+      {
+        "pnl": 2.62,
+        "regime": "bullish",
+        "date": "2024-12-02"
+      }
+    ],
+    "ABBV": [
+      {
+        "pnl": 19.52,
+        "regime": "normal",
+        "date": "2024-08-01"
+      },
+      {
+        "pnl": 0.33,
+        "regime": "bullish",
+        "date": "2024-10-01"
+      },
+      {
+        "pnl": -14.31,
+        "regime": "bullish",
+        "date": "2024-11-11"
+      }
+    ],
+    "LMT": [
+      {
+        "pnl": 9.49,
+        "regime": "normal",
+        "date": "2024-08-01"
+      }
+    ],
+    "PFE": [
+      {
+        "pnl": -2.36,
+        "regime": "normal",
+        "date": "2024-08-01"
+      },
+      {
+        "pnl": -1.51,
+        "regime": "normal",
+        "date": "2024-11-01"
+      }
+    ],
+    "XOM": [
+      {
+        "pnl": 3.59,
+        "regime": "normal",
+        "date": "2024-09-02"
+      }
+    ],
+    "NEE": [
+      {
+        "pnl": 5.91,
+        "regime": "bullish",
+        "date": "2024-10-01"
+      },
+      {
+        "pnl": -5.0,
+        "regime": "normal",
+        "date": "2024-12-12"
+      }
+    ],
+    "AAPL": [
+      {
+        "pnl": -1.46,
+        "regime": "normal",
+        "date": "2024-11-01"
+      }
+    ],
+    "V": [
+      {
+        "pnl": 9.12,
+        "regime": "bullish",
+        "date": "2024-12-02"
+      }
+    ]
+  },
+  "regime_performance": {
+    "bullish": {
+      "wins": 33,
+      "losses": 15,
+      "total": 48,
+      "total_pnl": 279.42
+    },
+    "normal": {
+      "wins": 18,
+      "losses": 17,
+      "total": 35,
+      "total_pnl": 38.24000000000001
+    },
+    "sideways": {
+      "wins": 10,
+      "losses": 11,
+      "total": 21,
+      "total_pnl": -10.650000000000004
+    },
+    "bearish": {
+      "wins": 0,
+      "losses": 2,
+      "total": 2,
+      "total_pnl": -15.52
+    }
+  }
+}

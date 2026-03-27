@@ -1,0 +1,389 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-01-17",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-01-18",
+      "regime": "bullish"
+    },
+    {
+      "date": "2024-01-31",
+      "regime": "normal"
+    },
+    {
+      "date": "2024-02-01",
+      "regime": "bullish"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2024-01-02",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2024-01-09",
+      "context": "geo_risk=0.26"
+    },
+    {
+      "date": "2024-01-10",
+      "context": "geo_risk=0.16"
+    },
+    {
+      "date": "2024-01-11",
+      "context": "geo_risk=0.11"
+    },
+    {
+      "date": "2024-01-12",
+      "context": "geo_risk=0.07"
+    },
+    {
+      "date": "2024-01-15",
+      "context": "geo_risk=0.04"
+    },
+    {
+      "date": "2024-01-16",
+      "context": "geo_risk=0.02"
+    },
+    {
+      "date": "2024-01-17",
+      "context": "geo_risk=0.01"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "DIS",
+      "pnl_pct": 7.0,
+      "date": "2024-02-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": 8.43,
+      "date": "2024-02-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": 8.25,
+      "date": "2024-02-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": 2.17,
+      "date": "2024-02-01",
+      "held_from": "2024-01-26",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "V",
+      "pnl_pct": 9.59,
+      "date": "2024-03-01",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "BLK",
+      "pnl_pct": 1.9,
+      "date": "2024-03-01",
+      "held_from": "2024-01-12",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "GS",
+      "pnl_pct": 2.73,
+      "date": "2024-03-01",
+      "held_from": "2024-01-16",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": 3.16,
+      "date": "2024-03-01",
+      "held_from": "2024-01-23",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": 1.88,
+      "date": "2024-03-01",
+      "held_from": "2024-01-30",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": 3.41,
+      "date": "2024-03-01",
+      "held_from": "2024-02-01",
+      "regime": "bullish"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "PEP",
+      "pnl_pct": -3.32,
+      "date": "2024-01-09",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "T",
+      "pnl_pct": -4.38,
+      "date": "2024-01-11",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "JPM",
+      "pnl_pct": -1.16,
+      "date": "2024-01-12",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": -5.38,
+      "date": "2024-01-17",
+      "held_from": "2024-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": -5.36,
+      "date": "2024-01-17",
+      "held_from": "2024-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "INTC",
+      "pnl_pct": -11.91,
+      "date": "2024-01-26",
+      "held_from": "2024-01-25",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "UPS",
+      "pnl_pct": -8.39,
+      "date": "2024-01-30",
+      "held_from": "2024-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CMCSA",
+      "pnl_pct": -5.32,
+      "date": "2024-02-07",
+      "held_from": "2024-01-25",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": -2.81,
+      "date": "2024-03-05",
+      "held_from": "2024-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -5.72,
+      "date": "2024-03-05",
+      "held_from": "2024-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -7.64,
+      "date": "2024-03-08",
+      "held_from": "2024-03-07",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": -6.9,
+      "date": "2024-03-22",
+      "held_from": "2024-03-21",
+      "regime": "bullish"
+    }
+  ],
+  "lessons": [
+    "Win rate: 45% (10W / 12L)",
+    "Avg win: +4.9%, Avg loss: -5.7%",
+    "Regimes encountered: 5 changes",
+    "Regime 'bullish': avg PnL -0.5% over 20 trades",
+    "Regime 'normal': avg PnL -5.4% over 2 trades"
+  ],
+  "best_ticker": "V +9.59%",
+  "worst_ticker": "INTC -11.91%",
+  "ticker_history": {
+    "PEP": [
+      {
+        "pnl": -3.32,
+        "regime": "bullish",
+        "date": "2024-01-09"
+      }
+    ],
+    "T": [
+      {
+        "pnl": -4.38,
+        "regime": "bullish",
+        "date": "2024-01-11"
+      }
+    ],
+    "JPM": [
+      {
+        "pnl": -1.16,
+        "regime": "bullish",
+        "date": "2024-01-12"
+      }
+    ],
+    "NKE": [
+      {
+        "pnl": -5.38,
+        "regime": "normal",
+        "date": "2024-01-17"
+      },
+      {
+        "pnl": -6.9,
+        "regime": "bullish",
+        "date": "2024-03-22"
+      }
+    ],
+    "NEE": [
+      {
+        "pnl": -5.36,
+        "regime": "normal",
+        "date": "2024-01-17"
+      },
+      {
+        "pnl": 2.17,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      }
+    ],
+    "INTC": [
+      {
+        "pnl": -11.91,
+        "regime": "bullish",
+        "date": "2024-01-26"
+      }
+    ],
+    "UPS": [
+      {
+        "pnl": -8.39,
+        "regime": "bullish",
+        "date": "2024-01-30"
+      }
+    ],
+    "DIS": [
+      {
+        "pnl": 7.0,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      }
+    ],
+    "COST": [
+      {
+        "pnl": 8.43,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      },
+      {
+        "pnl": -7.64,
+        "regime": "bullish",
+        "date": "2024-03-08"
+      }
+    ],
+    "ADBE": [
+      {
+        "pnl": 8.25,
+        "regime": "bullish",
+        "date": "2024-02-01"
+      }
+    ],
+    "CMCSA": [
+      {
+        "pnl": -5.32,
+        "regime": "bullish",
+        "date": "2024-02-07"
+      }
+    ],
+    "V": [
+      {
+        "pnl": 9.59,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      }
+    ],
+    "BLK": [
+      {
+        "pnl": 1.9,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      }
+    ],
+    "GS": [
+      {
+        "pnl": 2.73,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      }
+    ],
+    "PG": [
+      {
+        "pnl": 3.16,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      }
+    ],
+    "MSFT": [
+      {
+        "pnl": 1.88,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      }
+    ],
+    "MA": [
+      {
+        "pnl": 3.41,
+        "regime": "bullish",
+        "date": "2024-03-01"
+      }
+    ],
+    "MRK": [
+      {
+        "pnl": -2.81,
+        "regime": "bullish",
+        "date": "2024-03-05"
+      }
+    ],
+    "CRM": [
+      {
+        "pnl": -5.72,
+        "regime": "bullish",
+        "date": "2024-03-05"
+      }
+    ]
+  },
+  "regime_performance": {
+    "bullish": {
+      "wins": 10,
+      "losses": 10,
+      "total": 20,
+      "total_pnl": -9.030000000000001
+    },
+    "normal": {
+      "wins": 0,
+      "losses": 2,
+      "total": 2,
+      "total_pnl": -10.74
+    }
+  }
+}

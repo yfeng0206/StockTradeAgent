@@ -1,0 +1,41 @@
+{
+  "ticker": "NVDA",
+  "fetch_date": "2026-03-25 15:15",
+  "next_earnings_date": "2026-05-20",
+  "eps_trailing": 4.91,
+  "eps_forward": 11.12,
+  "analyst_price_target": {
+    "mean": 268.22195,
+    "low": 140.0,
+    "high": 380.0,
+    "upside_pct": 50.11,
+    "num_analysts": 56
+  },
+  "earnings_history": [
+    {
+      "epsActual": 0.81,
+      "epsEstimate": 0.7499,
+      "epsDifference": 0.06,
+      "surprisePercent": 0.0802
+    },
+    {
+      "epsActual": 1.05,
+      "epsEstimate": 1.0087,
+      "epsDifference": 0.04,
+      "surprisePercent": 0.041
+    },
+    {
+      "epsActual": 1.3,
+      "epsEstimate": 1.2565,
+      "epsDifference": 0.04,
+      "surprisePercent": 0.0346
+    },
+    {
+      "epsActual": 1.62,
+      "epsEstimate": 1.5381,
+      "epsDifference": 0.08,
+      "surprisePercent": 0.0532
+    }
+  ],
+  "quarterly_earnings": []
+}

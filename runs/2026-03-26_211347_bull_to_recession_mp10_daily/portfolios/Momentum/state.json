@@ -1,0 +1,27 @@
+{
+  "final_value": 89511.57,
+  "cash": 54018.12,
+  "positions": {
+    "LLY": {
+      "shares": 32,
+      "entry_price": 282.6522216796875,
+      "entry_date": "2022-04-01"
+    },
+    "MRK": {
+      "shares": 110,
+      "entry_price": 77.61480712890625,
+      "entry_date": "2022-05-02"
+    },
+    "COST": {
+      "shares": 18,
+      "entry_price": 436.46600341796875,
+      "entry_date": "2022-06-01"
+    },
+    "NKE": {
+      "shares": 86,
+      "entry_price": 103.4818344116211,
+      "entry_date": "2022-06-27"
+    }
+  },
+  "return_pct": -10.49
+}

@@ -1,0 +1,37 @@
+{
+  "final_value": 111282.26,
+  "cash": 41410.75,
+  "positions": {
+    "DIS": {
+      "shares": 114,
+      "entry_price": 92.61090087890625,
+      "entry_date": "2024-10-01"
+    },
+    "COST": {
+      "shares": 12,
+      "entry_price": 870.4780883789062,
+      "entry_date": "2024-10-01"
+    },
+    "BA": {
+      "shares": 68,
+      "entry_price": 154.22000122070312,
+      "entry_date": "2024-10-01"
+    },
+    "MSFT": {
+      "shares": 25,
+      "entry_price": 415.8260803222656,
+      "entry_date": "2024-10-01"
+    },
+    "WMT": {
+      "shares": 131,
+      "entry_price": 80.15699005126953,
+      "entry_date": "2024-10-01"
+    },
+    "JPM": {
+      "shares": 52,
+      "entry_price": 200.60824584960938,
+      "entry_date": "2024-10-01"
+    }
+  },
+  "return_pct": 11.28
+}

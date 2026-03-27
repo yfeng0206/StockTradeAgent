@@ -1,0 +1,47 @@
+{
+  "final_value": 96103.21,
+  "cash": 18836.46,
+  "positions": {
+    "COST": {
+      "shares": 17,
+      "entry_price": 524.6317138671875,
+      "entry_date": "2023-09-01"
+    },
+    "V": {
+      "shares": 35,
+      "entry_price": 226.94485473632812,
+      "entry_date": "2023-10-02"
+    },
+    "MSFT": {
+      "shares": 25,
+      "entry_price": 315.7096862792969,
+      "entry_date": "2023-10-02"
+    },
+    "META": {
+      "shares": 28,
+      "entry_price": 309.4217834472656,
+      "entry_date": "2023-11-01"
+    },
+    "SO": {
+      "shares": 141,
+      "entry_price": 62.735042572021484,
+      "entry_date": "2023-11-01"
+    },
+    "CMCSA": {
+      "shares": 244,
+      "entry_price": 36.24031448364258,
+      "entry_date": "2023-11-01"
+    },
+    "MA": {
+      "shares": 23,
+      "entry_price": 409.009033203125,
+      "entry_date": "2023-12-01"
+    },
+    "MCD": {
+      "shares": 35,
+      "entry_price": 271.3149108886719,
+      "entry_date": "2023-12-01"
+    }
+  },
+  "return_pct": -3.9
+}

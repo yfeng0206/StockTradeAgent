@@ -1,0 +1,258 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-10",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-24",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-10-30",
+      "regime": "normal"
+    },
+    {
+      "date": "2025-10-31",
+      "regime": "bullish"
+    },
+    {
+      "date": "2025-11-04",
+      "regime": "normal"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2025-10-01",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2025-10-14",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2025-10-15",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2025-10-16",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2025-10-17",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2025-10-20",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2025-10-21",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2025-10-22",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2025-10-24",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2025-11-04",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2025-11-05",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2025-11-06",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2025-11-07",
+      "context": "geo_risk=0.67"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "NVDA",
+      "pnl_pct": 10.49,
+      "date": "2025-11-03",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": 1.31,
+      "date": "2025-11-03",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": 10.88,
+      "date": "2025-11-03",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": 27.46,
+      "date": "2025-11-03",
+      "held_from": "2025-10-06",
+      "regime": "bullish"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "LLY",
+      "pnl_pct": 0.0,
+      "date": "2025-10-01",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": 0.0,
+      "date": "2025-10-01",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": -7.13,
+      "date": "2025-10-07",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "HD",
+      "pnl_pct": -3.33,
+      "date": "2025-10-08",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": -1.82,
+      "date": "2025-11-03",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": -0.36,
+      "date": "2025-11-03",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "V",
+      "pnl_pct": -3.14,
+      "date": "2025-11-03",
+      "held_from": "2025-10-01",
+      "regime": "bullish"
+    }
+  ],
+  "lessons": [
+    "Win rate: 36% (4W / 7L)",
+    "Avg win: +12.5%, Avg loss: -2.3%",
+    "Regimes encountered: 6 changes",
+    "Regime 'bullish': avg PnL +3.1% over 11 trades"
+  ],
+  "best_ticker": "AMD +27.46%",
+  "worst_ticker": "NKE -7.13%",
+  "ticker_history": {
+    "LLY": [
+      {
+        "pnl": 0.0,
+        "regime": "bullish",
+        "date": "2025-10-01"
+      }
+    ],
+    "PFE": [
+      {
+        "pnl": 0.0,
+        "regime": "bullish",
+        "date": "2025-10-01"
+      }
+    ],
+    "NKE": [
+      {
+        "pnl": -7.13,
+        "regime": "bullish",
+        "date": "2025-10-07"
+      }
+    ],
+    "HD": [
+      {
+        "pnl": -3.33,
+        "regime": "bullish",
+        "date": "2025-10-08"
+      }
+    ],
+    "NVDA": [
+      {
+        "pnl": 10.49,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ],
+    "ADBE": [
+      {
+        "pnl": -1.82,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ],
+    "COST": [
+      {
+        "pnl": 1.31,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ],
+    "CRM": [
+      {
+        "pnl": 10.88,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ],
+    "WMT": [
+      {
+        "pnl": -0.36,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ],
+    "V": [
+      {
+        "pnl": -3.14,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ],
+    "AMD": [
+      {
+        "pnl": 27.46,
+        "regime": "bullish",
+        "date": "2025-11-03"
+      }
+    ]
+  },
+  "regime_performance": {
+    "bullish": {
+      "wins": 4,
+      "losses": 7,
+      "total": 11,
+      "total_pnl": 34.36
+    }
+  }
+}

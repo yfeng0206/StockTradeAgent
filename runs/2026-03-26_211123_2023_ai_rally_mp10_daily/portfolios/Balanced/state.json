@@ -1,0 +1,52 @@
+{
+  "final_value": 116170.84,
+  "cash": 13465.74,
+  "positions": {
+    "DIS": {
+      "shares": 123,
+      "entry_price": 90.44996643066406,
+      "entry_date": "2023-12-01"
+    },
+    "SO": {
+      "shares": 168,
+      "entry_price": 66.22761535644531,
+      "entry_date": "2023-12-01"
+    },
+    "AAPL": {
+      "shares": 58,
+      "entry_price": 189.2737274169922,
+      "entry_date": "2023-12-01"
+    },
+    "CRM": {
+      "shares": 43,
+      "entry_price": 256.8788146972656,
+      "entry_date": "2023-12-01"
+    },
+    "HON": {
+      "shares": 62,
+      "entry_price": 177.72962951660156,
+      "entry_date": "2023-12-01"
+    },
+    "LLY": {
+      "shares": 19,
+      "entry_price": 574.997314453125,
+      "entry_date": "2023-12-01"
+    },
+    "DE": {
+      "shares": 31,
+      "entry_price": 357.1219482421875,
+      "entry_date": "2023-12-01"
+    },
+    "BAC": {
+      "shares": 379,
+      "entry_price": 29.342390060424805,
+      "entry_date": "2023-12-01"
+    },
+    "NVDA": {
+      "shares": 238,
+      "entry_price": 46.73231887817383,
+      "entry_date": "2023-12-01"
+    }
+  },
+  "return_pct": 16.17
+}

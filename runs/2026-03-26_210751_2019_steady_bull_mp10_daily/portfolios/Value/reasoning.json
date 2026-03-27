@@ -1,0 +1,1396 @@
+[
+  {
+    "date": "2019-01-02",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS ESCALATION: geo_risk 0.00 -> 0.65. Themes: war/conflict, sanctions/trade, rates/inflation, geopolitical_tension",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2019-01-02",
+    "action": "NEWS",
+    "ticker": "",
+    "price": 0,
+    "reason": "NEWS: Value \u2014 holding through volatility, watching for bargains",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 218.16,
+    "reason": "Ranked in top 10. Score: 6.204 (volatility=4.7, value_dist=9.9, rsi=5.0, stability=4.1, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 6.2,
+      "volatility": 4.66,
+      "value_dist": 9.91,
+      "rsi": 5.05,
+      "stability": 4.12,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "WFC",
+    "price": 38.48,
+    "reason": "Ranked in top 10. Score: 6.092 (volatility=5.4, value_dist=10.0, rsi=2.5, stability=4.9, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 6.09,
+      "volatility": 5.42,
+      "value_dist": 10,
+      "rsi": 2.47,
+      "stability": 4.86,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 72.92,
+    "reason": "Ranked in top 10. Score: 5.964 (volatility=4.3, value_dist=10.0, rsi=3.8, stability=4.5, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.96,
+      "volatility": 4.32,
+      "value_dist": 10,
+      "rsi": 3.79,
+      "stability": 4.54,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 50.0,
+    "reason": "Ranked in top 10. Score: 5.865 (volatility=5.4, value_dist=7.5, rsi=4.8, stability=5.3, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.87,
+      "volatility": 5.37,
+      "value_dist": 7.48,
+      "rsi": 4.76,
+      "stability": 5.28,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "HON",
+    "price": 106.93,
+    "reason": "Ranked in top 10. Score: 5.66 (volatility=5.9, value_dist=7.1, rsi=3.2, stability=5.6, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.66,
+      "volatility": 5.89,
+      "value_dist": 7.12,
+      "rsi": 3.22,
+      "stability": 5.57,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 32.91,
+    "reason": "Ranked in top 10. Score: 5.628 (volatility=6.0, value_dist=3.5, rsi=6.4, stability=7.6, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.63,
+      "volatility": 5.98,
+      "value_dist": 3.45,
+      "rsi": 6.39,
+      "stability": 7.61,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 104.39,
+    "reason": "Ranked in top 10. Score: 5.582 (volatility=5.1, value_dist=5.4, rsi=5.8, stability=6.3, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.58,
+      "volatility": 5.09,
+      "value_dist": 5.44,
+      "rsi": 5.78,
+      "stability": 6.34,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 35.5,
+    "reason": "Ranked in top 10. Score: 5.577 (volatility=6.4, value_dist=2.9, rsi=5.6, stability=8.4, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.58,
+      "volatility": 6.4,
+      "value_dist": 2.87,
+      "rsi": 5.6,
+      "stability": 8.37,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 32.31,
+    "reason": "Ranked in top 10. Score: 5.571 (volatility=4.0, value_dist=10.0, rsi=1.9, stability=4.9, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.57,
+      "volatility": 4.04,
+      "value_dist": 10,
+      "rsi": 1.88,
+      "stability": 4.91,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-02",
+    "action": "BUY",
+    "ticker": "T",
+    "price": 13.31,
+    "reason": "Ranked in top 10. Score: 5.517 (volatility=4.9, value_dist=8.0, rsi=1.9, stability=6.3, event_adj=0.0)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65",
+    "scores": {
+      "composite": 5.52,
+      "volatility": 4.91,
+      "value_dist": 8.0,
+      "rsi": 1.88,
+      "stability": 6.33,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-01-04",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> crisis. Elevated geo risk (0.65): war/conflict, sanctions/trade, rates/inflation, geopolitical_tension",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2019-01-08",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: crisis -> high_volatility. Elevated geo risk (0.65): war/conflict, sanctions/trade, rates/inflation, geopolitical_tension",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2019-01-24",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: high_volatility -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-01-25",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-01-28",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-01",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-04",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.30"
+  },
+  {
+    "date": "2019-02-07",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.27"
+  },
+  {
+    "date": "2019-02-12",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.25"
+  },
+  {
+    "date": "2019-03-08",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. Elevated geo risk (0.61): war/conflict, sanctions/trade, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.61"
+  },
+  {
+    "date": "2019-03-11",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. Elevated geo risk (0.63): war/conflict, sanctions/trade, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.63"
+  },
+  {
+    "date": "2019-03-22",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.14"
+  },
+  {
+    "date": "2019-03-26",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.04"
+  },
+  {
+    "date": "2019-03-27",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.14"
+  },
+  {
+    "date": "2019-04-01",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. No notable memory or context for today.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26"
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 86.59,
+    "reason": "Dropped from top 10. Score: 2.96 Replaced by: WFC, ABBV, GS PnL: +18.7% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 2.96,
+      "volatility": 4.17,
+      "value_dist": 2.65,
+      "rsi": 0,
+      "stability": 4.54,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "XOM",
+    "price": 59.29,
+    "reason": "Dropped from top 10. Score: 2.91 Replaced by: WFC, ABBV, GS PnL: +18.6% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 2.91,
+      "volatility": 5.44,
+      "value_dist": 0.72,
+      "rsi": 0,
+      "stability": 5.28,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "HON",
+    "price": 131.67,
+    "reason": "Dropped from top 10. Score: 2.94 Replaced by: WFC, ABBV, GS PnL: +23.1% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 2.94,
+      "volatility": 6.1,
+      "value_dist": 0.0,
+      "rsi": 0,
+      "stability": 5.57,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 39.17,
+    "reason": "Dropped from top 10. Score: 4.09 Replaced by: WFC, ABBV, GS PnL: +19.0% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.09,
+      "volatility": 6.71,
+      "value_dist": 0.43,
+      "rsi": 2.14,
+      "stability": 7.61,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 114.32,
+    "reason": "Dropped from top 10. Score: 3.87 Replaced by: WFC, ABBV, GS PnL: +9.5% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 3.87,
+      "volatility": 5.12,
+      "value_dist": 2.15,
+      "rsi": 1.82,
+      "stability": 6.62,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 40.09,
+    "reason": "Dropped from top 10. Score: 4.15 Replaced by: WFC, ABBV, GS PnL: +12.9% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.15,
+      "volatility": 6.55,
+      "value_dist": 0.46,
+      "rsi": 1.86,
+      "stability": 8.37,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "SELL",
+    "ticker": "T",
+    "price": 14.71,
+    "reason": "Dropped from top 10. Score: 3.52 Replaced by: WFC, ABBV, GS PnL: +10.5% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 3.52,
+      "volatility": 5.48,
+      "value_dist": 2.03,
+      "rsi": 0,
+      "stability": 6.33,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 59.87,
+    "reason": "Ranked in top 10. Score: 5.014 (volatility=4.2, value_dist=8.6, rsi=0.0, stability=5.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 5.01,
+      "volatility": 4.2,
+      "value_dist": 8.56,
+      "rsi": 0,
+      "stability": 5.93,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 166.95,
+    "reason": "Ranked in top 10. Score: 4.853 (volatility=3.9, value_dist=9.2, rsi=1.6, stability=3.0, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.85,
+      "volatility": 3.87,
+      "value_dist": 9.23,
+      "rsi": 1.64,
+      "stability": 2.98,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "BLK",
+    "price": 368.7,
+    "reason": "Ranked in top 10. Score: 4.723 (volatility=5.0, value_dist=7.5, rsi=0.4, stability=4.5, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.72,
+      "volatility": 4.99,
+      "value_dist": 7.52,
+      "rsi": 0.37,
+      "stability": 4.48,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 218.1,
+    "reason": "Ranked in top 10. Score: 4.61 (volatility=4.5, value_dist=5.6, rsi=1.7, stability=6.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.61,
+      "volatility": 4.46,
+      "value_dist": 5.57,
+      "rsi": 1.74,
+      "stability": 6.27,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 86.31,
+    "reason": "Ranked in top 10. Score: 4.36 (volatility=5.7, value_dist=4.2, rsi=1.4, stability=5.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.36,
+      "volatility": 5.67,
+      "value_dist": 4.18,
+      "rsi": 1.39,
+      "stability": 5.64,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 167.39,
+    "reason": "Ranked in top 10. Score: 4.246 (volatility=2.1, value_dist=9.0, rsi=2.5, stability=2.1, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.25,
+      "volatility": 2.08,
+      "value_dist": 8.97,
+      "rsi": 2.55,
+      "stability": 2.1,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-01",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 29.47,
+    "reason": "Ranked in top 10. Score: 4.217 (volatility=6.2, value_dist=2.5, rsi=1.7, stability=6.3, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.26",
+    "scores": {
+      "composite": 4.22,
+      "volatility": 6.17,
+      "value_dist": 2.53,
+      "rsi": 1.69,
+      "stability": 6.35,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-04-12",
+    "action": "SELL",
+    "ticker": "UNH",
+    "price": 198.27,
+    "reason": "STOP LOSS triggered (-9.09% loss) PnL: -9.1% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.34"
+  },
+  {
+    "date": "2019-05-01",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.26"
+  },
+  {
+    "date": "2019-05-03",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. In 'bullish' regime (past: 8 trades, 88.0% win rate, avg +12.9%). \u2014 history says this regime works well for us",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.20"
+  },
+  {
+    "date": "2019-05-06",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.18"
+  },
+  {
+    "date": "2019-05-13",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. No notable memory or context for today.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.44"
+  },
+  {
+    "date": "2019-05-20",
+    "action": "TRIM",
+    "ticker": "LMT",
+    "price": 283.88,
+    "reason": "PROFIT TARGET: +30%, trimming 1/3 (13 shares). Holding 28. Next trim at +25% from $284.",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2019-05-31",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 155.55,
+    "reason": "STOP LOSS triggered (-6.82% loss) PnL: -6.8% (held since 2019-04-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2019-05-31",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bearish. Elevated geo risk (0.60): war/conflict, sanctions/trade, geopolitical_tension",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2019-06-04",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bearish -> sideways. Elevated geo risk (0.64): war/conflict, sanctions/trade, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2019-06-20",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. Elevated geo risk (0.66): war/conflict, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.66"
+  },
+  {
+    "date": "2019-06-24",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. Elevated geo risk (0.52): war/conflict, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2019-06-25",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 49.34,
+    "reason": "STOP LOSS triggered (-17.59% loss) PnL: -17.6% (held since 2019-04-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.49"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. In 'bullish' regime (past: 8 trades, 88.0% win rate, avg +12.9%). \u2014 history says this regime works well for us",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 301.97,
+    "reason": "Dropped from top 10. Score: 2.81 Replaced by: ABBV, UPS, SO PnL: +38.4% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 2.81,
+      "volatility": 6.49,
+      "value_dist": 0.11,
+      "rsi": 0,
+      "stability": 4.12,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "MS",
+    "price": 35.63,
+    "reason": "Dropped from top 10. Score: 4.29 Replaced by: ABBV, UPS, SO PnL: +10.3% (held since 2019-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.29,
+      "volatility": 5.44,
+      "value_dist": 4.76,
+      "rsi": 1.24,
+      "stability": 4.91,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "BLK",
+    "price": 400.79,
+    "reason": "Dropped from top 10. Score: 3.06 Replaced by: ABBV, UPS, SO PnL: +8.7% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 3.06,
+      "volatility": 5.91,
+      "value_dist": 0.99,
+      "rsi": 0,
+      "stability": 4.95,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 94.48,
+    "reason": "Dropped from top 10. Score: 3.1 Replaced by: ABBV, UPS, SO PnL: +9.5% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 3.1,
+      "volatility": 6.16,
+      "value_dist": 0.42,
+      "rsi": 0,
+      "stability": 5.64,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "META",
+    "price": 191.5,
+    "reason": "Dropped from top 10. Score: 3.07 Replaced by: ABBV, UPS, SO PnL: +14.4% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 3.07,
+      "volatility": 4.32,
+      "value_dist": 4.51,
+      "rsi": 0,
+      "stability": 2.1,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 33.5,
+    "reason": "Dropped from top 10. Score: 3.57 Replaced by: ABBV, UPS, SO PnL: +13.7% (held since 2019-04-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 3.57,
+      "volatility": 7.55,
+      "value_dist": 0.11,
+      "rsi": 0,
+      "stability": 6.35,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "ABBV",
+    "price": 55.12,
+    "reason": "Ranked in top 10. Score: 5.613 (volatility=3.4, value_dist=9.2, rsi=3.3, stability=5.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.61,
+      "volatility": 3.4,
+      "value_dist": 9.2,
+      "rsi": 3.32,
+      "stability": 5.85,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 78.67,
+    "reason": "Ranked in top 10. Score: 5.304 (volatility=5.0, value_dist=6.1, rsi=0.3, stability=4.5, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.3,
+      "volatility": 5.02,
+      "value_dist": 6.07,
+      "rsi": 0.33,
+      "stability": 4.54,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 42.27,
+    "reason": "Ranked in top 10. Score: 5.261 (volatility=7.5, value_dist=0.5, rsi=1.1, stability=8.1, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.26,
+      "volatility": 7.54,
+      "value_dist": 0.51,
+      "rsi": 1.14,
+      "stability": 8.09,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 43.2,
+    "reason": "Ranked in top 10. Score: 5.213 (volatility=7.6, value_dist=0.4, rsi=0.7, stability=8.4, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.21,
+      "volatility": 7.62,
+      "value_dist": 0.4,
+      "rsi": 0.67,
+      "stability": 8.37,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 56.18,
+    "reason": "Ranked in top 10. Score: 5.16 (volatility=6.8, value_dist=3.5, rsi=0.1, stability=5.3, event_adj=0.0) [Memory adj: +1.0]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.16,
+      "volatility": 6.78,
+      "value_dist": 3.47,
+      "rsi": 0.14,
+      "stability": 5.28,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "LLY",
+    "price": 103.53,
+    "reason": "Ranked in top 10. Score: 5.108 (volatility=6.0, value_dist=5.4, rsi=1.4, stability=7.0, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.11,
+      "volatility": 6.02,
+      "value_dist": 5.39,
+      "rsi": 1.42,
+      "stability": 7.01,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "BA",
+    "price": 350.11,
+    "reason": "Ranked in top 10. Score: 4.685 (volatility=4.2, value_dist=7.5, rsi=0.9, stability=5.1, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.69,
+      "volatility": 4.18,
+      "value_dist": 7.45,
+      "rsi": 0.91,
+      "stability": 5.07,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "GOOGL",
+    "price": 54.55,
+    "reason": "Ranked in top 10. Score: 4.546 (volatility=5.1, value_dist=6.0, rsi=0.5, stability=5.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.55,
+      "volatility": 5.08,
+      "value_dist": 6.05,
+      "rsi": 0.46,
+      "stability": 5.57,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-01",
+    "action": "BUY",
+    "ticker": "PEP",
+    "price": 107.35,
+    "reason": "Ranked in top 10. Score: 4.524 (volatility=7.6, value_dist=0.3, rsi=3.2, stability=7.5, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.52,
+      "volatility": 7.61,
+      "value_dist": 0.34,
+      "rsi": 3.17,
+      "stability": 7.53,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-07-19",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. In 'sideways' regime (past: 1 trades, 0.0% win rate, avg -17.6%). \u2014 history says be cautious here. Elevated geo risk (0.67): war/conflict, pandemic, rates/inflation, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.67"
+  },
+  {
+    "date": "2019-07-22",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. In 'bullish' regime (past: 14 trades, 93.0% win rate, avg +14.2%). \u2014 history says this regime works well for us. Elevated geo risk (0.68): war/conflict, pandemic, rates/inflation, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.68"
+  },
+  {
+    "date": "2019-07-24",
+    "action": "SELL",
+    "ticker": "ABBV",
+    "price": 51.43,
+    "reason": "STOP LOSS triggered (-6.69% loss) PnL: -6.7% (held since 2019-07-01)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2019-07-31",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. In 'sideways' regime (past: 1 trades, 0.0% win rate, avg -17.6%). \u2014 history says be cautious here",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.50"
+  },
+  {
+    "date": "2019-08-01",
+    "action": "SELL",
+    "ticker": "XOM",
+    "price": 53.17,
+    "reason": "STOP LOSS triggered (-5.36% loss) PnL: -5.4% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.60"
+  },
+  {
+    "date": "2019-08-05",
+    "action": "SELL",
+    "ticker": "PEP",
+    "price": 101.27,
+    "reason": "STOP LOSS triggered (-5.66% loss) PnL: -5.7% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.73"
+  },
+  {
+    "date": "2019-08-14",
+    "action": "SELL",
+    "ticker": "BA",
+    "price": 316.68,
+    "reason": "STOP LOSS triggered (-9.55% loss) PnL: -9.5% (held since 2019-07-01)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.33"
+  },
+  {
+    "date": "2019-08-14",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bearish. In 'bearish' regime (past: 1 trades, 0.0% win rate, avg -6.8%). \u2014 history says be cautious here",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.33"
+  },
+  {
+    "date": "2019-08-16",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bearish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.31"
+  },
+  {
+    "date": "2019-08-23",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bearish. In 'bearish' regime (past: 2 trades, 0.0% win rate, avg -8.2%). \u2014 history says be cautious here",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.41"
+  },
+  {
+    "date": "2019-08-26",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bearish -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.43"
+  },
+  {
+    "date": "2019-09-12",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. In 'sideways' regime (past: 3 trades, 0.0% win rate, avg -9.5%). \u2014 history says be cautious here. Elevated geo risk (0.62): war/conflict, sanctions/trade, rates/inflation, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2019-10-01",
+    "action": "SELL",
+    "ticker": "WFC",
+    "price": 41.43,
+    "reason": "Dropped from top 10. Score: 4.11 Replaced by: PFE, UNH, CAT PnL: +7.7% (held since 2019-01-02)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.11,
+      "volatility": 5.12,
+      "value_dist": 2.8,
+      "rsi": 1.39,
+      "stability": 7.3,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "SELL",
+    "ticker": "UPS",
+    "price": 89.23,
+    "reason": "Dropped from top 10. Score: 4.42 Replaced by: PFE, UNH, CAT PnL: +13.4% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.42,
+      "volatility": 4.5,
+      "value_dist": 2.29,
+      "rsi": 5.51,
+      "stability": 6.39,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 48.22,
+    "reason": "Dropped from top 10. Score: 4.01 Replaced by: PFE, UNH, CAT PnL: +14.1% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.01,
+      "volatility": 7.06,
+      "value_dist": 0.03,
+      "rsi": 0,
+      "stability": 9.42,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 49.41,
+    "reason": "Dropped from top 10. Score: 4.02 Replaced by: PFE, UNH, CAT PnL: +14.4% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 4.02,
+      "volatility": 7.14,
+      "value_dist": 0.08,
+      "rsi": 0,
+      "stability": 9.27,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "SELL",
+    "ticker": "LLY",
+    "price": 102.47,
+    "reason": "Dropped from top 10. Score: 5.06 Replaced by: PFE, UNH, CAT PnL: -1.0% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.06,
+      "volatility": 5.48,
+      "value_dist": 5.74,
+      "rsi": 2.08,
+      "stability": 6.39,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "SELL",
+    "ticker": "GOOGL",
+    "price": 59.81,
+    "reason": "Dropped from top 10. Score: 3.92 Replaced by: PFE, UNH, CAT PnL: +9.6% (held since 2019-07-01)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 3.92,
+      "volatility": 4.59,
+      "value_dist": 2.78,
+      "rsi": 2.52,
+      "stability": 6.03,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 24.65,
+    "reason": "Ranked in top 10. Score: 6.71 (volatility=5.9, value_dist=8.5, rsi=6.4, stability=5.6, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 6.71,
+      "volatility": 5.87,
+      "value_dist": 8.51,
+      "rsi": 6.41,
+      "stability": 5.57,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "UNH",
+    "price": 194.7,
+    "reason": "Ranked in top 10. Score: 6.619 (volatility=5.4, value_dist=9.3, rsi=5.4, stability=5.7, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 6.62,
+      "volatility": 5.43,
+      "value_dist": 9.26,
+      "rsi": 5.41,
+      "stability": 5.65,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "CAT",
+    "price": 106.93,
+    "reason": "Ranked in top 10. Score: 6.58 (volatility=5.0, value_dist=8.2, rsi=6.9, stability=6.0, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 6.58,
+      "volatility": 5.05,
+      "value_dist": 8.23,
+      "rsi": 6.94,
+      "stability": 6.03,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 51.22,
+    "reason": "Ranked in top 10. Score: 5.813000000000001 (volatility=6.2, value_dist=6.7, rsi=4.7, stability=6.5, event_adj=0.0) [Memory adj: -0.3]",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 6.11,
+      "volatility": 6.24,
+      "value_dist": 6.66,
+      "rsi": 4.72,
+      "stability": 6.5,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "DIS",
+    "price": 125.82,
+    "reason": "Ranked in top 10. Score: 5.707 (volatility=5.8, value_dist=4.6, rsi=5.2, stability=7.7, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.71,
+      "volatility": 5.82,
+      "value_dist": 4.6,
+      "rsi": 5.2,
+      "stability": 7.7,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "META",
+    "price": 174.44,
+    "reason": "Ranked in top 10. Score: 5.545 (volatility=4.4, value_dist=5.7, rsi=5.8, stability=6.8, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.54,
+      "volatility": 4.41,
+      "value_dist": 5.67,
+      "rsi": 5.81,
+      "stability": 6.8,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 86.78,
+    "reason": "Ranked in top 10. Score: 5.495 (volatility=5.6, value_dist=5.7, rsi=4.7, stability=5.8, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.5,
+      "volatility": 5.64,
+      "value_dist": 5.65,
+      "rsi": 4.7,
+      "stability": 5.85,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "MS",
+    "price": 33.8,
+    "reason": "Ranked in top 10. Score: 5.448 (volatility=5.2, value_dist=5.6, rsi=4.8, stability=6.3, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.45,
+      "volatility": 5.18,
+      "value_dist": 5.58,
+      "rsi": 4.83,
+      "stability": 6.26,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "CVX",
+    "price": 87.05,
+    "reason": "Ranked in top 10. Score: 5.41 (volatility=6.5, value_dist=3.0, rsi=4.8, stability=8.2, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.41,
+      "volatility": 6.45,
+      "value_dist": 2.95,
+      "rsi": 4.8,
+      "stability": 8.15,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-01",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 26.96,
+    "reason": "Ranked in top 10. Score: 5.337 (volatility=3.0, value_dist=10.0, rsi=3.8, stability=3.3, event_adj=0.0)",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.46",
+    "scores": {
+      "composite": 5.34,
+      "volatility": 3.02,
+      "value_dist": 10,
+      "rsi": 3.81,
+      "stability": 3.34,
+      "event_adj": 0
+    }
+  },
+  {
+    "date": "2019-10-31",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. No notable memory or context for today.",
+    "regime": "normal",
+    "news_context": "geo_risk=0.48"
+  },
+  {
+    "date": "2019-11-01",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. In 'bullish' regime (past: 15 trades, 87.0% win rate, avg +12.8%). \u2014 history says this regime works well for us",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.43"
+  },
+  {
+    "date": "2019-11-25",
+    "action": "TRIM",
+    "ticker": "UNH",
+    "price": 253.38,
+    "reason": "PROFIT TARGET: +30%, trimming 1/3 (19 shares). Holding 40. Next trim at +25% from $253.",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.52"
+  },
+  {
+    "date": "2019-12-02",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> normal. Elevated geo risk (0.64): war/conflict, oil/energy, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.64"
+  },
+  {
+    "date": "2019-12-03",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> sideways. In 'sideways' regime (past: 9 trades, 56.0% win rate, avg +3.3%). Elevated geo risk (0.65): war/conflict, oil/energy, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.65"
+  },
+  {
+    "date": "2019-12-05",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> normal. Elevated geo risk (0.85): war/conflict, sanctions/trade, pandemic, geopolitical_tension",
+    "regime": "normal",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2019-12-06",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: normal -> bullish. In 'bullish' regime (past: 15 trades, 87.0% win rate, avg +12.8%). \u2014 history says this regime works well for us. Elevated geo risk (0.89): war/conflict, sanctions/trade, pandemic, geopolitical_tension",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.89"
+  },
+  {
+    "date": "2019-12-10",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: bullish -> sideways. In 'sideways' regime (past: 9 trades, 56.0% win rate, avg +3.3%). Elevated geo risk (0.96): war/conflict, sanctions/trade, pandemic, geopolitical_tension",
+    "regime": "sideways",
+    "news_context": "geo_risk=0.96"
+  },
+  {
+    "date": "2019-12-11",
+    "action": "REGIME",
+    "ticker": "",
+    "price": 0,
+    "reason": "Regime changed: sideways -> bullish. In 'bullish' regime (past: 15 trades, 87.0% win rate, avg +12.8%). \u2014 history says this regime works well for us. Elevated geo risk (0.72): war/conflict",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.72"
+  }
+]
