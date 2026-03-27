@@ -1,0 +1,22 @@
+{
+  "final_value": 114720.46,
+  "cash": 78425.64,
+  "positions": {
+    "NEE": {
+      "shares": 134,
+      "entry_price": 85.7453384399414,
+      "entry_date": "2026-02-02"
+    },
+    "AMD": {
+      "shares": 59,
+      "entry_price": 198.6199951171875,
+      "entry_date": "2026-03-02"
+    },
+    "XOM": {
+      "shares": 76,
+      "entry_price": 154.22000122070312,
+      "entry_date": "2026-03-02"
+    }
+  },
+  "return_pct": 14.72
+}

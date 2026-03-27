@@ -1,0 +1,32 @@
+{
+  "final_value": 80478.5,
+  "cash": 38390.23,
+  "positions": {
+    "V": {
+      "shares": 69,
+      "entry_price": 195.0449676513672,
+      "entry_date": "2022-04-26"
+    },
+    "CRM": {
+      "shares": 41,
+      "entry_price": 173.95640563964844,
+      "entry_date": "2022-06-01"
+    },
+    "CHTR": {
+      "shares": 17,
+      "entry_price": 441.9599914550781,
+      "entry_date": "2022-06-17"
+    },
+    "ABNB": {
+      "shares": 73,
+      "entry_price": 103.51000213623047,
+      "entry_date": "2022-06-24"
+    },
+    "NKE": {
+      "shares": 73,
+      "entry_price": 103.4818115234375,
+      "entry_date": "2022-06-27"
+    }
+  },
+  "return_pct": -19.52
+}

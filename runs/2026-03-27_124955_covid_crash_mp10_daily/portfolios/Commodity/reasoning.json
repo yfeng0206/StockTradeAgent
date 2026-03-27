@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "USO",
+    "price": 102.48,
+    "reason": "Oil bullish signal (score=6.0)",
+    "regime": "bullish",
+    "news_context": null,
+    "scores": {
+      "composite": 6.0,
+      "mode": "OIL",
+      "above_50ma": true,
+      "above_200ma": true,
+      "ret_1m": 8.9,
+      "ret_3m": 17.2,
+      "rsi": 75.2,
+      "geo_boost": 0.0
+    }
+  },
+  {
+    "date": "2020-01-13",
+    "action": "SELL",
+    "ticker": "USO",
+    "price": 97.6,
+    "reason": "STOP LOSS triggered (-4.76% loss) PnL: -4.8% (held since 2020-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.47"
+  }
+]

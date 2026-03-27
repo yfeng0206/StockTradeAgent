@@ -1,0 +1,165 @@
+{
+  "collected": "2026-03-27T12:16:39.226719",
+  "commodities": {
+    "crude_oil": {
+      "symbol": "CL=F",
+      "price": 99.22,
+      "change_pct": 5.02,
+      "articles": [
+        {
+          "title": "Consumer sentiment slips as inflation expectations rise",
+          "publisher": "Yahoo Finance Video",
+          "published": "2026-03-27T19:13:32Z"
+        },
+        {
+          "title": "Oil and gold prices move higher, Carnival cuts 2026 outlook",
+          "publisher": "Yahoo Finance Video",
+          "published": "2026-03-27T18:23:18Z"
+        },
+        {
+          "title": "How high will gold go this year? Top 3 predictions about gold prices.",
+          "publisher": "Yahoo Personal Finance",
+          "published": "2026-03-27T15:00:00Z"
+        },
+        {
+          "title": "Gold price today, Friday, March 27: Gold strengthens after President Trump extends Hormuz deadline",
+          "publisher": "Yahoo Personal Finance",
+          "published": "2026-03-23T10:49:57Z"
+        },
+        {
+          "title": "Mortgage rates surge to 7-month high: What homeowners should know",
+          "publisher": "Yahoo Finance Video",
+          "published": "2026-03-26T21:32:20Z"
+        }
+      ]
+    },
+    "gold": {
+      "symbol": "GC=F",
+      "price": 4538.8,
+      "change_pct": 3.73,
+      "articles": [
+        {
+          "title": "Oil and gold prices move higher, Carnival cuts 2026 outlook",
+          "publisher": "Yahoo Finance Video",
+          "published": "2026-03-27T18:23:18Z"
+        },
+        {
+          "title": "Gold price today, Friday, March 27: Gold strengthens after President Trump extends Hormuz deadline",
+          "publisher": "Yahoo Personal Finance",
+          "published": "2026-03-23T10:49:57Z"
+        },
+        {
+          "title": "Gold IRA fees explained: What you'll actually pay",
+          "publisher": "Yahoo Personal Finance",
+          "published": "2026-03-26T19:29:28Z"
+        },
+        {
+          "title": "Stock Market Today: Nasdaq's Gloom Deepens On Iran War News; Gold Stocks Rise (Live Coverage)",
+          "publisher": "Investor's Business Daily",
+          "published": "2026-03-27T18:27:22Z"
+        },
+        {
+          "title": "LaFleur Minerals Files a PEA Supporting Restart of Gold Production at the Beacon Gold Mill in Quebec",
+          "publisher": "MT Newswires",
+          "published": "2026-03-27T18:05:35Z"
+        }
+      ]
+    },
+    "silver": {
+      "symbol": "SI=F",
+      "price": 70.01,
+      "change_pct": 3.46,
+      "articles": [
+        {
+          "title": "Update: Gold Rebounds from a Three-Month Low Despite a Higher Dollar",
+          "publisher": "MT Newswires",
+          "published": "2026-03-27T18:00:17Z"
+        },
+        {
+          "title": "Gold Heads for First Weekly Gain Since Middle East War Began",
+          "publisher": "Bloomberg",
+          "published": "2026-03-27T16:34:04Z"
+        },
+        {
+          "title": "Research backs Royal Road Minerals strategy as Colombia drilling restarts ahead of pivotal election",
+          "publisher": "Proactive",
+          "published": "2026-03-27T15:42:00Z"
+        },
+        {
+          "title": "Gold and silver prices rise with eyes on central banks and Iran war",
+          "publisher": "Yahoo Finance UK",
+          "published": "2026-03-27T15:28:17Z"
+        },
+        {
+          "title": "As Silver Prices Whipsaw, This 1 Options Trade Creates a Low-Risk, High-Reward Way to Profit",
+          "publisher": "Barchart",
+          "published": "2026-03-27T14:53:42Z"
+        }
+      ]
+    },
+    "copper": {
+      "symbol": "HG=F",
+      "price": 5.47,
+      "change_pct": 0.42,
+      "articles": [
+        {
+          "title": "Research backs Royal Road Minerals strategy as Colombia drilling restarts ahead of pivotal election",
+          "publisher": "Proactive",
+          "published": "2026-03-27T15:42:00Z"
+        },
+        {
+          "title": "BC-Copper Futures",
+          "publisher": "Associated Press Finance",
+          "published": "2026-03-27T14:00:20Z"
+        },
+        {
+          "title": "Barrick slows operations at Reko Diq in Pakistan",
+          "publisher": "Mining Technology",
+          "published": "2026-03-27T13:26:09Z"
+        },
+        {
+          "title": "Hudbay Minerals Providing Annual Reserve and Resource Update with Mine Life Extensions and Improved Three-Year Production Outlook",
+          "publisher": "MT Newswires",
+          "published": "2026-03-27T12:24:39Z"
+        },
+        {
+          "title": "Coeur Mining Closes New Gold Deal, Sets 2026 Outlook, Unveils $750M Buyback and First Dividend",
+          "publisher": "MarketBeat",
+          "published": "2026-03-27T12:02:12Z"
+        }
+      ]
+    },
+    "natural_gas": {
+      "symbol": "NG=F",
+      "price": 3.03,
+      "change_pct": 1.0,
+      "articles": [
+        {
+          "title": "Vitesse Energy (VTS) Stock Trades Down, Here Is Why",
+          "publisher": "StockStory",
+          "published": "2026-03-27T18:01:08Z"
+        },
+        {
+          "title": "Sector Update: Energy Stocks Rise Friday Afternoon",
+          "publisher": "MT Newswires",
+          "published": "2026-03-27T17:53:15Z"
+        },
+        {
+          "title": "TSMC Is Down, the Iran War Is Rattling Chip Stocks, and That's Exactly Why Long-Term Investors Should Pay Attention",
+          "publisher": "Motley Fool",
+          "published": "2026-03-27T16:50:00Z"
+        },
+        {
+          "title": "This Energy Stock Rallies 25%, Clears Entry As Funds Load Up",
+          "publisher": "Investor's Business Daily",
+          "published": "2026-03-27T15:50:12Z"
+        },
+        {
+          "title": "Europe Scrounges for Gas Supplies in Wake of Iran War",
+          "publisher": "The Wall Street Journal",
+          "published": "2026-03-27T15:42:23Z"
+        }
+      ]
+    }
+  }
+}

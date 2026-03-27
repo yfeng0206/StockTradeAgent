@@ -1,0 +1,47 @@
+{
+  "final_value": 105688.29,
+  "cash": 20526.76,
+  "positions": {
+    "NVDA": {
+      "shares": 1141,
+      "entry_price": 8.740979194641113,
+      "entry_date": "2020-05-21"
+    },
+    "AMZN": {
+      "shares": 79,
+      "entry_price": 123.552001953125,
+      "entry_date": "2020-06-01"
+    },
+    "TSLA": {
+      "shares": 163,
+      "entry_price": 59.87333297729492,
+      "entry_date": "2020-06-01"
+    },
+    "MRVL": {
+      "shares": 304,
+      "entry_price": 32.18733215332031,
+      "entry_date": "2020-06-01"
+    },
+    "ZS": {
+      "shares": 89,
+      "entry_price": 109.9800033569336,
+      "entry_date": "2020-06-01"
+    },
+    "CRWD": {
+      "shares": 103,
+      "entry_price": 94.83999633789062,
+      "entry_date": "2020-06-01"
+    },
+    "DDOG": {
+      "shares": 141,
+      "entry_price": 69.48999786376953,
+      "entry_date": "2020-06-01"
+    },
+    "SHOP": {
+      "shares": 129,
+      "entry_price": 75.80000305175781,
+      "entry_date": "2020-06-01"
+    }
+  },
+  "return_pct": 5.69
+}

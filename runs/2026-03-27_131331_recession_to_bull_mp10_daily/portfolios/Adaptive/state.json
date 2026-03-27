@@ -1,0 +1,53 @@
+{
+  "final_value": 121343.17,
+  "cash": 18364.49,
+  "positions": {
+    "META": {
+      "shares": 44,
+      "entry_price": 241.2864990234375,
+      "entry_date": "2023-05-01"
+    },
+    "NVDA": {
+      "shares": 247,
+      "entry_price": 28.884429931640625,
+      "entry_date": "2023-05-01",
+      "_last_trim_price": 40.98996353149414
+    },
+    "GOOGL": {
+      "shares": 92,
+      "entry_price": 122.70582580566406,
+      "entry_date": "2023-06-01"
+    },
+    "AMZN": {
+      "shares": 92,
+      "entry_price": 122.7699966430664,
+      "entry_date": "2023-06-01"
+    },
+    "MRVL": {
+      "shares": 187,
+      "entry_price": 60.520511627197266,
+      "entry_date": "2023-06-01"
+    },
+    "NOW": {
+      "shares": 104,
+      "entry_price": 108.59200286865234,
+      "entry_date": "2023-06-01"
+    },
+    "DDOG": {
+      "shares": 119,
+      "entry_price": 94.98999786376953,
+      "entry_date": "2023-06-01"
+    },
+    "SHOP": {
+      "shares": 195,
+      "entry_price": 57.939998626708984,
+      "entry_date": "2023-06-01"
+    },
+    "PLTR": {
+      "shares": 780,
+      "entry_price": 14.539999961853027,
+      "entry_date": "2023-06-01"
+    }
+  },
+  "return_pct": 21.34
+}

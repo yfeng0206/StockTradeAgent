@@ -1,0 +1,37 @@
+{
+  "final_value": 92828.53,
+  "cash": 35795.98,
+  "positions": {
+    "NVDA": {
+      "shares": 1035,
+      "entry_price": 8.771857261657715,
+      "entry_date": "2020-06-01"
+    },
+    "MRNA": {
+      "shares": 146,
+      "entry_price": 62.18000030517578,
+      "entry_date": "2020-06-01"
+    },
+    "DE": {
+      "shares": 65,
+      "entry_price": 138.13436889648438,
+      "entry_date": "2020-06-01"
+    },
+    "AMZN": {
+      "shares": 73,
+      "entry_price": 123.552001953125,
+      "entry_date": "2020-06-01"
+    },
+    "UPS": {
+      "shares": 115,
+      "entry_price": 78.66836547851562,
+      "entry_date": "2020-06-01"
+    },
+    "CRM": {
+      "shares": 52,
+      "entry_price": 174.24290466308594,
+      "entry_date": "2020-06-01"
+    }
+  },
+  "return_pct": -7.17
+}

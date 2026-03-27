@@ -1,0 +1,17 @@
+{
+  "final_value": 92754.03,
+  "cash": 75005.82,
+  "positions": {
+    "MSFT": {
+      "shares": 50,
+      "entry_price": 165.8251953125,
+      "entry_date": "2020-05-01"
+    },
+    "COST": {
+      "shares": 30,
+      "entry_price": 276.868896484375,
+      "entry_date": "2020-05-01"
+    }
+  },
+  "return_pct": -7.25
+}

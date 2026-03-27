@@ -1,0 +1,1822 @@
+[
+  {
+    "date": "2019-01-02",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2019-01-03",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2019-01-04",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2019-01-07",
+    "total_value": 100000.0,
+    "cash": 90003.34,
+    "num_positions": 1,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2019-01-08",
+    "total_value": 99691.9,
+    "cash": 90003.34,
+    "num_positions": 1,
+    "return_pct": -0.31
+  },
+  {
+    "date": "2019-01-09",
+    "total_value": 99981.04,
+    "cash": 90003.34,
+    "num_positions": 1,
+    "return_pct": -0.02
+  },
+  {
+    "date": "2019-01-10",
+    "total_value": 99521.26,
+    "cash": 90003.34,
+    "num_positions": 1,
+    "return_pct": -0.48
+  },
+  {
+    "date": "2019-01-11",
+    "total_value": 99381.43,
+    "cash": 90003.34,
+    "num_positions": 1,
+    "return_pct": -0.62
+  },
+  {
+    "date": "2019-01-14",
+    "total_value": 99355.36,
+    "cash": 90003.34,
+    "num_positions": 1,
+    "return_pct": -0.64
+  },
+  {
+    "date": "2019-01-15",
+    "total_value": 99599.47,
+    "cash": 90003.34,
+    "num_positions": 1,
+    "return_pct": -0.4
+  },
+  {
+    "date": "2019-01-16",
+    "total_value": 99457.27,
+    "cash": 80009.57,
+    "num_positions": 2,
+    "return_pct": -0.54
+  },
+  {
+    "date": "2019-01-17",
+    "total_value": 99971.58,
+    "cash": 80009.57,
+    "num_positions": 2,
+    "return_pct": -0.03
+  },
+  {
+    "date": "2019-01-18",
+    "total_value": 99992.47,
+    "cash": 80009.57,
+    "num_positions": 2,
+    "return_pct": -0.01
+  },
+  {
+    "date": "2019-01-21",
+    "total_value": 99992.47,
+    "cash": 80009.57,
+    "num_positions": 2,
+    "return_pct": -0.01
+  },
+  {
+    "date": "2019-01-22",
+    "total_value": 99492.43,
+    "cash": 80009.57,
+    "num_positions": 2,
+    "return_pct": -0.51
+  },
+  {
+    "date": "2019-01-23",
+    "total_value": 99578.49,
+    "cash": 80009.57,
+    "num_positions": 2,
+    "return_pct": -0.42
+  },
+  {
+    "date": "2019-01-24",
+    "total_value": 100299.58,
+    "cash": 70010.18,
+    "num_positions": 3,
+    "return_pct": 0.3
+  },
+  {
+    "date": "2019-01-25",
+    "total_value": 100809.58,
+    "cash": 70010.18,
+    "num_positions": 3,
+    "return_pct": 0.81
+  },
+  {
+    "date": "2019-01-28",
+    "total_value": 100833.5,
+    "cash": 70010.18,
+    "num_positions": 3,
+    "return_pct": 0.83
+  },
+  {
+    "date": "2019-01-29",
+    "total_value": 100567.31,
+    "cash": 70010.18,
+    "num_positions": 3,
+    "return_pct": 0.57
+  },
+  {
+    "date": "2019-01-30",
+    "total_value": 101339.53,
+    "cash": 60214.78,
+    "num_positions": 4,
+    "return_pct": 1.34
+  },
+  {
+    "date": "2019-01-31",
+    "total_value": 101170.41,
+    "cash": 20294.73,
+    "num_positions": 8,
+    "return_pct": 1.17
+  },
+  {
+    "date": "2019-02-01",
+    "total_value": 101737.32,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 1.74
+  },
+  {
+    "date": "2019-02-04",
+    "total_value": 102342.48,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 2.34
+  },
+  {
+    "date": "2019-02-05",
+    "total_value": 102667.21,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 2.67
+  },
+  {
+    "date": "2019-02-06",
+    "total_value": 102568.76,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 2.57
+  },
+  {
+    "date": "2019-02-07",
+    "total_value": 101677.27,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 1.68
+  },
+  {
+    "date": "2019-02-08",
+    "total_value": 102029.95,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 2.03
+  },
+  {
+    "date": "2019-02-11",
+    "total_value": 101918.18,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 1.92
+  },
+  {
+    "date": "2019-02-12",
+    "total_value": 103215.53,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 3.22
+  },
+  {
+    "date": "2019-02-13",
+    "total_value": 103732.25,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 3.73
+  },
+  {
+    "date": "2019-02-14",
+    "total_value": 103815.07,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 3.82
+  },
+  {
+    "date": "2019-02-15",
+    "total_value": 104898.0,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 4.9
+  },
+  {
+    "date": "2019-02-18",
+    "total_value": 104898.0,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 4.9
+  },
+  {
+    "date": "2019-02-19",
+    "total_value": 104838.71,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 4.84
+  },
+  {
+    "date": "2019-02-20",
+    "total_value": 105439.35,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 5.44
+  },
+  {
+    "date": "2019-02-21",
+    "total_value": 105201.96,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 5.2
+  },
+  {
+    "date": "2019-02-22",
+    "total_value": 106119.16,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 6.12
+  },
+  {
+    "date": "2019-02-25",
+    "total_value": 106775.35,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 6.78
+  },
+  {
+    "date": "2019-02-26",
+    "total_value": 106555.96,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 6.56
+  },
+  {
+    "date": "2019-02-27",
+    "total_value": 106449.57,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 6.45
+  },
+  {
+    "date": "2019-02-28",
+    "total_value": 106220.18,
+    "cash": 2436.62,
+    "num_positions": 10,
+    "return_pct": 6.22
+  },
+  {
+    "date": "2019-03-01",
+    "total_value": 107107.43,
+    "cash": 86418.25,
+    "num_positions": 2,
+    "return_pct": 7.11
+  },
+  {
+    "date": "2019-03-04",
+    "total_value": 106740.67,
+    "cash": 86418.25,
+    "num_positions": 2,
+    "return_pct": 6.74
+  },
+  {
+    "date": "2019-03-05",
+    "total_value": 106484.62,
+    "cash": 96403.52,
+    "num_positions": 1,
+    "return_pct": 6.48
+  },
+  {
+    "date": "2019-03-06",
+    "total_value": 106351.96,
+    "cash": 106351.96,
+    "num_positions": 0,
+    "return_pct": 6.35
+  },
+  {
+    "date": "2019-03-07",
+    "total_value": 106351.96,
+    "cash": 106351.96,
+    "num_positions": 0,
+    "return_pct": 6.35
+  },
+  {
+    "date": "2019-03-08",
+    "total_value": 106351.96,
+    "cash": 95818.64,
+    "num_positions": 1,
+    "return_pct": 6.35
+  },
+  {
+    "date": "2019-03-11",
+    "total_value": 106438.42,
+    "cash": 95818.64,
+    "num_positions": 1,
+    "return_pct": 6.44
+  },
+  {
+    "date": "2019-03-12",
+    "total_value": 106589.61,
+    "cash": 95818.64,
+    "num_positions": 1,
+    "return_pct": 6.59
+  },
+  {
+    "date": "2019-03-13",
+    "total_value": 106747.74,
+    "cash": 95818.64,
+    "num_positions": 1,
+    "return_pct": 6.75
+  },
+  {
+    "date": "2019-03-14",
+    "total_value": 106630.3,
+    "cash": 95818.64,
+    "num_positions": 1,
+    "return_pct": 6.63
+  },
+  {
+    "date": "2019-03-15",
+    "total_value": 106619.2,
+    "cash": 85186.52,
+    "num_positions": 2,
+    "return_pct": 6.62
+  },
+  {
+    "date": "2019-03-18",
+    "total_value": 106887.46,
+    "cash": 85186.52,
+    "num_positions": 2,
+    "return_pct": 6.89
+  },
+  {
+    "date": "2019-03-19",
+    "total_value": 107109.08,
+    "cash": 74552.52,
+    "num_positions": 3,
+    "return_pct": 7.11
+  },
+  {
+    "date": "2019-03-20",
+    "total_value": 106775.1,
+    "cash": 74552.52,
+    "num_positions": 3,
+    "return_pct": 6.78
+  },
+  {
+    "date": "2019-03-21",
+    "total_value": 108002.39,
+    "cash": 63908.14,
+    "num_positions": 4,
+    "return_pct": 8.0
+  },
+  {
+    "date": "2019-03-22",
+    "total_value": 106562.33,
+    "cash": 63908.14,
+    "num_positions": 4,
+    "return_pct": 6.56
+  },
+  {
+    "date": "2019-03-25",
+    "total_value": 106094.43,
+    "cash": 73720.14,
+    "num_positions": 3,
+    "return_pct": 6.09
+  },
+  {
+    "date": "2019-03-26",
+    "total_value": 106256.97,
+    "cash": 73720.14,
+    "num_positions": 3,
+    "return_pct": 6.26
+  },
+  {
+    "date": "2019-03-27",
+    "total_value": 105906.32,
+    "cash": 73720.14,
+    "num_positions": 3,
+    "return_pct": 5.91
+  },
+  {
+    "date": "2019-03-28",
+    "total_value": 106174.09,
+    "cash": 63332.66,
+    "num_positions": 4,
+    "return_pct": 6.17
+  },
+  {
+    "date": "2019-03-29",
+    "total_value": 106237.83,
+    "cash": 63332.66,
+    "num_positions": 4,
+    "return_pct": 6.24
+  },
+  {
+    "date": "2019-04-01",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-02",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-03",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-04",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-05",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-08",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-09",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-10",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-11",
+    "total_value": 106966.19,
+    "cash": 106966.19,
+    "num_positions": 0,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-12",
+    "total_value": 106966.19,
+    "cash": 96295.85,
+    "num_positions": 1,
+    "return_pct": 6.97
+  },
+  {
+    "date": "2019-04-15",
+    "total_value": 107128.64,
+    "cash": 96295.85,
+    "num_positions": 1,
+    "return_pct": 7.13
+  },
+  {
+    "date": "2019-04-16",
+    "total_value": 106953.07,
+    "cash": 85653.75,
+    "num_positions": 2,
+    "return_pct": 6.95
+  },
+  {
+    "date": "2019-04-17",
+    "total_value": 108408.48,
+    "cash": 85653.75,
+    "num_positions": 2,
+    "return_pct": 8.41
+  },
+  {
+    "date": "2019-04-18",
+    "total_value": 108588.27,
+    "cash": 85653.75,
+    "num_positions": 2,
+    "return_pct": 8.59
+  },
+  {
+    "date": "2019-04-19",
+    "total_value": 108588.27,
+    "cash": 85653.75,
+    "num_positions": 2,
+    "return_pct": 8.59
+  },
+  {
+    "date": "2019-04-22",
+    "total_value": 108839.3,
+    "cash": 85653.75,
+    "num_positions": 2,
+    "return_pct": 8.84
+  },
+  {
+    "date": "2019-04-23",
+    "total_value": 109694.66,
+    "cash": 75147.45,
+    "num_positions": 3,
+    "return_pct": 9.69
+  },
+  {
+    "date": "2019-04-24",
+    "total_value": 109760.04,
+    "cash": 75147.45,
+    "num_positions": 3,
+    "return_pct": 9.76
+  },
+  {
+    "date": "2019-04-25",
+    "total_value": 109630.32,
+    "cash": 53860.49,
+    "num_positions": 5,
+    "return_pct": 9.63
+  },
+  {
+    "date": "2019-04-26",
+    "total_value": 110236.99,
+    "cash": 53860.49,
+    "num_positions": 5,
+    "return_pct": 10.24
+  },
+  {
+    "date": "2019-04-29",
+    "total_value": 110655.95,
+    "cash": 53860.49,
+    "num_positions": 5,
+    "return_pct": 10.66
+  },
+  {
+    "date": "2019-04-30",
+    "total_value": 110362.39,
+    "cash": 43096.46,
+    "num_positions": 6,
+    "return_pct": 10.36
+  },
+  {
+    "date": "2019-05-01",
+    "total_value": 110309.68,
+    "cash": 88757.62,
+    "num_positions": 2,
+    "return_pct": 10.31
+  },
+  {
+    "date": "2019-05-02",
+    "total_value": 110348.74,
+    "cash": 88757.62,
+    "num_positions": 2,
+    "return_pct": 10.35
+  },
+  {
+    "date": "2019-05-03",
+    "total_value": 110547.66,
+    "cash": 88757.62,
+    "num_positions": 2,
+    "return_pct": 10.55
+  },
+  {
+    "date": "2019-05-06",
+    "total_value": 110308.92,
+    "cash": 88757.62,
+    "num_positions": 2,
+    "return_pct": 10.31
+  },
+  {
+    "date": "2019-05-07",
+    "total_value": 109804.84,
+    "cash": 88757.62,
+    "num_positions": 2,
+    "return_pct": 9.8
+  },
+  {
+    "date": "2019-05-08",
+    "total_value": 109845.15,
+    "cash": 88757.62,
+    "num_positions": 2,
+    "return_pct": 9.85
+  },
+  {
+    "date": "2019-05-09",
+    "total_value": 109753.86,
+    "cash": 88071.78,
+    "num_positions": 2,
+    "return_pct": 9.75
+  },
+  {
+    "date": "2019-05-10",
+    "total_value": 109679.29,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 9.68
+  },
+  {
+    "date": "2019-05-13",
+    "total_value": 108290.76,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 8.29
+  },
+  {
+    "date": "2019-05-14",
+    "total_value": 109361.13,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 9.36
+  },
+  {
+    "date": "2019-05-15",
+    "total_value": 109888.74,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 9.89
+  },
+  {
+    "date": "2019-05-16",
+    "total_value": 110639.09,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 10.64
+  },
+  {
+    "date": "2019-05-17",
+    "total_value": 110701.43,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 10.7
+  },
+  {
+    "date": "2019-05-20",
+    "total_value": 110310.54,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 10.31
+  },
+  {
+    "date": "2019-05-21",
+    "total_value": 110880.91,
+    "cash": 77112.83,
+    "num_positions": 3,
+    "return_pct": 10.88
+  },
+  {
+    "date": "2019-05-22",
+    "total_value": 111104.83,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 11.1
+  },
+  {
+    "date": "2019-05-23",
+    "total_value": 111266.07,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 11.27
+  },
+  {
+    "date": "2019-05-24",
+    "total_value": 112405.71,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 12.41
+  },
+  {
+    "date": "2019-05-27",
+    "total_value": 112405.71,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 12.41
+  },
+  {
+    "date": "2019-05-28",
+    "total_value": 111322.18,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 11.32
+  },
+  {
+    "date": "2019-05-29",
+    "total_value": 110970.77,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 10.97
+  },
+  {
+    "date": "2019-05-30",
+    "total_value": 111598.17,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 11.6
+  },
+  {
+    "date": "2019-05-31",
+    "total_value": 110504.72,
+    "cash": 66127.39,
+    "num_positions": 4,
+    "return_pct": 10.5
+  },
+  {
+    "date": "2019-06-03",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-04",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-05",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-06",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-07",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-10",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-11",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-12",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-13",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-14",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-17",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-18",
+    "total_value": 110653.45,
+    "cash": 110653.45,
+    "num_positions": 0,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-19",
+    "total_value": 110653.45,
+    "cash": 99878.68,
+    "num_positions": 1,
+    "return_pct": 10.65
+  },
+  {
+    "date": "2019-06-20",
+    "total_value": 111056.75,
+    "cash": 99878.68,
+    "num_positions": 1,
+    "return_pct": 11.06
+  },
+  {
+    "date": "2019-06-21",
+    "total_value": 110953.89,
+    "cash": 99878.68,
+    "num_positions": 1,
+    "return_pct": 10.95
+  },
+  {
+    "date": "2019-06-24",
+    "total_value": 110973.87,
+    "cash": 99878.68,
+    "num_positions": 1,
+    "return_pct": 10.97
+  },
+  {
+    "date": "2019-06-25",
+    "total_value": 110533.57,
+    "cash": 99878.68,
+    "num_positions": 1,
+    "return_pct": 10.53
+  },
+  {
+    "date": "2019-06-26",
+    "total_value": 110561.32,
+    "cash": 88783.76,
+    "num_positions": 2,
+    "return_pct": 10.56
+  },
+  {
+    "date": "2019-06-27",
+    "total_value": 111036.72,
+    "cash": 88783.76,
+    "num_positions": 2,
+    "return_pct": 11.04
+  },
+  {
+    "date": "2019-06-28",
+    "total_value": 111245.02,
+    "cash": 88783.76,
+    "num_positions": 2,
+    "return_pct": 11.25
+  },
+  {
+    "date": "2019-07-01",
+    "total_value": 111934.16,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 11.93
+  },
+  {
+    "date": "2019-07-02",
+    "total_value": 111890.76,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 11.89
+  },
+  {
+    "date": "2019-07-03",
+    "total_value": 112031.47,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 12.03
+  },
+  {
+    "date": "2019-07-04",
+    "total_value": 112031.47,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 12.03
+  },
+  {
+    "date": "2019-07-05",
+    "total_value": 112219.41,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 12.22
+  },
+  {
+    "date": "2019-07-08",
+    "total_value": 112620.81,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 12.62
+  },
+  {
+    "date": "2019-07-09",
+    "total_value": 112954.27,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 12.95
+  },
+  {
+    "date": "2019-07-10",
+    "total_value": 113102.33,
+    "cash": 90082.39,
+    "num_positions": 2,
+    "return_pct": 13.1
+  },
+  {
+    "date": "2019-07-11",
+    "total_value": 112954.58,
+    "cash": 78898.49,
+    "num_positions": 3,
+    "return_pct": 12.95
+  },
+  {
+    "date": "2019-07-12",
+    "total_value": 113316.15,
+    "cash": 78898.49,
+    "num_positions": 3,
+    "return_pct": 13.32
+  },
+  {
+    "date": "2019-07-15",
+    "total_value": 113778.84,
+    "cash": 78898.49,
+    "num_positions": 3,
+    "return_pct": 13.78
+  },
+  {
+    "date": "2019-07-16",
+    "total_value": 113421.31,
+    "cash": 78898.49,
+    "num_positions": 3,
+    "return_pct": 13.42
+  },
+  {
+    "date": "2019-07-17",
+    "total_value": 113278.4,
+    "cash": 78898.49,
+    "num_positions": 3,
+    "return_pct": 13.28
+  },
+  {
+    "date": "2019-07-18",
+    "total_value": 112801.06,
+    "cash": 78898.49,
+    "num_positions": 3,
+    "return_pct": 12.8
+  },
+  {
+    "date": "2019-07-19",
+    "total_value": 112346.33,
+    "cash": 67706.81,
+    "num_positions": 4,
+    "return_pct": 12.35
+  },
+  {
+    "date": "2019-07-22",
+    "total_value": 112892.12,
+    "cash": 67706.81,
+    "num_positions": 4,
+    "return_pct": 12.89
+  },
+  {
+    "date": "2019-07-23",
+    "total_value": 113070.7,
+    "cash": 56427.85,
+    "num_positions": 5,
+    "return_pct": 13.07
+  },
+  {
+    "date": "2019-07-24",
+    "total_value": 113104.47,
+    "cash": 33964.91,
+    "num_positions": 7,
+    "return_pct": 13.1
+  },
+  {
+    "date": "2019-07-25",
+    "total_value": 113655.75,
+    "cash": 44615.22,
+    "num_positions": 6,
+    "return_pct": 13.66
+  },
+  {
+    "date": "2019-07-26",
+    "total_value": 114420.43,
+    "cash": 22390.63,
+    "num_positions": 8,
+    "return_pct": 14.42
+  },
+  {
+    "date": "2019-07-29",
+    "total_value": 113270.93,
+    "cash": 22390.63,
+    "num_positions": 8,
+    "return_pct": 13.27
+  },
+  {
+    "date": "2019-07-30",
+    "total_value": 113975.11,
+    "cash": 22390.63,
+    "num_positions": 8,
+    "return_pct": 13.98
+  },
+  {
+    "date": "2019-07-31",
+    "total_value": 111089.76,
+    "cash": 43830.0,
+    "num_positions": 6,
+    "return_pct": 11.09
+  },
+  {
+    "date": "2019-08-01",
+    "total_value": 110575.65,
+    "cash": 110575.65,
+    "num_positions": 0,
+    "return_pct": 10.58
+  },
+  {
+    "date": "2019-08-02",
+    "total_value": 110575.65,
+    "cash": 110575.65,
+    "num_positions": 0,
+    "return_pct": 10.58
+  },
+  {
+    "date": "2019-08-05",
+    "total_value": 110575.65,
+    "cash": 110575.65,
+    "num_positions": 0,
+    "return_pct": 10.58
+  },
+  {
+    "date": "2019-08-06",
+    "total_value": 110575.65,
+    "cash": 110575.65,
+    "num_positions": 0,
+    "return_pct": 10.58
+  },
+  {
+    "date": "2019-08-07",
+    "total_value": 110575.65,
+    "cash": 110575.65,
+    "num_positions": 0,
+    "return_pct": 10.58
+  },
+  {
+    "date": "2019-08-08",
+    "total_value": 110575.65,
+    "cash": 77525.66,
+    "num_positions": 3,
+    "return_pct": 10.58
+  },
+  {
+    "date": "2019-08-09",
+    "total_value": 110209.06,
+    "cash": 66497.52,
+    "num_positions": 4,
+    "return_pct": 10.21
+  },
+  {
+    "date": "2019-08-12",
+    "total_value": 110196.94,
+    "cash": 76006.52,
+    "num_positions": 3,
+    "return_pct": 10.2
+  },
+  {
+    "date": "2019-08-13",
+    "total_value": 110204.75,
+    "cash": 76006.52,
+    "num_positions": 3,
+    "return_pct": 10.2
+  },
+  {
+    "date": "2019-08-14",
+    "total_value": 108840.36,
+    "cash": 85834.52,
+    "num_positions": 2,
+    "return_pct": 8.84
+  },
+  {
+    "date": "2019-08-15",
+    "total_value": 108759.96,
+    "cash": 75134.55,
+    "num_positions": 3,
+    "return_pct": 8.76
+  },
+  {
+    "date": "2019-08-16",
+    "total_value": 109202.6,
+    "cash": 53698.64,
+    "num_positions": 5,
+    "return_pct": 9.2
+  },
+  {
+    "date": "2019-08-19",
+    "total_value": 110354.1,
+    "cash": 53698.64,
+    "num_positions": 5,
+    "return_pct": 10.35
+  },
+  {
+    "date": "2019-08-20",
+    "total_value": 109415.01,
+    "cash": 53698.64,
+    "num_positions": 5,
+    "return_pct": 9.42
+  },
+  {
+    "date": "2019-08-21",
+    "total_value": 109802.76,
+    "cash": 42975.72,
+    "num_positions": 6,
+    "return_pct": 9.8
+  },
+  {
+    "date": "2019-08-22",
+    "total_value": 110212.26,
+    "cash": 42975.72,
+    "num_positions": 6,
+    "return_pct": 10.21
+  },
+  {
+    "date": "2019-08-23",
+    "total_value": 108567.46,
+    "cash": 42975.72,
+    "num_positions": 6,
+    "return_pct": 8.57
+  },
+  {
+    "date": "2019-08-26",
+    "total_value": 109943.28,
+    "cash": 42975.72,
+    "num_positions": 6,
+    "return_pct": 9.94
+  },
+  {
+    "date": "2019-08-27",
+    "total_value": 110007.19,
+    "cash": 52629.64,
+    "num_positions": 5,
+    "return_pct": 10.01
+  },
+  {
+    "date": "2019-08-28",
+    "total_value": 110140.96,
+    "cash": 52629.64,
+    "num_positions": 5,
+    "return_pct": 10.14
+  },
+  {
+    "date": "2019-08-29",
+    "total_value": 111147.18,
+    "cash": 52629.64,
+    "num_positions": 5,
+    "return_pct": 11.15
+  },
+  {
+    "date": "2019-08-30",
+    "total_value": 111331.97,
+    "cash": 52629.64,
+    "num_positions": 5,
+    "return_pct": 11.33
+  },
+  {
+    "date": "2019-09-02",
+    "total_value": 111331.97,
+    "cash": 111331.97,
+    "num_positions": 0,
+    "return_pct": 11.33
+  },
+  {
+    "date": "2019-09-03",
+    "total_value": 111331.97,
+    "cash": 111331.97,
+    "num_positions": 0,
+    "return_pct": 11.33
+  },
+  {
+    "date": "2019-09-04",
+    "total_value": 111331.97,
+    "cash": 111331.97,
+    "num_positions": 0,
+    "return_pct": 11.33
+  },
+  {
+    "date": "2019-09-05",
+    "total_value": 111331.97,
+    "cash": 100199.35,
+    "num_positions": 1,
+    "return_pct": 11.33
+  },
+  {
+    "date": "2019-09-06",
+    "total_value": 111535.15,
+    "cash": 89229.79,
+    "num_positions": 2,
+    "return_pct": 11.54
+  },
+  {
+    "date": "2019-09-09",
+    "total_value": 110813.8,
+    "cash": 89229.79,
+    "num_positions": 2,
+    "return_pct": 10.81
+  },
+  {
+    "date": "2019-09-10",
+    "total_value": 110524.92,
+    "cash": 89229.79,
+    "num_positions": 2,
+    "return_pct": 10.52
+  },
+  {
+    "date": "2019-09-11",
+    "total_value": 111092.45,
+    "cash": 89229.79,
+    "num_positions": 2,
+    "return_pct": 11.09
+  },
+  {
+    "date": "2019-09-12",
+    "total_value": 110946.3,
+    "cash": 89229.79,
+    "num_positions": 2,
+    "return_pct": 10.95
+  },
+  {
+    "date": "2019-09-13",
+    "total_value": 110707.88,
+    "cash": 89229.79,
+    "num_positions": 2,
+    "return_pct": 10.71
+  },
+  {
+    "date": "2019-09-16",
+    "total_value": 111019.09,
+    "cash": 66957.84,
+    "num_positions": 4,
+    "return_pct": 11.02
+  },
+  {
+    "date": "2019-09-17",
+    "total_value": 110100.38,
+    "cash": 66957.84,
+    "num_positions": 4,
+    "return_pct": 10.1
+  },
+  {
+    "date": "2019-09-18",
+    "total_value": 109624.31,
+    "cash": 77362.2,
+    "num_positions": 3,
+    "return_pct": 9.62
+  },
+  {
+    "date": "2019-09-19",
+    "total_value": 109454.44,
+    "cash": 77362.2,
+    "num_positions": 3,
+    "return_pct": 9.45
+  },
+  {
+    "date": "2019-09-20",
+    "total_value": 109339.34,
+    "cash": 87584.4,
+    "num_positions": 2,
+    "return_pct": 9.34
+  },
+  {
+    "date": "2019-09-23",
+    "total_value": 109302.11,
+    "cash": 87584.4,
+    "num_positions": 2,
+    "return_pct": 9.3
+  },
+  {
+    "date": "2019-09-24",
+    "total_value": 109027.94,
+    "cash": 87584.4,
+    "num_positions": 2,
+    "return_pct": 9.03
+  },
+  {
+    "date": "2019-09-25",
+    "total_value": 109264.19,
+    "cash": 87584.4,
+    "num_positions": 2,
+    "return_pct": 9.26
+  },
+  {
+    "date": "2019-09-26",
+    "total_value": 108808.99,
+    "cash": 97847.51,
+    "num_positions": 1,
+    "return_pct": 8.81
+  },
+  {
+    "date": "2019-09-27",
+    "total_value": 108473.51,
+    "cash": 97847.51,
+    "num_positions": 1,
+    "return_pct": 8.47
+  },
+  {
+    "date": "2019-09-30",
+    "total_value": 108548.59,
+    "cash": 97847.51,
+    "num_positions": 1,
+    "return_pct": 8.55
+  },
+  {
+    "date": "2019-10-01",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-02",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-03",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-04",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-07",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-08",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-09",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-10",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-11",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-14",
+    "total_value": 108610.01,
+    "cash": 108610.01,
+    "num_positions": 0,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-15",
+    "total_value": 108610.01,
+    "cash": 97916.74,
+    "num_positions": 1,
+    "return_pct": 8.61
+  },
+  {
+    "date": "2019-10-16",
+    "total_value": 108538.3,
+    "cash": 97916.74,
+    "num_positions": 1,
+    "return_pct": 8.54
+  },
+  {
+    "date": "2019-10-17",
+    "total_value": 108837.69,
+    "cash": 97916.74,
+    "num_positions": 1,
+    "return_pct": 8.84
+  },
+  {
+    "date": "2019-10-18",
+    "total_value": 108912.54,
+    "cash": 87157.99,
+    "num_positions": 2,
+    "return_pct": 8.91
+  },
+  {
+    "date": "2019-10-21",
+    "total_value": 108781.45,
+    "cash": 87157.99,
+    "num_positions": 2,
+    "return_pct": 8.78
+  },
+  {
+    "date": "2019-10-22",
+    "total_value": 108518.59,
+    "cash": 97337.24,
+    "num_positions": 1,
+    "return_pct": 8.52
+  },
+  {
+    "date": "2019-10-23",
+    "total_value": 108443.29,
+    "cash": 97337.24,
+    "num_positions": 1,
+    "return_pct": 8.44
+  },
+  {
+    "date": "2019-10-24",
+    "total_value": 108295.84,
+    "cash": 43410.86,
+    "num_positions": 6,
+    "return_pct": 8.3
+  },
+  {
+    "date": "2019-10-25",
+    "total_value": 110037.76,
+    "cash": 32563.72,
+    "num_positions": 7,
+    "return_pct": 10.04
+  },
+  {
+    "date": "2019-10-28",
+    "total_value": 110969.81,
+    "cash": 21768.32,
+    "num_positions": 8,
+    "return_pct": 10.97
+  },
+  {
+    "date": "2019-10-29",
+    "total_value": 109581.99,
+    "cash": 21768.32,
+    "num_positions": 8,
+    "return_pct": 9.58
+  },
+  {
+    "date": "2019-10-30",
+    "total_value": 110585.28,
+    "cash": 10913.99,
+    "num_positions": 9,
+    "return_pct": 10.59
+  },
+  {
+    "date": "2019-10-31",
+    "total_value": 109812.34,
+    "cash": 10913.99,
+    "num_positions": 9,
+    "return_pct": 9.81
+  },
+  {
+    "date": "2019-11-01",
+    "total_value": 111240.14,
+    "cash": 78641.45,
+    "num_positions": 3,
+    "return_pct": 11.24
+  },
+  {
+    "date": "2019-11-04",
+    "total_value": 111709.23,
+    "cash": 78641.45,
+    "num_positions": 3,
+    "return_pct": 11.71
+  },
+  {
+    "date": "2019-11-05",
+    "total_value": 111387.52,
+    "cash": 67408.93,
+    "num_positions": 4,
+    "return_pct": 11.39
+  },
+  {
+    "date": "2019-11-06",
+    "total_value": 111119.02,
+    "cash": 67408.93,
+    "num_positions": 4,
+    "return_pct": 11.12
+  },
+  {
+    "date": "2019-11-07",
+    "total_value": 111235.87,
+    "cash": 56224.32,
+    "num_positions": 5,
+    "return_pct": 11.24
+  },
+  {
+    "date": "2019-11-08",
+    "total_value": 112778.81,
+    "cash": 56224.32,
+    "num_positions": 5,
+    "return_pct": 12.78
+  },
+  {
+    "date": "2019-11-11",
+    "total_value": 112617.24,
+    "cash": 56224.32,
+    "num_positions": 5,
+    "return_pct": 12.62
+  },
+  {
+    "date": "2019-11-12",
+    "total_value": 112984.31,
+    "cash": 56224.32,
+    "num_positions": 5,
+    "return_pct": 12.98
+  },
+  {
+    "date": "2019-11-13",
+    "total_value": 113289.75,
+    "cash": 33889.97,
+    "num_positions": 7,
+    "return_pct": 13.29
+  },
+  {
+    "date": "2019-11-14",
+    "total_value": 113521.69,
+    "cash": 33889.97,
+    "num_positions": 7,
+    "return_pct": 13.52
+  },
+  {
+    "date": "2019-11-15",
+    "total_value": 113632.85,
+    "cash": 11517.22,
+    "num_positions": 9,
+    "return_pct": 13.63
+  },
+  {
+    "date": "2019-11-18",
+    "total_value": 114095.23,
+    "cash": 11517.22,
+    "num_positions": 9,
+    "return_pct": 14.1
+  },
+  {
+    "date": "2019-11-19",
+    "total_value": 113996.88,
+    "cash": 11517.22,
+    "num_positions": 9,
+    "return_pct": 14.0
+  },
+  {
+    "date": "2019-11-20",
+    "total_value": 112979.28,
+    "cash": 5858.12,
+    "num_positions": 10,
+    "return_pct": 12.98
+  },
+  {
+    "date": "2019-11-21",
+    "total_value": 112578.3,
+    "cash": 16138.0,
+    "num_positions": 9,
+    "return_pct": 12.58
+  },
+  {
+    "date": "2019-11-22",
+    "total_value": 113074.87,
+    "cash": 16138.0,
+    "num_positions": 9,
+    "return_pct": 13.07
+  },
+  {
+    "date": "2019-11-25",
+    "total_value": 114548.7,
+    "cash": 8075.6,
+    "num_positions": 10,
+    "return_pct": 14.55
+  },
+  {
+    "date": "2019-11-26",
+    "total_value": 114062.21,
+    "cash": 18595.21,
+    "num_positions": 9,
+    "return_pct": 14.06
+  },
+  {
+    "date": "2019-11-27",
+    "total_value": 114913.69,
+    "cash": 18595.21,
+    "num_positions": 9,
+    "return_pct": 14.91
+  },
+  {
+    "date": "2019-11-28",
+    "total_value": 114913.69,
+    "cash": 18595.21,
+    "num_positions": 9,
+    "return_pct": 14.91
+  },
+  {
+    "date": "2019-11-29",
+    "total_value": 114252.5,
+    "cash": 18595.21,
+    "num_positions": 9,
+    "return_pct": 14.25
+  },
+  {
+    "date": "2019-12-02",
+    "total_value": 113289.27,
+    "cash": 113289.27,
+    "num_positions": 0,
+    "return_pct": 13.29
+  },
+  {
+    "date": "2019-12-03",
+    "total_value": 113289.27,
+    "cash": 113289.27,
+    "num_positions": 0,
+    "return_pct": 13.29
+  },
+  {
+    "date": "2019-12-04",
+    "total_value": 113289.27,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.29
+  },
+  {
+    "date": "2019-12-05",
+    "total_value": 113033.61,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.03
+  },
+  {
+    "date": "2019-12-06",
+    "total_value": 113064.31,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.06
+  },
+  {
+    "date": "2019-12-09",
+    "total_value": 113222.09,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.22
+  },
+  {
+    "date": "2019-12-10",
+    "total_value": 113167.67,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.17
+  },
+  {
+    "date": "2019-12-11",
+    "total_value": 113322.11,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.32
+  },
+  {
+    "date": "2019-12-12",
+    "total_value": 113290.8,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.29
+  },
+  {
+    "date": "2019-12-13",
+    "total_value": 113701.8,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.7
+  },
+  {
+    "date": "2019-12-16",
+    "total_value": 113946.83,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.95
+  },
+  {
+    "date": "2019-12-17",
+    "total_value": 113774.15,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.77
+  },
+  {
+    "date": "2019-12-18",
+    "total_value": 114047.45,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 14.05
+  },
+  {
+    "date": "2019-12-19",
+    "total_value": 113929.5,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.93
+  },
+  {
+    "date": "2019-12-20",
+    "total_value": 113838.6,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.84
+  },
+  {
+    "date": "2019-12-23",
+    "total_value": 113810.03,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 13.81
+  },
+  {
+    "date": "2019-12-24",
+    "total_value": 114121.93,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 14.12
+  },
+  {
+    "date": "2019-12-25",
+    "total_value": 114121.93,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 14.12
+  },
+  {
+    "date": "2019-12-26",
+    "total_value": 114406.47,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 14.41
+  },
+  {
+    "date": "2019-12-27",
+    "total_value": 114383.67,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 14.38
+  },
+  {
+    "date": "2019-12-30",
+    "total_value": 114029.82,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 14.03
+  },
+  {
+    "date": "2019-12-31",
+    "total_value": 114029.82,
+    "cash": 101980.47,
+    "num_positions": 1,
+    "return_pct": 14.03
+  }
+]
