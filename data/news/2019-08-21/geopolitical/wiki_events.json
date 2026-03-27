@@ -1,0 +1,177 @@
+{
+  "date": "2019-08-21",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "geopolitical": {
+      "count": 11,
+      "headlines": [
+        "Yemeni Civil War (2015–present)",
+        "War in Afghanistan (2001–2021)",
+        "Australia–United States relations",
+        "Denmark–United States relations",
+        "Iceland–United States relations"
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "United States federal budget"
+      ]
+    },
+    "legal": {
+      "count": 5,
+      "headlines": [
+        "Catholic Church sexual abuse cases in Australia",
+        "China–United Kingdom relations",
+        "Indian senior opposition Rajya Sabha MP and former Cabinet Minister Palaniappan Chidambaram is arrested by the Central Bureau of Investigation on charges of corruption and money laundering during his "
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Yemeni Civil War (2015–present)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A United States MQ-9 military drone is reportedly shot down in Yemen's Dhamar Governorate. A Houthi spokesperson claims responsibility and adds that they used a locally-developed missile.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "17 August 2019 Kabul bombing",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The death toll of a suicide bombing during a wedding in Kabul, Afghanistan, four days ago, increases to 80.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United States federal budget",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Congressional Budget Office forecasts a deficit of US$1 trillion next year, up from the previous estimate of $892 billion.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Australia–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Australia announces its agreement to join the United States' coalition, along with the United Kingdom and Bahrain, to prevent Iran from targeting ships travelling through the Strait of Hormuz. Australia will deploy a Boeing P-8 Poseidon and a frigate.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Sydney Morning Herald''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Denmark–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Queen Margrethe II of Denmark expresses surprise at U.S. President Donald Trump's abrupt cancellation of his planned visit to her country. Experts on the royal house call the move an act of \"disrespect\" as illness is not the apparent cause.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "TV2"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iceland–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The office of the Prime Minister of Iceland Katrín Jakobsdóttir confirms that she will not meet the Vice President of the United States Mike Pence on his visit in September, citing \"prior commitments.\"",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "AP News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Catholic Church sexual abuse cases in Australia",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Supreme Court of Victoria rejects an appeal made by Cardinal George Pell against a six-year jail sentence for child sexual abuse.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–United Kingdom relations",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Foreign Ministry of China confirms that United Kingdom consulate in Hong Kong employee Simon Cheng, who was reported missing, is administratively detained for 15 days by Shenzhen police.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Indian senior opposition Rajya Sabha MP and former Cabinet Minister Palaniappan Chidambaram is arrested by the Central Bureau of Investigation on charges of corruption and money laundering during his term as Minister of Finance. Chidambaram says to the Supreme Court that the government is practicing a \"politically-motivated vendetta\" against him and his son Karti, who is also an opposition MP.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

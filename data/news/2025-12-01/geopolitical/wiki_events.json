@@ -1,0 +1,469 @@
+{
+  "date": "2025-12-01",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 56,
+  "categories": {
+    "other": {
+      "count": 56,
+      "headlines": [
+        "Russo-Ukrainian war",
+        "Sudanese civil war",
+        "Haitian conflict",
+        "Tajikistan reinforces its border with Afghanistan, as the Tajik government says that the drone strikes which killed two Tajik and three Chinese citizens over the past week originated from its neighbou",
+        "Ragebait is named word of the year by the Oxford University Press."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Dnipro strikes",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Four people are killed and at least 40 others are injured in a Russian Iskander missile strike on Dnipro, Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Pokrovsk offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia says its forces have captured Pokrovsk, Donetsk Oblast, after months of heavy fighting.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Sudanese civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Siege of Babanusa",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Rapid Support Forces say that they have captured Babanusa, the last stronghold of the Sudanese Armed Forces in West Kordofan, Sudan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Sudan Tribune''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Haitian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Haitian gangs launch a large-scale attack on the Ouest and Artibonite departments, causing hundreds of people to flee. Police say the gangs now control 50% of Artibonite, including the town of Pont-Sondé.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Tajikistan reinforces its border with Afghanistan, as the Tajik government says that the drone strikes which killed two Tajik and three Chinese citizens over the past week originated from its neighbour.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anewz"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Ragebait is named word of the year by the Oxford University Press.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 North Indian Ocean cyclone season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Cyclone Senyar",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The toll from the floods in Indonesia increases to 604 people killed and 464 more missing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Cyclone Ditwah",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The toll from the floods and landslides caused by heavy rains in Sri Lanka increases to 366 people killed and about 400 more missing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A landslide strikes two boats docked at a river port in Ucayali, Peru, killing at least twelve people and leaving around 50 others missing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 Kasaï Province Ebola outbreak",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Democratic Republic of the Congo declares that the Ebola outbreak in the country since August, which resulted in 53 confirmed cases, 43 deaths, and 11 probable cases, has ended.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Cuba reports 33 deaths from dengue and chikungunya amid a widespread mosquito-borne disease outbreak, with health officials reporting thousands of new cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Spain deploys 400 Mossos d'Esquadra and 117 Military Emergencies Unit members to contain the spread of the African swine fever virus in Catalonia after two dead wild boars tested positive for the virus.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 Guinea-Bissau coup d'état, Foreign relations of Nigeria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Nigeria grants asylum to Guinea-Bissau opposition leader and presidential candidate Fernando Dias da Costa at its embassy in Bissau to protect Dias from detention by the military junta.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Barron's''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Canada–European Union relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Canada agrees to join the European Union's Security Action for Europe initiative, which will allow Canadian defense firms greater access to EU markets and encourage European defense investment in Canada.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–Spain relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "China permits Spain to resume pork exports from regions unaffected by African swine fever following a trade prohibition imposed on November 28.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Dominican Republic–United States relations, 2025 United States naval deployment in the Caribbean",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Dominican Republic announces that its temporary agreement permitting United States military personnel to use restricted areas at Las Américas International Airport and the San Isidro Air Base for logistical counter-narcotics operations remains in effect until April 2026.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Honduras–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former Honduran president Juan Orlando Hernández is released from a prison in Preston County, West Virginia, after U.S. president Donald Trump pardoned Hernández from his conviction of aiding large-scale cocaine trafficking.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Thailand–Vietnam relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Thailand extradites Vietnamese citizen Y Quynh Bđăp, who founded a human rights organization for ethnic minorities, amid concerns from human rights groups.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 Cameroonian presidential election, 2025 Cameroonian protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Anicet Ekane, a 74-year-old opposition politician and leader of the MANIDEM party, dies in custody after being arrested a month ago during a crackdown in Cameroon.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "International Criminal Court investigation in Libya",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A senior official of the RADA Special Deterrence Forces is transferred from Germany to The Hague, Netherlands, and placed in International Criminal Court custody for alleged war crimes while serving a senior role at a Libyan prison.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Trial of Sheikh Hasina",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A Bangladeshi court sentences former prime minister Sheikh Hasina and British MP Tulip Siddiq to five years and two years in prison, respectively, for corruption involving a government land project.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Wang Fuk Court fire",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hong Kong police arrest thirteen people on suspicion of manslaughter in connection with the fire, while officials report that some scaffolding netting at the site failed to meet required fire-resistance standards.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''New Strait Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2024–2025 Georgian protests, 2024–2025 Georgian political crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Use of camite during the 2024–2025 Georgian protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "BBC World Service says that the Georgian police used water cannons laced with the chemical agent camite against protesters in Tbilisi in 2024. The ruling Georgian Dream party denies the accusation, threatening to sue the BBC in an international court.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 Honduran general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Honduran National Electoral Council reports that presidential candidates Nasry Asfura and Salvador Nasralla remain separated by about 500 votes in the preliminary count, which it describes as a technical tie, and announces that a manual count will begin.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''South China Morning Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 Saint Lucian general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The incumbent Saint Lucia Labour Party government, led by Prime Minister Philip J. Pierre, is projected to maintain a supermajority in the House of Assembly.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Associates Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kidnapping in Nigeria, Religious violence in Nigeria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Nigerian defence minister Mohammed Badaru Abubakar resigns amid President Bola Tinubu's declaration of a nationwide security emergency.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via RFI"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Tens of thousands of people gather across Bulgaria to protest against government corruption and the proposed 2026 budget and calls for members of prime minister Rosen Zhelyazkov's cabinet to resign.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Mass surveillance in India",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "India's Ministry of Communications orders smartphone manufacturers to pre-install Sanchar Saathi, a government-run cybersecurity app on all new devices within 90 days and to push the app onto older models through a software update. The ministry says the app is essential in \"curbing misuse of telecom resources for cyber frauds and ensuring telecom cyber security\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nuclear power in Malaysia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Malaysia enacts amendments to its nuclear law that require permits for all atomic-energy activities, including the import, export, transshipment, and transit of radioactive and nuclear materials. The updated framework introduces stricter oversight and penalties, including the possibility of the death penalty.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

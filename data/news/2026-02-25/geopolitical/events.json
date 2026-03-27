@@ -1,0 +1,369 @@
+{
+  "collected": "2026-03-25T10:51:38.441210",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 39,
+  "articles": [
+    {
+      "title": "Повторение истории ? Уроки нефтяного эмбарго 1973 - 74 гг .: для каждого свои",
+      "source": "aif.ru",
+      "url": "https://aif.ru/money/economy/povtorenie-istorii-uroki-neftyanogo-embargo-1973-74-gg-dlya-kazhdogo-svoi",
+      "published": "20260325T133000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Світову енергетичну кризу з нафтовим шоком 1970 - х порівнює CNN",
+      "source": "fakty.ua",
+      "url": "https://fakty.ua/469278-huzhe-shoka-1970-h-mir-na-poroge-novoj-neftyanoj-katastrofy-iz-za-vojny-s-iranom",
+      "published": "20260325T160000Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "От Кубы до Европы : как Вашингтон превращает энергетику в геополитическое оружие ? ( Berliner Zeitung , Германия ) ",
+      "source": "inosmi.ru",
+      "url": "https://inosmi.ru/20260325/energiya-277666565.html",
+      "published": "20260325T093000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "خبير : ترامب يقود « معركة سياسية » لخفض أسعار النفط .. والـ « 100 دولار » هي الواقع الجديد",
+      "source": "almasryalyoum.com",
+      "url": "https://www.almasryalyoum.com/news/details/4228852",
+      "published": "20260324T200000Z",
+      "language": "Arabic",
+      "source_country": "Egypt",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "पेट्रोल , डीजल की कीमतें कब तक नहीं बढ़ेंगी ? - Naya India - Hindi News , Latest Hindi News , Breaking News , Hindi Samachar",
+      "source": "nayaindia.com",
+      "url": "https://www.nayaindia.com/opinion/ajeet-dwivedi/current-affairs/how-long-will-petrol-and-diesel-prices-not-rise/513459.html",
+      "published": "20260325T041500Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "الكويت : إجراءات الحد من تأثير اضطراب إمدادات الطاقة بسبب حرب إيران لا تذكر",
+      "source": "shorouknews.com",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=25032026&id=5ea0eaa0-d0a9-43a9-b367-4c2206898da7",
+      "published": "20260325T050000Z",
+      "language": "Arabic",
+      "source_country": "Egypt",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "OPINI : Harga Minyak , How High Can You Go ? ",
+      "source": "market.bisnis.com",
+      "url": "https://market.bisnis.com/read/20260325/94/1962121/opini-harga-minyak-how-high-can-you-go",
+      "published": "20260325T071500Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "В годовом выражении Россия по итогам октября 2017 г сократила добычу нефти на 2 , 7 % » Информационное агентство МАНГАЗЕЯ",
+      "source": "mngz.ru",
+      "url": "https://www.mngz.ru/oil-gas-energetics/3495948-v-godovom-vyrazhenii-rossiya-po-itogam-oktyabrya-2017-g-sokratila-dobychu-nefti-na-27.html",
+      "published": "20260325T130000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Menaces sur le prix du carburant  : ce que cachent les termes techniques des experts pour votre budget essence . ",
+      "source": "caradisiac.com",
+      "url": "https://www.caradisiac.com/conflit-en-iran-petit-lexique-petrolier-a-l-usage-des-nuls-221075.htm",
+      "published": "20260324T191500Z",
+      "language": "French",
+      "source_country": "France",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "অকটেন - পেট্রোলের মজুত ফুরাচ্ছে , আর কত দিন চলবে ? ",
+      "source": "dhakatimes24.com",
+      "url": "https://www.dhakatimes24.com/2026/03/25/403686",
+      "published": "20260325T130000Z",
+      "language": "Bengali",
+      "source_country": "Bangladesh",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "الأزمة المسكوت عنها في الشرق الأوسط",
+      "source": "arabic.rt.com",
+      "url": "https://arabic.rt.com/press/1770882-%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%83%D9%88%D8%AA-%D8%B9%D9%86%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/",
+      "published": "20260325T031500Z",
+      "language": "Arabic",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "  จาตุรนต์  ชง 4 ทางออกวิกฤติพลังงาน หวั่นลามกระทบ  เศรษฐกิจ  ",
+      "source": "dailynews.co.th",
+      "url": "https://www.dailynews.co.th/news/5719995/",
+      "published": "20260325T081500Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "美伊開戰最大獲利者是它 ? CNN ： 中國電動車廠商準備擴張亞洲市場 | 國際",
+      "source": "newtalk.tw",
+      "url": "https://newtalk.tw/news/view/2026-03-25/1026261",
+      "published": "20260325T100000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Fuel Prices in China Near the  ¥9 Era , but Not Across the Board Yet",
+      "source": "autonews.gasgoo.com",
+      "url": "https://autonews.gasgoo.com/articles/market-industry/fuel-prices-in-china-near-the-9-era-but-not-across-the-board-yet-2036698414937436160",
+      "published": "20260325T123000Z",
+      "language": "English",
+      "source_country": "China",
+      "query": "(OPEC OR oil production OR energy crisis)",
+      "summary": "China auto market Fuel Prices in China Near the “¥9 Era,” but Not Across the Board Yet Edited by Yara From Gasgoo | March 25 , 2026 14:55 BJT f SHARE TWEET in SHARE SHARE Scan for mobile Gasgoo Munich- So far in 2026, refined oil prices have been adjusted six times in China—mostly hikes. On March 9, gasoline and diesel prices rose by 695 yuan and 670 yuan per ton, respectively. Then, on March 23, domestic gasoline and diesel prices climbed by 1,160 yuan and 1,115 yuan per ton—less than markets had anticipated."
+    },
+    {
+      "title": "จับตาสถานการณ์ - อิหร่านปล่อยเรือพาณิชย์ไทย ผ่านช่องแคบฮอร์มุซ",
+      "source": "thaipbs.or.th",
+      "url": "https://www.thaipbs.or.th/program/khaoTieng/watch/ossoybmccnwc",
+      "published": "20260325T053000Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "จับตาสถานการณ์ - จ่อเพิ่ม 12 สินค้าควบคุม หลังหยุดตรึงราคาน้ำมัน",
+      "source": "thaipbs.or.th",
+      "url": "https://www.thaipbs.or.th/program/khaoTieng/watch/6k1kjuc25e05",
+      "published": "20260325T094500Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "วิกฤตตอ . กลางเร่งเทรนด์ ความต้องการน้ำมันในจีนอาจพีกปีนี้",
+      "source": "ryt9.com",
+      "url": "https://www.ryt9.com/s/iq29/12801461",
+      "published": "20260325T100000Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "ส่องวิธีประเทศต่างๆ ..  สู้วิกฤติน้ำมัน  .. ต้องช่วยประชาชน",
+      "source": "dailynews.co.th",
+      "url": "https://www.dailynews.co.th/articles/5716075/",
+      "published": "20260325T050000Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Oil Price Outlook India : Editorial : ईंधन की आत्मनिर्भरता - fuel self sufficiency",
+      "source": "hindi.business-standard.com",
+      "url": "https://hindi.business-standard.com/opinion/editorial/fuel-self-sufficiency-id-514366",
+      "published": "20260325T173000Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "歷經無數次能源危機 … 1970年成重要轉折 ！ 台灣從依賴石油到AI一次看 | 財經焦點 | 產經",
+      "source": "udn.com",
+      "url": "https://udn.com/news/story/7238/9401631",
+      "published": "20260325T033000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Ex - US Envoy Herbst Says Putin Wants US Bogged Down in Iran , Not Peace in Ukraine",
+      "source": "kyivpost.com",
+      "url": "https://www.kyivpost.com/post/72528",
+      "published": "20260325T031500Z",
+      "language": "English",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)",
+      "summary": "Spotlight Cartoons EN UK Iran Trump Ex-US Envoy Herbst Says Putin Wants US Bogged Down in Iran, Not Peace in Ukraine Former ambassador John Herbst tells Kyiv Post he would be surprised if Moscow hadn’t offered to stop sharing intelligence with Iran for an end to US intelligence support for Ukraine. Sevinj Osmanqizi | March 25, 2026, 3:45 am Make us preferred on Google Share Facebook X (Twitter) LinkedIn Bluesky Email Copy Copied (COMBO) This combination of file photographs created on Aug. L) Ukrainian President Volodymyr Zelensky at EU headquarters in Brussels on June 27, 2024, US President-elect Donald Trump in Paris on Dec."
+    },
+    {
+      "title": "Ближний Восток - почему Россия обеспокоена войной с Ираном",
+      "source": "unian.net",
+      "url": "https://www.unian.net/world/pochemu-rossiya-obespokoena-voynoy-s-iranom-13326354.html",
+      "published": "20260325T031500Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Pourquoi la Chine ne fait pas la guerre",
+      "source": "lepoint.fr",
+      "url": "https://www.lepoint.fr/debats/pourquoi-la-chine-ne-fait-pas-la-guerre-Z6YY4ZSQVFG6BELS5IVR7AVSQI/",
+      "published": "20260324T223000Z",
+      "language": "French",
+      "source_country": "France",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Βόμβες Emmanuel Todd ( Γάλλος ιστορικός ): Η Δύση καταρρέει , η Ρωσία θα φτάσει ως την Οδησσό",
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/864469/vomves-emmanuel-todd-gallos-istorikos-i-dysi-katarreei-i-rosia-tha-ftasei-os-tin-odisso",
+      "published": "20260325T123000Z",
+      "language": "Greek",
+      "source_country": "Greece",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Сделка Трампа и Путина станет ли Иран поводом для сдачи Украины ? ",
+      "source": "opinions.glavred.info",
+      "url": "https://opinions.glavred.info/stanet-li-ukraina-razmennoy-monetoy-v-sdelke-trampa-i-putina-analiz-nebozhenko-10751627.html",
+      "published": "20260325T080000Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Россия направила Ирану 300 тонн медикаментов :: Новости дня / ВЗГЛЯД",
+      "source": "vz.ru",
+      "url": "https://vz.ru/news/2026/3/25/1405111.html",
+      "published": "20260325T104500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "象徴的な広島で 、 米国の同盟国は優勢な中国と予測不可能なロシアを警戒する",
+      "source": "jp.ibtimes.com",
+      "url": "https://jp.ibtimes.com/politics-100152",
+      "published": "20260325T011500Z",
+      "language": "Japanese",
+      "source_country": "United States",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Геостратегія . росія – найбільший переможець у війні з Іраном – Ендрю Міхта",
+      "source": "ipress.ua",
+      "url": "https://ipress.ua/articles/geostrategiya_rosiya__naybilshyy_peremozhets_u_viyni_z_iranom__endryu_mihta_383642.html",
+      "published": "20260325T071500Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "США проти Росії - розвідка США назвала загрозу | Новини на Gazeta . ua",
+      "source": "gazeta.ua",
+      "url": "https://gazeta.ua/articles/world-life/_rozvidka-ssa-u-svoyemu-zviti-nazvala-rosiyu-klyuchovoyu-vijskovoyu-zagrozoyu/1246885",
+      "published": "20260324T200000Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "America greatest enemy smells Trump weakness : analysis",
+      "source": "alternet.org",
+      "url": "https://www.alternet.org/trumps-weakness-2676614811/",
+      "published": "20260325T011500Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)",
+      "summary": "America’s greatest enemy smells Trump's weakness: analysis U. President Donald Trump looks on as he attends Markwayne Mullin's swearing-in as Department of Homeland Security (DHS) Secretary, at the White House in Washington, D."
+    },
+    {
+      "title": "Защо Русия е притеснена от войната в Иран ? - Новини от Dnes . bg",
+      "source": "dnes.bg",
+      "url": "https://www.dnes.bg/a/2-svyat/715320-zashto-rusiya-e-pritesnena-ot-voynata-v-iran",
+      "published": "20260325T043000Z",
+      "language": "Bulgarian",
+      "source_country": "Bulgaria",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Иран сбил высокоточную ракету , которую США планировали дать Украине",
+      "source": "vm.ru",
+      "url": "https://vm.ru/news/1313263-iran-sbil-vysokotochnuyu-raketu-kotoruyu-ssha-planirovali-dat-ukraine",
+      "published": "20260325T090000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Donald Tramp uputio podršku Viktoru Orbanu pred izbore",
+      "source": "informer.rs",
+      "url": "https://informer.rs/planeta/vesti/1101959/donald-tramp-viktor-orban-izbori-madarska",
+      "published": "20260325T094500Z",
+      "language": "Serbian",
+      "source_country": "Serbia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Песков сравнил ситуацию с планом по Ирану с урегулированием на Украине",
+      "source": "ria.ru",
+      "url": "https://ria.ru/20260325/kreml-2082812825.html",
+      "published": "20260325T104500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "טייוואן : חשש שסין תנצל את המלחמה באיראן להגברת הלחץ",
+      "source": "news.walla.co.il",
+      "url": "https://news.walla.co.il/item/3826216",
+      "published": "20260325T124500Z",
+      "language": "Hebrew",
+      "source_country": "Israel",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "China draws lessons from US campaign in Iran",
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260325/4431249.html",
+      "published": "20260325T071500Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)",
+      "summary": "China draws lessons from US campaign in Iran Share Tweet    -->       COMMENT Beijing | March 25, 2026 11:51:39 AM IST Amidst much trumpeting of American military prowess, President Donald Trump's attack on Iran seems to have bogged down as Tehran maintains de facto control over the Strait of Hormuz. All the while, Beijing is watching how the US military is prosecuting this war, and it will doubtlessly be applying principles to its own designs on Taiwan. Bugle, listed five broad lessons from the Iran war: the deadliest threat is the enemy within; the costliest miscalculation is blind faith in peace; the coldest reality is the logic of superior firepower; the cruelest paradox is the illusion of victory; and the ultimate reliance is self-reliance."
+    },
+    {
+      "title": "Hacked To Danger",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/blogs/toi-edit-page/hacked-to-danger/",
+      "published": "20260325T021500Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)",
+      "summary": "By continuing, you agree to the Terms listed here. In case you want to opt out, please click \"Do Not Sell or Share My Personal Information\" link in the footer of this page. Continue Opt out of the sale or sharing of personal information We won't sell or share your personal information to inform the ads you see."
+    },
+    {
+      "title": "טיוואן חוששת : כך סין תנצל את המלחמה באיראן",
+      "source": "ynet.co.il",
+      "url": "https://www.ynet.co.il/news/article/rk00adz11jze",
+      "published": "20260325T153000Z",
+      "language": "Hebrew",
+      "source_country": "Israel",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "ইরানের মতো তাইওয়ান কি চীনের বিরুদ্ধে লড়তে পারবে ? ",
+      "source": "dailyinqilab.com",
+      "url": "https://dailyinqilab.com/international/article/876563",
+      "published": "20260324T184500Z",
+      "language": "Bengali",
+      "source_country": "Bangladesh",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    }
+  ]
+}

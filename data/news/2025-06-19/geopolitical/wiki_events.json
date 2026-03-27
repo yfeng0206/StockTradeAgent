@@ -1,0 +1,168 @@
+{
+  "date": "2025-06-19",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "other": {
+      "count": 18,
+      "headlines": [
+        "Middle Eastern crisis",
+        "Democratic Republic of the Congo–Rwanda conflict",
+        "A rockslide at Bow Glacier Falls near Banff, Alberta, Canada, kills at least two people. Three other hikers sustained injuries.",
+        "Israel–Norway relations",
+        "The Finnish Parliament votes 155–18 to withdraw from the Ottawa Treaty, which bans the use of anti-personnel mines, citing the threat Russia poses to its national security."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Middle Eastern crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Twelve-Day War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Airstrikes during the Twelve-Day War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The death toll from Israel's strikes on Iran rises to more than 240, including 70 women and children. To date, at least 24 people have been killed by Iranian strikes on Israel.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iran strikes four sites in central and southern Israel. The Soroka Medical Center in Beersheba, is hit by an Iranian ballistic missile, injuring at least 240 people. Iran says it was targeting a military site, striking an Israeli military and intelligence centre located near the hospital.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera",
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Israeli Air Force strikes the Arak Nuclear Complex, a heavy-water reactor near Arak, Iran.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Rafah aid distribution killings",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli gunfire and airstrikes kill at least 92 Palestinians across the Gaza Strip, including 16 people waiting for aid assistance near the Netzarim Corridor.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Democratic Republic of the Congo–Rwanda conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "M23 campaign",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "After three days of dialogue, the Democratic Republic of the Congo and Rwanda sign a provisional peace treaty and are set to begin negotiations for a draft peace treaty on June 27.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A rockslide at Bow Glacier Falls near Banff, Alberta, Canada, kills at least two people. Three other hikers sustained injuries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CFCN-DT"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel–Norway relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A hand grenade is thrown into the courtyard of the residence of the Norwegian ambassador to Israel in Herzliya.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Finnish Parliament votes 155–18 to withdraw from the Ottawa Treaty, which bans the use of anti-personnel mines, citing the threat Russia poses to its national security.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "''Helsingin Sanomat''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "June 2025 Los Angeles protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A federal appeals court rules that President of the United States Donald Trump is allowed to keep the National Guard under federal control in California, pending further litigation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Rwandan government arrests opposition figure Victoire Ingabire Umuhoza, founder of the United Democratic Forces, for allegedly plotting to incite public unrest.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP",
+        "RFI"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

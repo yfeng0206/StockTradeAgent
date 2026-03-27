@@ -1,0 +1,295 @@
+{
+  "date": "2020-03-05",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 30,
+  "categories": {
+    "health": {
+      "count": 11,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "politics": {
+      "count": 4,
+      "headlines": [
+        "2020 Dominican Republic municipal elections, 2020 Dominican Republic protests",
+        "2020 Democratic Party presidential primaries"
+      ]
+    },
+    "business": {
+      "count": 3,
+      "headlines": [
+        "Economic impact of the COVID-19 pandemic"
+      ]
+    },
+    "disaster": {
+      "count": 6,
+      "headlines": [
+        "United States tornado outbreak of March 2–3, 2020",
+        "At least nine people, of whom four are children, are killed and 60 are injured when a fire at a bakery spreads to a crowded market in a refugee camp in the Gaza Strip."
+      ]
+    },
+    "legal": {
+      "count": 5,
+      "headlines": [
+        "War in Afghanistan (2001–2021)",
+        "Russian military intervention in Ukraine (2014–present)",
+        "The Republican-controlled Arizona House of Representatives passes a bill banning transgender females from women's sports."
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "Egypt reopens the Pyramid of Djoser after a 14-year restoration. The pyramid is deemed the oldest stone structure of its size in the world."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Egypt reopens the Pyramid of Djoser after a 14-year restoration. The pyramid is deemed the oldest stone structure of its size in the world.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Economic impact of the COVID-19 pandemic",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "British airline Flybe collapses into administration with the loss of 2,000 jobs after failing to secure financial support. The airline says the impact of the coronavirus pandemic is partly to blame for its collapse. Flybe provided more than half of UK domestic flights outside London.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Dow Jones Industrial Average drops again almost 1,000 points over coronavirus fears.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Fox Business"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United States tornado outbreak of March 2–3, 2020",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The National Weather Service confirms 13 tornadoes occurred.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The tornado in Putnam County, Tennessee, is upgraded to an EF4, becoming the strongest tornado of the outbreak.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The EF3 tornado that went through Davidson, Wilson, and Smith counties was confirmed on the ground for , becoming the second longest path a tornado has taken in Tennessee.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Every person is accounted for at the end of the day, after three people were missing previously. Official death toll from the outbreak is 25.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least nine people, of whom four are children, are killed and 60 are injured when a fire at a bakery spreads to a crowded market in a refugee camp in the Gaza Strip.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Bosnia and Herzegovina",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Officials in Republika Srpska reports the first case of COVID-19 in the country.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "N1 BA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Italian government postpones the constitutional referendum, originally scheduled for 29 March.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters",
+        "ANSA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The first death from COVID-19 is confirmed in England, after a woman in her 70s with underlying health conditions dies at Royal Berkshire Hospital in Reading, Berkshire, as the number of confirmed cases of the virus rises to over 100.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Iran",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Iranian Islamic Consultative Assembly member and former Ambassador to Syria, Hossein Sheikholeslam, dies after becoming infected with COVID-19. Iran suspends its parliament indefinitely.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Business Insider''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The International Criminal Court overturns on appeal a previous decision to block an investigation into war crimes allegedly committed by U.S. troops, the Taliban and the Afghan government.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian military intervention in Ukraine (2014–present)",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Russian-controlled Crimea sentences a Jehovah's Witness to six-years imprisonment for activities of a banned extremist organization, part of a crackdown that activists say violates religious freedom.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Republican-controlled Arizona House of Representatives passes a bill banning transgender females from women's sports.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Fox News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2020 Dominican Republic municipal elections, 2020 Dominican Republic protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The pots-and-pans protest continue in front of Pontificia Universidad Católica Madre y Maestra where the meeting of the Economic and Social Council with the political parties was to take place.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Dominican Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 Democratic Party presidential primaries",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "After failing to win any states on Super Tuesday, Massachusetts U.S. Senator Elizabeth Warren suspends her presidential campaign, leaving Hawaii U.S. Representative Tulsi Gabbard as the only woman left in the race.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The New York Times''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "date": "2022-05-12",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 30,
+  "categories": {
+    "other": {
+      "count": 30,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Kurdish–Turkish conflict",
+        "One person is killed and thirteen others injured by a roadside bombing targeting a van in Karachi, Sindh, Pakistan.",
+        "The cryptocurrency market loses US$200 billion following stablecoin TerraUSD's collapse in value. Bitcoin and Ether fall to their lowest value in 16 and 11 months, respectively.",
+        "Tibet Airlines Flight 9833"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Eastern Ukraine offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian forces repel an attempted Russian military crossing of the Donets river, west of Sievierodonetsk, in Luhansk Oblast. At least one Russian battalion tactical group is reportedly destroyed, as well as the pontoon bridge deployed in the crossing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Russian Air Force launches around a dozen missiles at the city of Kremenchuk, including four at the Kremenchuk Oil Refinery, in Poltava Oblast.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Ukrinform"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kurdish–Turkish conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Turkey says that five people were injured by Kurdish nationalists launching a missile attack into the country from Syria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "One person is killed and thirteen others injured by a roadside bombing targeting a van in Karachi, Sindh, Pakistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The cryptocurrency market loses US$200 billion following stablecoin TerraUSD's collapse in value. Bitcoin and Ether fall to their lowest value in 16 and 11 months, respectively.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Tibet Airlines Flight 9833",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An A319-100 aircraft operated by Tibet Airlines veers off the runway and catches fire at Chongqing Jiangbei International Airport in Yubei District, Chongqing, China, injuring forty people, with some being hospitalized.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Bangkok Post''",
+        "''The Hindu''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Five people are feared dead and twenty others are injured in a chemical plant explosion and fire in Kočevje, Slovenia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Eleven people die and thirty-one others are rescued after a boat capsizes off the coast of Puerto Rico near Desecheo Island.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in North Korea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "North Korea announces its first COVID-19 outbreak.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Supreme Leader Kim Jong-un orders a national lockdown.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Financial Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Romania",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Romania announces that starting on May 16, the fourth dose of Comirnaty &ndash; the Pfizer–BioNTech COVID-19 vaccine &ndash; can be administered in vaccination centers and in family medicine offices for all adults.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Romania Insider"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Enlargement of NATO",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Finland–NATO relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Finland's leaders declare that the country should apply for membership of NATO \"without delay,\" with the Parliament set to vote next week on whether to apply.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC",
+        "President of the Republic of Finland"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Finland–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Russian Ministry of Foreign Affairs threatens to take retaliatory steps against Finland, including of a \"military-technical\" nature, if the country joins NATO.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "France–Iran relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "France summons the Iranian ambassador in response to the detainment of two French nationals.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A team of scientists at the Event Horizon Telescope release the first ever image of Sagittarius A*, the supermassive black hole at the center of the Milky Way galaxy.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Researchers from the University of Florida announce that plants have been grown on lunar soil, collected by Apollo missions, for the first time ever.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 boycott of Russia and Belarus, 2022 French Open",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Tennis players from Russia and Belarus will be allowed to compete at the upcoming French Open as neutral athletes. However, players who speak in support for Russian President Vladimir Putin will face sanctions.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Tennis Majors"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "date": "2025-07-01",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "other": {
+      "count": 18,
+      "headlines": [
+        "Russian invasion of Ukraine",
+        "Insurgency in Balochistan",
+        "Eight people are killed and five others are injured, including three critically, in an explosion at a fireworks factory in Sivakasi, Tamil Nadu, India.",
+        "A sea rig capsizes in the Gulf of Suez off the coast of Jabal al-Zeit, Egypt. Of the 30 personnel on board, 23 are rescued, four others are killed, and three others are still missing.",
+        "An Australian east coast low rapidly intensifies as it makes landfall on the east coast of Australia, affecting millions of people in Sydney and the Central Coast."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Luhansk Oblast campaign",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Head of the Luhansk People's Republic Leonid Pasechnik says that Russian forces have captured the entirety of the Luhansk Oblast in Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Attacks in Russia during the Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A Ukrainian SBU drone attack on a military factory in Izhevsk, Russia, which produced Tor surface-to-air missile systems, kills three people and injures 45 others. A state of emergency is later declared by Head of the Udmurt Republic Aleksandr Brechalov.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Jama'at Nasr al-Islam wal-Muslimin claims responsibility for attacks on several Mali Armed Forces positions near Senegal in Mali. The Malian army spokesperson said 80 attackers were neutralized while there were no details on casualties among soldiers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Insurgency in Balochistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A boy and some insurgents are killed and nine others are injured when dozens of militants armed with guns and rockets storm a police station and set fire to two banks before fleeing in Mastung District, Balochistan, Pakistan. The Balochistan Liberation Army is suspected to be behind the attacks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Eight people are killed and five others are injured, including three critically, in an explosion at a fireworks factory in Sivakasi, Tamil Nadu, India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "India Today",
+        "Deccan Herald"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A sea rig capsizes in the Gulf of Suez off the coast of Jabal al-Zeit, Egypt. Of the 30 personnel on board, 23 are rescued, four others are killed, and three others are still missing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "MarineTraffic",
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "An Australian east coast low rapidly intensifies as it makes landfall on the east coast of Australia, affecting millions of people in Sydney and the Central Coast.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Sydney Morning Herald''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Warsaw Metro's M1 line is damaged in an overnight fire in Warsaw, Poland. Mayor Rafał Trzaskowski blames the incident on a power outage.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''TVP Info''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "China–Philippines relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Chinese government sanctions former Philippine Senate majority leader Francis Tolentino, barring him from entering China, citing his conduct on China-related issues.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2025 Thai political crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Constitutional Court of Thailand suspends Prime Minister Paetongtarn Shinawatra from duty pending a case seeking her dismissal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkey arrests four journalists of the satirical magazine LeMan accused of drawing the Islamic prophet Muhammad.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and two others are injured in a mass stabbing attack when a 21-year-old man stabs employees at a company in Mellrichstadt, Bavaria, Germany.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

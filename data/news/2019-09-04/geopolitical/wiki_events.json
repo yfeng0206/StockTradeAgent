@@ -1,0 +1,212 @@
+{
+  "date": "2019-09-04",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 21,
+  "categories": {
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Nicotine marketing"
+      ]
+    },
+    "disaster": {
+      "count": 6,
+      "headlines": [
+        "New Zealand police confirm that a bus carrying 27 Chinese tourists crashed in bad weather near Rotorua and left at least five dead and six injured.",
+        "Hurricane Dorian",
+        "Hurricane Dorian–Alabama controversy"
+      ]
+    },
+    "legal": {
+      "count": 7,
+      "headlines": [
+        "2019 Samoa assassination plot",
+        "2019 Hong Kong anti-extradition bill protests",
+        "Privacy concerns regarding Google",
+        "A US federal judge rules in favour of 23 citizens who sued after being placed on a terrorism watchlist, saying the list violates their constitutional rights."
+      ]
+    },
+    "politics": {
+      "count": 6,
+      "headlines": [
+        "Politics of Turkey",
+        "2020 Democratic Party presidential debates and forums"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Nicotine marketing",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Michigan becomes the first state in the United States to ban the sale of flavored electronic cigarettes, which the state government says are marketed towards children.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "MLive.com"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "New Zealand police confirm that a bus carrying 27 Chinese tourists crashed in bad weather near Rotorua and left at least five dead and six injured.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Hurricane Dorian",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hurricane Dorian increases to a Category Three storm as it approaches The Carolinas in the United States.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 20 people are known to have been killed by Hurricane Dorian in the Bahamas.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "WAVY-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Hurricane Dorian–Alabama controversy",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. President Donald Trump uses an altered map showing the projected forecast of Hurricane Dorian in order to support a disputed claim that Alabama has recently been threatened by the storm. If deliberate, the action is a federal offense.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''Newsweek''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Samoa assassination plot",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "After an assassination plot to kill Samoan Prime Minister Tuilaepa A. S. Malielegaoi is foiled, police are working to extradite a Samoan man who lives in Brisbane, Australia.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Radio New Zealand"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Hong Kong anti-extradition bill protests",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hong Kong Chief Executive Carrie Lam announces the formal withdrawal of the controversial extradition bill.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Privacy concerns regarding Google",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Google agrees to pay a record US$170 million penalty to settle accusations that YouTube broke the law when it knowingly tracked and sold advertisements to children, the Federal Trade Commission says.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A US federal judge rules in favour of 23 citizens who sued after being placed on a terrorism watchlist, saying the list violates their constitutional rights.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The House of Commons of the United Kingdom approves a bill to block a no-deal Brexit next month, by a vote of 327 to 299. The bill instructs Prime Minister Boris Johnson to request another Brexit extension if he cannot secure a deal with the European Union in the coming weeks.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The House of Commons rejects Prime Minister Boris Johnson's motion to hold a general election in October amid continuing political deadlock over Brexit.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Politics of Turkey",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Turkish President Recep Tayyip Erdoğan says he cannot accept that his country is not allowed to possess nuclear weapons.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 Democratic Party presidential debates and forums",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "CNN hosts a seven-hour town hall on climate change featuring ten Democratic presidential candidates. An official debate sponsored by the Democratic Party had previously been shot down by the DNC.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Vox''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

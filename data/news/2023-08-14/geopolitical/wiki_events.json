@@ -1,0 +1,342 @@
+{
+  "date": "2023-08-14",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 40,
+  "categories": {
+    "other": {
+      "count": 40,
+      "headlines": [
+        "Afghan conflict",
+        "Libyan Crisis",
+        "Russian invasion of Ukraine",
+        "Syrian civil war",
+        "2022–2023 food crises"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Afghan conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least three people are killed and seven others are injured by an explosion at a hotel in Khost, Afghanistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Libyan Crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Fighting breaks out in Tripoli between the 444 brigade and the Special Deterrence Force after the head of the 444 brigade was allegedly detained by the Special Deterrence Force at an airport in Tripoli. Twenty-seven people are killed and more than 100 injured.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Bombing of Odesa",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian forces strike Odesa with missiles and drones, injuring three people and damaging civilian infrastructure.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN International"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A report to the UN Security Council finds that the Islamic State still commands between 5,000 and 7,000 members across Syria, Iraq and Afghanistan, posing a serious threat to the region despite the imposition of economic sanctions.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022–2023 food crises",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "France announces that supermarket prices increased 13.1% year-on-year in July according to the national statistics bureau.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "INSEE"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Hawaii wildfires",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Shares in Hawaiian Electric Industries drop 30% after the company was sued for refusing to shut down power lines. Lawsuits are also filed against three other power companies that oversee the state.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC",
+        "Radar Online"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The wildfires in Maui, Hawaii, United States, are ranked as the fifth deadliest wildfire in American history.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Makhachkala gas station explosion",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 35 people are killed and 80 others are injured in an explosion at a gas station in Makhachkala, Dagestan, Russia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Tunisia migrant boat disasters",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five people are killed and seven others missing after a boat carrying 35 migrants from Sfax, Tunisia, sinks in the Mediterranean Sea.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via RFI"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Land mines in Cambodia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A secondary school in Kratié, Cambodia, once a supply depot during the country's civil war, temporarily closes after over 2,000 pieces of unexploded ordnance are found.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Hpakant jade mine disaster",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 25 miners are killed and 14 others missing after a landslide at a jade mine in Hpakant, Myanmar.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Economic Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Eleven people are killed, ten missing and 30 others are injured in an explosion at a market in San Cristóbal, Dominican Republic.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Eleven people are killed and nine others are injured in a collision between a truck and a minibus near Lanjik, Armenia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RFE/RL"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in New Zealand",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Health Minister Ayesha Verrall announces New Zealand will end COVID-19 restrictions including mask mandates and 7-day quarantines.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Attempts to overturn the 2020 United States presidential election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Georgia election racketeering prosecution",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Former U.S. President Donald Trump and eighteen associates including former White House Chief of Staff Mark Meadows and former Justice Department official Jeffrey Clarkare indicted in Georgia by Fulton County District Attorney Fani Willis as part of an investigation into their alleged involvement in attempting to overturn the election results in the state.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Murder of Agnes Wanjiru",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kenya launches an inquiry into British Army Training Unit Kenya, amid allegations of murder, sexual abuse, and damage to land near the base.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Terrorism in France",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Prosecutors announce that police are investigating bomb threats at the Eiffel Tower in Paris that resulted in two evacuations on Saturday.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Manila Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Terrorism in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Philadelphia District Attorney and FBI announce charges against a 17-year-old Philadelphia resident for allegedly plotting terrorism on behalf of an al-Qaeda-linked group.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Polish Prime Minister Mateusz Morawiecki announces a referendum on the acceptance of \"thousands of illegal immigrants from the Middle East and Africa\" as part of a European Union relocation plan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Latvian Prime Minister Krišjānis Kariņš announces his resignation and says his government will step down this week citing a breakdown in relations within his multi-party government.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Transgender people in sports",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "FIDE requires trans women to provide proof of gender transition to compete in official women's chess events and states that titles held by those who transition to male will be abolished, but may be reinstated if they revert to female.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

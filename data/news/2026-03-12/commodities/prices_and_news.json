@@ -1,0 +1,165 @@
+{
+  "collected": "2026-03-24T21:42:15.848066",
+  "commodities": {
+    "crude_oil": {
+      "symbol": "CL=F",
+      "price": 88.53,
+      "change_pct": -4.14,
+      "articles": [
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq futures jump as Wall Street hopes for Iran progress",
+          "publisher": "Yahoo Finance",
+          "published": "2026-03-24T23:03:59Z"
+        },
+        {
+          "title": "Why Citi still sees $150 oil",
+          "publisher": "Yahoo Finance",
+          "published": "2026-03-24T13:56:22Z"
+        },
+        {
+          "title": "How the Fed has — and hasn't — responded to previous oil price shocks",
+          "publisher": "Yahoo Finance",
+          "published": "2026-03-24T09:00:35Z"
+        },
+        {
+          "title": "Currency markets tread water amid uncertainty over US efforts to end Iran war",
+          "publisher": "Reuters",
+          "published": "2026-03-25T04:30:59Z"
+        },
+        {
+          "title": "Middle East war: global economic fallout",
+          "publisher": "AFP",
+          "published": "2026-03-25T04:19:49Z"
+        }
+      ]
+    },
+    "gold": {
+      "symbol": "GC=F",
+      "price": 4571.8,
+      "change_pct": 3.92,
+      "articles": [
+        {
+          "title": "Bitcoin sinks below $70,000 as Bernstein analysts say token 'looks bottomed'",
+          "publisher": "Yahoo Finance",
+          "published": "2026-03-24T15:52:20Z"
+        },
+        {
+          "title": "Gold price today, Tuesday, March 24: Gold moves back over $4,400",
+          "publisher": "Yahoo Personal Finance",
+          "published": "2026-03-23T10:49:57Z"
+        },
+        {
+          "title": "Bitcoin price holds steady as investors flee gold. Have safe-haven roles finally reversed?",
+          "publisher": "DLNews",
+          "published": "2026-03-25T03:33:11Z"
+        },
+        {
+          "title": "Gold Déjà Vu? Schiff Says This Crash Looks Just Like 2008 — Massive Surge Ahead",
+          "publisher": "Benzinga",
+          "published": "2026-03-25T01:31:40Z"
+        },
+        {
+          "title": "Stocks bounce and oil retreats on Mideast ceasefire reports",
+          "publisher": "Reuters",
+          "published": "2026-03-25T01:04:42Z"
+        }
+      ]
+    },
+    "silver": {
+      "symbol": "SI=F",
+      "price": 73.79,
+      "change_pct": 6.52,
+      "articles": [
+        {
+          "title": "Pan American Silver Eyes La Colorada Expansion As Cornerstone Growth Driver",
+          "publisher": "Simply Wall St.",
+          "published": "2026-03-25T03:17:59Z"
+        },
+        {
+          "title": "Silver Prices Have Plunged 20% in Just 1 Month. Should You Buy the Dip?",
+          "publisher": "Barchart",
+          "published": "2026-03-24T21:21:22Z"
+        },
+        {
+          "title": "Gold Snaps Nine-Day Losing Streak on Hopes of War Deescalation",
+          "publisher": "Bloomberg",
+          "published": "2026-03-24T21:05:39Z"
+        },
+        {
+          "title": "Silver Snaps 9-Session Losing Streak",
+          "publisher": "Barrons.com",
+          "published": "2026-03-24T18:30:06Z"
+        },
+        {
+          "title": "Update: Gold Falls For a Fifth-Straight Session Amid the Middle East War",
+          "publisher": "MT Newswires",
+          "published": "2026-03-24T18:00:24Z"
+        }
+      ]
+    },
+    "copper": {
+      "symbol": "HG=F",
+      "price": 5.54,
+      "change_pct": 2.18,
+      "articles": [
+        {
+          "title": "Why is LME Aluminum Outperforming LME Copper In March 2026?",
+          "publisher": "Barchart",
+          "published": "2026-03-24T19:00:02Z"
+        },
+        {
+          "title": "Profit from Natural Resources with This 1 Stock Up 80%",
+          "publisher": "Barchart",
+          "published": "2026-03-24T15:45:02Z"
+        },
+        {
+          "title": "FSM vs. RIO: Which Basic Materials Stock Is a Better Buy Currently?",
+          "publisher": "Zacks",
+          "published": "2026-03-24T14:28:00Z"
+        },
+        {
+          "title": "BC-Copper Futures",
+          "publisher": "Associated Press Finance",
+          "published": "2026-03-24T14:00:23Z"
+        },
+        {
+          "title": "Copper Quest Exploration Expanding Kitimat Project by 130%",
+          "publisher": "MT Newswires",
+          "published": "2026-03-24T12:06:47Z"
+        }
+      ]
+    },
+    "natural_gas": {
+      "symbol": "NG=F",
+      "price": 2.84,
+      "change_pct": -3.6,
+      "articles": [
+        {
+          "title": "Equinor Begins Drilling at Brazil’s Massive Raia Gas Project",
+          "publisher": "Oilprice.com",
+          "published": "2026-03-25T02:36:12Z"
+        },
+        {
+          "title": "PBF Energy (PBF) Soars to 1-Year High on Energy Rally Spillover",
+          "publisher": "Insider Monkey",
+          "published": "2026-03-25T02:04:51Z"
+        },
+        {
+          "title": "US Sees Possibility of Diplomacy With Iran as War Costs Rise",
+          "publisher": "Bloomberg",
+          "published": "2026-03-25T01:30:56Z"
+        },
+        {
+          "title": "Alvopetro Energy Ltd (ALVOF) Q4 2025 Earnings Call Highlights: Record Production and Strategic ...",
+          "publisher": "GuruFocus.com",
+          "published": "2026-03-25T01:00:25Z"
+        },
+        {
+          "title": "Dow Doubles Plastics Price Hike as Iran War Blocks Supply Route",
+          "publisher": "The Wall Street Journal",
+          "published": "2026-03-25T00:53:32Z"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "collected": "2026-03-25T10:51:02.761745",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 18,
+  "articles": [
+    {
+      "title": " （ 聚焦博鳌 ） 关税战冲击全球贸易 多国人士吁加强地区合作",
+      "source": "163.com",
+      "url": "https://www.163.com/news/article/KORV7V5C000189FH.html",
+      "published": "20260325T023000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "关税战冲击全球贸易 多国人士吁加强地区合作",
+      "source": "world.qianlong.com",
+      "url": "https://world.qianlong.com/2026/0325/8645140.shtml",
+      "published": "20260325T073000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "关税战下如何构建全球贸易新格局 ？ 多方嘉宾呼吁合作共建稳定贸易秩序",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860594729283165502",
+      "published": "20260325T014500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "  和中国打贸易战 ？ 欧盟打不赢也打不起",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860547020475738786",
+      "published": "20260324T181500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "社评 ： 和中国打贸易战 ？ 欧盟打不赢也打不起",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860542635500181893",
+      "published": "20260324T234500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Hürmüz riski : İran için ekonomik sarsıntı kapıda mı ? - ",
+      "source": "cnnturk.com",
+      "url": "https://www.cnnturk.com/ekonomi/hurmuz-riski-iran-icin-ekonomik-sarsinti-kapida-mi-2409770",
+      "published": "20260325T050000Z",
+      "language": "Turkish",
+      "source_country": "Turkey",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "财经人语 ： 14个月12次TACO 特朗普  剧本  市场还买账吗 ？ ",
+      "source": "zaobao.com.sg",
+      "url": "https://www.zaobao.com.sg/finance/singapore/story20260325-8790834",
+      "published": "20260325T160000Z",
+      "language": "Chinese",
+      "source_country": "Singapore",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "關稅敗訴就開戰 ！ 川普轉移操作太精準 專家 ： 非巧合 - 財經",
+      "source": "chinatimes.com",
+      "url": "https://www.chinatimes.com/realtimenews/20260325004910-260410",
+      "published": "20260325T160000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Ambargo bitti , Kanada Dışişleri Sözcüsü Türkiye Gazetesine açıkladı :  Ankara bize can suyu oldu ! ",
+      "source": "turkiyegazetesi.com.tr",
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/ambargo-bitti-kanada-disisleri-sozcusu-turkiye-gazetesine-acikladi-ankara-bize-can-su-1779407",
+      "published": "20260325T091500Z",
+      "language": "Turkish",
+      "source_country": "Turkey",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Украинските дронове методично атакуват руските петролни терминали в Балтийско море",
+      "source": "investor.bg",
+      "url": "https://www.investor.bg/a/518-energetika/428311-ukrainskite-dronove-metodichno-atakuvat-ruskite-petrolni-terminali-v-baltiysko-more",
+      "published": "20260325T124500Z",
+      "language": "Bulgarian",
+      "source_country": "Bulgaria",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "WTO会议前美国为何再提改革最惠国关税 ？ 这一条款为何如此重要 ？ ",
+      "source": "yicai.com",
+      "url": "https://www.yicai.com/news/103104004.html",
+      "published": "20260325T111500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "柯成兴 ： 全球贸易核心挑战转变 RCEP须正视形势",
+      "source": "zaobao.com.sg",
+      "url": "https://www.zaobao.com.sg/news/china/story20260325-8791860",
+      "published": "20260325T163000Z",
+      "language": "Chinese",
+      "source_country": "Singapore",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Cuba has been in Washington crosshairs for decades . The Iran war is raising the stakes - 25 - Mar - 2026",
+      "source": "home.nzcity.co.nz",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=442547",
+      "published": "20260324T223000Z",
+      "language": "English",
+      "source_country": "New Zealand",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Cuba has been in Washington’s crosshairs for decades. Search | NZCity News Start Page Personalise    News Top Stories Business Sports Politics Health & Safety Law and Order Technology Education Living & Travel Entertainment Motoring Environment National Auckland Christchurch Dunedin Hamilton Wellington Upper N. Island International Accidents Maori Rural Local Politics Sport Weather Finance Shopping Jobs Horoscopes Lotto Results Photo Gallery Site Gallery TVNow Dating SearchNZ NZSearch Crime."
+    },
+    {
+      "title": "Donald Trump and Markwayne Mullin insist politics should prevail over principle",
+      "source": "reason.com",
+      "url": "https://reason.com/2026/03/25/trump-and-mullin-insist-that-politics-should-prevail-over-principle/",
+      "published": "20260325T061500Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Some Supreme Court justices are so eager to demonstrate their independence, President Donald Trump complained last week, that they \"openly disrespect the Presidents who nominate them. It \"seems like you fight Republicans more than you work with us,\" Mullin told Paul. Trump and Mullin take it for granted that public officials should be prepared to sacrifice their principles on the altar of party loyalty."
+    },
+    {
+      "title": "China estima pérdidas de 9 , 400 mdd por aranceles de México ; ve barreras a la inversión",
+      "source": "excelsior.com.mx",
+      "url": "https://www.excelsior.com.mx/internacional/china-estima-perdidas-9-400-mdd-por-aranceles-mexico-ve-barreras-inversion",
+      "published": "20260325T140000Z",
+      "language": "Spanish",
+      "source_country": "Mexico",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "CNBC anchor shocked by US trade deficit drop from $136B to $29B the lowest since 2009 . Was Trump right about tariffs ? ",
+      "source": "aol.com",
+      "url": "https://www.aol.com/finance/cnbc-anchor-shocked-us-trade-120000757.html",
+      "published": "20260325T123000Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Jing Pan Wed, March 25, 2026 at 12:00 PM UTC 0 US President Donald Trump dances after the results of the draw for the 2026 FIFA Football World Cup taking place in the US, Canada and Mexico. This article adheres to strict editorial standards. But under President Donald Trump’s sweeping tariffs, that gap suddenly narrowed — and much faster than many expected."
+    },
+    {
+      "title": "China advierte que aranceles de México a sus productos constituyen  barreras comerciale – Periódico Zócalo | Noticias de Saltillo , Torreón , Piedras Negras , Monclova , Acuña",
+      "source": "zocalo.com.mx",
+      "url": "https://www.zocalo.com.mx/china-advierte-que-aranceles-de-mexico-a-sus-productos-constituyen-barreras-comerciales/",
+      "published": "20260325T160000Z",
+      "language": "Spanish",
+      "source_country": "Mexico",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Key vote due on EU - US deal amid tariff warning",
+      "source": "africa.chinadaily.com.cn",
+      "url": "http://africa.chinadaily.com.cn/a/202603/25/WS69c33796a310d6866eb3fb66.html",
+      "published": "20260325T023000Z",
+      "language": "English",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Key vote due on EU-US deal amid tariff warning - World - Chinadaily. EU-US deal amid tariff warning By JONATHAN POWELL in London | China Daily Global | Updated: 2026-03-25 09:16 Share Share - WeChat --> CLOSE European Commission President Ursula von der Leyen (left) and Australian Prime Minister Anthony Albanese exchange signed agreements in Canberra on Tuesday. DAVID GRAY/AFP US Ambassador to the European Union Andrew Puzder says it \"would be economic malpractice\" if the European Parliament scuttled a US-EU trade accord in a vote slated for this week, as the EU also presses ahead with a new trade deal with Australia."
+    }
+  ]
+}

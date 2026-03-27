@@ -1,0 +1,22 @@
+{
+  "final_value": 95609.04,
+  "cash": 69886.42,
+  "positions": {
+    "AAPL": {
+      "shares": 101,
+      "entry_price": 77.97782135009766,
+      "entry_date": "2020-06-01"
+    },
+    "MSFT": {
+      "shares": 45,
+      "entry_price": 174.15509033203125,
+      "entry_date": "2020-06-01"
+    },
+    "ABBV": {
+      "shares": 109,
+      "entry_price": 72.16394805908203,
+      "entry_date": "2020-06-01"
+    }
+  },
+  "return_pct": -4.39
+}

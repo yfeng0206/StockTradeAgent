@@ -1,0 +1,171 @@
+{
+  "date": "2019-10-16",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "geopolitical": {
+      "count": 6,
+      "headlines": [
+        "War in Afghanistan (2001–2021)",
+        "Syrian Civil War, 2019 Turkish offensive into north-eastern Syria",
+        "Japan–South Korea relations, 2019 Japan–South Korea trade dispute"
+      ]
+    },
+    "business": {
+      "count": 1,
+      "headlines": [
+        "General Motors and the United Auto Workers announce that they have reached a tentative deal to end a month-long strike that cost the company US$2 billion. It will be sent to union members tomorrow for"
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "2019 Mindanao earthquake"
+      ]
+    },
+    "legal": {
+      "count": 7,
+      "headlines": [
+        "2019 Hong Kong protests",
+        "Trial of Catalonia independence leaders, 2019–2020 Catalan protests",
+        "Around 337 people in a dozen countries are arrested for participating in a child pornography network that hosted up to 250,000 videos depicting child sexual abuse. Officials in the United States, Unit"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan (2001–2021)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A Taliban truck bomb in eastern Afghanistan kills three police officers and injures 36 other people, including twenty children.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian Civil War, 2019 Turkish offensive into north-eastern Syria",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Following the withdrawal of troops, U.S. F-15s bomb a CJTF–OIR ammunition depot bunker at the Lafarge cement factory in Aleppo Governorate, Syria, to prevent the munitions and other equipment from being used by Turkish-led forces or Syrian government forces.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "CNN",
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "General Motors and the United Auto Workers announce that they have reached a tentative deal to end a month-long strike that cost the company US$2 billion. It will be sent to union members tomorrow for final approval. If approved, workers will receive a pay raise and temporary workers will be granted a more simplified path to full-time employment.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Mindanao earthquake",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A magnitude 6.3 earthquake strikes the province of Cotabato, Philippines, at 19:37 local time (11:37 UTC), killing at least 5 people and injuring 53 others.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "GMA News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Hong Kong protests",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Jimmy Sham, a leader of the Hong Kong protests, is attacked by a group of hammer-wielding men in the Mong Kok District of the Kowloon Peninsula, and is taken to hospital with severe head injuries.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Trial of Catalonia independence leaders, 2019–2020 Catalan protests",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The nine pro-Catalonia independence politicians jailed earlier this week issue a joint plea for an end to violent protests across the region. Meanwhile, the Spanish government says it will meet protestors with a \"firm, proportional and united\" response.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The violence of the protests in Tarragona, Girona, Lleida and Barcelona increases, while there are clashes with Mossos d'Esquadra in Reus. Four protesters and one policeman are injured in a pro-independence protest in Madrid.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''El Mundo''",
+        "''El País''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Spanish Prime Minister Pedro Sánchez advises in a press conference that the Government will act with moderation but not concrete exceptional measures yet.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''El País''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Around 337 people in a dozen countries are arrested for participating in a child pornography network that hosted up to 250,000 videos depicting child sexual abuse. Officials in the United States, United Kingdom, and South Korea called it one of the largest child pornography operations to date.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Japan–South Korea relations, 2019 Japan–South Korea trade dispute",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Foreign ministry officials from Japan and South Korea meet in Seoul to discuss wartime forced labor and trade dispute",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "NHK World"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

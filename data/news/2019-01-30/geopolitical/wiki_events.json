@@ -1,0 +1,154 @@
+{
+  "date": "2019-01-30",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 13,
+  "categories": {
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Foxconn's Wisconsin plant"
+      ]
+    },
+    "tech": {
+      "count": 2,
+      "headlines": [
+        "Cancer research"
+      ]
+    },
+    "geopolitical": {
+      "count": 3,
+      "headlines": [
+        "A grenade is lobbed in a Zamboanga mosque in the Philippines, killing two people and injuring four others. No group has claimed responsibility.",
+        "Canada–Cuba relations, Havana syndrome"
+      ]
+    },
+    "disaster": {
+      "count": 5,
+      "headlines": [
+        "January 2019 North American cold wave",
+        "Two overcrowded boats carrying migrants capsize off the coast of Djibouti, leaving at least 28 people dead and over 130 others missing, according to the International Organization for Migration."
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "Suspicious items, later discovered to be incendiary devices, are found near a police station in Eugene, Oregon. An investigation is ongoing. ,"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "A grenade is lobbed in a Zamboanga mosque in the Philippines, killing two people and injuring four others. No group has claimed responsibility.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Foxconn's Wisconsin plant",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Taiwanese manufacturer Foxconn announces that the company is reconsidering their plan to manufacture LCD panels in a promised Wisconsin plant because of a changed global marketplace, and the high cost of United States labor. Foxconn said, earlier in January, that it still planned to create 13,000 jobs in Wisconsin. The State of Wisconsin pledged subsidies worth more than $3bn.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "January 2019 North American cold wave",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Several hundred flights are cancelled in Chicago amidst an extreme cold wave bringing temperatures of  to the region. Amtrak, Metra and South Shore Line have also cancelled services.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "WBBM-TV",
+        "NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ten deaths have been reported across the midwest due to the record breaking low temperatures.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "After a fire at a Consumers Energy natural gas compressor station, Michigan residents are asked to turn down their heat to conserve natural gas. ,",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "MLive.com",
+        "WEYI-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two overcrowded boats carrying migrants capsize off the coast of Djibouti, leaving at least 28 people dead and over 130 others missing, according to the International Organization for Migration.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Suspicious items, later discovered to be incendiary devices, are found near a police station in Eugene, Oregon. An investigation is ongoing. ,",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "KVAL",
+        "KEZI"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Canada–Cuba relations, Havana syndrome",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Canada announces that it will withdraw half of its embassy staff in Cuba following the fourteenth confirmed illness since 2017 of a Canadian diplomat in the country.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Cancer research",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "An Israeli team of scientists claim to have developed a cure for cancer. This claim is criticized by other scientists, who say it is likely faked.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "''Times of Israel''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

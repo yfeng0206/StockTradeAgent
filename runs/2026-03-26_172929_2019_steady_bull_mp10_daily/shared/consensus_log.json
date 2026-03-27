@@ -1,0 +1,554 @@
+[
+  {
+    "date": "2019-01-02",
+    "bearish_count": 7,
+    "total_strategies": 7,
+    "bearish_ratio": 1.0,
+    "consecutive_bearish": 1,
+    "is_active": true,
+    "exposure_cap": 0.6,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-02-01",
+    "bearish_count": 7,
+    "total_strategies": 7,
+    "bearish_ratio": 1.0,
+    "consecutive_bearish": 2,
+    "is_active": true,
+    "exposure_cap": 0.6,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.7,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.96,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.7,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-03-01",
+    "bearish_count": 5,
+    "total_strategies": 7,
+    "bearish_ratio": 0.71,
+    "consecutive_bearish": 3,
+    "is_active": true,
+    "exposure_cap": 0.6,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.53,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.65,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.4,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.65,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.53,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 0.5,
+        "is_cash_heavy": false
+      }
+    ]
+  },
+  {
+    "date": "2019-04-01",
+    "bearish_count": 3,
+    "total_strategies": 7,
+    "bearish_ratio": 0.43,
+    "consecutive_bearish": 0,
+    "is_active": false,
+    "exposure_cap": 1.0,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.27,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.43,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.48,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.79,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.56,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 0.48,
+        "is_cash_heavy": false
+      }
+    ]
+  },
+  {
+    "date": "2019-05-01",
+    "bearish_count": 2,
+    "total_strategies": 7,
+    "bearish_ratio": 0.29,
+    "consecutive_bearish": 0,
+    "is_active": false,
+    "exposure_cap": 1.0,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.37,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.24,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.37,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.33,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.7,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.19,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-06-03",
+    "bearish_count": 4,
+    "total_strategies": 7,
+    "bearish_ratio": 0.57,
+    "consecutive_bearish": 0,
+    "is_active": false,
+    "exposure_cap": 1.0,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.52,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.06,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.59,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.44,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.95,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.44,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-07-01",
+    "bearish_count": 5,
+    "total_strategies": 7,
+    "bearish_ratio": 0.71,
+    "consecutive_bearish": 1,
+    "is_active": true,
+    "exposure_cap": 0.6,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.59,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.2,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.72,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.33,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.9,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.51,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-08-01",
+    "bearish_count": 2,
+    "total_strategies": 7,
+    "bearish_ratio": 0.29,
+    "consecutive_bearish": 0,
+    "is_active": false,
+    "exposure_cap": 1.0,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.45,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.15,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.15,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.36,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.75,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.2,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 0.53,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-09-02",
+    "bearish_count": 3,
+    "total_strategies": 7,
+    "bearish_ratio": 0.43,
+    "consecutive_bearish": 0,
+    "is_active": false,
+    "exposure_cap": 1.0,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.69,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.06,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.3,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.35,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.79,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.45,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-10-01",
+    "bearish_count": 4,
+    "total_strategies": 7,
+    "bearish_ratio": 0.57,
+    "consecutive_bearish": 0,
+    "is_active": false,
+    "exposure_cap": 1.0,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.68,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.43,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.38,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.05,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.82,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-11-01",
+    "bearish_count": 6,
+    "total_strategies": 7,
+    "bearish_ratio": 0.86,
+    "consecutive_bearish": 1,
+    "is_active": true,
+    "exposure_cap": 0.6,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.76,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.51,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.57,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.07,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.69,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 1.0,
+        "is_cash_heavy": true
+      }
+    ]
+  },
+  {
+    "date": "2019-12-02",
+    "bearish_count": 2,
+    "total_strategies": 7,
+    "bearish_ratio": 0.29,
+    "consecutive_bearish": 0,
+    "is_active": false,
+    "exposure_cap": 1.0,
+    "details": [
+      {
+        "strategy": "Value",
+        "cash_ratio": 0.75,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Momentum",
+        "cash_ratio": 0.23,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Balanced",
+        "cash_ratio": 0.42,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Defensive",
+        "cash_ratio": 0.25,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "EventDriven",
+        "cash_ratio": 0.59,
+        "is_cash_heavy": true
+      },
+      {
+        "strategy": "Adaptive",
+        "cash_ratio": 0.35,
+        "is_cash_heavy": false
+      },
+      {
+        "strategy": "Commodity",
+        "cash_ratio": 0.49,
+        "is_cash_heavy": false
+      }
+    ]
+  }
+]

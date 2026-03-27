@@ -1,0 +1,1043 @@
+[
+  {
+    "ticker": "LLY",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PFE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "AMD",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "uptrend_with_extreme_vol",
+        "relevance": 0.6,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "AMZN",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MA",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "AMD",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.2,
+        "flagged": false
+      },
+      {
+        "conflict": "uptrend_with_extreme_vol",
+        "relevance": 0.6,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "LLY",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PFE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.2,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NEE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PFE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "LLY",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "AMD",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "DIS",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CVX",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MA",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "BA",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "stock_lagging_sector",
+        "relevance": 0.8,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "AMD",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "uptrend_with_extreme_vol",
+        "relevance": 0.6,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "VZ",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PFE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "LLY",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MA",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "HON",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "HON",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [
+      {
+        "conflict": "stock_outpacing_sector",
+        "relevance": 0.2,
+        "flagged": false
+      }
+    ],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CMCSA",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NEE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MA",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "T",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "DIS",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NEE",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MA",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "DIS",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MCD",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "CMCSA",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NEE",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "WMT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MA",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "T",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MSFT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "LMT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "ABT",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "NEE",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "MA",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "V",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "META",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "DIS",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "HD",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "Momentum",
+    "conflict_score": 0.25,
+    "all_conflicts": [
+      {
+        "conflict": "overbought_but_all_signals_bullish",
+        "relevance": 0.7,
+        "flagged": true
+      }
+    ],
+    "flagged_count": 1,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "SO",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  },
+  {
+    "ticker": "T",
+    "strategy": "Momentum",
+    "conflict_score": 0.0,
+    "all_conflicts": [],
+    "flagged_count": 0,
+    "size_adjustment": 1.0
+  }
+]

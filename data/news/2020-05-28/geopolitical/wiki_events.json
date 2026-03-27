@@ -1,0 +1,206 @@
+{
+  "date": "2020-05-28",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 21,
+  "categories": {
+    "geopolitical": {
+      "count": 10,
+      "headlines": [
+        "War in Afghanistan, Afghan peace process, May 2020 Afghanistan attacks",
+        "Rwandan genocide",
+        "Somali Civil War",
+        "Herder–farmer conflicts in Nigeria",
+        "2020 China–India skirmishes, China–India relations"
+      ]
+    },
+    "health": {
+      "count": 3,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "sports": {
+      "count": 2,
+      "headlines": [
+        "Impact of the COVID-19 pandemic on sports, COVID-19 pandemic in Massachusetts"
+      ]
+    },
+    "legal": {
+      "count": 6,
+      "headlines": [
+        "George Floyd protests",
+        "COVID-19 pandemic in Malawi, COVID-19 pandemic in Zimbabwe"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan, Afghan peace process, May 2020 Afghanistan attacks",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In the first attack since the end of a truce declared by the Taliban, and despite a petition of the government for the Taliban to extend the ceasefire, at least 14 security forces members are killed in an attack on a checkpoint in Parwan. A government spokesperson says the Taliban also suffered casualties. The group has not commented on the attack.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Rwandan genocide",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Rwanda sentences former Mayor of Nyakizu Ladislas Ntaganzwa to life imprisonment for his role in orchestrating the massacre of hundreds of thousands of people in the 1994 genocide. His lawyer is planning to appeal the ruling.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Somali Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gunmen abduct multiple healthcare workers in Balad, Middle Shabelle, before killing seven of them and another civilian.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Herder–farmer conflicts in Nigeria",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gunmen kill 60 to 74 people in villages in the Nigerian state of Sokoto, where similar attacks had occurred on Monday.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News",
+        "SR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The death toll from COVID-19 in the United States exceeds 100,000.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 China–India skirmishes, China–India relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "China moves thousands of People's Liberation Army troops to its Himalayan border with India, bringing vehicles and heavy machinery to what India says is its territory. India sends several battalions of its Army from nearby Leh to the border in response.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "George Floyd protests",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Killing of George Floyd, George Floyd protests in Minnesota",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Protests continue for a second day in Minneapolis and other U.S. cities after an unarmed man, George Floyd, died while being arrested. Some of them have escalated into riots, including looting and arson.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A Minneapolis Police Department station is abandoned by police after being overran by protesters and is then looted and set on fire. An MPD spokesman confirmed the Third Precinct building had been evacuated \"in the interest of the safety of our personnel\".",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Politico''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malawi, COVID-19 pandemic in Zimbabwe",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A manhunt is launched after hundreds of people, some with COVID-19, escape from quarantine centers in Zimbabwe and Malawi, with authorities worried that they will spread COVID-19 in countries whose health systems can be rapidly overwhelmed.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "AP News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Impact of the COVID-19 pandemic on sports, COVID-19 pandemic in Massachusetts",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The 2020 Boston Marathon is officially canceled due to the COVID-19 pandemic. It is the first time in the event's 123-year history that the annual running had to be canceled. A modified version of the race, scheduled for September 14, will be run virtually, and runners who complete the marathon track in six hours or less will be eligible for the 2021 Boston Marathon.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

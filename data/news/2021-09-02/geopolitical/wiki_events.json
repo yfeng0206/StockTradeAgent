@@ -1,0 +1,369 @@
+{
+  "date": "2021-09-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 44,
+  "categories": {
+    "other": {
+      "count": 44,
+      "headlines": [
+        "Afghanistan conflict",
+        "Israeli–Palestinian conflict",
+        "Kashmir conflict",
+        "Hurricane Ida",
+        "Twelve people are dead and 4,500 are sick in the Democratic Republic of the Congo following a toxic leak from a massive diamond mine in Angola."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Afghanistan conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2021 evacuation from Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Operation Pitting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Former Royal Military Police soldier Ben Slater is briefly arrested for questioning by the Taliban while trying to evacuate 400 Afghans and 50 staff members.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the Fall of Kabul, Capital punishment in Afghanistan, LGBT rights in Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Afghan LGBT rights activist Nemat Sadat and an unnamed gay man in Kabul both report that the Taliban beheaded the man's boyfriend on the same day that they entered the city. Sadat said that while women are only executed if they commit adultery, homosexuals face an \"automatic death sentence based on their mere existence\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News Australia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Panjshir conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Taliban enters the Panjshir Valley and clashes with National Resistance Front of Afghanistan forces led by Ahmad Massoud. The Taliban reports gaining some territory as both sides also claim heavy casualties.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli soldiers open fire on Palestinians protesting against Israel's 14-year blockade of the Gaza Strip, killing one person and injuring 15 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kashmir conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Indian authorities deploy security forces in the Kashmir Valley in order to restrict public movement and impose a near-total internet blackout following the death of senior separatist leader Syed Ali Shah Geelani.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Hurricane Ida",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 41 people are killed by flash flooding and tornados in New York, Pennsylvania, Maryland, Virginia, and New Jersey as the remnants of Ida pass over the Northeastern United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Twelve people are dead and 4,500 are sick in the Democratic Republic of the Congo following a toxic leak from a massive diamond mine in Angola.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A plane crashes into a building killing all 4 onboard and injured two on the ground in Farmington, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CT"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A minibus overturned and plunged off a road into a valley in Kurdish province, Iran killing 16 and injuring 12.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "THE TIMES OF INDIA"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Mongolia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Mongolia reports a record 3,805 new cases of COVID-19 in the past 24 hours, thereby bringing the nationwide total of confirmed cases to 221,351.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AKI Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Singapore",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Singapore reports 191 new cases of COVID-19 in the past 24 hours, including 187 locally transmitted cases. It is the highest number of locally-transmitted cases since August 7, 2020.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Taiwan, COVID-19 vaccination in Taiwan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Taiwan receives its first shipment of 932,000 doses of the Pfizer–BioNTech COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Asahi Shimbun''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Arab Emirates, Travel restrictions related to the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Abu Dhabi will lift its quarantine requirements for all vaccinated foreign travellers on September 5 as long as they show a negative PCR test result as the UAE reported no COVID-19 deaths in the past 24 hours for the first time since November 14, 2020.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Barron's''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Belgium",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "King Philippe and Queen Mathilde cancel or reschedule their attendance at all public events and engagements, in addition to placing all members of the Royal Family into quarantine, after a Royal Family member tested positive for COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Globe and Mail''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Bulgaria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Bulgarian government announces nationwide restrictions that would require restaurants, bars, and casinos to close at 10 p.m., restrict the capacity of gyms, theatres, and cinemas to between 30% to 50%, and ban all mass gatherings from September 7 until October 30 amid the spread of COVID-19 and the low percentage of vaccinated people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "See News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Norway, COVID-19 vaccination in Norway",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Prime Minister Erna Solberg announces that children aged 12 to 15 years old in Norway will be offered the single-dose of the COVID-19 vaccine. However, only the Pfizer–BioNTech COVID-19 vaccine that is currently recommended for this age group.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Norwegian Institute of Public Health"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Kenya",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Kenya receives a shipment of 358,200 doses of the Oxford–AstraZeneca COVID-19 vaccine donated by Canada as part of the COVAX initiative.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Belarus–European Union border crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Poland declares a state of emergency on its border with Belarus amid an increase in illegal migration. The Polish Border Guard says that there were around 3,500 attempts to illegally cross the border in August, 2,500 of which were not successful.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Afghanistan–United Kingdom relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "British Foreign Secretary Dominic Raab announces that there is no \"foreseeable recognition\" of the Taliban government in Afghanistan although he asserts that the United Kingdom will nevertheless directly engage the group in necessary talks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the Dar es Salaam shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Authorities in Tanzania have confirmed that the gunman who killed three policemen and a security guard in Dar es Salaam on August 25, was motivated by Islamic extremism.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Brazil",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "President Jair Bolsonaro signs a law allowing vaccine and medication patents to be broken in situations of public health emergency in Brazil, such as the COVID-19 pandemic.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

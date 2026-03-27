@@ -1,0 +1,120 @@
+{
+  "date": "2023-02-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 13,
+  "categories": {
+    "other": {
+      "count": 13,
+      "headlines": [
+        "Kivu conflict",
+        "Aftermath of the 2023 Turkey–Syria earthquake",
+        "United Kingdom–European Union relations",
+        "Egypt–Syria relations, Egypt–Turkey relations",
+        "Disappearance of Constance Marten and Mark Gordon"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Kivu conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "M23 offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "M23 rebels seize the town of Rubaya and the Rubaya coltan mines in North Kivu, DRC, after government forces withdraw from the area.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the 2023 Turkey–Syria earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "List of foreshocks and aftershocks of the 2023 Turkey–Syria earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "One person is killed and over 100 others are injured by a magnitude 5.6 aftershock in Yeşilyurt, Malatya, Turkey.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United Kingdom–European Union relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Northern Ireland Protocol",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "UK Prime Minister Rishi Sunak and European Commission President Ursula von der Leyen announce the United Kingdom and European Union had reached an agreement on post-Brexit trade arrangements for Northern Ireland after a protracted row over the Northern Ireland Protocol.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Egypt–Syria relations, Egypt–Turkey relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Egyptian foreign minister Sameh Shoukry visits Syria and Turkey in the first official state visit by Egypt in more than 10 years amid strained relations with both countries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Disappearance of Constance Marten and Mark Gordon",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Constance Marten and Mark Gordon are found and arrested in Hollingbury, Brighton, England, after they went missing with their newborn baby on 5 January. They were found without their baby, which triggered a huge search involving over 200 police officers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

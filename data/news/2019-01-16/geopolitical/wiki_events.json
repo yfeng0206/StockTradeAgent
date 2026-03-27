@@ -1,0 +1,198 @@
+{
+  "date": "2019-01-16",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 20,
+  "categories": {
+    "geopolitical": {
+      "count": 9,
+      "headlines": [
+        "Manbij bombing",
+        "2019 Nairobi attack",
+        "Gunmen attack two villages in the Ménaka region, Mali, near the border with Niger, killing at least 20 people.",
+        "Second Libyan Civil War",
+        "Terrorism in the United States"
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "At least 21 people are killed in a massacre by gunmen in police uniforms in Port-au-Prince, Haiti."
+      ]
+    },
+    "politics": {
+      "count": 10,
+      "headlines": [
+        "United States federal government shutdown",
+        "Brexit negotiations, Meaningful vote",
+        "2018 Andalusian regional election",
+        "Macedonia naming dispute"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Manbij bombing",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In Manbij, Syria, a suicide attack claimed by ISIL causes at least 19 casualties. Among them, two U.S. soldiers, a Pentagon Civilian, and a civilian contractor are reported dead and three other Service Members injured.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Nairobi attack",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Dozens of people remain missing one day after a deadly attack on a popular hotel complex in Nairobi, according to the Kenya Red Cross Society.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Gunmen attack two villages in the Ménaka region, Mali, near the border with Niger, killing at least 20 people.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "NOVÝ CAS"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Second Libyan Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five people are killed and twenty are injured in clashes between rival militias in Tripoli, breaking several months of relative peace.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Middle East Eye''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Terrorism in the United States",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A man from Georgia planned to attack the White House and even tried to trade his own car for weapons for the attack.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 21 people are killed in a massacre by gunmen in police uniforms in Port-au-Prince, Haiti.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "United States federal government shutdown",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "About 42,000 active-duty Coast Guard members, who continue to work on essential operations, missed their scheduled paycheck Tuesday. This is the first time that United States Armed Forces servicemembers  have not been paid during a shutdown or other lapse in government appropriation.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "President Donald Trump signs a bill which requires the government to compensate government employees after the shutdown is over for their work during the shutdown.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Speaker of the House Nancy Pelosi suggests that President Trump's State of the Union address scheduled for January 29 be delayed or use a drastically modified format due to security concerns related to the ongoing government shutdown.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Brexit negotiations, Meaningful vote",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Theresa May's government survives a no confidence vote by a majority of 19.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2018 Andalusian regional election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Andalusian parliament elects Juan Manuel Moreno Bonilla as the next regional President with the votes of conservative party PP, liberal party Cs and far-right party Vox, ending a 36-year term, since the restoration of democracy, of social democratic PSOE government.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''El Mundo''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Macedonia naming dispute",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Greek Prime Minister Alexis Tsipras survives a no-confidence vote after the Independent Greeks party quit the ruling coalition.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

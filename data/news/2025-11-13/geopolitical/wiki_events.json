@@ -1,0 +1,276 @@
+{
+  "date": "2025-11-13",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 31,
+  "categories": {
+    "other": {
+      "count": 31,
+      "headlines": [
+        "Israeli–Palestinian conflict",
+        "Russo-Ukrainian war",
+        "Haitian conflict",
+        "Eight people are killed and 15 others are injured after two trucks collide head-on in Pune, Maharashtra, India.",
+        "Four people are killed after two migrant vessels carrying nearly 100 passengers capsize off the coast of Al-Khums, Murqub District, Libya."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gaza war hostage crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Hamas hands over the remains of one more Israeli hostage to the Israeli military.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Xinhua"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli settler violence, Israeli incursions in the West Bank during the Gaza war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli settlers set fire to the Hajja Hamida mosque in Deir Istiya in the West Bank and deface the mosque's exterior wall in defiance of an Israeli government rebuke of settler violence.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russo-Ukrainian war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Attacks in Russia during the Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian FP-5 Flamingo and drones strike Oryol in Oryol Oblast, Russia, damaging several cars and apartments, while several drones are shot down by air defense.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Kyiv Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Ukrainian intelligence directorate claims to have derailed a train carrying North Korean weapons to Russia on the Trans-Siberian Railway, near Sosnovka in Khabarovsk Krai, using explosives.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "United24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Haitian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Seven gang members are killed during a Haitian police operation in Croix-des-Bouquets, Ouest, where officers also destroy a helicopter that made an emergency landing to prevent its capture.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Eight people are killed and 15 others are injured after two trucks collide head-on in Pune, Maharashtra, India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NDTV"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Four people are killed after two migrant vessels carrying nearly 100 passengers capsize off the coast of Al-Khums, Murqub District, Libya.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people are killed and 20 others are reported missing after landslides hit Java, Indonesia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A truck crashes into pedestrians at an outdoor market in Bucheon, Gyeonggi Province, South Korea, killing two people and injuring 18 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "During a training flight, a Sukhoi Su-30SM crashes in Prionezhsky District, Republic of Karelia, Russia. The two crew members are killed.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Aviation Safety Network"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Africa Centres for Disease Control and Prevention reports about 300,000 confirmed and suspected cholera cases in the continent, mostly in Angola and Burundi, and more than 7,000 deaths in 2025, marking Africa's largest outbreak in 25 years and a more than 30% increase from the previous year.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 Islamabad suicide bombing, 2025 Afghanistan–Pakistan conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Pakistani interior minister Mohsin Naqvi says that Afghan nationals carried out Tuesday's suicide bombing in Islamabad, which killed 12 people and injured many others, adding that the attack was planned and directed from Afghanistan, increasing tensions between the countries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Latin America–United States relations, Tariffs in the second Trump administration",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States announces new trade agreements with Argentina, Ecuador, El Salvador, and Guatemala that lower tariffs on selected goods and expand market access for U.S. products.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Buenos Aires Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syria–United Kingdom relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Syrian foreign minister reopens the country's embassy in London, United Kingdom, after it was closed in 2013 following the start of the Syrian civil war.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Human trafficking in Spain",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Spanish police dismantle an alleged international network accused of trafficking minors from the Canary Islands to France, arresting eleven suspects in operations in Lanzarote, Las Palmas, and Madrid.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the July Revolution",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Bangladeshi chief adviser Muhammad Yunus announces a national referendum on the July Charter, which recognizes the 2024 uprising that ousted former prime minister Sheikh Hasina.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The state of Victoria enacts Australia's first treaty with Indigenous peoples, establishing a permanent First Peoples' Assembly and a truth-telling commission as part of a formal state–Indigenous governance framework.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Tanzanian president Samia Suluhu Hassan appoints MP Mwigulu Nchemba as prime minister, who is confirmed by parliament.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "In the United States, Blue Origin launches NASA's ESCAPADE spacecraft mission to study Mars' magnetosphere. It is the second launch of Blue Origin's New Glenn launch vehicle, and the first successful landing of the vehicle's reusable first stage.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The governing board of Major League Soccer (MLS), the top men's association football league in Canada and the U.S., votes to change its season from its current calendar-year schedule to a summer-to-spring schedule spanning two calendar years, aligning MLS with most international leagues. The first season under the new calendar will be 2027–28, with an abbreviated transitional season from February to May 2027.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

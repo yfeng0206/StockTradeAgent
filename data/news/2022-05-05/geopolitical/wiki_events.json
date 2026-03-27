@@ -1,0 +1,143 @@
+{
+  "date": "2022-05-05",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "other": {
+      "count": 16,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Israeli–Palestinian conflict",
+        "Changsha building collapse",
+        "2022 Afghanistan floods",
+        "COVID-19 pandemic"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Eastern Ukraine offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Siege of Mariupol",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian forces say they have repelled a Russian military thrust onto the Azovstal iron and steel works in Mariupol, Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "PBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 El'ad stabbing",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Three people are killed and four others injured by two Palestinians in a mass stabbing in El'ad, Central Israel.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Changsha building collapse",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The death toll from the building collapse in Changsha, China, six days ago, increases to 53, with ten people rescued.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Afghanistan floods",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Floods in twelve provinces of Afghanistan destroy 500 homes, kill 22 people and injure 40 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "WHO puts estimate of deaths due to COVID-19, including incidentals due to impacted health systems, at approximately 15 million worldwide.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 CONCACAF Champions League",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Seattle Sounders FC becomes the first US Major League Soccer team to win the CONCACAF Champions League, defeating UNAM 5–2 on aggregate in the final.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Sports Illustrated''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "date": "2023-02-06",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "other": {
+      "count": 16,
+      "headlines": [
+        "Somali Civil War",
+        "Israeli–Palestinian conflict",
+        "Major Archbishop Sviatoslav Shevchuk of the Ukrainian Greek Catholic Church announces that the church will begin using the Gregorian calendar on September 1 for all but moveable feasts, following a de",
+        "2023 Turkey–Syria earthquake",
+        "2023 Coulson Aviation crash"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Somali Civil War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Puntland–Somaliland dispute",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 34 people are killed and 40 others are injured during clashes between Somalilander soldiers and anti-government fighters in Laascaanood, Sool, Somaliland.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five Izz ad-Din al-Qassam Brigades members are killed, three others are injured, and eight members are arrested during a raid by Israeli soldiers and subsequent gunbattle at a refugee camp near Jericho, in the West Bank.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Major Archbishop Sviatoslav Shevchuk of the Ukrainian Greek Catholic Church announces that the church will begin using the Gregorian calendar on September 1 for all but moveable feasts, following a decision by the Synod of Bishops.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "UGCC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Turkey–Syria earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 59,000 people are killed in Turkey and Syria as a magnitude 7.8 earthquake strikes Gaziantep Province, Turkey.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A second earthquake of magnitude 7.5 occurs in Kahramanmaraş, Turkey, nine hours after the first earthquake.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Coulson Aviation crash",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A Boeing 737-300 firefighting tanker crashes in Fitzgerald River National Park in Western Australia. Both pilots survive.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "7 News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Landslides triggered by heavy rains causes mudslides across villages in the Camaná Province, Peru, killing 36 people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Hong Kong national security law",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The trial of 47 pro-democracy activists begins, two years after their arrest. It is the largest trial yet held under the Hong Kong national security law.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Censorship of Wikipedia, Internet censorship in Pakistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Pakistani Prime Minister Shehbaz Sharif orders the ban on Wikipedia to be lifted, three days after the website was banned for alleged anti-Muslim and blasphemous content.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ProPakistani"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "date": "2019-11-13",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 29,
+  "categories": {
+    "geopolitical": {
+      "count": 17,
+      "headlines": [
+        "War in Afghanistan",
+        "Terrorism in Indonesia",
+        "Gaza–Israel conflict; Gaza–Israel clashes (November 2019)",
+        "Islamist insurgency in Mozambique, Mozambique–Tanzania relations",
+        "Crime in Poland"
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "A bus collision with a truck near Nitra kills 13 people and leaves at least 17 wounded. The disaster is the deadliest in Slovakia in a decade."
+      ]
+    },
+    "legal": {
+      "count": 3,
+      "headlines": [
+        "Catholic Church sexual abuse cases",
+        "After the South Korean government launches an investigation into comfort women, a survivor tells the press that Japan \"lacked honor\" for failing to attend the South Korean court's proceedings."
+      ]
+    },
+    "politics": {
+      "count": 8,
+      "headlines": [
+        "2019 Hong Kong protests",
+        "2019 Bolivian protests, Evo Morales government resignation",
+        "Politics of Tunisia"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "November 2019 Kabul bombing",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A suicide car bomb kills 12 people and injures 20 others near the Interior Ministry in Kabul, Afghanistan.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera",
+        "Yahoo! News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Terrorism in Indonesia",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A suicide bomber kills himself and injures six other people when he detonates near police headquarters in Medan, Indonesia.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Gaza–Israel conflict; Gaza–Israel clashes (November 2019)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli airstrikes leave 22 Palestinians (20 militants and 2 civilians) dead and dozens injured.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Haaretz''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "More than 200 rockets are fired into Israel from Gaza.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''New York Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An Islamic Jihad rocket commander and five relatives are killed in an Israeli airstrike.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Islamist insurgency in Mozambique, Mozambique–Tanzania relations",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Jihadists kill six civilians and injure seven in a village near the Mozambique–Tanzania border. All the victims are Tanzanian nationals, while the terrorists are identified as Mozambicans.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "News24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Crime in Poland",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two people are arrested in Poland for planning to kill Muslims in an attack inspired by the 2011 Utoya/Oslo attacks by Norwegian mass murderer Anders Behring Breivik, and the Christchurch, New Zealand mosque shootings.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A bus collision with a truck near Nitra kills 13 people and leaves at least 17 wounded. The disaster is the deadliest in Slovakia in a decade.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Japan–North Korea relations, Japan–South Korea relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "South Korean media reports that between May and September, Japanese Prime Minister Shinzō Abe sent personal letters to North Korea's Kim Jong-un to hold bilateral meetings to ease tensions between the two countries. A Japanese government spokesman denies the report.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Japan Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign relations of Bolivia, Foreign relations of Venezuela, 2019 Venezuelan presidential crisis",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Interim President of Bolivia Jeanine Áñez officially establishes relations with Juan Guaido's government after he recognizes her as President of Bolivia on Twitter.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Daily Sabah''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Catholic Church sexual abuse cases",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Australian High Court agrees to hear a final appeal from ex-Vatican treasurer and convicted child sex offender George Pell, who was found guilty of sexually assaulting three teenage choirboys.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "After the South Korean government launches an investigation into comfort women, a survivor tells the press that Japan \"lacked honor\" for failing to attend the South Korean court's proceedings.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Hong Kong protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hong Kong leader Carrie Lam vows not to give in to protesters as chaos continues into Wednesday morning.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Straits Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Schools, transport links and businesses close amid rising clashes in the city.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Bolivian protests, Evo Morales government resignation",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Bolivia's exiled former president Evo Morales rejects the presidency of opposition senator Jeanine Áñez, but police bar lawmakers from his party from entering the legislature to undo it.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two people were killed on in clashes between Bolivian police and supporters of former president Evo Morales. In total, 10 people have been killed so far since political turmoil broke out in Bolivia.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Politics of Tunisia",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Rached Ghannouchi is elected Speaker of the Assembly of the Representatives of the People of Tunisia.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+[
+  {
+    "date": "2020-01-02",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-03",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-06",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-07",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-08",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-09",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-10",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-13",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-14",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-15",
+    "total_value": 100000,
+    "cash": 100000,
+    "num_positions": 0,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-16",
+    "total_value": 100000.0,
+    "cash": 90012.14,
+    "num_positions": 1,
+    "return_pct": 0.0
+  },
+  {
+    "date": "2020-01-17",
+    "total_value": 100189.35,
+    "cash": 90012.14,
+    "num_positions": 1,
+    "return_pct": 0.19
+  },
+  {
+    "date": "2020-01-20",
+    "total_value": 100189.35,
+    "cash": 90012.14,
+    "num_positions": 1,
+    "return_pct": 0.19
+  },
+  {
+    "date": "2020-01-21",
+    "total_value": 99907.98,
+    "cash": 90012.14,
+    "num_positions": 1,
+    "return_pct": -0.09
+  },
+  {
+    "date": "2020-01-22",
+    "total_value": 99897.36,
+    "cash": 90012.14,
+    "num_positions": 1,
+    "return_pct": -0.1
+  },
+  {
+    "date": "2020-01-23",
+    "total_value": 99838.96,
+    "cash": 80013.58,
+    "num_positions": 2,
+    "return_pct": -0.16
+  },
+  {
+    "date": "2020-01-24",
+    "total_value": 99767.35,
+    "cash": 70048.1,
+    "num_positions": 3,
+    "return_pct": -0.23
+  },
+  {
+    "date": "2020-01-27",
+    "total_value": 98813.9,
+    "cash": 89007.53,
+    "num_positions": 1,
+    "return_pct": -1.19
+  },
+  {
+    "date": "2020-01-28",
+    "total_value": 98975.2,
+    "cash": 89007.53,
+    "num_positions": 1,
+    "return_pct": -1.02
+  },
+  {
+    "date": "2020-01-29",
+    "total_value": 98821.91,
+    "cash": 89007.53,
+    "num_positions": 1,
+    "return_pct": -1.18
+  },
+  {
+    "date": "2020-01-30",
+    "total_value": 98952.89,
+    "cash": 89007.53,
+    "num_positions": 1,
+    "return_pct": -1.05
+  },
+  {
+    "date": "2020-01-31",
+    "total_value": 98877.1,
+    "cash": 79164.8,
+    "num_positions": 2,
+    "return_pct": -1.12
+  },
+  {
+    "date": "2020-02-03",
+    "total_value": 99224.18,
+    "cash": 84778.18,
+    "num_positions": 2,
+    "return_pct": -0.78
+  },
+  {
+    "date": "2020-02-04",
+    "total_value": 99599.24,
+    "cash": 74192.6,
+    "num_positions": 3,
+    "return_pct": -0.4
+  },
+  {
+    "date": "2020-02-05",
+    "total_value": 97727.22,
+    "cash": 82960.02,
+    "num_positions": 2,
+    "return_pct": -2.27
+  },
+  {
+    "date": "2020-02-06",
+    "total_value": 97876.92,
+    "cash": 82960.02,
+    "num_positions": 2,
+    "return_pct": -2.12
+  },
+  {
+    "date": "2020-02-07",
+    "total_value": 98026.16,
+    "cash": 82960.02,
+    "num_positions": 2,
+    "return_pct": -1.97
+  },
+  {
+    "date": "2020-02-10",
+    "total_value": 98421.44,
+    "cash": 82960.02,
+    "num_positions": 2,
+    "return_pct": -1.58
+  },
+  {
+    "date": "2020-02-11",
+    "total_value": 98391.2,
+    "cash": 82960.02,
+    "num_positions": 2,
+    "return_pct": -1.61
+  },
+  {
+    "date": "2020-02-12",
+    "total_value": 98443.44,
+    "cash": 82960.02,
+    "num_positions": 2,
+    "return_pct": -1.56
+  },
+  {
+    "date": "2020-02-13",
+    "total_value": 98367.28,
+    "cash": 82960.02,
+    "num_positions": 2,
+    "return_pct": -1.63
+  },
+  {
+    "date": "2020-02-14",
+    "total_value": 98337.28,
+    "cash": 72596.17,
+    "num_positions": 3,
+    "return_pct": -1.66
+  },
+  {
+    "date": "2020-02-17",
+    "total_value": 98337.28,
+    "cash": 72596.17,
+    "num_positions": 3,
+    "return_pct": -1.66
+  },
+  {
+    "date": "2020-02-18",
+    "total_value": 98731.54,
+    "cash": 72596.17,
+    "num_positions": 3,
+    "return_pct": -1.27
+  },
+  {
+    "date": "2020-02-19",
+    "total_value": 99466.12,
+    "cash": 72596.17,
+    "num_positions": 3,
+    "return_pct": -0.53
+  },
+  {
+    "date": "2020-02-20",
+    "total_value": 99091.59,
+    "cash": 72596.17,
+    "num_positions": 3,
+    "return_pct": -0.91
+  },
+  {
+    "date": "2020-02-21",
+    "total_value": 98133.37,
+    "cash": 62301.2,
+    "num_positions": 4,
+    "return_pct": -1.87
+  },
+  {
+    "date": "2020-02-24",
+    "total_value": 96437.13,
+    "cash": 62301.2,
+    "num_positions": 4,
+    "return_pct": -3.56
+  },
+  {
+    "date": "2020-02-25",
+    "total_value": 95479.11,
+    "cash": 81342.46,
+    "num_positions": 2,
+    "return_pct": -4.52
+  },
+  {
+    "date": "2020-02-26",
+    "total_value": 95568.53,
+    "cash": 81342.46,
+    "num_positions": 2,
+    "return_pct": -4.43
+  },
+  {
+    "date": "2020-02-27",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-02-28",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-02",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-03",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-04",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-05",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-06",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-09",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-10",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-11",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-12",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-13",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-16",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-17",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-18",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-19",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-20",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-23",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-24",
+    "total_value": 94782.71,
+    "cash": 94782.71,
+    "num_positions": 0,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-25",
+    "total_value": 94782.71,
+    "cash": 85417.64,
+    "num_positions": 1,
+    "return_pct": -5.22
+  },
+  {
+    "date": "2020-03-26",
+    "total_value": 96070.09,
+    "cash": 85417.64,
+    "num_positions": 1,
+    "return_pct": -3.93
+  },
+  {
+    "date": "2020-03-27",
+    "total_value": 94975.64,
+    "cash": 85417.64,
+    "num_positions": 1,
+    "return_pct": -5.02
+  },
+  {
+    "date": "2020-03-30",
+    "total_value": 94402.16,
+    "cash": 75934.07,
+    "num_positions": 2,
+    "return_pct": -5.6
+  },
+  {
+    "date": "2020-03-31",
+    "total_value": 94165.5,
+    "cash": 75934.07,
+    "num_positions": 2,
+    "return_pct": -5.83
+  },
+  {
+    "date": "2020-04-01",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-02",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-03",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-06",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-07",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-08",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-09",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-10",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-13",
+    "total_value": 92797.84,
+    "cash": 92797.84,
+    "num_positions": 0,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-14",
+    "total_value": 92797.84,
+    "cash": 74279.15,
+    "num_positions": 2,
+    "return_pct": -7.2
+  },
+  {
+    "date": "2020-04-15",
+    "total_value": 92444.58,
+    "cash": 74279.15,
+    "num_positions": 2,
+    "return_pct": -7.56
+  },
+  {
+    "date": "2020-04-16",
+    "total_value": 92236.62,
+    "cash": 65008.54,
+    "num_positions": 3,
+    "return_pct": -7.76
+  },
+  {
+    "date": "2020-04-17",
+    "total_value": 93147.63,
+    "cash": 65008.54,
+    "num_positions": 3,
+    "return_pct": -6.85
+  },
+  {
+    "date": "2020-04-20",
+    "total_value": 92981.2,
+    "cash": 65008.54,
+    "num_positions": 3,
+    "return_pct": -7.02
+  },
+  {
+    "date": "2020-04-21",
+    "total_value": 92215.69,
+    "cash": 55742.22,
+    "num_positions": 4,
+    "return_pct": -7.78
+  },
+  {
+    "date": "2020-04-22",
+    "total_value": 92653.05,
+    "cash": 46486.67,
+    "num_positions": 5,
+    "return_pct": -7.35
+  },
+  {
+    "date": "2020-04-23",
+    "total_value": 92318.63,
+    "cash": 27966.21,
+    "num_positions": 7,
+    "return_pct": -7.68
+  },
+  {
+    "date": "2020-04-24",
+    "total_value": 92644.71,
+    "cash": 27966.21,
+    "num_positions": 7,
+    "return_pct": -7.36
+  },
+  {
+    "date": "2020-04-27",
+    "total_value": 93433.3,
+    "cash": 27966.21,
+    "num_positions": 7,
+    "return_pct": -6.57
+  },
+  {
+    "date": "2020-04-28",
+    "total_value": 92464.23,
+    "cash": 9361.56,
+    "num_positions": 9,
+    "return_pct": -7.54
+  },
+  {
+    "date": "2020-04-29",
+    "total_value": 93000.37,
+    "cash": 91.75,
+    "num_positions": 10,
+    "return_pct": -7.0
+  },
+  {
+    "date": "2020-04-30",
+    "total_value": 92036.95,
+    "cash": 91.75,
+    "num_positions": 10,
+    "return_pct": -7.96
+  },
+  {
+    "date": "2020-05-01",
+    "total_value": 90191.99,
+    "cash": 2.73,
+    "num_positions": 10,
+    "return_pct": -9.81
+  },
+  {
+    "date": "2020-05-04",
+    "total_value": 90295.56,
+    "cash": 2.73,
+    "num_positions": 10,
+    "return_pct": -9.7
+  },
+  {
+    "date": "2020-05-05",
+    "total_value": 91689.46,
+    "cash": 2.73,
+    "num_positions": 10,
+    "return_pct": -8.31
+  },
+  {
+    "date": "2020-05-06",
+    "total_value": 91242.86,
+    "cash": 2.73,
+    "num_positions": 10,
+    "return_pct": -8.76
+  },
+  {
+    "date": "2020-05-07",
+    "total_value": 91020.58,
+    "cash": 8660.01,
+    "num_positions": 9,
+    "return_pct": -8.98
+  },
+  {
+    "date": "2020-05-08",
+    "total_value": 91961.67,
+    "cash": 8660.01,
+    "num_positions": 9,
+    "return_pct": -8.04
+  },
+  {
+    "date": "2020-05-11",
+    "total_value": 92671.07,
+    "cash": 8660.01,
+    "num_positions": 9,
+    "return_pct": -7.33
+  },
+  {
+    "date": "2020-05-12",
+    "total_value": 91060.51,
+    "cash": 17097.24,
+    "num_positions": 8,
+    "return_pct": -8.94
+  },
+  {
+    "date": "2020-05-13",
+    "total_value": 90298.28,
+    "cash": 8677.37,
+    "num_positions": 9,
+    "return_pct": -9.7
+  },
+  {
+    "date": "2020-05-14",
+    "total_value": 91053.31,
+    "cash": 8677.37,
+    "num_positions": 9,
+    "return_pct": -8.95
+  },
+  {
+    "date": "2020-05-15",
+    "total_value": 91194.07,
+    "cash": 17357.95,
+    "num_positions": 8,
+    "return_pct": -8.81
+  },
+  {
+    "date": "2020-05-18",
+    "total_value": 92164.38,
+    "cash": 17357.95,
+    "num_positions": 8,
+    "return_pct": -7.84
+  },
+  {
+    "date": "2020-05-19",
+    "total_value": 91484.76,
+    "cash": 8687.75,
+    "num_positions": 9,
+    "return_pct": -8.52
+  },
+  {
+    "date": "2020-05-20",
+    "total_value": 92378.75,
+    "cash": 8687.75,
+    "num_positions": 9,
+    "return_pct": -7.62
+  },
+  {
+    "date": "2020-05-21",
+    "total_value": 91628.65,
+    "cash": 7.96,
+    "num_positions": 10,
+    "return_pct": -8.37
+  },
+  {
+    "date": "2020-05-22",
+    "total_value": 91904.18,
+    "cash": 7.96,
+    "num_positions": 10,
+    "return_pct": -8.1
+  },
+  {
+    "date": "2020-05-25",
+    "total_value": 91904.18,
+    "cash": 7.96,
+    "num_positions": 10,
+    "return_pct": -8.1
+  },
+  {
+    "date": "2020-05-26",
+    "total_value": 91632.09,
+    "cash": 8612.56,
+    "num_positions": 9,
+    "return_pct": -8.37
+  },
+  {
+    "date": "2020-05-27",
+    "total_value": 91945.36,
+    "cash": 8612.56,
+    "num_positions": 9,
+    "return_pct": -8.05
+  },
+  {
+    "date": "2020-05-28",
+    "total_value": 92085.6,
+    "cash": 8612.56,
+    "num_positions": 9,
+    "return_pct": -7.91
+  },
+  {
+    "date": "2020-05-29",
+    "total_value": 92667.61,
+    "cash": 8612.56,
+    "num_positions": 9,
+    "return_pct": -7.33
+  },
+  {
+    "date": "2020-06-01",
+    "total_value": 91970.75,
+    "cash": 17406.14,
+    "num_positions": 8,
+    "return_pct": -8.03
+  },
+  {
+    "date": "2020-06-02",
+    "total_value": 92285.77,
+    "cash": 17406.14,
+    "num_positions": 8,
+    "return_pct": -7.71
+  },
+  {
+    "date": "2020-06-03",
+    "total_value": 92584.8,
+    "cash": 17406.14,
+    "num_positions": 8,
+    "return_pct": -7.42
+  },
+  {
+    "date": "2020-06-04",
+    "total_value": 92362.54,
+    "cash": 17406.14,
+    "num_positions": 8,
+    "return_pct": -7.64
+  },
+  {
+    "date": "2020-06-05",
+    "total_value": 93645.95,
+    "cash": 8778.08,
+    "num_positions": 9,
+    "return_pct": -6.35
+  },
+  {
+    "date": "2020-06-08",
+    "total_value": 94711.65,
+    "cash": 8778.08,
+    "num_positions": 9,
+    "return_pct": -5.29
+  },
+  {
+    "date": "2020-06-09",
+    "total_value": 94457.14,
+    "cash": 8778.08,
+    "num_positions": 9,
+    "return_pct": -5.54
+  },
+  {
+    "date": "2020-06-10",
+    "total_value": 95004.93,
+    "cash": 8778.08,
+    "num_positions": 9,
+    "return_pct": -5.0
+  },
+  {
+    "date": "2020-06-11",
+    "total_value": 89601.78,
+    "cash": 8164.68,
+    "num_positions": 9,
+    "return_pct": -10.4
+  },
+  {
+    "date": "2020-06-12",
+    "total_value": 90266.5,
+    "cash": 16334.58,
+    "num_positions": 8,
+    "return_pct": -9.73
+  },
+  {
+    "date": "2020-06-15",
+    "total_value": 91076.21,
+    "cash": 16334.58,
+    "num_positions": 8,
+    "return_pct": -8.92
+  },
+  {
+    "date": "2020-06-16",
+    "total_value": 92169.86,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -7.83
+  },
+  {
+    "date": "2020-06-17",
+    "total_value": 92237.8,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -7.76
+  },
+  {
+    "date": "2020-06-18",
+    "total_value": 92534.93,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -7.47
+  },
+  {
+    "date": "2020-06-19",
+    "total_value": 92281.3,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -7.72
+  },
+  {
+    "date": "2020-06-22",
+    "total_value": 93289.29,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -6.71
+  },
+  {
+    "date": "2020-06-23",
+    "total_value": 93438.7,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -6.56
+  },
+  {
+    "date": "2020-06-24",
+    "total_value": 91718.54,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -8.28
+  },
+  {
+    "date": "2020-06-25",
+    "total_value": 92742.19,
+    "cash": 8196.05,
+    "num_positions": 9,
+    "return_pct": -7.26
+  },
+  {
+    "date": "2020-06-26",
+    "total_value": 90894.62,
+    "cash": 16995.69,
+    "num_positions": 8,
+    "return_pct": -9.11
+  },
+  {
+    "date": "2020-06-29",
+    "total_value": 91482.43,
+    "cash": 16995.69,
+    "num_positions": 8,
+    "return_pct": -8.52
+  },
+  {
+    "date": "2020-06-30",
+    "total_value": 91482.43,
+    "cash": 16995.69,
+    "num_positions": 8,
+    "return_pct": -8.52
+  }
+]

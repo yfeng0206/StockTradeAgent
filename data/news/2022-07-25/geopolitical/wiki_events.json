@@ -1,0 +1,404 @@
+{
+  "date": "2022-07-25",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 48,
+  "categories": {
+    "other": {
+      "count": 48,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Mexican drug war",
+        "Eurovision Song Contest 2023",
+        "Economy of Ukraine",
+        "Meteorological authorities in South Korea issue a heat wave warning for most of the country, with temperatures expected to exceed ."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "War crimes in the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Head of the Investigative Committee of Russia, Alexander Bastrykin, says that Russia has charged 92 members of the Armed Forces of Ukraine with \"crimes against the peace and security of humanity\", with a further 96 people being wanted. There are also 1,300 ongoing criminal investigations.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mexican drug war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least six people are killed in a mass shooting at a rehab center in Tlaquepaque, Jalisco, Mexico.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Infobae"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Eurovision Song Contest 2023",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United Kingdom is announced as the host of next year's Eurovision Song Contest in place of this year's winners, Ukraine, due to the ongoing war in Ukraine. The United Kingdom, represented by Sam Ryder, finished in second place, behind Ukraine's Kalush Orchestra, at this year's competition. Ukraine will still automatically qualify for the grand final.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Economy of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Creditors of Ukraine's state-owned energy company Naftogaz reject its two-year debt freeze plan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Meteorological authorities in South Korea issue a heat wave warning for most of the country, with temperatures expected to exceed .",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Yonhap"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A major incident is declared by Greater Manchester Police after the remains of four people, believed to be Vietnamese migrants, are found at a factory in Oldham, which was destroyed by a fire in May.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Daily Express''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 monkeypox outbreak",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 monkeypox outbreak in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak in Germany",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Germany reports 82 new cases of monkeypox, thereby bringing the total number of cases in the country to 2,352.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RKI Deutsch"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak in the Netherlands",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Netherlands reports 106 new confirmed cases of monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RIVM Netherlands"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The European Commission extends the marketing authorization of Bavarian Nordic's smallpox vaccine Imvanex to also cover monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Mississippi reports its first case of monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "MSDH"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A \"public health emergency\" is declared in Harris County, Texas after the number of monkeypox cases rapidly increase in the state.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KPRC-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "It is announced that Texas will receive over 14,000 doses of the Jynneos vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KPRC-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan reports its first case of monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Japan Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak in Brazil",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Brazil reports 117 new confirmed cases of monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "GOV Brasil"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Guadeloupe reports its first case of monkeypox in a man in his 20s who travelled from Metropolitan France.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "OI Canada"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in South Korea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "South Korea reports its first local case of the Omicron BA.2.75 Centaurus variant in a person from North Chungcheong Province.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Korea JoongAng Daily''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Belarus",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "It is reported that more than 6.5 million people in Belarus have received their first dose of the COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BelTA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020–2022 H5N8 outbreak",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The UK's National Trust says that an outbreak of bird flu on the Farne Islands in the North Sea has killed over 3,000 wild birds. However, the actual death toll is estimated to be around ten times higher because birds may have fallen into the sea.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Canada–Holy See relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 visit by Pope Francis to Canada",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Thousands of Indigenous people gather in Maskwacis, Alberta, to hear an apology from Pope Francis for the past abuse and cultural suppression at Catholic residential schools across Canada.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Capital punishment in Myanmar",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Myanmar announces that it has executed four prisoners on charges of terrorism, including Zayar Thaw, a former lawmaker under ousted leader Aung San Suu Kyi, and Kyaw Min Yu.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Central Park jogger case",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A sixth man in the Central Park Five case in Manhattan, NYC, U.S., is exonerated of the crime.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Langley shootings",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people, including the shooter, are killed, and two others are seriously injured in a mass shooting in Langley, British Columbia, Canada.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Tunisian constitutional referendum",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Tunisian citizens head to the polls to vote in a constitutional referendum, which was proposed by President Kais Saied as a solution to the country's ongoing political crisis.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Indian presidential election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Droupadi Murmu is sworn in as President of India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

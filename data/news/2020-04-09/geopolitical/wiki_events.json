@@ -1,0 +1,215 @@
+{
+  "date": "2020-04-09",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "health": {
+      "count": 12,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Economic impact of the COVID-19 pandemic, 2020 Russia–Saudi Arabia oil price war"
+      ]
+    },
+    "geopolitical": {
+      "count": 4,
+      "headlines": [
+        "War in Afghanistan",
+        "Impact of the COVID-19 pandemic on politics"
+      ]
+    },
+    "disaster": {
+      "count": 3,
+      "headlines": [
+        "2019–20 South Pacific cyclone season"
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "Prisoners riot in Russia's high-security  Penal Colony No 15 in the Siberian city of Angarsk over complaints of mistreatment by the guards. Fire on the grounds spread to three buildings including a wo"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five rockets hit Bagram Airfield in Afghanistan, with no casualties reported. The Taliban denies responsibility and ISIL claims responsibility.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Economic impact of the COVID-19 pandemic, 2020 Russia–Saudi Arabia oil price war",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "OPEC+ holds an emergency meeting to try to agree on output cuts due to decreased demand for oil due to the coronavirus pandemic. Russia says it has \"no plans to discuss oil markets with the leadership of Saudi Arabia or the U.S. on Thursday\".",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019–20 South Pacific cyclone season",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Cyclone Harold",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Cyclone Harold hits Tonga.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Germany",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Robert Koch Institute reports 4,974 new confirmed cases and 246 more deaths from COVID-19, bringing Germany's death toll to 2,107 and 108,202 cases. This marks the largest daily increase of deaths for Germany.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Department of Health and Social Care reports 881 more deaths from COVID-19, bringing the UK's death toll to 7,978 with 65,077 total confirmed cases.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Metro''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Spain",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Spanish Congress of Deputies approves an extension of the State of Alarm to 26 April. With more than 140.000 reported cases, the country becomes the second in the world with number of cases, overtaking Italy.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "EFE"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in North America",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Michigan",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Michigan's death toll from COVID-19 surpasses 1,000. The state has 1,076 deaths and 21,504 cases as of this date. Governor Gretchen Whitmer also extends the state's stay-at-home order, which was set to expire on April 13, until April 30, and adds several new social distancing restrictions.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "MLive.com",
+        "MLive.com 2"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Impact of the COVID-19 pandemic on politics",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Taiwan strongly rejects accusations from the World Health Organization's Director-General Tedros Adhanom that it \"condoned racist attacks\" on him, and demands an apology. He has accused Taiwan's Ministry of Foreign Affairs of \"waging a months-long campaign against him, including death threats and racist abuse.\"",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "ABC News",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Prisoners riot in Russia's high-security  Penal Colony No 15 in the Siberian city of Angarsk over complaints of mistreatment by the guards. Fire on the grounds spread to three buildings including a woodwork factory.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters",
+        "BBC News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

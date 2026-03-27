@@ -1,0 +1,293 @@
+{
+  "date": "2020-06-25",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 30,
+  "categories": {
+    "health": {
+      "count": 14,
+      "headlines": [
+        "COVID-19 pandemic",
+        "Kivu Ebola epidemic"
+      ]
+    },
+    "politics": {
+      "count": 5,
+      "headlines": [
+        "War crimes in the Kosovo War",
+        "2020 Russian constitutional referendum",
+        "The Leader of the UK's Labour Party, Keir Starmer, sacks his Shadow Secretary of State for Education Rebecca Long-Bailey for sharing an article on social media that says American police were trained b"
+      ]
+    },
+    "sports": {
+      "count": 4,
+      "headlines": [
+        "2023 FIFA Women's World Cup",
+        "2019–20 Premier League"
+      ]
+    },
+    "geopolitical": {
+      "count": 5,
+      "headlines": [
+        "Insurgency in the Maghreb",
+        "Iraqi insurgency (2017–present)",
+        "Kosovo formally designates Lebanese political party Hezbollah and its paramilitary wing as a terrorist organization."
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "At least 100 people are killed by lightning strikes as a monsoon storm batters India's northeastern states of Bihar and Uttar Pradesh."
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": [
+        "Rasmus Paludan, leader of the far-right Danish political party Hard Line, is sentenced to prison for one month for a string of offences, including hate speech, defamation and dangerous driving."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Insurgency in the Maghreb",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Unidentified gunmen kidnap 10 humanitarian aid workers in southwestern Niger, their NGO reports. Gunmen in the area have previously stolen several vehicles from the International Committee of the Red Cross and Médecins Sans Frontières.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iraqi insurgency (2017–present)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iraqi security forces raid the headquarters of the Iranian-backed Kata'ib Hezbollah, detaining three high-ranking commanders of the group, and at least 20 other fighters.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 100 people are killed by lightning strikes as a monsoon storm batters India's northeastern states of Bihar and Uttar Pradesh.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Africa",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the Democratic Republic of the Congo",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Health officials in the Democratic Republic of the Congo say the number of cases reached 6,411 there with 198 new infections in the past 24 hours.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the Central African Republic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "In the Central African Republic, the number of infections climbs by 88 in the past 24 hours to reach 3,051.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Iraq",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Iraq confirms 107 new deaths from the virus, bringing the death toll to 1,437.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The U.S. reports 37,077 cases, the largest number of new cases in a single day.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Portugal",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Portuguese government orders the lockdown of 19 districts of Lisboa despite the end of the \"calamity status\".",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Politico''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kivu Ebola epidemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Democratic Republic of the Congo announces the end of the second outbreak of Ebola in the country, which has killed more than 2,200 people.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kosovo formally designates Lebanese political party Hezbollah and its paramilitary wing as a terrorist organization.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Arabiya"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Rasmus Paludan, leader of the far-right Danish political party Hard Line, is sentenced to prison for one month for a string of offences, including hate speech, defamation and dangerous driving.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "War crimes in the Kosovo War",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Kosovo Prime Minister Avdullah Hoti cancels his trip to the United States where talks between Kosovo and Serbia were to be held, after his country's President Hashim Thaçi is indicted by the Kosovo Specialist Chambers and Specialist Prosecutor's Office on war crimes charges. Thaçi also canceled his trip to mediate with Serbia after learning of the indictment the day prior.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "AP News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 Russian constitutional referendum",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "After having been postponed once due to the COVID-19 pandemic, voting about potential amendments to the Constitution of Russia kicks off. The result of the referendum might, amongst other changes, prolong the mandate of President Vladimir Putin. Voting continues until the 1st of July.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Leader of the UK's Labour Party, Keir Starmer, sacks his Shadow Secretary of State for Education Rebecca Long-Bailey for sharing an article on social media that says American police were trained by Mossad to use the knee-on-neck restraint that killed George Floyd, which Israeli police say is false.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 FIFA Women's World Cup",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "FIFA announces that the 2023 Women's World Cup will be jointly hosted by Australia and New Zealand.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "FIFA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019–20 Premier League",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Liverpool become Premier League champions for the first time and win their first top-flight title since the 1989–90 season, after rivals Manchester City fail to win against Chelsea in a 2–1 defeat at Stamford Bridge.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "BBC Sport"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

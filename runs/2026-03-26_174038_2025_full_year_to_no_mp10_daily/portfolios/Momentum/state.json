@@ -1,0 +1,22 @@
+{
+  "final_value": 124286.2,
+  "cash": 89178.42,
+  "positions": {
+    "CAT": {
+      "shares": 18,
+      "entry_price": 571.5327758789062,
+      "entry_date": "2026-01-01"
+    },
+    "INTC": {
+      "shares": 236,
+      "entry_price": 48.810001373291016,
+      "entry_date": "2026-02-02"
+    },
+    "NEE": {
+      "shares": 134,
+      "entry_price": 85.7453384399414,
+      "entry_date": "2026-02-02"
+    }
+  },
+  "return_pct": 24.29
+}

@@ -1,0 +1,176 @@
+{
+  "date": "2023-04-24",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 19,
+  "categories": {
+    "other": {
+      "count": 19,
+      "headlines": [
+        "War in Sudan (2023)",
+        "Russian invasion of Ukraine",
+        "Fox News and host Tucker Carlson part ways. Less than an hour later, CNN fires host Don Lemon.",
+        "2023 Kabal explosions",
+        "Israeli–Palestinian conflict"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Sudan (2023)",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Battle of Khartoum",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Switzerland suspends all diplomatic operations at its embassy in Khartoum.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Evacuation of foreign nationals during the War in Sudan (2023)",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Brazil, South Africa, Niger and Mexico evacuate more than 100 citizens from Sudan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Radio Mozambique",
+        "Universo Online",
+        "El País"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022–2023 Crimea attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian forces in Crimea repel a drone attack on Sevastopol, according to governor Mikhail Razvozhaev, in the first attack on the peninsula since February.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Fox News and host Tucker Carlson part ways. Less than an hour later, CNN fires host Don Lemon.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Politico"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Kabal explosions",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Seventeen people are killed and more than 50 others are injured after explosive material in the basement of a police station in Kabal Tehsil, Swat District, Khyber Pakhtunkhwa, Pakistan, catches fire, causing explosions.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five people are injured when a 39-year-old Palestinian terrorist rams his car into a crowd of people on a street in Jerusalem. He is later killed by an armed citizen.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Thirteen suspected gang members are lynched and set on fire by residents in Port-au-Prince, Haiti.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 British Virgin Islands general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Citizens of the British Virgin Islands head to the polls to elect the 13 members of the House of Assembly.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Jamaica Observer''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iranian workers in major industries continue their strike for a third day.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Iran International"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Solar Cycle 25",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A geomagnetic storm hits Earth, causing auroras as far south as Alabama and southern England. The storm registers at a G4.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''San Francisco Chronicle''",
+        "''New York Times''",
+        "Fox News"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

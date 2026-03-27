@@ -1,0 +1,182 @@
+{
+  "date": "2022-04-21",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 20,
+  "categories": {
+    "other": {
+      "count": 20,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Afghanistan conflict",
+        "Boko Haram insurgency",
+        "The legislature for the U.S. state of Florida votes to strip Walt Disney World of its ability to self-govern by dissolving the Reedy Creek Improvement District, in apparent retaliation for Disney's ac",
+        "Six people are killed after a fire occurs at a defence research institute in Tver, Russia."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Eastern Ukraine offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Siege of Mariupol",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Vladimir Putin tells his troops not to storm the Azovstal iron and steel works building in Mariupol, Donetsk Oblast, calling that plan \"impractical\" and instead ordering a blockade of the area.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Afghanistan conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Islamic State–Taliban conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Mazar-i-Sharif mosque bombing",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Thirty-one people are killed and 87 others are injured in a bombing at a Shia mosque in Mazar-i-Sharif, Balkh Province. The Islamic State claims responsibility for the bombing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Yahoo! News",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Four people are killed and 18 others are injured during a bombing in Kunduz targeting the 217 Omari Corps.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Tolo News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Four Taliban members are killed and another is injured when their vehicle is hit by a roadside bomb in Nangarhar Province.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Boko Haram insurgency",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Boko Haram raid the town of Geidam, Yobe State, Nigeria, killing 12 people. Several buildings are destroyed, including a school.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Premium Times''",
+        "''The Toronto Star''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The legislature for the U.S. state of Florida votes to strip Walt Disney World of its ability to self-govern by dissolving the Reedy Creek Improvement District, in apparent retaliation for Disney's actions during and following the passage of HB 1557, also known as the \"Don't Say Gay\" bill.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC",
+        "''Financial Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people are killed after a fire occurs at a defence research institute in Tver, Russia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Iran–Israel relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iran arrests three alleged Israeli Mossad spies in Sistan and Baluchestan province, claiming that the spies are part of recent sensitive data leaks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "India–Maldives relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Maldivian President Ibrahim Mohamed Solih issues a presidential decree outlawing protests against India, claiming it is causing national instability and putting the security of Indian diplomats at risk.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Indian Express''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Former Honduran President Juan Orlando Hernández is extradited to the United States on drug trafficking charges.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

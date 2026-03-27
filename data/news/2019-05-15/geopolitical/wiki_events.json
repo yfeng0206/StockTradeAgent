@@ -1,0 +1,231 @@
+{
+  "date": "2019-05-15",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "politics": {
+      "count": 8,
+      "headlines": [
+        "Fijian Prime Minister Frank Bainimarama asks developed nations, especially the United States, to help fight climate change to \"prevent the current crisis from escalating into total chaos.\"",
+        "2019 Andorran parliamentary election",
+        "Presidency of Jair Bolsonaro",
+        "2019 Guatemalan general election"
+      ]
+    },
+    "geopolitical": {
+      "count": 7,
+      "headlines": [
+        "Militants kill at least 17 Niger Armed Forces troops in an ambush near the Malian border. Another 11 soldiers are missing; six others have been evacuated to a hospital. No group has claimed responsibi",
+        "Iraq–United States relations, Iran–United States relations",
+        "Germany–Iraq relations, NATO Training Mission – Iraq, Germany–Iran relations, Iraq–European Union relations",
+        "Christchurch Call summit"
+      ]
+    },
+    "disaster": {
+      "count": 3,
+      "headlines": [
+        "A helicopter with only the pilot onboard crashes into the Hudson River shortly after taking off from the West 30th Street Heliport in New York City injuring the pilot and the dockworker on the ground.",
+        "Pacific Islands Forum"
+      ]
+    },
+    "legal": {
+      "count": 3,
+      "headlines": [
+        "San Francisco becomes the first U.S. city to ban the use of facial recognition systems by law enforcement.",
+        "Abortion in the United States by state, Fetal heartbeat bill"
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "The Jeremy Kyle Show, one of the United Kingdom's most watched reality television programmes, is cancelled by ITV Studios following the suicide of a male guest shortly after taking part in the program"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Militants kill at least 17 Niger Armed Forces troops in an ambush near the Malian border. Another 11 soldiers are missing; six others have been evacuated to a hospital. No group has claimed responsibility.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News",
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Jeremy Kyle Show, one of the United Kingdom's most watched reality television programmes, is cancelled by ITV Studios following the suicide of a male guest shortly after taking part in the programme. The show has long been criticised for its style, with many describing it as poverty porn.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A helicopter with only the pilot onboard crashes into the Hudson River shortly after taking off from the West 30th Street Heliport in New York City injuring the pilot and the dockworker on the ground. [https://newyork.cbslocal.com/2019/05/15/helicopter-in-hudson-river-new-york/ ]",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Pacific Islands Forum",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "United Nations Secretary General António Guterres says Pacific island nations are \"running out of time\" in regards to climate change and global warming effects.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Radio New Zealand"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iraq–United States relations, Iran–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States Department of State orders all non-emergency, non-essential government employees at the U.S. Embassy in Baghdad and Erbil consulate office to leave Iraq amid heightened tensions in the Persian Gulf between the United States and Iran.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters",
+        "Associated Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Germany–Iraq relations, NATO Training Mission – Iraq, Germany–Iran relations, Iraq–European Union relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Germany and the Netherlands suspend military training mission in Iraq citing escalating tensions in the region with Iran.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Deutsche Welle",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Christchurch Call summit",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Representatives from 17 world governments and various U.S. technology companies meet in Paris to support a set of anti-terrorism guidelines called the \"Christchurch Call to Action\" drafted by the governments of France and New Zealand. The White House expressed support for the \"overall goals reflected\" in this pledge, but refused to back it, citing freedom of speech concerns.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "SBS"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "San Francisco becomes the first U.S. city to ban the use of facial recognition systems by law enforcement.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Abortion in the United States by state, Fetal heartbeat bill",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Governor of Alabama Kay Ivey signs the Human Life Protection Act into law, effective six months after signing, bans all abortions in the state of Alabama, except when \"abortion is necessary in order to prevent a serious health risk\" to the woman according to the bill's text. The law reclassifies abortion as a Class A felony and attempted abortion as a Class C felony.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CBS News",
+        "WBRC Birmingham, AL"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Fijian Prime Minister Frank Bainimarama asks developed nations, especially the United States, to help fight climate change to \"prevent the current crisis from escalating into total chaos.\"",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Radio New Zealand"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Andorran parliamentary election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Xavier Espot Zamora is elected the new Prime Minister by the General Council, succeeding Antoni Martí.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Diari d'Andorra''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Presidency of Jair Bolsonaro",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hundreds of thousands of students, schoolteachers, and university professors hold demonstrations across Brazil's biggest cities in opposition to large cuts in the education budget. From Dallas, Brazilian President Jair Bolsonaro calls demonstrators \"stupid.\"",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "President Bolsonaro expresses support for comedian Danilo Gentili who was sentenced to six months in prison for a sexually graphic rant against a congresswoman, saying that she was a transexual or a prostitute.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Guatemalan general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Constitutional Court ruled that former Attorney General  Thelma Aldana can not participate as a presidential candidate and leaves her out of the elections. Aldana was one of the favorites to succeed the current President Jimmy Morales.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

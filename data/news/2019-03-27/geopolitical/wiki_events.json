@@ -1,0 +1,190 @@
+{
+  "date": "2019-03-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "geopolitical": {
+      "count": 3,
+      "headlines": [
+        "European migrant crisis"
+      ]
+    },
+    "business": {
+      "count": 1,
+      "headlines": [
+        "Cathay Pacific announces the acquisition of low-cost carrier HK Express for US$628 million (HK$4.93 billion)."
+      ]
+    },
+    "legal": {
+      "count": 7,
+      "headlines": [
+        "Aftermath of the Charlottesville car attack",
+        "Aftermath of the kidnapping of Jayme Closs",
+        "Medicaid expansion",
+        "Former Argentine President Carlos Menem is sentenced to 3 years and 9 months in prison for the sale of a government ground. His government's Minister of Economy Domingo Cavallo was also sentenced to 3"
+      ]
+    },
+    "politics": {
+      "count": 7,
+      "headlines": [
+        "Brexit negotiations",
+        "2019 Guatemalan general election"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Cathay Pacific announces the acquisition of low-cost carrier HK Express for US$628 million (HK$4.93 billion).",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News",
+        "''South China Morning Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "European migrant crisis",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The European Union says it is suspending Operation Sophia ship patrols. Instead, the operation will rely on air missions and close coordination with Libya. The EU also announces the mandate for Operation Sophia, which was scheduled to expire March 31, 2019, will be extended for six months.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "AFP via Yahoo! News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "More than 100 migrants hijack a merchant vessel that rescued them off Libya's coast, ordering the crew to head towards Malta. Malta's military said the ship would not be allowed into its waters.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the Charlottesville car attack",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "James Alex Fields, who drove his car into a crowd of protestors at the Unite the Right rally in Charlottesville, Virginia, in 2017, killing one person and injuring 28 others, pleads guilty to 29 federal hate crimes. He will be sentenced on July 3, 2019.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "NBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the kidnapping of Jayme Closs",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Jake Patterson pleads guilty to the kidnapping of teenager Jayme Closs and the murder of her parents last year.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''New York Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Medicaid expansion",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Judge James Boasberg of the U.S. District Court for the District of Columbia blocks Kentucky from implementing Medicaid work requirements and Arkansas from continuing its program, stating the program's approval by the Department of Health and Human Services \"... is arbitrary and capricious because it did not address ... how the project would implicate the 'core' objective of Medicaid, the provision of medical coverage to the needy\".",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Former Argentine President Carlos Menem is sentenced to 3 years and 9 months in prison for the sale of a government ground. His government's Minister of Economy Domingo Cavallo was also sentenced to 3 years and 6 months. In addition, both were disqualified from holding public office for life. As Menem is currently a National Senator and has immunity, he will not comply with his sentence yet.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN in Spanish"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Brexit negotiations",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The UK parliament holds \"indicative votes\" on eight options regarding Brexit in an attempt to find an approach which can command a majority. None of the options are passed at this stage; however, a further round of voting is planned for Monday.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CBC",
+        "''The Guardian''",
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "UK Prime Minister Theresa May announces that she will resign before the next phase of Brexit negotiations, if her deal were to be passed.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Guatemalan general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Supreme Electoral Tribunal dismisses six nullity proceedings against the presidential candidacy of Thelma Aldana. However, it accepts two processes and requests the Supreme Court of Justice, the Public Prosecutor's Office and the Comptroller General of Accounts to present a report on their legal situation. It was also reported that after resolving these processes this week, it will proceed to issue the credential that grants immunity to the candidate.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Prensa Libre''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Supreme Electoral Tribunal acts legally before the Constitutional Court to appeal the permission granted to the presidential candidate Zury Ríos to participate in the elections despite having constitutional impediment.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Prensa Libre''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Director of the Registry of Citizens of the Supreme Electoral Tribunal Leopoldo Guerra denounces pressures and threats by far-right groups not to register Thelma Aldana as a presidential candidate and request precautionary measures from the Inter-American Commission on Human Rights.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''Prensa Libre''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "date": "2019-09-11",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "politics": {
+      "count": 8,
+      "headlines": [
+        "Suffering from pneumonia, Tongan Prime Minister ʻAkilisi Pōhiva is rushed from hospital in Nukuʻalofa to one in Auckland, New Zealand, where he was treated for a liver condition earlier this year. Acc",
+        "B.J. Habibie, reformist Indonesian president, dies at 83, after spending more than a week in intensive care.",
+        "Japanese Prime Minister Shinzō Abe rearranges his government cabinet, naming replacements at the Defense, Foreign Affairs, Environment and Olympics ministries, among others.",
+        "Politics of the United Kingdom",
+        "2019 Canadian federal election"
+      ]
+    },
+    "business": {
+      "count": 5,
+      "headlines": [
+        "China–United States trade war",
+        "2019 Japan–South Korea trade dispute"
+      ]
+    },
+    "tech": {
+      "count": 4,
+      "headlines": [
+        "Scientists from Denmark and the United Kingdom report they have identified genetic information from a 1.7-million-year-old Stephanorhinus tooth enamel from Dmanisi, Georgia, making it the oldest genet",
+        "Discoveries of exoplanets",
+        "Scientists report, in the journal Gondwana Research, the  discovery of an eighth— still hidden—continent (Greater Adria) from the break-up of supercontinent Pangaea which slid underneath what is now S"
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "Pastoral visit of Pope Francis to Africa"
+      ]
+    },
+    "disaster": {
+      "count": 3,
+      "headlines": [
+        "A crash of a twin-engine Convair 440 cargo plane near Toledo, Ohio, kills the two people on board.",
+        "Effects of Hurricane Dorian in The Bahamas"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "China–United States trade war",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "China publishes a list of 16 U.S. goods that will be temporarily exempted from its retaliatory import tariffs.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China announces that it will allow the import of soybean meal from Argentina, to ensure livestock feed under the impact of the trade war with the U.S. Apart from Argentina, China has been increasing imports of soybeans and soymeal from other channels, such as allowing soybean meal, rapeseed meal and sunflower meal from Russia since September 6.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Global Times"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Japan–South Korea trade dispute",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "South Korea announces it will file a complaint with the World Trade Organization over Japanese government export controls.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Marketwatch"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A crash of a twin-engine Convair 440 cargo plane near Toledo, Ohio, kills the two people on board.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Effects of Hurricane Dorian in The Bahamas",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Bahamian National Emergency Management Agency lists approximately 2,500 people as missing after Hurricane Dorian devastated the islands last week.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Pastoral visit of Pope Francis to Africa",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At St. Peter's Square Pope Francis reviews highlights from his African visit to Mozambique, Madagascar and Mauritius on September 4-10.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Crux"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Suffering from pneumonia, Tongan Prime Minister ʻAkilisi Pōhiva is rushed from hospital in Nukuʻalofa to one in Auckland, New Zealand, where he was treated for a liver condition earlier this year. According to a government spokesperson, Pōhiva is in a \"very serious\" condition.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "B.J. Habibie, reformist Indonesian president, dies at 83, after spending more than a week in intensive care.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Japanese Prime Minister Shinzō Abe rearranges his government cabinet, naming replacements at the Defense, Foreign Affairs, Environment and Olympics ministries, among others.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Politics of the United Kingdom",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Scotland's Court of Session rules that UK Prime Minister Boris Johnson violated the law by his suspension of Parliament from 9 September to 14 October, encouraging calls for MPs to get back to work immediately.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Johnson ministry releases the Operation Yellowhammer contingency plans in the event of a no-deal Brexit to the public.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Canadian federal election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Canadian Prime Minister Justin Trudeau calls a general election on 21 October. Governor General Julie Payette, the acting head of state, formally dissolves Parliament.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Scientists from Denmark and the United Kingdom report they have identified genetic information from a 1.7-million-year-old Stephanorhinus tooth enamel from Dmanisi, Georgia, making it the oldest genetic data ever recorded.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "''Cosmos''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Discoveries of exoplanets",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Water vapor is detected on exoplanet K2-18b, a super-Earth which is located about 111 light-years away from Earth. It is the first time water has been confirmed on an exoplanet within the circumstellar habitable zone of a star.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "BBC News",
+        "''Business Insider''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Scientists report, in the journal Gondwana Research, the  discovery of an eighth— still hidden—continent (Greater Adria) from the break-up of supercontinent Pangaea which slid underneath what is now Southern Europe about 120 million years ago.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "''National Geographic''",
+        "''Business Insider''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

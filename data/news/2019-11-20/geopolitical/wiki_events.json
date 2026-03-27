@@ -1,0 +1,295 @@
+{
+  "date": "2019-11-20",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 30,
+  "categories": {
+    "politics": {
+      "count": 4,
+      "headlines": [
+        "2019 referendum on the creation of a Sidama region",
+        "2020 Israeli legislative election"
+      ]
+    },
+    "business": {
+      "count": 5,
+      "headlines": [
+        "2019 Japan–South Korea trade dispute",
+        "2019 Hong Kong protests",
+        "Google announces it will ban targeted ads that use voter data, effective within a week."
+      ]
+    },
+    "geopolitical": {
+      "count": 16,
+      "headlines": [
+        "Syrian Civil War",
+        "War in Afghanistan",
+        "2019 Bolivian protests",
+        "2019 Iranian fuel protests",
+        "Yemeni Civil War (2015–present)"
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "Tongan authorities contact their New Zealand counterparts to warn them of death threats against Tongan Prime Minister Pohiva Tuʻiʻonetoa on social media.",
+        "Ali al-Haj, secretary of the Islamist Popular Congress Party, is arrested after Sudanese authorities summon him for questioning over his role in the coup d’état that put former President Omar al-Bashi",
+        "International reactions to the Rohingya genocide"
+      ]
+    },
+    "other": {
+      "count": 1,
+      "headlines": [
+        "Prince Andrew, Duke of York, halts all public duties in light of allegations of rape, saying his \"ill-judged\" association with American convicted sex offender Jeffrey Epstein had caused major disrupti"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Syrian Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Israeli military launches airstrikes on dozens of Quds Force targets in Damascus and surrounding towns in response to a missile intercepted the previous day over the Golan Heights. The Syrian Observatory for Human Rights reports 23 are killed, including several Iranian fighters.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Associated Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Missiles and airstrikes strike a crowded facility in Qah and Idlib, killing approximately over 20 including women and children. Activists claim that Syrian Armed Forces were behind the attack.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War in Afghanistan",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. military says two American service members have been killed in a helicopter crash in Afghanistan.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Bolivian protests",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The death toll in the protests rises to 30.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Iranian fuel protests",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "According to the human rights organization Amnesty International, casualties are estimated to be around 106 protestors and rising.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Radiofarda"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Yemeni Civil War (2015–present)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Houthi militants release the South Korean ship they captured two days prior.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Allied Democratic Forces insurgency",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Militants target civilians in the DR Congo near the border with Uganda, killing 19 and kidnapping others. Churches were also burned down in two separate attacks. It is believed that the Allied Democratic Forces is behind the attacks.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Prince Andrew, Duke of York, halts all public duties in light of allegations of rape, saying his \"ill-judged\" association with American convicted sex offender Jeffrey Epstein had caused major disruption to the royal family's work.",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Japan–South Korea trade dispute",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "South Korea's finance minister Hong Nam-ki presses Japan to take steps to lift its export restrictions.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Yonhap"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Hong Kong protests",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Joshua Wong calls on HSBC to re-open an account used to support the pro-democracy movement in the city.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''The Telegraph''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Google announces it will ban targeted ads that use voter data, effective within a week.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Iran–Saudi Arabia relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "King Salman of Saudi Arabia blames Iran for the \"chaos and destruction\" their multiple missiles and drone attacks have caused in the country, and reiterates that his country will not hesitate to defend itself.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Pope Francis arrives in Bangkok for a three-day visit to Thailand. The Catholic Church in Thailand is celebrating 350 years of Holy See recognition of the Church in Thailand. Bishop Arpondratana of Chiang Mai diocese states that the pope's visit is important for the Church in all of Asia.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Catholic News Agency"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Tongan authorities contact their New Zealand counterparts to warn them of death threats against Tongan Prime Minister Pohiva Tuʻiʻonetoa on social media.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Ali al-Haj, secretary of the Islamist Popular Congress Party, is arrested after Sudanese authorities summon him for questioning over his role in the coup d’état that put former President Omar al-Bashir in power.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "International reactions to the Rohingya genocide",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The office of Myanmar's civilian leader, Aung San Suu Kyi, releases a statement announcing that she will personally lead the legal team defending the Burmese military's actions against the Rohingya minority in the International Criminal Court. Nine days earlier, fifty-seven countries led by The Gambia filed a lawsuit in the International Criminal Court, formally accusing Myanmar of committing genocide against the Rohingya.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN",
+        "''TIME''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 referendum on the creation of a Sidama region",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Sidama people of Ethiopia go to the polls for a referendum on further autonomy for the Sidama Zone. If autonomy is approved, then local taxes, education, security and laws will be decided by the Sidama instead of the government of Ethiopia.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 Israeli legislative election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Blue and White Alliance leader Benny Gantz's mandate to form a new government expires. As both he and Prime Minister Benjamin Netanyahu failed to form one, Israel will likely face a third election in two years.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

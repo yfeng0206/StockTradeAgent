@@ -1,0 +1,416 @@
+{
+  "date": "2019-06-12",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 42,
+  "categories": {
+    "health": {
+      "count": 2,
+      "headlines": [
+        "Kivu Ebola epidemic"
+      ]
+    },
+    "politics": {
+      "count": 9,
+      "headlines": [
+        "Hong Kong extradition law controversy",
+        "Media freedom in Russia",
+        "The House Oversight Committee votes to hold Attorney General William Barr and Commerce Secretary Wilbur Ross in contempt after U.S. President Donald Trump asserted executive privilege over materials r",
+        "Operation Car Wash",
+        "Bolivarian diaspora"
+      ]
+    },
+    "sports": {
+      "count": 2,
+      "headlines": [
+        "2019 Stanley Cup Finals"
+      ]
+    },
+    "tech": {
+      "count": 3,
+      "headlines": [
+        "List of nearest exoplanets, Doppler Spectroscopy",
+        "Despite dense fog, SpaceX successfully launches the Canadian Space Agency's RADARSAT Constellation satellites on a Falcon 9 rocket from Vandenberg Air Force Base."
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "Japan–United States relations, Iran–Japan relations, Iran–United States relations"
+      ]
+    },
+    "disaster": {
+      "count": 4,
+      "headlines": [
+        "Bolivarian diaspora",
+        "Indian Air Force An-32 crash"
+      ]
+    },
+    "legal": {
+      "count": 10,
+      "headlines": [
+        "Reuters reports, on the basis of an unnamed \"senior administration\" source, that the administration of U.S. President Donald Trump is pressuring the government of Saudi Arabia to show some progress in",
+        "Trial of Catalonia independence leaders",
+        "Two Canadian women who were abducted in Ghana are rescued by Ghanaian police.",
+        "Aftermath of the 2019 college admissions bribery scandal",
+        "Same-sex marriage in Ecuador"
+      ]
+    },
+    "other": {
+      "count": 10,
+      "headlines": [
+        "Abha International Airport attack",
+        "Insurgency in Jammu and Kashmir",
+        "Sudanese protests",
+        "Terrorism in Australia",
+        "China–United States trade war"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Abha International Airport attack",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A ballistic missile fired by Houthi forces strikes the arrivals hall at Abha International Airport in Saudi Arabia, injuring 26 people.",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Insurgency in Jammu and Kashmir",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Militants kill five Indian paramilitary police in Anantnag district. Three paramilitaries, a local policeman and a woman bystander are wounded, and one militant is killed.",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [
+        "NDTV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Sudanese protests",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Sudanese military and opposition leaders agree to resume talks that broke down after a violent crackdown on protesters earlier in June. The military also agrees to release political prisoners, while the opposition agrees to end its campaign of strikes and civil disobedience.",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Terrorism in Australia",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Clavell brothers rammed a police car and then lunged at police with a knife and a tomahawk before they were shot on Wednesday afternoon by Victorian police.",
+      "category": "Armed conflict and attacks",
+      "market_category": "other",
+      "sources": [
+        "9News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–United States trade war",
+      "category": "Business and finance",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Chinese telecommunications and electronics company Huawei cancels its new laptop launch. A Huawei executive said the company has been \"unable to supply the PC\" because of the  U.S. trade blacklist and may have to scrap the project.",
+      "category": "Business and finance",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Bolivarian diaspora",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A speedboat carrying migrants reportedly sinks off the coast of Venezuela en route to Curaçao, making it the third migrant boat leaving Venezuela to sink in as many months, with over 50 people missing.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Indian Air Force An-32 crash",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The wreckage of An-32 aircraft was found in Arunachal Pradesh with all 13 people on board killed.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''India Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kivu Ebola epidemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Wellcome Trust director Dr. Jeremy Farrar says the Ebola outbreak in eastern Democratic Republic of the Congo, which has killed 1,400 people since August 2018, is the worst since the 2013–2016 outbreak in West Africa and shows \"no sign of stopping\". Uganda reported its first two deaths.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan–United States relations, Iran–Japan relations, Iran–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Japan offers to mediate between Iran and the U.S.; officials say the Japanese government hopes to rescue the landmark 2015 international nuclear deal.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Financial Tribune''",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Reuters reports, on the basis of an unnamed \"senior administration\" source, that the administration of U.S. President Donald Trump is pressuring the government of Saudi Arabia to show some progress in its investigation of the murder of Jamal Khashoggi before the one-year anniversary in October.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Trial of Catalonia independence leaders",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The trial of the leaders involved in the Catalan declaration of independence ends and is remitted to decision. A verdict is not expected until after August.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two Canadian women who were abducted in Ghana are rescued by Ghanaian police.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Aftermath of the 2019 college admissions bribery scandal",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former Stanford University sailing coach John Vandemoer is sentenced to two-years probation, with the first six months to be served under house arrest. Vandemoer is the first person to be sentenced among the 50 individuals indicted on federal charges related to the U.S. college admissions bribery scheme.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Los Angeles Times''",
+        "''USA Today''",
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Same-sex marriage in Ecuador",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Supreme Court of Ecuador legalizes same-sex marriage.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "France24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Abortion in the United States by state",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Illinois Governor J. B. Pritzker signs abortion rights law making the procedure a \"fundamental right\" for pregnant individuals in the state.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Chicago Tribune''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Hong Kong extradition law controversy",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Legislative Council delays \"to a later time\" the second reading of the new legislation on  extradition as  thousands of protesters, who blocked key roads around government buildings, were confronted by police  in riot gear using pepper spray. Despite widespread opposition, the government had said it will continue to push for passage.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Media freedom in Russia",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Russian authorities  detain hundreds of protesters, including Novaya Gazeta journalist and protest organizer Ilya Azar and other reporters, at an \"unauthorized march\" in Moscow demanding punishment for police who detained anti-corruption journalist Ivan Golunov.  Golunov's charges were dropped and he was released yesterday at which time Interior Minister Vladimir Kolokoltsev said some officers who had taken part in his detention were  suspended pending an investigation.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The House Oversight Committee votes to hold Attorney General William Barr and Commerce Secretary Wilbur Ross in contempt after U.S. President Donald Trump asserted executive privilege over materials related to the committee's census investigation.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Operation Car Wash",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "More text messages between judge Sérgio Moro and prosecutor Deltan Dallagnol are leaked, implicating Vice-President of the Supreme Federal Court Luiz Fux in illicit collaboration between Brazilian judges and Car Wash's team of prosecutors.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Veja"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Bolivarian diaspora",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Peruvian Catholic Church urges the government of that country to continue receiving Venezuelan immigrants. He also expressed concern about the \"increase in the negative perception of migrants.\" This, after the president Martín Vizcarra decided to demand visa and passport for Venezuelan citizens who wish to enter Peru.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Gestión"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "List of nearest exoplanets, Doppler Spectroscopy",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A study on exoplanet populations combining decades of data from several different observatories detects 118 possible exoplanets orbiting nearby red dwarfs, including new discoveries around nearby stars Wolf 359, Lacaille 9352, Struve 2398 B, and Luyten's Star.  <!--keep this source until a news source can be found, it's bound to get on the news anyway and there's no explicit rules against using non-news sources-->",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "Arxiv"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Despite dense fog, SpaceX successfully launches the Canadian Space Agency's RADARSAT Constellation satellites on a Falcon 9 rocket from Vandenberg Air Force Base.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "CNET"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Stanley Cup Finals",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In ice hockey, the St. Louis Blues defeat the Boston Bruins four games to three to win their first Stanley Cup.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "CBS Sports"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

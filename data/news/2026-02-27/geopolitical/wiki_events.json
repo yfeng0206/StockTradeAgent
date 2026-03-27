@@ -1,0 +1,162 @@
+{
+  "date": "2026-02-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 17,
+  "categories": {
+    "other": {
+      "count": 17,
+      "headlines": [
+        "2026 Afghanistan–Pakistan war",
+        "2026 Bolivian Air Force Lockheed C-130 crash",
+        "Seven people are killed and 19 others are injured in a blast and fire at a café in Shchuchinsk, Kazakhstan.",
+        "Six people are killed and several others are injured after a sleeper bus collides with a trailer on National Highway 25 in Rajasthan, India.",
+        "Two people are killed and 49 more injured after a tram derails in Milan, Italy, and crashes into pedestrians and a building."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli bombing of the Gaza Strip",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli air and drone strikes kill at least five people and injure several others in central and southern Gaza, despite an ongoing United States-brokered truce between Israel and Hamas.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Hindu''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2026 Afghanistan–Pakistan war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Clashes break out on the border between Afghanistan and Pakistan, with Pakistan launching airstrikes on several locations in Afghanistan, including the capital of Kabul, targeting Taliban government forces directly, in what Pakistani defense minister Khawaja Asif describes as \"open war\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2026 Bolivian Air Force Lockheed C-130 crash",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Twenty people are killed and 30 more are injured after the crash of a Bolivian Air Force aircraft into a busy avenue in El Alto, Bolivia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Seven people are killed and 19 others are injured in a blast and fire at a café in Shchuchinsk, Kazakhstan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people are killed and several others are injured after a sleeper bus collides with a trailer on National Highway 25 in Rajasthan, India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "News18"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Two people are killed and 49 more injured after a tram derails in Milan, Italy, and crashes into pedestrians and a building.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "Rai News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2025 Pertamina corruption case",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Jakarta, Indonesia, sentences nine individuals, including two former chief executives of subsidiaries of state-owned energy company Pertamina, to prison terms ranging from nine to 15 years in a corruption case involving alleged unlawful oil terminal leasing and crude oil imports that prosecutors say caused significant state losses.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Humanitarian aid during the Gaza war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Supreme Court of Israel issues an interim order suspending a government ban on 37 foreign non-governmental organizations operating in Gaza and the West Bank, allowing them to continue their operations while the court reviews a petition challenging the revocation of their legal status.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A Tunisian court sentences former prime minister Ali Laarayedh, who has been detained since 2022, to 24 years in prison for facilitating the travel of Tunisian nationals to Syrian conflict zones during his premiership, while seven co-defendants, including former interior ministry officials, receive prison terms ranging from three to 24 years.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Artificial intelligence in government",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Anthropic CEO Dario Amodei rejects a U.S. Department of Defense request to loosen security safeguards on the Claude large language model for potential use in mass surveillance and autonomous weapons systems.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News",
+        "SRF"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "OpenAI announces that it has reached an agreement with the U.S. Department of Defense to deploy its technology on the latter's network.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Politico"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "date": "2022-06-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "other": {
+      "count": 22,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Kashmir conflict",
+        "Syrian civil war",
+        "Platinum Jubilee of Elizabeth II",
+        "2022 monkeypox outbreak"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Southern Ukraine offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian officials say that the Armed Forces of Ukraine have recaptured 20 settlements in Kherson Oblast.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "VOA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign aid to Ukraine during the Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom announces that it will send M270 Multiple Launch Rocket Systems to Ukraine to counter the Russian invasion.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euro Weekly News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Sweden announces that it will send additional military aid to Ukraine, including anti-ship missiles, anti-tank guided missiles, and rifles for the Ukrainian Ground Forces.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kashmir conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Insurgency in Jammu and Kashmir",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A Hindu bank manager from Rajasthan is shot dead in a suspected terror attack in Kulgam district, Indian-administered Jammu and Kashmir.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people are killed and 21 others are injured when a bus is attacked by militants in Deir ez-Zor Governorate, Syria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Platinum Jubilee of Elizabeth II",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The platinum jubilee of Queen Elizabeth II commences at The Mall in London.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 monkeypox outbreak",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Morocco confirms its first case of monkeypox.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Nations formally recognizes the new official name of Türkiye following an official request from Turkey to change its name. Turkish state broadcaster TRT says that the name change is primarily to avoid association with the bird of the same name.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Ontario general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ontario Premier Doug Ford is re-elected as Premier of Ontario, Canada.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Bavarian authorities announce that they will release all of their unpublished files on the Munich massacre.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Internet censorship in Russia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Russia blocks access to the Finnish, Russian and English websites of Finnish state broadcaster Yle, on orders of the Prosecutor-General of Russia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Yle"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

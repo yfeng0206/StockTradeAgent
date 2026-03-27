@@ -1,0 +1,305 @@
+{
+  "date": "2020-02-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 31,
+  "categories": {
+    "geopolitical": {
+      "count": 13,
+      "headlines": [
+        "Syrian civil war, Northwestern Syria offensive (December 2019–March 2020), Turkish involvement in the Syrian Civil War",
+        "A cyber attack in Australia forces the cancellation of wool sales across the country.",
+        "European migrant crisis"
+      ]
+    },
+    "health": {
+      "count": 14,
+      "headlines": [
+        "COVID-19 pandemic",
+        "The decision to build a third runway at Heathrow Airport is found to be unlawful by the Court of Appeal because the British government did not take into account its commitments under the Paris Agreeme"
+      ]
+    },
+    "business": {
+      "count": 3,
+      "headlines": [
+        "Economic impact of the COVID-19 pandemic"
+      ]
+    },
+    "tech": {
+      "count": 1,
+      "headlines": [
+        "Astronomers discover the largest known explosion ever in the history of the Universe, which occurred in the Ophiuchus galaxy cluster. It replaces MS 0735.6+7421. As space and ground telescopes that st"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Syrian civil war, Northwestern Syria offensive (December 2019–March 2020), Turkish involvement in the Syrian Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Syrian opposition groups backed by Turkey recapture the strategic city of Saraqib, lift the siege on four Turkish observation points and cut the M5 highway.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "SOHR",
+        "Xinhua"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A Turkish sniper kills a Syrian lieutenant colonel in Syria's Tell Abyad countryside.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "SOHR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Three Turkish soldiers are killed in Syrian Army attacks in Idlib, bringing the number of Turkish soldiers killed in Syria to 21.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "36 Syrian Army troops and 25 Turkish-backed rebels are killed, bringing the total death toll in Idlib since December to 1,186 opposition fighters and 1,136 Syrian government soldiers.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "SOHR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Airstrikes kill at least 33 Turkish troops and injures 39 others in Jabal Zawiya, Idlib Governorate.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Daily Sabah''",
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkey says it has 'neutralized' 1,709 Syrian government elements in Idlib since 10 February 2020 and that it has destroyed 55 tanks, 3 helicopters, 18 armored vehicles, 29 howitzers, 21 military vehicles, 4 Docka anti-aircraft guns, 6 ammunition depots and 7 mortars in the operations.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkey opens its border with Syria and allows Syrian refugees free passage to Europe effective immediately for the next 72 hours.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''Middle East Eye''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkish Foreign Minister Mevlüt Çavuşoğlu and NATO Secretary General Jens Stoltenberg hold talks amid the escalation in Idlib with Syria and Russia.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Twitter, Facebook and Instagram are blocked in Turkey, while YouTube and WhatsApp are partially restricted. It is understood that the measures are intended to protect details surrounding troop and equipment deployments.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Netblocks"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A cyber attack in Australia forces the cancellation of wool sales across the country.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "ABC AU"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Economic impact of the COVID-19 pandemic",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Dow Jones Industrial Average enters correction territory after plunging 700 points at opening.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Markets are on pace for their worst week since the 2008 financial crisis.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''Market Watch''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Iran",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Vice President for Family Affairs Masoumeh Ebtekar is infected with the novel coronavirus.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "236 more coronavirus cases are confirmed in Italy, bringing the number to 655. Five more virus-related deaths are confirmed, bringing the death toll in the country to seventeen. Forty-five people recovered from the disease.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''La Repubblica''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A woman is diagnosed with the coronavirus after a possible person-to-person transmission. It would be the first case of transmission in the United States with no known contacts to overseas cases.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "NBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Saudi Arabia temporarily suspends entry to the kingdom for the Umrah Islamic pilgrimage and visits to al Al-Masjid an-Nabawi in Medina due to fears over the spread of the deadly novel coronavirus.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Saudi Arabia blocks all foreign pilgrims from entering the country. This block happens just before the Ramadan fasting.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "ABC AU"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Prime Minister of Japan Shinzo Abe announces that all junior and high schools will be asked to close from March 2 until their upcoming spring break to help fight the coronavirus pandemic.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Estonia confirms their first case.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Greece confirms its second and third cases and cancels all Carnival-related events.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The first case in San Marino is confirmed.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Alta Rimini''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The decision to build a third runway at Heathrow Airport is found to be unlawful by the Court of Appeal because the British government did not take into account its commitments under the Paris Agreement to combat climate change.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "European migrant crisis",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A senior Turkish official tells Reuters that Turkey \"will no longer stop Syrian refugees from reaching Europe\".",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Astronomers discover the largest known explosion ever in the history of the Universe, which occurred in the Ophiuchus galaxy cluster. It replaces MS 0735.6+7421. As space and ground telescopes that study radio emissions improve (which are better than X-ray observations for detecting these), more similar explosions, or \"giant radio fossils\", may be found.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "Phys",
+        "CNN",
+        "Astrophysics via arXiv at Cornell University"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

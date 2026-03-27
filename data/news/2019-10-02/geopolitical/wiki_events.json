@@ -1,0 +1,284 @@
+{
+  "date": "2019-10-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 28,
+  "categories": {
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "2020 United States presidential election, Bernie Sanders 2020 presidential campaign"
+      ]
+    },
+    "business": {
+      "count": 4,
+      "headlines": [
+        "The World Trade Organization authorizes the United States to impose about US$7.5 billion in tariffs on goods from the European Union every year. The WTO started the probe in 2005 after the United Stat",
+        "American retailer Bed Bath & Beyond announces it will close 60 stores by the end of the year due to declining profits.",
+        "A foreign exchange trader, Rohan Ramchandani, has filed a lawsuit against Citigroup. Ramchandani won acquittal last year after criminal charges of market manipulation. He claims that the charges were "
+      ]
+    },
+    "geopolitical": {
+      "count": 6,
+      "headlines": [
+        "2018–19 Arab protests",
+        "Japan–North Korea relations, North Korean missile tests",
+        "U.S. Secretary of State Mike Pompeo speaks out about China's religious freedom violations during a visit to the Vatican."
+      ]
+    },
+    "disaster": {
+      "count": 8,
+      "headlines": [
+        "Following yesterday's collapse of Nanfang'ao Bridge in Su'ao, Taiwan, onto fishing boats, rescuers recover four bodies. Three are identified as foreign fishermen, with a fourth corpse unidentified. Tw",
+        "2019 Boeing B-17 Flying Fortress crash",
+        "Schoharie limousine crash",
+        "At least 14 people are killed after an illegal gold mine collapses in the Democratic Republic of the Congo's Maniema province. Search efforts are underway for others who could be trapped.",
+        "Star City fire"
+      ]
+    },
+    "legal": {
+      "count": 8,
+      "headlines": [
+        "Corruption in Israel",
+        "Internet censorship in Singapore",
+        "2019 Trump–Ukraine scandal, Impeachment inquiry into Donald Trump",
+        "Immigration policy of Donald Trump"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2018–19 Arab protests",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least five people are killed in a second day of spontaneous protests against unemployment, government corruption and lack of basic services in Iraq. Police say they have \"lost control\" of the city of Nassiriya after exchanging gunfire with protesters. Curfews are imposed on the Iraqi cities of Baghdad, Nassiriya, Amarah and Hillah.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "AP",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The World Trade Organization authorizes the United States to impose about US$7.5 billion in tariffs on goods from the European Union every year. The WTO started the probe in 2005 after the United States complained that European subsidies to Airbus damage Boeing airplane sales.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States announces a tariff of 10% on European-made Airbus planes and 25% on a range of goods, set to take effect on 18 October.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "American retailer Bed Bath & Beyond announces it will close 60 stores by the end of the year due to declining profits.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A foreign exchange trader, Rohan Ramchandani, has filed a lawsuit against Citigroup. Ramchandani won acquittal last year after criminal charges of market manipulation. He claims that the charges were instigated by his former employer in order to mitigate the regulatory consequences for its own misbehavior.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Following yesterday's collapse of Nanfang'ao Bridge in Su'ao, Taiwan, onto fishing boats, rescuers recover four bodies. Three are identified as foreign fishermen, with a fourth corpse unidentified. Two people remain missing.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Boeing B-17 Flying Fortress crash",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A World War II-era B-17 crashes near Bradley International Airport in the U.S. state of Connecticut, killing at least seven of the 13 people on board.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "NBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Schoharie limousine crash",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The National Transportation Safety Board of the United States, as part of its investigation, issues a series of recommendations to the National Highway Traffic Safety Administration asking it to mandate improved seatbelt and construction standard for stretch limousines.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 14 people are killed after an illegal gold mine collapses in the Democratic Republic of the Congo's Maniema province. Search efforts are underway for others who could be trapped.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Star City fire",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A fire razed Star City, an amusement park in Pasay, Philippines in a suspected arson attack early morning.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Yahoo! News UK"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan–North Korea relations, North Korean missile tests",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Japanese Prime Minister Shinzō Abe condemns in the strongest terms the latest North Korean missile tests and says they clearly violate United Nations Security Council resolutions.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "North Korean state media says the country has successfully tested a new type of submarine-launched ballistic missile (SLBM) off the coast of Wonsan.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Deutsche Welle",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. Secretary of State Mike Pompeo speaks out about China's religious freedom violations during a visit to the Vatican.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Catholic News Agency"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Corruption in Israel",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli Prime Minister Benjamin Netanyahu faces a pretrial hearing regarding the charges against him in Case 4000, one of the three corruption cases in which the Israeli Attorney General Avichai Mandelblit decided to indict him, pending a hearing.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Internet censorship in Singapore",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Protection from Online Falsehoods and Manipulation Act (POFMA), a law giving the Singaporean government more powers to stop the spread of designated falsehoods and fake news, goes into effect. Rights groups like Human Rights Watch and journalists worry the law could be used to stifle dissent and free expression.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Trump–Ukraine scandal, Impeachment inquiry into Donald Trump",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A whistleblower who filed a complaint against U.S. President Donald Trump over a phone conversation with Ukrainian President Volodymyr Zelensky sought guidance from the House Permanent Select Committee on Intelligence prior to the filing, Representative Adam Schiff's office says, but denies seeing the complaint in advance.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Immigration policy of Donald Trump",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Donald Trump administration says it is preparing to broadly expand DNA collection from migrants in U.S. detention.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "NBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2020 United States presidential election, Bernie Sanders 2020 presidential campaign",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. Senator Bernie Sanders suspends campaigning for the 2020 U.S. presidential election \"until further notice\" after the discovery of artery blockage during a medical evaluation for chest discomfort results in surgery.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

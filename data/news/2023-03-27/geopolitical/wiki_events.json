@@ -1,0 +1,258 @@
+{
+  "date": "2023-03-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 29,
+  "categories": {
+    "other": {
+      "count": 29,
+      "headlines": [
+        "Russian invasion of Ukraine",
+        "Afghanistan conflict",
+        "At least seven people are killed by a landslide in Alausí, Chimborazo Province, Ecuador.",
+        "A train transporting hazardous materials derails near Wyndmere, North Dakota, United States, with 31 out of 70 train cars damaged.",
+        "Eleven people are killed after a fire breaks out in a warehouse in Cang County, Hebei, China."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Attacks on civilians in the Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A Russian missile strike on Sloviansk, Donetsk Oblast, kills at least two civilians and injures 29 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The head of the Blagodarnensky District in Stavropol Krai, Russia, announces the death of Dmitry Lisitsky, commander of a battalion of the 247th Guards Air Assault Regiment who participated in the 2014 Battle of Ilovaisk. Ukraine says that he was killed in battle while pro-Russian sources say that he committed suicide.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Novaya Gazeta Europe''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Afghanistan conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people are killed and several others are injured when a suicide bomber detonates himself near the Ministry of Foreign Affairs headquarters in Kabul, Afghanistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least seven people are killed by a landslide in Alausí, Chimborazo Province, Ecuador.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A train transporting hazardous materials derails near Wyndmere, North Dakota, United States, with 31 out of 70 train cars damaged.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KARE-TV"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Eleven people are killed after a fire breaks out in a warehouse in Cang County, Hebei, China.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Twenty people are killed and around 29 others are injured after a bus crashes and overturns in 'Asir Province, Saudi Arabia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Foreign relations of Taiwan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Cross-Strait relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Former Taiwanese President Ma Ying-jeou becomes the first Taiwanese leader to visit mainland China since the end of the Chinese Civil War in 1949, meeting with China's Taiwan Affairs Office deputy chair Chen Yuanfeng in Shanghai. Taiwan's ruling Democratic Progressive Party criticized this visit as \"endorsing\" China's position on Taiwan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Honduran President Xiomara Castro orders Taiwanese diplomats to vacate the country's embassy in Tegucigalpa within 30 days, one day after the country established diplomatic relations with the People's Republic of China.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Enlargement of NATO",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Finland–Hungary relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The National Assembly of Hungary votes 182–6 to approve Finland's accession to NATO, leaving Turkey as the last remaining NATO member to approve Finland's membership in the military alliance.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Covenant School shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people are killed in a mass shooting at the Covenant School in Nashville, Tennessee, United States. The suspect is later killed by responding police officers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Burkina Faso suspends France 24 broadcasts after the news agency aired an interview with the leader of al-Qaeda in the Islamic Maghreb earlier this month. The Burkinabé government accused France 24 of being a \"mouthpiece for terrorists\" and \"hate speech\", which the agency denies as \"unfounded\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and five others are injured in a mass stabbing at a school in São Paulo, Brazil.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Israeli anti-judicial reform protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Prime minister Benjamin Netanyahu announces a pause on his government's controversial judicial reform bill until April 30, the opening of the Knesset's summer session.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Scottish National Party leadership election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Health and Social Care Secretary Humza Yousaf is elected as the new leader of the separatist Scottish National Party, defeating Finance Secretary Kate Forbes with 52.1% of the vote.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Iraqi Parliament passes 206–12 a series of amendments reducing the electoral districts in each governorate to one, ahead of local elections in November. Voting blocs and independent members who boycotted the vote claim the amendments make it more difficult for the opposition to get elected.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Censorship of TikTok, Censorship of Twitter",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "France bans the use of Instagram, TikTok, Twitter, and other apps on government employees' phones due to concerns relating to insufficient data security measures.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Scientists discover lunar water samples in tiny glass beads from the Moon in studies published by the Nature Geoscience journal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2022-11-07",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 9,
+  "categories": {
+    "other": {
+      "count": 9,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Somali Civil War",
+        "A fire occurs at a chemical plant in Brunswick, Georgia, United States, prompting evacuations due to the danger of hazardous smoke and explosions. A firefighter is injured while fighting the fire.",
+        "Foreign relations of Algeria"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign aid to Ukraine during the Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukraine confirms that it has received the first delivery of the NASAMS surface-to-air missile system, which will \"significantly strengthen\" its armed forces, according to Defence Minister Oleksii Reznikov.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Somali Civil War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ten people are killed by al-Shabaab militants at a military base in Galguduud, Somalia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A fire occurs at a chemical plant in Brunswick, Georgia, United States, prompting evacuations due to the danger of hazardous smoke and explosions. A firefighter is injured while fighting the fire.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Foreign relations of Algeria",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Algeria formally applies to join the BRICS economic group.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Middle East Monitor"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

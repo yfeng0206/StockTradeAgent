@@ -1,0 +1,350 @@
+{
+  "date": "2023-10-09",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 40,
+  "categories": {
+    "other": {
+      "count": 40,
+      "headlines": [
+        "Israeli–Palestinian conflict",
+        "Myanmar civil war",
+        "Claudia Goldin is awarded the Nobel Memorial Prize in Economic Sciences for her research into female income and employment.",
+        "2023 Pacific hurricane season",
+        "2023 Sikkim flash floods"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel–Hamas war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Al-Shati refugee camp airstrike",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israel launches airstrikes on the Al-Shati refugee camp in the Gaza Strip, resulting in civilian casualties.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "International reactions to the Israel–Hamas war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Pro-Palestine and pro-Israel protests are held in London, United Kingdom, with pro-Palestinian protesters also gathering at the Israeli Embassy.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The National News''",
+        "AA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Nations Security Council meets in an emergency session but fails to achieve unanimity for a joint statement.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Jabalia camp market airstrike",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israel launches airstrikes on a market in the Jabalia Camp in the Gaza Strip, killing more than 60 civilians and injuring 120 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Israeli blockade of the Gaza Strip",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Israel announces a total blockade of the Gaza Strip, encompassing supplies of food, water, electricity, and gas.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli air attacks and shelling targeting houses and apartment buildings displace over 123,000 people in Gaza, according to the UN Office for Humanitarian Affairs.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Xinhua"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 22 members of a Palestinian family, including seven children, are killed in an Israeli air strike in Khan Younis, Gaza Strip. Six members of the family remain trapped under the rubble of the destroyed house.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The death toll from the Israeli airstrikes in the Gaza Strip increases to 687 people, with more than 3,800 injured. The death toll in Israel increases to 900 with more than 2,500 injured.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera",
+        "''Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In Beita, Nablus, a Palestinian is shot by Israeli soldiers. Earlier, one Palestinian was killed by Israeli forces in Hebron, West Bank, one in Jericho, and two in Ramallah.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In Duma, Nablus, a Palestinian is shot by Israeli soldiers, while Israeli settlers torch cars and attack farmers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In Einabus, West Bank, two Palestinians are shot by Israeli soldiers. Twelve people are evacuated for tear gas inhalation, with Israeli forces attempting to stop the evacuation by emergency services.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Thailand's Ministry of Foreign Affairs confirms that 18 Thais, mostly migrant workers, have been killed, while several others have been taken hostage by the militant group.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2024 Iran–Israel conflict, Israel–Hezbollah conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Four Hezbollah members killed in an Israeli airstrike on Marwahin and Ayta ash Shab, Lebanon",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Two IDF soldiers, Lt. Col Alim Abdallah, Deputy Commander of the IDF's 300th Brigade killed and three IDF soldiers wounded in a rocket and artillery shootout on the border with Hezbollah.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Dawn",
+        "Israel National News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Myanmar civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Tatmadaw launches an artillery attack on an IDP camp near Laiza, Kachin State, killing at least 29 people and injuring 56 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Claudia Goldin is awarded the Nobel Memorial Prize in Economic Sciences for her research into female income and employment.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Pacific hurricane season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Tropical Storm Max makes landfall in Guerrero, Mexico. Tropical storm warnings are issued for the states of Guerrero and Michoacán.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Sikkim flash floods",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The death toll from the floods in Sikkim, India, increases to 74.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NOS"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Haitian crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Kenya temporarily blocks the government from deploying police personnel to Haiti until 24 October.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A car crashes into the Chinese consulate in San Francisco, California, United States, and its driver is shot dead by police.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Peruvian police liberate 44 individuals, mostly Malaysians, from a Taiwanese organized crime group's extortion scheme in La Molina, Lima. Concurrently, six Taiwanese and two Peruvians are arrested, and the victims, who were deceived with job offers and trafficked via Amsterdam, Netherlands, will be extradited to Malaysia following an investigative process.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Straits Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Guatemalan general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Dozens of road blockades are reported throughout the country, mainly in Guatemala City, organized by community organizations demanding the resignation of Attorney General María Consuelo Porras.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Prensa Libre''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2024 United States presidential election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Robert F. Kennedy Jr. 2024 presidential campaign",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Robert F. Kennedy Jr. withdraws from seeking the Democratic nomination and announces an independent bid for the presidency.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Former U.S. Representative (TX-23) Will Hurd suspends his campaign for the Republican nomination and endorses Nikki Haley.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the 2023 Gabonese coup d'état",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gabonese leader Brice Oligui Nguema appoints a new parliament with 98 members, including opposition leaders and pro-Bongo politicians.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

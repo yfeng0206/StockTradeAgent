@@ -1,0 +1,82 @@
+{
+  "date": "2022-08-08",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 8,
+  "categories": {
+    "other": {
+      "count": 8,
+      "headlines": [
+        "Insurgency in Northern Chad",
+        "Foreign aid to Ukraine during the Russo-Ukrainian War",
+        "Russia–United States relations",
+        "FBI search of Mar-a-Lago"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Insurgency in Northern Chad",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The government of Chad and more than 30 rebel and opposition factions sign a peace agreement at talks in Doha, Qatar. However, the main rebel group Front for Change and Concord in Chad rejects the agreement, saying that negotiators had not listened to their demands, which included the release of political prisoners.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Foreign aid to Ukraine during the Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Pentagon announces that it will send Ukraine an additional $1 billion in military assistance, including tens of thousands more munitions and explosives, the largest such aid package to the country since the start of the invasion.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Russia suspends New START arms inspections of its nuclear weapons in response to travel restrictions imposed by the United States and its allies.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "FBI search of Mar-a-Lago",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Federal Bureau of Investigation executes a search warrant at Mar-a-Lago, the primary residence of former U.S. president Donald Trump, as part of a Justice Department investigation into Trump.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

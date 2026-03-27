@@ -1,0 +1,156 @@
+{
+  "date": "2022-06-16",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "other": {
+      "count": 16,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "The United States announces the capture of a senior ISIL leader in Syria.",
+        "One Sudanese protester is shot dead after a flare up of anti-military protests in Khartoum and Omdurman.",
+        "2022 Russia–European Union gas dispute",
+        "United States sanctions against Iran"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian officials say that four people have been killed and six others have been injured in a rocket attack in Sumy overnight.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The mayor of Melitopol claims that Ukrainian farmers caused \"mass illness\" in Russian troops by poisoning cherries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "The Daily Beast"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States announces the capture of a senior ISIL leader in Syria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "One Sudanese protester is shot dead after a flare up of anti-military protests in Khartoum and Omdurman.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russia–European Union gas dispute",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "European benchmark natural gas prices increase by around 30% after Russia's Gazprom reduced Nord Stream 1's gas supply to Germany to 40% of the pipeline's capacity. Russia blames maintenance problems resulting from Canada's refusal to return equipment that was sent for repair and warns that usage of the pipeline could be completely suspended.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "United States sanctions against Iran",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Oil prices increase in the United States following the Biden administration's announcement of new sanctions against Iran's petrochemicals industry. The sanctions are an effort to force Iran to comply with the Joint Comprehensive Plan of Action, from which the United States unilaterally withdrew in 2018.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Four people are killed and five others are injured in a building fire in the town of Handlova, Slovakia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Firefighters fight wildfires across Catalonia and Navarre, Spain, as temperatures reach , complicating the efforts of the firefighters.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Sergey Cherkasov, a Russian military intelligence official, is expelled from the Netherlands for attempting to begin an internship at the International Criminal Court in The Hague using a fake Brazilian identity. Cherkasov will now face a criminal trial in Brazil.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''",
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people are killed in a shooting at an Episcopal Church in Vestavia Hills, Alabama, United States.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 NBA Finals",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In basketball, the Golden State Warriors defeat the Boston Celtics in six games to win their fourth NBA championship in eight years. Stephen Curry is named NBA Finals MVP.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''",
+        "KION-TV"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

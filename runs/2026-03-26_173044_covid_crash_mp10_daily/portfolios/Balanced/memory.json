@@ -1,0 +1,750 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2020-01-02",
+      "regime": "bullish"
+    },
+    {
+      "date": "2020-01-27",
+      "regime": "normal"
+    },
+    {
+      "date": "2020-02-05",
+      "regime": "bullish"
+    },
+    {
+      "date": "2020-02-21",
+      "regime": "normal"
+    },
+    {
+      "date": "2020-02-25",
+      "regime": "bearish"
+    },
+    {
+      "date": "2020-03-02",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2020-03-03",
+      "regime": "crisis"
+    },
+    {
+      "date": "2020-04-14",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2020-04-15",
+      "regime": "crisis"
+    },
+    {
+      "date": "2020-04-16",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2020-04-21",
+      "regime": "crisis"
+    },
+    {
+      "date": "2020-04-22",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2020-05-19",
+      "regime": "normal"
+    },
+    {
+      "date": "2020-05-26",
+      "regime": "bullish"
+    },
+    {
+      "date": "2020-06-11",
+      "regime": "high_volatility"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2020-01-02",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2020-01-09",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2020-01-10",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2020-01-13",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2020-01-14",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2020-01-17",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2020-01-23",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2020-01-24",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2020-01-27",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2020-01-28",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2020-01-29",
+      "context": "geo_risk=0.82"
+    },
+    {
+      "date": "2020-01-30",
+      "context": "geo_risk=0.78"
+    },
+    {
+      "date": "2020-01-31",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2020-02-03",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2020-02-04",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2020-02-05",
+      "context": "geo_risk=0.71"
+    },
+    {
+      "date": "2020-02-06",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2020-02-07",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2020-02-10",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2020-02-12",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2020-02-13",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2020-02-14",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2020-02-17",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2020-02-18",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2020-02-21",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2020-03-12",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2020-03-13",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2020-03-16",
+      "context": "geo_risk=0.95"
+    },
+    {
+      "date": "2020-03-17",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2020-03-18",
+      "context": "geo_risk=0.98"
+    },
+    {
+      "date": "2020-03-19",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2020-03-20",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2020-03-23",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2020-03-24",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2020-03-26",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2020-03-27",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2020-03-30",
+      "context": "geo_risk=0.98"
+    },
+    {
+      "date": "2020-03-31",
+      "context": "geo_risk=0.99"
+    },
+    {
+      "date": "2020-04-02",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2020-04-03",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2020-04-06",
+      "context": "geo_risk=0.82"
+    },
+    {
+      "date": "2020-04-07",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2020-04-08",
+      "context": "geo_risk=0.79"
+    },
+    {
+      "date": "2020-04-09",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2020-04-10",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2020-04-13",
+      "context": "geo_risk=0.90"
+    },
+    {
+      "date": "2020-04-14",
+      "context": "geo_risk=0.92"
+    },
+    {
+      "date": "2020-04-15",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2020-04-16",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2020-04-17",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2020-04-20",
+      "context": "geo_risk=0.41"
+    },
+    {
+      "date": "2020-04-21",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2020-04-22",
+      "context": "geo_risk=0.31"
+    },
+    {
+      "date": "2020-04-23",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2020-04-24",
+      "context": "geo_risk=0.44"
+    },
+    {
+      "date": "2020-04-27",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2020-04-28",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2020-04-29",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2020-04-30",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2020-05-01",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2020-05-04",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2020-05-05",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2020-05-07",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2020-05-11",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2020-05-14",
+      "context": "geo_risk=0.80"
+    },
+    {
+      "date": "2020-05-15",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2020-05-18",
+      "context": "geo_risk=0.93"
+    },
+    {
+      "date": "2020-05-19",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2020-05-20",
+      "context": "geo_risk=0.97"
+    },
+    {
+      "date": "2020-05-21",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2020-05-22",
+      "context": "geo_risk=0.82"
+    },
+    {
+      "date": "2020-05-25",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2020-05-26",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2020-05-27",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2020-05-28",
+      "context": "geo_risk=0.74"
+    },
+    {
+      "date": "2020-05-29",
+      "context": "geo_risk=0.75"
+    },
+    {
+      "date": "2020-06-01",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2020-06-03",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2020-06-11",
+      "context": "geo_risk=0.81"
+    },
+    {
+      "date": "2020-06-12",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2020-06-15",
+      "context": "geo_risk=0.87"
+    },
+    {
+      "date": "2020-06-16",
+      "context": "geo_risk=0.88"
+    },
+    {
+      "date": "2020-06-17",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2020-06-18",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2020-06-19",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2020-06-22",
+      "context": "geo_risk=0.40"
+    },
+    {
+      "date": "2020-06-23",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2020-06-24",
+      "context": "geo_risk=0.31"
+    },
+    {
+      "date": "2020-06-25",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2020-06-26",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2020-06-29",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2020-06-30",
+      "context": "geo_risk=0.71"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "JNJ",
+      "pnl_pct": 2.88,
+      "date": "2020-02-03",
+      "held_from": "2020-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NFLX",
+      "pnl_pct": 8.55,
+      "date": "2020-02-03",
+      "held_from": "2020-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "GS",
+      "pnl_pct": 2.0,
+      "date": "2020-02-03",
+      "held_from": "2020-01-02",
+      "regime": "normal"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "JPM",
+      "pnl_pct": -3.07,
+      "date": "2020-01-07",
+      "held_from": "2020-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "XOM",
+      "pnl_pct": -2.93,
+      "date": "2020-01-16",
+      "held_from": "2020-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMZN",
+      "pnl_pct": -3.67,
+      "date": "2020-01-27",
+      "held_from": "2020-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -3.99,
+      "date": "2020-01-29",
+      "held_from": "2020-01-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": -2.36,
+      "date": "2020-02-05",
+      "held_from": "2020-02-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": -4.68,
+      "date": "2020-02-12",
+      "held_from": "2020-02-03",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": -6.67,
+      "date": "2020-02-25",
+      "held_from": "2020-02-03",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "AAPL",
+      "pnl_pct": -6.45,
+      "date": "2020-02-25",
+      "held_from": "2020-02-03",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "V",
+      "pnl_pct": -5.68,
+      "date": "2020-02-27",
+      "held_from": "2020-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "KO",
+      "pnl_pct": -6.23,
+      "date": "2020-02-27",
+      "held_from": "2020-02-03",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "MCD",
+      "pnl_pct": -6.59,
+      "date": "2020-02-27",
+      "held_from": "2020-02-03",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": -3.61,
+      "date": "2020-02-27",
+      "held_from": "2020-02-03",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": -6.81,
+      "date": "2020-02-28",
+      "held_from": "2020-01-02",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": -13.19,
+      "date": "2020-03-12",
+      "held_from": "2020-01-02",
+      "regime": "crisis"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": -5.77,
+      "date": "2020-06-12",
+      "held_from": "2020-05-19",
+      "regime": "high_volatility"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": -3.6,
+      "date": "2020-06-15",
+      "held_from": "2020-06-01",
+      "regime": "high_volatility"
+    }
+  ],
+  "lessons": [
+    "Win rate: 16% (3W / 16L)",
+    "Avg win: +4.5%, Avg loss: -5.3%",
+    "Regimes encountered: 15 changes",
+    "Regime 'normal': avg PnL +1.2% over 5 trades",
+    "Regime 'bullish': avg PnL -3.3% over 4 trades",
+    "Regime 'bearish': avg PnL -6.0% over 7 trades",
+    "Regime 'crisis': avg PnL -13.2% over 1 trades",
+    "Regime 'high_volatility': avg PnL -4.7% over 2 trades"
+  ],
+  "best_ticker": "NFLX +8.55%",
+  "worst_ticker": "MSFT -13.19%",
+  "ticker_history": {
+    "JPM": [
+      {
+        "pnl": -3.07,
+        "regime": "bullish",
+        "date": "2020-01-07"
+      }
+    ],
+    "XOM": [
+      {
+        "pnl": -2.93,
+        "regime": "bullish",
+        "date": "2020-01-16"
+      }
+    ],
+    "AMZN": [
+      {
+        "pnl": -3.67,
+        "regime": "normal",
+        "date": "2020-01-27"
+      }
+    ],
+    "PFE": [
+      {
+        "pnl": -3.99,
+        "regime": "normal",
+        "date": "2020-01-29"
+      }
+    ],
+    "JNJ": [
+      {
+        "pnl": 2.88,
+        "regime": "normal",
+        "date": "2020-02-03"
+      }
+    ],
+    "NFLX": [
+      {
+        "pnl": 8.55,
+        "regime": "normal",
+        "date": "2020-02-03"
+      }
+    ],
+    "GS": [
+      {
+        "pnl": 2.0,
+        "regime": "normal",
+        "date": "2020-02-03"
+      }
+    ],
+    "SO": [
+      {
+        "pnl": -2.36,
+        "regime": "bullish",
+        "date": "2020-02-05"
+      }
+    ],
+    "MRK": [
+      {
+        "pnl": -4.68,
+        "regime": "bullish",
+        "date": "2020-02-12"
+      }
+    ],
+    "MA": [
+      {
+        "pnl": -6.67,
+        "regime": "bearish",
+        "date": "2020-02-25"
+      }
+    ],
+    "AAPL": [
+      {
+        "pnl": -6.45,
+        "regime": "bearish",
+        "date": "2020-02-25"
+      }
+    ],
+    "V": [
+      {
+        "pnl": -5.68,
+        "regime": "bearish",
+        "date": "2020-02-27"
+      }
+    ],
+    "KO": [
+      {
+        "pnl": -6.23,
+        "regime": "bearish",
+        "date": "2020-02-27"
+      }
+    ],
+    "MCD": [
+      {
+        "pnl": -6.59,
+        "regime": "bearish",
+        "date": "2020-02-27"
+      }
+    ],
+    "NEE": [
+      {
+        "pnl": -3.61,
+        "regime": "bearish",
+        "date": "2020-02-27"
+      }
+    ],
+    "LMT": [
+      {
+        "pnl": -6.81,
+        "regime": "bearish",
+        "date": "2020-02-28"
+      }
+    ],
+    "MSFT": [
+      {
+        "pnl": -13.19,
+        "regime": "crisis",
+        "date": "2020-03-12"
+      }
+    ],
+    "WMT": [
+      {
+        "pnl": -5.77,
+        "regime": "high_volatility",
+        "date": "2020-06-12"
+      }
+    ],
+    "COST": [
+      {
+        "pnl": -3.6,
+        "regime": "high_volatility",
+        "date": "2020-06-15"
+      }
+    ]
+  },
+  "regime_performance": {
+    "bullish": {
+      "wins": 0,
+      "losses": 4,
+      "total": 4,
+      "total_pnl": -13.04
+    },
+    "normal": {
+      "wins": 3,
+      "losses": 2,
+      "total": 5,
+      "total_pnl": 5.7700000000000005
+    },
+    "bearish": {
+      "wins": 0,
+      "losses": 7,
+      "total": 7,
+      "total_pnl": -42.040000000000006
+    },
+    "crisis": {
+      "wins": 0,
+      "losses": 1,
+      "total": 1,
+      "total_pnl": -13.19
+    },
+    "high_volatility": {
+      "wins": 0,
+      "losses": 2,
+      "total": 2,
+      "total_pnl": -9.37
+    }
+  }
+}

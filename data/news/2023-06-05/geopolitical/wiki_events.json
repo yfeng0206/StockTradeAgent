@@ -1,0 +1,167 @@
+{
+  "date": "2023-06-05",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "other": {
+      "count": 18,
+      "headlines": [
+        "Russian invasion of Ukraine",
+        "Insurgency in Khyber Pakhtunkhwa",
+        "Apple announces and demonstrates the Vision Pro mixed reality headset at its Worldwide Developers Conference. It is the company's first major new product in almost 10 years and is expected to be comme",
+        "2023 Haiti floods",
+        "One person is missing after a suspension bridge over the Ganges River in Bhagalpur district, Bihar, India, collapses for the second time in less than two months."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Belgorod Oblast incursions",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Russian Volunteer Corps claims to have captured the village of Novaya Tavolzhanka in the Belgorod region of Russia. The governor of Belgorod, Vyacheslav Gladkov, says that about 100 civilians are still trapped in the village and cannot be evacuated because of continued shelling.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Novaya Gazeta Europe''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Wagner Group mercenaries publish a video of a captured Russian commander claiming that he had ordered his troops to fire on a Wagner convoy leaving Bakhmut.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Insurgency in Khyber Pakhtunkhwa",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two soldiers and two Pakistani Taliban members are killed in a shootout in North Waziristan, Khyber Pakhtunkhwa, Pakistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Apple announces and demonstrates the Vision Pro mixed reality headset at its Worldwide Developers Conference. It is the company's first major new product in almost 10 years and is expected to be commercially available in early 2024.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Haiti floods",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Fifty-one people are killed, 140 others are injured and eleven are missing after severe flooding in Haiti.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "One person is missing after a suspension bridge over the Ganges River in Bhagalpur district, Bihar, India, collapses for the second time in less than two months.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Capital punishment in South Korea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Ministry of Justice says it will submit a bill to parliament to lift the ban on carrying out death sentences after 30 years, although South Korea has not carried out an execution since 1997.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Yonhap"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "New South Wales Governor Margaret Beazley unconditionally pardons Kathleen Folbigg, releasing her 20 years into a 25-year sentence for killing all four of her children, after scientific and medical research suggested the deaths were caused by genetic mutations.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Mike Pence 2024 presidential campaign",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former Vice President Mike Pence officially files to run for President of the United States in 2024.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Delfina Gómez of the MORENA party defeats Alejandra del Moral Vela in the election for governor of the state of Mexico, ending 94 years of the PRI rule in the state.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Twitter under Elon Musk",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Linda Yaccarino officially replaces Elon Musk as the new CEO of Twitter.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

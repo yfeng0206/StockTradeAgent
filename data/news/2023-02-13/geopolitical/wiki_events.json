@@ -1,0 +1,147 @@
+{
+  "date": "2023-02-13",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "other": {
+      "count": 16,
+      "headlines": [
+        "2023 Turkey–Syria earthquake",
+        "At least twelve people are injured by an explosion at a construction site in Ottawa, Ontario, Canada.",
+        "The Equatoguinean health ministry confirms an outbreak of the Marburg virus in the country, which has killed nine people within the last month.",
+        "Humanitarian response to the 2023 Turkey–Syria earthquake",
+        "Blasphemy in Pakistan"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2023 Turkey–Syria earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The death toll of the earthquake in Turkey and Syria surpasses 37,000.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least twelve people are injured by an explosion at a construction site in Ottawa, Ontario, Canada.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CTV News Ottawa"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Equatoguinean health ministry confirms an outbreak of the Marburg virus in the country, which has killed nine people within the last month.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ABS-CBN News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Humanitarian response to the 2023 Turkey–Syria earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "United Nations Secretary-General António Guterres agrees with Syrian president Bashar al-Assad to open two of the country's border crossings with Turkey for at least three months to permit access to humanitarian aid.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Manila Standard''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Blasphemy in Pakistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Lynching of Waris",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Police in Punjab, Pakistan, arrest 50 men for the lynching of a blasphemy suspect at a police station in Nankana Sahib District two days ago.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Murder of Brigadier Nofriansyah Yosua Hutabarat",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Indonesian police general Ferdy Sambo is found guilty of killing his adjutant, Nofriansyah Yosua Hutabarat, and is sentenced to death.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Detik"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Michigan State University shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people are killed and five others injured in a mass shooting at Michigan State University in East Lansing, Michigan, United States. The shooter later commits suicide when approached by police.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Moldova–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Moldovan coup d'état plan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "President of Moldova Maia Sandu accuses the Russian government of planning a coup d'état attempt against her.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "La Prensalatina"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

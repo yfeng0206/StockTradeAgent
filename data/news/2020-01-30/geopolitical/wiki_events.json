@@ -1,0 +1,186 @@
+{
+  "date": "2020-01-30",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 17,
+  "categories": {
+    "health": {
+      "count": 8,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "business": {
+      "count": 1,
+      "headlines": [
+        "Arvind Krishna is appointed chief executive officer of IBM, taking over from Ginni Rometty."
+      ]
+    },
+    "geopolitical": {
+      "count": 3,
+      "headlines": [
+        "Syrian civil war, Northwestern Syria offensive (December 2019–March 2020)",
+        "Armed men kill at least six Mayangna Indians and kidnap another ten in the Bosawás Biosphere Reserve, Nicaragua."
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "Massive floods in Madagascar kill 31 people and displace 16,000 others."
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "The Virginia, Nevada, and Illinois state attorneys general file a lawsuit to get the Equal Rights Amendment added to the Constitution of the United States.",
+        "Japanese prosecutors issue arrest warrants against a former United States special operations forces soldier and two others for allegedly helping Carlos Ghosn to escape from Japan. Another arrest warra",
+        "The U.S. Customs and Border Protection reports that in August it discovered a  smuggling tunnel running from Tijuana to San Diego, making it the longest tunnel of its type along the Mexico–United Stat",
+        "Catholic Cardinal Philippe Barbarin is acquitted by an appellate court of having covered up allegations of child sexual abuse by a former priest."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Syrian civil war, Northwestern Syria offensive (December 2019–March 2020)",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Warplanes backed by the Syrian Government strike Ariha, Idlib Governorate, killing at least ten people.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Armed men kill at least six Mayangna Indians and kidnap another ten in the Bosawás Biosphere Reserve, Nicaragua.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Arvind Krishna is appointed chief executive officer of IBM, taking over from Ginni Rometty.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''Wall Street Journal''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Massive floods in Madagascar kill 31 people and displace 16,000 others.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "The Weather Channel"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The World Health Organization declares a \"global emergency\", a rare designation that helps the international agency mobilize financial and political support to contain the pandemic.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "More than 6,000 passengers are barred from disembarking a cruise ship docked at Civitavecchia, Lazio, Italy, after authorities expressed concern that two Chinese passengers have the coronavirus.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two cases of novel coronavirus are confirmed in Italy after two Chinese tourists are recovered in Rome.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Il Messaggero''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Mainland China",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Tibet",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Tibet reports its first case.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''India Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Virginia, Nevada, and Illinois state attorneys general file a lawsuit to get the Equal Rights Amendment added to the Constitution of the United States.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Japanese prosecutors issue arrest warrants against a former United States special operations forces soldier and two others for allegedly helping Carlos Ghosn to escape from Japan. Another arrest warrant was issued against Ghosn himself.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The U.S. Customs and Border Protection reports that in August it discovered a  smuggling tunnel running from Tijuana to San Diego, making it the longest tunnel of its type along the Mexico–United States border. It was possibly used by the Sinaloa Cartel.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Catholic Cardinal Philippe Barbarin is acquitted by an appellate court of having covered up allegations of child sexual abuse by a former priest.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

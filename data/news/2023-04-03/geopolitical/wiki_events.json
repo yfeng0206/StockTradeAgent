@@ -1,0 +1,199 @@
+{
+  "date": "2023-04-03",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "other": {
+      "count": 22,
+      "headlines": [
+        "Russian invasion of Ukraine",
+        "Israeli–Palestinian conflict",
+        "2021–2023 inflation surge",
+        "Acquisition of WWE by Endeavor",
+        "2023 Papua New Guinea earthquake"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Battle of Bakhmut",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Yevgeny Prigozhin, the head of the Wagner Group, claims \"legal control\" of Bakhmut, although Ukraine denies this, stating that its troops continue to remain in the city's western districts.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A Lions' Den militant and a Fatah member are killed during a raid by Israeli soldiers in Nablus, in the occupied West Bank. Two other Palestinians are arrested and dozens more are hospitalized due to tear gas.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021–2023 inflation surge",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Brent crude oil prices increase by $4.30 to $84.19 per barrel after OPEC announces an unexpected reduction in the output of oil exports by about 1.16 million barrels per day. U.S. crude oil prices increase by $4.17 to $79.84 per barrel in response to the announcement.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Acquisition of WWE by Endeavor",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Endeavor Group Holdings, owners of Ultimate Fighting Championship (UFC), announce that they will acquire World Wrestling Entertainment, Inc. in a deal estimated to be worth US$9.3 billion. The two entities will be merged and spun off, with Endeavor controlling 51% of the combined company, and WWE shareholders controlling the remaining 49%.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Papua New Guinea earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A 7.1 magnitude earthquake strikes East Sepik Province, Papua New Guinea, killing eight people, injuring several others, and causing damage.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Papua New Guinea Today"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A magnitude 6.5 earthquake strikes Kamchatka Krai, Russia, with damage reported in Petropavlovsk-Kamchatsky. The Mutnovskaya Power Station is also temporarily shut down.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KAM24"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Four people are injured in a fire at a hospital in Berlin, Germany. One person has been arrested on suspicion of arson.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Six people are killed and 64 others are missing after a boat capsizes in the Lake Kivu, Democratic Republic of the Congo.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Armenia–Russia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Russia announces a ban on Armenian dairy imports amid a continued worsening of relations between the two countries.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Eurasianet''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "NASA announces the four members of Artemis 2, the first crewed mission of the Artemis program which will send astronauts to the Moon for the first time since Apollo 17: Reid Wiseman, Christina Koch, Jeremy Hansen, and Victor J. Glover.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The National Hurricane Center releases a report announcing that Hurricane Ian, which made landfall last year in most of southwest Florida, has been reanalyzed and recategorized as a Category 5 hurricane.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 NCAA Division I men's basketball tournament",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In basketball, the UConn Huskies rout the San Diego State Aztecs 76–59 to win the championship, making it the fifth national championship for the Huskies.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 FIFA U-17 World Cup",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Peru is removed as a host for the FIFA U-17 World Cup after failing to meet the requirements for staging the tournament.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

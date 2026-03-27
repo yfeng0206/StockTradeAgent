@@ -1,0 +1,361 @@
+{
+  "collected": "2026-03-25T10:51:57.785887",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 38,
+  "articles": [
+    {
+      "title": " （ 聚焦博鳌 ） 关税战冲击全球贸易 多国人士吁加强地区合作",
+      "source": "163.com",
+      "url": "https://www.163.com/news/article/KORV7V5C000189FH.html",
+      "published": "20260325T023000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "关税战冲击全球贸易 多国人士吁加强地区合作",
+      "source": "world.qianlong.com",
+      "url": "https://world.qianlong.com/2026/0325/8645140.shtml",
+      "published": "20260325T073000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "关税战下如何构建全球贸易新格局 ？ 多方嘉宾呼吁合作共建稳定贸易秩序",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860594729283165502",
+      "published": "20260325T014500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "  和中国打贸易战 ？ 欧盟打不赢也打不起",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860547020475738786",
+      "published": "20260324T181500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "社评 ： 和中国打贸易战 ？ 欧盟打不赢也打不起",
+      "source": "baijiahao.baidu.com",
+      "url": "https://baijiahao.baidu.com/s?id=1860542635500181893",
+      "published": "20260324T234500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Hürmüz riski : İran için ekonomik sarsıntı kapıda mı ? - ",
+      "source": "cnnturk.com",
+      "url": "https://www.cnnturk.com/ekonomi/hurmuz-riski-iran-icin-ekonomik-sarsinti-kapida-mi-2409770",
+      "published": "20260325T050000Z",
+      "language": "Turkish",
+      "source_country": "Turkey",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "财经人语 ： 14个月12次TACO 特朗普  剧本  市场还买账吗 ？ ",
+      "source": "zaobao.com.sg",
+      "url": "https://www.zaobao.com.sg/finance/singapore/story20260325-8790834",
+      "published": "20260325T160000Z",
+      "language": "Chinese",
+      "source_country": "Singapore",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "關稅敗訴就開戰 ！ 川普轉移操作太精準 專家 ： 非巧合 - 財經",
+      "source": "chinatimes.com",
+      "url": "https://www.chinatimes.com/realtimenews/20260325004910-260410",
+      "published": "20260325T160000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Ambargo bitti , Kanada Dışişleri Sözcüsü Türkiye Gazetesine açıkladı :  Ankara bize can suyu oldu ! ",
+      "source": "turkiyegazetesi.com.tr",
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/ambargo-bitti-kanada-disisleri-sozcusu-turkiye-gazetesine-acikladi-ankara-bize-can-su-1779407",
+      "published": "20260325T091500Z",
+      "language": "Turkish",
+      "source_country": "Turkey",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Украинските дронове методично атакуват руските петролни терминали в Балтийско море",
+      "source": "investor.bg",
+      "url": "https://www.investor.bg/a/518-energetika/428311-ukrainskite-dronove-metodichno-atakuvat-ruskite-petrolni-terminali-v-baltiysko-more",
+      "published": "20260325T124500Z",
+      "language": "Bulgarian",
+      "source_country": "Bulgaria",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "WTO会议前美国为何再提改革最惠国关税 ？ 这一条款为何如此重要 ？ ",
+      "source": "yicai.com",
+      "url": "https://www.yicai.com/news/103104004.html",
+      "published": "20260325T111500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "柯成兴 ： 全球贸易核心挑战转变 RCEP须正视形势",
+      "source": "zaobao.com.sg",
+      "url": "https://www.zaobao.com.sg/news/china/story20260325-8791860",
+      "published": "20260325T163000Z",
+      "language": "Chinese",
+      "source_country": "Singapore",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Cuba has been in Washington crosshairs for decades . The Iran war is raising the stakes - 25 - Mar - 2026",
+      "source": "home.nzcity.co.nz",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=442547",
+      "published": "20260324T223000Z",
+      "language": "English",
+      "source_country": "New Zealand",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Cuba has been in Washington’s crosshairs for decades. Search | NZCity News Start Page Personalise    News Top Stories Business Sports Politics Health & Safety Law and Order Technology Education Living & Travel Entertainment Motoring Environment National Auckland Christchurch Dunedin Hamilton Wellington Upper N. Island International Accidents Maori Rural Local Politics Sport Weather Finance Shopping Jobs Horoscopes Lotto Results Photo Gallery Site Gallery TVNow Dating SearchNZ NZSearch Crime."
+    },
+    {
+      "title": "Aranceles de México desatan choque comercial con China",
+      "source": "meganoticias.mx",
+      "url": "https://www.meganoticias.mx/cdmx/noticia/aranceles-de-mexico-desatan-choque-comercial-con-china/720478",
+      "published": "20260325T173000Z",
+      "language": "Spanish",
+      "source_country": "Mexico",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Donald Trump and Markwayne Mullin insist politics should prevail over principle",
+      "source": "reason.com",
+      "url": "https://reason.com/2026/03/25/trump-and-mullin-insist-that-politics-should-prevail-over-principle/",
+      "published": "20260325T061500Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Some Supreme Court justices are so eager to demonstrate their independence, President Donald Trump complained last week, that they \"openly disrespect the Presidents who nominate them. It \"seems like you fight Republicans more than you work with us,\" Mullin told Paul. Trump and Mullin take it for granted that public officials should be prepared to sacrifice their principles on the altar of party loyalty."
+    },
+    {
+      "title": "China estima pérdidas de 9 , 400 mdd por aranceles de México ; ve barreras a la inversión",
+      "source": "excelsior.com.mx",
+      "url": "https://www.excelsior.com.mx/internacional/china-estima-perdidas-9-400-mdd-por-aranceles-mexico-ve-barreras-inversion",
+      "published": "20260325T140000Z",
+      "language": "Spanish",
+      "source_country": "Mexico",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "CNBC anchor shocked by US trade deficit drop from $136B to $29B the lowest since 2009 . Was Trump right about tariffs ? ",
+      "source": "aol.com",
+      "url": "https://www.aol.com/finance/cnbc-anchor-shocked-us-trade-120000757.html",
+      "published": "20260325T123000Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Jing Pan Wed, March 25, 2026 at 12:00 PM UTC 0 US President Donald Trump dances after the results of the draw for the 2026 FIFA Football World Cup taking place in the US, Canada and Mexico. This article adheres to strict editorial standards. But under President Donald Trump’s sweeping tariffs, that gap suddenly narrowed — and much faster than many expected."
+    },
+    {
+      "title": "China advierte que aranceles de México a sus productos constituyen  barreras comerciale – Periódico Zócalo | Noticias de Saltillo , Torreón , Piedras Negras , Monclova , Acuña",
+      "source": "zocalo.com.mx",
+      "url": "https://www.zocalo.com.mx/china-advierte-que-aranceles-de-mexico-a-sus-productos-constituyen-barreras-comerciales/",
+      "published": "20260325T160000Z",
+      "language": "Spanish",
+      "source_country": "Mexico",
+      "query": "(trade war OR tariffs OR embargo)"
+    },
+    {
+      "title": "Key vote due on EU - US deal amid tariff warning",
+      "source": "africa.chinadaily.com.cn",
+      "url": "http://africa.chinadaily.com.cn/a/202603/25/WS69c33796a310d6866eb3fb66.html",
+      "published": "20260325T023000Z",
+      "language": "English",
+      "source_country": "China",
+      "query": "(trade war OR tariffs OR embargo)",
+      "summary": "Key vote due on EU-US deal amid tariff warning - World - Chinadaily. EU-US deal amid tariff warning By JONATHAN POWELL in London | China Daily Global | Updated: 2026-03-25 09:16 Share Share - WeChat --> CLOSE European Commission President Ursula von der Leyen (left) and Australian Prime Minister Anthony Albanese exchange signed agreements in Canberra on Tuesday. DAVID GRAY/AFP US Ambassador to the European Union Andrew Puzder says it \"would be economic malpractice\" if the European Parliament scuttled a US-EU trade accord in a vote slated for this week, as the EU also presses ahead with a new trade deal with Australia."
+    },
+    {
+      "title": "Ex - US Envoy Herbst Says Putin Wants US Bogged Down in Iran , Not Peace in Ukraine",
+      "source": "kyivpost.com",
+      "url": "https://www.kyivpost.com/post/72528",
+      "published": "20260325T031500Z",
+      "language": "English",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)",
+      "summary": "Spotlight Cartoons EN UK Iran Trump Ex-US Envoy Herbst Says Putin Wants US Bogged Down in Iran, Not Peace in Ukraine Former ambassador John Herbst tells Kyiv Post he would be surprised if Moscow hadn’t offered to stop sharing intelligence with Iran for an end to US intelligence support for Ukraine. Sevinj Osmanqizi | March 25, 2026, 3:45 am Make us preferred on Google Share Facebook X (Twitter) LinkedIn Bluesky Email Copy Copied (COMBO) This combination of file photographs created on Aug. L) Ukrainian President Volodymyr Zelensky at EU headquarters in Brussels on June 27, 2024, US President-elect Donald Trump in Paris on Dec."
+    },
+    {
+      "title": "Ближний Восток - почему Россия обеспокоена войной с Ираном",
+      "source": "unian.net",
+      "url": "https://www.unian.net/world/pochemu-rossiya-obespokoena-voynoy-s-iranom-13326354.html",
+      "published": "20260325T031500Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Pourquoi la Chine ne fait pas la guerre",
+      "source": "lepoint.fr",
+      "url": "https://www.lepoint.fr/debats/pourquoi-la-chine-ne-fait-pas-la-guerre-Z6YY4ZSQVFG6BELS5IVR7AVSQI/",
+      "published": "20260324T223000Z",
+      "language": "French",
+      "source_country": "France",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Βόμβες Emmanuel Todd ( Γάλλος ιστορικός ): Η Δύση καταρρέει , η Ρωσία θα φτάσει ως την Οδησσό",
+      "source": "bankingnews.gr",
+      "url": "https://www.bankingnews.gr/diethni/articles/864469/vomves-emmanuel-todd-gallos-istorikos-i-dysi-katarreei-i-rosia-tha-ftasei-os-tin-odisso",
+      "published": "20260325T123000Z",
+      "language": "Greek",
+      "source_country": "Greece",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Сделка Трампа и Путина станет ли Иран поводом для сдачи Украины ? ",
+      "source": "opinions.glavred.info",
+      "url": "https://opinions.glavred.info/stanet-li-ukraina-razmennoy-monetoy-v-sdelke-trampa-i-putina-analiz-nebozhenko-10751627.html",
+      "published": "20260325T080000Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Россия направила Ирану 300 тонн медикаментов :: Новости дня / ВЗГЛЯД",
+      "source": "vz.ru",
+      "url": "https://vz.ru/news/2026/3/25/1405111.html",
+      "published": "20260325T104500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "象徴的な広島で 、 米国の同盟国は優勢な中国と予測不可能なロシアを警戒する",
+      "source": "jp.ibtimes.com",
+      "url": "https://jp.ibtimes.com/politics-100152",
+      "published": "20260325T011500Z",
+      "language": "Japanese",
+      "source_country": "United States",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Геостратегія . росія – найбільший переможець у війні з Іраном – Ендрю Міхта",
+      "source": "ipress.ua",
+      "url": "https://ipress.ua/articles/geostrategiya_rosiya__naybilshyy_peremozhets_u_viyni_z_iranom__endryu_mihta_383642.html",
+      "published": "20260325T071500Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "США проти Росії - розвідка США назвала загрозу | Новини на Gazeta . ua",
+      "source": "gazeta.ua",
+      "url": "https://gazeta.ua/articles/world-life/_rozvidka-ssa-u-svoyemu-zviti-nazvala-rosiyu-klyuchovoyu-vijskovoyu-zagrozoyu/1246885",
+      "published": "20260324T200000Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "America greatest enemy smells Trump weakness : analysis",
+      "source": "alternet.org",
+      "url": "https://www.alternet.org/trumps-weakness-2676614811/",
+      "published": "20260325T011500Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)",
+      "summary": "America’s greatest enemy smells Trump's weakness: analysis U. President Donald Trump looks on as he attends Markwayne Mullin's swearing-in as Department of Homeland Security (DHS) Secretary, at the White House in Washington, D."
+    },
+    {
+      "title": "Защо Русия е притеснена от войната в Иран ? - Новини от Dnes . bg",
+      "source": "dnes.bg",
+      "url": "https://www.dnes.bg/a/2-svyat/715320-zashto-rusiya-e-pritesnena-ot-voynata-v-iran",
+      "published": "20260325T043000Z",
+      "language": "Bulgarian",
+      "source_country": "Bulgaria",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Иран сбил высокоточную ракету , которую США планировали дать Украине",
+      "source": "vm.ru",
+      "url": "https://vm.ru/news/1313263-iran-sbil-vysokotochnuyu-raketu-kotoruyu-ssha-planirovali-dat-ukraine",
+      "published": "20260325T090000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Donald Tramp uputio podršku Viktoru Orbanu pred izbore",
+      "source": "informer.rs",
+      "url": "https://informer.rs/planeta/vesti/1101959/donald-tramp-viktor-orban-izbori-madarska",
+      "published": "20260325T094500Z",
+      "language": "Serbian",
+      "source_country": "Serbia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Песков сравнил ситуацию с планом по Ирану с урегулированием на Украине",
+      "source": "ria.ru",
+      "url": "https://ria.ru/20260325/kreml-2082812825.html",
+      "published": "20260325T104500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "טייוואן : חשש שסין תנצל את המלחמה באיראן להגברת הלחץ",
+      "source": "news.walla.co.il",
+      "url": "https://news.walla.co.il/item/3826216",
+      "published": "20260325T124500Z",
+      "language": "Hebrew",
+      "source_country": "Israel",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "China draws lessons from US campaign in Iran",
+      "source": "news.webindia123.com",
+      "url": "https://news.webindia123.com/news/Articles/World/20260325/4431249.html",
+      "published": "20260325T071500Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Hacked To Danger",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/blogs/toi-edit-page/hacked-to-danger/",
+      "published": "20260325T021500Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "טיוואן חוששת : כך סין תנצל את המלחמה באיראן",
+      "source": "ynet.co.il",
+      "url": "https://www.ynet.co.il/news/article/rk00adz11jze",
+      "published": "20260325T153000Z",
+      "language": "Hebrew",
+      "source_country": "Israel",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "ইরানের মতো তাইওয়ান কি চীনের বিরুদ্ধে লড়তে পারবে ? ",
+      "source": "dailyinqilab.com",
+      "url": "https://dailyinqilab.com/international/article/876563",
+      "published": "20260324T184500Z",
+      "language": "Bengali",
+      "source_country": "Bangladesh",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    }
+  ]
+}

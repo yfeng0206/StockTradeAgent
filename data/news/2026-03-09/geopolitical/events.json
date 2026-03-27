@@ -1,0 +1,194 @@
+{
+  "collected": "2026-03-25T10:48:30.133500",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 20,
+  "articles": [
+    {
+      "title": "Повторение истории ? Уроки нефтяного эмбарго 1973 - 74 гг .: для каждого свои",
+      "source": "aif.ru",
+      "url": "https://aif.ru/money/economy/povtorenie-istorii-uroki-neftyanogo-embargo-1973-74-gg-dlya-kazhdogo-svoi",
+      "published": "20260325T133000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Світову енергетичну кризу з нафтовим шоком 1970 - х порівнює CNN",
+      "source": "fakty.ua",
+      "url": "https://fakty.ua/469278-huzhe-shoka-1970-h-mir-na-poroge-novoj-neftyanoj-katastrofy-iz-za-vojny-s-iranom",
+      "published": "20260325T160000Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "От Кубы до Европы : как Вашингтон превращает энергетику в геополитическое оружие ? ( Berliner Zeitung , Германия ) ",
+      "source": "inosmi.ru",
+      "url": "https://inosmi.ru/20260325/energiya-277666565.html",
+      "published": "20260325T093000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "خبير : ترامب يقود « معركة سياسية » لخفض أسعار النفط .. والـ « 100 دولار » هي الواقع الجديد",
+      "source": "almasryalyoum.com",
+      "url": "https://www.almasryalyoum.com/news/details/4228852",
+      "published": "20260324T200000Z",
+      "language": "Arabic",
+      "source_country": "Egypt",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "पेट्रोल , डीजल की कीमतें कब तक नहीं बढ़ेंगी ? - Naya India - Hindi News , Latest Hindi News , Breaking News , Hindi Samachar",
+      "source": "nayaindia.com",
+      "url": "https://www.nayaindia.com/opinion/ajeet-dwivedi/current-affairs/how-long-will-petrol-and-diesel-prices-not-rise/513459.html",
+      "published": "20260325T041500Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "الكويت : إجراءات الحد من تأثير اضطراب إمدادات الطاقة بسبب حرب إيران لا تذكر",
+      "source": "shorouknews.com",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=25032026&id=5ea0eaa0-d0a9-43a9-b367-4c2206898da7",
+      "published": "20260325T050000Z",
+      "language": "Arabic",
+      "source_country": "Egypt",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "OPINI : Harga Minyak , How High Can You Go ? ",
+      "source": "market.bisnis.com",
+      "url": "https://market.bisnis.com/read/20260325/94/1962121/opini-harga-minyak-how-high-can-you-go",
+      "published": "20260325T071500Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "В годовом выражении Россия по итогам октября 2017 г сократила добычу нефти на 2 , 7 % » Информационное агентство МАНГАЗЕЯ",
+      "source": "mngz.ru",
+      "url": "https://www.mngz.ru/oil-gas-energetics/3495948-v-godovom-vyrazhenii-rossiya-po-itogam-oktyabrya-2017-g-sokratila-dobychu-nefti-na-27.html",
+      "published": "20260325T130000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Menaces sur le prix du carburant  : ce que cachent les termes techniques des experts pour votre budget essence . ",
+      "source": "caradisiac.com",
+      "url": "https://www.caradisiac.com/conflit-en-iran-petit-lexique-petrolier-a-l-usage-des-nuls-221075.htm",
+      "published": "20260324T191500Z",
+      "language": "French",
+      "source_country": "France",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "অকটেন - পেট্রোলের মজুত ফুরাচ্ছে , আর কত দিন চলবে ? ",
+      "source": "dhakatimes24.com",
+      "url": "https://www.dhakatimes24.com/2026/03/25/403686",
+      "published": "20260325T130000Z",
+      "language": "Bengali",
+      "source_country": "Bangladesh",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "الأزمة المسكوت عنها في الشرق الأوسط",
+      "source": "arabic.rt.com",
+      "url": "https://arabic.rt.com/press/1770882-%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%83%D9%88%D8%AA-%D8%B9%D9%86%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/",
+      "published": "20260325T031500Z",
+      "language": "Arabic",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "  จาตุรนต์  ชง 4 ทางออกวิกฤติพลังงาน หวั่นลามกระทบ  เศรษฐกิจ  ",
+      "source": "dailynews.co.th",
+      "url": "https://www.dailynews.co.th/news/5719995/",
+      "published": "20260325T081500Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "美伊開戰最大獲利者是它 ? CNN ： 中國電動車廠商準備擴張亞洲市場 | 國際",
+      "source": "newtalk.tw",
+      "url": "https://newtalk.tw/news/view/2026-03-25/1026261",
+      "published": "20260325T100000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Fuel Prices in China Near the  ¥9 Era , but Not Across the Board Yet",
+      "source": "autonews.gasgoo.com",
+      "url": "https://autonews.gasgoo.com/articles/market-industry/fuel-prices-in-china-near-the-9-era-but-not-across-the-board-yet-2036698414937436160",
+      "published": "20260325T123000Z",
+      "language": "English",
+      "source_country": "China",
+      "query": "(OPEC OR oil production OR energy crisis)",
+      "summary": "China auto market Fuel Prices in China Near the “¥9 Era,” but Not Across the Board Yet Edited by Yara From Gasgoo | March 25 , 2026 14:55 BJT f SHARE TWEET in SHARE SHARE Scan for mobile Gasgoo Munich- So far in 2026, refined oil prices have been adjusted six times in China—mostly hikes. On March 9, gasoline and diesel prices rose by 695 yuan and 670 yuan per ton, respectively. Then, on March 23, domestic gasoline and diesel prices climbed by 1,160 yuan and 1,115 yuan per ton—less than markets had anticipated."
+    },
+    {
+      "title": "จับตาสถานการณ์ - อิหร่านปล่อยเรือพาณิชย์ไทย ผ่านช่องแคบฮอร์มุซ",
+      "source": "thaipbs.or.th",
+      "url": "https://www.thaipbs.or.th/program/khaoTieng/watch/ossoybmccnwc",
+      "published": "20260325T053000Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "จับตาสถานการณ์ - จ่อเพิ่ม 12 สินค้าควบคุม หลังหยุดตรึงราคาน้ำมัน",
+      "source": "thaipbs.or.th",
+      "url": "https://www.thaipbs.or.th/program/khaoTieng/watch/6k1kjuc25e05",
+      "published": "20260325T094500Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "วิกฤตตอ . กลางเร่งเทรนด์ ความต้องการน้ำมันในจีนอาจพีกปีนี้",
+      "source": "ryt9.com",
+      "url": "https://www.ryt9.com/s/iq29/12801461",
+      "published": "20260325T100000Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "ส่องวิธีประเทศต่างๆ ..  สู้วิกฤติน้ำมัน  .. ต้องช่วยประชาชน",
+      "source": "dailynews.co.th",
+      "url": "https://www.dailynews.co.th/articles/5716075/",
+      "published": "20260325T050000Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "歷經無數次能源危機 … 1970年成重要轉折 ！ 台灣從依賴石油到AI一次看 | 財經焦點 | 產經",
+      "source": "udn.com",
+      "url": "https://udn.com/news/story/7238/9401631",
+      "published": "20260325T033000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "วิกฤตตะวันออกกลาง เขย่าระบบอาหารไทย ต้นทุนเกษตรพุ่ง 40 – 50 % เสี่ยงดันราคา กระทบคนจนก่อน",
+      "source": "theactive.thaipbs.or.th",
+      "url": "https://theactive.thaipbs.or.th/news/economy-20260325",
+      "published": "20260325T053000Z",
+      "language": "Thai",
+      "source_country": "Thailand",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    }
+  ]
+}

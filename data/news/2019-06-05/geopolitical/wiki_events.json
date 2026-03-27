@@ -1,0 +1,181 @@
+{
+  "date": "2019-06-05",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "2019 Danish general election",
+        "President of Peru Martín Vizcarra wins a motion of confidence in the Congress of the Republic."
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Fiat Chrysler withdraws its merger proposal for French carmaker Renault after  Renault board members were unable to reach a decision on the offer.",
+        "YouTube announces a new policy regarding hate speech and harassment on the video sharing platform, saying it will specifically ban videos that include neo-nazi and supremacist content, subsequently su"
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "Taiwan–United States relations, China–United States relations, Cross-Strait relations"
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "Australian federal police raid the headquarters of the country's public broadcaster, Australian Broadcasting Corporation, regarding the alleged publication of classified material in a 2017 report on a",
+        "Detroit Police Chief James Craig announces the department is looking for a possible serial killer in three unsolved murders of sex workers in the city dating back to March."
+      ]
+    },
+    "other": {
+      "count": 7,
+      "headlines": [
+        "Khartoum massacre",
+        "Syrian Civil War, Russian involvement in the Syrian Civil War"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Khartoum massacre",
+      "category": "Armed attacks and conflicts",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Central Committee of Sudanese Doctors say the number of people killed this week in Sudan is at least 100, and that 40 bodies were pulled from the River Nile at Khartoum on Tuesday. Members of the Rapid Support Forces have reportedly been roaming the streets attacking civilians as it pushes deeper into Khartoum.",
+      "category": "Armed attacks and conflicts",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A Sudanese official denies that  100 people were killed by a paramilitary unit during protests, saying that the number was at most 46.",
+      "category": "Armed attacks and conflicts",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Syrian Civil War, Russian involvement in the Syrian Civil War",
+      "category": "Armed attacks and conflicts",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Syrian government and Russian warplanes conduct airstrikes that target Syria's northwest, killing five civilians in the town of Kansafra and three villages in Idlib, including two children.",
+      "category": "Armed attacks and conflicts",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Government forces shell the northern Hama countryside, killing one civilian.",
+      "category": "Armed attacks and conflicts",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Government air attacks hit a motorcycle in the Idlib town of Maaret al-Numan, killing a woman and her two children.",
+      "category": "Armed attacks and conflicts",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Fiat Chrysler withdraws its merger proposal for French carmaker Renault after  Renault board members were unable to reach a decision on the offer.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "YouTube announces a new policy regarding hate speech and harassment on the video sharing platform, saying it will specifically ban videos that include neo-nazi and supremacist content, subsequently suspending several popular right-wing channels, and demonetizing Steven Crowder's.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "CNET"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Taiwan–United States relations, China–United States relations, Cross-Strait relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Trump administration informs Congress of a potential $2 billion arms deal with Taiwan that includes the M1A2, the U.S.'s latest main battle tank, and a resupply of anti-air and anti-armor weapons. China's foreign ministry says it is \"severely concerned with\" and \"firmly against\" the plan.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Australian federal police raid the headquarters of the country's public broadcaster, Australian Broadcasting Corporation, regarding the alleged publication of classified material in a 2017 report on allegations that Australian Special forces engaged in unlawful killings and gross misconduct in Afghanistan. The day before, police raided Herald Sun journalist Annika Smethurst's home regarding an alleged leak of national security information.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News",
+        "''Business Insider''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Detroit Police Chief James Craig announces the department is looking for a possible serial killer in three unsolved murders of sex workers in the city dating back to March.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Time''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Danish general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The center-left Social Democrats win 48 of the 179 seats in the Folketing (parliament). Current Liberal Prime Minister Lars Løkke Rasmussen concedes defeat, paving the way for Social Democrat leader Mette Frederiksen, who at 41 is set to be the country's youngest prime minister.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Local''",
+        "''EUobserver''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "President of Peru Martín Vizcarra wins a motion of confidence in the Congress of the Republic.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

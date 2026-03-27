@@ -1,0 +1,195 @@
+{
+  "date": "2023-01-09",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 22,
+  "categories": {
+    "other": {
+      "count": 22,
+      "headlines": [
+        "2022–2023 Peruvian political protests",
+        "2023 Maluku earthquake",
+        "Two people are killed in a plane crash near the town of Karataika, Nenets Autonomous Okrug, in Russia's far north. A total of twelve people were on board the plane.",
+        "COVID-19 pandemic",
+        "2023 Brazilian Congress attack"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2022–2023 Peruvian political protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Juliaca massacre",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 18 people are killed and over 100 others are injured when the Peruvian National Police fire upon demonstrations in Juliaca.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Maluku earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "One person is killed and eight others are injured after a magnitude 7.6–7.9 earthquake hits off the coast of eastern Indonesia, causing damage to buildings, and shaking buildings as far away as Darwin, Australia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Maluku Terkini"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two people are killed in a plane crash near the town of Karataika, Nenets Autonomous Okrug, in Russia's far north. A total of twelve people were on board the plane.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RFE/RL"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in China",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Travel during the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "China reopens its borders for unrestricted travel, marking the repeal of the country's last Zero-COVID policy.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Brazilian Congress attack",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Around 1,200 supporters of former Brazilian President Jair Bolsonaro are arrested following yesterday's riots in Brasília.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Armenia–Russia relations, 2022–2023 blockade of the Republic of Artsakh",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Protests break out in the city of Gyumri in Armenia against the Russian military presence in the country and the Russian peacekeepers' inaction in ending the Lachin corridor blockade. Dozens of protesters are arrested by police after they attempted to reach the Russian military base near the city to blockade it.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "OC Media"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Gabonese President Ali Bongo Ondimba names Alain Claude Bilie By Nze as the new prime minister and head of government, replacing Rose Christiane Raponda.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Xinhua"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "British space programme",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Virgin Orbit's LauncherOne fails to reach the Low Earth orbit with a payload of several small satellites after the rocket suffered a second-stage engine anomaly on its ascent to space, resulting in the loss of the payload. The mission, which launched from Spaceport Cornwall in South West England, would have been the first rocket launched from United Kingdom territory.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Hindustan Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An X1.9-class solar flare erupts from an active sunspot while facing Earth causing temporary radio blackouts in parts of South America, according to the National Oceanic and Atmospheric Administration. The source is \"hyperactive sunspot AR3184\", which also caused a X1.2-class solar flare on January 5.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Space.com"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 College Football Playoff National Championship",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In American football, the Georgia Bulldogs repeat as national champions, defeating the TCU Horned Frogs in a 65–7 blowout.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Aftermath of the 2021 NWSL abuse scandal",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The National Women's Soccer League of the United States bans former coaches Richie Burke of Washington Spirit, Rory Dames of Chicago Red Stars, Christy Holly of Racing Louisville, and Paul Riley of North Carolina Courage for life following an investigation on allegations of abuse throughout the 2021 season.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

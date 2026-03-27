@@ -1,0 +1,168 @@
+{
+  "date": "2023-06-19",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "other": {
+      "count": 18,
+      "headlines": [
+        "Israeli–Palestinian conflict",
+        "The mayor of the Nepali capital of Kathmandu, Balen Shah, bans the screenings of Indian films after dialogue in the recent epic film Adipurush stated that Sita from Hindu mythology was born in India i",
+        "Indian low-cost airline IndiGo reaches a deal with European aerospace manufacturer Airbus to order 500 A320 aircraft, which will be delivered from 2030 to 2035, making it the largest single purchase a",
+        "Titan submersible implosion",
+        "The United Nations General Assembly unanimously adopts the High Seas Treaty, the first treaty aimed towards marine conservation in international waters."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "June 2023 Jenin incursion",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Six Palestinians are killed and 90 others are injured during an IDF raid in the Jenin refugee camp in the occupied West Bank.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera",
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The mayor of the Nepali capital of Kathmandu, Balen Shah, bans the screenings of Indian films after dialogue in the recent epic film Adipurush stated that Sita from Hindu mythology was born in India instead of Nepal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Indian low-cost airline IndiGo reaches a deal with European aerospace manufacturer Airbus to order 500 A320 aircraft, which will be delivered from 2030 to 2035, making it the largest single purchase agreement in commercial aviation.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Titan submersible implosion",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The submersible Titan, carrying tourists to the wreck of the RMS Titanic, is reported missing, with the United States Coast Guard attempting to locate the missing vessel.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBS News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Nations General Assembly unanimously adopts the High Seas Treaty, the first treaty aimed towards marine conservation in international waters.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Hill''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A report to the Japanese National Diet revealed that from the end of World War II to 1996 over 25,000 Japanese citizens were forcibly sterilized under their eugenics law, including two nine-year-olds.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Qatar–United Arab Emirates relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The foreign ministries of Qatar and the United Arab Emirates announce that they will restore diplomatic relations and reopen their embassies in Doha and Abu Dhabi, after relations were suspended six years ago during the Qatar diplomatic crisis.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Moldovan protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Constitutional Court of Moldova outlaws the Șor Party after accusations that the party was trying to undermine the rule of law during the recent protests in Moldova.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Commons Privileges Committee investigation into Boris Johnson, Partygate",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "MPs vote to support the report issued by Parliament into former Prime Minister Boris Johnson.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Six people are killed and eight others injured in a shootout between rival gangs on a street in Guayaquil, Guayas, Ecuador.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via France 24"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Racism in association football",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The New Zealand national team abandon their friendly against Qatar at half-time in protest at a Qatari player's alleged use of a racial slur against New Zealand defender Michael Boxall, who is half Samoan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

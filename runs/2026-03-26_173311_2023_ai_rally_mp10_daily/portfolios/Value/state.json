@@ -1,0 +1,39 @@
+{
+  "final_value": 104592.25,
+  "cash": 78707.75,
+  "positions": {
+    "CRM": {
+      "shares": 13,
+      "entry_price": 201.26458740234375,
+      "entry_date": "2023-10-02",
+      "_last_trim_price": 264.04180908203125
+    },
+    "VZ": {
+      "shares": 147,
+      "entry_price": 26.810522079467773,
+      "entry_date": "2023-10-02"
+    },
+    "BA": {
+      "shares": 14,
+      "entry_price": 187.8300018310547,
+      "entry_date": "2023-10-02",
+      "_last_trim_price": 244.6999969482422
+    },
+    "MCD": {
+      "shares": 16,
+      "entry_price": 243.09300231933594,
+      "entry_date": "2023-10-02"
+    },
+    "BAC": {
+      "shares": 157,
+      "entry_price": 25.104597091674805,
+      "entry_date": "2023-10-02"
+    },
+    "ABT": {
+      "shares": 43,
+      "entry_price": 91.1428451538086,
+      "entry_date": "2023-10-02"
+    }
+  },
+  "return_pct": 4.59
+}

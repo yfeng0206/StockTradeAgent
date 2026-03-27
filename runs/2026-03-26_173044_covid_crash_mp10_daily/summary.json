@@ -1,0 +1,81 @@
+{
+  "strategies": {
+    "Value": {
+      "final_value": 92937.39,
+      "total_return_pct": -7.06,
+      "alpha_vs_spy": -1.76,
+      "sharpe_ratio": -1.503,
+      "max_drawdown_pct": -8.78,
+      "total_trades": 20,
+      "win_rate_pct": 0.0
+    },
+    "Momentum": {
+      "final_value": 98889.53,
+      "total_return_pct": -1.11,
+      "alpha_vs_spy": 4.19,
+      "sharpe_ratio": -0.002,
+      "max_drawdown_pct": -18.41,
+      "total_trades": 79,
+      "win_rate_pct": 35.3
+    },
+    "Balanced": {
+      "final_value": 96452.85,
+      "total_return_pct": -3.55,
+      "alpha_vs_spy": 1.75,
+      "sharpe_ratio": -0.721,
+      "max_drawdown_pct": -9.45,
+      "total_trades": 43,
+      "win_rate_pct": 15.8
+    },
+    "Defensive": {
+      "final_value": 95609.04,
+      "total_return_pct": -4.39,
+      "alpha_vs_spy": 0.91,
+      "sharpe_ratio": -0.906,
+      "max_drawdown_pct": -10.76,
+      "total_trades": 37,
+      "win_rate_pct": 5.9
+    },
+    "EventDriven": {
+      "final_value": 91482.43,
+      "total_return_pct": -8.52,
+      "alpha_vs_spy": -3.22,
+      "sharpe_ratio": -1.25,
+      "max_drawdown_pct": -10.57,
+      "total_trades": 48,
+      "win_rate_pct": 5.0
+    },
+    "Adaptive": {
+      "final_value": 105194.99,
+      "total_return_pct": 5.19,
+      "alpha_vs_spy": 10.49,
+      "sharpe_ratio": 0.736,
+      "max_drawdown_pct": -12.22,
+      "total_trades": 47,
+      "win_rate_pct": 31.6
+    },
+    "Commodity": {
+      "final_value": 97623.44,
+      "total_return_pct": -2.38,
+      "alpha_vs_spy": 2.92,
+      "sharpe_ratio": -1.295,
+      "max_drawdown_pct": -3.76,
+      "total_trades": 2,
+      "win_rate_pct": 0.0
+    }
+  },
+  "benchmarks": {
+    "SPY": {
+      "final_value": 94696.44,
+      "total_return_pct": -5.3,
+      "sharpe_ratio": -0.025,
+      "max_drawdown_pct": -33.64
+    },
+    "QQQ": {
+      "final_value": 112776.93,
+      "total_return_pct": 12.78,
+      "sharpe_ratio": 0.775,
+      "max_drawdown_pct": -28.56
+    }
+  }
+}

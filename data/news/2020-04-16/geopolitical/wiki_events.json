@@ -1,0 +1,182 @@
+{
+  "date": "2020-04-16",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 19,
+  "categories": {
+    "health": {
+      "count": 13,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "Police discover the bodies of 17 people inside a morgue built for four at a nursing home in New Jersey, United States, following an anonymous tip-off.",
+        "COVID-19 pandemic in India",
+        "Saudi Arabia executes a 33-year-old Yemeni man convicted for an attack on a Spanish dance troupe last year, which resulted in two dancers injured. The attack was claimed by the affiliate of al-Qaeda i"
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "COVID-19 pandemic in Brazil, Impact of the COVID-19 pandemic on politics"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The number of confirmed coronavirus cases passes two million worldwide.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''Foreign Policy''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Africa",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Eswatini",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Eswatini reports the country's first death from COVID-19, as total cases rise to 17.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''National Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Nigeria",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 18 people in Nigeria have been killed by police during the enforcement of measures to curb the spread of COVID-19.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''De Telegraaf''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The government extends the country's lockdown for at least another three weeks.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The COVID-19 critical care NHS Nightingale Hospital Birmingham is opened inside the National Exhibition Centre in Solihull, England. It can treat up to 4,000 COVID-19 patients.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Germany",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Robert Koch Institute reports 2,866 new confirmed cases and 315 more deaths from COVID-19, the highest daily death toll in the country to date, bringing Germany's death toll to 3,569 and 130,450 total cases.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Police discover the bodies of 17 people inside a morgue built for four at a nursing home in New Jersey, United States, following an anonymous tip-off.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in India",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Tablighi Jamaat leader Muhammad Saad Kandhlawi is charged with manslaughter after a gathering the organization held in Delhi on March 3 was linked to 1,023 coronavirus cases across 17 Indian states. Police say he ignored two notices to end the religious event at a mosque in Delhi, though he denies any wrongdoing.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Saudi Arabia executes a 33-year-old Yemeni man convicted for an attack on a Spanish dance troupe last year, which resulted in two dancers injured. The attack was claimed by the affiliate of al-Qaeda in the region.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Brazil, Impact of the COVID-19 pandemic on politics",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Brazilian President Jair Bolsonaro fires Health Minister Luiz Henrique Mandetta amid disagreements over the federal government's response to the coronavirus pandemic. He is replaced by Nelson Teich.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

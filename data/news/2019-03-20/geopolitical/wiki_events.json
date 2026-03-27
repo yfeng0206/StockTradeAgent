@@ -1,0 +1,126 @@
+{
+  "date": "2019-03-20",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 11,
+  "categories": {
+    "geopolitical": {
+      "count": 1,
+      "headlines": [
+        "The European People's Party votes to suspend Hungary's ruling Fidesz party citing its anti-immigration stance, and personal attacks on Jean-Claude Juncker and George Soros. Hungarian Prime Minister an"
+      ]
+    },
+    "business": {
+      "count": 4,
+      "headlines": [
+        "Acquisition of 21st Century Fox by Disney",
+        "European Union competition law"
+      ]
+    },
+    "sports": {
+      "count": 1,
+      "headlines": [
+        "Mike Trout and the Los Angeles Angels finalize a record-breaking 12-year, $430 million contract, the largest in the history of Major League Baseball."
+      ]
+    },
+    "politics": {
+      "count": 5,
+      "headlines": [
+        "Politics of Kazakhstan",
+        "Brexit negotiations"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Acquisition of 21st Century Fox by Disney",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Walt Disney Company completes its $71.3 billion acquisition of 21st Century Fox's film and TV assets (with the exception of the business, broadcasting network, news, and sports assets owned by the newly-formed Fox Corporation).",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''The Hollywood Reporter''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "European Union competition law",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "European Union regulators fine Google €1.49 billion for bundling Google Custom Search with its AdSense program which the regulators find as illegal under EU antitrust rules.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''Ars Technica''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The European People's Party votes to suspend Hungary's ruling Fidesz party citing its anti-immigration stance, and personal attacks on Jean-Claude Juncker and George Soros. Hungarian Prime Minister and Fidesz leader Viktor Orbán had threatened to pull out of the EPP if it was suspended.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Politics of Kazakhstan",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The second President of Kazakhstan, Kassym-Jomart Tokayev, is sworn into office, after the resignation of Nursultan Nazarbayev.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The National''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Astana, the capital of Kazakhstan, is renamed Nursultan, after the former President.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Brexit negotiations",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "UK Prime Minister Theresa May formally writes a letter to European Council President Donald Tusk requesting for a delay of Brexit until June 30.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mike Trout and the Los Angeles Angels finalize a record-breaking 12-year, $430 million contract, the largest in the history of Major League Baseball.",
+      "category": "Sports",
+      "market_category": "sports",
+      "sources": [
+        "''Sporting News''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

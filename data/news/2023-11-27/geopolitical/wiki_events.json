@@ -1,0 +1,169 @@
+{
+  "date": "2023-11-27",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 18,
+  "categories": {
+    "other": {
+      "count": 18,
+      "headlines": [
+        "Israel–Hamas war",
+        "The world's largest cruise ship, Icon of the Seas, is delivered to Royal Caribbean International.",
+        "2023 Africa floods",
+        "Impala Platinum mine shaft accident",
+        "A snowstorm kills at least five people in Ukraine and three people in neighbouring Moldova with hundreds of towns and villages losing power. A least ten state highways are also closed with thousands o"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Israel–Hamas war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel–Hamas war hostage crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Israel–Hamas ceasefire",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Hamas releases 11 Israeli hostages, while Israel releases 33 Palestinian prisoners.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Qatar announces an agreement between Israel and Hamas to extend the ceasefire by two days.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The world's largest cruise ship, Icon of the Seas, is delivered to Royal Caribbean International.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''BI''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Africa floods",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The death toll from floods in Kenya rises to 76 as 40,000 people are displaced from their homes.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Impala Platinum mine shaft accident",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Eleven workers are killed and 75 others are injured at an Impala platinum mine in Rustenburg, North West, South Africa, when a lift transporting them to the surface drops approximately .",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A snowstorm kills at least five people in Ukraine and three people in neighbouring Moldova with hundreds of towns and villages losing power. A least ten state highways are also closed with thousands of vehicles stranded in Ukraine amid the severe weather.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A Chinese court commences compensation hearings for the Chinese relatives of passengers on Malaysia Airlines Flight 370.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "International Criminal Court Deputy Prosecutor Nazhat Shameem terminates all further investigations into crimes related to the 2007–2008 Kenyan crisis, following the collapse of cases against six suspects, including former and current Presidents Uhuru Kenyatta and William Ruto, due to insufficient evidence and witness tampering.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via VOA"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Malagasy presidential election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two Madagascar army colonels are detained and charged with inciting mutiny and threatening national security during the election, with allegations of offering bribes to army leaders to destabilize the election results that declared Andry Rajoelina the winner.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The EastAfrican''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Christopher Luxon is sworn in as the 42nd prime minister of New Zealand by Governor-General Cindy Kiro.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Daily Star''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Australian government dismisses Mike Pezzullo as Secretary of the Department of Home Affairs for breaching the public service code of conduct, following an investigation into Pezzullo's alleged encrypted communications with other politicians.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''New Vision''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The British Antarctic Survey confirms that the world's largest iceberg, A23a, is now leaving the Weddell Sea and drifting into the Southern Ocean after being in the Weddell Sea for more than 30 years. The iceberg is expected to follow the Antarctic Circumpolar Current and continue to drift away from Antarctica.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

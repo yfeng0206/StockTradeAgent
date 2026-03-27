@@ -1,0 +1,320 @@
+{
+  "date": "2022-04-07",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 37,
+  "categories": {
+    "other": {
+      "count": 37,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Israeli–Palestinian conflict",
+        "Economic impact of the 2022 Russian invasion of Ukraine",
+        "Eight people are killed and three more injured during an explosion at a bar in a military camp in Goma, North Kivu, Democratic Republic of the Congo. The causes of the blast are unknown.",
+        "Around two million people in Puerto Rico are left without electricity after a fire occurs at one of the island's largest power plants."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The governor of Luhansk Oblast, Serhiy Haidai, reports that all hospitals in the province have been completely destroyed by the Russian Armed Forces. Russia denies the claim, accusing Ukraine of destroying their own hospitals.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mayor Borys Filatov requests that all women, children, and elderly leave the city of Dnipro in preparation for a possible Russian attack.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Tel Aviv shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Three people are killed and 11 more are injured during a mass shooting at a bar in Tel Aviv, Israel. The attacker is killed during a shootout in nearby Jaffa.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Economic impact of the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 boycott of Russia and Belarus",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United States House of Representatives votes 420–3 to pass legislation to suspend normal trade relations with Russia and Belarus following the invasion of Ukraine. Following this, the Senate also votes 100–0 to pass the legislation, sending it to President Joe Biden for approval.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''San Francisco Chronicle''",
+        "Fox Business"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Russian ruble goes above the pre-war level after falling as low as 150 rubles per US dollar in early March.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Eight people are killed and three more injured during an explosion at a bar in a military camp in Goma, North Kivu, Democratic Republic of the Congo. The causes of the blast are unknown.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Around two million people in Puerto Rico are left without electricity after a fire occurs at one of the island's largest power plants.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A DHL Boeing 757-200 cargo plane breaks into two parts after making an emergency landing at the Juan Santamaría International Airport in San José, Costa Rica. No one is injured.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 11 people are killed and a dozen injured in a landslide in Abriaquí municipality, Colombia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Cyprus",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Travel during the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Cyprus will lift their COVID-19-related travel conditions from April 18, ending rules of two years of the pandemic.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Kazakhstan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Travel during the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Kazakhstan will lift their COVID-19 travel restrictions at the country's borders with Kyrgyzstan, Russia and Uzbekistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Astana Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Washington, D.C.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "House Speaker Nancy Pelosi tests positive for COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Russia–Ukraine peace negotiations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Belarusian President Alexander Lukashenko says that Minsk should be included in negotiations aimed at ending the war.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Moscow Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "International reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The emergency special session of the United Nations General Assembly votes to suspend Russia from the Human Rights Council, with 93 votes in favor, 24 against and 58 abstentions. Russia is the second country to be suspended from the council, after Libya in 2011 during the final year of Muammar Gaddafi's rule.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "War crimes in the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former German Justice Minister Sabine Leutheusser-Schnarrenberger and former Interior Minister Gerhart Baum file a complaint with German federal prosecutors accusing Russian President Vladimir Putin, all 32 members of the Security Council of Russia, and members of the Russian Armed Forces of committing war crimes in Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "An unknown assailant throws acetone and red paint at Russian Nobel Prize laureate Dmitry Muratov as he traveled on a Moscow–Samara train, injuring him. A motive for the attack is unknown, but it is suspected to be a possible reaction to Muratov's opposition to the Russian invasion of Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Radio Free Europe/Radio Liberty",
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Peruvian protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The government of Pedro Castillo announces that they have deployed the Peruvian Army to highways amid protests against inflation in the country.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ketanji Brown Jackson is confirmed for the Supreme Court of the United States, following a 53–47 vote by the Senate. Jackson is the first black woman to be confirmed for this position and will replace justice Stephen Breyer after he retires in the court's summer session.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "President of Yemen Abdrabbuh Mansur Hadi resigns from office, dismisses vice president Ali Mohsen al-Ahmar and transfers both office's powers to the newly formed eight member Presidential Leadership Council chaired by Rashad al-Alimi.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "It is announced that over 5,000 new species of previously undiscovered RNA viruses were found in ocean-living organisms and proposed to group them into five new phyla, according to a paper published in Science.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Independent''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

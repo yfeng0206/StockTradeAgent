@@ -1,0 +1,269 @@
+{
+  "date": "2020-06-04",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 28,
+  "categories": {
+    "health": {
+      "count": 5,
+      "headlines": [
+        "COVID-19 pandemic"
+      ]
+    },
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "31st anniversary of the 1989 Tiananmen Square protests, 2019–20 Hong Kong protests"
+      ]
+    },
+    "geopolitical": {
+      "count": 8,
+      "headlines": [
+        "Second Libyan Civil War",
+        "North Korea–South Korea relations",
+        "Iran–United States relations"
+      ]
+    },
+    "legal": {
+      "count": 10,
+      "headlines": [
+        "George Floyd protests",
+        "Shooting of Ahmaud Arbery",
+        "Freedom of religion in Russia",
+        "Riots break out and the governor’s palace is attacked in Guadalajara, Mexico, after police officers in Ixtlahuacán de los Membrillos  beat a young worker to death for not wearing a medical mask."
+      ]
+    },
+    "other": {
+      "count": 2,
+      "headlines": [
+        "Removal of Confederate monuments and memorials"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Second Libyan Civil War",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2019–20 Western Libya campaign",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Government of National Accord (GNA) says they are in full control of the Libyan capital, Tripoli, after forces of the Libyan National Army (LNA), loyal to Field Marshal Khalifa Haftar, retreat from the capital after months of intense clashes in the city.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The GNA recaptures Tripoli International Airport on the outskirts of the capital following the withdrawal of LNA forces.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Removal of Confederate monuments and memorials",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Virginia Governor Ralph Northam orders the removal of the Robert E. Lee Monument in the state capital Richmond, saying, \"In Virginia, we no longer preach a false version of history\".",
+      "category": "Arts and culture",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Senegal",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "After violent protests erupt across the country against a lockdown imposed to combat the virus, the government announces it will \"relax\" the restrictions. Interior Minister Aly Ngouille Ndiaye says the curfew will be shortened and inter-regional travel ban lifted.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Brazil",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Brazil surpasses Italy with the third-highest COVID-19 death toll.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "North Korea–South Korea relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "North Korea issues a warning that it would end a 2018 inter-Korean military agreement if South Korea fails to stop defectors and activists from sending anti-Pyongyang leaflets into the demilitarized zone (DMZ).",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iran–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. Navy veteran Michael R. White is released from Iranian custody. White was under house arrest for nearly two years and is now en-route to Zurich, Switzerland.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "George Floyd protests",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "George Floyd protests in California",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Los Angeles officials announce an end to the county-wide curfew amid continuing protests.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Los Angeles Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Buffalo police shoving incident",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Two Buffalo police officers are suspended without pay after shoving a 75-year-old protestor to the ground. He has been hospitalized from the resulting head injury.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Shooting of Ahmaud Arbery",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "One of the suspects involved in the shooting death of Ahmaud Arbery testifies that the gunman who shot and killed Arbery had shouted a racial slur at the victim moments after his death. The allegation opens up the possibility for hate crime charges.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Freedom of religion in Russia",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Russian-controlled Crimea jails a Jehovah's Witness for six years for practicing an outlawed religion in the territory.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Riots break out and the governor’s palace is attacked in Guadalajara, Mexico, after police officers in Ixtlahuacán de los Membrillos  beat a young worker to death for not wearing a medical mask.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Puerto Vallarta Daily News''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "31st anniversary of the 1989 Tiananmen Square protests, 2019–20 Hong Kong protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The mass annual vigil commemorating the 1989 Tiananmen Square protests at Victoria Park, Hong Kong, is banned by the city police for the first time, citing concerns of local COVID-19 transmissions. Local commemorations are held across the city.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Hong Kong Free Press"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Tens of thousands of people, in multiple locations across Hong Kong, defy the ban against gatherings to observe the anniversary, carrying lit candles and chanting democracy slogans. The largest group, in Victoria Park, heard Lee Cheuk-yan, former Chairman of the Hong Kong Alliance in Support of Patriotic Democratic Movements in China, read the Alliance's manifesto and vow to return next year.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''South China Morning Post''",
+        "''International Business Times''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

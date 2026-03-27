@@ -1,0 +1,141 @@
+{
+  "date": "2023-04-10",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 15,
+  "categories": {
+    "other": {
+      "count": 15,
+      "headlines": [
+        "Insurgency in Balochistan",
+        "Israeli–Palestinian conflict",
+        "2023 Rutgers University strike",
+        "At least 10 people are killed and 25 others are injured in a bus crash in the Department of Lima, Peru.",
+        "2023 Pentagon document leaks"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Insurgency in Balochistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Kandahari Bazar bombing",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Four people are killed and 15 others are injured when a motorcycle bomb targeting a police vehicle explodes in Quetta, Balochistan, Pakistan.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israeli–Palestinian conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A 15-year-old Palestinian boy is killed by Israeli soldiers in Jericho, in the occupied West Bank.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Rutgers University strike",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The staff of Rutgers University vote to go on the first strike by academics in the school's 257-year history, affecting over 67,000 students in the U.S. state of New Jersey.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NPR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least 10 people are killed and 25 others are injured in a bus crash in the Department of Lima, Peru.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Xinhua"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Pentagon document leaks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "U.S. officials confirm that top secret U.S. government documents relating to the war in Ukraine have been leaked on social media, revealing details of Ukrainian military vulnerabilities. The Pentagon refers the leak to the Department of Justice, which has opened a criminal investigation into the leak.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2023 Louisville shooting",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Five people are killed and eight others are injured in a mass shooting at a bank in Louisville, Kentucky, United States. The perpetrator, who livestreamed the attack on Instagram, is also killed.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A people's court in Linshu County, Shandong, China, sentences prominent human rights and democracy activists Xu Zhiyong and Ding Jiaxi to 14 and 12 years in prison, respectively, for subverting state power.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''",
+        "''South China Morning Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Israeli judicial reform protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli prime minister Benjamin Netanyahu reverses his decision to dismiss defense minister Yoav Gallant, after the latter had spoken out against the government's controversial judicial reform proposal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Spiegel"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

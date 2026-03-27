@@ -1,0 +1,879 @@
+[
+  {
+    "ticker": "NKE",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": -0.5,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": -0.5,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "WMT",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": -0.5,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "Value",
+    "conviction": -0.4,
+    "size_multiplier": 0.0,
+    "trend_score": -0.5,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=-1*30%"
+    ]
+  },
+  {
+    "ticker": "DE",
+    "strategy": "Value",
+    "conviction": -0.1,
+    "size_multiplier": 0.0,
+    "trend_score": -0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%"
+    ]
+  },
+  {
+    "ticker": "LMT",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": -0.5,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": -0.5,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "strategy": "Value",
+    "conviction": -0.1,
+    "size_multiplier": 0.0,
+    "trend_score": -0.5,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": -0.5,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": -0.5,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-0*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "PFE",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "NVDA",
+    "strategy": "Value",
+    "conviction": -0.5,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%",
+      "vol=-1*30%"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "Value",
+    "conviction": -0.5,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%",
+      "vol=-1*30%"
+    ]
+  },
+  {
+    "ticker": "LMT",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "CAT",
+    "strategy": "Value",
+    "conviction": -0.2,
+    "size_multiplier": 0.0,
+    "trend_score": -1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=-1*20%"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "LMT",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "MRK",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "TMO",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "CMCSA",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "CMCSA",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "T",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "DE",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "HON",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "KO",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "COST",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "CRM",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "NKE",
+    "strategy": "Value",
+    "conviction": -0.1,
+    "size_multiplier": 0.0,
+    "trend_score": 1.0,
+    "vol_score": -1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=-1*30%"
+    ]
+  },
+  {
+    "ticker": "PG",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "UPS",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "DE",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "strategy": "Value",
+    "conviction": -0.3,
+    "size_multiplier": 0.0,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": -1.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "mem=-1*50%"
+    ]
+  },
+  {
+    "ticker": "NFLX",
+    "strategy": "Value",
+    "conviction": 0.2,
+    "size_multiplier": 0.5,
+    "trend_score": 1.0,
+    "vol_score": 0.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%"
+    ]
+  },
+  {
+    "ticker": "HD",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  },
+  {
+    "ticker": "PEP",
+    "strategy": "Value",
+    "conviction": 0.5,
+    "size_multiplier": 1.0,
+    "trend_score": 1.0,
+    "vol_score": 1.0,
+    "memory_score": 0.0,
+    "weights": {
+      "market_trend": 0.2,
+      "volatility": 0.3,
+      "memory": 0.5
+    },
+    "details": [
+      "trend=+1*20%",
+      "vol=+1*30%"
+    ]
+  }
+]

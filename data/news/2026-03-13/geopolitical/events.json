@@ -1,0 +1,526 @@
+{
+  "collected": "2026-03-24T21:41:50.022295",
+  "source": "GDELT",
+  "queries": [
+    "(war OR conflict OR military OR sanctions)",
+    "(trade war OR tariffs OR embargo)",
+    "(OPEC OR oil production OR energy crisis)",
+    "(Iran OR Ukraine OR Russia OR China Taiwan)"
+  ],
+  "article_count": 57,
+  "articles": [
+    {
+      "title": "Iran Tegaskan Perang Berlanjut Hingga Seluruh Sanksi Ekonomi Dicabut",
+      "source": "cnnindonesia.com",
+      "url": "https://www.cnnindonesia.com/internasional/20260324104249-120-1340779/iran-tegaskan-perang-berlanjut-hingga-seluruh-sanksi-ekonomi-dicabut",
+      "published": "20260324T053000Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "अमेरिकी प्रतिबंधों के खिलाफ एक अभेद्य दीवार : कैसे चीन और रूस ईरान की अर्थव्यवस्था को ढहने से बचा रहे हैं - how china and russia are saving iran economy from collapse",
+      "source": "jagran.com",
+      "url": "https://www.jagran.com/world/middle-east-how-china-and-russia-are-saving-iran-economy-from-collapse-40183117.html",
+      "published": "20260324T201500Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Главное о войне на Ближнем Востоке за последние сутки - 25 марта 2026",
+      "source": "161.ru",
+      "url": "https://161.ru/text/politics/2026/03/25/76328899/",
+      "published": "20260325T041500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Tri scenarija za Trampov izlazak iz ćorsokaka u Iranu : Vreme ističe",
+      "source": "blic.rs",
+      "url": "https://www.blic.rs/vesti/svet/tri-scenarija-za-trampov-izlazak-iz-corsokaka-u-iranu-vreme-istice/9m075bv",
+      "published": "20260324T121500Z",
+      "language": "Serbian",
+      "source_country": "Serbia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "An Arsenal of Missiles Lessons Learned from Iraq How Iran Stands Its Ground Against a Superpower Like the US मिसाइलों का जखीरा , इराक से मिली सीख ; अमेरिका जैसे सुपरपावर के सामने कैसे टिका है ईरान , India News in Hindi",
+      "source": "livehindustan.com",
+      "url": "https://www.livehindustan.com/national/an-arsenal-of-missiles-lessons-learned-from-iraq-how-iran-stands-its-ground-against-a-superpower-like-the-us-201774398809966.html",
+      "published": "20260325T024500Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "美方向伊朗提出含  15项条件  的和谈方案 ， 伊朗重申结束战争条件 _ 广州日报大洋网",
+      "source": "news.dayoo.com",
+      "url": "https://news.dayoo.com/world/202603/25/139998_54940156.htm",
+      "published": "20260325T023000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Когда завершится война между Ираном и США",
+      "source": "5-tv.ru",
+      "url": "https://www.5-tv.ru/news/5062179/virane-nazvali-tri-uslovia-dla-zaversenia-konflikta-sssa/",
+      "published": "20260324T070000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Trump Tiba - tiba Mengeklaim Bisa Berbagi Kendali Selat Hormuz Bersama  Ayatollah  ",
+      "source": "internasional.kompas.com",
+      "url": "https://internasional.kompas.com/read/2026/03/24/180000570/trump-tiba-tiba-mengeklaim-bisa-berbagi-kendali-selat-hormuz-bersama",
+      "published": "20260324T114500Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Vācijas prezidents kritizē ASV un Izraēlas karu pret Irānu",
+      "source": "delfi.lv",
+      "url": "https://www.delfi.lv/46713439/arzemes/120111992/vacijas-prezidents-kritize-asv-un-izraelas-karu-pret-iranu",
+      "published": "20260324T171500Z",
+      "language": "Latvian",
+      "source_country": "Latvia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Переговоры Ирана и США по урегулированию конфликта : последние новости",
+      "source": "iz.ru",
+      "url": "https://iz.ru/2065246/2026-03-24/eksperty-vyrazili-somneniia-v-realnom-starte-peregovorov-mezhdu-ssha-i-iranom",
+      "published": "20260324T121500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Kanali 12 : Propozimi 14 - pikësh i Trump për ti dhënë fund luftës – kushtet për pasurimin e uraniumit dhe Ngushticën e Hormuzit – Balkanweb . com – News24",
+      "source": "balkanweb.com",
+      "url": "https://www.balkanweb.com/kanali-12-propozimi-14-pikesh-i-trump-per-ti-dhene-fund-luftes-kushtet-per-pasurimin-e-uraniumit-dhe-ngushticen-e-hormuzit/",
+      "published": "20260325T004500Z",
+      "language": "Albanian",
+      "source_country": "Albania",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Tidligere MI6 - sjef : Iran har overtaket i krigen",
+      "source": "vg.no",
+      "url": "https://www.vg.no/nyheter/i/0ppQvo/tidligere-mi6-sjef-iran-har-overtaket-i-krigen",
+      "published": "20260325T041500Z",
+      "language": "Norwegian",
+      "source_country": "Norway",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "  美国有意停火一个月 ， 与伊朗达成协议 ， 以色列担心特朗普为宣布胜利而妥协 ， 美国前CIA局长 ： 特朗普现在正手忙脚乱 ， 比起他我更信伊朗",
+      "source": "nbd.com.cn",
+      "url": "https://www.nbd.com.cn/articles/2026-03-25/4307127.html",
+      "published": "20260325T013000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Trump i wojna z Iranem : trzy możliwe scenariusze .  To również może być blef  ",
+      "source": "fakt.pl",
+      "url": "https://www.fakt.pl/wydarzenia/trump-i-wojna-z-iranem-trzy-mozliwe-scenariusze-to-rowniez-moze-byc-blef/4z36c6c",
+      "published": "20260324T124500Z",
+      "language": "Polish",
+      "source_country": "Poland",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "LIVE : Όροι και ανταλλάγματα Τραμπ στη Τεχεράνη για το τέλος του πολέμου - Συνεχίζονται οι εκατέρωθεν επιθέσεις Ισραήλ - Ιράν",
+      "source": "inewsgr.com",
+      "url": "https://www.inewsgr.com/184/LIVE-oroi-kai-antallagmata-trab-sti-techerani-gia-to-telos-tou-polemou--synechizontai-oi-ekaterothen-epitheseis-israil-iran.htm",
+      "published": "20260324T230000Z",
+      "language": "Greek",
+      "source_country": "Greece",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "一边空袭 ， 一边放行石油 ： 美国对伊朗的矛盾政策 ？ - 博客",
+      "source": "blog.wenxuecity.com",
+      "url": "https://blog.wenxuecity.com/myblog/61002/202603/18850.html",
+      "published": "20260324T053000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "How to End the War in Iran",
+      "source": "theamericanconservative.com",
+      "url": "https://www.theamericanconservative.com/how-to-end-the-war-in-iran/",
+      "published": "20260324T070000Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "India energy woes amid Trump conflicting claims , Iran denials , and Pakistan mediation gambit - The Week",
+      "source": "theweek.in",
+      "url": "https://www.theweek.in/news/middle-east/2026/03/24/india-energy-woes-amid-trump-conflicting-claims-iran-denials-and-pakistan-mediation-gambit.html",
+      "published": "20260324T130000Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Trump Sebut Dirinya dan Pemimpin Iran Bisa Berbagi Kendali Selat Hormuz",
+      "source": "viva.co.id",
+      "url": "https://www.viva.co.id/berita/dunia/1887690-trump-sebut-dirinya-dan-pemimpin-iran-bisa-berbagi-kendali-selat-hormuz",
+      "published": "20260324T071500Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Ситуация на Ближнем Востоке Владимир Путин зарабатывает на войне в Иране",
+      "source": "focus.ua",
+      "url": "https://focus.ua/economics/748268-situaciya-na-blizhnem-vostoke-vladimir-putin-zarabatyvaet-na-voyne-v-irane",
+      "published": "20260324T150000Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(war OR conflict OR military OR sanctions)"
+    },
+    {
+      "title": "Prim - viceguvernatorul BNR , despre Orientul Mijlociu , OPEC și noul șoc petrolier : ce este soluția Volcker",
+      "source": "romaniatv.net",
+      "url": "https://www.romaniatv.net/prim-viceguvernatorul-bnr-despre-orientul-mijlociu-opec-si-noul-soc-petrolier-ce-este-solutia-volcker_9477532.html",
+      "published": "20260324T104500Z",
+      "language": "Romanian",
+      "source_country": "Romania",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Leonardo Badea , Prim - viceguvernator BNR : Orientul Mijlociu , OPEC și noul șoc petrolier , ce este diferit de această dată ? - Ştiri locale de ultima ora , stiri video",
+      "source": "gorjeanul.ro",
+      "url": "https://www.gorjeanul.ro/leonardo-badea-prim-viceguvernator-bnr-orientul-mijlociu-opec-si-noul-soc-petrolier-ce-este-diferit-de-aceasta-data/",
+      "published": "20260324T111500Z",
+      "language": "Romanian",
+      "source_country": "Romania",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "허프포스트코리아",
+      "source": "huffingtonpost.kr",
+      "url": "https://www.huffingtonpost.kr:443/article/256078",
+      "published": "20260324T070000Z",
+      "language": "Korean",
+      "source_country": "South Korea",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Obchod s ropou môže úplne skolabovať . Expert : Je to horšie ako všetky krízy z minulosti",
+      "source": "aktuality.sk",
+      "url": "https://www.aktuality.sk/clanok/GyC7XV0/svet-je-na-pokraji-najhorsieho-ropneho-kolapsu-bude-to-este-horsie-ako-v-70-rokoch-varuje-expert/",
+      "published": "20260324T103000Z",
+      "language": "Slovak",
+      "source_country": "Slovak Republic",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Asia is most affected continent by Strait of Hormuz closure",
+      "source": "jpost.com",
+      "url": "https://www.jpost.com/business-and-innovation/energy-and-infrastructure/article-891034",
+      "published": "20260324T174500Z",
+      "language": "English",
+      "source_country": "Israel",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Ojulari : Nigeria can increase crude oil output by 100 , 000 bpd in next few months",
+      "source": "thecable.ng",
+      "url": "https://www.thecable.ng/ojulari-nigeria-can-increase-crude-oil-output-by-100000-bpd-in-next-few-months/",
+      "published": "20260324T123000Z",
+      "language": "English",
+      "source_country": "Nigeria",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "خبير : ترامب يقود « معركة سياسية » لخفض أسعار النفط .. والـ « 100 دولار » هي الواقع الجديد",
+      "source": "almasryalyoum.com",
+      "url": "https://www.almasryalyoum.com/news/details/4228852",
+      "published": "20260324T200000Z",
+      "language": "Arabic",
+      "source_country": "Egypt",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Current price of oil as of March 24 , 2026",
+      "source": "fortune.com",
+      "url": "https://fortune.com/article/price-of-oil-03-24-2026/",
+      "published": "20260324T124500Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "पेट्रोल , डीजल की कीमतें कब तक नहीं बढ़ेंगी ? - Naya India - Hindi News , Latest Hindi News , Breaking News , Hindi Samachar",
+      "source": "nayaindia.com",
+      "url": "https://www.nayaindia.com/opinion/ajeet-dwivedi/current-affairs/how-long-will-petrol-and-diesel-prices-not-rise/513459.html",
+      "published": "20260325T041500Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Menaces sur le prix du carburant  : ce que cachent les termes techniques des experts pour votre budget essence . ",
+      "source": "caradisiac.com",
+      "url": "https://www.caradisiac.com/conflit-en-iran-petit-lexique-petrolier-a-l-usage-des-nuls-221075.htm",
+      "published": "20260324T191500Z",
+      "language": "French",
+      "source_country": "France",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "伊朗戰事衝擊能源 回顧1970年代兩次石油危機 | 美以轟炸伊朗 | 全球",
+      "source": "udn.com",
+      "url": "https://udn.com/news/story/124061/9399420",
+      "published": "20260324T053000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "الأزمة المسكوت عنها في الشرق الأوسط",
+      "source": "arabic.rt.com",
+      "url": "https://arabic.rt.com/press/1770882-%D8%A7%D9%84%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D9%83%D9%88%D8%AA-%D8%B9%D9%86%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/",
+      "published": "20260325T031500Z",
+      "language": "Arabic",
+      "source_country": "Russia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "伊朗戰事衝擊能源 回顧1970年代兩次石油危機 | 國際",
+      "source": "cna.com.tw",
+      "url": "https://www.cna.com.tw:443/news/aopl/202603240105.aspx?topic=4478",
+      "published": "20260324T053000Z",
+      "language": "Chinese",
+      "source_country": "Taiwan",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "中东40个能源设施遭  损毁  冲击力堪比两次石油危机",
+      "source": "wenxuecity.com",
+      "url": "https://www.wenxuecity.com/news/2026/03/23/126586852.html",
+      "published": "20260324T044500Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "中国将在伊朗石油危机中完胜 ！ | www . wenxuecity . com",
+      "source": "wenxuecity.com",
+      "url": "https://www.wenxuecity.com/blog/202603/70246/19193.html",
+      "published": "20260324T173000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Suy thoái toàn cầu khó xảy ra dù bất ổn Trung Đông kéo dài",
+      "source": "baomoi.com",
+      "url": "https://baomoi.com/suy-thoai-toan-cau-kho-xay-ra-du-bat-on-trung-dong-keo-dai-c54766259.epi",
+      "published": "20260324T053000Z",
+      "language": "Vietnamese",
+      "source_country": "Vietnam",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Perang Iran Guncang Energi Asia , Negara - Negara Kembali ke Batu Bara",
+      "source": "ekonomi.republika.co.id",
+      "url": "https://ekonomi.republika.co.id/berita/tce6eb370/perang-iran-guncang-energi-asia-negaranegara-kembali-ke-batu-bara",
+      "published": "20260324T084500Z",
+      "language": "Indonesian",
+      "source_country": "Indonesia",
+      "query": "(OPEC OR oil production OR energy crisis)"
+    },
+    {
+      "title": "Ex - US Envoy Herbst Says Putin Wants US Bogged Down in Iran , Not Peace in Ukraine",
+      "source": "kyivpost.com",
+      "url": "https://www.kyivpost.com/post/72528",
+      "published": "20260325T031500Z",
+      "language": "English",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Іранці обдурять Путіна і Трампа",
+      "source": "gordonua.com",
+      "url": "https://gordonua.com/ukr/blogs/viktor-nebozhenko/irantsi-obdurjat-putina-i-trampa-1777039.html",
+      "published": "20260324T133000Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Ближний Восток - почему Россия обеспокоена войной с Ираном",
+      "source": "unian.net",
+      "url": "https://www.unian.net/world/pochemu-rossiya-obespokoena-voynoy-s-iranom-13326354.html",
+      "published": "20260325T031500Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Іранський глухий кут та дилема Трампа",
+      "source": "glavcom.ua",
+      "url": "https://glavcom.ua/columns/viktornebozhenko/iranskij-hlukhij-kut-ta-dilema-trampa-1109783.html",
+      "published": "20260324T104500Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Pourquoi la Chine ne fait pas la guerre",
+      "source": "lepoint.fr",
+      "url": "https://www.lepoint.fr/debats/pourquoi-la-chine-ne-fait-pas-la-guerre-Z6YY4ZSQVFG6BELS5IVR7AVSQI/",
+      "published": "20260324T223000Z",
+      "language": "French",
+      "source_country": "France",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Битва за мировое господство началась : наступил ли конец  прокси - войн ? ( Berliner Zeitung , Германия ) ",
+      "source": "inosmi.ru",
+      "url": "https://inosmi.ru/20260324/alyans-277647507.html",
+      "published": "20260324T084500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "象徴的な広島で 、 米国の同盟国は優勢な中国と予測不可能なロシアを警戒する",
+      "source": "jp.ibtimes.com",
+      "url": "https://jp.ibtimes.com/politics-100152",
+      "published": "20260325T011500Z",
+      "language": "Japanese",
+      "source_country": "United States",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "США проти Росії - розвідка США назвала загрозу | Новини на Gazeta . ua",
+      "source": "gazeta.ua",
+      "url": "https://gazeta.ua/articles/world-life/_rozvidka-ssa-u-svoyemu-zviti-nazvala-rosiyu-klyuchovoyu-vijskovoyu-zagrozoyu/1246885",
+      "published": "20260324T200000Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "حرب إيران ... هدية السماء للرئيس الروسي بوتين ؟ ",
+      "source": "dw.com",
+      "url": "https://www.dw.com/ar/%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%87%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%A1-%D9%84%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A-%D8%A8%D9%88%D8%AA%D9%8A%D9%86/a-76505167",
+      "published": "20260324T144500Z",
+      "language": "Arabic",
+      "source_country": "Germany",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Nausėda : Coaleas domėjosi dėl Lietuvos ir Baltarusijos dialogo",
+      "source": "delfi.lt",
+      "url": "https://www.delfi.lt/naujienos/politika/nauseda-patvirtino-coale-as-domejosi-del-lietuvos-ir-baltarusijos-dialogo-galimybiu-120227922",
+      "published": "20260324T111500Z",
+      "language": "Lithuanian",
+      "source_country": "Lithuania",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "America greatest enemy smells Trump weakness : analysis",
+      "source": "alternet.org",
+      "url": "https://www.alternet.org/trumps-weakness-2676614811/",
+      "published": "20260325T011500Z",
+      "language": "English",
+      "source_country": "United States",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Кремль нахмурился из - за ударов Израиля по Каспию - и получил неудобный вопрос от своих",
+      "source": "9tv.co.il",
+      "url": "https://www.9tv.co.il/item/211154",
+      "published": "20260324T163000Z",
+      "language": "Russian",
+      "source_country": "Israel",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "how iran israel and america war impacts countries more than india ईरान में छिड़ी जंग से किन देशों में तेल और गैस का संकट , भारत से ज्यादा परेशान ये मुल्क , India News in Hindi",
+      "source": "livehindustan.com",
+      "url": "https://www.livehindustan.com/national/how-iran-israel-and-america-war-impacts-countries-more-than-india-201774344954605.html",
+      "published": "20260324T110000Z",
+      "language": "Hindi",
+      "source_country": "India",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Россия представила крылатую ракету  Изделие 30  и ее удары стали более непредсказуемыми ( Sohu , Китай ) ",
+      "source": "inosmi.ru",
+      "url": "https://inosmi.ru/20260324/izdelie-277655849.html",
+      "published": "20260324T134500Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "У США створили підрозділ боротьби з погрозами від ШІ з боку Росії , Ірану , КНДР та Китаю | Новини України",
+      "source": "news.liga.net",
+      "url": "https://news.liga.net/ua/world/news/u-ssha-stvoryly-biuro-dlia-borotby-z-kiberatakamy-ta-zahrozamy-shi-z-boku-iranu-rosii-ta-kndr",
+      "published": "20260324T104500Z",
+      "language": "Ukrainian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Стало известно о подготовке Китая к подводной войне с США",
+      "source": "lenta.ru",
+      "url": "https://lenta.ru/news/2026/03/24/stalo-izvestno-o-podgotovke-kitaya-k-podvodnoy-voyne-s-ssha/",
+      "published": "20260324T083000Z",
+      "language": "Russian",
+      "source_country": "Russia",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "朝鲜国运来了 ！ 中东大战 ， 又是朝鲜闷声发大财 ？ ",
+      "source": "163.com",
+      "url": "https://www.163.com/dy/article/KOQN945M0552NMAF.html",
+      "published": "20260324T150000Z",
+      "language": "Chinese",
+      "source_country": "China",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Hacked To Danger",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/blogs/toi-edit-page/hacked-to-danger/",
+      "published": "20260325T021500Z",
+      "language": "English",
+      "source_country": "India",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "В США создано подразделение по борьбе с угрозами со стороны ИИ из России , Ирана , КНДР и Китая . | Новости Украины",
+      "source": "news.liga.net",
+      "url": "https://news.liga.net/world/news/v-ssha-sozdano-byuro-po-borbe-s-kiberatakami-i-ugrozami-so-storony-irana-rf-i-kndr-svyazannymi-s-ii",
+      "published": "20260324T110000Z",
+      "language": "Russian",
+      "source_country": "Ukraine",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    },
+    {
+      "title": "Tuesday briefing : With the horror of conflict throughout the globe , how likely is world war three ? ",
+      "source": "theguardian.com",
+      "url": "https://www.theguardian.com/world/2026/mar/24/tuesday-briefing-with-the-horror-of-conflict-throughout-the-globe-how-likely-is-world-war-three",
+      "published": "20260324T071500Z",
+      "language": "English",
+      "source_country": "United Kingdom",
+      "query": "(Iran OR Ukraine OR Russia OR China Taiwan)"
+    }
+  ]
+}

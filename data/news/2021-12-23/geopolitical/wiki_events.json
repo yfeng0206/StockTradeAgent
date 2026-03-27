@@ -1,0 +1,500 @@
+{
+  "date": "2021-12-23",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 61,
+  "categories": {
+    "other": {
+      "count": 61,
+      "headlines": [
+        "Insurgency in the Maghreb",
+        "2021 Madagascar shipwreck",
+        "European migrant crisis",
+        "COVID-19 pandemic",
+        "China–United States relations"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Insurgency in the Maghreb",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gunmen ambush a column of a civilian militia in Loroum, Burkina Faso, killing 41 people. It is one of the deadliest single-day attack against the militia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Madagascar shipwreck",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Twenty-four more people are found dead after the boat accident off the coast of Analanjirofo, Madagascar, three days ago, bringing the total death toll to 85.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "European migrant crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Eleven people are dead as a boat carrying migrants sinks in the Aegean Sea. Around 90 other people are rescued.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Brunei",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Brunei reports its first case of the SARS-CoV-2 Omicron variant in a person who travelled from the United Kingdom.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Scoop''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Kuwait",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Kuwaiti Directorate General of Civil Aviation announces that all citizens who wish to travel, but who were fully vaccinated more than nine months ago, must receive a booster dose of the COVID-19 vaccine beginning on January 2.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Times of Oman''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the Philippines, COVID-19 drug development, COVID-19 vaccination in the Philippines",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Philippine Food and Drug Administration approves the emergency use of the Molnupiravir drug made by Merck & Co. for high-risk adult patients and also approves the use of the Pfizer-BioNTech COVID-19 vaccine for children between the ages of 5 and 11 years.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Straits Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Singapore, Travel during the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Singapore suspends new ticket sales for the quarantine-free Vaccinated Travel Lane until January 20 in an attempt to reduce the number of imported cases of the Omicron variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in South Korea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "South Korea reports a record 109 deaths from COVID-19 in the past 24 hours, thereby bringing the nationwide death toll to 5,015.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Andorra",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Prime Minister Xavier Espot tests positive for COVID-19 with mild symptoms.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Diari d’Andorra''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in France",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "France reports a record 91,608 new cases of COVID-19 in the past 24 hours, surpassing the previous record set in November 2020.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Germany",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Germany reports its first confirmed death related to the SARS-CoV-2 Omicron variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Italy",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Italian government announces a ban of New Year's Eve celebrations as well as all mass gatherings and closes nightclubs and bars until the end of January. The government also agree to reintroduce mandatory mask wearing outdoors and will reduce the validity of vaccine certificate to six months beginning from February 1.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "MedicalXpress"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malta",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Malta reports its first two cases of the SARS-CoV-2 Omicron variant, prompting the health ministry to ban all standing events except for weddings and funerals beginning on December 17 and restrict entry to the hospitality sector and sporting events to only those with a valid vaccine certificate. A 1 a.m. curfew will also be imposed for all businesses beginning on January 17.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Times of Malta''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Russia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia surpasses 600,000 deaths from COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom reports a record for the second consecutive day of 119,789 new cases of COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Preliminary data from the United Kingdom suggests the hospitalization rate of the COVID-19 Omicron variant is between 50% to 70% lower than the Delta variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Deutsche Welle"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in North America",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Honduras",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Honduras begins administering a booster dose of the COVID-19 vaccine for all adults aged above 18 years using the Pfizer–BioNTech COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States, COVID-19 drug development",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Food and Drug Administration grants emergency use authorization for Merck & Co.'s antiviral COVID-19 oral pill named Molnupiravir for at-risk individuuals.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Global News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in South America",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Argentina, COVID-19 vaccination in Argentina",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Argentina receives more than 2.6 million doses of the Moderna COVID-19 vaccine for use as booster doses.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''La Vos''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Ecuador, COVID-19 vaccination in Ecuador",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ecuador's Minister of Public Health announces that the COVID-19 vaccination will be mandatory for all citizens over the age of 5 years unless they have a medical exemption due to the spread of SARS-CoV-2 variants and an increase in the number of new cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Australia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in New South Wales",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "New South Wales reports a record 5,715 cases of COVID-19 in the past 24 hours, with the SARS-CoV-2 Omicron variant becoming the dominant strain in the state. The NSW Government reintroduces mask-wearing in indoor settings, despite the state having a 93.5% vaccination rate.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News Australia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Australia reports a record 8,697 new cases of COVID-19 in the past 24 hours, surpassing the previous record set on December 22.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News Australia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "China–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Uyghur genocide",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "President Joe Biden signs the Uyghur Forced Labor Prevention Act into law banning imports from China's Xinjiang region citing concerns about the use of forced labour. China denies human rights abuses in Xinjiang.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Japan–United States relations, Taiwan–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States and Japan approve a plan for a joint military operation in response to a possible \"Taiwan emergency\". The operation would consist of deploying U.S. Marines on the Ryukyu Islands near Taiwan, while the Japan Self-Defense Forces would provide logistical support such as ammunition and fuel supplies.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "14-Year-Old Valentina Orellana-Peralta killed in LAPD response",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "While responding to multiple reports of a violent assault suspect at a Los Angeles clothing store, LAPD officers fired upon one male subject. Valentina Orellana-Peralta was sheltering with her mother and other patrons and was killed by an errant shot. Valentina and the suspect both succumbed to their injuries in the store. Several patrons were injured by the suspect prior to officers' arrival. [https://www.cnn.com/2021/12/28/us/lapd-teen-killed-valentina-orellana-peralta-family/index.html]",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Killing of Daunte Wright",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former Minneapolis police officer Kim Potter is found guilty on both counts in the killing of Daunte Wright. She is scheduled to be sentenced on February 18, 2022.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''AP''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Political impact of the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Lithuania",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Seimas votes 89–17 with 19 abstentions to approve a law that would require MPs to have a health pass, which shows proof of vaccination, a negative test result from the previous 72 hours, or that a person has recovered from COVID-19, in order to attend hearings beginning in January.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Barron's''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Australian Government pays a A$2,000,000 settlement to the Shire of Ngaanyatjarraku to end a class action lawsuit in the Federal Court over the controversial Community Development Program, which saw unemployed Ngaanyatjarra and other Indigenous Australian people in remote communities working up to 25 hours a week otherwise unpaid in order to receive the JobSeeker payment, which is generally considered to be less than the cost of living and which is provided to other Australians in exchange for completing a fortnightly quota of job applications. The Ngaanyatjarra accused the program of being racist and a form of modern slavery.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

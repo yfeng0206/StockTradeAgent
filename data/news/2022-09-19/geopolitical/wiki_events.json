@@ -1,0 +1,190 @@
+{
+  "date": "2022-09-19",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 21,
+  "categories": {
+    "other": {
+      "count": 21,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "Four people are killed and more than 30 injured as police open fire on people protesting in Saqqez, Kurdistan province, Iran, over the death of a woman under police custody in Tehran.",
+        "Death and state funeral of Elizabeth II",
+        "2022 Atlantic hurricane season",
+        "2022 Western Mexico earthquake"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Battle of Donbas",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Thirteen people are killed and many others are injured in explosions in the Donetsk People's Republic-held city of Donetsk. DPR leader Denis Pushilin accuses Ukraine of being behind the attacks.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Ukrainian Ground Forces recapture the village of Bilohorivka in Luhansk Oblast as it advances on Lysychansk.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Telegraph''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Luhansk People's Republic authorities say that a Ukrainian shelling attack has killed seven civilians including three children in the town of Krasnorichenske.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Four people are killed and more than 30 injured as police open fire on people protesting in Saqqez, Kurdistan province, Iran, over the death of a woman under police custody in Tehran.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Death and state funeral of Elizabeth II",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The state funeral of Elizabeth II is held in London, United Kingdom.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Atlantic hurricane season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hurricane Fiona makes landfall in the Dominican Republic after causing massive devastation in Puerto Rico, killing three people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Western Mexico earthquake",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A magnitude 7.6 earthquake strikes Michoacán, Mexico, killing two people and wounding 12 others.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mongolia places Khovd Province under quarantine after confirming a case of bubonic plague in Möst district.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Xinhua"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Afghanistan–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Afghanistan releases American engineer Mark Frerichs in exchange for Afghan drug lord Bashir Noorzai, who has been held by the United States on drug charges since April 2005.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Capital punishment in Equatorial Guinea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Equatorial Guinea abolishes the death penalty after its president Teodoro Obiang Nguema Mbasogo signs a new penal code into law.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Irish judge Síofra O'Leary is elected the new president of European Court of Human Rights, becoming the first woman to hold that position.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Journal''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian-occupied Ukraine annexation referendums",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The State Duma of Russia reports that a referendum on the accession of the Luhansk People's Republic to Russia will be held in the near future.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "TASS"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

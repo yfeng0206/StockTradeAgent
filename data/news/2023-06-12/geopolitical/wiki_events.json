@@ -1,0 +1,177 @@
+{
+  "date": "2023-06-12",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 19,
+  "categories": {
+    "other": {
+      "count": 19,
+      "headlines": [
+        "Syrian civil war, Russia–Turkey relations",
+        "Ituri conflict",
+        "Pat Sajak announces his retirement from the American game show Wheel of Fortune after 41 seasons, having hosted the show since 1981.",
+        "Moldova–Ukraine relations",
+        "Eritrea rejoins the Intergovernmental Authority on Development trade bloc almost 16 years after suspending its membership in 2007."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Syrian civil war, Russia–Turkey relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Turkish artillery shelling kills a Russian soldier and injures four others in northern Aleppo governorate, Syria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News",
+        "SOHR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ituri conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 46 people are killed by CODECO in an IDP camp in the Bahema Badjere district of Ituri, Democratic Republic of the Congo.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Pat Sajak announces his retirement from the American game show Wheel of Fortune after 41 seasons, having hosted the show since 1981.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Moldova–Ukraine relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Moldova and Ukraine sign an agreement to build a bridge across their border over the Dniester river between Cosăuți, Moldova, and Yampil, Ukraine, bypassing the unrecognised state of Transnistria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Yahoo! News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Eritrea rejoins the Intergovernmental Authority on Development trade bloc almost 16 years after suspending its membership in 2007.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Al-Ahram''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "UNESCO Director-General Audrey Azoulay announces that the United States will reapply for membership in July, after the Trump administration withdrew the United States from the agency in 2018.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''The Manila Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2024 Mexican general election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Mexican Foreign Minister Marcelo Ebrard resigns and announces he will run for president of Mexico in the 2024 elections. The mayor of Mexico City, Claudia Sheinbaum, also announces that she will resign on Friday to focus on running for president.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Death and state funeral of Silvio Berlusconi",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Former Italian Prime Minister Silvio Berlusconi dies in Milan at the age of 86.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Discoveries of exoplanets",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Astronomers announce in the journal Nature Astronomy the discovery of  BEBOP-1c, an exoplanet orbiting the binary star system, TOI-1338. The system is the second discovered to have more than one circumbinary planet.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Space.com"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Most major communities on social media site Reddit implement a temporary \"blackout\" in response to proposed changes to third-party access to Reddit's API.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Sky News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Swiss Federal Administration reports a distributed denial of service attack on some of its websites.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Business Times''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 NBA playoffs",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In basketball, the Denver Nuggets win their first NBA title after defeating the Miami Heat in five games of a best-of-seven series in the NBA Finals. Serbian center Nikola Jokić is named Most Valuable Player.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

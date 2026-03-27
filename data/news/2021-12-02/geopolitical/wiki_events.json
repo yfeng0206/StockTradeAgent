@@ -1,0 +1,287 @@
+{
+  "date": "2021-12-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 34,
+  "categories": {
+    "other": {
+      "count": 34,
+      "headlines": [
+        "Syrian civil war",
+        "2021 Solomon Islands unrest",
+        "COVID-19 pandemic",
+        "Algeria–Morocco relations, Morocco–Turkey relations",
+        "A group of four former Serbian state security officers, including Radomir Marković, are found guilty of the murder of Slavko Ćuruvija. Two have been sentenced to 20 years in prison, while Marković and"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Syrian civil war",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ten oil workers are killed and another is injured during an ISIL attack on a bus in Deir ez-Zor, Syria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Solomon Islands unrest",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The New Zealand Defence Force and Police travel to Honiara, Solomon Islands, in order to help stabilize the country and maintain peace after days of rioting, looting and unrest that killed three people.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RNZ"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in India",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Karnataka",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "India reports its first case of the SARS-CoV-2 Omicron variant in two foreigners who travelled to Karnataka.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NDTV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the Philippines, COVID-19 vaccination in the Philippines",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Philippine Department of Health announces that all adults over the age of 18 years can receive a booster dose at least six months after receiving their second dose or a least three months after receiving their single dose.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Rappler"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Singapore",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Singapore reports its first cases of the SARS-CoV-2 Omicron variant in two fully vaccinated people, age 44 and 41, who returned from Johannesburg.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Straits Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in South Korea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "South Korea reports a record for the second consecutive day of 5,266 new cases of COVID-19, thereby bringing the nationwide total of confirmed cases to 457,612.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolu Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Finland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Finland reports its first case of the SARS-CoV-2 Omicron variant in a person who travelled from Sweden.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Greece",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Greece reports its first case of the SARS-CoV-2 Omicron variant in a man who travelled from South Africa to Crete.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Ekathimerini''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom, COVID-19 drug development",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Medicines and Healthcare products Regulatory Agency approves GSK and Vir Biotechnology's sotrovimab antibody treatment, after a clinical trial found that the treatment reduced the risk of hospital admission and death by 79% in vulnerable adults if administered within five days of symptoms developing.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Minnesota",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Minnesota reports its first case of the Omicron variant in a person who traveled from New York City.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KSTP-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Algeria–Morocco relations, Morocco–Turkey relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Morocco buys six Bayraktar TB2 drones from Baykar amid rising tensions between Morocco and Algeria.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Morocco World News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A group of four former Serbian state security officers, including Radomir Marković, are found guilty of the murder of Slavko Ćuruvija. Two have been sentenced to 20 years in prison, while Marković and the remaining officer will serve a 30-year sentence.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Balkan Insight"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2021 Australian Parliament House sexual misconduct allegations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Alan Tudge stands down as Minister for Education and Youth after Prime Minister Scott Morrison announced an investigation into domestic abuse allegations against Tudge from a former staffer who claimed that the two were involved in an extramarital affair.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Major League Baseball lockout",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Major League Baseball implements a lockout after the collective bargaining agreement they had with the Major League Baseball Players Association expired yesterday. This is the league's first labor stoppage since the players' strike of 1994 and 1995.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021–22 NBA season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In basketball, the Memphis Grizzlies defeat the Oklahoma City Thunder 152–79, making it the largest blowout in the history of the National Basketball Association.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

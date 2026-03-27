@@ -1,0 +1,259 @@
+{
+  "date": "2019-10-23",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 26,
+  "categories": {
+    "health": {
+      "count": 1,
+      "headlines": [
+        "Pacific Gas and Electric is set to shut off power to 179,000 customers in Northern California due to an elevated wildfire risk, while Southern California Edison does so for 308,000 in Southern Califor"
+      ]
+    },
+    "politics": {
+      "count": 10,
+      "headlines": [
+        "2019 Botswana general election",
+        "2019 Chilean protests",
+        "2019 Bolivian protests",
+        "Stoneman Douglas High School shooting, Fort Lauderdale airport shooting",
+        "September 2019 Israeli legislative election"
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "2019 Turkish offensive into north-eastern Syria, Turkey–United States relations"
+      ]
+    },
+    "disaster": {
+      "count": 4,
+      "headlines": [
+        "Lion Air Flight 610, Boeing 737 MAX groundings",
+        "Yirol Let L-410 Turbolet crash"
+      ]
+    },
+    "legal": {
+      "count": 9,
+      "headlines": [
+        "Essex lorry deaths",
+        "Right-wing terrorism in the United Kingdom, Christchurch mosque shootings",
+        "Police in Albania say they have identified a terrorist cell in the country operated by the Revolutionary Guards of Iran and seeking to attack members of exiled Iranian anti-government group Mujahedin-",
+        "Murder of Nusrat Jahan Rafi",
+        "2019 Trump–Ukraine scandal"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Lion Air Flight 610, Boeing 737 MAX groundings",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Indonesian investigators meet with families of the deceased ahead of the release of their final report, scheduled for Friday. They state the crash was caused by design flaws with software on the aircraft, and inaccurate assessments by Boeing as to how pilots would respond to them.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Yirol Let L-410 Turbolet crash",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ukraine releases the final report into the disaster, which was prepared by South Sudan. The report concludes mistakes by both crew and maintenance, as well as poor weather, combined to cause the crash.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "The Aviation Herald"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Pacific Gas and Electric is set to shut off power to 179,000 customers in Northern California due to an elevated wildfire risk, while Southern California Edison does so for 308,000 in Southern California.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The New York Times''",
+        "KTLA"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Turkish offensive into north-eastern Syria, Turkey–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Trump administration lifts the sanctions it placed on Turkey, in response to the latter's ceasefire. While U.S. President Donald Trump states the ceasefire is permanent, he threatens to reinstate the sanctions if \"something happens that we are not happy with\".",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Essex lorry deaths",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Police discover 39 bodies inside a lorry container in Grays, Essex, UK. They had been transported from Zeebrugge, across the English Channel to Purfleet. The driver, a man from Northern Ireland, is arrested.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Right-wing terrorism in the United Kingdom, Christchurch mosque shootings",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two men are given prison sentences in the United Kingdom after they incited copycat attacks following mosque shootings in New Zealand. They were convicted of a series of terror offences.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Police in Albania say they have identified a terrorist cell in the country operated by the Revolutionary Guards of Iran and seeking to attack members of exiled Iranian anti-government group Mujahedin-e Khalq.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Murder of Nusrat Jahan Rafi",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court in Bangladesh sentences sixteen people to death after they burned a student alive when she reported sexual harassment by a teacher.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Trump–Ukraine scandal",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At a hearing in New York City, Lev Parnas and Igor Fruman, two associates of U.S. President Donald Trump's personal lawyer Rudy Giuliani, who aided him with a search in Ukraine for detrimental information on President Trump's political opponents, plead not guilty to charges that they funneled $350,000 in illegal donations to a pro-Trump political committee and another $20,000 to former Republican Congressman Pete Sessions while acting on behalf of at least one Ukrainian government official.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "AOL"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Botswana general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Citizens of Botswana cast their vote to elect the members of the National Assembly and local government councils.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Eyewitness News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Chilean protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Chilean President Sebastián Piñera in a nationally televised address apologizes for the failures of the government and pledges economic reforms as violent protests continue in the country.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "WJCT"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Bolivian protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Evo Morales accuses opposition politicians of plotting a coup d'etat with foreign powers.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Stoneman Douglas High School shooting, Fort Lauderdale airport shooting",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In a special session of the Florida Senate, the chamber voted 25–15 to uphold the suspension of former Broward Sheriff Scott Israel for his agency's response to the mass shootings at both Ft. Lauderdale-Hollywood International Airport and Parkland.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "WPLG"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "September 2019 Israeli legislative election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "President of Israel Reuven Rivlin tasks Leader of the Opposition Benny Gantz to try to form government after the failing of current Prime Minister Benjamin Netanyahu.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

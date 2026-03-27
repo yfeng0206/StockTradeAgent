@@ -1,0 +1,833 @@
+[
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "PFE",
+    "price": 27.49,
+    "reason": "Ranked in top 10. Score: 6.642 (value=5.5, momentum=7.2, stability=7.7, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.64,
+      "value": 5.5,
+      "momentum": 7.25,
+      "stability": 7.69,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "JNJ",
+    "price": 122.64,
+    "reason": "Ranked in top 10. Score: 6.596 (value=3.2, momentum=7.9, stability=8.6, event_adj=0.5)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.6,
+      "value": 3.25,
+      "momentum": 7.88,
+      "stability": 8.63,
+      "event_adj": 0.5,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "XOM",
+    "price": 53.31,
+    "reason": "Ranked in top 10. Score: 6.581 (value=5.5, momentum=6.5, stability=7.8, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.58,
+      "value": 5.54,
+      "momentum": 6.48,
+      "stability": 7.79,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 94.9,
+    "reason": "Ranked in top 10. Score: 6.548 (value=4.5, momentum=7.6, stability=8.4, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.55,
+      "value": 4.54,
+      "momentum": 7.62,
+      "stability": 8.41,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "MSFT",
+    "price": 152.16,
+    "reason": "Ranked in top 10. Score: 6.442 (value=3.5, momentum=8.7, stability=8.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.44,
+      "value": 3.49,
+      "momentum": 8.66,
+      "stability": 8.93,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "NFLX",
+    "price": 32.98,
+    "reason": "Ranked in top 10. Score: 6.353 (value=4.8, momentum=9.1, stability=7.1, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.35,
+      "value": 4.8,
+      "momentum": 9.08,
+      "stability": 7.08,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "JPM",
+    "price": 119.04,
+    "reason": "Ranked in top 10. Score: 6.286 (value=3.4, momentum=8.8, stability=8.7, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.29,
+      "value": 3.35,
+      "momentum": 8.77,
+      "stability": 8.65,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "LMT",
+    "price": 337.61,
+    "reason": "Ranked in top 10. Score: 6.204 (value=3.6, momentum=6.8, stability=8.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.2,
+      "value": 3.61,
+      "momentum": 6.76,
+      "stability": 8.91,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "V",
+    "price": 182.81,
+    "reason": "Ranked in top 10. Score: 6.182 (value=3.3, momentum=7.5, stability=8.9, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.18,
+      "value": 3.3,
+      "momentum": 7.48,
+      "stability": 8.93,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-02",
+    "action": "BUY",
+    "ticker": "GS",
+    "price": 202.12,
+    "reason": "Ranked in top 10. Score: 6.105 (value=3.1, momentum=8.6, stability=8.6, event_adj=0.0)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55",
+    "scores": {
+      "composite": 6.11,
+      "value": 3.06,
+      "momentum": 8.6,
+      "stability": 8.6,
+      "event_adj": 0,
+      "weights": "v=0.45 m=0.15 s=0.4"
+    }
+  },
+  {
+    "date": "2020-01-07",
+    "action": "SELL",
+    "ticker": "JPM",
+    "price": 115.38,
+    "reason": "STOP LOSS triggered (-3.07% loss) PnL: -3.1% (held since 2020-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.55"
+  },
+  {
+    "date": "2020-01-16",
+    "action": "SELL",
+    "ticker": "XOM",
+    "price": 51.74,
+    "reason": "STOP LOSS triggered (-2.93% loss) PnL: -2.9% (held since 2020-01-02)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.46"
+  },
+  {
+    "date": "2020-01-27",
+    "action": "SELL",
+    "ticker": "AMZN",
+    "price": 91.42,
+    "reason": "STOP LOSS triggered (-3.67% loss) PnL: -3.7% (held since 2020-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.76"
+  },
+  {
+    "date": "2020-01-29",
+    "action": "SELL",
+    "ticker": "PFE",
+    "price": 26.4,
+    "reason": "STOP LOSS triggered (-3.99% loss) PnL: -4.0% (held since 2020-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.82"
+  },
+  {
+    "date": "2020-02-03",
+    "action": "SELL",
+    "ticker": "JNJ",
+    "price": 126.17,
+    "reason": "Dropped from top 10. Score: 6.57 Replaced by: LMT, MSFT, KO PnL: +2.9% (held since 2020-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 6.57,
+      "value": 3.3,
+      "momentum": 7.87,
+      "stability": 8.92,
+      "event_adj": 0,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "SELL",
+    "ticker": "NFLX",
+    "price": 35.8,
+    "reason": "Dropped from top 10. Score: 5.65 Replaced by: LMT, MSFT, KO PnL: +8.5% (held since 2020-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 5.65,
+      "value": 3.18,
+      "momentum": 9.25,
+      "stability": 6.9,
+      "event_adj": 0,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "SELL",
+    "ticker": "GS",
+    "price": 206.16,
+    "reason": "Dropped from top 10. Score: 6.55 Replaced by: LMT, MSFT, KO PnL: +2.0% (held since 2020-01-02)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 6.55,
+      "value": 3.54,
+      "momentum": 7.16,
+      "stability": 8.83,
+      "event_adj": 0,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "KO",
+    "price": 48.4,
+    "reason": "Ranked in top 10. Score: 7.238 (value=3.7, momentum=7.5, stability=9.0, event_adj=0.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 7.24,
+      "value": 3.69,
+      "momentum": 7.49,
+      "stability": 9.02,
+      "event_adj": 0.5,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "MRK",
+    "price": 68.41,
+    "reason": "Ranked in top 10. Score: 7.075 (value=4.2, momentum=4.7, stability=8.9, event_adj=0.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 7.08,
+      "value": 4.2,
+      "momentum": 4.66,
+      "stability": 8.86,
+      "event_adj": 0.5,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "MA",
+    "price": 313.72,
+    "reason": "Ranked in top 10. Score: 7.049 (value=3.0, momentum=8.5, stability=9.0, event_adj=0.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 7.05,
+      "value": 3.02,
+      "momentum": 8.47,
+      "stability": 8.99,
+      "event_adj": 0.5,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "SO",
+    "price": 55.64,
+    "reason": "Ranked in top 10. Score: 7.024 (value=3.6, momentum=8.7, stability=9.4, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 7.02,
+      "value": 3.6,
+      "momentum": 8.65,
+      "stability": 9.43,
+      "event_adj": 0,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "MCD",
+    "price": 186.25,
+    "reason": "Ranked in top 10. Score: 7.009 (value=3.5, momentum=7.8, stability=8.7, event_adj=0.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 7.01,
+      "value": 3.48,
+      "momentum": 7.84,
+      "stability": 8.66,
+      "event_adj": 0.5,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "AAPL",
+    "price": 74.4,
+    "reason": "Ranked in top 10. Score: 6.967 (value=3.4, momentum=8.7, stability=8.5, event_adj=0.5)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 6.97,
+      "value": 3.41,
+      "momentum": 8.69,
+      "stability": 8.47,
+      "event_adj": 0.5,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-03",
+    "action": "BUY",
+    "ticker": "NEE",
+    "price": 57.12,
+    "reason": "Ranked in top 10. Score: 6.939 (value=3.7, momentum=8.4, stability=9.2, event_adj=0.0)",
+    "regime": "normal",
+    "news_context": "geo_risk=0.73",
+    "scores": {
+      "composite": 6.94,
+      "value": 3.72,
+      "momentum": 8.44,
+      "stability": 9.21,
+      "event_adj": 0,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-02-05",
+    "action": "SELL",
+    "ticker": "SO",
+    "price": 54.33,
+    "reason": "STOP LOSS triggered (-2.36% loss) PnL: -2.4% (held since 2020-02-03)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.71"
+  },
+  {
+    "date": "2020-02-12",
+    "action": "SELL",
+    "ticker": "MRK",
+    "price": 65.21,
+    "reason": "STOP LOSS triggered (-4.68% loss) PnL: -4.7% (held since 2020-02-03)",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.66"
+  },
+  {
+    "date": "2020-02-25",
+    "action": "SELL",
+    "ticker": "MA",
+    "price": 292.81,
+    "reason": "STOP LOSS triggered (-6.67% loss) PnL: -6.7% (held since 2020-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-25",
+    "action": "SELL",
+    "ticker": "AAPL",
+    "price": 69.61,
+    "reason": "STOP LOSS triggered (-6.45% loss) PnL: -6.4% (held since 2020-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-27",
+    "action": "SELL",
+    "ticker": "V",
+    "price": 172.43,
+    "reason": "STOP LOSS triggered (-5.68% loss) PnL: -5.7% (held since 2020-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-27",
+    "action": "SELL",
+    "ticker": "KO",
+    "price": 45.38,
+    "reason": "STOP LOSS triggered (-6.23% loss) PnL: -6.2% (held since 2020-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-27",
+    "action": "SELL",
+    "ticker": "MCD",
+    "price": 173.98,
+    "reason": "STOP LOSS triggered (-6.59% loss) PnL: -6.6% (held since 2020-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-27",
+    "action": "SELL",
+    "ticker": "NEE",
+    "price": 55.06,
+    "reason": "STOP LOSS triggered (-3.61% loss) PnL: -3.6% (held since 2020-02-03)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-02-28",
+    "action": "SELL",
+    "ticker": "LMT",
+    "price": 314.63,
+    "reason": "STOP LOSS triggered (-6.81% loss) PnL: -6.8% (held since 2020-01-02)",
+    "regime": "bearish",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "HD",
+    "price": 197.56,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $198",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "LLY",
+    "price": 124.02,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $124",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "V",
+    "price": 184.23,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $184",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "AMZN",
+    "price": 97.7,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $98",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "AAPL",
+    "price": 72.2,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $72",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "ADBE",
+    "price": 360.28,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $360",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "NEE",
+    "price": 57.75,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $58",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "MA",
+    "price": 296.53,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $297",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-02",
+    "action": "SKIP_RISK",
+    "ticker": "CRM",
+    "price": 174.64,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $175",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.77"
+  },
+  {
+    "date": "2020-03-12",
+    "action": "SELL",
+    "ticker": "MSFT",
+    "price": 132.09,
+    "reason": "STOP LOSS triggered (-13.19% loss) PnL: -13.2% (held since 2020-01-02)",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.85"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "NVDA",
+    "price": 6.05,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $6",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "COST",
+    "price": 262.39,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $262",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "TSLA",
+    "price": 32.1,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $32",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "AMZN",
+    "price": 95.39,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $95",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "AMD",
+    "price": 43.66,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $44",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "ADBE",
+    "price": 301.21,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $301",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "LLY",
+    "price": 127.36,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $127",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "WMT",
+    "price": 35.05,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $35",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-04-01",
+    "action": "SKIP_RISK",
+    "ticker": "VZ",
+    "price": 37.32,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $37",
+    "regime": "crisis",
+    "news_context": "geo_risk=0.99"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "ABBV",
+    "price": 65.91,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $66",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "PFE",
+    "price": 26.71,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $27",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "LLY",
+    "price": 143.43,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $143",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "MSFT",
+    "price": 165.83,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $166",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "ABT",
+    "price": 81.09,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $81",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "TSLA",
+    "price": 46.75,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $47",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "INTC",
+    "price": 50.94,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $51",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "SO",
+    "price": 43.21,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $43",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "NEE",
+    "price": 48.86,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $49",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-01",
+    "action": "SKIP_RISK",
+    "ticker": "CVX",
+    "price": 68.57,
+    "reason": "Risk overlay reduced size to 0%, budget $0 < price $69",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.62"
+  },
+  {
+    "date": "2020-05-19",
+    "action": "BUY",
+    "ticker": "WMT",
+    "price": 38.53,
+    "reason": "EARNINGS strong_beat: surprise 0.0848% [Balanced] [Regime normal: 60.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.96"
+  },
+  {
+    "date": "2020-05-21",
+    "action": "BUY",
+    "ticker": "NVDA",
+    "price": 8.74,
+    "reason": "EARNINGS strong_beat: surprise 0.0686% [Balanced] [Regime normal: 60.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.88"
+  },
+  {
+    "date": "2020-05-22",
+    "action": "BUY",
+    "ticker": "DE",
+    "price": 130.33,
+    "reason": "EARNINGS strong_beat: surprise 0.3344% [Balanced] [Regime normal: 60.0% win rate]",
+    "regime": "normal",
+    "news_context": "geo_risk=0.82"
+  },
+  {
+    "date": "2020-06-01",
+    "action": "BUY",
+    "ticker": "COST",
+    "price": 282.71,
+    "reason": "Ranked in top 10. Score: 5.437 (value=1.2, momentum=6.1, stability=6.7, event_adj=1.5) [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.94,
+      "value": 1.22,
+      "momentum": 6.06,
+      "stability": 6.68,
+      "event_adj": 1.5,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-06-01",
+    "action": "BUY",
+    "ticker": "AMZN",
+    "price": 123.55,
+    "reason": "Ranked in top 10. Score: 5.231 (value=0.6, momentum=9.2, stability=8.2, event_adj=0.5) [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.73,
+      "value": 0.57,
+      "momentum": 9.22,
+      "stability": 8.16,
+      "event_adj": 0.5,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-06-01",
+    "action": "BUY",
+    "ticker": "UPS",
+    "price": 78.67,
+    "reason": "Ranked in top 10. Score: 4.974 (value=3.6, momentum=7.2, stability=6.6, event_adj=0.0) [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.47,
+      "value": 3.62,
+      "momentum": 7.23,
+      "stability": 6.6,
+      "event_adj": 0,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-06-01",
+    "action": "BUY",
+    "ticker": "CRM",
+    "price": 174.24,
+    "reason": "Ranked in top 10. Score: 4.743 (value=1.8, momentum=7.5, stability=5.6, event_adj=1.0) [Memory adj: -0.5]",
+    "regime": "bullish",
+    "news_context": "geo_risk=0.76",
+    "scores": {
+      "composite": 5.24,
+      "value": 1.76,
+      "momentum": 7.46,
+      "stability": 5.59,
+      "event_adj": 1.0,
+      "weights": "v=0.4 m=0.1 s=0.5"
+    }
+  },
+  {
+    "date": "2020-06-12",
+    "action": "SELL",
+    "ticker": "WMT",
+    "price": 36.31,
+    "reason": "STOP LOSS triggered (-5.77% loss) PnL: -5.8% (held since 2020-05-19)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.84"
+  },
+  {
+    "date": "2020-06-15",
+    "action": "SELL",
+    "ticker": "COST",
+    "price": 272.52,
+    "reason": "STOP LOSS triggered (-3.6% loss) PnL: -3.6% (held since 2020-06-01)",
+    "regime": "high_volatility",
+    "news_context": "geo_risk=0.87"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "date": "2023-01-02",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "other": {
+      "count": 16,
+      "headlines": [
+        "Kashmir conflict",
+        "Protests continue for a fifth day in Las Anod, Somaliland, with protesters demanding that the city be governed by Puntland instead of by Somaliland. Twenty people are killed in clashes between protest",
+        "2023 Gold Coast mid-air collision",
+        "New County Hotel fire",
+        "Malawi suspends the opening of schools in Lilongwe and Blantyre due to an outbreak of cholera, which has killed 595 people so far, including 19 people on New Year's Eve."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Kashmir conflict",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Rajouri attacks",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Two children are killed and four other people are injured by an explosion outside the home of one of the four Hindus who were killed yesterday in Rajouri district, Jammu and Kashmir, India.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "The Hindu"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two firefighters and three civilians are killed in an armed attack by Islamist insurgents along a highway between Bamako and Ségou.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Barron's''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Protests continue for a fifth day in Las Anod, Somaliland, with protesters demanding that the city be governed by Puntland instead of by Somaliland. Twenty people are killed in clashes between protestors and security forces.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Africanews"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2023 Gold Coast mid-air collision",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Four people are killed and eight others are injured when two helicopters collide near the Sea World theme park in Gold Coast, Queensland, Australia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ABC News Australia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "New County Hotel fire",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Three people are killed after a fire broke out at New County Hotel in Perth, Scotland.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Malawi suspends the opening of schools in Lilongwe and Blantyre due to an outbreak of cholera, which has killed 595 people so far, including 19 people on New Year's Eve.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2016 Indian banknote demonetisation",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Supreme Court of India upholds the legality of the government's decision to demonetise all ₹500 and ₹1,000 banknotes of the Mahatma Gandhi Series in 2016.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Qatar corruption scandal at the European Parliament",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "President of the European Parliament Roberta Metsola initiates a formal procedure to revoke parliamentary immunity from two MEPs allegedly involved in the scandal.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AFP via ''Bangkok Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 NFL season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Buffalo Bills safety Damar Hamlin suffers from a cardiac arrest during a Monday Night Football game against the Cincinnati Bengals and is taken to the University of Cincinnati Academic Health Center by ambulance. The NFL subsequently suspends the game and cancels it three days later.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CBS Sports"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "date": "2019-07-17",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 16,
+  "categories": {
+    "health": {
+      "count": 2,
+      "headlines": [
+        "2018–20 Kivu Ebola epidemic"
+      ]
+    },
+    "politics": {
+      "count": 5,
+      "headlines": [
+        "President-elect of the European Commission Ursula von der Leyen resigns from her position as Federal Minister of Defence of Germany. Chancellor Angela Merkel appoints Annegret Kramp-Karrenbauer, the l",
+        "2018–19 Sudanese protests",
+        "The U.S. House of Representatives votes 332–95 to table an impeachment-related measure against U.S. President Donald Trump.",
+        "<!--READ: Use the TALK PAGE to avoid edit warring. Major development in light of recent racial developments in the election-->During a campaign rally, U.S. President Donald Trump says \"Squad\" members "
+      ]
+    },
+    "tech": {
+      "count": 1,
+      "headlines": [
+        "Astronomers rule out the chances of ~30-meter asteroid 's impacting Earth in September 2019 by eliminating the possibility of its passing through an area where it would have to be if it were on an imp"
+      ]
+    },
+    "geopolitical": {
+      "count": 2,
+      "headlines": [
+        "Turkey–United States relations"
+      ]
+    },
+    "disaster": {
+      "count": 1,
+      "headlines": [
+        "A national emergency is declared in the Philippines after more than 100,000 people contract dengue fever."
+      ]
+    },
+    "legal": {
+      "count": 5,
+      "headlines": [
+        "AMIA bombing",
+        "Mexican drug lord Joaquín \"El Chapo\" Guzmán is sentenced to life in prison plus thirty years, and is ordered to forfeit US$12.6 billion. He accused the U.S. government of \"torture and corruption\" duri",
+        "Pakistan arrests Hafiz Saeed, the founder of Lashkar-e-Taiba, which has been blamed by the United States and India for the 2008 Mumbai terror attacks that left more than 160 people dead.",
+        "A shooting in Erbil, Iraqi Kurdistan, leaves two dead, including a Turkish diplomat."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "A national emergency is declared in the Philippines after more than 100,000 people contract dengue fever.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "Fox News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2018–20 Kivu Ebola epidemic",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The World Health Organisation declares the most recent Ebola outbreak in the eastern Democratic Republic of the Congo a Public Health Emergency of International Concern.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Turkey–United States relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The United States removes NATO ally Turkey from the Joint Strike Fighter program, following the country's acquisition of the Russian S-400 missile system. Turkey had planned to buy 100 F-35 Lightning II jets.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "AMIA bombing",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At the request of Israel and the United States, Argentina officially declares Hezbollah a terrorist organization, freezing assets and expelling all members of the organization from the country. It also holds it responsible for the 1994 attack against AMIA.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''Clarín''",
+        "''Perfil''",
+        "TN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Mexican drug lord Joaquín \"El Chapo\" Guzmán is sentenced to life in prison plus thirty years, and is ordered to forfeit US$12.6 billion. He accused the U.S. government of \"torture and corruption\" during his sentencing hearing in the U.S. District Court in Brooklyn, New York. He will likely be sent to ADX Florence in Colorado to serve his sentence.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CNBC"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Pakistan arrests Hafiz Saeed, the founder of Lashkar-e-Taiba, which has been blamed by the United States and India for the 2008 Mumbai terror attacks that left more than 160 people dead.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "CBS News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "A shooting in Erbil, Iraqi Kurdistan, leaves two dead, including a Turkish diplomat.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "President-elect of the European Commission Ursula von der Leyen resigns from her position as Federal Minister of Defence of Germany. Chancellor Angela Merkel appoints Annegret Kramp-Karrenbauer, the leader of the ruling CDU, as her successor.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2018–19 Sudanese protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Representatives of Sudan's military and the civil opposition sign the first of two parts of a power-sharing deal which is supposed to last until free elections in 2022.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The U.S. House of Representatives votes 332–95 to table an impeachment-related measure against U.S. President Donald Trump.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "<!--READ: Use the TALK PAGE to avoid edit warring. Major development in light of recent racial developments in the election-->During a campaign rally, U.S. President Donald Trump says \"Squad\" members \"hate our country\".  In light of recent statements made by Trump deemed as racist, the crowd of Trump supporters started chanting \"send her back\" in regards to Representative Ilhan Omar.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Astronomers rule out the chances of ~30-meter asteroid 's impacting Earth in September 2019 by eliminating the possibility of its passing through an area where it would have to be if it were on an impacting orbit. Prior to this, the asteroid had been given a one-in-7,000 chance of impacting Earth.",
+      "category": "Science and technology",
+      "market_category": "tech",
+      "sources": [
+        "phys.org"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

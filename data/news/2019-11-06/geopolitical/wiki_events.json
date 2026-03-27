@@ -1,0 +1,280 @@
+{
+  "date": "2019-11-06",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 29,
+  "categories": {
+    "geopolitical": {
+      "count": 20,
+      "headlines": [
+        "Terrorism in Tajikistan",
+        "A knife-wielding man launched a random assault wounding eight people, including four foreign tourists and four locals, before being arrested in Jerash, Jordan. A Mexican tourist and a Jordanian tour g",
+        "Allied Democratic Forces insurgency",
+        "Insurgency in the Maghreb",
+        "2019 Yala attack"
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Facebook–Cambridge Analytica data scandal"
+      ]
+    },
+    "legal": {
+      "count": 4,
+      "headlines": [
+        "Dutch police evacuate passengers and crew onboard an Air Europa flight at Amsterdam's Schiphol Airport to investigate reports of a \"suspicious situation\". The airline later tweets it was a false alarm",
+        "2019 Chilean protests",
+        "Two former Twitter employees are charged for spying on at least 6,000 users on behalf of Saudi Arabia."
+      ]
+    },
+    "politics": {
+      "count": 3,
+      "headlines": [
+        "2019–20 Lebanese protests"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Terrorism in Tajikistan",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Twenty gunmen open fire around a border checkpoint between Tajikistan and Uzbekistan, killing a border guard and a policeman. Fifteen assailants are killed and five others captured.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "A knife-wielding man launched a random assault wounding eight people, including four foreign tourists and four locals, before being arrested in Jerash, Jordan. A Mexican tourist and a Jordanian tour guide are seriously injured. Among the injured there is a bus driver stabbed while trying to stop the assailant from entering a cafeteria full of tourists.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Allied Democratic Forces insurgency",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ten civilians are killed by ADF militiamen who crossed the border from Uganda into the Beni Territory, North Kivu, DR Congo.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Insurgency in the Maghreb",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Thirty-seven people are dead and 60 others are injured after gunmen attack a Canadian gold mining company convoy on a road in Burkina Faso.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "France announces it will send ground troops to three border areas in Burkina Faso.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Yala attack",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Gunmen kill 15 people and injure five at a security checkpoint in Yala Province, Thailand. The attack is the most deadly in years.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Reuters",
+        "''Bangkok Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Hong Kong protests",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Hong Kong pro-government politician Junius Ho and his assistant are hospitalized after being stabbed by a man pretending to be a supporter. The perpetrator is arrested.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News",
+        "CNN",
+        "''South China Morning Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "LeBarón family massacre",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A suspect has been arrested for the mass shooting in Sonora, Mexico.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''USA Today''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Iraqi protests",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least three people are killed, and a further 17 wounded, when security forces fire at protestors trying to block a bridge in Baghdad. This is in spite of the government announcing the military was banned from using live rounds.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Facebook–Cambridge Analytica data scandal",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A court filing by California Attorney General Xavier Becerra reveals for the first time that the state launched an 18-month investigation into Facebook’s privacy issues in response to the Cambridge Analytica scandal. The filing accuses the company of refusing to cooperate with investigators, and asks the court to require them to turn over information regarding third-party access to data and changes in privacy settings.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Israel–Jordan relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Israel releases two Jordanian citizens it held in detention since August, after the Jordanian government successfully negotiated for their release on Monday.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nuclear program of Iran",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "French media reports that Iranian nuclear scientists began injecting uranium into centrifuges in the presence of International Atomic Energy Agency inspectors at the Fordow Fuel Enrichment Plant. Effectively it turns the plant from a research site into an active nuclear site, in further violation of the Joint Comprehensive Plan of Action.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Dutch police evacuate passengers and crew onboard an Air Europa flight at Amsterdam's Schiphol Airport to investigate reports of a \"suspicious situation\". The airline later tweets it was a false alarm.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News",
+        "NL Times"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Chilean protests",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Regional prosecutor for East Santiago Manuel Guerra announces his intentions to investigate 14 police officers for allegedly torturing protestors.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Two former Twitter employees are charged for spying on at least 6,000 users on behalf of Saudi Arabia.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019–20 Lebanese protests",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Protestors sit-in at numerous government ministries, offices of major utility company Électricité du Liban, and property development sites at Zaitunay Bay in Beirut as protests enter their fourth week.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Hundreds of students at schools and universities join the protests.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

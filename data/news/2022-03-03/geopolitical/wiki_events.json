@@ -1,0 +1,542 @@
+{
+  "date": "2022-03-03",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 66,
+  "categories": {
+    "other": {
+      "count": 66,
+      "headlines": [
+        "Russo-Ukrainian War",
+        "2022 Russian financial crisis",
+        "The Estonian cargo ship MV Helt sinks near the Port of Odesa in the Black Sea following an explosion. All six crew members on board were rescued, according to authorities. Estonian Foreign Minister Ev",
+        "COVID-19 pandemic",
+        "Reactions to the 2021–2022 Russo-Ukrainian crisis, International reactions to the 2022 Russian invasion of Ukraine"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Siege of Chernihiv",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The governor of Chernihiv Oblast says that at least 33 people have been killed and at least 18 others injured in Russian airstrikes on residential areas in Chernihiv.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''National Post''",
+        "''U.S. News & World Report''",
+        "NDTV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Battle of Kharkiv",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Thirteen students are killed at the National University of Kharkiv after a Russian shell struck a dormitory at the university's Academy of Culture. Five foreign students are among the dead, including four Chinese and one Indian student.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Taiwan News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Kherson offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Ukrainian Navy patrol vessel Sloviansk is destroyed in a Russian anti-ship missile strike off the Port of Odesa, resulting in the disappearance of all its crew.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Debrief"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian refugee crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Nations High Commissioner for Refugees says that over one million Ukrainians have fled the country since the invasion began.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia and the U.S. establish a hotline in an effort to prevent escalation between the two nuclear powers.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian Foreign Minister Sergey Lavrov says that the war on Ukraine will continue \"until the end\", and accuses Ukrainian President Volodymyr Zelenskyy of allowing \"a society where Nazism is flourishing\". Lavrov also says that Russia is not planning a nuclear war.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Russian financial crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Standard & Poor's downgrades Russia's debt from BB+ to CCC-, signalling that it believes that Russia is prone to defaulting on its obligations.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "The Estonian cargo ship MV Helt sinks near the Port of Odesa in the Black Sea following an explosion. All six crew members on board were rescued, according to authorities. Estonian Foreign Minister Eva-Maria Liimets says that an investigation into the incident will occur.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Euronews"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in France",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in France",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "French Prime Minister Jean Castex announces that France will lift their requirements for COVID-19 vaccine passports in access venues beginning on March 14.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "France 24"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Estonia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Estonian President Alar Karis tests positive for COVID-19.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ERR"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Hong Kong",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Hong Kong reports a record for the second consecutive day of 56,827 new COVID-19 cases, thereby bringing the total of confirmed cases in the territory to 350,557. The territory also reporting a record 144 deaths in the past 24 hours, thereby bringing the death toll in territory to 1,366.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''South China Morning Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Kazakhstan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in Kazakhstan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Kazakhstan begins its production of the Sputnik Light COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Kazinform"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Indiana",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Indiana Governor Eric Holcomb signs an executive order ending the state’s COVID-19 emergency.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Indianapolis Star''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in New Zealand",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "New Zealand reports a record 23,183 new community transmitted COVID-19 cases in the past 24 hours.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''New Zealand Herald''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Reactions to the 2021–2022 Russo-Ukrainian crisis, International reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Russia–Ukraine relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian President Volodymyr Zelenskyy says that the second round of talks between Ukraine and Russia have begun.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Tribune India''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Ukrainian presidential adviser Mykhailo Podolyak says that Ukraine and Russia have not \"achieved the desired results they wanted\", but that Russia has agreed to a temporary ceasefire in humanitarian corridors, thereby allowing more time for civilian evacuations. Both sides are expected to hold a third round of talks beginning next week.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters",
+        "Forexlive"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "President Zelenskyy calls for a personal meeting with Russian President Vladimir Putin in an effort to end the war.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "MarketWatch"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Nuclear program of Iran",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Iran–Saudi Arabia relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Saudi Crown Prince Mohammed bin Salman says that his country will continue talks with regional rival Iran in order to reach an agreement between the two countries. Bin Salman also reaffirms his support for a \"strong\" nuclear deal that would prevent Iran from acquiring nuclear weapons.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Iran–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. State Department principal deputy spokesperson Jalina Porter says that efforts to revive the 2015 Iran nuclear deal have made \"significant progress\" but urges Iran not to wait any longer.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Times of Israel''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Potential enlargement of the European Union",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Prime Minister of Georgia Irakli Garibashvili signs a letter to formally apply for membership in the European Union.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Barron's''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Moldovan President Maia Sandu announces that Moldova is formally applying for EU membership.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Jerusalem Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Enlargement of NATO",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Assembly of the Republic of Kosovo approves a resolution urgently requesting the government to begin negotiations for the country's entry into NATO.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "International reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "International sanctions during the Russo-Ukrainian War",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "French authorities seize the yacht of Russian oligarch Igor Sechin in La Ciotat after the European Union blacklisted Sechin and froze his assets.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 Armenian presidential election",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Armenian National Assembly elects Vahagn Khachaturyan in a second round as the new country's President.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "RFE/RL"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "International reactions to the 2022 Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Media freedom in the European Union, Censorship in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian television network RT is taken off-air in the EU and the United Kingdom due to its coverage of the Russian invasion of Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "RT America ceases production and fires most of its employees. It expects the layoff to be permanent.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 in archosaur paleontology",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "A new research published in the Journal of Vertebrate Paleontology shows that the stegosaur Bashanosaurus, also known as the Bashanosaurus primitivus, is the oldest dinosaur species to be discovered in Asia.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Phys.org"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Impact of the COVID-19 pandemic on sports",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "2022 NFL season",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The National Football League and National Football League Players Association announce that they will eliminate COVID-19 testing and other protocols for the 2022 season following a revision to U.S. CDC guidelines and a decline in the number of COVID-19 cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ESPN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2022 boycott of Russia and Belarus",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "UEFA announces that they have banned Belarus from hosting international games due to its role in the invasion of Ukraine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bleacher Report"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

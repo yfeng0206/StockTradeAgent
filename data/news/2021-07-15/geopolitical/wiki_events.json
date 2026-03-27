@@ -1,0 +1,479 @@
+{
+  "date": "2021-07-15",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 58,
+  "categories": {
+    "other": {
+      "count": 58,
+      "headlines": [
+        "War in Afghanistan",
+        "2021 European floods",
+        "At least six people are killed during heavy rains in Rize, Turkey.",
+        "COVID-19 pandemic",
+        "Cuba–United States relations"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "War in Afghanistan",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Taliban insurgency",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Taliban offensive",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Taliban proposes a three month ceasefire to the Afghan government in exchange for the release of 7,000 captured fighters. Nader Nadery, an Afghan government negotiator, says that it is a \"big demand\" and that it will be evaluated. This move comes after major territorial gains by the insurgent group. The Taliban also demands that they be removed from a United Nations blacklist.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 European floods",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Severe floods occur in western Germany, killing 59 people. Eleven more people are also killed in floods in Belgium.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least six people are killed during heavy rains in Rize, Turkey.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "COVID-19 pandemic in Asia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Indonesia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in Indonesia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Food and Drug Authority grants an emergency use authorization for the Pfizer–BioNTech COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN Indonesia"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Indonesia reports a record for the fourth consecutive day of 56,757 new cases of COVID-19, thereby bringing the nationwide total of confirmed cases to 2.72 million.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "detikNews"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Malaysia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Malaysia reports a record for the third consecutive day of 13,215 new cases of COVID-19, thereby bringing the nationwide total of confirmed cases to 880,782.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNA"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Sri Lanka",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in Sri Lanka",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Sri Lanka reports a new single-day record of 384,763 vaccine doses administered.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Adaderana"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Thailand",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Thailand reports a record 98 deaths from COVID-19 in the past 24 hours, thereby bringing the nationwide death toll to 3,032.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Bangkok Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Vietnam",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in Vietnam",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Ministry of Health issues an emergency use authorization for the Janssen COVID-19 vaccine, becoming the sixth vaccine to be approved in Vietnam.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''The Times of India''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Vietnam surpasses 40,000 cases of COVID-19 after a record 3,416 cases are reported in the past 24 hours.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Viet Nam News"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Europe",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Russia",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Russia reports a record for the third consecutive day of 791 deaths from COVID-19, thereby bringing the nationwide death toll to 146,069.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Armenpress"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United Kingdom",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The United Kingdom reports 48,553 new cases of COVID-19 in the past 24 hours, which is the highest single-day total of new cases since January 15.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "ITV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 vaccination in the United States",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "A Food and Drug Administration official says that a vaccine for children under the age of 12 years is expected to be approved by midwinter.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "NBC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in California",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Los Angeles County will restore their indoor mask mandate amid the spread of the Lineage B.1.617 Delta variant.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "MarketWatch"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Louisiana",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Amidst a rise of cases in Louisiana, Governor John Bel Edwards reports that 50% of adults in the state have received a dose of the vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "KATC"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Maryland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Maryland Governor Larry Hogan announces that the state has administered seven million doses of the COVID-19 vaccine.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "WBOC-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Missouri",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Missouri Department of Health and Senior Services issues a hotspot advisory in several counties in southwest Missouri amid an increase in the number of COVID-19 cases in the state.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "WDAF-TV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Mauritius, Travel restrictions related to the COVID-19 pandemic",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Mauritius reopens its borders to vaccinated tourists after being closed for 16 months as part of a two-phase strategy to attract tourists in order to revive the economy from the impact of the pandemic.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Bloomberg"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Papua New Guinea",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Papua New Guinea reports its first case of the SARS-CoV-2 Delta variant in a 65-year-old Filipino who is the captain of a cargo ship which departed from Indonesia on June 26 and arrived in the country almost two weeks later.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "SBS"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "COVID-19 pandemic in Rwanda",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "The Rwandan government announces a lockdown in its capital Kigali and eight other districts from July 17 in an attempt to curb the increase in cases.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Anadolou Agency"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Cuba–United States relations",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "United States involvement in regime change in Latin America",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": true
+    },
+    {
+      "text": "Florida Governor Ron DeSantis urges the Cuban military to stage a coup in Cuba. He also urges the Biden administration to \"restore internet access to Cuba\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Tampa Bay Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "U.S. President Joe Biden calls Cuba a \"failed state\" and denounces communism as a \"failed system\". He also said the United States is looking into ways to \"restoring internet access in Cuba\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "CNN"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "LGBT rights in Hungary, LGBT rights in Poland",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The European Commission launches legal challenges against Hungary and parts of Poland due to their anti-LGBT+ laws. The Commission adds that \"Europe will never allow parts of our society to be stigmatized\".",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "DW"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Killing of Peter R. de Vries",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Dutch crime reporter Peter R. de Vries dies in an Amsterdam hospital from complications of gunshot wounds. De Vries had been shot five times outside of an Amsterdam TV studio nine days earlier. Two of the suspects in the shooting are in custody.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2021 Cuban protests",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Cuban Americans gather at the Florida State Capitol in solidarity with protesters in Cuba.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "WCTV"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Interim Prime Minister of Lebanon Saad Hariri resigns after both failing to form a new government in the past eight months and reaching an impasse with President Michel Aoun on adopting some constitutional amendments. Supporters of Hariri and his party Future Movement subsequently protest in Beirut, where they clashed with riot police, and blocked roads in  Tripoli and Tyre.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Israeli football club Beitar Jerusalem F.C. cancels a planned match with FC Barcelona after the latter refused to hold the match in Jerusalem, following a complaint sent by the Palestinian Football Association earlier this month. The planned location of the match would have been in Malha, which was a Palestinian Arab village prior to the establishment of Israel.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Al Jazeera"
+      ],
+      "is_subevent": false
+    }
+  ]
+}

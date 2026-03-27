@@ -1,0 +1,32 @@
+{
+  "final_value": 100271.41,
+  "cash": 65210.47,
+  "positions": {
+    "WMT": {
+      "shares": 177,
+      "entry_price": 47.88069534301758,
+      "entry_date": "2023-04-03"
+    },
+    "COST": {
+      "shares": 17,
+      "entry_price": 477.2148742675781,
+      "entry_date": "2023-04-03"
+    },
+    "JNJ": {
+      "shares": 59,
+      "entry_price": 143.4434814453125,
+      "entry_date": "2023-04-03"
+    },
+    "ABT": {
+      "shares": 44,
+      "entry_price": 95.78169250488281,
+      "entry_date": "2023-04-03"
+    },
+    "MS": {
+      "shares": 53,
+      "entry_price": 78.95494079589844,
+      "entry_date": "2023-04-03"
+    }
+  },
+  "return_pct": 0.27
+}

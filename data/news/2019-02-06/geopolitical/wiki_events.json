@@ -1,0 +1,148 @@
+{
+  "date": "2019-02-06",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 13,
+  "categories": {
+    "health": {
+      "count": 2,
+      "headlines": [
+        "2019 Philippines measles outbreak"
+      ]
+    },
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "2019 Guatemalan general election"
+      ]
+    },
+    "geopolitical": {
+      "count": 4,
+      "headlines": [
+        "Accession of Macedonia to NATO",
+        "2019 Venezuelan presidential crisis, Colombia–Venezuela relations"
+      ]
+    },
+    "disaster": {
+      "count": 4,
+      "headlines": [
+        "2018 Anchorage earthquake",
+        "Heavy rain hits Rio de Janeiro, leaving three people dead and two missing.",
+        "Fourteen people were killed, and fourteen others are injured when an eight-story apartment building collapsed in Istanbul, Turkey."
+      ]
+    },
+    "legal": {
+      "count": 1,
+      "headlines": []
+    }
+  },
+  "events": [
+    {
+      "text": "2018 Anchorage earthquake",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Two aftershocks strike Anchorage, Alaska, the first a magnitude 4.1, and the second a magnitude 3.7, occurring 23 minutes later.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''Anchorage Daily News''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Heavy rain hits Rio de Janeiro, leaving three people dead and two missing.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "''G1''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Fourteen people were killed, and fourteen others are injured when an eight-story apartment building collapsed in Istanbul, Turkey.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Philippines measles outbreak",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Philippines Department of Health declares a measles outbreak attributed to the drop in trust in vaccines due to the Dengvaxia controversy.",
+      "category": "Health and environment",
+      "market_category": "health",
+      "sources": [
+        "''The Philippine Star''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Accession of Macedonia to NATO",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "In Brussels, an accession protocol for joining NATO is signed between Jens Stoltenberg, Secretary General of NATO, and Nikola Dimitrov, foreign minister of the Republic of Macedonia.",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Venezuelan presidential crisis, Colombia–Venezuela relations",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Venezuelan National Guard blocks off a bridge on the Colombia–Venezuela border with a tanker truck. The Venezuelan opposition had been planning to use the bridge to bring humanitarian aid into the country, while President Nicolás Maduro has rejected foreign aid, saying \"we're not a nation of beggars\".",
+      "category": "International relations",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News",
+        "''Daily Star''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "In a landmark decision, the Constitutional Court of Colombia rules to ban recreational hunting, citing environmental protection concerns.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "''El Tiempo''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Guatemalan general election",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Attorney General files a request to withdraw immunity to the presidential candidate of National Unity of Hope, former First Lady Sandra Torres, for alleged crimes of illicit electoral financing. Torres said it was a political persecution of the former Attorney General and presidential candidate Thelma Aldana.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "''The Washington Post''"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

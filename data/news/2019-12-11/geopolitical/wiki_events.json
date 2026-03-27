@@ -1,0 +1,173 @@
+{
+  "date": "2019-12-11",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 15,
+  "categories": {
+    "politics": {
+      "count": 2,
+      "headlines": [
+        "2019 Bougainvillean independence referendum"
+      ]
+    },
+    "business": {
+      "count": 2,
+      "headlines": [
+        "Shares from Saudi Aramco begin trading on the Riyadh stock exchange, where it surged to the maximum limit of 10% above its IPO price. This increased the company's worth to US$1.88 trillion, making it ",
+        "The World Trade Organization's Appellate Body ceases functioning. The tenure of two of its three remaining judges expires after the United States blocked the appointment of new judges and the quorum n"
+      ]
+    },
+    "geopolitical": {
+      "count": 7,
+      "headlines": [
+        "Islamic terrorism in Europe",
+        "2019 Bagram Airfield attack",
+        "2019 Inates attack",
+        "At least three patients were killed and several other people were injured during a protest outside the Punjab Institute of Cardiology, Lahore, Pakistan. It was staged by the lawyers against a mocking "
+      ]
+    },
+    "disaster": {
+      "count": 2,
+      "headlines": [
+        "2019–20 Australian bushfire season, Physical impacts of climate change, Individual and political action on climate change"
+      ]
+    },
+    "legal": {
+      "count": 2,
+      "headlines": [
+        "During her first speech before the International Court of Justice at The Hague, Myanmar's leader Aung San Suu Kyi denies all charges of genocide, blames separatists and says the accusations are \"misle",
+        "The Rajya Sabha of India votes 125 to 105 to pass a controversial amendment to the Indian nationality law that would expedite citizenship for religious minorities from Bangladesh, Pakistan, and Afghan"
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "Islamic terrorism in Europe",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Across Denmark, police arrest twenty Islamists who were planning attacks. Bomb materials were found in some of the houses during the raids.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The Guardian''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Bagram Airfield attack",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Taliban forces assaulted a United States air base in Afghanistan amidst peace talks between the two parties. The attackers killed two civilians and injured another 80 people using two car bombs and guns. The attackers were successfully repelled by a NATO mission present at the base along with support from US fighter aircraft.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "''The New York Times''",
+        "Military Times"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "2019 Inates attack",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 71 people were killed after terrorists stormed a military base in Inates, Niger. The attack was carried out by suspected Islamic State in the Greater Sahara militants.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "BBC News",
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "At least three patients were killed and several other people were injured during a protest outside the Punjab Institute of Cardiology, Lahore, Pakistan. It was staged by the lawyers against a mocking viral video from doctors. The mob also attacked at the provincial information minister of Punjab Fayyaz ul Hassan Chohan. The Young Doctors Association of Pakistan reports death of 12 patients.",
+      "category": "Armed conflicts and attacks",
+      "market_category": "geopolitical",
+      "sources": [
+        "Dawn",
+        "Pakistan Today"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "Shares from Saudi Aramco begin trading on the Riyadh stock exchange, where it surged to the maximum limit of 10% above its IPO price. This increased the company's worth to US$1.88 trillion, making it the most valuable publicly-traded company in the world.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The World Trade Organization's Appellate Body ceases functioning. The tenure of two of its three remaining judges expires after the United States blocked the appointment of new judges and the quorum needed for a valid appeals ruling cannot be reached anymore.",
+      "category": "Business and economy",
+      "market_category": "business",
+      "sources": [
+        "''SCMP''"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019–20 Australian bushfire season, Physical impacts of climate change, Individual and political action on climate change",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Around 7,500 people in Sydney, New South Wales, Australia, stage a protest against Prime Minister Scott Morrison's lack of acknowledgement towards an ongoing bushfire caused by drought and climate change.",
+      "category": "Disasters and accidents",
+      "market_category": "disaster",
+      "sources": [
+        "news.com.au"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "During her first speech before the International Court of Justice at The Hague, Myanmar's leader Aung San Suu Kyi denies all charges of genocide, blames separatists and says the accusations are \"misleading\".",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "Euronews",
+        "Reuters"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "The Rajya Sabha of India votes 125 to 105 to pass a controversial amendment to the Indian nationality law that would expedite citizenship for religious minorities from Bangladesh, Pakistan, and Afghanistan. As the bill omits Muslims, critics say it's discriminatory and violates the secular nature of the Constitution. Massive protests break out in the state of Assam in response.",
+      "category": "Law and crime",
+      "market_category": "legal",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": false
+    },
+    {
+      "text": "2019 Bougainvillean independence referendum",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Voters in Bougainville vote overwhelmingly for independence from Papua New Guinea. However, the Papua New Guinea government will have the final say on accepting it or not.",
+      "category": "Politics and elections",
+      "market_category": "politics",
+      "sources": [
+        "BBC News"
+      ],
+      "is_subevent": true
+    }
+  ]
+}

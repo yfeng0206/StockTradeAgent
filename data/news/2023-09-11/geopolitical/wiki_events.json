@@ -1,0 +1,93 @@
+{
+  "date": "2023-09-11",
+  "source": "Wikipedia_Current_Events",
+  "total_events": 9,
+  "categories": {
+    "other": {
+      "count": 9,
+      "headlines": [
+        "2023 Ain al-Hilweh clashes",
+        "Russian invasion of Ukraine",
+        "Storm Daniel",
+        "Dominican Republic–Haiti relations, Haitian crisis",
+        "Six people are killed in a mass shooting against a vehicle in Artemida, East Attica, Greece. The six men, believed to be Turkish, were gunned down in an isolated cul-de-sac."
+      ]
+    }
+  },
+  "events": [
+    {
+      "text": "2023 Ain al-Hilweh clashes",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Clashes between rival factions in the Ain al-Hilweh Palestinian refugee camp in Sidon District, Lebanon, continue for the fifth day, despite a ceasefire, with five more people being killed, bringing the death toll to ten.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Reuters"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Russian invasion of Ukraine",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "Ukraine says that it has recaptured from Russia four Black Sea oil platforms known as the Boyko Towers in Crimea.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Politico",
+        "''The New York Times''"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Storm Daniel",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "At least 2,500 people have been killed and 7,000 others are reported missing across northeastern Libya during floods triggered by Storm Daniel.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "Albawaba"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Dominican Republic–Haiti relations, Haitian crisis",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [],
+      "is_subevent": false
+    },
+    {
+      "text": "The Dominican Republic suspends the issuance of visas for Haitians and announces plans to close its border with Haiti by Thursday.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "AP"
+      ],
+      "is_subevent": true
+    },
+    {
+      "text": "Six people are killed in a mass shooting against a vehicle in Artemida, East Attica, Greece. The six men, believed to be Turkish, were gunned down in an isolated cul-de-sac.",
+      "category": "uncategorized",
+      "market_category": "other",
+      "sources": [
+        "''Kathimerini''"
+      ],
+      "is_subevent": false
+    }
+  ]
+}
