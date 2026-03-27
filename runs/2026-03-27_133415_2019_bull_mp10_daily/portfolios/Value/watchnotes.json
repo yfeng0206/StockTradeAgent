@@ -1,0 +1,234 @@
+{
+  "LMT": [
+    {
+      "note": "Entry: $218.16 on 2019-01-02. Regime: high_volatility. News: geo_risk=0.65.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-01-02"
+    }
+  ],
+  "RTX": [
+    {
+      "note": "Entry: $57.58 on 2019-01-02. Regime: high_volatility. News: geo_risk=0.65.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-01-02"
+    }
+  ],
+  "WFC": [
+    {
+      "note": "Entry: $38.48 on 2019-01-02. Regime: high_volatility. News: geo_risk=0.65.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-01-02"
+    }
+  ],
+  "MMM": [
+    {
+      "note": "Entry: $104.81 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "UPS": [
+    {
+      "note": "Entry: $78.67 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "PLD": [
+    {
+      "note": "Entry: $46.67 on 2019-01-02. Regime: high_volatility. News: geo_risk=0.65.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-01-02"
+    }
+  ],
+  "XOM": [
+    {
+      "note": "Entry: $51.22 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "EMR": [
+    {
+      "note": "Entry: $57.23 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "CHTR": [
+    {
+      "note": "Entry: $287.99 on 2019-01-02. Regime: high_volatility. News: geo_risk=0.65.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-01-02"
+    }
+  ],
+  "HON": [
+    {
+      "note": "Entry: $106.93 on 2019-01-02. Regime: high_volatility. News: geo_risk=0.65.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-01-02"
+    }
+  ],
+  "ABBV": [
+    {
+      "note": "Entry: $55.12 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "GS": [
+    {
+      "note": "Entry: $166.95 on 2019-04-01. Regime: bullish. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-04-01"
+    }
+  ],
+  "QCOM": [
+    {
+      "note": "Entry: $49.06 on 2019-04-01. Regime: bullish. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-04-01"
+    }
+  ],
+  "BLK": [
+    {
+      "note": "Entry: $368.70 on 2019-04-01. Regime: bullish. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-04-01"
+    }
+  ],
+  "UNH": [
+    {
+      "note": "Entry: $194.70 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "MS": [
+    {
+      "note": "Entry: $35.07 on 2019-04-01. Regime: bullish. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-04-01"
+    }
+  ],
+  "OXY": [
+    {
+      "note": "Entry: $43.53 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "JPM": [
+    {
+      "note": "Entry: $86.31 on 2019-04-01. Regime: bullish. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-04-01"
+    }
+  ],
+  "TMUS": [
+    {
+      "note": "Entry: $67.27 on 2019-04-01. Regime: bullish. News: geo_risk=0.26.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-04-01"
+    }
+  ],
+  "AMT": [
+    {
+      "note": "Entry: $169.94 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "LLY": [
+    {
+      "note": "Entry: $103.53 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "REGN": [
+    {
+      "note": "Entry: $314.44 on 2019-07-01. Regime: bullish. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-07-01"
+    }
+  ],
+  "PFE": [
+    {
+      "note": "Entry: $24.65 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "CAT": [
+    {
+      "note": "Entry: $106.93 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "SPOT": [
+    {
+      "note": "Entry: $112.52 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "DIS": [
+    {
+      "note": "Entry: $125.82 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "SLB": [
+    {
+      "note": "Entry: $27.83 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "COP": [
+    {
+      "note": "Entry: $43.61 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ],
+  "GE": [
+    {
+      "note": "Entry: $41.64 on 2019-10-01. Regime: sideways. News: geo_risk=0.46.",
+      "condition": "info_only",
+      "action": "none",
+      "created": "2019-10-01"
+    }
+  ]
+}

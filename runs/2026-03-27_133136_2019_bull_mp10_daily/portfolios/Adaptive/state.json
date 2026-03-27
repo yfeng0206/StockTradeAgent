@@ -1,0 +1,57 @@
+{
+  "final_value": 123596.22,
+  "cash": 218.44,
+  "positions": {
+    "AAPL": {
+      "shares": 184,
+      "entry_price": 61.48179244995117,
+      "entry_date": "2019-11-01"
+    },
+    "TSLA": {
+      "shares": 544,
+      "entry_price": 20.887332916259766,
+      "entry_date": "2019-11-01"
+    },
+    "AMD": {
+      "shares": 325,
+      "entry_price": 34.88999938964844,
+      "entry_date": "2019-11-01"
+    },
+    "JPM": {
+      "shares": 101,
+      "entry_price": 110.92011260986328,
+      "entry_date": "2019-12-02"
+    },
+    "BAC": {
+      "shares": 395,
+      "entry_price": 28.535076141357422,
+      "entry_date": "2019-12-02"
+    },
+    "UNH": {
+      "shares": 45,
+      "entry_price": 250.6795196533203,
+      "entry_date": "2019-12-02"
+    },
+    "ABBV": {
+      "shares": 167,
+      "entry_price": 67.31696319580078,
+      "entry_date": "2019-12-02"
+    },
+    "REGN": {
+      "shares": 31,
+      "entry_price": 363.6234436035156,
+      "entry_date": "2019-12-02"
+    },
+    "VRTX": {
+      "shares": 51,
+      "entry_price": 220.7899932861328,
+      "entry_date": "2019-12-02"
+    },
+    "MRNA": {
+      "shares": 571,
+      "entry_price": 19.760000228881836,
+      "entry_date": "2019-12-02"
+    }
+  },
+  "return_pct": 23.6
+}

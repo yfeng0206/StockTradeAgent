@@ -1,0 +1,52 @@
+{
+  "final_value": 90638.29,
+  "cash": 7464.95,
+  "positions": {
+    "NFLX": {
+      "shares": 368,
+      "entry_price": 23.003999710083008,
+      "entry_date": "2022-09-01"
+    },
+    "SBUX": {
+      "shares": 107,
+      "entry_price": 78.4508285522461,
+      "entry_date": "2022-09-01"
+    },
+    "HON": {
+      "shares": 52,
+      "entry_price": 151.3969268798828,
+      "entry_date": "2022-10-03"
+    },
+    "DE": {
+      "shares": 24,
+      "entry_price": 328.9998779296875,
+      "entry_date": "2022-10-03"
+    },
+    "MS": {
+      "shares": 111,
+      "entry_price": 71.53684997558594,
+      "entry_date": "2022-10-03"
+    },
+    "DIS": {
+      "shares": 83,
+      "entry_price": 94.89527130126953,
+      "entry_date": "2022-10-03"
+    },
+    "GS": {
+      "shares": 29,
+      "entry_price": 274.1895446777344,
+      "entry_date": "2022-10-03"
+    },
+    "SLB": {
+      "shares": 226,
+      "entry_price": 35.19779586791992,
+      "entry_date": "2022-10-03"
+    },
+    "PEP": {
+      "shares": 55,
+      "entry_price": 151.12135314941406,
+      "entry_date": "2022-10-12"
+    }
+  },
+  "return_pct": -9.36
+}

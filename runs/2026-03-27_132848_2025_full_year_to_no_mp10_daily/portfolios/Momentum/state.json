@@ -1,0 +1,22 @@
+{
+  "final_value": 104494.43,
+  "cash": 70978.6,
+  "positions": {
+    "NEE": {
+      "shares": 125,
+      "entry_price": 85.7453384399414,
+      "entry_date": "2026-02-02"
+    },
+    "AMD": {
+      "shares": 55,
+      "entry_price": 198.6199951171875,
+      "entry_date": "2026-03-02"
+    },
+    "MRVL": {
+      "shares": 123,
+      "entry_price": 89.56999969482422,
+      "entry_date": "2026-03-06"
+    }
+  },
+  "return_pct": 4.49
+}

@@ -1,0 +1,2223 @@
+{
+  "regimes_seen": [
+    {
+      "date": "2019-01-02",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2019-01-04",
+      "regime": "crisis"
+    },
+    {
+      "date": "2019-01-08",
+      "regime": "high_volatility"
+    },
+    {
+      "date": "2019-01-24",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-01-25",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-01-28",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-02-01",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-02-04",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-02-07",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-02-12",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-03-08",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-03-11",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-03-22",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-03-26",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-03-27",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-04-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-05-01",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-05-03",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-05-06",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-05-13",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-05-31",
+      "regime": "bearish"
+    },
+    {
+      "date": "2019-06-04",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-06-20",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-06-24",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-07-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-07-19",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-07-22",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-07-31",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-08-14",
+      "regime": "bearish"
+    },
+    {
+      "date": "2019-08-16",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-08-23",
+      "regime": "bearish"
+    },
+    {
+      "date": "2019-08-26",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-09-12",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-10-31",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-11-01",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-12-02",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-12-03",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-12-05",
+      "regime": "normal"
+    },
+    {
+      "date": "2019-12-06",
+      "regime": "bullish"
+    },
+    {
+      "date": "2019-12-10",
+      "regime": "sideways"
+    },
+    {
+      "date": "2019-12-11",
+      "regime": "bullish"
+    }
+  ],
+  "news_themes_seen": [
+    {
+      "date": "2019-01-02",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2019-01-09",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2019-01-10",
+      "context": "geo_risk=0.35"
+    },
+    {
+      "date": "2019-01-11",
+      "context": "geo_risk=0.28"
+    },
+    {
+      "date": "2019-01-14",
+      "context": "geo_risk=0.22"
+    },
+    {
+      "date": "2019-01-15",
+      "context": "geo_risk=0.19"
+    },
+    {
+      "date": "2019-01-16",
+      "context": "geo_risk=0.23"
+    },
+    {
+      "date": "2019-01-17",
+      "context": "geo_risk=0.25"
+    },
+    {
+      "date": "2019-01-18",
+      "context": "geo_risk=0.27"
+    },
+    {
+      "date": "2019-01-21",
+      "context": "geo_risk=0.28"
+    },
+    {
+      "date": "2019-01-22",
+      "context": "geo_risk=0.29"
+    },
+    {
+      "date": "2019-01-24",
+      "context": "geo_risk=0.30"
+    },
+    {
+      "date": "2019-02-06",
+      "context": "geo_risk=0.28"
+    },
+    {
+      "date": "2019-02-07",
+      "context": "geo_risk=0.27"
+    },
+    {
+      "date": "2019-02-08",
+      "context": "geo_risk=0.26"
+    },
+    {
+      "date": "2019-02-12",
+      "context": "geo_risk=0.25"
+    },
+    {
+      "date": "2019-02-13",
+      "context": "geo_risk=0.33"
+    },
+    {
+      "date": "2019-02-14",
+      "context": "geo_risk=0.37"
+    },
+    {
+      "date": "2019-02-15",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2019-02-18",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2019-02-19",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2019-02-20",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2019-02-21",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-02-22",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2019-02-25",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2019-02-26",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2019-02-27",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2019-02-28",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2019-03-01",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2019-03-04",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2019-03-05",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2019-03-06",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-03-07",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2019-03-08",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2019-03-11",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2019-03-12",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2019-03-13",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2019-03-14",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2019-03-15",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2019-03-18",
+      "context": "geo_risk=0.51"
+    },
+    {
+      "date": "2019-03-19",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2019-03-20",
+      "context": "geo_risk=0.32"
+    },
+    {
+      "date": "2019-03-21",
+      "context": "geo_risk=0.21"
+    },
+    {
+      "date": "2019-03-22",
+      "context": "geo_risk=0.14"
+    },
+    {
+      "date": "2019-03-25",
+      "context": "geo_risk=0.07"
+    },
+    {
+      "date": "2019-03-26",
+      "context": "geo_risk=0.04"
+    },
+    {
+      "date": "2019-03-27",
+      "context": "geo_risk=0.14"
+    },
+    {
+      "date": "2019-03-28",
+      "context": "geo_risk=0.19"
+    },
+    {
+      "date": "2019-03-29",
+      "context": "geo_risk=0.23"
+    },
+    {
+      "date": "2019-04-01",
+      "context": "geo_risk=0.26"
+    },
+    {
+      "date": "2019-04-02",
+      "context": "geo_risk=0.28"
+    },
+    {
+      "date": "2019-04-03",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2019-04-04",
+      "context": "geo_risk=0.38"
+    },
+    {
+      "date": "2019-04-05",
+      "context": "geo_risk=0.40"
+    },
+    {
+      "date": "2019-04-08",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2019-04-09",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2019-04-10",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2019-04-11",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-04-12",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2019-04-15",
+      "context": "geo_risk=0.32"
+    },
+    {
+      "date": "2019-04-16",
+      "context": "geo_risk=0.31"
+    },
+    {
+      "date": "2019-04-17",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2019-04-18",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2019-04-19",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2019-04-22",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-04-23",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2019-04-24",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2019-04-25",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2019-04-26",
+      "context": "geo_risk=0.38"
+    },
+    {
+      "date": "2019-04-29",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2019-04-30",
+      "context": "geo_risk=0.32"
+    },
+    {
+      "date": "2019-05-01",
+      "context": "geo_risk=0.26"
+    },
+    {
+      "date": "2019-05-02",
+      "context": "geo_risk=0.22"
+    },
+    {
+      "date": "2019-05-03",
+      "context": "geo_risk=0.20"
+    },
+    {
+      "date": "2019-05-06",
+      "context": "geo_risk=0.18"
+    },
+    {
+      "date": "2019-05-07",
+      "context": "geo_risk=0.17"
+    },
+    {
+      "date": "2019-05-08",
+      "context": "geo_risk=0.28"
+    },
+    {
+      "date": "2019-05-09",
+      "context": "geo_risk=0.35"
+    },
+    {
+      "date": "2019-05-10",
+      "context": "geo_risk=0.40"
+    },
+    {
+      "date": "2019-05-13",
+      "context": "geo_risk=0.44"
+    },
+    {
+      "date": "2019-05-14",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2019-05-15",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2019-05-16",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2019-05-20",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2019-05-29",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2019-05-30",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2019-05-31",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2019-06-03",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2019-06-04",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2019-06-05",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2019-06-06",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2019-06-07",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2019-06-10",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2019-06-11",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2019-06-12",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2019-06-13",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2019-06-14",
+      "context": "geo_risk=0.84"
+    },
+    {
+      "date": "2019-06-17",
+      "context": "geo_risk=0.91"
+    },
+    {
+      "date": "2019-06-18",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2019-06-19",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2019-06-20",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2019-06-21",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2019-06-24",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2019-06-25",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2019-06-26",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2019-06-27",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2019-06-28",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2019-07-02",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2019-07-10",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2019-07-11",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2019-07-12",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-07-15",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2019-07-16",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2019-07-17",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2019-07-18",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2019-07-19",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2019-07-22",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2019-07-23",
+      "context": "geo_risk=0.69"
+    },
+    {
+      "date": "2019-07-24",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2019-07-25",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2019-07-26",
+      "context": "geo_risk=0.41"
+    },
+    {
+      "date": "2019-07-29",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-07-30",
+      "context": "geo_risk=0.33"
+    },
+    {
+      "date": "2019-07-31",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2019-08-01",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2019-08-02",
+      "context": "geo_risk=0.67"
+    },
+    {
+      "date": "2019-08-05",
+      "context": "geo_risk=0.73"
+    },
+    {
+      "date": "2019-08-06",
+      "context": "geo_risk=0.76"
+    },
+    {
+      "date": "2019-08-07",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2019-08-08",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2019-08-09",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2019-08-12",
+      "context": "geo_risk=0.37"
+    },
+    {
+      "date": "2019-08-13",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2019-08-14",
+      "context": "geo_risk=0.33"
+    },
+    {
+      "date": "2019-08-15",
+      "context": "geo_risk=0.32"
+    },
+    {
+      "date": "2019-08-16",
+      "context": "geo_risk=0.31"
+    },
+    {
+      "date": "2019-08-20",
+      "context": "geo_risk=0.30"
+    },
+    {
+      "date": "2019-08-21",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-08-22",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2019-08-23",
+      "context": "geo_risk=0.41"
+    },
+    {
+      "date": "2019-08-26",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2019-08-27",
+      "context": "geo_risk=0.44"
+    },
+    {
+      "date": "2019-08-28",
+      "context": "geo_risk=0.40"
+    },
+    {
+      "date": "2019-08-29",
+      "context": "geo_risk=0.37"
+    },
+    {
+      "date": "2019-08-30",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-09-02",
+      "context": "geo_risk=0.35"
+    },
+    {
+      "date": "2019-09-03",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2019-09-04",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2019-09-05",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2019-09-06",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2019-09-09",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2019-09-10",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2019-09-11",
+      "context": "geo_risk=0.57"
+    },
+    {
+      "date": "2019-09-12",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2019-09-13",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2019-09-16",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2019-09-17",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2019-09-18",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2019-09-19",
+      "context": "geo_risk=0.38"
+    },
+    {
+      "date": "2019-09-20",
+      "context": "geo_risk=0.31"
+    },
+    {
+      "date": "2019-09-23",
+      "context": "geo_risk=0.23"
+    },
+    {
+      "date": "2019-09-24",
+      "context": "geo_risk=0.20"
+    },
+    {
+      "date": "2019-09-25",
+      "context": "geo_risk=0.30"
+    },
+    {
+      "date": "2019-09-26",
+      "context": "geo_risk=0.37"
+    },
+    {
+      "date": "2019-09-27",
+      "context": "geo_risk=0.41"
+    },
+    {
+      "date": "2019-09-30",
+      "context": "geo_risk=0.45"
+    },
+    {
+      "date": "2019-10-01",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2019-10-02",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-10-03",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2019-10-04",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2019-10-07",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2019-10-08",
+      "context": "geo_risk=0.70"
+    },
+    {
+      "date": "2019-10-09",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2019-10-10",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2019-10-11",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-10-14",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2019-10-15",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2019-10-16",
+      "context": "geo_risk=0.44"
+    },
+    {
+      "date": "2019-10-17",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2019-10-18",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-10-21",
+      "context": "geo_risk=0.33"
+    },
+    {
+      "date": "2019-10-22",
+      "context": "geo_risk=0.32"
+    },
+    {
+      "date": "2019-10-23",
+      "context": "geo_risk=0.46"
+    },
+    {
+      "date": "2019-10-24",
+      "context": "geo_risk=0.55"
+    },
+    {
+      "date": "2019-10-25",
+      "context": "geo_risk=0.61"
+    },
+    {
+      "date": "2019-10-28",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2019-10-29",
+      "context": "geo_risk=0.68"
+    },
+    {
+      "date": "2019-10-30",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-10-31",
+      "context": "geo_risk=0.48"
+    },
+    {
+      "date": "2019-11-01",
+      "context": "geo_risk=0.43"
+    },
+    {
+      "date": "2019-11-04",
+      "context": "geo_risk=0.38"
+    },
+    {
+      "date": "2019-11-05",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-11-06",
+      "context": "geo_risk=0.47"
+    },
+    {
+      "date": "2019-11-07",
+      "context": "geo_risk=0.53"
+    },
+    {
+      "date": "2019-11-08",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2019-11-11",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2019-11-12",
+      "context": "geo_risk=0.63"
+    },
+    {
+      "date": "2019-11-13",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2019-11-14",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2019-11-18",
+      "context": "geo_risk=0.66"
+    },
+    {
+      "date": "2019-11-20",
+      "context": "geo_risk=0.60"
+    },
+    {
+      "date": "2019-11-21",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-11-22",
+      "context": "geo_risk=0.54"
+    },
+    {
+      "date": "2019-11-25",
+      "context": "geo_risk=0.52"
+    },
+    {
+      "date": "2019-11-26",
+      "context": "geo_risk=0.50"
+    },
+    {
+      "date": "2019-11-27",
+      "context": "geo_risk=0.56"
+    },
+    {
+      "date": "2019-11-28",
+      "context": "geo_risk=0.59"
+    },
+    {
+      "date": "2019-11-29",
+      "context": "geo_risk=0.62"
+    },
+    {
+      "date": "2019-12-02",
+      "context": "geo_risk=0.64"
+    },
+    {
+      "date": "2019-12-03",
+      "context": "geo_risk=0.65"
+    },
+    {
+      "date": "2019-12-04",
+      "context": "geo_risk=0.77"
+    },
+    {
+      "date": "2019-12-05",
+      "context": "geo_risk=0.85"
+    },
+    {
+      "date": "2019-12-06",
+      "context": "geo_risk=0.89"
+    },
+    {
+      "date": "2019-12-09",
+      "context": "geo_risk=0.94"
+    },
+    {
+      "date": "2019-12-10",
+      "context": "geo_risk=0.96"
+    },
+    {
+      "date": "2019-12-11",
+      "context": "geo_risk=0.72"
+    },
+    {
+      "date": "2019-12-12",
+      "context": "geo_risk=0.58"
+    },
+    {
+      "date": "2019-12-13",
+      "context": "geo_risk=0.49"
+    },
+    {
+      "date": "2019-12-16",
+      "context": "geo_risk=0.40"
+    },
+    {
+      "date": "2019-12-17",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-12-18",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2019-12-19",
+      "context": "geo_risk=0.41"
+    },
+    {
+      "date": "2019-12-20",
+      "context": "geo_risk=0.42"
+    },
+    {
+      "date": "2019-12-23",
+      "context": "geo_risk=0.44"
+    },
+    {
+      "date": "2019-12-25",
+      "context": "geo_risk=0.39"
+    },
+    {
+      "date": "2019-12-26",
+      "context": "geo_risk=0.36"
+    },
+    {
+      "date": "2019-12-27",
+      "context": "geo_risk=0.34"
+    },
+    {
+      "date": "2019-12-30",
+      "context": "geo_risk=0.32"
+    },
+    {
+      "date": "2019-12-31",
+      "context": "geo_risk=0.31"
+    }
+  ],
+  "profitable_trades": [
+    {
+      "ticker": "PYPL",
+      "pnl_pct": 4.97,
+      "date": "2019-02-01",
+      "held_from": "2019-01-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "ABT",
+      "pnl_pct": 4.6,
+      "date": "2019-02-01",
+      "held_from": "2019-01-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AMZN",
+      "pnl_pct": 5.66,
+      "date": "2019-02-01",
+      "held_from": "2019-01-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": 12.86,
+      "date": "2019-02-01",
+      "held_from": "2019-01-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": 25.76,
+      "date": "2019-03-01",
+      "held_from": "2019-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "SBUX",
+      "pnl_pct": 4.57,
+      "date": "2019-03-01",
+      "held_from": "2019-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": 6.18,
+      "date": "2019-03-01",
+      "held_from": "2019-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": 1.0,
+      "date": "2019-03-01",
+      "held_from": "2019-02-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "LLY",
+      "pnl_pct": 12.94,
+      "date": "2019-04-01",
+      "held_from": "2019-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": 10.95,
+      "date": "2019-04-01",
+      "held_from": "2019-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": 18.91,
+      "date": "2019-04-01",
+      "held_from": "2019-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NOW",
+      "pnl_pct": 37.8,
+      "date": "2019-04-01",
+      "held_from": "2019-01-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "SHOP",
+      "pnl_pct": 7.58,
+      "date": "2019-04-01",
+      "held_from": "2019-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMT",
+      "pnl_pct": 8.2,
+      "date": "2019-04-01",
+      "held_from": "2019-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "COST",
+      "pnl_pct": 7.19,
+      "date": "2019-04-01",
+      "held_from": "2019-03-08",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AVGO",
+      "pnl_pct": 6.28,
+      "date": "2019-04-01",
+      "held_from": "2019-03-15",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "LULU",
+      "pnl_pct": 20.22,
+      "date": "2019-05-01",
+      "held_from": "2019-02-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": 1.71,
+      "date": "2019-05-01",
+      "held_from": "2019-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "PG",
+      "pnl_pct": 1.96,
+      "date": "2019-05-01",
+      "held_from": "2019-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NKE",
+      "pnl_pct": 0.79,
+      "date": "2019-05-01",
+      "held_from": "2019-04-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "DIS",
+      "pnl_pct": 4.86,
+      "date": "2019-05-01",
+      "held_from": "2019-04-12",
+      "regime": "normal"
+    },
+    {
+      "ticker": "QCOM",
+      "pnl_pct": 22.6,
+      "date": "2019-05-01",
+      "held_from": "2019-04-16",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": 11.75,
+      "date": "2019-07-01",
+      "held_from": "2019-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PYPL",
+      "pnl_pct": 8.98,
+      "date": "2019-07-01",
+      "held_from": "2019-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": 8.36,
+      "date": "2019-07-01",
+      "held_from": "2019-05-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ABT",
+      "pnl_pct": 7.3,
+      "date": "2019-07-01",
+      "held_from": "2019-05-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ROKU",
+      "pnl_pct": 43.46,
+      "date": "2019-07-01",
+      "held_from": "2019-05-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ADBE",
+      "pnl_pct": 3.35,
+      "date": "2019-07-01",
+      "held_from": "2019-06-19",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MU",
+      "pnl_pct": 8.29,
+      "date": "2019-07-01",
+      "held_from": "2019-06-26",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NOW",
+      "pnl_pct": 1.33,
+      "date": "2019-08-01",
+      "held_from": "2019-05-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "SHOP",
+      "pnl_pct": 12.05,
+      "date": "2019-08-01",
+      "held_from": "2019-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "ZS",
+      "pnl_pct": 11.29,
+      "date": "2019-08-01",
+      "held_from": "2019-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "CRWD",
+      "pnl_pct": 9.59,
+      "date": "2019-08-01",
+      "held_from": "2019-07-19",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "SBUX",
+      "pnl_pct": 25.61,
+      "date": "2019-09-02",
+      "held_from": "2019-05-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MRK",
+      "pnl_pct": 10.58,
+      "date": "2019-09-02",
+      "held_from": "2019-05-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "SO",
+      "pnl_pct": 3.36,
+      "date": "2019-09-02",
+      "held_from": "2019-08-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "FIS",
+      "pnl_pct": 3.82,
+      "date": "2019-09-02",
+      "held_from": "2019-08-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "WMT",
+      "pnl_pct": 1.39,
+      "date": "2019-09-02",
+      "held_from": "2019-08-15",
+      "regime": "normal"
+    },
+    {
+      "ticker": "AMT",
+      "pnl_pct": 6.99,
+      "date": "2019-11-01",
+      "held_from": "2019-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "LULU",
+      "pnl_pct": 8.67,
+      "date": "2019-11-01",
+      "held_from": "2019-09-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "NEE",
+      "pnl_pct": 7.59,
+      "date": "2019-11-01",
+      "held_from": "2019-09-02",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "UNH",
+      "pnl_pct": 5.71,
+      "date": "2019-11-01",
+      "held_from": "2019-10-15",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "TSLA",
+      "pnl_pct": 4.55,
+      "date": "2019-11-01",
+      "held_from": "2019-10-24",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": 8.85,
+      "date": "2019-12-02",
+      "held_from": "2019-09-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "LRCX",
+      "pnl_pct": 25.53,
+      "date": "2019-12-02",
+      "held_from": "2019-09-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "AMAT",
+      "pnl_pct": 3.32,
+      "date": "2019-12-02",
+      "held_from": "2019-10-24",
+      "regime": "normal"
+    },
+    {
+      "ticker": "NOW",
+      "pnl_pct": 9.61,
+      "date": "2019-12-02",
+      "held_from": "2019-11-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": 2.66,
+      "date": "2019-12-02",
+      "held_from": "2019-11-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": 1.79,
+      "date": "2019-12-02",
+      "held_from": "2019-11-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "ZS",
+      "pnl_pct": 1.35,
+      "date": "2019-12-02",
+      "held_from": "2019-11-25",
+      "regime": "normal"
+    }
+  ],
+  "losing_trades": [
+    {
+      "ticker": "PFE",
+      "pnl_pct": -6.03,
+      "date": "2019-01-25",
+      "held_from": "2019-01-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "BA",
+      "pnl_pct": -0.07,
+      "date": "2019-02-01",
+      "held_from": "2019-01-30",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "REGN",
+      "pnl_pct": -6.82,
+      "date": "2019-03-07",
+      "held_from": "2019-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -4.64,
+      "date": "2019-03-08",
+      "held_from": "2019-02-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "PANW",
+      "pnl_pct": -1.65,
+      "date": "2019-04-01",
+      "held_from": "2019-03-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "BA",
+      "pnl_pct": -6.79,
+      "date": "2019-04-10",
+      "held_from": "2019-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "PFE",
+      "pnl_pct": -4.48,
+      "date": "2019-04-16",
+      "held_from": "2019-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ISRG",
+      "pnl_pct": -8.78,
+      "date": "2019-04-17",
+      "held_from": "2019-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "TMO",
+      "pnl_pct": -6.76,
+      "date": "2019-04-17",
+      "held_from": "2019-04-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "LMT",
+      "pnl_pct": -0.38,
+      "date": "2019-05-01",
+      "held_from": "2019-04-23",
+      "regime": "normal"
+    },
+    {
+      "ticker": "META",
+      "pnl_pct": -0.12,
+      "date": "2019-05-01",
+      "held_from": "2019-04-25",
+      "regime": "normal"
+    },
+    {
+      "ticker": "MSFT",
+      "pnl_pct": -5.94,
+      "date": "2019-06-03",
+      "held_from": "2019-05-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -10.51,
+      "date": "2019-06-03",
+      "held_from": "2019-05-01",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "HON",
+      "pnl_pct": -4.63,
+      "date": "2019-07-17",
+      "held_from": "2019-07-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": -2.4,
+      "date": "2019-07-31",
+      "held_from": "2019-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "CRM",
+      "pnl_pct": -2.11,
+      "date": "2019-08-01",
+      "held_from": "2019-07-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AMGN",
+      "pnl_pct": -0.31,
+      "date": "2019-08-01",
+      "held_from": "2019-07-31",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": -6.32,
+      "date": "2019-08-05",
+      "held_from": "2019-08-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "PYPL",
+      "pnl_pct": -6.5,
+      "date": "2019-08-05",
+      "held_from": "2019-08-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "UBER",
+      "pnl_pct": -13.89,
+      "date": "2019-08-12",
+      "held_from": "2019-08-08",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "AMD",
+      "pnl_pct": -12.53,
+      "date": "2019-08-15",
+      "held_from": "2019-08-08",
+      "regime": "bearish"
+    },
+    {
+      "ticker": "TMUS",
+      "pnl_pct": -1.59,
+      "date": "2019-09-02",
+      "held_from": "2019-08-01",
+      "regime": "normal"
+    },
+    {
+      "ticker": "GE",
+      "pnl_pct": -6.14,
+      "date": "2019-09-02",
+      "held_from": "2019-08-16",
+      "regime": "normal"
+    },
+    {
+      "ticker": "SHOP",
+      "pnl_pct": -12.49,
+      "date": "2019-09-10",
+      "held_from": "2019-09-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "ROKU",
+      "pnl_pct": -4.77,
+      "date": "2019-09-10",
+      "held_from": "2019-09-02",
+      "regime": "normal"
+    },
+    {
+      "ticker": "COP",
+      "pnl_pct": -7.76,
+      "date": "2019-09-26",
+      "held_from": "2019-09-16",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "ABT",
+      "pnl_pct": -4.93,
+      "date": "2019-09-27",
+      "held_from": "2019-08-01",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "OXY",
+      "pnl_pct": -8.43,
+      "date": "2019-10-01",
+      "held_from": "2019-09-16",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "MA",
+      "pnl_pct": -6.0,
+      "date": "2019-10-02",
+      "held_from": "2019-09-02",
+      "regime": "sideways"
+    },
+    {
+      "ticker": "ISRG",
+      "pnl_pct": -1.22,
+      "date": "2019-11-01",
+      "held_from": "2019-10-18",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "ROKU",
+      "pnl_pct": -19.14,
+      "date": "2019-11-07",
+      "held_from": "2019-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "KLAC",
+      "pnl_pct": -7.63,
+      "date": "2019-11-22",
+      "held_from": "2019-11-01",
+      "regime": "bullish"
+    },
+    {
+      "ticker": "QCOM",
+      "pnl_pct": -7.15,
+      "date": "2019-11-29",
+      "held_from": "2019-11-07",
+      "regime": "bullish"
+    }
+  ],
+  "lessons": [
+    "Win rate: 60% (50W / 33L)",
+    "Avg win: +9.7%, Avg loss: -6.0%",
+    "Regimes encountered: 41 changes",
+    "Regime 'sideways': avg PnL -0.3% over 21 trades",
+    "Regime 'bullish': avg PnL +5.6% over 35 trades",
+    "Regime 'normal': avg PnL +5.2% over 24 trades",
+    "Regime 'bearish': avg PnL -9.7% over 3 trades"
+  ],
+  "best_ticker": "ROKU +43.46%",
+  "worst_ticker": "ROKU -19.14%",
+  "ticker_history": {
+    "PFE": [
+      {
+        "pnl": -6.03,
+        "regime": "sideways",
+        "date": "2019-01-25"
+      },
+      {
+        "pnl": -4.64,
+        "regime": "sideways",
+        "date": "2019-03-08"
+      },
+      {
+        "pnl": -4.48,
+        "regime": "bullish",
+        "date": "2019-04-16"
+      }
+    ],
+    "PYPL": [
+      {
+        "pnl": 4.97,
+        "regime": "sideways",
+        "date": "2019-02-01"
+      },
+      {
+        "pnl": 8.98,
+        "regime": "bullish",
+        "date": "2019-07-01"
+      },
+      {
+        "pnl": -6.5,
+        "regime": "sideways",
+        "date": "2019-08-05"
+      }
+    ],
+    "ABT": [
+      {
+        "pnl": 4.6,
+        "regime": "sideways",
+        "date": "2019-02-01"
+      },
+      {
+        "pnl": 7.3,
+        "regime": "bullish",
+        "date": "2019-07-01"
+      },
+      {
+        "pnl": -4.93,
+        "regime": "sideways",
+        "date": "2019-09-27"
+      }
+    ],
+    "AMZN": [
+      {
+        "pnl": 5.66,
+        "regime": "sideways",
+        "date": "2019-02-01"
+      }
+    ],
+    "MA": [
+      {
+        "pnl": 12.86,
+        "regime": "sideways",
+        "date": "2019-02-01"
+      },
+      {
+        "pnl": 11.75,
+        "regime": "bullish",
+        "date": "2019-07-01"
+      },
+      {
+        "pnl": -6.32,
+        "regime": "sideways",
+        "date": "2019-08-05"
+      },
+      {
+        "pnl": -6.0,
+        "regime": "sideways",
+        "date": "2019-10-02"
+      },
+      {
+        "pnl": 2.66,
+        "regime": "normal",
+        "date": "2019-12-02"
+      }
+    ],
+    "BA": [
+      {
+        "pnl": -0.07,
+        "regime": "sideways",
+        "date": "2019-02-01"
+      },
+      {
+        "pnl": -6.79,
+        "regime": "bullish",
+        "date": "2019-04-10"
+      }
+    ],
+    "AMD": [
+      {
+        "pnl": 25.76,
+        "regime": "bullish",
+        "date": "2019-03-01"
+      },
+      {
+        "pnl": 1.71,
+        "regime": "normal",
+        "date": "2019-05-01"
+      },
+      {
+        "pnl": -2.4,
+        "regime": "sideways",
+        "date": "2019-07-31"
+      },
+      {
+        "pnl": -12.53,
+        "regime": "bearish",
+        "date": "2019-08-15"
+      }
+    ],
+    "SBUX": [
+      {
+        "pnl": 4.57,
+        "regime": "bullish",
+        "date": "2019-03-01"
+      },
+      {
+        "pnl": 25.61,
+        "regime": "normal",
+        "date": "2019-09-02"
+      }
+    ],
+    "NEE": [
+      {
+        "pnl": 6.18,
+        "regime": "bullish",
+        "date": "2019-03-01"
+      },
+      {
+        "pnl": 7.59,
+        "regime": "bullish",
+        "date": "2019-11-01"
+      }
+    ],
+    "PG": [
+      {
+        "pnl": 1.0,
+        "regime": "bullish",
+        "date": "2019-03-01"
+      },
+      {
+        "pnl": 1.96,
+        "regime": "normal",
+        "date": "2019-05-01"
+      }
+    ],
+    "REGN": [
+      {
+        "pnl": -6.82,
+        "regime": "bullish",
+        "date": "2019-03-07"
+      }
+    ],
+    "LLY": [
+      {
+        "pnl": 12.94,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      }
+    ],
+    "MRK": [
+      {
+        "pnl": 10.95,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      },
+      {
+        "pnl": 10.58,
+        "regime": "normal",
+        "date": "2019-09-02"
+      }
+    ],
+    "CRM": [
+      {
+        "pnl": 18.91,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      },
+      {
+        "pnl": -10.51,
+        "regime": "bearish",
+        "date": "2019-06-03"
+      },
+      {
+        "pnl": -2.11,
+        "regime": "sideways",
+        "date": "2019-08-01"
+      }
+    ],
+    "NOW": [
+      {
+        "pnl": 37.8,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      },
+      {
+        "pnl": 1.33,
+        "regime": "sideways",
+        "date": "2019-08-01"
+      },
+      {
+        "pnl": 9.61,
+        "regime": "normal",
+        "date": "2019-12-02"
+      }
+    ],
+    "PANW": [
+      {
+        "pnl": -1.65,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      }
+    ],
+    "SHOP": [
+      {
+        "pnl": 7.58,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      },
+      {
+        "pnl": 12.05,
+        "regime": "sideways",
+        "date": "2019-08-01"
+      },
+      {
+        "pnl": -12.49,
+        "regime": "normal",
+        "date": "2019-09-10"
+      }
+    ],
+    "AMT": [
+      {
+        "pnl": 8.2,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      },
+      {
+        "pnl": 6.99,
+        "regime": "bullish",
+        "date": "2019-11-01"
+      }
+    ],
+    "COST": [
+      {
+        "pnl": 7.19,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      }
+    ],
+    "AVGO": [
+      {
+        "pnl": 6.28,
+        "regime": "bullish",
+        "date": "2019-04-01"
+      }
+    ],
+    "ISRG": [
+      {
+        "pnl": -8.78,
+        "regime": "bullish",
+        "date": "2019-04-17"
+      },
+      {
+        "pnl": -1.22,
+        "regime": "bullish",
+        "date": "2019-11-01"
+      }
+    ],
+    "TMO": [
+      {
+        "pnl": -6.76,
+        "regime": "bullish",
+        "date": "2019-04-17"
+      },
+      {
+        "pnl": 8.36,
+        "regime": "bullish",
+        "date": "2019-07-01"
+      }
+    ],
+    "LULU": [
+      {
+        "pnl": 20.22,
+        "regime": "normal",
+        "date": "2019-05-01"
+      },
+      {
+        "pnl": 8.67,
+        "regime": "bullish",
+        "date": "2019-11-01"
+      }
+    ],
+    "NKE": [
+      {
+        "pnl": 0.79,
+        "regime": "normal",
+        "date": "2019-05-01"
+      }
+    ],
+    "DIS": [
+      {
+        "pnl": 4.86,
+        "regime": "normal",
+        "date": "2019-05-01"
+      }
+    ],
+    "QCOM": [
+      {
+        "pnl": 22.6,
+        "regime": "normal",
+        "date": "2019-05-01"
+      },
+      {
+        "pnl": -7.15,
+        "regime": "bullish",
+        "date": "2019-11-29"
+      }
+    ],
+    "LMT": [
+      {
+        "pnl": -0.38,
+        "regime": "normal",
+        "date": "2019-05-01"
+      },
+      {
+        "pnl": 1.79,
+        "regime": "normal",
+        "date": "2019-12-02"
+      }
+    ],
+    "META": [
+      {
+        "pnl": -0.12,
+        "regime": "normal",
+        "date": "2019-05-01"
+      }
+    ],
+    "MSFT": [
+      {
+        "pnl": -5.94,
+        "regime": "bearish",
+        "date": "2019-06-03"
+      },
+      {
+        "pnl": 8.85,
+        "regime": "normal",
+        "date": "2019-12-02"
+      }
+    ],
+    "ROKU": [
+      {
+        "pnl": 43.46,
+        "regime": "bullish",
+        "date": "2019-07-01"
+      },
+      {
+        "pnl": -4.77,
+        "regime": "normal",
+        "date": "2019-09-10"
+      },
+      {
+        "pnl": -19.14,
+        "regime": "bullish",
+        "date": "2019-11-07"
+      }
+    ],
+    "ADBE": [
+      {
+        "pnl": 3.35,
+        "regime": "bullish",
+        "date": "2019-07-01"
+      }
+    ],
+    "MU": [
+      {
+        "pnl": 8.29,
+        "regime": "bullish",
+        "date": "2019-07-01"
+      }
+    ],
+    "HON": [
+      {
+        "pnl": -4.63,
+        "regime": "bullish",
+        "date": "2019-07-17"
+      }
+    ],
+    "ZS": [
+      {
+        "pnl": 11.29,
+        "regime": "sideways",
+        "date": "2019-08-01"
+      },
+      {
+        "pnl": 1.35,
+        "regime": "normal",
+        "date": "2019-12-02"
+      }
+    ],
+    "CRWD": [
+      {
+        "pnl": 9.59,
+        "regime": "sideways",
+        "date": "2019-08-01"
+      }
+    ],
+    "AMGN": [
+      {
+        "pnl": -0.31,
+        "regime": "sideways",
+        "date": "2019-08-01"
+      }
+    ],
+    "UBER": [
+      {
+        "pnl": -13.89,
+        "regime": "sideways",
+        "date": "2019-08-12"
+      }
+    ],
+    "SO": [
+      {
+        "pnl": 3.36,
+        "regime": "normal",
+        "date": "2019-09-02"
+      }
+    ],
+    "TMUS": [
+      {
+        "pnl": -1.59,
+        "regime": "normal",
+        "date": "2019-09-02"
+      }
+    ],
+    "FIS": [
+      {
+        "pnl": 3.82,
+        "regime": "normal",
+        "date": "2019-09-02"
+      }
+    ],
+    "WMT": [
+      {
+        "pnl": 1.39,
+        "regime": "normal",
+        "date": "2019-09-02"
+      }
+    ],
+    "GE": [
+      {
+        "pnl": -6.14,
+        "regime": "normal",
+        "date": "2019-09-02"
+      }
+    ],
+    "COP": [
+      {
+        "pnl": -7.76,
+        "regime": "sideways",
+        "date": "2019-09-26"
+      }
+    ],
+    "OXY": [
+      {
+        "pnl": -8.43,
+        "regime": "sideways",
+        "date": "2019-10-01"
+      }
+    ],
+    "UNH": [
+      {
+        "pnl": 5.71,
+        "regime": "bullish",
+        "date": "2019-11-01"
+      }
+    ],
+    "TSLA": [
+      {
+        "pnl": 4.55,
+        "regime": "bullish",
+        "date": "2019-11-01"
+      }
+    ],
+    "KLAC": [
+      {
+        "pnl": -7.63,
+        "regime": "bullish",
+        "date": "2019-11-22"
+      }
+    ],
+    "LRCX": [
+      {
+        "pnl": 25.53,
+        "regime": "normal",
+        "date": "2019-12-02"
+      }
+    ],
+    "AMAT": [
+      {
+        "pnl": 3.32,
+        "regime": "normal",
+        "date": "2019-12-02"
+      }
+    ]
+  },
+  "regime_performance": {
+    "sideways": {
+      "wins": 8,
+      "losses": 13,
+      "total": 21,
+      "total_pnl": -7.040000000000008
+    },
+    "bullish": {
+      "wins": 24,
+      "losses": 11,
+      "total": 35,
+      "total_pnl": 197.30999999999997
+    },
+    "normal": {
+      "wins": 18,
+      "losses": 6,
+      "total": 24,
+      "total_pnl": 124.51999999999998
+    },
+    "bearish": {
+      "wins": 0,
+      "losses": 3,
+      "total": 3,
+      "total_pnl": -28.979999999999997
+    }
+  }
+}
