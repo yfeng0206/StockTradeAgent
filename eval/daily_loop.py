@@ -29,7 +29,7 @@ from events_data import build_events_calendar
 from risk_overlay import RiskOverlay, DEFAULT_FEATURES, DEFAULT_PARAMS
 from strategies import (ValueStrategy, MomentumStrategy, BalancedStrategy,
                         DefensiveStrategy, EventDrivenStrategy, AdaptiveStrategy,
-                        CommodityStrategy)
+                        CommodityStrategy, MixStrategy, MixLLMStrategy)
 
 LOOP_DIR = os.path.dirname(__file__)
 RUNS_DIR = os.path.join(os.path.dirname(LOOP_DIR), "runs")
@@ -154,8 +154,9 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
     signal_engine = SignalEngine(price_data, events_cal, NEWS_DIR, data_loader=data_loader)
     trigger_engine = TriggerEngine(signal_engine)
 
-    # Initialize strategies
-    strategies = [
+    # Initialize strategies (7 core + Mix)
+    # Mix runs AFTER the other 7 — it reads their live state as sensors
+    core_strategies = [
         ValueStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
         MomentumStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
         BalancedStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
@@ -164,6 +165,11 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         AdaptiveStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
         CommodityStrategy(initial_cash, events_calendar=events_cal),
     ]
+    mix_strategy = MixStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions)
+    mix_strategy._peer_strategies = core_strategies  # wire up peer references
+    mix_llm_strategy = MixLLMStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions)
+    mix_llm_strategy._peer_strategies = core_strategies  # same peer references
+    strategies = core_strategies + [mix_strategy, mix_llm_strategy]
 
     # Initialize risk overlay
     risk_overlay = RiskOverlay(features=risk_features, params=risk_params)
@@ -280,7 +286,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                 to_sell = len(pos_pnl)  # sell ALL
                             elif strat.name == "Momentum":
                                 to_sell = max(1, len(pos_pnl) // 3)
-                            elif strat.name in ("Balanced", "Adaptive"):
+                            elif strat.name in ("Balanced", "Adaptive", "Mix", "MixLLM"):
                                 to_sell = max(1, len(pos_pnl) // 4)
                             elif strat.name == "Value":
                                 to_sell = 0  # hold through volatility
@@ -427,7 +433,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                             should_buy = signal in ("strong_beat", "beat") and is_low_vol and safe_regime and ticker not in strat.positions
                             should_sell = signal in ("strong_miss",) and ticker in strat.positions
 
-                        elif strat.name in ("Balanced", "Adaptive"):
+                        elif strat.name in ("Balanced", "Adaptive", "Mix", "MixLLM"):
                             # Moderate: only strong beats, and skip during danger regimes
                             safe_regime = regime not in ("crisis", "high_volatility")
                             should_buy = signal == "strong_beat" and safe_regime and ticker not in strat.positions
@@ -801,6 +807,19 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         if conv_logs:
             with open(os.path.join(sdir, "conviction_log.json"), "w") as f:
                 json.dump(conv_logs, f, indent=2, default=str)
+
+        # Save LLM call log (MixLLM strategy only)
+        if hasattr(strat, '_llm_log') and strat._llm_log:
+            with open(os.path.join(sdir, "llm_calls.json"), "w") as f:
+                json.dump(strat._llm_log, f, indent=2, default=str)
+            if not quiet:
+                print(f"  {strat.name}: {getattr(strat, '_llm_call_count', 0)} LLM calls, "
+                      f"{getattr(strat, '_llm_fallback_count', 0)} fallbacks")
+
+        # Save regime history (Mix/MixLLM)
+        if hasattr(strat, 'regime_history') and strat.regime_history:
+            with open(os.path.join(sdir, "regime_history.json"), "w") as f:
+                json.dump(strat.regime_history, f, indent=2, default=str)
 
         conf_logs = risk_overlay.conflict_logs.get(strat.name, [])
         if conf_logs:
