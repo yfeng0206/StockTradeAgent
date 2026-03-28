@@ -5,3 +5,5 @@ from .defensive_strategy import DefensiveStrategy
 from .event_driven_strategy import EventDrivenStrategy
 from .adaptive_strategy import AdaptiveStrategy
 from .commodity_strategy import CommodityStrategy
+from .mix_strategy import MixStrategy
+from .mix_llm_strategy import MixLLMStrategy

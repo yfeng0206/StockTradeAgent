@@ -123,6 +123,24 @@ STRATEGY_CONFLICT_RELEVANCE = {
         "overbought_but_all_signals_bullish": 0.4,
         "oversold_in_downtrend": 0.5,
     },
+    "Mix": {
+        "stock_rising_in_crisis": 0.5,              # Mix adapts — moderate on everything
+        "stock_falling_in_bull_market": 0.6,
+        "stock_outpacing_sector": 0.3,
+        "stock_lagging_sector": 0.5,
+        "uptrend_with_extreme_vol": 0.6,
+        "overbought_but_all_signals_bullish": 0.4,
+        "oversold_in_downtrend": 0.5,
+    },
+    "MixLLM": {
+        "stock_rising_in_crisis": 0.5,
+        "stock_falling_in_bull_market": 0.6,
+        "stock_outpacing_sector": 0.3,
+        "stock_lagging_sector": 0.5,
+        "uptrend_with_extreme_vol": 0.6,
+        "overbought_but_all_signals_bullish": 0.4,
+        "oversold_in_downtrend": 0.5,
+    },
 }
 
 # Strategy-specific conviction weights for the 3 signals
@@ -135,6 +153,8 @@ STRATEGY_CONVICTION_WEIGHTS = {
     "Balanced":    {"market_trend": 0.33, "volatility": 0.33, "memory": 0.34},
     "Adaptive":    {"market_trend": 0.4, "volatility": 0.3, "memory": 0.3},
     "Commodity":   {"market_trend": 0.4, "volatility": 0.3, "memory": 0.3},
+    "Mix":         {"market_trend": 0.35, "volatility": 0.30, "memory": 0.35},
+    "MixLLM":      {"market_trend": 0.35, "volatility": 0.30, "memory": 0.35},
 }
 
 

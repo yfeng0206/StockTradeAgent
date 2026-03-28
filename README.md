@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">StockTradeAgent</h1>
   <p align="center">
-    <b>7 Trading Strategies + LLM Adversarial Debate | Free Data | 93 Stocks | 7 Years Tested</b>
+    <b>9 Trading Strategies + LLM Adversarial Debate | Free Data | 93 Stocks | 7 Years Tested</b>
   </p>
   <p align="center">
     <a href="#results">Results</a> &bull;
@@ -37,7 +37,7 @@
 
 ---
 
-### Full Results: 7 Strategies x 7 Market Regimes
+### Full Results: 9 Strategies x 7 Market Regimes
 
 $100K starting capital | 10 max positions | 93-stock universe | Daily event-driven simulation
 
@@ -45,24 +45,38 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 
 | Strategy | 2019 Bull | COVID | 2023 AI | Bull-Rec | 2022 Bear | Rec-Bull | 2025-Now |
 |:---------|:---------:|:-----:|:-------:|:--------:|:---------:|:--------:|:--------:|
-| **Value** | **+38.9%** | **+16.0%** | +30.4% | -7.2% | -15.5% | +18.4% | -5.4% |
-| **Momentum** | +35.5% | +9.5% | +20.1% | -19.3% | -24.9% | +28.5% | +4.5% |
-| **Balanced** | +18.6% | -7.2% | +15.0% | -7.7% | -9.4% | +21.5% | -4.1% |
-| **Defensive** | +21.6% | -7.2% | -2.4% | **+16.1%** | **-3.4%** | +0.8% | +5.6% |
-| **EventDriven** | +14.0% | -5.3% | **+37.9%** | -19.5% | -18.7% | **+28.9%** | +11.9% |
-| **Adaptive** | +23.0% | +5.7% | **+47.2%** | -0.2% | -24.5% | +21.3% | +13.6% |
-| **Commodity** | -3.2% | -2.4% | +1.2% | +15.9% | **+24.7%** | -4.2% | **+23.4%** |
+| **Value** | **+38.9%** | **+16.0%** | +30.4% | -4.8% | -18.1% | +20.2% | -0.0% |
+| **Momentum** | +35.5% | +9.5% | +20.1% | -17.9% | -19.2% | +22.9% | +12.6% |
+| **Balanced** | +18.6% | -7.2% | +15.0% | +0.2% | -17.0% | +31.0% | -7.2% |
+| **Defensive** | +21.6% | -7.2% | -2.4% | **+14.6%** | **-4.2%** | -0.5% | +14.0% |
+| **EventDriven** | +14.0% | -5.3% | **+37.9%** | -8.5% | -27.0% | **+28.5%** | +19.8% |
+| **Adaptive** | +23.0% | +5.7% | **+47.2%** | -4.2% | -21.1% | +25.2% | **+28.4%** |
+| **Commodity** | -3.2% | -2.4% | +1.2% | +15.9% | **+24.7%** | -4.2% | +23.4% |
+| **Mix** | +17.9% | +7.5% | +35.1% | +9.9% | -4.9% | +28.6% | +21.0% |
+| **MixLLM** | +24.2% | +5.1% | +22.5% | +6.8% | -3.5% | +18.0% | +0.8% |
 | SPY | +30.7% | -5.3% | +27.0% | -10.3% | -17.6% | +20.9% | +13.7% |
 | QQQ | +38.1% | +12.8% | +56.5% | -19.5% | -29.6% | +33.7% | +15.9% |
 | ONEQ | +36.1% | +8.8% | +47.2% | -21.8% | -29.0% | +26.8% | +14.6% |
+
+#### Average Performance
+
+| Strategy | Avg Return | Avg Alpha vs SPY | Beats SPY |
+|:---------|:---------:|:----------------:|:---------:|
+| **Adaptive** | +17.2% | +8.7% | 5 of 7 |
+| **Mix** | **+16.4%** | **+8.0%** | **6 of 7** |
+| EventDriven | +12.9% | +4.4% | 5 of 7 |
+| Value | +13.2% | +4.8% | 4 of 7 |
+| MixLLM | +10.6% | +2.1% | 5 of 7 |
+| QQQ | +15.4% | — | — |
+| SPY | +8.4% | — | — |
 
 #### Max Drawdown
 
 | Strategy | Worst Ever |
 |:---------|:---------:|
 | **Commodity** | -11.6% |
-| **Defensive** | -14.2% |
-| **Value** | -22.1% |
+| **Defensive** | -14.4% |
+| **Mix** | -24.0% |
 | SPY | -33.6% |
 | QQQ | -34.7% |
 
@@ -108,11 +122,12 @@ done
                                            |
   MONTHLY REBALANCE                        |
   =================                        v
-  7 Strategies score all 93 stocks    Risk Overlay
+  9 Strategies score all 93 stocks    Risk Overlay
   each through their own lens    +--> Cash floor (2%)
   Value | Momentum | Balanced    |    Conflict logging
   Defensive | EventDriven        |
   Adaptive | Commodity           |
+  Mix | MixLLM (Claude Haiku)    |
                                  v
                             EXECUTION
                             Buy / Sell / Hold
@@ -134,15 +149,17 @@ done
 
 Every strategy sees the same market data but focuses on different signals:
 
-| | Price MAs | Volatility | Returns | Volume | Earnings | News | Regime |
-|:--|:---------:|:----------:|:-------:|:------:|:--------:|:----:|:------:|
-| **Value** | 52wk | 90d | -- | -- | 45-day | -- | -- |
-| **Momentum** | 50, 200 | RSI-14 | 12m-1m | ratio | 20d/3d | -- | -- |
-| **Balanced** | 50 | 90d | 3m | cv | 30d+8K | geo | SPY |
-| **Defensive** | 50, 200 | 20d, 60d | -- | -- | beat/miss | -- | SPY |
-| **EventDriven** | 20 | -- | 1d, 5d | spike | 45-day | -- | -- |
-| **Adaptive** | 50, 200 | 20d | 1m, 3m | -- | -- | geo | SPY+news |
-| **Commodity** | 50, 200 | 20d | 1m, 3m | -- | -- | -- | -- |
+| | Price MAs | Volatility | Returns | Volume | Earnings | News | Regime | Peers |
+|:--|:---------:|:----------:|:-------:|:------:|:--------:|:----:|:------:|:-----:|
+| **Value** | 52wk | 90d | -- | -- | 45-day | -- | -- | -- |
+| **Momentum** | 50, 200 | RSI-14 | 12m-1m | ratio | 20d/3d | -- | -- | -- |
+| **Balanced** | 50 | 90d | 3m | cv | 30d+8K | geo | SPY | -- |
+| **Defensive** | 50, 200 | 20d, 60d | -- | -- | beat/miss | -- | SPY | -- |
+| **EventDriven** | 20 | -- | 1d, 5d | spike | 45-day | -- | -- | -- |
+| **Adaptive** | 50, 200 | 20d | 1m, 3m | -- | -- | geo | SPY+news | -- |
+| **Commodity** | 50, 200 | 20d | 1m, 3m | -- | -- | -- | -- | -- |
+| **Mix** | 50, 200 | 20d | 1m, 3m | -- | -- | -- | SPY+oil | 7 strats |
+| **MixLLM** | 50, 200 | 20d | 1m, 3m | -- | -- | -- | SPY+oil | 7 strats |
 
 ### How Each Strategy Scores
 
@@ -154,19 +171,21 @@ Defensive    [low-vol 40%] [trend 30%] [drawdown 30%] + 3-state exposure scaling
 EventDriven  [event score 55%] [volume spike 25%] [momentum 20%] (events only)
 Adaptive     switches mode: MOMENTUM / VALUE / DEFENSIVE / RECOVERY
 Commodity    binary: buy oil if score > 4, sell if < 3
+Mix          detects regime from 7 peers -> allocates stocks + commodity + cash
+MixLLM       same as Mix but Claude Haiku makes the regime call
 ```
 
 ### How Each Strategy Reacts to Triggers
 
-| Trigger | Value | Momentum | Balanced | Defensive | EventDriven | Adaptive | Commodity |
-|:--------|:-----:|:--------:|:--------:|:---------:|:-----------:|:--------:|:---------:|
-| **Stop-loss** | sell | sell | sell | sell | sell | sell | sell |
-| **Regime danger** | hold | sell 1/3 | sell 1/4 | sell ALL | sell worst | sell 1/4 | log |
-| **News spike** | hold | ignore | sell hiVol | sell hiVol | sell worst | sell hiVol | hold |
-| **Earnings beat** | ignore | buy | buy* | buy* | buy | buy* | ignore |
-| **Earnings miss** | ignore | sell | sell* | sell | sell | sell* | ignore |
-| **Volume spike** | watch | buy | cautious | exit | buy | cautious | ignore |
-| **Profit target** | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 |
+| Trigger | Value | Momentum | Balanced | Defensive | EventDriven | Adaptive | Commodity | Mix |
+|:--------|:-----:|:--------:|:--------:|:---------:|:-----------:|:--------:|:---------:|:---:|
+| **Stop-loss** | sell | sell | sell | sell | sell | sell | sell | sell |
+| **Regime danger** | hold | sell 1/3 | sell 1/4 | sell ALL | sell worst | sell 1/4 | log | sell 1/4 |
+| **News spike** | hold | ignore | sell hiVol | sell hiVol | sell worst | sell hiVol | hold | sell hiVol |
+| **Earnings beat** | ignore | buy | buy* | buy* | buy | buy* | ignore | buy* |
+| **Earnings miss** | ignore | sell | sell* | sell | sell | sell* | ignore | sell* |
+| **Volume spike** | watch | buy | cautious | exit | buy | cautious | ignore | cautious |
+| **Profit target** | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 | trim 1/3 |
 
 *\* = regime-gated: won't buy earnings during crisis/bear market*
 
@@ -215,6 +234,23 @@ Best: 2023 AI rally (+47.2%), COVID (+5.7% while SPY lost -5.3%).
 
 Tracks oil (USO/XLE). 50% max allocation. Can go 100% cash.
 Best: 2022 bear (+24.7%), 2025 tariffs (+23.4%).
+
+### Mix
+> *The conductor. Watches everyone else, then decides.*
+
+Uses the other 7 strategies as live sensors to detect the market regime,
+then allocates across stocks + commodity + cash simultaneously. 5 regimes:
+AGGRESSIVE (90% stocks) / CAUTIOUS (50% stocks + 20% commodity) /
+DEFENSIVE (20% stocks + 30% commodity + 50% cash) / RECOVERY / UNCERTAIN.
+Best: beats SPY in 6 of 7 periods. Avg alpha: +8.0%.
+
+### MixLLM
+> *Same conductor, but Claude Haiku calls the shots.*
+
+Same as Mix but regime detection is done by Claude Haiku instead of coded rules.
+Gets the same sensor data + expert knowledge about historical regime patterns.
+Better at avoiding bear rally traps (+14% alpha in 2022 bear), but too cautious
+in bull markets. Non-deterministic, requires Claude CLI.
 
 ---
 
@@ -280,9 +316,9 @@ All turns logged to `runs/research/{ticker}_{date}/` as structured JSON.
 | **Deterministic** | No | No | **Yes** |
 | **Test duration** | 3 months | 5 weeks | **7 years** |
 | **Universe** | 3 stocks | NASDAQ-100 | **93 stocks** |
-| **Strategies** | LLM-only | LLM-only | **7 coded + LLM** |
+| **Strategies** | LLM-only | LLM-only | **9 (7 coded + Mix + MixLLM)** |
 | **Ablation tested** | No | No | **Yes** |
-| **Beats QQQ (2024)** | Not tested | Not tested | **2 of 7** |
+| **Beats QQQ (2024)** | Not tested | Not tested | **2 of 9** |
 
 ---
 
@@ -308,7 +344,7 @@ StockTradeAgent/
 │   ├── risk_overlay.py              Cash floor + conflict logging
 │   ├── sim_memory.py                Strategy learning
 │   ├── events_data.py               Earnings calendar
-│   └── strategies/                  7 strategies (~100-250 lines each)
+│   └── strategies/                  9 strategies (~100-350 lines each)
 ├── tools/                       # Data collection (all free)
 ├── data/                        # 96 fundamentals + 405 news dates
 ├── runs/                        # Simulation output (per-strategy logs)

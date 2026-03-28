@@ -51,7 +51,7 @@ Stock Research/
 │   ├── risk_overlay.py           Conviction gate, consensus, conflict detection
 │   ├── sim_memory.py             Memory read/write for learning
 │   ├── events_data.py            Earnings + SEC filing events
-│   └── strategies/               7 trading strategies
+│   └── strategies/               9 trading strategies
 │       ├── base_strategy.py          Base class (partial fill, cash floor, reasoning)
 │       ├── value_strategy.py         Low-vol, beaten-down quality
 │       ├── momentum_strategy.py      Price trend, MACD, volume
@@ -59,7 +59,9 @@ Stock Research/
 │       ├── defensive_strategy.py     Rotates to cash on danger
 │       ├── event_driven_strategy.py  Reacts to earnings/events
 │       ├── adaptive_strategy.py      Switches modes by regime
-│       └── commodity_strategy.py     Oil tracking
+│       ├── commodity_strategy.py     Oil tracking
+│       ├── mix_strategy.py           Regime-detecting multi-asset allocator
+│       └── mix_llm_strategy.py       LLM-powered regime detection (Claude Haiku)
 │
 ├── runs/                     # ALL output (sim + research)
 │   │
