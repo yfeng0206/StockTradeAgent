@@ -45,15 +45,15 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 
 | Strategy | 2019 Bull | COVID | 2023 AI | Bull-Rec | 2022 Bear | Rec-Bull | 2025-Now |
 |:---------|:---------:|:-----:|:-------:|:--------:|:---------:|:--------:|:--------:|
-| **Value** | **+38.9%** | **+16.0%** | +30.4% | -4.8% | -18.1% | +20.2% | -0.0% |
-| **Momentum** | +35.5% | +9.5% | +20.1% | -17.9% | -19.2% | +22.9% | +12.6% |
-| **Balanced** | +18.6% | -7.2% | +15.0% | +0.2% | -17.0% | +31.0% | -7.2% |
-| **Defensive** | +21.6% | -7.2% | -2.4% | **+14.6%** | **-4.2%** | -0.5% | +14.0% |
-| **EventDriven** | +14.0% | -5.3% | **+37.9%** | -8.5% | -27.0% | **+28.5%** | +19.8% |
-| **Adaptive** | +23.0% | +5.7% | **+47.2%** | -4.2% | -21.1% | +25.2% | **+28.4%** |
+| **Value** | **+38.9%** | **+16.0%** | +40.4% | -8.2% | -18.1% | +20.2% | -0.0% |
+| **Momentum** | +35.5% | +5.2% | +42.1% | -16.4% | -19.2% | +22.9% | +12.6% |
+| **Balanced** | +19.8% | -1.8% | +39.8% | +1.6% | -17.6% | +35.2% | +5.1% |
+| **Defensive** | +21.6% | -5.7% | -6.4% | **+15.2%** | **-3.4%** | -1.6% | +11.6% |
+| **EventDriven** | +15.4% | -2.8% | **+64.5%** | -7.6% | -27.0% | +27.5% | +13.2% |
+| **Adaptive** | +23.0% | +12.2% | **+57.0%** | -4.3% | -21.1% | +25.2% | **+28.2%** |
 | **Commodity** | -3.2% | -2.4% | +1.2% | +15.9% | **+24.7%** | -4.2% | +23.4% |
-| **Mix** | +17.9% | +7.5% | +35.1% | +9.9% | -4.9% | +28.6% | +21.0% |
-| **MixLLM** | +24.2% | +5.1% | +24.9% | +6.8% | -7.4% | +18.0% | +22.8% |
+| **Mix** | +17.9% | +7.5% | +35.5% | +9.9% | -4.9% | +28.8% | **+28.1%** |
+| **MixLLM** | +24.1% | -0.2% | +30.9% | +7.7% | -3.5% | +26.7% | +27.1% |
 | SPY | +30.7% | -5.3% | +27.0% | -10.3% | -17.6% | +20.9% | +13.7% |
 | QQQ | +38.1% | +12.8% | +56.5% | -19.5% | -29.6% | +33.7% | +15.9% |
 | ONEQ | +36.1% | +8.8% | +47.2% | -21.8% | -29.0% | +26.8% | +14.6% |
@@ -62,11 +62,11 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 
 | Strategy | Avg Return | Avg Alpha vs SPY | Beats SPY |
 |:---------|:---------:|:----------------:|:---------:|
+| **Mix** | **+17.5%** | **+9.1%** | **6 of 7** |
 | **Adaptive** | +17.2% | +8.7% | 5 of 7 |
-| **Mix** | **+16.4%** | **+8.0%** | **6 of 7** |
-| EventDriven | +12.9% | +4.4% | 5 of 7 |
-| Value | +13.2% | +4.8% | 4 of 7 |
-| MixLLM | +13.5% | +5.1% | 5 of 7 |
+| **MixLLM** | +16.1% | +7.7% | **6 of 7** |
+| Value | +12.7% | +4.3% | 4 of 7 |
+| EventDriven | +11.9% | +3.4% | 4 of 7 |
 | QQQ | +15.4% | — | — |
 | SPY | +8.4% | — | — |
 
@@ -76,6 +76,7 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 |:---------|:---------:|
 | **Commodity** | -11.6% |
 | **Defensive** | -14.4% |
+| **MixLLM** | -21.0% |
 | **Mix** | -24.0% |
 | SPY | -33.6% |
 | QQQ | -34.7% |
@@ -127,7 +128,7 @@ done
   Value | Momentum | Balanced    |    Conflict logging
   Defensive | EventDriven        |
   Adaptive | Commodity           |
-  Mix | MixLLM (Claude Sonnet)   |
+  Mix | MixLLM (Claude Opus)     |
                                  v
                             EXECUTION
                             Buy / Sell / Hold
@@ -172,7 +173,7 @@ EventDriven  [event score 55%] [volume spike 25%] [momentum 20%] (events only)
 Adaptive     switches mode: MOMENTUM / VALUE / DEFENSIVE / RECOVERY
 Commodity    binary: buy oil if score > 4, sell if < 3
 Mix          detects regime from 7 peers -> allocates stocks + commodity + cash
-MixLLM       coded rules + Sonnet risk monitor (can only escalate defensiveness)
+MixLLM       coded rules + Opus risk monitor (can only escalate defensiveness)
 ```
 
 ### How Each Strategy Reacts to Triggers
@@ -245,14 +246,14 @@ DEFENSIVE (20% stocks + 30% commodity + 50% cash) / RECOVERY / UNCERTAIN.
 Best: beats SPY in 6 of 7 periods. Avg alpha: +8.0%.
 
 ### MixLLM
-> *The risk manager. Coded rules drive, Sonnet pulls the emergency brake.*
+> *The risk manager. Coded rules drive, Opus pulls the emergency brake.*
 
-Hybrid architecture: coded Mix rules run first (bias AGGRESSIVE), then Claude Sonnet
+Hybrid architecture: coded Mix rules run first (bias AGGRESSIVE), then Claude Opus
 reviews with rich data the coded rules can't see — sector rotation, gold/treasury trends,
 bond stress, oil return magnitude, geo_risk scores, and its own regime history.
 The LLM can only ESCALATE to more defensive regimes, never less.
 
-Better risk-adjusted returns than coded Mix (Sharpe 0.923 vs 0.882 over 2025-now).
+Avg return +16.1%, avg alpha +7.7%, beats SPY in 6 of 7 periods. Worst drawdown -21.0%.
 Caught Russia-Ukraine invasion risk in Feb 2022, correctly identified bear rally traps.
 Non-deterministic, requires Claude CLI.
 

@@ -2,7 +2,8 @@
 
 Major upgrade from v1:
 - Sends sector rotation, safe havens, bonds, oil detail, news, regime history
-- Uses Sonnet instead of Haiku for better reasoning
+- Uses Opus by default (configurable via MIXLLM_MODEL env var)
+- Supports Anthropic SDK (ANTHROPIC_API_KEY) or Claude CLI subprocess
 - Gives LLM the same quality of data a human analyst would use
 - Falls back to coded rules if LLM call fails
 
@@ -10,15 +11,29 @@ Only calls LLM on rebalance days (~10-15 calls per period, not every day).
 """
 
 import json
-import subprocess
 import os
 import numpy as np
 import pandas as pd
 from .mix_strategy import MixStrategy, REGIME_ALLOCATIONS, OIL_PROXIES
 
-CLAUDE_CMD = os.path.join(os.environ.get("APPDATA", ""), "npm", "claude.cmd")
-if not os.path.exists(CLAUDE_CMD):
-    CLAUDE_CMD = "claude"  # fallback to PATH
+# Try Anthropic SDK first (no browser tabs), fallback to CLI
+_USE_SDK = False
+_anthropic_client = None
+try:
+    import anthropic
+    # SDK needs API key — check env or Claude CLI config
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if api_key:
+        _anthropic_client = anthropic.Anthropic(api_key=api_key)
+        _USE_SDK = True
+except ImportError:
+    pass
+
+if not _USE_SDK:
+    import subprocess
+    CLAUDE_CMD = os.path.join(os.environ.get("APPDATA", ""), "npm", "claude.cmd")
+    if not os.path.exists(CLAUDE_CMD):
+        CLAUDE_CMD = "claude"  # fallback to PATH
 
 # Macro ETFs available in simulation price_data
 SAFE_HAVEN_TICKERS = {
@@ -424,12 +439,21 @@ class MixLLMStrategy(MixStrategy):
 
         return "\n".join(lines)
 
-    def _call_llm(self, sensor_data, date):
-        """Call Claude CLI (Sonnet) for regime classification.
+    # Model selection — set via env var MIXLLM_MODEL (default: opus)
+    LLM_MODEL = os.environ.get("MIXLLM_MODEL", "opus")
 
-        Uses Sonnet for better reasoning on complex multi-signal analysis.
-        Pipes prompt via stdin to avoid Windows arg length limits.
-        Runs from temp dir to avoid Claude Code picking up codebase context.
+    # Map short names to SDK model IDs
+    _MODEL_MAP = {
+        "opus": "claude-opus-4-6",
+        "sonnet": "claude-sonnet-4-6",
+        "haiku": "claude-haiku-4-5-20251001",
+    }
+
+    def _call_llm(self, sensor_data, date):
+        """Call Claude for regime classification.
+
+        Uses Anthropic SDK if ANTHROPIC_API_KEY is set (no browser tabs).
+        Falls back to Claude CLI subprocess otherwise.
         """
         user_prompt = (
             f"Review the coded regime classification below and CONFIRM or OVERRIDE it.\n\n"
@@ -437,26 +461,17 @@ class MixLLMStrategy(MixStrategy):
             "Look at the extended data (sectors, safe havens, oil detail, news, regime history) "
             "for signals the coded rules CANNOT see. If no strong override signal exists, CONFIRM.\n\n"
             'Reply with ONLY a JSON object: {"regime": "AGGRESSIVE|CAUTIOUS|DEFENSIVE|RECOVERY|UNCERTAIN", '
-            '"action": "CONFIRM|OVERRIDE", "confidence": 0.0-1.0, '
-            '"reasoning": "1-2 sentences. If OVERRIDE, what did the coded rules miss?"}'
+            '"action": "CONFIRM|ESCALATE", "confidence": 0.0-1.0, '
+            '"reasoning": "1-2 sentences. If ESCALATE, what crisis signal did the coded rules miss?"}'
         )
 
         try:
-            import tempfile
-            result = subprocess.run(
-                [CLAUDE_CMD, "-p", "-",
-                 "--model", "sonnet",
-                 "--system-prompt", EXPERT_KNOWLEDGE,
-                 "--output-format", "text"],
-                input=user_prompt,
-                capture_output=True, text=True, timeout=90,
-                cwd=tempfile.gettempdir(),
-            )
+            if _USE_SDK:
+                response = self._call_sdk(user_prompt)
+            else:
+                response = self._call_cli(user_prompt)
 
             self._llm_call_count += 1
-            response = result.stdout.strip()
-
-            # Parse JSON from response
             regime, confidence, reasoning = self._parse_llm_response(response)
 
             self._llm_log.append({
@@ -464,16 +479,7 @@ class MixLLMStrategy(MixStrategy):
                 "confidence": confidence, "reasoning": reasoning,
                 "raw_response": response[:500],
             })
-
             return regime
-
-        except subprocess.TimeoutExpired:
-            self._llm_fallback_count += 1
-            self._llm_log.append({
-                "date": date, "source": "timeout", "regime": None,
-                "reason": "LLM call timed out after 90s",
-            })
-            return None  # will trigger fallback
 
         except Exception as e:
             self._llm_fallback_count += 1
@@ -482,6 +488,31 @@ class MixLLMStrategy(MixStrategy):
                 "reason": str(e)[:200],
             })
             return None
+
+    def _call_sdk(self, user_prompt):
+        """Call via Anthropic Python SDK — no browser tabs, no subprocess."""
+        model_id = self._MODEL_MAP.get(self.LLM_MODEL, self.LLM_MODEL)
+        message = _anthropic_client.messages.create(
+            model=model_id,
+            max_tokens=512,
+            system=EXPERT_KNOWLEDGE,
+            messages=[{"role": "user", "content": user_prompt}],
+        )
+        return message.content[0].text.strip()
+
+    def _call_cli(self, user_prompt):
+        """Call via Claude CLI subprocess — fallback if no API key."""
+        import tempfile
+        result = subprocess.run(
+            [CLAUDE_CMD, "-p", "-",
+             "--model", self.LLM_MODEL,
+             "--system-prompt", EXPERT_KNOWLEDGE,
+             "--output-format", "text"],
+            input=user_prompt,
+            capture_output=True, text=True, timeout=90,
+            cwd=tempfile.gettempdir(),
+        )
+        return result.stdout.strip()
 
     def _parse_llm_response(self, response):
         """Parse the LLM response to extract regime classification."""
