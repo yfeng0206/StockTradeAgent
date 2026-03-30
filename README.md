@@ -53,7 +53,7 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 | **Adaptive** | +23.0% | +5.7% | **+47.2%** | -4.2% | -21.1% | +25.2% | **+28.4%** |
 | **Commodity** | -3.2% | -2.4% | +1.2% | +15.9% | **+24.7%** | -4.2% | +23.4% |
 | **Mix** | +17.9% | +7.5% | +35.1% | +9.9% | -4.9% | +28.6% | +21.0% |
-| **MixLLM** | +24.2% | +5.1% | +22.5% | +6.8% | -3.5% | +18.0% | +0.8% |
+| **MixLLM** | +24.2% | +5.1% | +24.9% | +6.8% | -7.4% | +18.0% | +22.8% |
 | SPY | +30.7% | -5.3% | +27.0% | -10.3% | -17.6% | +20.9% | +13.7% |
 | QQQ | +38.1% | +12.8% | +56.5% | -19.5% | -29.6% | +33.7% | +15.9% |
 | ONEQ | +36.1% | +8.8% | +47.2% | -21.8% | -29.0% | +26.8% | +14.6% |
@@ -66,7 +66,7 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 | **Mix** | **+16.4%** | **+8.0%** | **6 of 7** |
 | EventDriven | +12.9% | +4.4% | 5 of 7 |
 | Value | +13.2% | +4.8% | 4 of 7 |
-| MixLLM | +10.6% | +2.1% | 5 of 7 |
+| MixLLM | +13.5% | +5.1% | 5 of 7 |
 | QQQ | +15.4% | — | — |
 | SPY | +8.4% | — | — |
 
@@ -127,7 +127,7 @@ done
   Value | Momentum | Balanced    |    Conflict logging
   Defensive | EventDriven        |
   Adaptive | Commodity           |
-  Mix | MixLLM (Claude Haiku)    |
+  Mix | MixLLM (Claude Sonnet)   |
                                  v
                             EXECUTION
                             Buy / Sell / Hold
@@ -159,7 +159,7 @@ Every strategy sees the same market data but focuses on different signals:
 | **Adaptive** | 50, 200 | 20d | 1m, 3m | -- | -- | geo | SPY+news | -- |
 | **Commodity** | 50, 200 | 20d | 1m, 3m | -- | -- | -- | -- | -- |
 | **Mix** | 50, 200 | 20d | 1m, 3m | -- | -- | -- | SPY+oil | 7 strats |
-| **MixLLM** | 50, 200 | 20d | 1m, 3m | -- | -- | -- | SPY+oil | 7 strats |
+| **MixLLM** | 50, 200 | 20d | 1m, 3m | -- | -- | geo | SPY+oil+sectors+havens | 7 strats |
 
 ### How Each Strategy Scores
 
@@ -172,7 +172,7 @@ EventDriven  [event score 55%] [volume spike 25%] [momentum 20%] (events only)
 Adaptive     switches mode: MOMENTUM / VALUE / DEFENSIVE / RECOVERY
 Commodity    binary: buy oil if score > 4, sell if < 3
 Mix          detects regime from 7 peers -> allocates stocks + commodity + cash
-MixLLM       same as Mix but Claude Haiku makes the regime call
+MixLLM       coded rules + Sonnet risk monitor (can only escalate defensiveness)
 ```
 
 ### How Each Strategy Reacts to Triggers
@@ -245,12 +245,16 @@ DEFENSIVE (20% stocks + 30% commodity + 50% cash) / RECOVERY / UNCERTAIN.
 Best: beats SPY in 6 of 7 periods. Avg alpha: +8.0%.
 
 ### MixLLM
-> *Same conductor, but Claude Haiku calls the shots.*
+> *The risk manager. Coded rules drive, Sonnet pulls the emergency brake.*
 
-Same as Mix but regime detection is done by Claude Haiku instead of coded rules.
-Gets the same sensor data + expert knowledge about historical regime patterns.
-Better at avoiding bear rally traps (+14% alpha in 2022 bear), but too cautious
-in bull markets. Non-deterministic, requires Claude CLI.
+Hybrid architecture: coded Mix rules run first (bias AGGRESSIVE), then Claude Sonnet
+reviews with rich data the coded rules can't see — sector rotation, gold/treasury trends,
+bond stress, oil return magnitude, geo_risk scores, and its own regime history.
+The LLM can only ESCALATE to more defensive regimes, never less.
+
+Better risk-adjusted returns than coded Mix (Sharpe 0.923 vs 0.882 over 2025-now).
+Caught Russia-Ukraine invasion risk in Feb 2022, correctly identified bear rally traps.
+Non-deterministic, requires Claude CLI.
 
 ---
 
