@@ -1,11 +1,13 @@
 <p align="center">
   <h1 align="center">📈 ConsensusAITrader</h1>
   <p align="center">
-    <b>9 Trading Strategies + LLM Risk Monitor | Free Data | 93 Stocks | 25 Years Backtested</b>
+    <b>7 AI strategies trade independently. The best strategy reads all 7 and trades on their consensus.</b>
+    <br>
+    Free Data | 93 Stocks | 25 Years Backtested | Beats SPY 12/14 Periods
     <br><br>
     <a href="#key-results">Results</a> &bull;
     <a href="#-quick-start">Quick Start</a> &bull;
-    <a href="#how-it-works">How It Works</a> &bull;
+    <a href="#the-core-idea-consensus-trading">Core Idea</a> &bull;
     <a href="#the-9-strategies">Strategies</a> &bull;
     <a href="#live-research-adversarial-debate">Live Research</a> &bull;
     <a href="docs/strategies/README.md">Strategy Deep Dives</a> &bull;
@@ -15,11 +17,36 @@
 
 ---
 
-## Why This Exists
+## The Core Idea: Consensus Trading
 
-Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only reasoning. This system is **free**, tested across **14 market regimes over 25 years** (2000-2026), and uses **coded rules** where they work best with an **LLM risk monitor** (Claude Opus) that only intervenes during genuine crises.
+Most trading systems use **one strategy**. We run **7 strategies independently**, then our flagship strategies — **Mix** and **MixLLM** — read all 7 as live sensors and trade based on their consensus.
 
-| | ConsensusAITrader | Typical LLM Agent |
+```
+  7 strategies trade independently          Mix reads their consensus
+  ┌──────────────────────────┐              ┌─────────────────────────┐
+  │ Value        → holding   │              │                         │
+  │ Momentum     → buying    │──────────────│  4 bullish, 1 bearish,  │
+  │ Balanced     → buying    │   live       │  2 cautious             │
+  │ Defensive    → DEFENSE   │──state──────▶│                         │
+  │ EventDriven  → holding   │   reads      │  → Mix goes AGGRESSIVE  │
+  │ Adaptive     → MOMENTUM  │              │  → 90% stocks, 10% cash │
+  │ Commodity    → in cash   │              │                         │
+  └──────────────────────────┘              └─────────────────────────┘
+```
+
+When 4+ strategies go to cash, that's a consensus danger signal no single strategy can see. When Defensive enters DEFENSE mode and Adaptive switches to DEFENSIVE, Mix catches it before the market fully crashes.
+
+**MixLLM** adds Claude Opus as a risk monitor on top — it can only escalate defensiveness (pull the emergency brake), never reduce it. During the GFC, Opus caught credit stress signals (HY bonds crashing, gold surging) that coded rules missed, saving +8.9% while SPY lost -45.9%.
+
+**Mix and MixLLM are the recommended strategies.** The other 7 are valuable both as standalone options and as the sensor network that powers the consensus. You can use any strategy, but the consensus is where the edge is.
+
+---
+
+## Why This Over Other Approaches
+
+Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only reasoning. This system is **free**, tested across **14 market regimes over 25 years** (2000-2026), and uses **coded rules** where they work best with an **LLM risk monitor** that only intervenes during genuine crises.
+
+| | ConsensusAITrader (Mix) | Typical LLM Agent |
 |:--|:---:|:---:|
 | **Cost** | Free | $5-100/day |
 | **Test duration** | 25 years, 14 regimes | 3 months |
