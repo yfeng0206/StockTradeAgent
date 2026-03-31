@@ -241,6 +241,12 @@ ConsensusAITrader/
 
 ---
 
+## What About Congressional Trading? (Pelosi Tracker, etc.)
+
+We looked into it. Short answer: **not worth it.** The 20-45 day disclosure delay means you're always buying after the move. The ETFs that copy congress (NANC, KRUZ) don't beat SPY on a risk-adjusted basis. Our Mix strategy returns 2x what copying Pelosi does. Academics confirm post-2012 there's no statistically significant alpha. [Full analysis in our experiments log.](docs/experiments/README.md#experiment-6-congressional-stock-trading-pelosi-tracker-2026-03-30)
+
+---
+
 ## License
 
 MIT

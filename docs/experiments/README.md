@@ -160,3 +160,43 @@ From deep-dive analysis of Post GFC decision logs:
 5. **Regime detection is backward-looking:** The `cash_heavy_count >= 4` rule means Mix sells when peers sell — by definition at the worst time.
 
 These are potential areas for future improvement.
+
+---
+
+## Experiment 6: Congressional Stock Trading (Pelosi Tracker) (2026-03-30)
+
+**Question:** Can we use congressional stock trading data (Nancy Pelosi, etc.) as an alpha signal?
+
+This comes up a lot — "just copy what Pelosi buys" is a popular idea. We researched it thoroughly.
+
+**What We Found:**
+
+The data exists (Capitol Trades, QuiverQuant, Unusual Whales) but has a fatal flaw: **20-45 day disclosure delay**. Under the STOCK Act, trades must be reported within 45 days. Average actual delay is ~28 days. By the time you see the trade, the stock has already moved.
+
+**The ETFs prove it doesn't work:**
+
+| | Return/yr | vs SPY | Sharpe |
+|:--|:--------:|:------:|:------:|
+| NANC (copy Democrats) | +18.0% | +1.1% | 1.07 |
+| KRUZ (copy Republicans) | +13.5% | -3.4% | 0.97 |
+| SPY | +16.9% | -- | 1.11 |
+| **Our Mix** | **+36.7%** | **+19.4%** | **0.94** |
+
+NANC and KRUZ are real ETFs that systematically copy congressional trades. Neither beats SPY on a risk-adjusted basis (lower Sharpe ratios). Our Mix strategy returns 2x what NANC does.
+
+**Why it doesn't work:**
+
+1. **20-45 day delay** — you're buying after the move happened
+2. **Amount ranges only** — disclosures say "$100K-$250K" not exact values
+3. **Only ~50% of congress members beat SPY** — Pelosi stories are survivorship bias
+4. **Academics confirm** — post-STOCK Act (2012), no statistically significant alpha (NBER Working Paper w26975)
+5. **Sector tilt explains "alpha"** — congress members are heavy in tech/NVDA, which did well in 2023-2024 regardless
+
+**Decision:** Not worth integrating. The signal is too delayed, too noisy, and academically debunked. Our coded strategies already beat congressional trading by 2x.
+
+**Sources:**
+- NANC/KRUZ ETF data (etf.com, Morningstar)
+- Unusual Whales 2024 Congress Trading Report
+- Capitol Trades (capitoltrades.com)
+- NBER Working Paper w26975: "No evidence of superior investment performance"
+- Belmont et al. (2022): Congress underperforms post-STOCK Act
