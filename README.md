@@ -37,12 +37,16 @@ When 4+ strategies go to cash, that's a consensus danger signal no single strate
 
 Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only reasoning. This system is **free**, tested across **14 market regimes over 25 years** (2000-2026), and uses **coded rules** where they work best with an **LLM risk monitor** that only intervenes during genuine crises.
 
+<div align="center">
+
 | | ConsensusAITrader (Mix) | Typical LLM Agent |
-|:--|:---:|:---:|
+|:--:|:---:|:---:|
 | **Cost** | Free | $5-100/day |
 | **Test duration** | 25 years, 14 regimes | 3 months |
 | **Crash tested** | Dot-com, GFC, COVID, 2022 | Usually not |
 | **Beats SPY** | 12 of 14 periods | Unknown |
+
+</div>
 
 ---
 
@@ -52,12 +56,16 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
   <img src="docs/assets/strategy-returns.svg" alt="Strategy Returns" width="650"/>
 </p>
 
+<div align="center">
+
 | Strategy | Avg Return | vs SPY | Worst Drawdown | When to Use |
-|:---------|:---------:|:------:|:--------------:|:------------|
+|:--:|:--:|:--:|:--:|:--:|
 | **Mix** | **+36.7%** | **+19.4%** | -25.0% | Max returns |
 | **MixLLM** | +33.9% | +12.6% | -22.9% | Crash protection |
 | QQQ (buy & hold) | +24.4% | -- | **-82.9%** | If you can stomach -82% |
 | SPY (buy & hold) | +17.5% | -- | -55.1% | Passive baseline |
+
+</div>
 
 ### 🛡️ Crash Protection
 
@@ -65,12 +73,16 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
   <img src="docs/assets/crash-protection.svg" alt="Crash Protection" width="650"/>
 </p>
 
+<div align="center">
+
 | Strategy | Dot-com '00 | GFC '08 | COVID '20 | 2022 Bear | Avg |
-|:---------|:----------:|:-------:|:---------:|:---------:|:---:|
+|:--:|:--:|:--:|:--:|:--:|:--:|
 | **MixLLM** | +20.4% | +8.9% | -0.2% | -3.5% | **+6.4%** |
 | **Commodity** | -14.1% | +22.7% | -2.4% | +24.7% | +7.7% |
 | SPY | -33.1% | -45.9% | -5.3% | -17.6% | -25.5% |
 | QQQ | -77.2% | -37.0% | +12.8% | -29.6% | -32.7% |
+
+</div>
 
 > Full results across all 9 strategies, 14 periods, position sizes, and model comparisons: **[Detailed Results](docs/RESULTS.md)**
 
@@ -99,12 +111,16 @@ python tools/daily_collect.py
 
 ### Recommended Settings
 
+<div align="center">
+
 | Setting | Default | Notes |
-|:--------|:--------|:------|
+|:--:|:--:|:--|
 | `--max-positions` | **10** | Tested 10/20/30. 10 is best for Mix/MixLLM |
 | `--regime-stickiness` | **1** | Tested 1/3/5. Instant switching wins |
 | `MIXLLM_MODEL` | **opus** | Tested Opus vs Sonnet. Opus better in crashes |
 | `--cash` | **100000** | Scales linearly |
+
+</div>
 
 ---
 
