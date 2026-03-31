@@ -115,8 +115,10 @@ Respond with ONLY a JSON object:
 class MixLLMStrategy(MixStrategy):
     """Mix strategy with enhanced LLM-powered regime detection (v2)."""
 
-    def __init__(self, initial_cash=100_000, events_calendar=None, max_positions=10):
-        super().__init__(initial_cash, events_calendar, max_positions)
+    def __init__(self, initial_cash=100_000, events_calendar=None, max_positions=10,
+                 regime_stickiness=1):
+        super().__init__(initial_cash, events_calendar, max_positions,
+                         regime_stickiness=regime_stickiness)
         self.name = "MixLLM"
         self._llm_call_count = 0
         self._llm_fallback_count = 0

@@ -42,7 +42,8 @@ REGIME_ALLOCATIONS = {
 
 
 class MixStrategy(BaseStrategy):
-    def __init__(self, initial_cash: float = 100_000, events_calendar: dict = None, max_positions: int = 10):
+    def __init__(self, initial_cash: float = 100_000, events_calendar: dict = None,
+                 max_positions: int = 10, regime_stickiness: int = 1):
         super().__init__("Mix", initial_cash, max_positions=max_positions)
         self.min_score_threshold = 4.0
         self.atr_stop_multiplier = 2.0
@@ -52,6 +53,13 @@ class MixStrategy(BaseStrategy):
         self.regime_history = []
         self._sensor_readings = {}
         self._peer_strategies = []  # set by daily_loop — references to other strategy objects
+        # Asymmetric regime stickiness:
+        # - Going TO defensive/cautious: instant (stickiness=1) — protect capital fast
+        # - Going FROM defensive back to aggressive: require N days confirmation — avoid whipsaw
+        # regime_stickiness controls the "leaving defensive" delay. 1 = original behavior.
+        self._regime_stickiness = regime_stickiness
+        self._pending_regime = None   # what regime is building up
+        self._pending_count = 0       # how many consecutive days it's been detected
 
     @property
     def rebalance_frequency(self) -> str:
@@ -248,9 +256,55 @@ class MixStrategy(BaseStrategy):
     # ================================================================
     # STOCK SCORING — changes by regime
     # ================================================================
+    # Defensive ordering: higher = more defensive
+    _DEFENSE_ORDER = {
+        "AGGRESSIVE": 0, "RECOVERY": 1, "UNCERTAIN": 2, "CAUTIOUS": 3, "DEFENSIVE": 4,
+    }
+
+    def _apply_regime_stickiness(self, raw_regime, date):
+        """Asymmetric stickiness: fast to defend, slow to leave defense.
+
+        - Escalating toward defensive (higher defense order): INSTANT switch.
+          A real crash can't wait 3 days for confirmation.
+        - De-escalating toward aggressive (lower defense order): require N days.
+          Prevents whipsaw where 1 good day in a crisis triggers full re-entry.
+
+        Stickiness=1 means instant switch in both directions (original behavior).
+        """
+        if self._regime_stickiness <= 1:
+            return raw_regime
+
+        if raw_regime == self.detected_regime:
+            self._pending_regime = None
+            self._pending_count = 0
+            return self.detected_regime
+
+        raw_level = self._DEFENSE_ORDER.get(raw_regime, 2)
+        current_level = self._DEFENSE_ORDER.get(self.detected_regime, 2)
+
+        # Escalating (going MORE defensive): instant switch, no delay
+        if raw_level > current_level:
+            self._pending_regime = None
+            self._pending_count = 0
+            return raw_regime
+
+        # De-escalating (going LESS defensive): require N consecutive days
+        if raw_regime == self._pending_regime:
+            self._pending_count += 1
+            if self._pending_count >= self._regime_stickiness:
+                self._pending_regime = None
+                self._pending_count = 0
+                return raw_regime
+            return self.detected_regime
+        else:
+            self._pending_regime = raw_regime
+            self._pending_count = 1
+            return self.detected_regime
+
     def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
         """Score stocks based on detected regime."""
-        new_regime = self._detect_regime(price_data, date)
+        raw_regime = self._detect_regime(price_data, date)
+        new_regime = self._apply_regime_stickiness(raw_regime, date)
 
         if new_regime != self.detected_regime:
             self.regime_history.append({

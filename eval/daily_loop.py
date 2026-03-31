@@ -85,6 +85,8 @@ UNIVERSE = [
     "AMT", "PLD", "D",
     # Other (4)
     "BLK", "FIS", "EMR", "MMM",
+    # Index ETFs (tradeable alongside individual stocks)
+    "SPY", "QQQ",
 ]
 
 BENCHMARKS = ["SPY", "QQQ", "ONEQ"]  # S&P 500, NASDAQ-100, NASDAQ Composite
@@ -128,7 +130,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                          max_positions: int = 10, period_name: str = "custom",
                          shared_price_data: dict = None, shared_events_cal: dict = None,
                          quiet: bool = False,
-                         risk_features: dict = None, risk_params: dict = None):
+                         risk_features: dict = None, risk_params: dict = None,
+                         regime_stickiness: int = 1):
     if not quiet:
         print("=" * 80)
         print(f"DAILY EVENT-DRIVEN SIMULATION")
@@ -174,9 +177,11 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         AdaptiveStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions),
         CommodityStrategy(initial_cash, events_calendar=events_cal),
     ]
-    mix_strategy = MixStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions)
+    mix_strategy = MixStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions,
+                               regime_stickiness=regime_stickiness)
     mix_strategy._peer_strategies = core_strategies  # wire up peer references
-    mix_llm_strategy = MixLLMStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions)
+    mix_llm_strategy = MixLLMStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions,
+                                      regime_stickiness=regime_stickiness)
     mix_llm_strategy._peer_strategies = core_strategies  # same peer references
     strategies = core_strategies + [mix_strategy, mix_llm_strategy]
 
@@ -719,6 +724,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
             "engine_version": "2.0",
             "period": period_name, "start": start, "end": end,
             "initial_cash": initial_cash, "max_positions": max_positions,
+            "regime_stickiness": regime_stickiness,
             "universe_size": len(UNIVERSE), "trading_days": len(trading_days),
             "total_triggers": len(daily_trigger_log),
             "trigger_days": total_trigger_days,
@@ -867,13 +873,17 @@ def main():
     parser.add_argument("--end", help="End date YYYY-MM-DD")
     parser.add_argument("--cash", type=float, default=100_000)
     parser.add_argument("--max-positions", type=int, default=10)
+    parser.add_argument("--regime-stickiness", type=int, default=1,
+                        help="Days of consecutive regime signal before switching (1=instant, 3 or 5=sticky)")
     args = parser.parse_args()
 
     if args.period:
         p = PERIODS[args.period]
-        run_daily_simulation(p["start"], p["end"], args.cash, args.max_positions, p["name"])
+        run_daily_simulation(p["start"], p["end"], args.cash, args.max_positions, p["name"],
+                             regime_stickiness=args.regime_stickiness)
     elif args.start and args.end:
-        run_daily_simulation(args.start, args.end, args.cash, args.max_positions, "Custom")
+        run_daily_simulation(args.start, args.end, args.cash, args.max_positions, "Custom",
+                             regime_stickiness=args.regime_stickiness)
     else:
         parser.print_help()
 
