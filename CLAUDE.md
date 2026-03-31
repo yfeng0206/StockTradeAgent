@@ -1,6 +1,6 @@
-# Stock Research Agent
+# ConsensusAITrader
 
-Claude CLI-powered stock research system. Claude Opus 4.6 does all reasoning, Python tools handle data.
+9-strategy consensus trading system with LLM risk monitor. Claude Opus 4.6 does reasoning, Python tools handle data.
 
 ## Skills
 - `/stock-research TICKER` — Deep analysis of a single stock

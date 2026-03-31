@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">📈 StockTradeAgent</h1>
+  <h1 align="center">📈 ConsensusAITrader</h1>
   <p align="center">
     <b>9 Trading Strategies + LLM Risk Monitor | Free Data | 93 Stocks | 25 Years Backtested</b>
     <br><br>
@@ -19,7 +19,7 @@
 
 Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only reasoning. This system is **free**, tested across **14 market regimes over 25 years** (2000-2026), and uses **coded rules** where they work best with an **LLM risk monitor** (Claude Opus) that only intervenes during genuine crises.
 
-| | StockTradeAgent | Typical LLM Agent |
+| | ConsensusAITrader | Typical LLM Agent |
 |:--|:---:|:---:|
 | **Cost** | Free | $5-100/day |
 | **Test duration** | 25 years, 14 regimes | 3 months |
@@ -202,7 +202,7 @@ Earlier periods (2000-2007) use ~66 stocks (those that existed at the time).
 ## Folder Structure
 
 ```
-StockTradeAgent/
+ConsensusAITrader/
 ├── eval/                            # Simulation engine
 │   ├── daily_loop.py                    Daily event loop (main entry point)
 │   ├── signals.py                       Macro, technical, volume signals

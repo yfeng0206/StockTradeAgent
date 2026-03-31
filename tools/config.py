@@ -6,7 +6,7 @@ import os
 # Set via environment variable or edit here
 SEC_USER_AGENT = os.environ.get(
     "SEC_USER_AGENT",
-    "StockResearchAgent/1.0 (garyfeng@example.com)"
+    "ConsensusAITrader/1.0 (garyfeng@example.com)"
 )
 
 # FRED API key (free from https://fred.stlouisfed.org/docs/api/api_key.html)

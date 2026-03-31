@@ -169,7 +169,7 @@ For companies that file XBRL, we extract:
 
 - **User-Agent header required:** SEC mandates identification. Set in `config.py`:
   ```python
-  SEC_USER_AGENT = "StockResearchAgent/1.0 (your-email@example.com)"
+  SEC_USER_AGENT = "ConsensusAITrader/1.0 (your-email@example.com)"
   ```
 - No API key needed
 - No rate limit (but be polite)

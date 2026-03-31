@@ -221,7 +221,7 @@ def parse_rss(url: str, max_items: int = 15) -> list:
     """Parse an RSS feed and return articles."""
     articles = []
     try:
-        resp = requests.get(url, timeout=15, headers={"User-Agent": "StockResearchAgent/1.0"})
+        resp = requests.get(url, timeout=15, headers={"User-Agent": "ConsensusAITrader/1.0"})
         root = ET.fromstring(resp.content)
 
         # Handle both RSS 2.0 and Atom formats

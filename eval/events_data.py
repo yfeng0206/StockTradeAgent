@@ -13,7 +13,7 @@ import requests
 
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cache")
 SEC_HEADERS = {
-    "User-Agent": "StockResearchAgent/1.0 (garyfeng@example.com)",
+    "User-Agent": "ConsensusAITrader/1.0 (garyfeng@example.com)",
     "Accept-Encoding": "gzip, deflate",
 }
 

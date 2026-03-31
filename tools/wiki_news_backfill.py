@@ -23,7 +23,7 @@ from datetime import datetime, date, timedelta
 import requests
 
 BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "news")
-HEADERS = {"User-Agent": "StockResearchAgent/1.0 (educational stock research project)"}
+HEADERS = {"User-Agent": "ConsensusAITrader/1.0 (educational stock research project)"}
 
 PERIODS = {
     "recession":         ("2022-01-03", "2022-10-31"),
