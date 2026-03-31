@@ -96,6 +96,8 @@ done
 | **Defensive** | 3-state exposure (100%/50%/20%), tightest stops | +13.9% | Limiting drawdowns |
 | **Commodity** | Oil tracker (USO/XLE), binary signal | +5.7% | Bear markets, inflation |
 
+> Strategy deep dives with exact formulas and thresholds: **[Strategy Details](docs/strategies/README.md)** | Glossary: **[Terms & Definitions](docs/GLOSSARY.md)** | Example outputs: **[Sample Logs](docs/EXAMPLES.md)**
+
 ### Two Runtime Modes
 
 | | Simulation | Live Research |
