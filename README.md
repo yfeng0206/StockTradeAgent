@@ -21,18 +21,9 @@
 
 Most trading systems use **one strategy**. We run **7 strategies independently**, then our flagship strategies — **Mix** and **MixLLM** — read all 7 as live sensors and trade based on their consensus.
 
-```
-  7 strategies trade independently          Mix reads their consensus
-  ┌──────────────────────────┐              ┌─────────────────────────┐
-  │ Value        → holding   │              │                         │
-  │ Momentum     → buying    │──────────────│  4 bullish, 1 bearish,  │
-  │ Balanced     → buying    │   live       │  2 cautious             │
-  │ Defensive    → DEFENSE   │──state──────▶│                         │
-  │ EventDriven  → holding   │   reads      │  → Mix goes AGGRESSIVE  │
-  │ Adaptive     → MOMENTUM  │              │  → 90% stocks, 10% cash │
-  │ Commodity    → in cash   │              │                         │
-  └──────────────────────────┘              └─────────────────────────┘
-```
+<p align="center">
+  <img src="docs/assets/consensus-flow.svg" alt="Consensus Trading Flow" width="800"/>
+</p>
 
 When 4+ strategies go to cash, that's a consensus danger signal no single strategy can see. When Defensive enters DEFENSE mode and Adaptive switches to DEFENSIVE, Mix catches it before the market fully crashes.
 
@@ -57,7 +48,9 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
 
 ## 🏆 Key Results
 
-> **Mix strategy: +36.7% average return, beats SPY in 12 of 14 periods.**
+<p align="center">
+  <img src="docs/assets/strategy-returns.svg" alt="Strategy Returns" width="650"/>
+</p>
 
 | Strategy | Avg Return | vs SPY | Worst Drawdown | When to Use |
 |:---------|:---------:|:------:|:--------------:|:------------|
@@ -68,7 +61,9 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
 
 ### 🛡️ Crash Protection
 
-**During the 4 worst crashes**, MixLLM averaged **+6.4% gains** while SPY averaged -25.5% and QQQ -32.7%.
+<p align="center">
+  <img src="docs/assets/crash-protection.svg" alt="Crash Protection" width="650"/>
+</p>
 
 | Strategy | Dot-com '00 | GFC '08 | COVID '20 | 2022 Bear | Avg |
 |:---------|:----------:|:-------:|:---------:|:---------:|:---:|
