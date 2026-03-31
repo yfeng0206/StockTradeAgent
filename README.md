@@ -237,6 +237,7 @@ ConsensusAITrader/
 | [**Example Outputs**](docs/EXAMPLES.md) | Sample trade logs, LLM calls, portfolio snapshots |
 | [**Data Sources**](docs/DATA_SOURCES.md) | Every API, field, rate limit, and storage format |
 | [**Experiments**](docs/experiments/README.md) | What we tested (Opus vs Sonnet, stickiness, multi-commodity) and what we learned |
+| [**Credits & References**](docs/CREDITS.md) | Papers we built on (TradingAgents, AI-Trader), how we compare, libraries used |
 
 ---
 
