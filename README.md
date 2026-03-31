@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">StockTradeAgent</h1>
+  <h1 align="center">📈 StockTradeAgent</h1>
   <p align="center">
     <b>9 Trading Strategies + LLM Risk Monitor | Free Data | 93 Stocks | 25 Years Backtested</b>
     <br><br>
@@ -28,7 +28,7 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
 
 ---
 
-## Key Results
+## 🏆 Key Results
 
 > **Mix strategy: +36.7% average return, beats SPY in 12 of 14 periods.**
 
@@ -39,7 +39,7 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
 | QQQ (buy & hold) | +24.4% | -- | **-82.9%** | If you can stomach -82% |
 | SPY (buy & hold) | +17.5% | -- | -55.1% | Passive baseline |
 
-### Crash Protection
+### 🛡️ Crash Protection
 
 **During the 4 worst crashes**, MixLLM averaged **+6.4% gains** while SPY averaged -25.5% and QQQ -32.7%.
 
@@ -86,7 +86,7 @@ python tools/daily_collect.py
 
 ---
 
-## How It Works
+## ⚙️ How It Works
 
 **Daily event-driven simulation.** Not calendar-driven rebalancing -- reacts when something happens.
 
@@ -130,7 +130,7 @@ python tools/daily_collect.py
 
 ---
 
-## Live Research: Adversarial Debate
+## 🔍 Live Research: Adversarial Debate
 
 The `/stock-research` skill runs a **13-turn structured debate** on any stock:
 
@@ -184,7 +184,7 @@ Earlier periods (2000-2007) use ~66 stocks (those that existed at the time).
 
 ---
 
-## Data Sources (All Free)
+## 📡 Data Sources (All Free)
 
 | Source | What We Pull | API Key? |
 |:-------|:-------------|:--------:|
@@ -227,7 +227,7 @@ StockTradeAgent/
 
 ---
 
-## Documentation
+## 📖 Documentation
 
 | Page | What's In It |
 |:-----|:------------|
@@ -246,7 +246,7 @@ MIT
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 **This is a research and educational project only. It is NOT financial advice.**
 
