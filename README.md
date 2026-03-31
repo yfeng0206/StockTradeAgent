@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">StockTradeAgent</h1>
   <p align="center">
-    <b>9 Trading Strategies + LLM Adversarial Debate | Free Data | 93 Stocks | 7 Years Tested</b>
+    <b>9 Trading Strategies + LLM Adversarial Debate | Free Data | 93 Stocks | 25 Years Tested</b>
   </p>
   <p align="center">
     <a href="#results">Results</a> &bull;
@@ -16,32 +16,53 @@
 
 ## Results
 
-### 2024 Performance
-
-| Strategy | Return | Sharpe | Max Drawdown |
-|:---------|:------:|:------:|:------------:|
-| **EventDriven** | **+34.3%** | 2.22 | -4.9% |
-| **Momentum** | **+33.5%** | 2.04 | -8.8% |
-| QQQ | +28.8% | 1.51 | -13.5% |
-| SPY | +26.0% | 1.92 | -8.4% |
-| ONEQ | +25.4% | 1.68 | -12.1% |
-
-### Crash Protection
-
-| Strategy | COVID Max Drawdown | 2022 Bear Max Drawdown |
-|:---------|:------------------:|:----------------------:|
-| **Commodity** | -3.8% | -8.2% |
-| **Defensive** | -14.2% | -10.1% |
-| SPY | -33.6% | -24.4% |
-| QQQ | -28.6% | -34.7% |
-
----
-
-### Full Results: 9 Strategies x 7 Market Regimes
+### 14 Market Regimes, 25 Years (2000-2026)
 
 $100K starting capital | 10 max positions | 93-stock universe | Daily event-driven simulation
 
-#### Return %
+#### Top Strategies (14-period average)
+
+| Strategy | Avg Return | Avg Alpha vs SPY | Beats SPY | Worst Drawdown | Loses Money |
+|:---------|:---------:|:----------------:|:---------:|:--------------:|:-----------:|
+| **Mix** | **+36.8%** | **+19.4%** | **12 of 14** | -25.0% | 2 of 14 |
+| **Adaptive** | +32.0% | +14.6% | 11 of 14 | -35.5% | 4 of 14 |
+| **MixLLM** | +30.1% | +12.6% | **12 of 14** | **-21.9%** | **2 of 14** |
+| Momentum | +29.2% | +11.7% | 10 of 14 | -47.4% | 3 of 14 |
+| QQQ | +24.4% | — | — | -82.9% | 4 of 14 |
+| SPY | +17.5% | — | — | -55.1% | 5 of 14 |
+
+#### Crash Protection (4 worst periods)
+
+| Strategy | Dot-com (00-02) | GFC (07-09) | COVID (20) | 2022 Bear | Avg Crash |
+|:---------|:---------------:|:-----------:|:----------:|:---------:|:---------:|
+| **MixLLM** | **+20.4%** | **+8.9%** | -0.2% | -3.5% | **+6.4%** |
+| **Commodity** | -14.1% | +22.7% | -2.4% | **+24.7%** | +7.7% |
+| **Mix** | -4.2% | +0.3% | +7.5% | -4.9% | -0.3% |
+| **Defensive** | +13.6% | -14.9% | -5.7% | -3.4% | -2.6% |
+| SPY | -33.1% | -45.9% | -5.3% | -17.6% | -25.5% |
+| QQQ | -77.2% | -37.0% | +12.8% | -29.6% | -32.7% |
+
+---
+
+### Full Results: 9 Strategies x 14 Market Regimes
+
+#### Return % — Historical Periods (2000-2018)
+
+| Strategy | Dot-com Crash | Post Dot-com | Housing Bull | GFC | Post GFC | QE Bull | Pre-COVID |
+|:---------|:------------:|:------------:|:----------:|:---:|:--------:|:-------:|:---------:|
+| **Value** | +9.3% | +25.8% | +42.6% | -33.7% | **+57.6%** | +65.3% | +34.0% |
+| **Momentum** | +9.9% | +63.8% | +40.3% | -37.5% | +51.9% | **+153.2%** | +44.1% |
+| **Balanced** | +4.3% | +53.8% | +69.0% | -27.9% | +48.2% | +116.7% | +53.5% |
+| **Defensive** | **+13.6%** | +43.9% | +50.5% | -14.9% | +17.3% | +38.1% | +32.2% |
+| **EventDriven** | **+51.9%** | +27.2% | -2.1% | -4.9% | +6.2% | +2.3% | -2.1% |
+| **Adaptive** | -19.3% | **+88.0%** | +59.1% | -17.7% | +23.5% | +112.7% | **+82.3%** |
+| **Commodity** | -14.1% | +19.6% | +14.0% | **+22.7%** | -12.3% | +10.8% | +5.3% |
+| **Mix** | -4.2% | **+115.0%** | +51.4% | +0.3% | +9.4% | **+129.1%** | **+92.0%** |
+| **MixLLM** | **+20.4%** | +75.0% | **+66.2%** | **+8.9%** | +3.6% | +78.3% | +55.6% |
+| SPY | -33.1% | +37.8% | +30.6% | -45.9% | +90.2% | +75.2% | +30.8% |
+| QQQ | -77.2% | +59.0% | +21.3% | -37.0% | +115.3% | +109.1% | +43.7% |
+
+#### Return % — Recent Periods (2019-2026)
 
 | Strategy | 2019 Bull | COVID | 2023 AI | Bull-Rec | 2022 Bear | Rec-Bull | 2025-Now |
 |:---------|:---------:|:-----:|:-------:|:--------:|:---------:|:--------:|:--------:|
@@ -56,30 +77,6 @@ $100K starting capital | 10 max positions | 93-stock universe | Daily event-driv
 | **MixLLM** | +24.1% | -0.2% | +30.9% | +7.7% | -3.5% | +26.7% | +27.1% |
 | SPY | +30.7% | -5.3% | +27.0% | -10.3% | -17.6% | +20.9% | +13.7% |
 | QQQ | +38.1% | +12.8% | +56.5% | -19.5% | -29.6% | +33.7% | +15.9% |
-| ONEQ | +36.1% | +8.8% | +47.2% | -21.8% | -29.0% | +26.8% | +14.6% |
-
-#### Average Performance
-
-| Strategy | Avg Return | Avg Alpha vs SPY | Beats SPY |
-|:---------|:---------:|:----------------:|:---------:|
-| **Mix** | **+17.5%** | **+9.1%** | **6 of 7** |
-| **Adaptive** | +17.2% | +8.7% | 5 of 7 |
-| **MixLLM** | +16.1% | +7.7% | **6 of 7** |
-| Value | +12.7% | +4.3% | 4 of 7 |
-| EventDriven | +11.9% | +3.4% | 4 of 7 |
-| QQQ | +15.4% | — | — |
-| SPY | +8.4% | — | — |
-
-#### Max Drawdown
-
-| Strategy | Worst Ever |
-|:---------|:---------:|
-| **Commodity** | -11.6% |
-| **Defensive** | -14.4% |
-| **MixLLM** | -21.0% |
-| **Mix** | -24.0% |
-| SPY | -33.6% |
-| QQQ | -34.7% |
 
 ---
 
@@ -243,7 +240,7 @@ Uses the other 7 strategies as live sensors to detect the market regime,
 then allocates across stocks + commodity + cash simultaneously. 5 regimes:
 AGGRESSIVE (90% stocks) / CAUTIOUS (50% stocks + 20% commodity) /
 DEFENSIVE (20% stocks + 30% commodity + 50% cash) / RECOVERY / UNCERTAIN.
-Best: beats SPY in 6 of 7 periods. Avg alpha: +8.0%.
+Best overall: +36.8% avg return, beats SPY in 12 of 14 periods, avg alpha +19.4%.
 
 ### MixLLM
 > *The risk manager. Coded rules drive, Opus pulls the emergency brake.*
@@ -253,8 +250,8 @@ reviews with rich data the coded rules can't see — sector rotation, gold/treas
 bond stress, oil return magnitude, geo_risk scores, and its own regime history.
 The LLM can only ESCALATE to more defensive regimes, never less.
 
-Avg return +16.1%, avg alpha +7.7%, beats SPY in 6 of 7 periods. Worst drawdown -21.0%.
-Caught Russia-Ukraine invasion risk in Feb 2022, correctly identified bear rally traps.
+Avg return +30.1%, avg alpha +12.6%, beats SPY in 12 of 14 periods. Worst drawdown -21.9%.
+Averages +6.4% during the 4 worst crashes (dot-com, GFC, COVID, 2022) while QQQ averages -32.7%.
 Non-deterministic, requires Claude CLI.
 
 ---
@@ -319,11 +316,11 @@ All turns logged to `runs/research/{ticker}_{date}/` as structured JSON.
 |:--|:------|:------|:------|
 | **Cost** | $5-100/day | $5-50/day | **$0** |
 | **Deterministic** | No | No | **Yes** |
-| **Test duration** | 3 months | 5 weeks | **7 years** |
+| **Test duration** | 3 months | 5 weeks | **25 years (14 periods)** |
 | **Universe** | 3 stocks | NASDAQ-100 | **93 stocks** |
 | **Strategies** | LLM-only | LLM-only | **9 (7 coded + Mix + MixLLM)** |
 | **Ablation tested** | No | No | **Yes** |
-| **Beats QQQ (2024)** | Not tested | Not tested | **2 of 9** |
+| **Beats SPY** | Not tested | Not tested | **12 of 14 periods (Mix)** |
 
 ---
 

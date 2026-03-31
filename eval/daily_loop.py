@@ -36,9 +36,18 @@ RUNS_DIR = os.path.join(os.path.dirname(LOOP_DIR), "runs")
 NEWS_DIR = os.path.join(os.path.dirname(LOOP_DIR), "data", "news")
 
 PERIODS = {
-    "recession":         {"start": "2022-01-03", "end": "2022-10-31", "name": "2022 Bear Market"},
+    # Historical periods (2000-2018)
+    "dotcom_crash":      {"start": "2000-03-01", "end": "2002-10-31", "name": "Dot-com Crash"},
+    "post_dotcom":       {"start": "2003-01-02", "end": "2004-12-31", "name": "Post Dot-com Recovery"},
+    "housing_bull":      {"start": "2005-01-03", "end": "2007-06-29", "name": "Housing Bull"},
+    "gfc":               {"start": "2007-07-02", "end": "2009-03-31", "name": "Great Financial Crisis"},
+    "post_gfc":          {"start": "2009-03-01", "end": "2011-12-30", "name": "Post GFC Recovery"},
+    "qe_bull":           {"start": "2012-01-03", "end": "2015-12-31", "name": "QE Bull"},
+    "pre_covid":         {"start": "2016-01-04", "end": "2018-12-31", "name": "Pre-COVID"},
+    # Recent periods (2019-2026)
     "normal":            {"start": "2019-01-02", "end": "2019-12-31", "name": "2019 Steady Bull"},
     "black_swan":        {"start": "2020-01-02", "end": "2020-06-30", "name": "COVID Crash"},
+    "recession":         {"start": "2022-01-03", "end": "2022-10-31", "name": "2022 Bear Market"},
     "bull":              {"start": "2023-01-02", "end": "2023-12-29", "name": "2023 AI Rally"},
     "bull_to_recession": {"start": "2021-07-01", "end": "2022-06-30", "name": "Bull to Recession"},
     "recession_to_bull": {"start": "2022-10-01", "end": "2023-06-30", "name": "Recession to Bull"},
