@@ -131,12 +131,16 @@ Earlier periods (2000-2007) use ~66 stocks (those that existed at the time).
 
 ## Data Sources (All Free)
 
-| Source | What It Provides |
-|:-------|:-----------------|
-| **yfinance** | Prices, fundamentals, earnings, company news |
-| **SEC EDGAR** | 10-K, 10-Q, 8-K filings |
-| **Wikipedia** | Historical world events (backfilled 2019-2026) |
-| **GDELT** | Real-time geopolitical events |
+| Source | What We Pull | API Key? |
+|:-------|:-------------|:--------:|
+| **yfinance** | OHLCV prices, fundamentals, earnings, 11 sector ETFs, VIX, commodities, analyst recs, insider trades | No |
+| **SEC EDGAR** | 10-K, 10-Q, 8-K filings + XBRL structured financials | No (needs User-Agent) |
+| **Wikipedia** | Daily world events from Current Events portal, categorized (geopolitical, business, health, etc.) | No |
+| **GDELT** | Global news monitoring: war/conflict, sanctions, OPEC, pandemic, rates — 6 query categories | No |
+| **Google News RSS** | Macro headlines: Fed policy, trade/tariffs, economic data | No |
+| **FRED** | Treasury yields, Fed funds rate, CPI, unemployment, GDP (optional) | Free key |
+
+> Full details on every API endpoint, field, rate limit, and storage format: **[Data Sources Deep Dive](docs/DATA_SOURCES.md)**
 
 ---
 
