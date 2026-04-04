@@ -1,60 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="Segoe UI, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" font-family="Segoe UI, Arial, sans-serif">
   <!-- Background -->
-  <rect width="700" height="340" rx="12" fill="#0d1117"/>
+  <rect width="700" height="430" rx="12" fill="#0d1117"/>
 
   <!-- Title -->
   <text x="350" y="32" text-anchor="middle" fill="#e6edf3" font-size="16" font-weight="bold">14-Period Average Returns (2000-2026)</text>
   <text x="350" y="52" text-anchor="middle" fill="#8b949e" font-size="12">$100K starting capital | 10 max positions | 93 stocks</text>
 
   <!-- Horizontal bar chart -->
-  <!-- Y labels (strategies) -->
-  <!-- Scale: max ~37%, so 1% = ~14px, starts at x=140 -->
+  <!-- Scale: max 33.6% = 510px, so 1% = 15.18px, starts at x=140 -->
 
   <!-- Mix -->
   <text x="130" y="88" text-anchor="end" fill="#e6edf3" font-size="12" font-weight="bold">Mix</text>
   <rect x="140" y="75" width="510" height="20" rx="4" fill="#3fb950"/>
-  <text x="658" y="89" fill="#3fb950" font-size="12" font-weight="bold">+36.7%</text>
-
-  <!-- MixLLM -->
-  <text x="130" y="118" text-anchor="end" fill="#e6edf3" font-size="12">MixLLM</text>
-  <rect x="140" y="105" width="470" height="20" rx="4" fill="#58a6ff"/>
-  <text x="618" y="119" fill="#58a6ff" font-size="12">+33.9%</text>
+  <text x="658" y="89" fill="#3fb950" font-size="12" font-weight="bold">+33.6%</text>
 
   <!-- Adaptive -->
-  <text x="130" y="148" text-anchor="end" fill="#e6edf3" font-size="12">Adaptive</text>
-  <rect x="140" y="135" width="445" height="20" rx="4" fill="#79c0ff"/>
-  <text x="593" y="149" fill="#79c0ff" font-size="12">+32.1%</text>
+  <text x="130" y="118" text-anchor="end" fill="#e6edf3" font-size="12">Adaptive</text>
+  <rect x="140" y="105" width="443" height="20" rx="4" fill="#79c0ff"/>
+  <text x="591" y="119" fill="#79c0ff" font-size="12">+29.2%</text>
 
   <!-- Momentum -->
-  <text x="130" y="178" text-anchor="end" fill="#e6edf3" font-size="12">Momentum</text>
-  <rect x="140" y="165" width="405" height="20" rx="4" fill="#79c0ff"/>
-  <text x="553" y="179" fill="#79c0ff" font-size="12">+29.2%</text>
+  <text x="130" y="148" text-anchor="end" fill="#e6edf3" font-size="12">Momentum</text>
+  <rect x="140" y="135" width="422" height="20" rx="4" fill="#79c0ff"/>
+  <text x="570" y="149" fill="#79c0ff" font-size="12">+27.8%</text>
 
-  <!-- Balanced -->
-  <text x="130" y="208" text-anchor="end" fill="#e6edf3" font-size="12">Balanced</text>
-  <rect x="140" y="195" width="358" height="20" rx="4" fill="#8b949e"/>
-  <text x="506" y="209" fill="#8b949e" font-size="12">+25.8%</text>
+  <!-- MixLLM -->
+  <text x="130" y="178" text-anchor="end" fill="#e6edf3" font-size="12" font-weight="bold">MixLLM</text>
+  <rect x="140" y="165" width="395" height="20" rx="4" fill="#58a6ff"/>
+  <text x="543" y="179" fill="#58a6ff" font-size="12">+26.0%</text>
 
   <!-- QQQ benchmark -->
-  <text x="130" y="238" text-anchor="end" fill="#f0883e" font-size="12">QQQ</text>
-  <rect x="140" y="225" width="338" height="20" rx="4" fill="#f0883e" opacity="0.5"/>
-  <text x="486" y="239" fill="#f0883e" font-size="12">+24.4%</text>
+  <text x="130" y="208" text-anchor="end" fill="#f0883e" font-size="12">QQQ</text>
+  <rect x="140" y="195" width="370" height="20" rx="4" fill="#f0883e" opacity="0.5"/>
+  <text x="518" y="209" fill="#f0883e" font-size="12">+24.4%</text>
+
+  <!-- Balanced -->
+  <text x="130" y="238" text-anchor="end" fill="#e6edf3" font-size="12">Balanced</text>
+  <rect x="140" y="225" width="361" height="20" rx="4" fill="#8b949e"/>
+  <text x="509" y="239" fill="#8b949e" font-size="12">+23.8%</text>
 
   <!-- Value -->
   <text x="130" y="268" text-anchor="end" fill="#e6edf3" font-size="12">Value</text>
-  <rect x="140" y="255" width="298" height="20" rx="4" fill="#8b949e"/>
-  <text x="446" y="269" fill="#8b949e" font-size="12">+21.5%</text>
+  <rect x="140" y="255" width="273" height="20" rx="4" fill="#8b949e"/>
+  <text x="421" y="269" fill="#8b949e" font-size="12">+18.0%</text>
 
   <!-- SPY benchmark -->
   <text x="130" y="298" text-anchor="end" fill="#f0883e" font-size="12">SPY</text>
-  <rect x="140" y="285" width="243" height="20" rx="4" fill="#f0883e" opacity="0.5"/>
-  <text x="391" y="299" fill="#f0883e" font-size="12">+17.5%</text>
+  <rect x="140" y="285" width="266" height="20" rx="4" fill="#f0883e" opacity="0.5"/>
+  <text x="414" y="299" fill="#f0883e" font-size="12">+17.5%</text>
+
+  <!-- Defensive -->
+  <text x="130" y="328" text-anchor="end" fill="#e6edf3" font-size="12">Defensive</text>
+  <rect x="140" y="315" width="208" height="20" rx="4" fill="#8b949e"/>
+  <text x="356" y="329" fill="#8b949e" font-size="12">+13.7%</text>
+
+  <!-- EventDriven -->
+  <text x="130" y="358" text-anchor="end" fill="#e6edf3" font-size="12">EventDriven</text>
+  <rect x="140" y="345" width="121" height="20" rx="4" fill="#8b949e"/>
+  <text x="269" y="359" fill="#8b949e" font-size="12">+8.0%</text>
+
+  <!-- Commodity -->
+  <text x="130" y="388" text-anchor="end" fill="#e6edf3" font-size="12">Commodity</text>
+  <rect x="140" y="375" width="115" height="20" rx="4" fill="#8b949e"/>
+  <text x="263" y="389" fill="#8b949e" font-size="12">+7.6%</text>
 
   <!-- Legend -->
-  <rect x="140" y="318" width="10" height="10" rx="2" fill="#3fb950"/>
-  <text x="155" y="328" fill="#8b949e" font-size="10">Flagship</text>
-  <rect x="210" y="318" width="10" height="10" rx="2" fill="#79c0ff"/>
-  <text x="225" y="328" fill="#8b949e" font-size="10">Strategies</text>
-  <rect x="300" y="318" width="10" height="10" rx="2" fill="#f0883e" opacity="0.5"/>
-  <text x="315" y="328" fill="#8b949e" font-size="10">Benchmarks</text>
+  <rect x="140" y="408" width="10" height="10" rx="2" fill="#3fb950"/>
+  <text x="155" y="418" fill="#8b949e" font-size="10">Flagship</text>
+  <rect x="210" y="408" width="10" height="10" rx="2" fill="#58a6ff"/>
+  <text x="225" y="418" fill="#8b949e" font-size="10">LLM-Enhanced</text>
+  <rect x="320" y="408" width="10" height="10" rx="2" fill="#79c0ff"/>
+  <text x="335" y="418" fill="#8b949e" font-size="10">Strategies</text>
+  <rect x="420" y="408" width="10" height="10" rx="2" fill="#f0883e" opacity="0.5"/>
+  <text x="435" y="418" fill="#8b949e" font-size="10">Benchmarks</text>
 </svg>

@@ -93,34 +93,104 @@ BENCHMARKS = ["SPY", "QQQ", "ONEQ"]  # S&P 500, NASDAQ-100, NASDAQ Composite
 MACRO_ETFS = ["USO", "XLE", "GLD", "TLT", "HYG", "LQD"]  # oil, gold, bonds, credit
 
 
-def download_data(tickers, start, end):
+PRICE_CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "prices")
+
+
+def _load_cached_price(ticker, buffer_start, end):
+    """Load price data from local CSV cache if it covers the requested range."""
+    cache_path = os.path.join(PRICE_CACHE_DIR, f"{ticker}.csv")
+    if not os.path.exists(cache_path):
+        return None
+    try:
+        df = pd.read_csv(cache_path, index_col=0, parse_dates=True)
+        if df.empty:
+            return None
+        # Check if cached data covers the requested range
+        cached_start = df.index.min()
+        cached_end = df.index.max()
+        needed_start = pd.Timestamp(buffer_start)
+        needed_end = pd.Timestamp(end)
+        if cached_start <= needed_start and cached_end >= needed_end - timedelta(days=5):
+            # Cache covers our range (allow 5-day tolerance for weekends/holidays)
+            return df
+        return None  # Cache doesn't cover range, need to re-download
+    except Exception:
+        return None
+
+
+def _save_cached_price(ticker, df):
+    """Save price data to local CSV cache. Uses atomic write to avoid corruption."""
+    os.makedirs(PRICE_CACHE_DIR, exist_ok=True)
+    cache_path = os.path.join(PRICE_CACHE_DIR, f"{ticker}.csv")
+    tmp_path = cache_path + ".tmp"
+    try:
+        df.to_csv(tmp_path)
+        # Atomic rename — prevents corruption if two processes write simultaneously
+        if os.path.exists(cache_path):
+            os.remove(cache_path)
+        os.rename(tmp_path, cache_path)
+    except Exception:
+        # Clean up temp file on failure
+        if os.path.exists(tmp_path):
+            try:
+                os.remove(tmp_path)
+            except Exception:
+                pass
+
+
+def download_data(tickers, start, end, refresh=False):
+    """Download OHLCV data for tickers. Uses local cache (data/prices/) first.
+
+    Set refresh=True to force re-download from yfinance, ignoring cache.
+    """
     buffer_start = (pd.Timestamp(start) - timedelta(days=400)).strftime("%Y-%m-%d")
     all_data = {}
-    try:
-        raw = yf.download(tickers, start=buffer_start, end=end, progress=True, threads=True)
-        if raw.empty:
-            return all_data
-        if len(tickers) == 1:
-            all_data[tickers[0]] = raw
-        else:
-            for ticker in tickers:
-                try:
-                    ticker_df = pd.DataFrame({
-                        "Open": raw["Open"][ticker], "High": raw["High"][ticker],
-                        "Low": raw["Low"][ticker], "Close": raw["Close"][ticker],
-                        "Volume": raw["Volume"][ticker],
-                    }).dropna()
-                    if not ticker_df.empty:
-                        all_data[ticker] = ticker_df
-                except (KeyError, TypeError):
-                    continue
-    except Exception:
+
+    # Phase 1: Load from cache
+    need_download = []
+    if not refresh:
         for ticker in tickers:
+            cached = _load_cached_price(ticker, buffer_start, end)
+            if cached is not None:
+                all_data[ticker] = cached
+            else:
+                need_download.append(ticker)
+    else:
+        need_download = list(tickers)
+
+    if not need_download:
+        return all_data
+
+    # Phase 2: Bulk download missing tickers from yfinance
+    try:
+        raw = yf.download(need_download, start=buffer_start, end=end, progress=True, threads=True)
+        if not raw.empty:
+            if len(need_download) == 1:
+                ticker = need_download[0]
+                if not raw.empty:
+                    all_data[ticker] = raw
+                    _save_cached_price(ticker, raw)
+            else:
+                for ticker in need_download:
+                    try:
+                        ticker_df = pd.DataFrame({
+                            "Open": raw["Open"][ticker], "High": raw["High"][ticker],
+                            "Low": raw["Low"][ticker], "Close": raw["Close"][ticker],
+                            "Volume": raw["Volume"][ticker],
+                        }).dropna()
+                        if not ticker_df.empty:
+                            all_data[ticker] = ticker_df
+                            _save_cached_price(ticker, ticker_df)
+                    except (KeyError, TypeError):
+                        continue
+    except Exception:
+        for ticker in need_download:
             try:
                 t = yf.Ticker(ticker)
                 df = t.history(start=buffer_start, end=end)
                 if not df.empty:
                     all_data[ticker] = df
+                    _save_cached_price(ticker, df)
             except Exception:
                 continue
     return all_data
@@ -131,7 +201,9 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                          shared_price_data: dict = None, shared_events_cal: dict = None,
                          quiet: bool = False,
                          risk_features: dict = None, risk_params: dict = None,
-                         regime_stickiness: int = 1):
+                         regime_stickiness: int = 1,
+                         realistic: bool = True, slippage: float = 0.0005,
+                         exec_model: str = "open", frequency: str = None):
     if not quiet:
         print("=" * 80)
         print(f"DAILY EVENT-DRIVEN SIMULATION")
@@ -163,7 +235,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
     data_loader = DataLoader(live_mode=False)  # simulation = read-only from cached files
 
     # Initialize engines with DataLoader
-    signal_engine = SignalEngine(price_data, events_cal, NEWS_DIR, data_loader=data_loader)
+    signal_engine = SignalEngine(price_data, events_cal, NEWS_DIR, data_loader=data_loader,
+                                realistic=realistic, exec_model=exec_model)
     trigger_engine = TriggerEngine(signal_engine)
 
     # Initialize strategies (7 core + Mix)
@@ -184,6 +257,17 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                       regime_stickiness=regime_stickiness)
     mix_llm_strategy._peer_strategies = core_strategies  # same peer references
     strategies = core_strategies + [mix_strategy, mix_llm_strategy]
+
+    # Apply realistic mode, execution model, and slippage to ALL strategies
+    for strat in strategies:
+        strat.slippage = slippage
+        strat._realistic = realistic
+        strat._exec_model = exec_model
+
+    # Override rebalance frequency if specified
+    if frequency:
+        for strat in strategies:
+            strat._frequency_override = frequency
 
     # Initialize risk overlay
     risk_overlay = RiskOverlay(features=risk_features, params=risk_params)
@@ -254,12 +338,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
 
                 # === PHASE 2: REACT TO ALL TRIGGERS ===
                 def _get_price(tkr):
-                    if tkr in price_data and not price_data[tkr].empty:
-                        df = price_data[tkr]
-                        mask = df.index <= pd.Timestamp(date_str)
-                        if mask.any():
-                            return float(df.loc[mask, "Close"].iloc[-1])
-                    return None
+                    """Get execution price using the strategy's configured model."""
+                    return strat._get_exec_price(price_data, tkr, date_str)
 
                 # Track what was sold today — never buy back same day
                 sold_today = set()
@@ -475,7 +555,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                     if mem_note.get("known"):
                                         reason += f" [Regime {regime}: {mem_note['win_rate']}% win rate]"
                                     if ticker not in sold_today:
-                                        strat._buy(ticker, shares, price, date_str, reason)
+                                        strat._buy(ticker, shares, price, date_str, reason,
+                                                   price_data=price_data)
 
                         # Execute sell
                         elif should_sell and ticker in strat.positions:
@@ -528,7 +609,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                         if shares > 0:
                                             if ticker not in sold_today:
                                                 strat._buy(ticker, shares, price, date_str,
-                                                f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} catalyst play")
+                                                f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} catalyst play",
+                                                price_data=price_data)
                             elif price_move < -8 and ticker in strat.positions:
                                 price = _get_price(ticker)
                                 if price:
@@ -549,7 +631,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                         if shares > 0:
                                             if ticker not in sold_today:
                                                 strat._buy(ticker, shares, price, date_str,
-                                                f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} cautious entry")
+                                                f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} cautious entry",
+                                                price_data=price_data)
                             elif price_move < -8 and ticker in strat.positions:
                                 price = _get_price(ticker)
                                 if price:
@@ -571,8 +654,10 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                         if price and price > last_trim_price * 1.25 and pnl_pct > trim_thresh and pos["shares"] > 2:
                             # Sell 1/3 of position (not half — less aggressive)
                             trim_shares = max(1, pos["shares"] // 3)
-                            proceeds = trim_shares * price
-                            pnl = (price - pos["entry_price"]) * trim_shares
+                            # Apply slippage: in reality you receive slightly less
+                            sell_price = price * (1 - strat.slippage) if strat.slippage > 0 else price
+                            proceeds = trim_shares * sell_price
+                            pnl = (sell_price - pos["entry_price"]) * trim_shares
                             strat.cash += proceeds
                             strat.positions[ticker]["shares"] -= trim_shares
                             # Mark trim price so we don't re-trim until another +25% from here
@@ -605,6 +690,9 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                 # Biweekly: rebalance on 1st and 15th of each month
                 day_of_month = int(date_str[8:10])
                 is_strat_rebalance = day_of_month <= 2 or (14 <= day_of_month <= 16)
+            elif freq == "weekly":
+                # Weekly: rebalance every Monday (or first trading day of week)
+                is_strat_rebalance = day.weekday() == 0  # Monday
             else:
                 is_strat_rebalance = is_rebalance_day
             if is_strat_rebalance and not sold_today_in_rebalance:
@@ -725,6 +813,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
             "period": period_name, "start": start, "end": end,
             "initial_cash": initial_cash, "max_positions": max_positions,
             "regime_stickiness": regime_stickiness,
+            "realistic": realistic, "slippage": slippage, "exec_model": exec_model,
             "universe_size": len(UNIVERSE), "trading_days": len(trading_days),
             "total_triggers": len(daily_trigger_log),
             "trigger_days": total_trigger_days,
@@ -875,15 +964,31 @@ def main():
     parser.add_argument("--max-positions", type=int, default=10)
     parser.add_argument("--regime-stickiness", type=int, default=1,
                         help="Days of consecutive regime signal before switching (1=instant, 3 or 5=sticky)")
+    parser.add_argument("--realistic", action="store_true", default=True,
+                        help="Use T-1 data for signals, T for execution (default: True)")
+    parser.add_argument("--no-realistic", dest="realistic", action="store_false",
+                        help="Use T data for both signals and execution (legacy mode)")
+    parser.add_argument("--slippage", type=float, default=0.0005,
+                        help="Execution slippage (0.0005 = 5bps, Zipline default)")
+    parser.add_argument("--exec-model", choices=["open", "premarket", "open30", "vwap"], default="premarket",
+                        help="Execution price model: open=T open, premarket=T open with gap filter, open30/vwap=benchmarks")
+    parser.add_argument("--frequency", choices=["weekly", "biweekly", "monthly", "quarterly"],
+                        default=None, help="Override rebalance frequency for all strategies (default: per-strategy)")
+    parser.add_argument("--refresh-prices", action="store_true",
+                        help="Force re-download prices from yfinance, ignoring local cache")
     args = parser.parse_args()
 
     if args.period:
         p = PERIODS[args.period]
         run_daily_simulation(p["start"], p["end"], args.cash, args.max_positions, p["name"],
-                             regime_stickiness=args.regime_stickiness)
+                             regime_stickiness=args.regime_stickiness,
+                             realistic=args.realistic, slippage=args.slippage,
+                             exec_model=args.exec_model, frequency=args.frequency)
     elif args.start and args.end:
         run_daily_simulation(args.start, args.end, args.cash, args.max_positions, "Custom",
-                             regime_stickiness=args.regime_stickiness)
+                             regime_stickiness=args.regime_stickiness,
+                             realistic=args.realistic, slippage=args.slippage,
+                             exec_model=args.exec_model, frequency=args.frequency)
     else:
         parser.print_help()
 

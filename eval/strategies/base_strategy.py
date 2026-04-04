@@ -16,6 +16,9 @@ class BaseStrategy(ABC):
         self.min_score_threshold = 4.0  # Override in subclass. Below this = hold cash instead.
         self.atr_stop_multiplier = 2.0  # Override: Momentum=2.5, Value=3.0, Defensive=1.5
         self.trim_threshold_pct = 40.0  # Override: Momentum=50, Value=30, Event=35
+        self.slippage = 0.0  # Execution slippage: buy at price*(1+slip), sell at price*(1-slip)
+        self._realistic = False  # Set by daily_loop — use T-1 close for signals
+        self._exec_model = "open"  # Execution model: "open", "open30", "vwap"
         self.positions = {}  # {ticker: {"shares": N, "entry_price": P, "entry_date": D}}
         self.transactions = []  # list of trade records
         self.reasoning_log = []  # WHY each trade was made
@@ -42,6 +45,130 @@ class BaseStrategy(ABC):
 
         # Pending checks — things to look at in the future
         self.pending_checks = []  # [{"check": str, "check_date": str, "ticker": str, "created": date}]
+
+    def _signal_mask(self, df, date):
+        """Temporal mask for signal computation.
+
+        Realistic/premarket mode: uses T-1 data (strictly before today).
+        You see yesterday's close, analyze overnight, trade this morning.
+        Premarket appends a 9:00 AM estimate separately in _get_signal_close().
+        Standard mode: uses T data (includes today) — original behavior.
+        """
+        if self._realistic or self._exec_model == "premarket":
+            return df.index < pd.Timestamp(date)
+        return df.index <= pd.Timestamp(date)
+
+    def _get_signal_close(self, price_data, ticker, date, lookback=252):
+        """Get Close price series for signal computation.
+
+        - Realistic mode: T-1 data (strictly before today)
+        - Premarket mode: T-1 data + appended premarket price as latest point.
+          This simulates seeing pre-market movement before deciding.
+        """
+        if ticker not in price_data or price_data[ticker].empty:
+            return None
+        df = price_data[ticker]
+        mask = self._signal_mask(df, date)
+        if not mask.any():
+            return None
+        series = df.loc[mask, "Close"].tail(lookback)
+
+        # In premarket mode, append the estimated 9:00 AM price
+        if self._exec_model == "premarket":
+            pm_price, _ = self._get_premarket_price(price_data, ticker, date)
+            if pm_price is not None:
+                pm_point = pd.Series([pm_price], index=[pd.Timestamp(date)])
+                series = pd.concat([series, pm_point])
+
+        return series
+
+    def _get_premarket_price(self, price_data, ticker, date):
+        """Estimate pre-market price ~30 min before open (9:00 AM proxy).
+
+        Uses 0.2 × T-1 Close + 0.8 × T Open. Research shows ~80% of the
+        overnight gap is visible by 9:00 AM pre-market. Both values are
+        known before execution — no lookahead.
+
+        Returns (premarket_price, gap_pct) or (None, None).
+        """
+        if ticker not in price_data or price_data[ticker].empty:
+            return None, None
+        df = price_data[ticker]
+        mask_t = df.index <= pd.Timestamp(date)
+        if not mask_t.any():
+            return None, None
+        row_t = df.loc[mask_t].iloc[-1]
+        if "Open" not in df.columns:
+            return None, None
+        t_open = float(row_t["Open"])
+
+        # T-1 close
+        mask_t1 = df.index < pd.Timestamp(date)
+        if not mask_t1.any():
+            return None, None
+        t1_close = float(df.loc[mask_t1, "Close"].iloc[-1])
+
+        premarket = 0.2 * t1_close + 0.8 * t_open
+        gap_pct = (t_open - t1_close) / t1_close * 100 if t1_close > 0 else 0
+        return premarket, gap_pct
+
+    def _check_gap_filter(self, gap_pct, action="buy"):
+        """Asymmetric gap filter for premarket model.
+
+        Returns position size multiplier (0.0 = skip, 0.5 = half, 1.0 = full).
+
+        Buy side:  gap UP hurts (paying more than expected)
+        Sell side: gap DOWN hurts (receiving less than expected)
+        """
+        # Thresholds (configurable via self if needed)
+        small = 1.0   # < 1% gap: full position
+        medium = 3.0  # 1-3% gap: half position
+        # > 3% gap: skip
+
+        if action == "buy":
+            # Gap UP is bad for buys
+            if gap_pct <= small:
+                return 1.0
+            elif gap_pct <= medium:
+                return 0.5
+            else:
+                return 0.0  # skip — too much overnight move
+        else:
+            # Gap DOWN is bad for sells (but we usually still want to sell)
+            if gap_pct >= -small:
+                return 1.0
+            elif gap_pct >= -medium:
+                return 1.0  # still sell, gap down = worse price but don't hold a loser
+            else:
+                return 1.0  # large gap down — still sell (stop losses must execute)
+
+    def _get_exec_price(self, price_data, ticker, date):
+        """Get execution price based on the configured model.
+
+        Models:
+          'open'      — T's Open price (standard academic, Zipline default)
+          'premarket' — T's Open, with pre-market gap awareness for signals
+          'open30'    — 70% Open + 30% Close (proxy, has minor lookahead)
+          'vwap'      — (H+L+C)/3 typical price (has lookahead — benchmark only)
+        """
+        if ticker not in price_data or price_data[ticker].empty:
+            return None
+        df = price_data[ticker]
+        mask = df.index <= pd.Timestamp(date)
+        if not mask.any():
+            return None
+        row = df.loc[mask].iloc[-1]
+
+        if self._exec_model in ("open", "premarket") and "Open" in df.columns:
+            price = float(row["Open"])
+        elif self._exec_model == "open30" and "Open" in df.columns:
+            price = float(row["Open"]) * 0.7 + float(row["Close"]) * 0.3
+        elif self._exec_model == "vwap" and all(c in df.columns for c in ["High", "Low", "Close"]):
+            price = (float(row["High"]) + float(row["Low"]) + float(row["Close"])) / 3
+        else:
+            price = float(row["Close"])  # fallback
+
+        return price  # slippage applied separately in _buy()/_sell()
 
     def _read_memory_for_scoring(self, ticker: str, regime: str) -> float:
         """Read memory to adjust score based on past experience.
@@ -94,10 +221,10 @@ class BaseStrategy(ABC):
                 condition = note.get("condition", "")
                 fired = False
 
-                # Check price-based conditions
+                # Check price-based conditions (use T-1 data to avoid lookahead)
                 if ticker in price_data and not price_data[ticker].empty:
                     df = price_data[ticker]
-                    mask = df.index <= pd.Timestamp(date)
+                    mask = self._signal_mask(df, date)
                     if mask.any():
                         current_price = float(df.loc[mask, "Close"].iloc[-1])
 
@@ -213,7 +340,9 @@ class BaseStrategy(ABC):
 
     @property
     def rebalance_frequency(self) -> str:
-        """Override in subclass: 'monthly' or 'quarterly'."""
+        """Override in subclass: 'monthly' or 'quarterly'. CLI can override via _frequency_override."""
+        if hasattr(self, '_frequency_override') and self._frequency_override:
+            return self._frequency_override
         return "monthly"
 
     def _log_reasoning(self, date: str, action: str, ticker: str, price: float,
@@ -253,11 +382,9 @@ class BaseStrategy(ABC):
         prices_on_date = {}
 
         for ticker in list(self.positions.keys()) + top_tickers:
-            if ticker in price_data and not price_data[ticker].empty:
-                df = price_data[ticker]
-                mask = df.index <= pd.Timestamp(date)
-                if mask.any():
-                    prices_on_date[ticker] = float(df.loc[mask, "Close"].iloc[-1])
+            p = self._get_exec_price(price_data, ticker, date)
+            if p is not None:
+                prices_on_date[ticker] = p
 
         # Sell positions not in top picks
         for ticker in list(self.positions.keys()):
@@ -308,7 +435,8 @@ class BaseStrategy(ABC):
                                     parts.append(f"{k}={v:.1f}")
                             if parts:
                                 reason += f" ({', '.join(parts)})"
-                        self._buy(ticker, shares, price, date, reason, score_data)
+                        self._buy(ticker, shares, price, date, reason, score_data,
+                                 price_data=price_data)
 
     def _get_investable_cash(self, price_data: dict, date: str) -> float:
         """Cash available for new positions, after reserving the dynamic cash floor.
@@ -320,7 +448,24 @@ class BaseStrategy(ABC):
         return max(0, self.cash - self._cash_floor_amount)
 
     def _buy(self, ticker: str, shares: int, price: float, date: str,
-             reason: str = "", score_breakdown: dict = None):
+             reason: str = "", score_breakdown: dict = None,
+             price_data: dict = None):
+        # Premarket gap filter: reduce or skip buys on large gap-ups
+        if self._exec_model == "premarket" and price_data is not None:
+            _, gap_pct = self._get_premarket_price(price_data, ticker, date)
+            if gap_pct is not None:
+                size_mult = self._check_gap_filter(gap_pct, action="buy")
+                if size_mult == 0.0:
+                    self._log_reasoning(date, "SKIP_GAP", ticker, price,
+                        f"Gap +{gap_pct:.1f}% too large, skipping buy. {reason}")
+                    return
+                elif size_mult < 1.0:
+                    shares = max(1, int(shares * size_mult))
+                    reason += f" [gap {gap_pct:+.1f}%, size reduced to {size_mult:.0%}]"
+
+        # Apply slippage: in reality you pay slightly more than close
+        if self.slippage > 0:
+            price = price * (1 + self.slippage)
         cost = shares * price
 
         # Partial fill: if not enough cash for full order, buy what we can
@@ -366,6 +511,9 @@ class BaseStrategy(ABC):
               reason: str = "", score_breakdown: dict = None):
         if ticker not in self.positions:
             return
+        # Apply slippage: in reality you receive slightly less than close
+        if self.slippage > 0:
+            price = price * (1 - self.slippage)
         pos = self.positions[ticker]
         shares = pos["shares"]
         proceeds = shares * price

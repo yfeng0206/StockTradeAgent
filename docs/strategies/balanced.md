@@ -2,7 +2,7 @@
 
 > *Diplomatic. Captures a bit of everything.*
 
-**14-period average: +25.8% | Beats SPY 10/14 | Worst drawdown: -40.8%**
+**14-period average: +23.8% | Beats SPY 10/14 | Worst drawdown: -42.0%**
 
 ## Scoring Formula
 

@@ -200,3 +200,142 @@ NANC and KRUZ are real ETFs that systematically copy congressional trades. Neith
 - Capitol Trades (capitoltrades.com)
 - NBER Working Paper w26975: "No evidence of superior investment performance"
 - Belmont et al. (2022): Congress underperforms post-STOCK Act
+
+---
+
+## Experiment 7: Realistic Execution Model (2026-04-02)
+
+**Question:** How do results change when we eliminate lookahead bias and add execution friction?
+
+**Setup:** The old system used today's close price for both signal computation AND execution — you could see the future. The new realistic mode:
+
+- Signals use T-1 data (yesterday's close) — you analyze overnight, decide before open
+- Execution at T's Open price — standard academic approach (Zipline default)
+- 5bps slippage on every trade (buy slightly higher, sell slightly lower)
+- Premarket model: estimates 9:00 AM price as 0.2×T-1 Close + 0.8×T Open for signal computation
+
+Tested both `open` (T-1 signals, execute at Open) and `premarket` (T-1 + premarket price appended to signal series, execute at Open with gap filter) across 5 periods.
+
+**Result:** Premarket mode outperforms plain open mode, especially in volatile markets.
+
+| Strategy | 2019 Bull | COVID | 2022 Bear | 2023 Rally | Rec→Bull |
+|:---------|:---------:|:-----:|:---------:|:----------:|:--------:|
+| Value | +38.3% | +13.3% | -14.9% | +33.5% | +19.1% |
+| Momentum | +42.2% | +20.9% | -14.0% | +28.0% | +27.1% |
+| Balanced | +21.0% | +12.0% | -10.0% | +34.0% | +27.9% |
+| EventDriven | +5.0% | +18.7% | -24.1% | +64.5% | +48.5% |
+| Adaptive | +21.7% | +3.8% | -13.6% | +60.1% | +44.3% |
+| Mix | +15.2% | +15.7% | +1.1% | +24.1% | +28.4% |
+| MixLLM | +15.3% | +11.3% | -9.9% | +23.6% | +14.3% |
+| SPY | +30.7% | -5.3% | -17.6% | +27.0% | +20.9% |
+
+EventDriven gained most from premarket (+6.4% avg), Balanced most consistent (+1.2% avg). Premarket helped in volatile markets (gap filter avoids chasing overnight gaps), cost slightly in steady bulls.
+
+**Decision:** Use premarket as default. It's the most honest model and actually improves results for most strategies in volatile periods. The gap filter is genuinely adding value.
+
+**Lessons:**
+- Lookahead bias was baked into the old system — using T's close to decide T's trades is cheating
+- 5bps slippage is negligible for daily-frequency strategies
+- The premarket gap filter adds real value: it prevents chasing overnight moves that reverse intraday
+- EventDriven benefits most because earnings gaps are exactly the kind of overnight move that needs filtering
+
+---
+
+## Experiment 8: Premarket Proxy Validation (2026-04-02)
+
+**Question:** Is our 0.2×T-1 Close + 0.8×T Open formula accurate enough vs real pre-market data?
+
+**Setup:** yfinance provides 5-minute bars with `prepost=True` for the last 60 trading days. We:
+
+1. Fetched real pre-market prices (last bar before 9:30 AM) for 13 representative stocks
+2. Compared against our proxy formula
+3. Ran full end-to-end simulation: proxy vs real premarket prices for 95 stocks over 60 days
+
+**Result:** Price-level errors are tiny and produce zero impact on trading decisions.
+
+| Ticker | Days | Mean Error | Max Error |
+|:-------|:----:|:---------:|:---------:|
+| AAPL | 60 | 0.123% | 0.436% |
+| MSFT | 60 | 0.220% | 1.670% |
+| NVDA | 60 | 0.200% | 0.598% |
+| SPY | 60 | 0.236% | 0.526% |
+| QQQ | 60 | 0.143% | 0.354% |
+| **Aggregate** | **780** | **0.316%** | **3.083%** |
+
+End-to-end simulation results: ALL strategies showed **0.0% delta** between proxy and real premarket prices. The proxy produces identical trading decisions.
+
+**Decision:** Proxy is validated. Safe to use for all historical backtests. The 0.3% price error is too small to change any signal computation (indicators use 14-200 day lookbacks).
+
+**Lessons:**
+- The 80/20 blend (80% T Open, 20% T-1 Close) matches pre-market reality well
+- Mega-cap stocks (AAPL, QQQ) have tighter proxies (<0.15%) due to deeper pre-market liquidity
+- Energy/healthcare (CVX, UNH) have wider spreads (~0.5-0.6%) but still well within tolerance
+
+---
+
+## Experiment 9: Rebalance Frequency (2026-04-03)
+
+**Question:** Is weekly, biweekly, or monthly rebalancing best?
+
+**Setup:** Tested all 3 frequencies across 7 periods (2019-2026) with premarket exec model, mp=10, stickiness=1, slippage=5bps.
+
+**Results:**
+
+| Strategy | Weekly | Biweekly | Monthly | Best |
+|:---------|:------:|:--------:|:-------:|:----:|
+| Value | 6.2% (0.495) | 6.5% (0.491) | 6.6% (0.447) | Weekly |
+| Momentum | 10.3% (0.674) | 15.1% (0.906) | 16.8% (1.075) | Monthly |
+| Balanced | 14.8% (1.041) | 18.9% (1.263) | 11.7% (0.891) | **Biweekly** |
+| Defensive | 0.7% (0.093) | 2.9% (0.340) | 3.3% (0.418) | Monthly |
+| EventDriven | 7.1% (0.649) | 10.1% (0.818) | 15.8% (0.954) | Monthly |
+| Adaptive | 15.7% (0.713) | 22.2% (0.983) | 19.7% (0.939) | **Biweekly** |
+| Mix | 5.2% (0.447) | 15.0% (0.944) | 16.4% (1.037) | Monthly |
+| MixLLM | 5.7% (0.541) | 7.2% (0.570) | 11.4% (0.776) | Monthly |
+| Commodity | 5.5% (-0.069) | 1.0% (-0.013) | 7.1% (0.081) | Monthly |
+
+Format: return% (Sharpe)
+
+**Overall best:** Biweekly (avg Sharpe 0.983 across top 5 strategies) barely edges monthly (0.979). Weekly is worst (0.705).
+
+**Decision:** Use biweekly as default for Balanced and Adaptive (clear winners). Monthly remains best for Momentum, Mix, EventDriven. Added --frequency CLI flag to override per run.
+
+**Lessons:**
+- Biweekly catches dips faster than monthly in volatile markets (Balanced +18.9% vs +11.7%)
+- Weekly generates too much turnover, hurting most strategies
+- Monthly is actually best for strategies that rely on trend persistence (Momentum, Mix)
+- The optimal frequency depends on strategy personality, not just on the market
+
+---
+
+## Experiment 10: Position Size Revalidation (2026-04-03)
+
+**Question:** Does mp=10 still beat mp=20 under realistic execution?
+
+**Setup:** Tested mp=10 vs mp=20 across 7 periods with premarket, biweekly, stickiness=1.
+
+**Results:**
+
+| Strategy | mp=10 | mp=20 | Winner |
+|:---------|:-----:|:-----:|:------:|
+| Balanced | 11.7% (0.891) | 8.1% (0.726) | **mp=10** |
+| Adaptive | 19.7% (0.939) | 9.8% (0.584) | **mp=10** |
+| Momentum | 16.8% (1.076) | 14.2% (1.009) | **mp=10** |
+| Mix | 16.4% (1.037) | 10.6% (0.855) | **mp=10** |
+| EventDriven | 15.8% (0.955) | 10.6% (0.888) | **mp=10** |
+| MixLLM | 13.0% (0.888) | 4.7% (0.545) | **mp=10** |
+| Value | 12.1% (0.960) | 8.3% (0.690) | **mp=10** |
+| Defensive | 3.3% (0.418) | 2.1% (0.212) | **mp=10** |
+
+**Decision:** mp=10 confirmed best. Concentration drives alpha -- same conclusion as Experiment 5 but now validated under realistic execution.
+
+---
+
+## Experiment 11: Stickiness Revalidation (2026-04-03)
+
+**Question:** Does regime stickiness still not help under realistic execution?
+
+**Setup:** Tested stickiness=1/3/5 across 7 periods with premarket, biweekly, mp=10.
+
+**Result:** Most strategies identical across all values. Mix and MixLLM get significantly worse: Mix drops from 16.4% to 9.0% (stk=5), MixLLM from 12.9% to -0.2%.
+
+**Decision:** stickiness=1 confirmed. Same as Experiment 3.

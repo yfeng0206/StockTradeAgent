@@ -32,7 +32,7 @@ class DefensiveStrategy(BaseStrategy):
             return 0
 
         df = price_data["SPY"]
-        mask = df.index <= pd.Timestamp(date)
+        mask = self._signal_mask(df, date)
         if not mask.any() or mask.sum() < 50:
             return 0
         hist = df.loc[mask].tail(252)
@@ -90,7 +90,7 @@ class DefensiveStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             hist = df.loc[mask].tail(252)
@@ -145,12 +145,15 @@ class DefensiveStrategy(BaseStrategy):
                 for tkr, pos in self.positions.items():
                     if tkr in price_data and not price_data[tkr].empty:
                         df = price_data[tkr]
-                        mask = df.index <= pd.Timestamp(date)
+                        # Signal mask for vol computation (T-1 data)
+                        mask = self._signal_mask(df, date)
                         if mask.any():
                             returns = df.loc[mask, "Close"].tail(60).pct_change().dropna()
                             vol = float(returns.std() * (252**0.5)) if len(returns) > 10 else 0.3
-                            price = float(df.loc[mask, "Close"].iloc[-1])
-                            pos_vol.append((tkr, vol, price))
+                            # Execution price (T Open via exec_model)
+                            price = self._get_exec_price(price_data, tkr, date)
+                            if price:
+                                pos_vol.append((tkr, vol, price))
                 pos_vol.sort(key=lambda x: -x[1])  # highest vol first
                 to_sell = len(self.positions) - effective_max
                 for tkr, vol, price in pos_vol[:to_sell]:

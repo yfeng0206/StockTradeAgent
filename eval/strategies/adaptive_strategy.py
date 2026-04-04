@@ -44,7 +44,7 @@ class AdaptiveStrategy(BaseStrategy):
             return "MOMENTUM"
 
         df = price_data["SPY"]
-        mask = df.index <= pd.Timestamp(date)
+        mask = self._signal_mask(df, date)
         if not mask.any() or mask.sum() < 50:
             return "MOMENTUM"
 
@@ -119,7 +119,7 @@ class AdaptiveStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -153,7 +153,7 @@ class AdaptiveStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -187,7 +187,7 @@ class AdaptiveStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -224,7 +224,7 @@ class AdaptiveStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)

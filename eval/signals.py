@@ -18,7 +18,7 @@ class SignalEngine:
     """Computes all signals for all tickers on a given date."""
 
     def __init__(self, price_data: dict, events_calendar: dict, news_base_dir: str = None,
-                 data_loader=None):
+                 data_loader=None, realistic: bool = False, exec_model: str = "open"):
         self.price_data = price_data
         self.events_calendar = events_calendar
         self.news_base_dir = news_base_dir or os.path.join(
@@ -27,6 +27,10 @@ class SignalEngine:
         self.data_loader = data_loader  # DataLoader instance (if provided)
         self._signal_cache = {}  # {(ticker, date): signals}
         self._news_history = []  # [(date, geo_risk)] for decay calculation
+        # Realistic mode: signals use T-1 data (yesterday's close) for decisions.
+        # Execution prices still use T (today's close). Eliminates lookahead bias.
+        self.realistic = realistic or exec_model == "premarket"
+        self.exec_model = exec_model
 
     def compute_all(self, ticker: str, date: str) -> dict:
         """Compute all available signals for a ticker on a date."""
@@ -457,10 +461,30 @@ class SignalEngine:
         }
 
     def _get_series(self, df: pd.DataFrame, date: str, lookback: int, col: str = "Close") -> pd.Series:
-        """Get a time series up to date with lookback, strict temporal gating."""
+        """Get a time series up to date with lookback, strict temporal gating.
+
+        In realistic mode, uses data strictly BEFORE today (T-1) for signal computation.
+        In premarket mode, also appends a 9:00 AM price estimate for Close series.
+        """
         if df is None or df.empty or col not in df.columns:
             return None
-        mask = df.index <= pd.Timestamp(date)
+        if self.realistic:
+            mask = df.index < pd.Timestamp(date)  # T-1: strictly before today
+        else:
+            mask = df.index <= pd.Timestamp(date)  # Original: includes today
         if not mask.any():
             return None
-        return df.loc[mask, col].tail(lookback)
+        series = df.loc[mask, col].tail(lookback)
+
+        # Premarket: append estimated 9:00 AM price for Close series only
+        if self.exec_model == "premarket" and col == "Close":
+            mask_t = df.index <= pd.Timestamp(date)
+            if mask_t.any() and "Open" in df.columns:
+                t_open = float(df.loc[mask_t].iloc[-1]["Open"])
+                t1_close = float(series.iloc[-1]) if len(series) > 0 else None
+                if t1_close is not None:
+                    pm_price = 0.2 * t1_close + 0.8 * t_open
+                    pm_point = pd.Series([pm_price], index=[pd.Timestamp(date)])
+                    series = pd.concat([series, pm_point])
+
+        return series

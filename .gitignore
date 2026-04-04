@@ -40,11 +40,15 @@ eval/test_results_*.json
 eval/FULL_TEST_REPORT.txt
 
 # Large data that should be downloaded fresh
+data/prices/
 data/news/*/company/
 data/news/*/macro/
 data/news/*/currencies/
 data/news/*/sectors/
 data/news/*/sentiment/
+
+# Audit runs
+.audit/
 
 # Temp
 *.tmp

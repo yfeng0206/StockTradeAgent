@@ -2,7 +2,7 @@
 
 > *Chameleon. Changes strategy when the market changes.*
 
-**14-period average: +32.1% | Beats SPY 11/14 | Worst drawdown: -35.5%**
+**14-period average: +29.2% | Beats SPY 10/14 | Worst drawdown: -43.2%**
 
 ## Mode Detection
 

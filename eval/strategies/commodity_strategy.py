@@ -40,7 +40,7 @@ class CommodityStrategy(BaseStrategy):
         for proxy in OIL_PROXIES:
             if proxy in price_data and not price_data[proxy].empty:
                 df = price_data[proxy]
-                mask = df.index <= pd.Timestamp(date)
+                mask = self._signal_mask(df, date)
                 if not mask.any() or mask.sum() < 30:
                     continue
 
@@ -139,35 +139,27 @@ class CommodityStrategy(BaseStrategy):
         if not scores:
             # Sell everything — go to cash
             for ticker in list(self.positions.keys()):
-                if ticker in price_data and not price_data[ticker].empty:
-                    df = price_data[ticker]
-                    mask = df.index <= pd.Timestamp(date)
-                    if mask.any():
-                        price = float(df.loc[mask, "Close"].iloc[-1])
-                        self._sell(ticker, price, date, "Oil signal bearish/neutral, going to cash")
+                price = self._get_exec_price(price_data, ticker, date)
+                if price:
+                    self._sell(ticker, price, date, "Oil signal bearish/neutral, going to cash")
         else:
             ticker, score = scores[0]
             if ticker not in self.positions:
                 # First sell any existing different position
                 for old in list(self.positions.keys()):
-                    if old != ticker and old in price_data and not price_data[old].empty:
-                        df = price_data[old]
-                        mask = df.index <= pd.Timestamp(date)
-                        if mask.any():
-                            price = float(df.loc[mask, "Close"].iloc[-1])
+                    if old != ticker:
+                        price = self._get_exec_price(price_data, old, date)
+                        if price:
                             self._sell(old, price, date, f"Switching oil proxy to {ticker}")
 
                 # Buy new
-                if ticker in price_data and not price_data[ticker].empty:
-                    df = price_data[ticker]
-                    mask = df.index <= pd.Timestamp(date)
-                    if mask.any():
-                        price = float(df.loc[mask, "Close"].iloc[-1])
-                        if price > 0 and self.cash > price:
+                price = self._get_exec_price(price_data, ticker, date)
+                if price and price > 0 and self.cash > price:
                             # Cap at 50% of total portfolio value (not all-in)
                             max_allocation = self.initial_cash * 0.5
                             allocatable = min(self.cash, max_allocation)
                             shares = int(allocatable / price)
                             score_data = self._last_scores.get(ticker, {})
                             self._buy(ticker, shares, price, date,
-                                     f"Oil bullish signal (score={score:.1f})", score_data)
+                                     f"Oil bullish signal (score={score:.1f})", score_data,
+                                     price_data=price_data)

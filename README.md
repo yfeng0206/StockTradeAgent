@@ -3,7 +3,7 @@
   <p align="center">
     <b>7 AI strategies trade independently. The best strategy reads all 7 and trades on their consensus.</b>
     <br>
-    Free Data | 93 Stocks | 25 Years Backtested | Beats SPY 12/14 Periods
+    Free Data | 93 Stocks | 25 Years Backtested | Beats SPY 10/14 Periods
     <br><br>
     <a href="#key-results">Results</a> &bull;
     <a href="#-quick-start">Quick Start</a> &bull;
@@ -27,7 +27,7 @@ Most trading systems use **one strategy**. We run **7 strategies independently**
 
 When 4+ strategies go to cash, that's a consensus danger signal no single strategy can see. When Defensive enters DEFENSE mode and Adaptive switches to DEFENSIVE, Mix catches it before the market fully crashes.
 
-**MixLLM** adds Claude Opus as a risk monitor on top — it can only escalate defensiveness (pull the emergency brake), never reduce it. During the GFC, Opus caught credit stress signals (HY bonds crashing, gold surging) that coded rules missed, saving +8.9% while SPY lost -45.9%.
+**MixLLM** adds Claude Opus as a risk monitor on top — it can only escalate defensiveness (pull the emergency brake), never reduce it. During the GFC, Opus caught credit stress signals (HY bonds crashing, gold surging) that coded rules missed, while SPY lost -45.9%.
 
 **Mix and MixLLM are the recommended strategies.** The other 7 are valuable both as standalone options and as the sensor network that powers the consensus. You can use any strategy, but the consensus is where the edge is.
 
@@ -44,7 +44,7 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
 | **Cost** | Free | $5-100/day |
 | **Test duration** | 25 years, 14 regimes | 3 months |
 | **Crash tested** | Dot-com, GFC, COVID, 2022 | Usually not |
-| **Beats SPY** | 12 of 14 periods | Unknown |
+| **Beats SPY** | 10 of 14 periods | Unknown |
 
 </div>
 
@@ -60,8 +60,8 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
 
 | Strategy | Avg Return | vs SPY | Worst Drawdown | When to Use |
 |:--:|:--:|:--:|:--:|:--:|
-| **Mix** | **+36.7%** | **+19.4%** | -25.0% | Max returns |
-| **MixLLM** | +33.9% | +12.6% | -22.9% | Crash protection |
+| **Mix** | **+33.6%** | **+16.1%** | -34.0% | Max returns |
+| **MixLLM** | +26.0% | +8.6% | -32.4% | Crash protection |
 | QQQ (buy & hold) | +24.4% | -- | **-82.9%** | If you can stomach -82% |
 | SPY (buy & hold) | +17.5% | -- | -55.1% | Passive baseline |
 
@@ -77,8 +77,8 @@ Most trading agents cost $5-100/day, test on 3 months of data, and use LLM-only 
 
 | Strategy | Dot-com '00 | GFC '08 | COVID '20 | 2022 Bear | Avg |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| **MixLLM** | +20.4% | +8.9% | -0.2% | -3.5% | **+6.4%** |
-| **Commodity** | -14.1% | +22.7% | -2.4% | +24.7% | +7.7% |
+| **Commodity** | -7.4% | +22.5% | -2.1% | +22.5% | **+8.9%** |
+| **Defensive** | +14.5% | -13.3% | -0.2% | -6.2% | -1.3% |
 | SPY | -33.1% | -45.9% | -5.3% | -17.6% | -25.5% |
 | QQQ | -77.2% | -37.0% | +12.8% | -29.6% | -32.7% |
 
@@ -119,8 +119,41 @@ python tools/daily_collect.py
 | `--regime-stickiness` | **1** | Tested 1/3/5. Instant switching wins |
 | `MIXLLM_MODEL` | **opus** | Tested Opus vs Sonnet. Opus better in crashes |
 | `--cash` | **100000** | Scales linearly |
+| `--exec-model` | **premarket** | Pre-market aware execution (default) |
+| `--frequency` | **biweekly** | Biweekly rebalance cadence |
+| `--slippage` | **0.0005** | 5 basis points per trade |
 
 </div>
+
+---
+
+## Methodology: Realistic Execution
+
+All published results use our validated realistic execution pipeline — no lookahead bias.
+
+### Signal → Decision → Execution Timeline
+
+```
+Yesterday (T-1)                    Today (T)
+─────────────────                  ─────────────────────────────
+ Market close                      9:00 AM        9:30 AM
+      │                               │              │
+  Close price                    Pre-market        Open
+      │                          estimate           │
+      ▼                              ▼              ▼
+ SIGNALS USE THIS            DECISION HERE    EXECUTE HERE
+ (T-1 close series)          (premarket-aware) (at T Open)
+```
+
+| Component | How It Works |
+|:--|:--|
+| **Signal timing** | All indicators (RSI, MACD, MAs) computed on T-1 data. You can't know today's close when deciding. |
+| **Pre-market model** | Estimates 9:00 AM price as `0.2 × prev_close + 0.8 × today_open`. Validated at 0.3% mean error vs real pre-market data ([Experiment 8](docs/experiments/README.md#experiment-8-premarket-proxy-validation-2026-04-02)). |
+| **Execution** | All trades fill at T's Open price — standard academic approach (Zipline, QuantConnect). |
+| **Slippage** | 5 basis points per trade. Buys pay 0.05% more, sells receive 0.05% less. |
+| **Gap filter** | Large overnight gaps (>3%) skip the trade. 1-3% gaps reduce position size by half. Asymmetric: gap-ups hurt buys, gap-downs don't block sells. |
+
+> **Why this matters:** Many backtests use today's close for both signals and execution — that's seeing the future. Our system decides overnight, checks pre-market, and executes at open. [Full comparison →](docs/experiments/README.md#experiment-7-realistic-execution-model-2026-04-02)
 
 ---
 
@@ -144,15 +177,15 @@ python tools/daily_collect.py
 
 | Strategy | Approach | Avg Return | Best At |
 |:---------|:---------|:---------:|:--------|
-| **Mix** | Uses 7 peers as live sensors, multi-asset allocation | +36.7% | Best overall (12/14 beat SPY) |
-| **MixLLM** | Mix + Claude Opus risk monitor (escalate-only) | +33.9% | Crash protection (+6.4% in crashes) |
-| **Adaptive** | Switches mode by regime | +32.1% | Strong trends |
-| **Momentum** | 12-minus-1 month signal, trend following | +29.2% | Bull markets |
-| **Balanced** | Regime-weighted value + momentum blend | +25.8% | All-weather |
-| **Value** | Low vol, beaten-down quality, quarterly rebalance | +21.5% | Steady markets |
-| **EventDriven** | Trades only around earnings and 8-K filings | +15.7% | Catalyst-rich periods |
-| **Defensive** | 3-state exposure (100%/50%/20%) | +13.9% | Limiting drawdowns |
-| **Commodity** | Oil tracker (USO/XLE), binary signal | +5.7% | Bear markets, inflation |
+| **Mix** | Uses 7 peers as live sensors, multi-asset allocation | +33.6% | Best overall (10/14 beat SPY) |
+| **MixLLM** | Mix + Claude Opus risk monitor (escalate-only) | +26.0% | Crash protection (+8.9% in crashes) |
+| **Adaptive** | Switches mode by regime | +29.2% | Strong trends |
+| **Momentum** | 12-minus-1 month signal, trend following | +27.8% | Bull markets |
+| **Balanced** | Regime-weighted value + momentum blend | +23.8% | All-weather |
+| **Value** | Low vol, beaten-down quality, quarterly rebalance | +18.0% | Steady markets |
+| **EventDriven** | Trades only around earnings and 8-K filings | +8.0% | Catalyst-rich periods |
+| **Defensive** | 3-state exposure (100%/50%/20%) | +13.7% | Limiting drawdowns |
+| **Commodity** | Oil tracker (USO/XLE), binary signal | +7.6% | Bear markets, inflation |
 
 > Strategy deep dives with exact formulas: **[Strategy Details](docs/strategies/README.md)** | **[Glossary](docs/GLOSSARY.md)** | **[Example Logs](docs/EXAMPLES.md)**
 

@@ -76,7 +76,11 @@ class TriggerEngine:
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            # Trigger detection uses signal engine's realistic flag
+            if getattr(self.signals, 'realistic', False):
+                mask = df.index < pd.Timestamp(date)  # T-1 for signal detection
+            else:
+                mask = df.index <= pd.Timestamp(date)
             if not mask.any() or mask.sum() < 20:
                 continue
 

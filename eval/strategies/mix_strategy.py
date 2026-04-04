@@ -60,6 +60,13 @@ class MixStrategy(BaseStrategy):
         self._regime_stickiness = regime_stickiness
         self._pending_regime = None   # what regime is building up
         self._pending_count = 0       # how many consecutive days it's been detected
+        self._realistic = False       # set by daily_loop if --realistic
+
+    def _signal_mask(self, df, date):
+        """Temporal mask for signal computation. Uses T-1 in realistic/premarket mode."""
+        if self._realistic or self._exec_model == "premarket":
+            return df.index < pd.Timestamp(date)
+        return df.index <= pd.Timestamp(date)
 
     @property
     def rebalance_frequency(self) -> str:
@@ -139,7 +146,7 @@ class MixStrategy(BaseStrategy):
 
         if "SPY" in price_data and not price_data["SPY"].empty:
             df = price_data["SPY"]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if mask.any() and mask.sum() >= 50:
                 close = df.loc[mask, "Close"].tail(252)
                 current = float(close.iloc[-1])
@@ -164,7 +171,7 @@ class MixStrategy(BaseStrategy):
         for proxy in OIL_PROXIES:
             if proxy in price_data and not price_data[proxy].empty:
                 df = price_data[proxy]
-                mask = df.index <= pd.Timestamp(date)
+                mask = self._signal_mask(df, date)
                 if mask.any() and mask.sum() >= 50:
                     close = df.loc[mask, "Close"].tail(252)
                     current = float(close.iloc[-1])
@@ -336,7 +343,7 @@ class MixStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -369,7 +376,7 @@ class MixStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -409,7 +416,7 @@ class MixStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -445,7 +452,7 @@ class MixStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -484,7 +491,7 @@ class MixStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             close = df.loc[mask, "Close"].tail(252)
@@ -542,43 +549,45 @@ class MixStrategy(BaseStrategy):
         # Sell commodity if target is 0 or oil bearish
         if commodity_target <= 0 or not oil_bullish:
             for ticker in list(commodity_positions.keys()):
-                if ticker in price_data and not price_data[ticker].empty:
-                    df = price_data[ticker]
-                    mask = df.index <= pd.Timestamp(date)
-                    if mask.any():
-                        price = float(df.loc[mask, "Close"].iloc[-1])
-                        self._sell(ticker, price, date,
-                                   f"Mix {self.detected_regime}: commodity target={commodity_pct:.0%}, oil bearish")
+                price = self._get_exec_price(price_data, ticker, date)
+                if price:
+                    self._sell(ticker, price, date,
+                               f"Mix {self.detected_regime}: commodity target={commodity_pct:.0%}, oil bearish")
             commodity_value = 0
 
         # Buy commodity if target > current and oil bullish
         elif oil_proxy and commodity_target > commodity_value * 1.1:
             need = commodity_target - commodity_value
-            if oil_proxy in price_data and not price_data[oil_proxy].empty:
-                df = price_data[oil_proxy]
-                mask = df.index <= pd.Timestamp(date)
-                if mask.any():
-                    price = float(df.loc[mask, "Close"].iloc[-1])
-                    if price > 0 and self.cash > price:
+            price = self._get_exec_price(price_data, oil_proxy, date)
+            if price and price > 0 and self.cash > price:
                         buy_amount = min(need, self.cash * 0.9)
                         shares = int(buy_amount / price)
                         if shares > 0:
                             if oil_proxy in self.positions:
-                                cost = shares * price
-                                if cost <= self.cash:
-                                    self.cash -= cost
-                                    self.positions[oil_proxy]["shares"] += shares
-                                    self.transactions.append({
-                                        "date": date, "action": "BUY",
-                                        "ticker": oil_proxy, "shares": shares,
-                                        "price": round(price, 2), "total": round(cost, 2),
-                                        "cash_after": round(self.cash, 2),
-                                    })
-                                    self._log_reasoning(date, "BUY", oil_proxy, price,
-                                        f"Mix {self.detected_regime}: adding commodity (target={commodity_pct:.0%})")
+                                # Add to existing position — route through _buy for slippage + gap filter
+                                # _buy will update shares on existing position
+                                old_shares = self.positions[oil_proxy]["shares"]
+                                old_entry = self.positions[oil_proxy]["entry_price"]
+                                # Temporarily remove to let _buy re-create with combined shares
+                                del self.positions[oil_proxy]
+                                combined_shares = old_shares + shares
+                                self._buy(oil_proxy, combined_shares, price, date,
+                                    f"Mix {self.detected_regime}: adding commodity (target={commodity_pct:.0%})",
+                                    price_data=price_data)
+                                # If _buy succeeded, update entry price to blended avg
+                                if oil_proxy in self.positions:
+                                    new_entry = (old_entry * old_shares + price * shares) / combined_shares
+                                    self.positions[oil_proxy]["entry_price"] = new_entry
+                                else:
+                                    # _buy was skipped (gap filter etc) — restore original position
+                                    self.positions[oil_proxy] = {
+                                        "shares": old_shares, "entry_price": old_entry,
+                                        "entry_date": date,
+                                    }
                             else:
                                 self._buy(oil_proxy, shares, price, date,
-                                    f"Mix {self.detected_regime}: commodity allocation (target={commodity_pct:.0%})")
+                                    f"Mix {self.detected_regime}: commodity allocation (target={commodity_pct:.0%})",
+                                    price_data=price_data)
 
         # --- Handle stock allocation ---
         triggered = self._check_watchnotes(price_data, date)
@@ -599,11 +608,9 @@ class MixStrategy(BaseStrategy):
 
         prices_on_date = {}
         for ticker in list(stock_positions.keys()) + top_tickers:
-            if ticker in price_data and not price_data[ticker].empty:
-                df = price_data[ticker]
-                mask = df.index <= pd.Timestamp(date)
-                if mask.any():
-                    prices_on_date[ticker] = float(df.loc[mask, "Close"].iloc[-1])
+            p = self._get_exec_price(price_data, ticker, date)
+            if p is not None:
+                prices_on_date[ticker] = p
 
         # Sell stocks not in top picks
         for ticker in list(stock_positions.keys()):
@@ -641,7 +648,8 @@ class MixStrategy(BaseStrategy):
                                       f"(target={stock_pct:.0%}, score={top_scores.get(ticker, '?')})")
                             if size_mult < 1.0:
                                 reason += f" [risk: {size_mult:.0%}]"
-                            self._buy(ticker, shares, price, date, reason, score_data)
+                            self._buy(ticker, shares, price, date, reason, score_data,
+                                     price_data=price_data)
 
         # Log
         self._log_reasoning(date, "REGIME", "", 0,

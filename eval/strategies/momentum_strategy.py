@@ -32,7 +32,7 @@ class MomentumStrategy(BaseStrategy):
             if ticker not in price_data or price_data[ticker].empty:
                 continue
             df = price_data[ticker]
-            mask = df.index <= pd.Timestamp(date)
+            mask = self._signal_mask(df, date)
             if not mask.any() or mask.sum() < 60:
                 continue
             hist = df.loc[mask].tail(252)

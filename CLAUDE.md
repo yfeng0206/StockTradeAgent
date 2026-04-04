@@ -51,6 +51,10 @@ Stock Research/
 │   ├── risk_overlay.py           Conviction gate, consensus, conflict detection
 │   ├── sim_memory.py             Memory read/write for learning
 │   ├── events_data.py            Earnings + SEC filing events
+│   ├── prefetch_prices.py        Pre-fetch and cache price data
+│   ├── run_param_sweep.py        Frequency/exec/mp parameter sweep
+│   ├── validate_premarket_proxy.py  Validate premarket price proxy
+│   ├── validate_premarket_e2e.py    End-to-end proxy validation
 │   └── strategies/               9 trading strategies
 │       ├── base_strategy.py          Base class (partial fill, cash floor, reasoning)
 │       ├── value_strategy.py         Low-vol, beaten-down quality
@@ -102,14 +106,26 @@ Stock Research/
 # Daily news collection
 python tools/daily_collect.py
 
-# Single simulation
+# Pre-fetch price data (run once, future sims load from cache)
+python eval/prefetch_prices.py
+
+# Single simulation (defaults: premarket exec, biweekly, mp=10)
 python eval/daily_loop.py --start 2025-01-02 --end 2026-03-24 --max-positions 10
 
-# Full parameter sweep (7 periods × 3 positions × 3 cash = 63 runs)
+# Override frequency
+python eval/daily_loop.py --period 2025_to_now --frequency monthly
+
+# Legacy mode (no realism, for comparison)
+python eval/daily_loop.py --period normal --no-realistic --exec-model open
+
+# Full parameter sweep (7 periods x 3 positions x 3 cash = 63 runs)
 python eval/run_full_sweep.py
 
 # Quick sweep (7 periods, mp=10, $100k only)
 python eval/run_full_sweep.py --quick
+
+# Frequency/param sweep
+python eval/run_param_sweep.py --quick
 
 # Tests
 python -m pytest tests/ -v

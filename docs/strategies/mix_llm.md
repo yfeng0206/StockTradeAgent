@@ -2,7 +2,7 @@
 
 > *The risk manager. Coded rules drive, Opus pulls the emergency brake.*
 
-**14-period average: +33.9% | Beats SPY 12/14 | Worst drawdown: -22.9%**
+**14-period average: +26.0% | Beats SPY 8/14 | Worst drawdown: -32.4%**
 
 **Best crash protection.** Averages **+6.4% gains during the 4 worst crashes** while SPY averages -25.5% and QQQ -32.7%.
 

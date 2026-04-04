@@ -2,7 +2,7 @@
 
 > *Aggressive. Chases winners. Cuts losers fast.*
 
-**14-period average: +29.2% | Beats SPY 10/14 | Worst drawdown: -47.4%**
+**14-period average: +27.8% | Beats SPY 12/14 | Worst drawdown: -40.3%**
 
 ## Scoring Formula
 

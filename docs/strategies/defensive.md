@@ -2,7 +2,7 @@
 
 > *Paranoid. Always watching for the next crash.*
 
-**14-period average: +13.9% | Beats SPY 5/14 | Worst drawdown: -20.3%**
+**14-period average: +13.7% | Beats SPY 5/14 | Worst drawdown: -17.9%**
 
 ## 3-State Exposure Model
 

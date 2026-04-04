@@ -2,7 +2,7 @@
 
 > *Patient. Ignores short-term noise. Waits for price to catch up to quality.*
 
-**14-period average: +21.5% | Beats SPY 8/14 | Worst drawdown: -38.5%**
+**14-period average: +18.0% | Beats SPY 8/14 | Worst drawdown: -37.6%**
 
 ## Scoring Formula
 

@@ -97,6 +97,9 @@ def run_sweep(periods=None, positions=None, cash_amounts=None):
                         shared_price_data=price_data,
                         shared_events_cal=events_cal,
                         quiet=True,
+                        realistic=True,
+                        slippage=0.0005,
+                        exec_model="premarket",
                     )
 
                     # Collect summary for master comparison
@@ -115,6 +118,8 @@ def run_sweep(periods=None, positions=None, cash_amounts=None):
                             "win_rate": strat_data.get("win_rate_pct", 0),
                             "trades": strat_data.get("total_trades", 0),
                             "spy_return": spy_ret,
+                            "exec_model": "premarket",
+                            "slippage": 0.0005,
                         })
 
                     print("done")
