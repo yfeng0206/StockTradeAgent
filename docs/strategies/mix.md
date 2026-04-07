@@ -107,13 +107,13 @@ After testing stickiness=1/3/5 across all 14 periods, **stickiness=1 is best ove
 
 ## When It Works Best
 
-- **Almost always** (beats SPY in 12 of 14 periods)
-- **Bull markets** (QE Bull: +129.1%, Post Dot-com: +115.0%, Pre-COVID: +92.0%)
-- **Transitions** (Bull-Rec: +9.9% while SPY lost -10.3%)
+- **Almost always** (beats SPY in 10 of 14 periods)
+- **Bull markets** (QE Bull: +94.7%, Post Dot-com: +92.3%, Pre-COVID: +81.8%)
+- **Transitions** (Bull-Rec: +26.4% while SPY lost -10.3%)
 
 ## When It Struggles
 
-- **V-shaped recoveries** (Post GFC: +9.4% vs SPY +90.2%) -- slow to re-enter after going defensive
+- **V-shaped recoveries** (Post GFC: +48.5% vs SPY +90.2%) -- slow to re-enter after going defensive
 - The recovery problem is documented in [experiments](../experiments/README.md#experiment-3-regime-stickiness)
 
 ## Why It Beats Individual Strategies

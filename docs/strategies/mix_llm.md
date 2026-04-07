@@ -4,7 +4,7 @@
 
 **14-period average: +26.0% | Beats SPY 8/14 | Worst drawdown: -32.4%**
 
-**Best crash protection.** Averages **+6.4% gains during the 4 worst crashes** while SPY averages -25.5% and QQQ -32.7%.
+**Best crash protection.** Averages **-11.9% during the 4 worst crashes** while SPY averages -25.5% and QQQ -32.7%.
 
 ## Architecture
 
@@ -97,21 +97,21 @@ Opus is the default. Better in crashes where it matters most.
 
 ## When It Works Best
 
-- **Crashes** (Dot-com: +20.4%, GFC: +8.9%) -- the LLM catches what rules miss
-- **Bull markets** (+78.3% in QE Bull) -- confirms AGGRESSIVE, stays out of the way
+- **Crashes** (Dot-com: -26.0%, GFC: -28.2%) -- the LLM limits losses vs SPY's -33.1% and -45.9%
+- **Bull markets** (+71.4% in QE Bull) -- confirms AGGRESSIVE, stays out of the way
 - **Geopolitical crises** -- reads credit stress, safe-haven flows
 
 ## When It Struggles
 
-- **Recoveries** (Post GFC: +3.6%) -- LLM has defensive bias, slow to re-enter
-- **Cost**: -6.8% annual "insurance premium" vs Mix (the price of crash protection)
+- **Recoveries** (Post GFC: +33.9%) -- LLM has defensive bias, slow to re-enter
+- **Cost**: -7.6% annual "insurance premium" vs Mix (the price of crash protection)
 - Non-deterministic (LLM varies between runs)
 
 ## The Tradeoff
 
 | | Mix | MixLLM |
 |:--|:---:|:-----:|
-| Avg return | **+36.7%** | +33.9% |
-| Crash avg | -0.3% | **+6.4%** |
+| Avg return | **+33.6%** | +26.0% |
+| Crash avg | -0.3% | **-11.9%** |
 | Worst DD | -25.0% | **-22.9%** |
 | Sleep at night | Good | **Best** |

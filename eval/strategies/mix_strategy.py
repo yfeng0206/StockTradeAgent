@@ -61,6 +61,7 @@ class MixStrategy(BaseStrategy):
         self._pending_regime = None   # what regime is building up
         self._pending_count = 0       # how many consecutive days it's been detected
         self._realistic = False       # set by daily_loop if --realistic
+        self.use_breadth_signal = False  # toggleable: use market breadth + HYG credit for regime detection
 
     def _signal_mask(self, df, date):
         """Temporal mask for signal computation. Uses T-1 in realistic/premarket mode."""
@@ -193,8 +194,15 @@ class MixStrategy(BaseStrategy):
     # ================================================================
     # REGIME CLASSIFIER — combines peer signals + market data
     # ================================================================
-    def _detect_regime(self, price_data: dict, date: str) -> str:
-        """Classify regime using other strategies as sensors + direct market read."""
+    def _detect_regime(self, price_data: dict, date: str, breadth: dict = None) -> str:
+        """Classify regime using other strategies as sensors + direct market read.
+
+        Args:
+            breadth: Optional breadth/credit data from SignalEngine.compute_breadth().
+                     Only populated when use_breadth_signal is True.
+        """
+        if breadth is None:
+            breadth = {}
         peers = self._sense_peers(price_data, date)
         market = self._sense_market(price_data, date)
 
@@ -245,6 +253,11 @@ class MixStrategy(BaseStrategy):
             return "RECOVERY"
         if spy_dd < -8 and market["spy_ret_1m"] > 2:
             return "RECOVERY"
+        # Enhanced recovery detection with breadth + HYG credit (only when toggled on)
+        # Guard: only trigger if market is actually in a downturn (SPY below 200MA or in drawdown)
+        if not spy_above_200 or spy_dd < -5:
+            if breadth.get("breadth_recovering") or breadth.get("credit_recovering"):
+                return "RECOVERY"
 
         # 4. CAUTIOUS: only when commodity is clearly outperforming AND trend is broken
         #    (not just "oil is bullish" — need actual divergence)
@@ -308,9 +321,21 @@ class MixStrategy(BaseStrategy):
             self._pending_count = 1
             return self.detected_regime
 
-    def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
-        """Score stocks based on detected regime."""
-        raw_regime = self._detect_regime(price_data, date)
+    def score_stocks(self, universe: list, price_data: dict, date: str,
+                     signal_engine=None) -> list:
+        """Score stocks based on detected regime.
+
+        Args:
+            signal_engine: Optional SignalEngine instance, used for breadth computation
+                           when use_breadth_signal is toggled on.
+        """
+        # Compute breadth if enabled and signal_engine is available
+        if self.use_breadth_signal and signal_engine is not None and hasattr(signal_engine, 'compute_breadth'):
+            breadth = signal_engine.compute_breadth(date)
+        else:
+            breadth = {}
+
+        raw_regime = self._detect_regime(price_data, date, breadth=breadth)
         new_regime = self._apply_regime_stickiness(raw_regime, date)
 
         if new_regime != self.detected_regime:
@@ -606,6 +631,18 @@ class MixStrategy(BaseStrategy):
         top_tickers = [t for t, s in stock_scores[:target_stock_positions]]
         top_scores = {t: s for t, s in stock_scores[:target_stock_positions]}
 
+        # Cooldown: minimum holding period — don't sell positions held < N days
+        if self.use_cooldown:
+            for ticker in list(stock_positions.keys()):
+                if ticker not in top_tickers:
+                    pos = stock_positions[ticker]
+                    entry = pos.get("entry_date", date)
+                    days_held = (pd.Timestamp(date) - pd.Timestamp(entry)).days
+                    if days_held < self.min_holding_days:
+                        top_tickers.append(ticker)
+                        self._log_reasoning(date, "HOLD_MIN", ticker, 0,
+                            f"Mix holding: only {days_held}d < {self.min_holding_days}d minimum")
+
         prices_on_date = {}
         for ticker in list(stock_positions.keys()) + top_tickers:
             p = self._get_exec_price(price_data, ticker, date)
@@ -636,6 +673,15 @@ class MixStrategy(BaseStrategy):
                 per_position = stock_budget / num_to_buy
                 for ticker in top_tickers:
                     if ticker not in self.positions and ticker in prices_on_date:
+                        # Cooldown: don't rebuy recently sold tickers
+                        if self.use_cooldown:
+                            sell_date = self._sold_cooldown.get(ticker)
+                            if sell_date:
+                                days_since = (pd.Timestamp(date) - pd.Timestamp(sell_date)).days
+                                if days_since < self.cooldown_days:
+                                    self._log_reasoning(date, "SKIP_COOL", ticker, 0,
+                                        f"Mix cooldown: sold {days_since}d ago < {self.cooldown_days}d")
+                                    continue
                         price = prices_on_date[ticker]
                         if price <= 0:
                             continue

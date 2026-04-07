@@ -27,7 +27,7 @@ Most trading systems use **one strategy**. We run **7 strategies independently**
 
 When 4+ strategies go to cash, that's a consensus danger signal no single strategy can see. When Defensive enters DEFENSE mode and Adaptive switches to DEFENSIVE, Mix catches it before the market fully crashes.
 
-**MixLLM** adds Claude Opus as a risk monitor on top — it can only escalate defensiveness (pull the emergency brake), never reduce it. During the GFC, Opus caught credit stress signals (HY bonds crashing, gold surging) that coded rules missed, while SPY lost -45.9%.
+**MixLLM** adds Claude Opus as a risk monitor on top — it can only escalate defensiveness (pull the emergency brake), never reduce it. During the GFC, Opus caught credit stress signals (HY bonds crashing, gold surging) that coded rules missed, limiting losses to -28.2% while SPY lost -45.9%.
 
 **Mix and MixLLM are the recommended strategies.** The other 7 are valuable both as standalone options and as the sensor network that powers the consensus. You can use any strategy, but the consensus is where the edge is.
 
@@ -152,6 +152,9 @@ Yesterday (T-1)                    Today (T)
 | **Execution** | All trades fill at T's Open price — standard academic approach (Zipline, QuantConnect). |
 | **Slippage** | 5 basis points per trade. Buys pay 0.05% more, sells receive 0.05% less. |
 | **Gap filter** | Large overnight gaps (>3%) skip the trade. 1-3% gaps reduce position size by half. Asymmetric: gap-ups hurt buys, gap-downs don't block sells. |
+| **Chandelier Exit** | Trailing stop from highest high since entry, not fixed from entry price. Survives normal recovery pullbacks while protecting downside. |
+| **Cooldown timer** | 21-day minimum holding period + 5-day rebuy cooldown after selling. Prevents the sell-low-rebuy-high cycle. |
+| **Market breadth** | Tracks % of stocks above 200-day MA + HYG credit recovery signal. Detects real recoveries vs dead cat bounces. |
 
 > **Why this matters:** Many backtests use today's close for both signals and execution — that's seeing the future. Our system decides overnight, checks pre-market, and executes at open. [Full comparison →](docs/experiments/README.md#experiment-7-realistic-execution-model-2026-04-02)
 
@@ -178,7 +181,7 @@ Yesterday (T-1)                    Today (T)
 | Strategy | Approach | Avg Return | Best At |
 |:---------|:---------|:---------:|:--------|
 | **Mix** | Uses 7 peers as live sensors, multi-asset allocation | +33.6% | Best overall (10/14 beat SPY) |
-| **MixLLM** | Mix + Claude Opus risk monitor (escalate-only) | +26.0% | Crash protection (+8.9% in crashes) |
+| **MixLLM** | Mix + Claude Opus risk monitor (escalate-only) | +26.0% | Crash protection (-11.9% in crashes) |
 | **Adaptive** | Switches mode by regime | +29.2% | Strong trends |
 | **Momentum** | 12-minus-1 month signal, trend following | +27.8% | Bull markets |
 | **Balanced** | Regime-weighted value + momentum blend | +23.8% | All-weather |

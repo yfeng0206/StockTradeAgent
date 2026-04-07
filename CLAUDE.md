@@ -53,6 +53,7 @@ Stock Research/
 │   ├── events_data.py            Earnings + SEC filing events
 │   ├── prefetch_prices.py        Pre-fetch and cache price data
 │   ├── run_param_sweep.py        Frequency/exec/mp parameter sweep
+│   ├── run_improvement_sweep.py  Ablation sweep for improvement features
 │   ├── validate_premarket_proxy.py  Validate premarket price proxy
 │   ├── validate_premarket_e2e.py    End-to-end proxy validation
 │   └── strategies/               9 trading strategies
@@ -126,6 +127,9 @@ python eval/run_full_sweep.py --quick
 
 # Frequency/param sweep
 python eval/run_param_sweep.py --quick
+
+# Improvement feature ablation (Chandelier, cooldown, breadth)
+python eval/run_improvement_sweep.py --quick
 
 # Tests
 python -m pytest tests/ -v

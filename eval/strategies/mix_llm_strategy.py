@@ -129,7 +129,7 @@ class MixLLMStrategy(MixStrategy):
         "AGGRESSIVE": 0, "RECOVERY": 1, "UNCERTAIN": 2, "CAUTIOUS": 3, "DEFENSIVE": 4,
     }
 
-    def _detect_regime(self, price_data, date):
+    def _detect_regime(self, price_data, date, breadth: dict = None):
         """Override: coded rules FIRST, then LLM can only ESCALATE defensiveness.
 
         The coded rules work well 80%+ of the time and bias AGGRESSIVE (correct).
@@ -137,7 +137,7 @@ class MixLLMStrategy(MixStrategy):
         LLM can make the regime MORE defensive, but CANNOT reduce defensiveness.
         """
         # Step 1: Get the coded regime from parent class (this also sets sensors)
-        coded_regime = super()._detect_regime(price_data, date)
+        coded_regime = super()._detect_regime(price_data, date, breadth=breadth)
         peers = self._sensor_readings.get("peers", {})
         market = self._sensor_readings.get("market", {})
 
@@ -198,7 +198,7 @@ class MixLLMStrategy(MixStrategy):
             rets_1m = []
             rets_3m = []
             for ticker in tickers:
-                r1m, r3m = self._get_returns(price_data, ticker, ts)
+                r1m, r3m = self._get_returns(price_data, ticker, date)
                 if r1m is not None:
                     rets_1m.append(r1m)
                 if r3m is not None:
@@ -217,7 +217,7 @@ class MixLLMStrategy(MixStrategy):
 
         # --- Safe havens ---
         for ticker, name in SAFE_HAVEN_TICKERS.items():
-            r1m, r3m = self._get_returns(price_data, ticker, ts)
+            r1m, r3m = self._get_returns(price_data, ticker, date)
             if r1m is not None:
                 result["safe_havens"][name] = {
                     "ticker": ticker, "ret_1m": round(r1m, 1),
@@ -226,7 +226,7 @@ class MixLLMStrategy(MixStrategy):
 
         # --- Risk appetite (credit spreads proxy) ---
         for ticker, name in RISK_TICKERS.items():
-            r1m, r3m = self._get_returns(price_data, ticker, ts)
+            r1m, r3m = self._get_returns(price_data, ticker, date)
             if r1m is not None:
                 result["risk_appetite"][name] = {
                     "ticker": ticker, "ret_1m": round(r1m, 1),
@@ -235,7 +235,7 @@ class MixLLMStrategy(MixStrategy):
 
         # --- Energy/oil detail ---
         for ticker, name in ENERGY_TICKERS.items():
-            r1m, r3m = self._get_returns(price_data, ticker, ts)
+            r1m, r3m = self._get_returns(price_data, ticker, date)
             if r1m is not None:
                 result["energy_detail"][name] = {
                     "ticker": ticker, "ret_1m": round(r1m, 1),
@@ -245,7 +245,7 @@ class MixLLMStrategy(MixStrategy):
         # --- Volatility trend ---
         if "SPY" in price_data and not price_data["SPY"].empty:
             df = price_data["SPY"]
-            mask = df.index <= ts
+            mask = self._signal_mask(df, date)
             if mask.any() and mask.sum() >= 60:
                 close = df.loc[mask, "Close"].tail(252)
                 returns = close.pct_change().dropna()
@@ -261,12 +261,12 @@ class MixLLMStrategy(MixStrategy):
 
         return result
 
-    def _get_returns(self, price_data, ticker, ts):
-        """Get 1-month and 3-month returns for a ticker."""
+    def _get_returns(self, price_data, ticker, date):
+        """Get 1-month and 3-month returns for a ticker. Respects T-1 gating."""
         if ticker not in price_data or price_data[ticker].empty:
             return None, None
         df = price_data[ticker]
-        mask = df.index <= ts
+        mask = self._signal_mask(df, date)
         if not mask.any() or mask.sum() < 22:
             return None, None
         close = df.loc[mask, "Close"].tail(252)

@@ -203,7 +203,9 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                          risk_features: dict = None, risk_params: dict = None,
                          regime_stickiness: int = 1,
                          realistic: bool = True, slippage: float = 0.0005,
-                         exec_model: str = "open", frequency: str = None):
+                         exec_model: str = "open", frequency: str = None,
+                         chandelier: bool = False, cooldown: bool = False,
+                         breadth: bool = False):
     if not quiet:
         print("=" * 80)
         print(f"DAILY EVENT-DRIVEN SIMULATION")
@@ -263,6 +265,12 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         strat.slippage = slippage
         strat._realistic = realistic
         strat._exec_model = exec_model
+        strat.use_cooldown = cooldown
+
+    # Apply improvement flags
+    trigger_engine.use_chandelier_stop = chandelier
+    mix_strategy.use_breadth_signal = breadth
+    mix_llm_strategy.use_breadth_signal = breadth
 
     # Override rebalance frequency if specified
     if frequency:
@@ -701,7 +709,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                 # Bug fix: save macro regime before score_stocks (strategies overwrite _last_regime
                 # with internal labels like "defensive:NORMAL" which corrupts memory writes)
                 saved_regime = strat._last_regime
-                scores = strat.score_stocks(UNIVERSE, price_data, date_str)
+                scores = strat.score_stocks(UNIVERSE, price_data, date_str,
+                                            signal_engine=signal_engine)
                 strat._last_regime = saved_regime  # restore macro regime for memory
 
                 # Adjust scores based on memory
@@ -976,6 +985,12 @@ def main():
                         default=None, help="Override rebalance frequency for all strategies (default: per-strategy)")
     parser.add_argument("--refresh-prices", action="store_true",
                         help="Force re-download prices from yfinance, ignoring local cache")
+    parser.add_argument("--chandelier", action="store_true", default=False,
+                        help="Enable Chandelier Exit trailing stop (default: off)")
+    parser.add_argument("--cooldown", action="store_true", default=False,
+                        help="Enable cooldown timer + min holding period (default: off)")
+    parser.add_argument("--breadth", action="store_true", default=False,
+                        help="Enable breadth + HYG recovery signal (default: off)")
     args = parser.parse_args()
 
     if args.period:
@@ -983,12 +998,16 @@ def main():
         run_daily_simulation(p["start"], p["end"], args.cash, args.max_positions, p["name"],
                              regime_stickiness=args.regime_stickiness,
                              realistic=args.realistic, slippage=args.slippage,
-                             exec_model=args.exec_model, frequency=args.frequency)
+                             exec_model=args.exec_model, frequency=args.frequency,
+                             chandelier=args.chandelier, cooldown=args.cooldown,
+                             breadth=args.breadth)
     elif args.start and args.end:
         run_daily_simulation(args.start, args.end, args.cash, args.max_positions, "Custom",
                              regime_stickiness=args.regime_stickiness,
                              realistic=args.realistic, slippage=args.slippage,
-                             exec_model=args.exec_model, frequency=args.frequency)
+                             exec_model=args.exec_model, frequency=args.frequency,
+                             chandelier=args.chandelier, cooldown=args.cooldown,
+                             breadth=args.breadth)
     else:
         parser.print_help()
 
