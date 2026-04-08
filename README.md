@@ -112,19 +112,37 @@ python tools/daily_collect.py
 
 ### Recommended Settings
 
+Every default is backed by ablation testing across 14 market periods (2000-2026). Just run it — no tuning needed.
+
 <div align="center">
 
-| Setting | Default | Notes |
-|:--:|:--:|:--|
-| `--max-positions` | **10** | Tested 10/20/30. 10 is best for Mix/MixLLM |
-| `--regime-stickiness` | **1** | Tested 1/3/5. Instant switching wins |
-| `MIXLLM_MODEL` | **opus** | Tested Opus vs Sonnet. Opus better in crashes |
-| `--cash` | **100000** | Scales linearly |
-| `--exec-model` | **premarket** | Pre-market aware execution (default) |
-| `--frequency` | **biweekly** | Recommended. Code default is per-strategy (monthly) if omitted |
-| `--slippage` | **0.0005** | 5 basis points per trade |
+| Setting | Default | Why This Value | Tested In |
+|:--:|:--:|:--|:--|
+| `--max-positions` | **10** | Concentration drives alpha. mp=20/30 dilute returns. | [Exp 5](docs/experiments/README.md#experiment-5-position-size-2026-03-30), [Exp 10](docs/experiments/README.md#experiment-10-position-size-revalidation-2026-04-03) |
+| `--frequency` | **biweekly** | Lets LLM regime calls act faster. +8% vs monthly for MixLLM. | [Exp 9](docs/experiments/README.md#experiment-9-rebalance-frequency-2026-04-03) |
+| `--exec-model` | **premarket** | No lookahead bias. Validated at 0.0% delta vs real pre-market data. | [Exp 7](docs/experiments/README.md#experiment-7-realistic-execution-model-2026-04-02), [Exp 8](docs/experiments/README.md#experiment-8-premarket-proxy-validation-2026-04-02) |
+| `--regime-stickiness` | **1** | Instant switching. Stickiness=3/5 hurts Mix and MixLLM. | [Exp 3](docs/experiments/README.md#experiment-3-regime-stickiness-2026-03-30), [Exp 11](docs/experiments/README.md#experiment-11-stickiness-revalidation-2026-04-03) |
+| `--slippage` | **0.0005** | 5bps per trade — standard realistic assumption (Zipline default). | [Exp 7](docs/experiments/README.md#experiment-7-realistic-execution-model-2026-04-02) |
+| `MIXLLM_MODEL` | **opus** | Opus beats Sonnet in crash detection (where it matters most). | [Exp 1](docs/experiments/README.md#experiment-1-opus-vs-sonnet-for-mixllm-2026-03-30) |
+| `--cash` | **100000** | Scales linearly. Use any amount. | — |
 
 </div>
+
+<details>
+<summary>What we tested and rejected</summary>
+
+| Feature | Result | Why Not |
+|:--------|:-------|:--------|
+| Chandelier Exit trailing stop | Wider stops = bigger losses when they finally hit | [Exp 13](docs/experiments/README.md#experiment-13-chandelier-exit--cooldown-timer-2026-04-07) |
+| Cooldown timer (21-day hold) | Locks positions during regime changes, halved 14-period returns | [Exp 13](docs/experiments/README.md#experiment-13-chandelier-exit--cooldown-timer-2026-04-07) |
+| Market breadth signal | Neutral impact, triggers false recoveries in normal markets | [Exp 13](docs/experiments/README.md#experiment-13-chandelier-exit--cooldown-timer-2026-04-07) |
+| MixLLM V1 (recovery-only) | LLM's value IS crisis detection, not recovery detection | [Exp 12](docs/experiments/README.md#experiment-12-llm-strategy-variants-2026-04-07) |
+| MixLLM V2 (news interpreter) | Coded scoring already captures what news provides | [Exp 12](docs/experiments/README.md#experiment-12-llm-strategy-variants-2026-04-07) |
+| MixLLM V3 (event-triggered) | Bidirectional LLM introduces too much noise | [Exp 12](docs/experiments/README.md#experiment-12-llm-strategy-variants-2026-04-07) |
+| Multi-commodity (10 ETFs) | Oil-only outperformed. Nat gas too volatile. | [Exp 2](docs/experiments/README.md#experiment-2-multi-commodity-strategy-2026-03-30) |
+| Congressional trading signal | 20-45 day disclosure delay kills any edge | [Exp 6](docs/experiments/README.md#experiment-6-congressional-stock-trading-pelosi-tracker-2026-03-30) |
+
+</details>
 
 ---
 

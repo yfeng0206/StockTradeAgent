@@ -983,7 +983,7 @@ def main():
     parser.add_argument("--exec-model", choices=["open", "premarket", "open30", "vwap"], default="premarket",
                         help="Execution price model: open=T open, premarket=T open with gap filter, open30/vwap=benchmarks")
     parser.add_argument("--frequency", choices=["weekly", "biweekly", "monthly", "quarterly"],
-                        default=None, help="Override rebalance frequency for all strategies (default: per-strategy)")
+                        default="biweekly", help="Rebalance frequency (default: biweekly, best overall)")
     parser.add_argument("--refresh-prices", action="store_true",
                         help="Force re-download prices from yfinance, ignoring local cache")
     parser.add_argument("--chandelier", action="store_true", default=False,
