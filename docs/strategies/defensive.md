@@ -36,7 +36,7 @@ composite = vol_score * 0.40 + trend_score * 0.30 + dd_score * 0.30 + event_adj
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly |
+| Rebalance | Biweekly (code default: monthly) |
 | ATR Stop | **1.5x** (tightest of all strategies) |
 | Trim Target | 35% |
 | Max Positions | 5 |
@@ -56,12 +56,12 @@ composite = vol_score * 0.40 + trend_score * 0.30 + dd_score * 0.30 + event_adj
 
 ## When It Works Best
 
-- **Transitions into crashes** (Bull-Rec: +15.2%, only strategy positive)
-- **Limiting drawdowns** (worst ever: -20.3% vs SPY -55.1%)
+- **Transitions into crashes** (Bull-Rec: -3.6%)
+- **Limiting drawdowns** (worst drawdown: -18.1% vs SPY -55.1%)
 - Capital preservation
 
 ## When It Struggles
 
-- **Bull markets** (2023 AI: -6.4%, missed the entire rally)
-- **Recoveries** (Post GFC: +17.3% vs SPY +90.2%)
+- **Bull markets** (2023 AI: -3.0%, missed the entire rally)
+- **Recoveries** (Post GFC: +29.0% vs SPY +84.3%)
 - Tight stops cause frequent whipsaw in volatile markets

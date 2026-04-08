@@ -11,7 +11,7 @@ Average trades per week across different periods:
 | Strategy | Trades/Week | Style |
 |:---------|:----------:|:------|
 | **Commodity** | 0.1 | Holds or cash, rarely trades |
-| **Value** | 1.4 | Patient, quarterly rebalance |
+| **Value** | 1.4 | Patient, low turnover |
 | **Defensive** | 2.0 | Moderate, sells on danger signals |
 | **EventDriven** | 2.9 | Active around earnings |
 | **Balanced** | 3.3 | Moderate-active, regime-aware |
@@ -204,6 +204,8 @@ runs/{timestamp}_{period}_mp{N}_daily/
   trigger_log.json               # Every trigger that fired (1000-3000 per period)
   shared/
     regime_log.json              # Daily macro regime classification
+    conflicts_raw.json           # Per-ticker signal contradictions
+    signals_raw.json             # Raw signal data
   portfolios/
     Mix/
       state.json                 # Final portfolio (positions, cash, value)
@@ -212,6 +214,8 @@ runs/{timestamp}_{period}_mp{N}_daily/
       memory.json                # What the strategy learned
       history.json               # Daily portfolio value snapshots
       conviction_log.json        # Per-stock conviction levels
+      conflicts.json             # Signal conflicts for this strategy
+      regime_history.json        # Regime classifications over time
       watchnotes.json            # Active observations per position
     MixLLM/
       (same as Mix, plus:)

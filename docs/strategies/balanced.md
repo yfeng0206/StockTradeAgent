@@ -34,7 +34,7 @@ composite = value_score * w_value + momentum_score * w_momentum + stability_scor
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly |
+| Rebalance | Biweekly (code default: monthly) |
 | ATR Stop | 2.0x |
 | Trim Target | 40% |
 | Max Positions | 5 |
@@ -54,11 +54,11 @@ composite = value_score * w_value + momentum_score * w_momentum + stability_scor
 
 ## When It Works Best
 
-- **Recoveries** (Rec-Bull: +35.2%, Post GFC: +48.2%)
+- **Recoveries** (Rec-Bull: +32.0%, Post GFC: +88.2%)
 - **Transitions** where regime detection helps adapt
 - **Geopolitical uncertainty** -- shifts to quality/stability automatically
 
 ## When It Struggles
 
-- **Deep crashes** (GFC: -27.9%) -- still exposed
+- **Deep crashes** (GFC: -36.5%) -- still exposed
 - **Strong momentum** markets -- conservative weighting caps upside

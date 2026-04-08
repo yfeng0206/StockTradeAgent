@@ -58,7 +58,7 @@ bounce_score * 0.35 + upside_score * 0.30 + mom_score * 0.35
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly |
+| Rebalance | Biweekly (code default: monthly) |
 | ATR Stop | 2.0x |
 | Trim Target | 40% |
 | Max Positions | 5 |
@@ -78,12 +78,12 @@ bounce_score * 0.35 + upside_score * 0.30 + mom_score * 0.35
 
 ## When It Works Best
 
-- **Strong trends** (2023 AI: +57.0%, QE Bull: +112.7%)
-- **Regime transitions** (Pre-COVID: +82.3%)
+- **Strong trends** (2023 AI: +61.1%, QE Bull: +106.2%)
+- **Regime transitions** (Pre-COVID: +108.7%)
 - Markets where mode-switching captures the right approach
 
 ## When It Struggles
 
-- **Sudden crashes** (GFC: -17.7%) -- mode switches monthly, crash happens in days
+- **Sudden crashes** (GFC: -26.1%) -- mode switches monthly, crash happens in days
 - **Whipsaw** between modes in volatile sideways markets
 - Mode detection uses only SPY -- misses sector-specific signals

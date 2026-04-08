@@ -10,6 +10,8 @@ Record of experiments that were tested and what we learned. Runs are archived in
 
 **Setup:** Ran all 7 recent periods (2019-2026) with both Opus and Sonnet, stickiness=1, mp=10.
 
+*Note: These numbers are from pre-realism runs (before Experiment 7 premarket execution + biweekly). The relative Opus vs Sonnet comparison still holds -- Opus wins in bear markets.*
+
 **Result:** Opus wins 3/7 periods, Sonnet 2/7, Tie 2/7. Opus avg +16.1% vs Sonnet +15.0%.
 
 | Period | Opus | Sonnet | Winner |
@@ -61,6 +63,8 @@ Record of experiments that were tested and what we learned. Runs are archived in
 
 **Setup:** Tested stickiness=1 (instant, original), 3, and 5 across all 14 periods.
 
+*Note: Absolute numbers are from pre-realism runs (before Experiment 7). Relative comparisons still hold -- stickiness hurts crashes as much as it helps recoveries. Revalidated in Experiment 11.*
+
 **Result:** Stickiness helped recoveries but hurt crashes equally.
 
 ### Symmetric stickiness (slow both ways)
@@ -99,6 +103,8 @@ Tried making it asymmetric: instant switch to DEFENSIVE, but require 3 days to l
 
 **Setup:** Added Path B (SPY below both MAs + deep drawdown) and Path C (high vol + below trend + peers losing) to `_detect_regime`. Also moved CAUTIOUS before AGGRESSIVE in priority. Ran 42 runs: 14 periods x 3 position sizes (10/20/30).
 
+*Note: Absolute numbers are from pre-realism runs (before Experiment 7). The relative comparisons (original vs fixed regime) still illustrate the tradeoff.*
+
 **Result:** Mixed. Helped some periods, hurt others. Net negative for Mix.
 
 | Period | Original Mix | Fixed Mix | Change |
@@ -129,12 +135,12 @@ The new CAUTIOUS trigger (`SPY below 200MA + vol > 22%`) fired too aggressively 
 
 **Result:** mp=10 is best for Mix/MixLLM. mp=20 is best for Value/Momentum/Balanced.
 
+*Note: These numbers are pre-bugfix (before Experiment 7 realistic execution). Post-bugfix numbers differ -- see Experiment 10.*
+
 | Strategy | mp=10 | mp=20 | mp=30 |
 |:---------|:-----:|:-----:|:-----:|
 | Mix | **+33.2%** | +22.7% | +13.7% |
 | MixLLM | **+30.3%** | +14.8% | +8.0% |
-
-*Note: These numbers are pre-bugfix (before Experiment 7 realistic execution). Post-bugfix numbers differ -- see Experiment 10.*
 | Momentum | +30.3% | **+31.1%** | +6.9% |
 | Value | +23.5% | **+24.8%** | +6.0% |
 
@@ -155,7 +161,7 @@ From deep-dive analysis of Post GFC decision logs:
 
 2. **Sell-low-rebuy-high cycle:** 127 instances of selling a stock then rebuying it at 11% higher average. REGN: sold at $26.48, rebought at $66.60 (+151% higher).
 
-3. **Monthly rotation kills compounding:** Full portfolio rotation every month resets positions to day-zero, making them vulnerable to stops before gains compound.
+3. **Frequent rotation kills compounding:** Full portfolio rotation on rebalance days resets positions to day-zero, making them vulnerable to stops before gains compound.
 
 4. **LLM defensive bias in recoveries:** All 5 MixLLM escalations in Post GFC were toward defensive. Every one was wrong — elevated vol in a recovery is normal, not a sell signal.
 
@@ -184,9 +190,9 @@ The data exists (Capitol Trades, QuiverQuant, Unusual Whales) but has a fatal fl
 | NANC (copy Democrats) | +18.0% | +1.1% | 1.07 |
 | KRUZ (copy Republicans) | +13.5% | -3.4% | 0.97 |
 | SPY | +16.9% | -- | 1.11 |
-| **Our MixLLM** | **+39.1%** | **+22.2%** | **0.94** |
+| **Our MixLLM** | **+39.1%** | **+21.6%** | **1.186** |
 
-NANC and KRUZ are real ETFs that systematically copy congressional trades. Neither beats SPY on a risk-adjusted basis (lower Sharpe ratios). Our MixLLM strategy returns 2x what NANC does.
+NANC and KRUZ are real ETFs that systematically copy congressional trades. Neither beats SPY on a risk-adjusted basis (lower Sharpe ratios). Our MixLLM strategy returns 2x what NANC does and has a higher Sharpe ratio than both SPY and the congressional ETFs.
 
 **Why it doesn't work:**
 
@@ -301,12 +307,14 @@ Format: return% (Sharpe)
 
 **Overall best:** Biweekly (avg Sharpe 0.983 across top 5 strategies) barely edges monthly (0.979). Weekly is worst (0.705).
 
-**Decision:** Use biweekly as default for Balanced and Adaptive (clear winners). Monthly remains best for Momentum, Mix, EventDriven. Added --frequency CLI flag to override per run.
+*Note: The raw numbers above were from pre-B1 runs. After the B1 bug fix, biweekly became best for Mix as well (not just Balanced/Adaptive). The decision below reflects the post-fix results.*
+
+**Decision:** Use biweekly as default. Biweekly is the best frequency for Balanced, Adaptive, and Mix (after B1 fix). Monthly remains best for Momentum and EventDriven. Added --frequency CLI flag to override per run.
 
 **Lessons:**
 - Biweekly catches dips faster than monthly in volatile markets (Balanced +18.9% vs +11.7%)
 - Weekly generates too much turnover, hurting most strategies
-- Monthly is actually best for strategies that rely on trend persistence (Momentum, Mix)
+- Monthly is best for strategies that rely on trend persistence (Momentum)
 - The optimal frequency depends on strategy personality, not just on the market
 
 ---
@@ -378,7 +386,9 @@ Format: return% (Sharpe)
 
 **Question:** Do trailing stops and anti-churn guards improve results?
 
-**Setup:** Tested 4 combos across 3 periods, then the winner across 14 periods:
+**Setup:** Tested 4 combos across 3 periods, then the winner across 14 periods.
+
+*Note: The 14-period baseline (~33.6%) is from mid-experiment runs before all bug fixes were finalized. Final canonical Mix return is +34.9%.*
 
 | Combo | 3-Period Sharpe | 14-Period Return | Verdict |
 |:------|:--------------:|:----------------:|:--------|

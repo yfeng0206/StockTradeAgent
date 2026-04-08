@@ -98,26 +98,30 @@ Tested across 25 years of market data (2000-2026), covering dot-com crash, GFC, 
 
 ## Position Size Comparison
 
-Tested with regime_stickiness=3, fixed regime detection.
+Revalidated under realistic execution (premarket, biweekly, stickiness=1). See [Experiment 10](experiments/README.md#experiment-10-position-size-revalidation-2026-04-03).
 
 <div align="center">
 
-| Strategy | mp=10 | mp=20 | mp=30 |
-|:---------|:-----:|:-----:|:-----:|
-| **Mix** | **+33.2%** | +22.7% | +13.7% |
-| **MixLLM** | **+30.3%** | +14.8% | +8.0% |
-| **Adaptive** | **+36.2%** | +17.7% | +6.0% |
-| **Momentum** | +30.3% | **+31.1%** | +6.9% |
-| **Value** | +23.5% | **+24.8%** | +6.0% |
-| **Balanced** | +26.9% | **+34.1%** | -2.0% |
+| Strategy | mp=10 | mp=20 | Winner |
+|:---------|:-----:|:-----:|:------:|
+| **MixLLM** | 13.0% (0.888) | 4.7% (0.545) | **mp=10** |
+| **Mix** | 16.4% (1.037) | 10.6% (0.855) | **mp=10** |
+| **Adaptive** | 19.7% (0.939) | 9.8% (0.584) | **mp=10** |
+| **Momentum** | 16.8% (1.076) | 14.2% (1.009) | **mp=10** |
+| **Balanced** | 11.7% (0.891) | 8.1% (0.726) | **mp=10** |
+| **Value** | 12.1% (0.960) | 8.3% (0.690) | **mp=10** |
 
 </div>
 
-**Conclusion:** mp=10 is optimal for Mix/MixLLM (concentration = alpha). mp=20 is better for Value/Momentum/Balanced (diversification helps).
+Format: return% (Sharpe). 7-period averages (2019-2026).
+
+**Conclusion:** mp=10 is optimal for all strategies under realistic execution. Concentration drives alpha.
 
 ---
 
 ## Opus vs Sonnet (MixLLM model comparison)
+
+*Note: These numbers are from pre-realism runs ([Experiment 1](experiments/README.md#experiment-1-opus-vs-sonnet-for-mixllm-2026-03-30)). The relative Opus vs Sonnet comparison holds -- Opus is better in bear markets.*
 
 <div align="center">
 

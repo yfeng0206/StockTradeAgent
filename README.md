@@ -121,7 +121,7 @@ python tools/daily_collect.py
 | `MIXLLM_MODEL` | **opus** | Tested Opus vs Sonnet. Opus better in crashes |
 | `--cash` | **100000** | Scales linearly |
 | `--exec-model` | **premarket** | Pre-market aware execution (default) |
-| `--frequency` | **biweekly** | Biweekly rebalance cadence |
+| `--frequency` | **biweekly** | Recommended. Code default is per-strategy (monthly) if omitted |
 | `--slippage` | **0.0005** | 5 basis points per trade |
 
 </div>
@@ -193,7 +193,7 @@ Tuesday 4:00 PM                      Wednesday
 | **Adaptive** | Switches mode by regime | +32.6% | Strong trends |
 | **Momentum** | 12-minus-1 month signal, trend following | +27.9% | Bull markets |
 | **Balanced** | Regime-weighted value + momentum blend | +26.2% | All-weather |
-| **Value** | Low vol, beaten-down quality, quarterly rebalance | +20.3% | Steady markets |
+| **Value** | Low vol, beaten-down quality | +20.3% | Steady markets |
 | **Defensive** | 3-state exposure (100%/50%/20%) | +14.2% | Limiting drawdowns |
 | **EventDriven** | Trades only around earnings and 8-K filings | +5.2% | Catalyst-rich periods |
 | **Commodity** | Oil tracker (USO/XLE), binary signal | +3.7% | Bear markets, inflation |

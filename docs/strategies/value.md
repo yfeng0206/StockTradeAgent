@@ -22,7 +22,7 @@ composite = vol_score * 0.30 + value_score * 0.30 + rsi_score * 0.20 + stability
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | **Quarterly** (every 3 months) |
+| Rebalance | **Biweekly** (code default: quarterly) |
 | ATR Stop | **3.0x** (widest -- very patient) |
 | Trim Target | 30% profit |
 | Max Positions | 5 |
@@ -42,12 +42,12 @@ composite = vol_score * 0.30 + value_score * 0.30 + rsi_score * 0.20 + stability
 
 ## When It Works Best
 
-- **Steady bull markets** (2019: +38.9%)
-- **Post-crash recoveries** (Post GFC: +57.6%)
+- **Steady bull markets** (2019: +29.3%)
+- **Post-crash recoveries** (Post GFC: +54.0%)
 - Markets where quality companies are temporarily cheap
 
 ## When It Struggles
 
-- **Fast crashes** (GFC: -33.7%) -- holds through the fall
+- **Fast crashes** (GFC: -33.0%) -- holds through the fall
 - **Momentum-driven markets** (2023 AI: underperforms Momentum)
-- Quarterly rebalance means slow to react
+- Low-conviction scorer means slow to react to momentum shifts

@@ -34,7 +34,7 @@ Decision: score > 4 = BUY, score < 3 = CASH
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly |
+| Rebalance | Biweekly (code default: monthly) |
 | ATR Stop | 2.5x |
 | Trim Target | 50% |
 | Max Positions | 1 |
@@ -42,15 +42,15 @@ Decision: score > 4 = BUY, score < 3 = CASH
 
 ## When It Works Best
 
-- **Bear markets** (2022: +24.7%, GFC: +22.7%) -- oil often moves opposite to stocks
-- **Inflation/geopolitical** periods (2025: +23.4%)
+- **Bear markets** (GFC: +27.6%, 2022: +8.5%) -- oil often moves opposite to stocks
+- **Post Dot-com** recovery (+20.5%)
 - As a **hedge** against stock-heavy strategies
 
 ## When It Struggles
 
-- **Bull markets** (2019: -3.2%, QE Bull: -8.7%) -- oil lags stocks
+- **Bull markets** (2019: -0.1%, QE Bull: -14.1%) -- oil lags stocks
 - **Oil crashes** (when stocks AND oil fall together)
-- Low returns on average (+5.7%) -- it's a hedge, not a growth strategy
+- Low returns on average (+3.7%) -- it's a hedge, not a growth strategy
 
 ## Note
 

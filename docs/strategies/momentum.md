@@ -27,7 +27,7 @@ composite = mom_score * 0.40 + trend_score * 0.25 + macd_score * 0.20 + vol_scor
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly |
+| Rebalance | Biweekly (code default: monthly) |
 | ATR Stop | **2.5x** (faster exit than Value) |
 | Trim Target | **50%** (takes profits early) |
 | Max Positions | 5 |
@@ -47,12 +47,12 @@ composite = mom_score * 0.40 + trend_score * 0.25 + macd_score * 0.20 + vol_scor
 
 ## When It Works Best
 
-- **Strong bull markets** (QE Bull: +153.2%, 2023 AI: +42.1%)
+- **Strong bull markets** (QE Bull: +76.7%, Pre-COVID: +78.7%)
 - **Clear trends** where winners keep winning
 - Post-earnings drift opportunities
 
 ## When It Struggles
 
-- **Crashes** (GFC: -37.5%, 2022: -19.2%) -- trend reversal kills it
+- **Crashes** (GFC: -33.5%, 2022: -16.8%) -- trend reversal kills it
 - **Choppy/sideways** markets -- false breakouts trigger stops
-- Worst drawdown of all strategies: -47.4%
+- Worst drawdown of all strategies: -44.4%

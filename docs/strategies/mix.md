@@ -87,7 +87,7 @@ After testing stickiness=1/3/5 across all 14 periods, **stickiness=1 is best ove
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly |
+| Rebalance | Biweekly |
 | ATR Stop | 2.0x |
 | Trim Target | 40% |
 | Max Positions | **10** (highest -- for diversified allocation) |
@@ -108,12 +108,12 @@ After testing stickiness=1/3/5 across all 14 periods, **stickiness=1 is best ove
 ## When It Works Best
 
 - **Almost always** (beats SPY in 10 of 14 periods)
-- **Bull markets** (QE Bull: +94.7%, Post Dot-com: +92.3%, Pre-COVID: +81.8%)
-- **Transitions** (Bull-Rec: +26.4% while SPY lost -10.3%)
+- **Bull markets** (Pre-COVID: +126.1%, Housing Bull: +67.1%, QE Bull: +57.4%)
+- **Transitions** (Rec-Bull: +44.4% while SPY gained +24.2%)
 
 ## When It Struggles
 
-- **V-shaped recoveries** (Post GFC: +48.5% vs SPY +90.2%) -- slow to re-enter after going defensive
+- **V-shaped recoveries** (Post GFC: +53.3% vs SPY +84.3%) -- slow to re-enter after going defensive
 - The recovery problem is documented in [experiments](../experiments/README.md#experiment-3-regime-stickiness)
 
 ## Why It Beats Individual Strategies

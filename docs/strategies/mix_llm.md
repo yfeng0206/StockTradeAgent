@@ -86,7 +86,7 @@ Opus is the default. Better in crashes where it matters most.
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly |
+| Rebalance | Biweekly |
 | ATR Stop | 2.0x |
 | Trim Target | 40% |
 | Max Positions | 10 |
@@ -97,13 +97,13 @@ Opus is the default. Better in crashes where it matters most.
 
 ## When It Works Best
 
-- **Crashes** (Dot-com: -26.0%, GFC: -28.2%) -- the LLM limits losses vs SPY's -33.1% and -45.9%
-- **Bull markets** (+71.4% in QE Bull) -- confirms AGGRESSIVE, stays out of the way
+- **Crashes** (Dot-com: -0.6%, GFC: +16.5%) -- the LLM limits losses vs SPY's -33.4% and -45.1%
+- **Bull markets** (+59.5% in QE Bull) -- confirms AGGRESSIVE, stays out of the way
 - **Geopolitical crises** -- reads credit stress, safe-haven flows
 
 ## When It Struggles
 
-- **Recoveries** (Post GFC: +33.9%) -- LLM has defensive bias, slow to re-enter
+- **Recoveries** -- LLM has defensive bias, can be slow to re-enter (though Post GFC +90.7% is strong)
 - **Cost**: Insurance cost is now NEGATIVE -- MixLLM beats Mix by +4.2%, so the LLM adds value rather than costing returns
 - Non-deterministic (LLM varies between runs)
 

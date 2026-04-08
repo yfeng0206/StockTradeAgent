@@ -19,7 +19,7 @@ Click any strategy to see its exact scoring formula, signal thresholds, trigger 
 | Strategy | Avg Trades/Week | Style |
 |:---------|:--------------:|:------|
 | Commodity | 0.1 | Holds or cash, rarely trades |
-| Value | 1.4 | Patient, quarterly rebalance |
+| Value | 1.4 | Patient, low turnover |
 | Defensive | 2.0 | Moderate, sells on danger |
 | EventDriven | 2.9 | Active around earnings |
 | Balanced | 3.3 | Moderate-active |
@@ -30,14 +30,18 @@ Click any strategy to see its exact scoring formula, signal thresholds, trigger 
 
 ## Quick Comparison
 
+Default config uses `--frequency biweekly` which overrides all strategies' built-in defaults.
+
 | | Rebalance | ATR Stop | Max Pos | Scoring |
 |:--|:---------:|:--------:|:-------:|:--------|
-| **Value** | Quarterly | 3.0x | 5 | 30% low-vol + 30% distance-from-high + 20% RSI + 20% stability |
-| **Momentum** | Monthly | 2.5x | 5 | 40% 12m-1m + 25% trend + 20% MACD + 15% volume |
-| **Balanced** | Monthly | 2.0x | 5 | Regime-weighted: bull=60% momentum, bear=70% value |
-| **Defensive** | Monthly | 1.5x | 5 | 40% low-vol + 30% trend + 30% drawdown |
-| **EventDriven** | Monthly | 2.0x | 5 | 55% event + 25% volume spike + 20% momentum |
-| **Adaptive** | Monthly | 2.0x | 5 | Mode-dependent (4 modes, 4 scoring formulas) |
-| **Commodity** | Monthly | 2.5x | 1 | Binary: oil score > 4 = buy, < 3 = cash |
-| **Mix** | Monthly | 2.0x | 10 | Regime from 7 peers -> 5 allocation profiles |
-| **MixLLM** | Monthly | 2.0x | 10 | Mix regime + Opus can escalate defensiveness |
+| **Value** | Biweekly* | 3.0x | 5 | 30% low-vol + 30% distance-from-high + 20% RSI + 20% stability |
+| **Momentum** | Biweekly | 2.5x | 5 | 40% 12m-1m + 25% trend + 20% MACD + 15% volume |
+| **Balanced** | Biweekly | 2.0x | 5 | Regime-weighted: bull=60% momentum, bear=70% value |
+| **Defensive** | Biweekly | 1.5x | 5 | 40% low-vol + 30% trend + 30% drawdown |
+| **EventDriven** | Biweekly | 2.0x | 5 | 55% event + 25% volume spike + 20% momentum |
+| **Adaptive** | Biweekly | 2.0x | 5 | Mode-dependent (4 modes, 4 scoring formulas) |
+| **Commodity** | Biweekly | 2.5x | 1 | Binary: oil score > 4 = buy, < 3 = cash |
+| **Mix** | Biweekly | 2.0x | 10 | Regime from 7 peers -> 5 allocation profiles |
+| **MixLLM** | Biweekly | 2.0x | 10 | Mix regime + Opus can escalate defensiveness |
+
+*Value's code default is quarterly; all others default to monthly. The `--frequency biweekly` flag overrides all strategies in canonical results.

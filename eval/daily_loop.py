@@ -7,7 +7,7 @@ Replaces the old monthly-rebalance loop with a realistic daily workflow:
 
 Usage:
     python eval/daily_loop.py --period recession --max-positions 10
-    python eval/daily_loop.py --start 2025-01-02 --end 2026-03-24 --max-positions 10
+    python eval/daily_loop.py --period 2025_to_now --max-positions 10
 """
 
 import argparse
@@ -51,7 +51,7 @@ PERIODS = {
     "bull":              {"start": "2023-01-02", "end": "2023-12-29", "name": "2023 AI Rally"},
     "bull_to_recession": {"start": "2021-07-01", "end": "2022-06-30", "name": "Bull to Recession"},
     "recession_to_bull": {"start": "2022-10-01", "end": "2023-06-30", "name": "Recession to Bull"},
-    "2025_to_now":       {"start": "2025-01-02", "end": "2026-03-24", "name": "2025 Full Year to Now"},
+    "2025_to_now":       {"start": "2025-01-02", "end": datetime.now().strftime("%Y-%m-%d"), "name": "2025 to Now"},
 }
 
 UNIVERSE = [

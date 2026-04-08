@@ -66,7 +66,7 @@ Stock Research/
 │       ├── adaptive_strategy.py      Switches modes by regime
 │       ├── commodity_strategy.py     Oil tracking
 │       ├── mix_strategy.py           Regime-detecting multi-asset allocator
-│       └── mix_llm_strategy.py       LLM-powered regime detection (Claude Haiku)
+│       └── mix_llm_strategy.py       LLM-powered regime detection (Claude Opus)
 │
 ├── runs/                     # ALL output (sim + research)
 │   │
@@ -76,16 +76,18 @@ Stock Research/
 │   │   ├── trigger_log.json                 All triggers that fired
 │   │   ├── shared/                          SHARED (computed once for all strategies)
 │   │   │   ├── regime_log.json                Daily macro regime + news
-│   │   │   ├── consensus_log.json             Cross-strategy consensus signal
-│   │   │   └── conflict_log.json              Per-ticker signal contradictions
+│   │   │   ├── conflicts_raw.json             Per-ticker signal contradictions
+│   │   │   └── signals_raw.json               Raw signal data
 │   │   └── portfolios/                      PER-STRATEGY
 │   │       └── {Strategy}/
 │   │           ├── state.json                   Final portfolio
 │   │           ├── transactions.csv             Every trade (incl partial fills)
 │   │           ├── reasoning.json               WHY each trade + risk overlay notes
 │   │           ├── conviction_log.json          Bull/bear signal tally per stock
+│   │           ├── conflicts.json               Signal conflicts for this strategy
 │   │           ├── memory.json                  What strategy learned
 │   │           ├── history.json                 Daily value snapshots
+│   │           ├── regime_history.json          Regime classifications over time
 │   │           └── watchnotes.json              Active observations
 │   │
 │   └── research/                            # LIVE RESEARCH RUNS
@@ -111,7 +113,7 @@ python tools/daily_collect.py
 python eval/prefetch_prices.py
 
 # Single simulation (defaults: premarket exec, biweekly, mp=10)
-python eval/daily_loop.py --start 2025-01-02 --end 2026-03-24 --max-positions 10
+python eval/daily_loop.py --period 2025_to_now --max-positions 10
 
 # Override frequency
 python eval/daily_loop.py --period 2025_to_now --frequency monthly

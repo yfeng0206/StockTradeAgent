@@ -46,7 +46,7 @@ def load_shared_data(quick=False):
     """Download all price data once for the full date range."""
     print("Loading shared data (one-time download)...")
     all_tickers = list(set(UNIVERSE + BENCHMARKS + MACRO_ETFS))
-    price_data = download_data(all_tickers, "2019-01-02", "2026-03-24")
+    price_data = download_data(all_tickers, "2019-01-02", datetime.now().strftime("%Y-%m-%d"))
     events_cal = build_events_calendar(UNIVERSE, cache=True)
     print(f"Loaded {len(price_data)} tickers, {len(events_cal)} event calendars\n")
     return price_data, events_cal

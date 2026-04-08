@@ -32,7 +32,7 @@ composite = event_score * 0.55 + vol_score * 0.25 + mom_score * 0.20
 
 | Setting | Value |
 |:--------|:------|
-| Rebalance | Monthly + weekly event checks |
+| Rebalance | Biweekly (code default: monthly) + weekly event checks |
 | ATR Stop | 2.0x |
 | Trim Target | 35% |
 | Max Positions | 5 |
@@ -52,12 +52,12 @@ composite = event_score * 0.55 + vol_score * 0.25 + mom_score * 0.20
 
 ## When It Works Best
 
-- **Catalyst-rich periods** (2023 AI: +64.5%, Dot-com: +51.9%)
+- **Catalyst-rich periods** (2023 AI: +38.1%, Rec-Bull: +23.2%)
 - **Earnings season** -- highest trading frequency of all strategies
 - Markets with clear beat/miss patterns
 
 ## When It Struggles
 
-- **Bear markets** (2022: -27.0%) -- events don't help when everything drops
+- **Bear markets** (2022: -8.4%) -- events don't help when everything drops
 - **Quiet periods** with few earnings (returns near zero)
 - Hard event gate means often sitting in cash
