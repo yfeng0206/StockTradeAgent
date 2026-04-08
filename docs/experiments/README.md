@@ -283,39 +283,39 @@ End-to-end simulation results: ALL strategies showed **0.0% delta** between prox
 
 ---
 
-## Experiment 9: Rebalance Frequency (2026-04-03)
+## Experiment 9: Rebalance Frequency (2026-04-08, re-run after B1 fix)
 
 **Question:** Is weekly, biweekly, or monthly rebalancing best?
 
-**Setup:** Tested all 3 frequencies across 7 periods (2019-2026) with premarket exec model, mp=10, stickiness=1, slippage=5bps.
+**Setup:** Tested all 3 frequencies across 7 periods (2019-2026) with premarket exec model, mp=10, stickiness=1, slippage=5bps. Re-run after B1 bug fix (frequency override was previously dead code — all strategies were running monthly regardless of the flag).
 
-**Results:**
+**Results (post-B1 fix):**
 
 | Strategy | Weekly | Biweekly | Monthly | Best |
 |:---------|:------:|:--------:|:-------:|:----:|
-| Value | 6.2% (0.495) | 6.5% (0.491) | 6.6% (0.447) | Weekly |
-| Momentum | 10.3% (0.674) | 15.1% (0.906) | 16.8% (1.075) | Monthly |
-| Balanced | 14.8% (1.041) | 18.9% (1.263) | 11.7% (0.891) | **Biweekly** |
-| Defensive | 0.7% (0.093) | 2.9% (0.340) | 3.3% (0.418) | Monthly |
-| EventDriven | 7.1% (0.649) | 10.1% (0.818) | 15.8% (0.954) | Monthly |
-| Adaptive | 15.7% (0.713) | 22.2% (0.983) | 19.7% (0.939) | **Biweekly** |
-| Mix | 5.2% (0.447) | 15.0% (0.944) | 16.4% (1.037) | Monthly |
-| MixLLM | 5.7% (0.541) | 7.2% (0.570) | 11.4% (0.776) | Monthly |
-| Commodity | 5.5% (-0.069) | 1.0% (-0.013) | 7.1% (0.081) | Monthly |
+| Value | 6.9% (0.53) | 6.4% (0.48) | 6.2% (0.42) | Weekly |
+| Momentum | 12.8% (0.84) | 15.3% (0.93) | 13.2% (0.97) | Monthly |
+| Balanced | 13.2% (0.97) | 15.4% (1.09) | 8.1% (0.71) | **Biweekly** |
+| Defensive | 1.0% (0.15) | 2.7% (0.33) | 3.9% (0.49) | Monthly |
+| EventDriven | 8.5% (0.72) | 9.8% (0.83) | 12.2% (0.78) | **Biweekly** |
+| Adaptive | 17.0% (0.78) | 23.0% (1.02) | 19.3% (0.98) | **Biweekly** |
+| Mix | 14.6% (0.82) | 22.1% (1.20) | 15.9% (1.04) | **Biweekly** |
+| MixLLM | 16.1% (0.92) | 19.5% (1.24) | 11.3% (0.80) | **Biweekly** |
+| Commodity | 5.6% (-0.08) | 0.8% (-0.03) | 7.1% (0.08) | Monthly |
 
 Format: return% (Sharpe)
 
-**Overall best:** Biweekly (avg Sharpe 0.983 across top 5 strategies) barely edges monthly (0.979). Weekly is worst (0.705).
+**Overall best:** Biweekly wins 5/9 strategies (including both flagship strategies Mix and MixLLM). Average Sharpe across top 5: biweekly 1.10 vs monthly 0.90 vs weekly 0.87.
 
-*Note: The raw numbers above were from pre-B1 runs. After the B1 bug fix, biweekly became best for Mix as well (not just Balanced/Adaptive). The decision below reflects the post-fix results.*
+**Why biweekly helps MixLLM so much:** The LLM makes regime calls at each rebalance. With biweekly, it gets called twice per month — so when it detects a crisis (like the GFC in July 2007), MixLLM can act within 2 weeks instead of waiting for the next month. In a crash, 2 weeks = 10-15% of portfolio value.
 
-**Decision:** Use biweekly as default. Biweekly is the best frequency for Balanced, Adaptive, and Mix (after B1 fix). Monthly remains best for Momentum and EventDriven. Added --frequency CLI flag to override per run.
+**Decision:** Use biweekly as default (`--frequency biweekly`). Monthly is slightly better for pure trend-following (Momentum) and low-turnover (Defensive), but the flagship strategies benefit significantly from biweekly.
 
 **Lessons:**
-- Biweekly catches dips faster than monthly in volatile markets (Balanced +18.9% vs +11.7%)
-- Weekly generates too much turnover, hurting most strategies
-- Monthly is best for strategies that rely on trend persistence (Momentum)
-- The optimal frequency depends on strategy personality, not just on the market
+- The B1 bug fix was critical — previous results showed monthly best for Mix/MixLLM only because biweekly wasn't actually working
+- Biweekly lets consensus signals and LLM regime calls act faster
+- Weekly still generates too much turnover, hurting most strategies
+- Commodity prefers monthly (oil signals are slow-moving trends)
 
 ---
 
