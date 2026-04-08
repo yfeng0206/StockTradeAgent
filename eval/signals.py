@@ -34,6 +34,10 @@ class SignalEngine:
 
     def compute_all(self, ticker: str, date: str) -> dict:
         """Compute all available signals for a ticker on a date."""
+        # Prevent unbounded cache growth (C1 audit fix)
+        if len(self._signal_cache) > 10000:
+            self._signal_cache.clear()
+
         cache_key = (ticker, date)
         if cache_key in self._signal_cache:
             return self._signal_cache[cache_key]
@@ -127,6 +131,53 @@ class SignalEngine:
         for sector in sector_rets:
             sector_rets[sector] = round(np.mean(sector_rets[sector]), 2)
         result["sector_rotation"] = sector_rets
+
+        return result
+
+    def compute_breadth(self, date: str) -> dict:
+        """Compute market breadth from universe + HYG credit signal.
+
+        Measures what % of individual stocks are above key moving averages,
+        plus HYG high-yield credit stress/recovery.
+
+        Respects realistic/T-1 temporal gating via _get_series.
+        """
+        above_200 = 0
+        above_50 = 0
+        total = 0
+        for ticker, df in self.price_data.items():
+            if ticker in ("SPY", "QQQ", "ONEQ", "USO", "XLE", "GLD", "TLT", "HYG", "LQD"):
+                continue  # Skip ETFs, only count individual stocks
+            close = self._get_series(df, date, 252)
+            if close is None or len(close) < 200:
+                continue
+            total += 1
+            current = float(close.iloc[-1])
+            ma200 = float(close.rolling(200).mean().iloc[-1])
+            ma50 = float(close.rolling(50).mean().iloc[-1])
+            if current > ma200:
+                above_200 += 1
+            if current > ma50:
+                above_50 += 1
+
+        pct_200 = round(above_200 / total * 100, 1) if total > 0 else 50
+        pct_50 = round(above_50 / total * 100, 1) if total > 0 else 50
+
+        result = {
+            "pct_above_200ma": pct_200,
+            "pct_above_50ma": pct_50,
+            "breadth_recovering": pct_50 > 50 and pct_200 < 50,
+            "breadth_strong": pct_200 > 60,
+        }
+
+        # HYG credit signal
+        if "HYG" in self.price_data:
+            hyg = self._get_series(self.price_data["HYG"], date, 60, "Close")
+            if hyg is not None and len(hyg) >= 21:
+                hyg_ret_1m = (float(hyg.iloc[-1]) / float(hyg.iloc[-21]) - 1) * 100
+                result["credit_stress"] = hyg_ret_1m < -3
+                result["credit_recovering"] = hyg_ret_1m > 2
+                result["hyg_ret_1m"] = round(hyg_ret_1m, 1)
 
         return result
 
@@ -290,7 +341,9 @@ class SignalEngine:
             return {"has_data": False}
 
         try:
-            sys.path.insert(0, os.path.dirname(__file__))
+            events_dir = os.path.dirname(__file__)
+            if events_dir not in sys.path:
+                sys.path.insert(0, events_dir)
             from events_data import compute_earnings_surprise_signal
             return compute_earnings_surprise_signal(self.events_calendar, ticker, date)
         except Exception:
@@ -322,7 +375,8 @@ class SignalEngine:
             # Fallback: direct file read (backward compatible)
             if not articles:
                 tools_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "tools")
-                sys.path.insert(0, tools_dir)
+                if tools_dir not in sys.path:
+                    sys.path.insert(0, tools_dir)
                 from gdelt_backfill import load_gdelt_for_sim, summarize_gdelt
                 articles = load_gdelt_for_sim(date, lookback_days=14)
 
@@ -331,7 +385,8 @@ class SignalEngine:
 
             # Compute geo_risk from articles (same logic regardless of source)
             tools_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "tools")
-            sys.path.insert(0, tools_dir)
+            if tools_dir not in sys.path:
+                sys.path.insert(0, tools_dir)
             from gdelt_backfill import summarize_gdelt
             summary = summarize_gdelt(articles)
             themes = summary.get("active_themes", [])
@@ -476,7 +531,10 @@ class SignalEngine:
             return None
         series = df.loc[mask, col].tail(lookback)
 
-        # Premarket: append estimated 9:00 AM price for Close series only
+        # Premarket: append estimated 9:00 AM price for Close series only.
+        # Not lookahead: Open is known at market open (9:30 AM), which is before
+        # any trading decisions execute. We use mask_t (<=date) to get today's Open,
+        # while the T-1 mask above excluded today for Close-based signals.
         if self.exec_model == "premarket" and col == "Close":
             mask_t = df.index <= pd.Timestamp(date)
             if mask_t.any() and "Open" in df.columns:

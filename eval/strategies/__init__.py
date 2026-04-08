@@ -7,3 +7,6 @@ from .adaptive_strategy import AdaptiveStrategy
 from .commodity_strategy import CommodityStrategy
 from .mix_strategy import MixStrategy
 from .mix_llm_strategy import MixLLMStrategy
+from .mix_llm_v1_strategy import MixLLMV1Strategy
+from .mix_llm_v2_strategy import MixLLMV2Strategy
+from .mix_llm_v3_strategy import MixLLMV3Strategy

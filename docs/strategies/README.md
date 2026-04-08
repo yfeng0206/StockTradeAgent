@@ -4,15 +4,15 @@ Click any strategy to see its exact scoring formula, signal thresholds, trigger 
 
 | Strategy | Approach | Avg Return | Best At |
 |:---------|:---------|:---------:|:--------|
-| [**Mix**](mix.md) | Uses 7 peers as live sensors, multi-asset allocation | +33.6% | Best overall |
-| [**MixLLM**](mix_llm.md) | Mix + Claude Opus risk monitor | +26.0% | Crash protection |
-| [**Adaptive**](adaptive.md) | Switches mode by market regime | +29.2% | Trend transitions |
-| [**Momentum**](momentum.md) | 12-minus-1 month signal, trend following | +27.8% | Bull markets |
-| [**Balanced**](balanced.md) | Regime-weighted blend of value + momentum | +23.8% | All-weather |
-| [**Value**](value.md) | Low volatility, beaten-down quality | +18.0% | Steady markets |
-| [**EventDriven**](event_driven.md) | Trades only around earnings and 8-K filings | +8.0% | Catalyst periods |
-| [**Defensive**](defensive.md) | 3-state exposure scaling | +13.7% | Crash protection |
-| [**Commodity**](commodity.md) | Oil tracker, binary signal | +7.6% | Bear markets |
+| [**MixLLM**](mix_llm.md) | Mix + Claude Opus risk monitor | +39.1% | Best overall |
+| [**Mix**](mix.md) | Uses 7 peers as live sensors, multi-asset allocation | +34.9% | Multi-asset allocation |
+| [**Adaptive**](adaptive.md) | Switches mode by market regime | +32.6% | Trend transitions |
+| [**Momentum**](momentum.md) | 12-minus-1 month signal, trend following | +27.9% | Bull markets |
+| [**Balanced**](balanced.md) | Regime-weighted blend of value + momentum | +26.2% | All-weather |
+| [**Value**](value.md) | Low volatility, beaten-down quality | +20.3% | Steady markets |
+| [**Defensive**](defensive.md) | 3-state exposure scaling | +14.2% | Crash protection |
+| [**EventDriven**](event_driven.md) | Trades only around earnings and 8-K filings | +5.2% | Catalyst periods |
+| [**Commodity**](commodity.md) | Oil tracker, binary signal | +3.7% | Bear markets |
 
 ## Trading Frequency
 

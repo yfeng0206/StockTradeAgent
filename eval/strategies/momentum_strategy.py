@@ -24,9 +24,11 @@ class MomentumStrategy(BaseStrategy):
 
     @property
     def rebalance_frequency(self) -> str:
+        if hasattr(self, '_frequency_override') and self._frequency_override:
+            return self._frequency_override
         return "monthly"
 
-    def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
+    def score_stocks(self, universe: list, price_data: dict, date: str, **kwargs) -> list:
         scores = []
         for ticker in universe:
             if ticker not in price_data or price_data[ticker].empty:

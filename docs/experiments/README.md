@@ -34,7 +34,7 @@ Record of experiments that were tested and what we learned. Runs are archived in
 
 **Setup:** Built MultiCommodityStrategy with CTA-style signals (multi-timeframe MAs, Donchian breakout, RSI, seasonality, cross-commodity ratios, inverse-vol sizing). Ran ablation: all, energy, metals, precious, industrial, food.
 
-**Result:** No group beat the top stock strategies on average. Precious metals (+9.7%) was best but still below Mix (+36.7%). Food was useless (-0.4%). "All" diversification (+2.2%) was worse than focused groups.
+**Result:** No group beat the top stock strategies on average. Precious metals (+9.7%) was best but still below MixLLM (+39.1%). Food was useless (-0.4%). "All" diversification (+2.2%) was worse than focused groups.
 
 | Group | Avg Return | vs Old Oil-Only |
 |:------|:---------:|:---------------:|
@@ -133,6 +133,8 @@ The new CAUTIOUS trigger (`SPY below 200MA + vol > 22%`) fired too aggressively 
 |:---------|:-----:|:-----:|:-----:|
 | Mix | **+33.2%** | +22.7% | +13.7% |
 | MixLLM | **+30.3%** | +14.8% | +8.0% |
+
+*Note: These numbers are pre-bugfix (before Experiment 7 realistic execution). Post-bugfix numbers differ -- see Experiment 10.*
 | Momentum | +30.3% | **+31.1%** | +6.9% |
 | Value | +23.5% | **+24.8%** | +6.0% |
 
@@ -159,6 +161,8 @@ From deep-dive analysis of Post GFC decision logs:
 
 5. **Regime detection is backward-looking:** The `cash_heavy_count >= 4` rule means Mix sells when peers sell — by definition at the worst time.
 
+Issue 1 (stop-losses too tight) and Issue 2 (sell-low-rebuy-high) were partially addressed by Chandelier Exit and Cooldown Timer (Experiment 13), but these proved net negative across 14 periods. The issues remain open.
+
 These are potential areas for future improvement.
 
 ---
@@ -180,9 +184,9 @@ The data exists (Capitol Trades, QuiverQuant, Unusual Whales) but has a fatal fl
 | NANC (copy Democrats) | +18.0% | +1.1% | 1.07 |
 | KRUZ (copy Republicans) | +13.5% | -3.4% | 0.97 |
 | SPY | +16.9% | -- | 1.11 |
-| **Our Mix** | **+36.7%** | **+19.4%** | **0.94** |
+| **Our MixLLM** | **+39.1%** | **+22.2%** | **0.94** |
 
-NANC and KRUZ are real ETFs that systematically copy congressional trades. Neither beats SPY on a risk-adjusted basis (lower Sharpe ratios). Our Mix strategy returns 2x what NANC does.
+NANC and KRUZ are real ETFs that systematically copy congressional trades. Neither beats SPY on a risk-adjusted basis (lower Sharpe ratios). Our MixLLM strategy returns 2x what NANC does.
 
 **Why it doesn't work:**
 
@@ -192,7 +196,7 @@ NANC and KRUZ are real ETFs that systematically copy congressional trades. Neith
 4. **Academics confirm** — post-STOCK Act (2012), no statistically significant alpha (NBER Working Paper w26975)
 5. **Sector tilt explains "alpha"** — congress members are heavy in tech/NVDA, which did well in 2023-2024 regardless
 
-**Decision:** Not worth integrating. The signal is too delayed, too noisy, and academically debunked. Our coded strategies already beat congressional trading by 2x.
+**Decision:** Not worth integrating. The signal is too delayed, too noisy, and academically debunked. Our coded strategies already beat congressional trading by 2x+.
 
 **Sources:**
 - NANC/KRUZ ETF data (etf.com, Morningstar)
@@ -339,3 +343,57 @@ Format: return% (Sharpe)
 **Result:** Most strategies identical across all values. Mix and MixLLM get significantly worse: Mix drops from 16.4% to 9.0% (stk=5), MixLLM from 12.9% to -0.2%.
 
 **Decision:** stickiness=1 confirmed. Same as Experiment 3.
+
+---
+
+## Experiment 12: LLM Strategy Variants (2026-04-07)
+
+**Question:** Can we improve MixLLM by changing how the LLM is used?
+
+**Setup:** Tested 7 configs across 3 periods (COVID Crash, 2022 Bear, 2023 AI Rally) with Opus, biweekly, premarket:
+
+| Config | Description | How LLM is used |
+|:-------|:-----------|:---------------|
+| NoLLM | Plain Mix, no LLM | Coded rules only |
+| V0 | Original MixLLM | Escalate defensiveness only |
+| V1 | Recovery detector | De-escalate only (flip of V0) |
+| V2 | News interpreter | LLM reads news, adjusts scores |
+| V3 | Event-triggered | Bidirectional, only on regime changes |
+| V1+V2 | Recovery + news | Combined |
+| V2+V3 | Event + news | Combined |
+
+**Result:** V0 (original) had the best Sharpe ratio. None of the variants beat it.
+
+**Decision:** Keep V0 as default. The escalate-only constraint, while it costs returns in bulls, provides the most consistent risk-adjusted performance. V1/V2/V3 files kept as experimental for future research.
+
+**Lessons:**
+- The LLM's value is specifically in crisis detection, not recovery detection or news interpretation
+- Bidirectional LLM (V3) introduces too much noise -- the LLM's opinions on direction are not reliable enough
+- News interpretation (V2) didn't add signal -- our coded scoring already captures most of what news provides
+- The original design (escalate-only) was correct: use LLM for what it's uniquely good at (crisis pattern recognition)
+
+---
+
+## Experiment 13: Chandelier Exit + Cooldown Timer (2026-04-07)
+
+**Question:** Do trailing stops and anti-churn guards improve results?
+
+**Setup:** Tested 4 combos across 3 periods, then the winner across 14 periods:
+
+| Combo | 3-Period Sharpe | 14-Period Return | Verdict |
+|:------|:--------------:|:----------------:|:--------|
+| none | 1.080 | ~33.6% | Baseline |
+| ch only | 0.744 | -- | Worse |
+| cd only | 0.962 | -- | Slightly worse |
+| ch+cd | 1.267 | 14.8% | Won 3-period, LOST 14-period |
+
+**Result:** Chandelier + Cooldown improved Sharpe on 3 volatile test periods but **halved returns** across 14 periods. The 21-day minimum holding period prevents adapting to regime changes in sustained trends.
+
+**Decision:** Keep both features as OFF-by-default toggles (`--chandelier`, `--cooldown`). Do not enable by default. The coded stop-loss and rebalance system works better without these guards.
+
+**Lessons:**
+- 3-period test set was biased toward volatile markets where cooldown helps
+- In sustained trends (QE Bull, Pre-COVID), cooldown locks positions too long
+- Chandelier Exit alone hurt -- wider trailing stops meant bigger losses when stops finally hit
+- Classic overfitting: optimizing on a subset doesn't generalize
+- The original stop-loss + biweekly rebalance is already a good balance

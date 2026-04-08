@@ -33,6 +33,8 @@ class AdaptiveStrategy(BaseStrategy):
 
     @property
     def rebalance_frequency(self) -> str:
+        if hasattr(self, '_frequency_override') and self._frequency_override:
+            return self._frequency_override
         return "monthly"
 
     def _detect_mode(self, price_data: dict, date: str) -> str:
@@ -95,7 +97,7 @@ class AdaptiveStrategy(BaseStrategy):
         else:
             return "MOMENTUM"  # default to momentum
 
-    def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
+    def score_stocks(self, universe: list, price_data: dict, date: str, **kwargs) -> list:
         # Detect mode
         new_mode = self._detect_mode(price_data, date)
         if new_mode != self.current_mode:

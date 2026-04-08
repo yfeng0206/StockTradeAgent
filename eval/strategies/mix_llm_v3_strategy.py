@@ -1,13 +1,14 @@
-"""Mix LLM Strategy v2 — Enhanced regime detection with rich market context.
+"""Mix LLM V3 Strategy — Bidirectional LLM, event-triggered only.
 
-Major upgrade from v1:
-- Sends sector rotation, safe havens, bonds, oil detail, news, regime history
-- Uses Opus by default (configurable via MIXLLM_MODEL env var)
-- Supports Anthropic SDK (ANTHROPIC_API_KEY) or Claude CLI subprocess
-- Gives LLM the same quality of data a human analyst would use
-- Falls back to coded rules if LLM call fails
-
-Only calls LLM on rebalance days (~10-15 calls per period, not every day).
+Key differences from MixLLM (v2):
+- LLM is NOT called on every rebalance — only on trigger events:
+  1. Regime CHANGED from last detection (e.g., AGGRESSIVE -> CAUTIOUS)
+  2. Portfolio drawdown > 10% from peak
+  3. Market breadth divergence (if breadth data available)
+- BIDIRECTIONAL: LLM can move regime in EITHER direction (more aggressive OR more defensive)
+  — no escalate-only constraint
+- Same extended market sensing, same SDK/CLI infrastructure, same formatting
+- Falls back to coded rules if no trigger fires (saves cost — most rebalances use coded rules)
 """
 
 import json
@@ -59,46 +60,41 @@ SECTOR_PROXIES = {
     "industrial": ["CAT", "BA", "HON", "DE"],
 }
 
-# Expert knowledge prompt — LLM acts as RISK MONITOR (defensive escalation only)
-EXPERT_KNOWLEDGE = """You are a RISK MONITOR for a multi-strategy trading system.
+# Expert knowledge prompt — LLM is the BIDIRECTIONAL TIE-BREAKER at critical moments
+EXPERT_KNOWLEDGE = """You are called ONLY at critical moments — regime transitions or significant drawdowns. Your judgment on direction (more aggressive or more defensive) will be followed. Be thoughtful — you're the tie-breaker, not the default.
 
-A coded decision tree has classified the current regime (usually AGGRESSIVE).
-The coded rules work well — they correctly stay AGGRESSIVE in bull markets and the
-momentum stock picker naturally finds sector winners (including energy in oil rallies).
+A coded decision tree has classified the current regime. You are being called because something CHANGED — either the coded regime just shifted, the portfolio hit a significant drawdown, or market breadth is diverging from price action.
 
-YOUR ROLE: Decide if the coded regime should be ESCALATED to a more defensive posture.
-The system will IGNORE any attempt to make the regime LESS defensive.
-You can only move the needle toward: CAUTIOUS → DEFENSIVE (not the other way).
+YOUR ROLE: Decide what the regime SHOULD be. You can move it in EITHER direction:
+- More aggressive (if the coded rules are too scared)
+- More defensive (if the coded rules are too optimistic)
+- Confirm the coded regime (if it's right)
 
-## WHEN TO CONFIRM (most of the time — 80%+):
-- If SPY is above both MAs and vol is low → CONFIRM. Gold rising alone is not enough to override.
-- If the coded rules say AGGRESSIVE and the stock market is broadly healthy → CONFIRM.
-- Mixed signals with no clear crisis → CONFIRM. Don't second-guess without crisis-level evidence.
-- Rising geo_risk alone is NOT enough. It needs to be paired with market damage (SPY below MAs, sectors collapsing).
-- The momentum stock picker handles sector rotation automatically — it finds energy winners in energy-led markets.
+## WHEN TO CONFIRM (default — unless you have strong evidence):
+- If the coded regime change looks justified by the data → CONFIRM.
+- If the drawdown triggered this call but the market is broadly healthy → CONFIRM the coded regime.
+- Mixed signals with no clear direction → CONFIRM. Don't add noise.
 
-## WHEN TO ESCALATE TO CAUTIOUS (rare — genuine transition):
-- SPY dropped below 50ma AND oil is outperforming SPY by >15% over 3 months
-- Gold up >15% (3m) AND safe havens rising AND breadth narrowing below 3 sectors
-- Coded says AGGRESSIVE but the market is clearly turning — not just a dip, but a structural shift
-- This is a WARNING call, not a panic call
+## WHEN TO OVERRIDE MORE AGGRESSIVE:
+- Coded rules shifted to CAUTIOUS/DEFENSIVE but the selloff looks like a buying opportunity
+- A sharp drawdown triggered this call, but breadth is healthy, credit is fine, and the dip is technical
+- Multiple strategies still making money despite the scare — false alarm signals
+- Recovery is underway but coded rules haven't caught up yet (lagging indicators)
 
-## WHEN TO ESCALATE TO DEFENSIVE (very rare — genuine crisis):
-- Oil surging >30% in 3 months AND SPY below BOTH MAs (commodity shock / supply disruption)
-- Gold surging AND treasuries surging AND HYG falling (classic flight to safety)
-- Energy is the ONLY positive sector AND geo_risk > 0.5 AND SPY in drawdown > -5%
-- Multiple strategies heavy in cash (4+) AND Defensive in DEFENSE mode
-- This is a CRISIS call — Q1 2026 Hormuz, COVID crash, 2022 bear territory
-- DEFENSIVE allocates 30% commodity, 50% cash — this captures oil spikes
+## WHEN TO OVERRIDE MORE DEFENSIVE:
+- Coded rules stayed AGGRESSIVE but safe havens are surging and credit is deteriorating
+- Oil is outperforming SPY by >15% over 3 months — commodity shock the rules haven't caught
+- Energy is the ONLY positive sector AND geo_risk is elevated
+- Multiple strategies heavy in cash — peer consensus says de-risk
+- Classic flight-to-safety pattern: Gold up, Treasuries up, HYG down
 
 ## KEY LESSON FROM BACKTESTING:
-- In 2025, the coded rules stayed AGGRESSIVE and earned +24.4%. An LLM that constantly worried
-  about gold, geo_risk, and healthcare weakness would have earned only +7.3%.
-- In Q1 2026, DEFENSIVE would have captured the +28% oil trade, but the coded rules missed it.
-- The LLM's value is ONLY in catching genuine crises — NOT in being perpetually worried.
-- If you escalate when you shouldn't, you cost the portfolio 15%+ in missed bull market gains.
-- If you fail to escalate during a real crisis, you cost the portfolio 20%+ in losses.
-- The cost of false alarms is HIGHER than the cost of late detection. Be conservative with overrides.
+- In 2025 bull market, the coded rules stayed AGGRESSIVE and earned +24.4%.
+  An overly worried LLM would have cost 15%+ in missed gains.
+- In Q1 2026 Hormuz crisis, DEFENSIVE would have captured the +28% oil trade.
+  The coded rules missed the transition.
+- Your value is catching the inflection points — both bullish and bearish.
+- You are called rarely (only at trigger events), so each call matters.
 
 ## Regime allocations:
 - AGGRESSIVE: 90% stocks, 0% commodity, 10% cash
@@ -109,73 +105,158 @@ You can only move the needle toward: CAUTIOUS → DEFENSIVE (not the other way).
 
 ## Output format:
 Respond with ONLY a JSON object:
-{"regime": "AGGRESSIVE|CAUTIOUS|DEFENSIVE|RECOVERY|UNCERTAIN", "action": "CONFIRM|ESCALATE", "confidence": 0.0-1.0, "reasoning": "1-2 sentences. If ESCALATE, what crisis signal did the coded rules miss?"}"""
+{"regime": "AGGRESSIVE|CAUTIOUS|DEFENSIVE|RECOVERY|UNCERTAIN", "action": "CONFIRM|OVERRIDE", "confidence": 0.0-1.0, "reasoning": "1-2 sentences. What signal justifies your call?"}"""
 
 
-class MixLLMStrategy(MixStrategy):
-    """Mix strategy with enhanced LLM-powered regime detection (v2)."""
+class MixLLMV3Strategy(MixStrategy):
+    """Mix strategy with bidirectional, event-triggered LLM regime detection (v3)."""
 
     def __init__(self, initial_cash=100_000, events_calendar=None, max_positions=10,
                  regime_stickiness=1):
         super().__init__(initial_cash, events_calendar, max_positions,
                          regime_stickiness=regime_stickiness)
-        self.name = "MixLLM"
+        self.name = "MixLLM_V3"
         self._llm_call_count = 0
         self._llm_fallback_count = 0
         self._llm_log = []  # log every LLM call for debugging
 
+        # V3-specific: trigger tracking
+        self._last_regime_for_trigger = None  # last coded regime (to detect changes)
+        self._peak_value = 0.0               # peak portfolio value (for drawdown calc)
+
+    # ================================================================
+    # TRIGGER DETECTION — should we call the LLM?
+    # ================================================================
+    def _is_trigger_event(self, coded_regime, price_data, date, breadth=None):
+        """Check if this rebalance warrants an LLM call.
+
+        Returns (is_trigger: bool, reasons: list[str]).
+        Only calls LLM when something meaningful changed.
+        """
+        reasons = []
+
+        # 1. Regime changed from last detection
+        if self._last_regime_for_trigger is not None and coded_regime != self._last_regime_for_trigger:
+            reasons.append(
+                f"Regime changed: {self._last_regime_for_trigger} -> {coded_regime}"
+            )
+
+        # 2. Portfolio drawdown > 10% from peak
+        if self.portfolio_history:
+            current_value = self.portfolio_history[-1].get("total_value", 0)
+            if current_value > self._peak_value:
+                self._peak_value = current_value
+            if self._peak_value > 0:
+                drawdown_pct = (current_value - self._peak_value) / self._peak_value * 100
+                if drawdown_pct < -10:
+                    reasons.append(
+                        f"Portfolio drawdown {drawdown_pct:.1f}% from peak "
+                        f"(peak=${self._peak_value:,.0f}, current=${current_value:,.0f})"
+                    )
+
+        # 3. Market breadth divergence (if breadth data available)
+        if breadth:
+            pct_above_200 = breadth.get("pct_above_200ma", 50)
+            pct_above_50 = breadth.get("pct_above_50ma", 50)
+            # SPY going up but breadth is narrow — divergence
+            market = self._sensor_readings.get("market", {})
+            spy_ret_1m = market.get("spy_ret_1m", 0)
+            if pct_above_50 < 40 and spy_ret_1m > 3:
+                reasons.append(
+                    f"Breadth divergence: SPY +{spy_ret_1m:.1f}% but only "
+                    f"{pct_above_50:.0f}% above 50MA, {pct_above_200:.0f}% above 200MA"
+                )
+            # SPY falling but breadth recovering
+            if breadth.get("breadth_recovering") and spy_ret_1m < -3:
+                reasons.append(
+                    f"Breadth recovering while SPY is down {spy_ret_1m:.1f}%"
+                )
+
+        return len(reasons) > 0, reasons
+
+    # ================================================================
+    # REGIME DETECTION — coded first, LLM only on trigger events
+    # ================================================================
     # Defensive ordering: higher = more defensive
     _DEFENSE_LEVEL = {
         "AGGRESSIVE": 0, "RECOVERY": 1, "UNCERTAIN": 2, "CAUTIOUS": 3, "DEFENSIVE": 4,
     }
 
     def _detect_regime(self, price_data, date, breadth: dict = None):
-        """Override: coded rules FIRST, then LLM can only ESCALATE defensiveness.
+        """Override: coded rules FIRST, then LLM ONLY on trigger events.
 
-        The coded rules work well 80%+ of the time and bias AGGRESSIVE (correct).
-        The LLM's value is catching genuine crises the rules miss.
-        LLM can make the regime MORE defensive, but CANNOT reduce defensiveness.
+        Unlike MixLLM v2 which calls LLM every rebalance:
+        - Most rebalances: just use coded regime (no LLM call, saves cost)
+        - Trigger events: call LLM with full context, accept bidirectional override
         """
         # Step 1: Get the coded regime from parent class (this also sets sensors)
         coded_regime = super()._detect_regime(price_data, date, breadth=breadth)
         peers = self._sensor_readings.get("peers", {})
         market = self._sensor_readings.get("market", {})
 
-        # Step 2: Compute extended market data (sectors, safe havens, bonds, oil)
+        # Step 2: Update peak value tracking
+        if self.portfolio_history:
+            current_value = self.portfolio_history[-1].get("total_value", 0)
+            if current_value > self._peak_value:
+                self._peak_value = current_value
+
+        # Step 3: Check if this is a trigger event
+        is_trigger, trigger_reasons = self._is_trigger_event(
+            coded_regime, price_data, date, breadth=breadth
+        )
+
+        # Always update the last regime for next trigger check
+        self._last_regime_for_trigger = coded_regime
+
+        # Step 4: If NOT a trigger event, return coded regime (no LLM call)
+        if not is_trigger:
+            self._llm_log.append({
+                "date": date, "source": "coded_only", "regime": coded_regime,
+                "reason": "No trigger event — using coded regime",
+            })
+            return coded_regime
+
+        # Step 5: IS a trigger event — compute extended data and call LLM
         extended = self._sense_market_extended(price_data, date)
 
-        # Step 3: Build rich data payload including the coded regime
-        sensor_summary = self._format_sensors_for_llm_v2(
-            peers, market, extended, date, coded_regime=coded_regime)
+        sensor_summary = self._format_sensors_for_llm_v3(
+            peers, market, extended, date,
+            coded_regime=coded_regime, trigger_reasons=trigger_reasons,
+        )
 
-        # Step 4: Ask LLM to confirm or override
-        llm_regime = self._call_llm(sensor_summary, date)
+        llm_regime = self._call_llm(sensor_summary, date, trigger_reasons)
 
-        # Step 5: Apply directional filter — LLM can only escalate defensiveness
+        # Step 6: BIDIRECTIONAL — accept LLM's regime in either direction
         valid_regimes = set(REGIME_ALLOCATIONS.keys())
         if llm_regime not in valid_regimes:
             self._llm_fallback_count += 1
             self._llm_log.append({
                 "date": date, "source": "fallback", "regime": coded_regime,
                 "reason": "LLM returned invalid regime, using coded rules",
+                "trigger_reasons": trigger_reasons,
             })
             return coded_regime
 
         coded_level = self._DEFENSE_LEVEL.get(coded_regime, 2)
         llm_level = self._DEFENSE_LEVEL.get(llm_regime, 2)
 
-        if llm_level > coded_level:
-            # LLM is escalating defensiveness — accept (this is the value-add)
-            self._llm_log[-1]["action"] = "ESCALATE"
-            self._llm_log[-1]["note"] = f"Overrode {coded_regime} -> {llm_regime} (more defensive)"
+        if llm_regime == coded_regime:
+            self._llm_log[-1]["action"] = "CONFIRM"
+            return coded_regime
+        elif llm_level > coded_level:
+            # LLM says go MORE defensive
+            self._llm_log[-1]["action"] = "OVERRIDE_DEFENSIVE"
+            self._llm_log[-1]["note"] = (
+                f"LLM overrode {coded_regime} -> {llm_regime} (more defensive)"
+            )
             return llm_regime
         else:
-            # LLM is confirming or trying to go LESS defensive — use coded
-            self._llm_log[-1]["action"] = "CONFIRM" if llm_regime == coded_regime else "REJECTED"
-            if llm_regime != coded_regime:
-                self._llm_log[-1]["note"] = (
-                    f"LLM wanted {llm_regime} but coded={coded_regime} is more defensive, keeping coded")
-            return coded_regime
+            # LLM says go MORE aggressive — ACCEPTED in V3 (bidirectional)
+            self._llm_log[-1]["action"] = "OVERRIDE_AGGRESSIVE"
+            self._llm_log[-1]["note"] = (
+                f"LLM overrode {coded_regime} -> {llm_regime} (more aggressive)"
+            )
+            return llm_regime
 
     # ================================================================
     # EXTENDED MARKET SENSING — sectors, safe havens, bonds, oil detail
@@ -276,20 +357,41 @@ class MixLLMStrategy(MixStrategy):
         return r1m, r3m
 
     # ================================================================
-    # FORMAT — rich context for the LLM
+    # FORMAT — rich context for the LLM (V3: includes trigger reasons)
     # ================================================================
-    def _format_sensors_for_llm_v2(self, peers, market, extended, date, coded_regime=None):
-        """Format comprehensive market data for the LLM — same quality as human analysis."""
+    def _format_sensors_for_llm_v3(self, peers, market, extended, date,
+                                    coded_regime=None, trigger_reasons=None):
+        """Format comprehensive market data for the LLM — V3 includes trigger context."""
         lines = [f"Date: {date}", ""]
 
-        # === 0. Coded regime baseline ===
+        # === 0. WHY YOU WERE CALLED (trigger reasons) ===
+        lines.append("=== WHY YOU WERE CALLED ===")
+        if trigger_reasons:
+            for reason in trigger_reasons:
+                lines.append(f"  TRIGGER: {reason}")
+        else:
+            lines.append("  (No specific trigger — routine check)")
+        lines.append("")
+
+        # === 1. Coded regime baseline ===
         if coded_regime:
             lines.append(f"=== CODED REGIME CLASSIFICATION: {coded_regime} ===")
             lines.append(f"The rule-based decision tree classified this as {coded_regime}.")
-            lines.append("Your job: CONFIRM this or OVERRIDE with strong evidence from the data below.")
+            lines.append("Your job: CONFIRM this or OVERRIDE it (in either direction) with evidence.")
             lines.append("")
 
-        # === 1. Peer strategy signals ===
+        # === 2. Portfolio drawdown context ===
+        if self.portfolio_history:
+            current_value = self.portfolio_history[-1].get("total_value", 0)
+            if self._peak_value > 0:
+                dd_pct = (current_value - self._peak_value) / self._peak_value * 100
+                lines.append(f"=== PORTFOLIO STATUS ===")
+                lines.append(f"  Peak value: ${self._peak_value:,.0f}")
+                lines.append(f"  Current value: ${current_value:,.0f}")
+                lines.append(f"  Drawdown from peak: {dd_pct:.1f}%")
+                lines.append("")
+
+        # === 3. Peer strategy signals ===
         lines.append("=== STRATEGY SIGNALS (7 live trading strategies) ===")
         for name, ret in peers.get("strategy_returns", {}).items():
             lines.append(f"  {name}: return={ret:+.1f}%")
@@ -300,7 +402,7 @@ class MixLLMStrategy(MixStrategy):
         lines.append(f"  Strategies heavy in cash (>50% cash): {peers.get('cash_heavy_count', 0)} of 7")
         lines.append("")
 
-        # === 2. SPY / market data ===
+        # === 4. SPY / market data ===
         lines.append("=== SPY / BROAD MARKET ===")
         lines.append(f"  SPY above 50-day MA: {market.get('spy_above_50ma', '?')}")
         lines.append(f"  SPY above 200-day MA: {market.get('spy_above_200ma', '?')}")
@@ -311,10 +413,9 @@ class MixLLMStrategy(MixStrategy):
         lines.append(f"  Volatility trend: {extended.get('vol_trend', '?')}")
         lines.append("")
 
-        # === 3. Sector rotation ===
+        # === 5. Sector rotation ===
         lines.append("=== SECTOR ROTATION (1-month / 3-month returns) ===")
         sectors = extended.get("sectors", {})
-        # Sort by 3m return to show leaders/laggers clearly
         sorted_sectors = sorted(sectors.items(), key=lambda x: x[1].get("ret_3m", 0), reverse=True)
         for sector_name, data in sorted_sectors:
             lines.append(f"  {sector_name}: 1m={data.get('ret_1m', 0):+.1f}%, 3m={data.get('ret_3m', 0):+.1f}%")
@@ -323,7 +424,7 @@ class MixLLMStrategy(MixStrategy):
         lines.append(f"  Market breadth: {breadth}/{total_sectors} sectors positive (3m)")
         lines.append("")
 
-        # === 4. Safe havens ===
+        # === 6. Safe havens ===
         lines.append("=== SAFE HAVEN SIGNALS ===")
         for name, data in extended.get("safe_havens", {}).items():
             lines.append(f"  {name}: 1m={data.get('ret_1m', 0):+.1f}%, 3m={data.get('ret_3m', 0):+.1f}%")
@@ -343,7 +444,7 @@ class MixLLMStrategy(MixStrategy):
             lines.append("  SIGNAL: High yield bonds falling = credit stress / risk-off")
         lines.append("")
 
-        # === 5. Energy / Oil detail ===
+        # === 7. Energy / Oil detail ===
         lines.append("=== ENERGY / OIL DETAIL ===")
         lines.append(f"  Oil signal from market sensor: {'BULLISH' if market.get('oil_bullish') else 'BEARISH'}")
         for name, data in extended.get("energy_detail", {}).items():
@@ -358,27 +459,25 @@ class MixLLMStrategy(MixStrategy):
             lines.append(f"  WARNING: Oil outperforming SPY by {oil_3m - spy_3m:.0f}% (commodity dominance building)")
         lines.append("")
 
-        # === 6. News / Geopolitical context ===
+        # === 8. News / Geopolitical context ===
         lines.append("=== NEWS / GEOPOLITICAL CONTEXT ===")
         news_summary = getattr(self, '_last_news_summary', None)
         if news_summary:
             lines.append(f"  {news_summary}")
         else:
             lines.append("  No significant geopolitical news detected")
-        # Also check signal engine regime if available
         signal_regime = getattr(self, '_last_regime', None)
         if signal_regime and not signal_regime.startswith("mix:"):
             lines.append(f"  Signal engine macro regime: {signal_regime}")
         lines.append("")
 
-        # === 7. Your regime history (last 5 classifications) ===
+        # === 9. Your regime history (last 5 classifications) ===
         lines.append("=== YOUR REGIME HISTORY (recent classifications) ===")
         if self.regime_history:
             recent = self.regime_history[-5:]
             for entry in recent:
                 lines.append(f"  {entry['date']}: {entry.get('from', '?')} -> {entry.get('to', '?')}")
             lines.append(f"  Current regime: {self.detected_regime}")
-            # How long in current regime
             if len(self.regime_history) > 0:
                 last_change = self.regime_history[-1].get("date", "?")
                 lines.append(f"  Last regime change: {last_change}")
@@ -387,7 +486,7 @@ class MixLLMStrategy(MixStrategy):
             lines.append(f"  Starting regime: {self.detected_regime}")
         lines.append("")
 
-        # === 8. Key pattern alerts ===
+        # === 10. Key pattern alerts ===
         lines.append("=== KEY PATTERN ALERTS ===")
         alerts = []
 
@@ -441,6 +540,9 @@ class MixLLMStrategy(MixStrategy):
 
         return "\n".join(lines)
 
+    # ================================================================
+    # LLM CALL — same SDK/CLI infrastructure as v2
+    # ================================================================
     # Model selection — set via env var MIXLLM_MODEL (default: opus)
     LLM_MODEL = os.environ.get("MIXLLM_MODEL", "opus")
 
@@ -451,20 +553,30 @@ class MixLLMStrategy(MixStrategy):
         "haiku": "claude-haiku-4-5-20251001",
     }
 
-    def _call_llm(self, sensor_data, date):
-        """Call Claude for regime classification.
+    def _call_llm(self, sensor_data, date, trigger_reasons=None):
+        """Call Claude for regime classification — only at trigger events.
 
         Uses Anthropic SDK if ANTHROPIC_API_KEY is set (no browser tabs).
         Falls back to Claude CLI subprocess otherwise.
         """
+        trigger_context = ""
+        if trigger_reasons:
+            trigger_context = (
+                "You were called because:\n" +
+                "\n".join(f"- {r}" for r in trigger_reasons) +
+                "\n\n"
+            )
+
         user_prompt = (
-            f"Review the coded regime classification below and CONFIRM or OVERRIDE it.\n\n"
+            f"{trigger_context}"
+            f"Review the coded regime classification below and decide: CONFIRM or OVERRIDE.\n"
+            f"You may override in EITHER direction — more aggressive or more defensive.\n\n"
             f"{sensor_data}\n\n"
-            "Look at the extended data (sectors, safe havens, oil detail, news, regime history) "
-            "for signals the coded rules CANNOT see. If no strong override signal exists, CONFIRM.\n\n"
+            "Look at the extended data (sectors, safe havens, oil detail, news, regime history, "
+            "portfolio drawdown) for signals the coded rules missed or misinterpreted.\n\n"
             'Reply with ONLY a JSON object: {"regime": "AGGRESSIVE|CAUTIOUS|DEFENSIVE|RECOVERY|UNCERTAIN", '
-            '"action": "CONFIRM|ESCALATE", "confidence": 0.0-1.0, '
-            '"reasoning": "1-2 sentences. If ESCALATE, what crisis signal did the coded rules miss?"}'
+            '"action": "CONFIRM|OVERRIDE", "confidence": 0.0-1.0, '
+            '"reasoning": "1-2 sentences. What signal justifies your call?"}'
         )
 
         try:
@@ -479,6 +591,7 @@ class MixLLMStrategy(MixStrategy):
             self._llm_log.append({
                 "date": date, "source": "llm", "regime": regime,
                 "confidence": confidence, "reasoning": reasoning,
+                "trigger_reasons": trigger_reasons or [],
                 "raw_response": response[:500],
             })
             return regime
@@ -491,6 +604,7 @@ class MixLLMStrategy(MixStrategy):
             self._llm_log.append({
                 "date": date, "source": "error", "regime": None,
                 "reason": str(e)[:200],
+                "trigger_reasons": trigger_reasons or [],
             })
             return None
 
@@ -524,7 +638,6 @@ class MixLLMStrategy(MixStrategy):
         regime = None
         confidence = 0.5
         reasoning = ""
-        action = "CONFIRM"
 
         # Look for JSON block
         try:
@@ -534,7 +647,6 @@ class MixLLMStrategy(MixStrategy):
                 regime = data.get("regime", "").upper()
                 confidence = data.get("confidence", 0.5)
                 reasoning = data.get("reasoning", "")
-                action = data.get("action", "CONFIRM").upper()
         except (json.JSONDecodeError, ValueError):
             pass
 

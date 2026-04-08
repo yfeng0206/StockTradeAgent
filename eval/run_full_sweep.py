@@ -100,6 +100,7 @@ def run_sweep(periods=None, positions=None, cash_amounts=None):
                         realistic=True,
                         slippage=0.0005,
                         exec_model="premarket",
+                        frequency="biweekly",
                     )
 
                     # Collect summary for master comparison

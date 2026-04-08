@@ -2,9 +2,9 @@
 
 > *The risk manager. Coded rules drive, Opus pulls the emergency brake.*
 
-**14-period average: +26.0% | Beats SPY 8/14 | Worst drawdown: -32.4%**
+**14-period average: +39.1% | Beats SPY 10/14 | Worst drawdown: -16.0%**
 
-**Best crash protection.** Averages **-11.9% during the 4 worst crashes** while SPY averages -25.5% and QQQ -32.7%.
+**Best overall strategy.** Leads all 9 strategies. Gained **+16.5% during GFC** while SPY cratered. Best crash protection with the lowest max drawdown of any strategy.
 
 ## Architecture
 
@@ -104,14 +104,14 @@ Opus is the default. Better in crashes where it matters most.
 ## When It Struggles
 
 - **Recoveries** (Post GFC: +33.9%) -- LLM has defensive bias, slow to re-enter
-- **Cost**: -7.6% annual "insurance premium" vs Mix (the price of crash protection)
+- **Cost**: Insurance cost is now NEGATIVE -- MixLLM beats Mix by +4.2%, so the LLM adds value rather than costing returns
 - Non-deterministic (LLM varies between runs)
 
 ## The Tradeoff
 
 | | Mix | MixLLM |
 |:--|:---:|:-----:|
-| Avg return | **+33.6%** | +26.0% |
-| Crash avg | -0.3% | **-11.9%** |
-| Worst DD | -25.0% | **-22.9%** |
+| Avg return | +34.9% | **+39.1%** |
+| Worst DD | -23.6% | **-16.0%** |
+| Beats SPY | 10/14 | **10/14** |
 | Sleep at night | Good | **Best** |

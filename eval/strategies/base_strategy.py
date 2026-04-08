@@ -19,6 +19,10 @@ class BaseStrategy(ABC):
         self.slippage = 0.0  # Execution slippage: buy at price*(1+slip), sell at price*(1-slip)
         self._realistic = False  # Set by daily_loop — use T-1 close for signals
         self._exec_model = "open"  # Execution model: "open", "open30", "vwap"
+        self.use_cooldown = False  # Set by daily_loop via improvement flags
+        self.min_holding_days = 21  # Minimum days before rebalance can sell
+        self.cooldown_days = 5  # Days after selling before rebuy allowed
+        self._sold_cooldown = {}  # {ticker: sell_date_str}
         self.positions = {}  # {ticker: {"shares": N, "entry_price": P, "entry_date": D}}
         self.transactions = []  # list of trade records
         self.reasoning_log = []  # WHY each trade was made
@@ -330,11 +334,14 @@ class BaseStrategy(ABC):
             self.watchnotes[ticker] = notes
 
     @abstractmethod
-    def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
+    def score_stocks(self, universe: list, price_data: dict, date: str, **kwargs) -> list:
         """Score and rank stocks. Returns list of (ticker, score) sorted best-first.
 
         Subclasses MUST also populate self._last_scores with per-ticker score breakdowns:
             self._last_scores[ticker] = {"composite": X, "momentum": Y, "value": Z, ...}
+
+        Kwargs:
+            signal_engine: Optional SignalEngine instance (used by MixStrategy for breadth).
         """
         pass
 
@@ -386,6 +393,18 @@ class BaseStrategy(ABC):
             if p is not None:
                 prices_on_date[ticker] = p
 
+        # Minimum holding period: don't sell positions held less than N days
+        if self.use_cooldown:
+            for ticker in list(self.positions.keys()):
+                if ticker not in top_tickers:
+                    pos = self.positions[ticker]
+                    entry = pos.get("entry_date", date)
+                    days_held = (pd.Timestamp(date) - pd.Timestamp(entry)).days
+                    if days_held < self.min_holding_days:
+                        top_tickers.append(ticker)  # force keep
+                        self._log_reasoning(date, "HOLD_MIN", ticker, 0,
+                            f"Holding: only {days_held}d < {self.min_holding_days}d minimum")
+
         # Sell positions not in top picks
         for ticker in list(self.positions.keys()):
             if ticker not in top_tickers:
@@ -409,6 +428,16 @@ class BaseStrategy(ABC):
                     price = prices_on_date[ticker]
                     if price <= 0:
                         continue
+
+                    # Cooldown: don't rebuy recently sold tickers
+                    if self.use_cooldown:
+                        sell_date = self._sold_cooldown.get(ticker)
+                        if sell_date:
+                            days_since = (pd.Timestamp(date) - pd.Timestamp(sell_date)).days
+                            if days_since < self.cooldown_days:
+                                self._log_reasoning(date, "SKIP_COOL", ticker, price,
+                                    f"Cooldown: sold {days_since}d ago < {self.cooldown_days}d minimum")
+                                continue
 
                     # Apply risk overlay size adjustment if available
                     size_mult = self._risk_size_multipliers.get(ticker, 1.0) if hasattr(self, '_risk_size_multipliers') else 1.0
@@ -522,6 +551,8 @@ class BaseStrategy(ABC):
 
         self.cash += proceeds
         del self.positions[ticker]
+        if self.use_cooldown:
+            self._sold_cooldown[ticker] = date
         self.transactions.append({
             "date": date,
             "action": "SELL",

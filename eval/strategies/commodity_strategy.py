@@ -33,6 +33,8 @@ class CommodityStrategy(BaseStrategy):
 
     @property
     def rebalance_frequency(self) -> str:
+        if hasattr(self, '_frequency_override') and self._frequency_override:
+            return self._frequency_override
         return "monthly"
 
     def _get_oil_signal(self, price_data: dict, date: str) -> dict:
@@ -86,7 +88,7 @@ class CommodityStrategy(BaseStrategy):
         Oil trend is now purely price-driven (MAs, RSI, momentum)."""
         return 0.0
 
-    def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
+    def score_stocks(self, universe: list, price_data: dict, date: str, **kwargs) -> list:
         """Score oil proxies — returns at most 1 ticker to buy."""
         oil = self._get_oil_signal(price_data, date)
         if not oil:
@@ -125,9 +127,10 @@ class CommodityStrategy(BaseStrategy):
             "geo_boost": round(geo_boost, 2),
         }
 
-        news_ctx = f"geo_oil={geo_boost:.2f}" if geo_boost > 0 else None
         self._last_regime = f"oil:{'bullish' if trend_score > 4 else 'bearish' if trend_score < 3 else 'neutral'}"
-        self._last_news_summary = news_ctx
+        # Note: _last_news_summary is set by daily_loop from SignalEngine — don't overwrite it
+        # here with a different format (geo_oil=), as downstream strategies (Mix) and base class
+        # (snapshot, reasoning log, watchnotes) expect the canonical geo_risk= format.
 
         if trend_score > 4:
             return [(proxy, trend_score)]

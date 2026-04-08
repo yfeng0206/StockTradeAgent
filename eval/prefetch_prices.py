@@ -12,6 +12,7 @@ import argparse
 import os
 import sys
 import time
+from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(__file__))
 from daily_loop import PERIODS, UNIVERSE, BENCHMARKS, MACRO_ETFS, download_data, PRICE_CACHE_DIR
@@ -28,11 +29,10 @@ def main():
     print(f"Cache dir: {PRICE_CACHE_DIR}")
     print()
 
-    # Find the widest date range needed (earliest start - 400d buffer to latest end)
+    # Find the widest date range needed (earliest start - 400d buffer to today)
     starts = [p["start"] for p in PERIODS.values()]
-    ends = [p["end"] for p in PERIODS.values()]
     earliest = min(starts)
-    latest = max(ends)
+    latest = datetime.now().strftime("%Y-%m-%d")  # Always fetch through today
     print(f"Date range: {earliest} to {latest} (+ 400-day buffer)")
     print()
 

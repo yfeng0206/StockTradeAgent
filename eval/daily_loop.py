@@ -125,10 +125,8 @@ def _save_cached_price(ticker, df):
     tmp_path = cache_path + ".tmp"
     try:
         df.to_csv(tmp_path)
-        # Atomic rename — prevents corruption if two processes write simultaneously
-        if os.path.exists(cache_path):
-            os.remove(cache_path)
-        os.rename(tmp_path, cache_path)
+        # Atomic replace — works on both Windows and Unix without a separate remove
+        os.replace(tmp_path, cache_path)
     except Exception:
         # Clean up temp file on failure
         if os.path.exists(tmp_path):
@@ -205,7 +203,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                          realistic: bool = True, slippage: float = 0.0005,
                          exec_model: str = "open", frequency: str = None,
                          chandelier: bool = False, cooldown: bool = False,
-                         breadth: bool = False):
+                         breadth: bool = False, mixllm_class=None):
     if not quiet:
         print("=" * 80)
         print(f"DAILY EVENT-DRIVEN SIMULATION")
@@ -255,8 +253,10 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
     mix_strategy = MixStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions,
                                regime_stickiness=regime_stickiness)
     mix_strategy._peer_strategies = core_strategies  # wire up peer references
-    mix_llm_strategy = MixLLMStrategy(initial_cash, events_calendar=events_cal, max_positions=max_positions,
-                                      regime_stickiness=regime_stickiness)
+    # Use custom MixLLM class if provided (for ablation testing V1/V2/V3)
+    llm_cls = mixllm_class or MixLLMStrategy
+    mix_llm_strategy = llm_cls(initial_cash, events_calendar=events_cal, max_positions=max_positions,
+                               regime_stickiness=regime_stickiness)
     mix_llm_strategy._peer_strategies = core_strategies  # same peer references
     strategies = core_strategies + [mix_strategy, mix_llm_strategy]
 
@@ -388,7 +388,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                 to_sell = len(pos_pnl)  # sell ALL
                             elif strat.name == "Momentum":
                                 to_sell = max(1, len(pos_pnl) // 3)
-                            elif strat.name in ("Balanced", "Adaptive", "Mix", "MixLLM"):
+                            elif strat.name in ("Balanced", "Adaptive", "Mix") or strat.name.startswith("MixLLM"):
                                 to_sell = max(1, len(pos_pnl) // 4)
                             elif strat.name == "Value":
                                 to_sell = 0  # hold through volatility
@@ -673,7 +673,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                             strat.transactions.append({
                                 "date": date_str, "action": "TRIM",
                                 "ticker": ticker, "shares": trim_shares,
-                                "price": round(price, 2), "total": round(proceeds, 2),
+                                "price": round(sell_price, 2), "total": round(proceeds, 2),
                                 "pnl": round(pnl, 2),
                                 "pnl_pct": round(pnl_pct, 2),
                                 "cash_after": round(strat.cash, 2),
@@ -790,7 +790,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
             mask = (df.index >= pd.Timestamp(start)) & (df.index <= pd.Timestamp(end))
             bench = df.loc[mask]
             if not bench.empty:
-                entry = float(bench["Close"].iloc[0])
+                # Use Open for entry to match strategy execution (strategies buy at Open)
+                entry = float(bench["Open"].iloc[0]) if "Open" in bench.columns else float(bench["Close"].iloc[0])
                 shares = int(initial_cash / entry)
                 cash_left = initial_cash - shares * entry
                 final = float(bench["Close"].iloc[-1])

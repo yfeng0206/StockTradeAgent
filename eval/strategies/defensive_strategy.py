@@ -24,6 +24,8 @@ class DefensiveStrategy(BaseStrategy):
 
     @property
     def rebalance_frequency(self) -> str:
+        if hasattr(self, '_frequency_override') and self._frequency_override:
+            return self._frequency_override
         return "monthly"
 
     def _count_danger_signals(self, price_data: dict, date: str) -> int:
@@ -63,7 +65,7 @@ class DefensiveStrategy(BaseStrategy):
 
         return count
 
-    def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
+    def score_stocks(self, universe: list, price_data: dict, date: str, **kwargs) -> list:
         danger = self._count_danger_signals(price_data, date)
 
         # 3-state transition
@@ -158,6 +160,14 @@ class DefensiveStrategy(BaseStrategy):
                 to_sell = len(self.positions) - effective_max
                 for tkr, vol, price in pos_vol[:to_sell]:
                     if tkr in self.positions:
+                        # Cooldown guard: respect minimum holding period
+                        if self.use_cooldown:
+                            entry = self.positions[tkr].get("entry_date", date)
+                            days_held = (pd.Timestamp(date) - pd.Timestamp(entry)).days
+                            if days_held < self.min_holding_days:
+                                self._log_reasoning(date, "HOLD_MIN", tkr, 0,
+                                    f"Defensive holding: only {days_held}d < {self.min_holding_days}d minimum")
+                                continue
                         self._sell(tkr, price, date,
                             f"DEFENSIVE {self._defense_state}: reducing to {effective_max} positions, selling {tkr} (vol={vol:.0%})")
 

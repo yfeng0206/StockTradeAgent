@@ -2,7 +2,7 @@
 
 > *Opportunistic. Waits for events, then pounces.*
 
-**14-period average: +8.0% | Beats SPY 5/14 | Worst drawdown: -31.1%**
+**14-period average: +5.2% | Beats SPY 6/14 | Worst drawdown: -23.4%**
 
 ## Hard Event Gate
 

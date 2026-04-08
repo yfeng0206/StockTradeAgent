@@ -28,6 +28,8 @@ class BalancedStrategy(BaseStrategy):
 
     @property
     def rebalance_frequency(self) -> str:
+        if hasattr(self, '_frequency_override') and self._frequency_override:
+            return self._frequency_override
         return "monthly"
 
     def _get_market_regime(self, spy_data: pd.DataFrame, date: str) -> str:
@@ -60,7 +62,7 @@ class BalancedStrategy(BaseStrategy):
             pass
         return 0.0
 
-    def score_stocks(self, universe: list, price_data: dict, date: str) -> list:
+    def score_stocks(self, universe: list, price_data: dict, date: str, **kwargs) -> list:
         # Detect market regime for adaptive weighting
         regime = "normal"
         if "SPY" in price_data:
@@ -204,6 +206,8 @@ class BalancedStrategy(BaseStrategy):
             scores.append((ticker, round(composite, 3)))
 
         self._last_regime = regime
-        self._last_news_summary = f"geo_risk={geo_risk:.2f}" if geo_risk > 0 else None
+        # Note: _last_news_summary is set by daily_loop from SignalEngine — don't overwrite it
+        # here, as downstream strategies (Mix) and base class (snapshot, reasoning log) rely
+        # on the canonical value.
         scores.sort(key=lambda x: x[1], reverse=True)
         return scores

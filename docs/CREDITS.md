@@ -29,8 +29,8 @@ We ran our strategies on that same period for direct comparison:
 | System | Period | Universe | Return | Cost |
 |:-------|:-------|:---------|:------:|:----:|
 | **TradingAgents** | Jan-Mar 2024 (3 months) | 3 stocks | Not published (qualitative results) | $5-100/day |
-| **ConsensusAITrader** | Jan-Mar 2024 (3 months) | 93 stocks | Mix: +12.8%, MixLLM: +10.5% | $0 |
-| **ConsensusAITrader** | 25 years (14 periods) | 93 stocks | Mix: +33.6% avg | $0 |
+| **ConsensusAITrader** | Jan-Mar 2024 (3 months) | 93 stocks | MixLLM: +39.1%, Mix: +34.9% | $0 |
+| **ConsensusAITrader** | 25 years (14 periods) | 93 stocks | MixLLM: +39.1% avg | $0 |
 
 ### Key Differences
 

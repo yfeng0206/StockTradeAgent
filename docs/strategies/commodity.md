@@ -2,7 +2,7 @@
 
 > *Specialist. One job, does it well.*
 
-**14-period average: +7.6% | Beats SPY 6/14 | Worst drawdown: -17.1%**
+**14-period average: +3.7% | Beats SPY 5/14 | Worst drawdown: -22.7%**
 
 ## How It Works
 

@@ -71,6 +71,8 @@ class MixStrategy(BaseStrategy):
 
     @property
     def rebalance_frequency(self) -> str:
+        if hasattr(self, '_frequency_override') and self._frequency_override:
+            return self._frequency_override
         return "monthly"
 
     # ================================================================
@@ -565,11 +567,9 @@ class MixStrategy(BaseStrategy):
         # Current commodity value
         commodity_value = 0
         for ticker, pos in commodity_positions.items():
-            if ticker in price_data and not price_data[ticker].empty:
-                df = price_data[ticker]
-                mask = df.index <= pd.Timestamp(date)
-                if mask.any():
-                    commodity_value += pos["shares"] * float(df.loc[mask, "Close"].iloc[-1])
+            p = self._get_exec_price(price_data, ticker, date)
+            if p:
+                commodity_value += pos["shares"] * p
 
         # Sell commodity if target is 0 or oil bearish
         if commodity_target <= 0 or not oil_bullish:
@@ -589,25 +589,28 @@ class MixStrategy(BaseStrategy):
                         shares = int(buy_amount / price)
                         if shares > 0:
                             if oil_proxy in self.positions:
-                                # Add to existing position — route through _buy for slippage + gap filter
-                                # _buy will update shares on existing position
+                                # Add to existing position — buy only NEW shares (not combined)
                                 old_shares = self.positions[oil_proxy]["shares"]
                                 old_entry = self.positions[oil_proxy]["entry_price"]
-                                # Temporarily remove to let _buy re-create with combined shares
+                                old_entry_date = self.positions[oil_proxy].get("entry_date", date)
+                                # Temporarily remove so _buy can create the position
                                 del self.positions[oil_proxy]
-                                combined_shares = old_shares + shares
-                                self._buy(oil_proxy, combined_shares, price, date,
+                                self._buy(oil_proxy, shares, price, date,
                                     f"Mix {self.detected_regime}: adding commodity (target={commodity_pct:.0%})",
                                     price_data=price_data)
-                                # If _buy succeeded, update entry price to blended avg
                                 if oil_proxy in self.positions:
-                                    new_entry = (old_entry * old_shares + price * shares) / combined_shares
-                                    self.positions[oil_proxy]["entry_price"] = new_entry
+                                    # _buy succeeded — merge with old position
+                                    new_shares = self.positions[oil_proxy]["shares"]
+                                    total_shares = old_shares + new_shares
+                                    blended_entry = (old_entry * old_shares + price * new_shares) / total_shares
+                                    self.positions[oil_proxy]["shares"] = total_shares
+                                    self.positions[oil_proxy]["entry_price"] = blended_entry
+                                    self.positions[oil_proxy]["entry_date"] = old_entry_date
                                 else:
                                     # _buy was skipped (gap filter etc) — restore original position
                                     self.positions[oil_proxy] = {
                                         "shares": old_shares, "entry_price": old_entry,
-                                        "entry_date": date,
+                                        "entry_date": old_entry_date,
                                     }
                             else:
                                 self._buy(oil_proxy, shares, price, date,
@@ -667,7 +670,8 @@ class MixStrategy(BaseStrategy):
                 if t not in OIL_PROXIES and t in prices_on_date
             )
             stock_budget = max(0, stock_target - current_stock_value)
-            stock_budget = min(stock_budget, self.cash * 0.95)
+            investable = self._get_investable_cash(price_data, date)
+            stock_budget = min(stock_budget, investable * 0.95)
 
             if stock_budget > 0 and num_to_buy > 0:
                 per_position = stock_budget / num_to_buy

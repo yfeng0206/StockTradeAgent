@@ -2,9 +2,9 @@
 
 > *The conductor. Watches everyone else, then decides.*
 
-**14-period average: +33.6% | Beats SPY 10/14 | Worst drawdown: -34.0%**
+**14-period average: +34.9% | Beats SPY 10/14 | Worst drawdown: -23.6%**
 
-**Best overall strategy.** Uses the other 7 strategies as live sensors to detect the market regime, then allocates across stocks + commodity + cash simultaneously.
+**Second-best strategy.** Uses the other 7 strategies as live sensors to detect the market regime, then allocates across stocks + commodity + cash simultaneously.
 
 ## How It Works
 

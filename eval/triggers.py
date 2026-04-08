@@ -26,6 +26,7 @@ class TriggerEngine:
         self.signals = signal_engine
         self.atr_stop_multiplier = atr_stop_multiplier  # stop = entry - N * ATR
         self.profit_target_pct = profit_target_pct
+        self.use_chandelier_stop = False  # Set by daily_loop via improvement flags
         self._last_regime = None
         self._last_news_risk = 0
 
@@ -84,7 +85,10 @@ class TriggerEngine:
             if not mask.any() or mask.sum() < 20:
                 continue
 
-            hist = df.loc[mask].tail(30)
+            if self.use_chandelier_stop:
+                hist = df.loc[mask].tail(252)  # Up to 1 year for trailing high
+            else:
+                hist = df.loc[mask].tail(30)
             current = float(hist["Close"].iloc[-1])
             entry = pos["entry_price"]
             pnl_pct = (current - entry) / entry * 100
@@ -100,7 +104,20 @@ class TriggerEngine:
                     )
                 )
                 atr_20 = float(np.nanmean(tr[-20:]))
-                stop_level = entry - (self.atr_stop_multiplier * atr_20)
+                if self.use_chandelier_stop:
+                    # Chandelier Exit: trail from highest high since entry
+                    entry_date = pos.get("entry_date", date)
+                    entry_mask = hist.index >= pd.Timestamp(entry_date)
+                    if entry_mask.any():
+                        highest_high = float(hist.loc[entry_mask, "High"].max())
+                    else:
+                        highest_high = float(hist["High"].max())
+                    stop_level = highest_high - (self.atr_stop_multiplier * atr_20)
+                    # Floor: never worse than fixed entry-based stop
+                    entry_stop = entry - (self.atr_stop_multiplier * atr_20)
+                    stop_level = max(stop_level, entry_stop)
+                else:
+                    stop_level = entry - (self.atr_stop_multiplier * atr_20)
                 stop_pct = (stop_level - entry) / entry * 100
             except Exception:
                 atr_20 = entry * 0.02  # fallback: 2% of price
