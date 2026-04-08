@@ -130,31 +130,41 @@ python tools/daily_collect.py
 
 ## Methodology: Realistic Execution
 
-All published results use our validated realistic execution pipeline — no lookahead bias.
+All published results use our validated realistic execution pipeline — no lookahead bias. Every decision is made **before** seeing today's prices.
 
-### Signal → Decision → Execution Timeline
+### How It Works (Simulation & Live Trading)
 
 ```
-Yesterday (T-1)                    Today (T)
-─────────────────                  ─────────────────────────────
- Market close                      9:00 AM        9:30 AM
-      │                               │              │
-  Close price                    Pre-market        Open
-      │                          estimate           │
-      ▼                              ▼              ▼
- SIGNALS USE THIS            DECISION HERE    EXECUTE HERE
- (T-1 close series)          (premarket-aware) (at T Open)
+EVENING (after market close)          NEXT MORNING
+──────────────────────────           ─────────────────────────────────────
+Tuesday 4:00 PM                      Wednesday
+     │                               9:00 AM         9:30 AM      10:00 AM
+     │                                  │               │             │
+  Close price                      Pre-market         Open      30 min in
+  published                        check gap          price        settle
+     │                                  │               │             │
+     ▼                                  ▼               ▼             ▼
+  RUN ANALYSIS                    CHECK GAP         EXECUTE       (optional)
+  Signals: RSI, MACD,            <1% → full          Place         wait for
+  MAs, regime, scoring           1-3% → half         order         volatility
+  all use T-1 data               >3% → skip                       to settle
 ```
 
-| Component | How It Works |
-|:--|:--|
-| **Signal timing** | All indicators (RSI, MACD, MAs) computed on T-1 data. You can't know today's close when deciding. |
-| **Pre-market model** | Estimates 9:00 AM price as `0.2 × prev_close + 0.8 × today_open`. Validated at 0.3% mean error vs real pre-market data ([Experiment 8](docs/experiments/README.md#experiment-8-premarket-proxy-validation-2026-04-02)). |
-| **Execution** | All trades fill at T's Open price — standard academic approach (Zipline, QuantConnect). |
-| **Slippage** | 5 basis points per trade. Buys pay 0.05% more, sells receive 0.05% less. |
-| **Gap filter** | Large overnight gaps (>3%) skip the trade. 1-3% gaps reduce position size by half. Asymmetric: gap-ups hurt buys, gap-downs don't block sells. |
+**In simulation:** The system has the full daily bar, so it computes signals from T-1 Close and executes at T Open automatically.
 
-> **Why this matters:** Many backtests use today's close for both signals and execution — that's seeing the future. Our system decides overnight, checks pre-market, and executes at open. [Full comparison →](docs/experiments/README.md#experiment-7-realistic-execution-model-2026-04-02)
+**In live trading:** You run the analysis Tuesday evening, check pre-market Wednesday at 9 AM, and place your order at 9:30 AM. Same logic, same timing — no intraday decisions needed.
+
+| Component | In Simulation | In Live Trading |
+|:--|:--|:--|
+| **Signals** | RSI, MACD, MAs computed on T-1 close series | Run `daily_loop.py` after market close — same computation |
+| **Pre-market check** | Formula: `0.2 × prev_close + 0.8 × today_open` (validated at 0.3% error, [Experiment 8](docs/experiments/README.md#experiment-8-premarket-proxy-validation-2026-04-02)) | Look at your broker's pre-market price at 9:00 AM |
+| **Gap filter** | Auto-applied: >3% gap = skip, 1-3% = half size | Mental check: "did the stock gap overnight?" |
+| **Execution** | Fills at T's Open price | Place limit order at open, or market order 10-30 min after |
+| **Slippage** | 5bps built in (buys +0.05%, sells -0.05%) | Your broker spread covers this |
+| **Rebalance** | Biweekly (1st and 15th of month) | Same schedule — check scores, rotate as needed |
+| **Between rebalances** | Only stop-losses and earnings triggers fire | Check daily for alerts, otherwise hold |
+
+> **Why this matters:** Many backtests use today's close for both signals and execution — that's seeing the future. Our system decides overnight, checks pre-market, and executes at open. You never need to predict prices or react intraday. [Full comparison →](docs/experiments/README.md#experiment-7-realistic-execution-model-2026-04-02)
 
 ---
 
