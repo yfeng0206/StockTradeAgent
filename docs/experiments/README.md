@@ -388,11 +388,9 @@ Format: return% (Sharpe)
 
 **Setup:** Tested 4 combos across 3 periods, then the winner across 14 periods.
 
-*Note: The 14-period baseline (~33.6%) is from mid-experiment runs before all bug fixes were finalized. Final canonical Mix return is +34.9%.*
-
 | Combo | 3-Period Sharpe | 14-Period Return | Verdict |
 |:------|:--------------:|:----------------:|:--------|
-| none | 1.080 | ~33.6% | Baseline |
+| none | 1.080 | +34.9% (Mix) | Baseline |
 | ch only | 0.744 | -- | Worse |
 | cd only | 0.962 | -- | Slightly worse |
 | ch+cd | 1.267 | 14.8% | Won 3-period, LOST 14-period |
