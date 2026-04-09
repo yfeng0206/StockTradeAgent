@@ -194,6 +194,70 @@ def download_data(tickers, start, end, refresh=False):
     return all_data
 
 
+def save_strategies_state(strategies, last_date: str) -> dict:
+    """Serialize all strategy states for live trading persistence."""
+    state = {"last_date": last_date, "saved_at": datetime.now().isoformat(), "strategies": {}}
+    for s in strategies:
+        ss = {
+            "class": type(s).__name__,
+            "cash": s.cash,
+            "positions": s.positions,
+            "transactions": s.transactions,
+            "portfolio_history": s.portfolio_history,
+            "memory": s.memory,
+            "reasoning_log": s.reasoning_log[-100:],
+            "watchnotes": s.watchnotes,
+            "pending_checks": s.pending_checks,
+            "_last_regime": s._last_regime,
+            "_last_news_summary": s._last_news_summary,
+            "_sold_cooldown": getattr(s, "_sold_cooldown", {}),
+        }
+        # Mix/MixLLM regime state
+        if hasattr(s, "detected_regime"):
+            ss["detected_regime"] = s.detected_regime
+            ss["regime_history"] = s.regime_history
+            ss["_sensor_readings"] = s._sensor_readings
+            ss["_pending_regime"] = s._pending_regime
+            ss["_pending_count"] = s._pending_count
+        # MixLLM LLM call state
+        if hasattr(s, "_llm_log"):
+            ss["_llm_log"] = getattr(s, "_llm_log", [])
+            ss["_llm_call_count"] = getattr(s, "_llm_call_count", 0)
+            ss["_llm_fallback_count"] = getattr(s, "_llm_fallback_count", 0)
+        state["strategies"][s.name] = ss
+    return state
+
+
+def _restore_strategies(strategies, state: dict):
+    """Restore strategy states from a saved checkpoint."""
+    saved = state.get("strategies", {})
+    for s in strategies:
+        if s.name not in saved:
+            continue
+        ss = saved[s.name]
+        s.cash = ss["cash"]
+        s.positions = ss["positions"]
+        s.transactions = ss.get("transactions", [])
+        s.portfolio_history = ss.get("portfolio_history", [])
+        s.memory = ss.get("memory", s.memory)
+        s.reasoning_log = ss.get("reasoning_log", [])
+        s.watchnotes = ss.get("watchnotes", {})
+        s.pending_checks = ss.get("pending_checks", [])
+        s._last_regime = ss.get("_last_regime")
+        s._last_news_summary = ss.get("_last_news_summary")
+        s._sold_cooldown = ss.get("_sold_cooldown", {})
+        if hasattr(s, "detected_regime"):
+            s.detected_regime = ss.get("detected_regime", "UNCERTAIN")
+            s.regime_history = ss.get("regime_history", [])
+            s._sensor_readings = ss.get("_sensor_readings", {})
+            s._pending_regime = ss.get("_pending_regime")
+            s._pending_count = ss.get("_pending_count", 0)
+        if hasattr(s, "_llm_log"):
+            s._llm_log = ss.get("_llm_log", [])
+            s._llm_call_count = ss.get("_llm_call_count", 0)
+            s._llm_fallback_count = ss.get("_llm_fallback_count", 0)
+
+
 def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                          max_positions: int = 10, period_name: str = "custom",
                          shared_price_data: dict = None, shared_events_cal: dict = None,
@@ -203,7 +267,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                          realistic: bool = True, slippage: float = 0.0005,
                          exec_model: str = "open", frequency: str = None,
                          chandelier: bool = False, cooldown: bool = False,
-                         breadth: bool = False, mixllm_class=None):
+                         breadth: bool = False, mixllm_class=None,
+                         resume_state: dict = None, live_mode: bool = False):
     if not quiet:
         print("=" * 80)
         print(f"DAILY EVENT-DRIVEN SIMULATION")
@@ -276,6 +341,12 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
     if frequency:
         for strat in strategies:
             strat._frequency_override = frequency
+
+    # Restore strategy state from checkpoint (live trading mode)
+    if resume_state:
+        _restore_strategies(strategies, resume_state)
+        if not quiet:
+            print(f"  Restored state from {resume_state.get('last_date', '?')}")
 
     # Initialize risk overlay
     risk_overlay = RiskOverlay(features=risk_features, params=risk_params)
@@ -962,6 +1033,8 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
             print(f"{name + ' (B&H)':<14} {data['total_return_pct']:>9.1f}% {'--':>10} "
                   f"{data['sharpe_ratio']:>10.3f} {data['max_drawdown_pct']:>9.1f}% {'--':>10} {'--':>8}")
         print(f"\nRun saved to: {run_dir}")
+    if live_mode:
+        return results, strategies
     return results
 
 
