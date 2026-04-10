@@ -189,8 +189,14 @@ def download_data(tickers, start, end, refresh=False):
             need_full_download.append(ticker)
             continue
 
-        # Cache exists — check if it covers the end date
-        if pd.Timestamp(cached_end) >= end_ts - timedelta(days=5):
+        # Cache exists — check if it covers both start and end
+        covers_start = cached_df.index.min() <= pd.Timestamp(buffer_start) + timedelta(days=5)
+        covers_end = pd.Timestamp(cached_end) >= end_ts - timedelta(days=5)
+        if not covers_start:
+            # Cache doesn't go back far enough — need full download
+            need_full_download.append(ticker)
+            continue
+        if covers_end:
             # Fresh enough — use as-is
             mask = cached_df.index >= pd.Timestamp(buffer_start)
             all_data[ticker] = cached_df.loc[mask] if mask.any() else cached_df
@@ -1093,8 +1099,6 @@ def main():
                         help="Execution price model: open=T open, premarket=T open with gap filter, open30/vwap=benchmarks")
     parser.add_argument("--frequency", choices=["weekly", "biweekly", "monthly", "quarterly"],
                         default="biweekly", help="Rebalance frequency (default: biweekly, best overall)")
-    parser.add_argument("--refresh-prices", action="store_true",
-                        help="Force re-download prices from yfinance, ignoring local cache")
     parser.add_argument("--chandelier", action="store_true", default=False,
                         help="Enable Chandelier Exit trailing stop (default: off)")
     parser.add_argument("--cooldown", action="store_true", default=False,

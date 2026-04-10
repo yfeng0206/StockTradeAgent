@@ -91,20 +91,44 @@ def fetch_earnings_events(ticker: str) -> list:
     return events
 
 
+_cik_cache = {}  # module-level cache: {ticker_upper: cik_str}
+_cik_data = None  # raw SEC CIK data (downloaded once)
+
+
+def _get_cik(ticker: str) -> str:
+    """Resolve ticker to CIK. Downloads SEC CIK file once, caches in memory."""
+    global _cik_data
+    upper = ticker.upper()
+    if upper in _cik_cache:
+        return _cik_cache[upper]
+    if _cik_data is None:
+        # Also check local cache file
+        cik_cache_path = os.path.join(CACHE_DIR, "sec_cik_map.json")
+        if os.path.exists(cik_cache_path):
+            mtime = os.path.getmtime(cik_cache_path)
+            if (datetime.now().timestamp() - mtime) < 86400 * 30:  # 30-day TTL
+                with open(cik_cache_path) as f:
+                    _cik_data = json.load(f)
+        if _cik_data is None:
+            url = "https://www.sec.gov/files/company_tickers.json"
+            resp = requests.get(url, headers=SEC_HEADERS, timeout=15)
+            resp.raise_for_status()
+            _cik_data = resp.json()
+            os.makedirs(CACHE_DIR, exist_ok=True)
+            with open(cik_cache_path, "w") as f:
+                json.dump(_cik_data, f)
+    for entry in _cik_data.values():
+        t = entry.get("ticker", "").upper()
+        cik = str(entry["cik_str"]).zfill(10)
+        _cik_cache[t] = cik
+    return _cik_cache.get(upper, "")
+
+
 def fetch_sec_filing_dates(ticker: str) -> list:
     """Fetch SEC filing dates (10-K, 10-Q, 8-K) from EDGAR."""
     events = []
     try:
-        # Resolve CIK
-        url = "https://www.sec.gov/files/company_tickers.json"
-        resp = requests.get(url, headers=SEC_HEADERS, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-        cik = ""
-        for entry in data.values():
-            if entry.get("ticker", "").upper() == ticker.upper():
-                cik = str(entry["cik_str"]).zfill(10)
-                break
+        cik = _get_cik(ticker)
         if not cik:
             return events
 
