@@ -96,26 +96,18 @@ MACRO_ETFS = ["USO", "XLE", "GLD", "TLT", "HYG", "LQD"]  # oil, gold, bonds, cre
 PRICE_CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "prices")
 
 
-def _load_cached_price(ticker, buffer_start, end):
-    """Load price data from local CSV cache if it covers the requested range."""
+def _load_cached_price(ticker):
+    """Load price data from local CSV cache. Returns (df, last_date) or (None, None)."""
     cache_path = os.path.join(PRICE_CACHE_DIR, f"{ticker}.csv")
     if not os.path.exists(cache_path):
-        return None
+        return None, None
     try:
         df = pd.read_csv(cache_path, index_col=0, parse_dates=True)
         if df.empty:
-            return None
-        # Check if cached data covers the requested range
-        cached_start = df.index.min()
-        cached_end = df.index.max()
-        needed_start = pd.Timestamp(buffer_start)
-        needed_end = pd.Timestamp(end)
-        if cached_start <= needed_start and cached_end >= needed_end - timedelta(days=5):
-            # Cache covers our range (allow 5-day tolerance for weekends/holidays)
-            return df
-        return None  # Cache doesn't cover range, need to re-download
+            return None, None
+        return df, df.index.max().strftime("%Y-%m-%d")
     except Exception:
-        return None
+        return None, None
 
 
 def _save_cached_price(ticker, df):
@@ -125,10 +117,8 @@ def _save_cached_price(ticker, df):
     tmp_path = cache_path + ".tmp"
     try:
         df.to_csv(tmp_path)
-        # Atomic replace — works on both Windows and Unix without a separate remove
         os.replace(tmp_path, cache_path)
     except Exception:
-        # Clean up temp file on failure
         if os.path.exists(tmp_path):
             try:
                 os.remove(tmp_path)
@@ -136,61 +126,104 @@ def _save_cached_price(ticker, df):
                 pass
 
 
-def download_data(tickers, start, end, refresh=False):
-    """Download OHLCV data for tickers. Uses local cache (data/prices/) first.
-
-    Set refresh=True to force re-download from yfinance, ignoring cache.
-    """
-    buffer_start = (pd.Timestamp(start) - timedelta(days=400)).strftime("%Y-%m-%d")
-    all_data = {}
-
-    # Phase 1: Load from cache
-    need_download = []
-    if not refresh:
-        for ticker in tickers:
-            cached = _load_cached_price(ticker, buffer_start, end)
-            if cached is not None:
-                all_data[ticker] = cached
-            else:
-                need_download.append(ticker)
-    else:
-        need_download = list(tickers)
-
-    if not need_download:
-        return all_data
-
-    # Phase 2: Bulk download missing tickers from yfinance
+def _yf_download_batch(tickers, start, end):
+    """Download from yfinance and return {ticker: DataFrame}."""
+    result = {}
     try:
-        raw = yf.download(need_download, start=buffer_start, end=end, progress=True, threads=True)
-        if not raw.empty:
-            if len(need_download) == 1:
-                ticker = need_download[0]
-                if not raw.empty:
-                    all_data[ticker] = raw
-                    _save_cached_price(ticker, raw)
-            else:
-                for ticker in need_download:
-                    try:
-                        ticker_df = pd.DataFrame({
-                            "Open": raw["Open"][ticker], "High": raw["High"][ticker],
-                            "Low": raw["Low"][ticker], "Close": raw["Close"][ticker],
-                            "Volume": raw["Volume"][ticker],
-                        }).dropna()
-                        if not ticker_df.empty:
-                            all_data[ticker] = ticker_df
-                            _save_cached_price(ticker, ticker_df)
-                    except (KeyError, TypeError):
-                        continue
+        raw = yf.download(tickers, start=start, end=end, progress=True, threads=True)
+        if raw.empty:
+            return result
+        if len(tickers) == 1:
+            if not raw.empty:
+                result[tickers[0]] = raw
+        else:
+            for ticker in tickers:
+                try:
+                    ticker_df = pd.DataFrame({
+                        "Open": raw["Open"][ticker], "High": raw["High"][ticker],
+                        "Low": raw["Low"][ticker], "Close": raw["Close"][ticker],
+                        "Volume": raw["Volume"][ticker],
+                    }).dropna()
+                    if not ticker_df.empty:
+                        result[ticker] = ticker_df
+                except (KeyError, TypeError):
+                    continue
     except Exception:
-        for ticker in need_download:
+        # Fallback: one-by-one download
+        for ticker in tickers:
             try:
                 t = yf.Ticker(ticker)
-                df = t.history(start=buffer_start, end=end)
+                df = t.history(start=start, end=end)
                 if not df.empty:
-                    all_data[ticker] = df
-                    _save_cached_price(ticker, df)
+                    result[ticker] = df
             except Exception:
                 continue
+    return result
+
+
+def download_data(tickers, start, end, refresh=False):
+    """Download OHLCV data for tickers. Cache-first, incremental updates.
+
+    Logic (same as news — download once, never re-download):
+      1. Load from local cache (data/prices/{ticker}.csv)
+      2. If cache covers the date range -> done, no download
+      3. If cache exists but is stale -> download ONLY the gap, merge, save
+      4. If no cache at all -> full download, save
+      5. Never re-downloads data that's already cached
+    """
+    buffer_start = (pd.Timestamp(start) - timedelta(days=400)).strftime("%Y-%m-%d")
+    end_ts = pd.Timestamp(end)
+    all_data = {}
+
+    need_full_download = []  # no cache at all
+    need_incremental = []    # cache exists but missing recent days
+
+    # Phase 1: Load from cache, classify what's missing
+    for ticker in tickers:
+        if refresh:
+            need_full_download.append(ticker)
+            continue
+
+        cached_df, cached_end = _load_cached_price(ticker)
+        if cached_df is None:
+            need_full_download.append(ticker)
+            continue
+
+        # Cache exists — check if it covers the end date
+        if pd.Timestamp(cached_end) >= end_ts - timedelta(days=5):
+            # Fresh enough — use as-is
+            mask = cached_df.index >= pd.Timestamp(buffer_start)
+            all_data[ticker] = cached_df.loc[mask] if mask.any() else cached_df
+        else:
+            # Stale — need incremental update (download only the gap)
+            all_data[ticker] = cached_df  # use what we have for now
+            need_incremental.append((ticker, cached_end))
+
+    # Phase 2: Incremental updates (download only missing days, merge with cache)
+    if need_incremental:
+        # Start download from 3 days before the oldest gap (overlap handles weekends)
+        gap_dates = [d for _, d in need_incremental]
+        gap_start = (pd.Timestamp(min(gap_dates)) - timedelta(days=3)).strftime("%Y-%m-%d")
+        gap_tickers = [t for t, _ in need_incremental]
+
+        new_data = _yf_download_batch(gap_tickers, gap_start, end)
+        for ticker in gap_tickers:
+            if ticker in new_data and not new_data[ticker].empty:
+                # Merge with existing cache
+                existing = all_data[ticker]
+                merged = pd.concat([existing, new_data[ticker]])
+                merged = merged[~merged.index.duplicated(keep="last")].sort_index()
+                _save_cached_price(ticker, merged)
+                mask = merged.index >= pd.Timestamp(buffer_start)
+                all_data[ticker] = merged.loc[mask] if mask.any() else merged
+
+    # Phase 3: Full download for tickers with no cache
+    if need_full_download:
+        new_data = _yf_download_batch(need_full_download, buffer_start, end)
+        for ticker, df in new_data.items():
+            all_data[ticker] = df
+            _save_cached_price(ticker, df)
+
     return all_data
 
 
@@ -380,7 +413,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         regime_log.append({
             "date": date_str, "regime": regime,
             "geo_risk": news.get("geo_risk", 0),
-            "vol_20d": macro.get("volatility", {}).get("vol_20d"),
+            "vol_20d": (macro.get("volatility") or {}).get("vol_20d"),
         })
 
         # Cross-strategy consensus: compute once per rebalance day, before any strategy acts
