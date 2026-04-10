@@ -774,6 +774,9 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                 is_strat_rebalance = day.weekday() == 0  # Monday
             else:
                 is_strat_rebalance = is_rebalance_day
+            # Force rebalance on first day if strategy has no positions (live trading start)
+            if not is_strat_rebalance and len(strat.positions) == 0 and i == 0 and live_mode:
+                is_strat_rebalance = True
             if is_strat_rebalance and not sold_today_in_rebalance:
                 # Full rebalance using strategy's scoring + memory adjustments
                 pre_rebal_count = len(strat.transactions)
