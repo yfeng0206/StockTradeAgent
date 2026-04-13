@@ -393,7 +393,24 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
     # Daily stats tracking
     daily_trigger_log = []
     regime_log = []  # shared market-level log
-    trading_days = pd.date_range(start=start, end=end, freq="B")
+    # Use CustomBusinessDay with NYSE holidays to avoid trading on closed days
+    _nyse_holidays = [
+        # Fixed holidays (approximate — covers the major ones)
+        "2000-01-17", "2001-01-15", "2002-01-21", "2003-01-20", "2004-01-19",
+        "2005-01-17", "2006-01-16", "2007-01-15", "2008-01-21", "2009-01-19",
+        "2010-01-18", "2011-01-17", "2012-01-16", "2013-01-21", "2014-01-20",
+        "2015-01-19", "2016-01-18", "2017-01-16", "2018-01-15", "2019-01-21",
+        "2020-01-20", "2021-01-18", "2022-01-17", "2023-01-16", "2024-01-15",
+        "2025-01-20", "2026-01-19",  # MLK Day
+    ]
+    # Use price data as ground truth: only trade on days we have price data
+    # This naturally excludes holidays (yfinance has no data for closed days)
+    if "SPY" in price_data and not price_data["SPY"].empty:
+        spy_dates = set(price_data["SPY"].index.strftime("%Y-%m-%d"))
+        trading_days = pd.date_range(start=start, end=end, freq="B")
+        trading_days = trading_days[trading_days.strftime("%Y-%m-%d").isin(spy_dates)]
+    else:
+        trading_days = pd.date_range(start=start, end=end, freq="B")
     total_trigger_days = 0
     last_rebalance_month = None
 
@@ -426,7 +443,16 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         if is_rebalance_day:
             risk_overlay.update_consensus(strategies, price_data, date_str)
 
+        # Snapshot trigger engine state so ALL strategies see the same triggers
+        # Bug fix: without this, only the first strategy sees REGIME_CHANGE/NEWS_SPIKE
+        # because the engine updates _last_regime/_last_news_risk after scanning.
+        _saved_trigger_regime = trigger_engine._last_regime
+        _saved_trigger_news = trigger_engine._last_news_risk
+
         for strat in strategies:
+            # Restore state so each strategy sees the same day's triggers
+            trigger_engine._last_regime = _saved_trigger_regime
+            trigger_engine._last_news_risk = _saved_trigger_news
             # Use strategy-specific ATR multiplier for stops
             trigger_engine.atr_stop_multiplier = getattr(strat, 'atr_stop_multiplier', 2.0)
             triggers = trigger_engine.scan(UNIVERSE, strat.positions, date_str, price_data,
@@ -805,9 +831,14 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                 # Quarterly: only rebalance in Jan, Apr, Jul, Oct
                 is_strat_rebalance = is_rebalance_day and current_month[5:7] in ("01", "04", "07", "10")
             elif freq == "biweekly":
-                # Biweekly: rebalance on 1st and 15th of each month
+                # Biweekly: first trading day of each half-month (1st-14th and 15th-end)
                 day_of_month = int(date_str[8:10])
-                is_strat_rebalance = day_of_month <= 2 or (14 <= day_of_month <= 16)
+                current_half = date_str[:7] + ("A" if day_of_month <= 14 else "B")
+                if not hasattr(strat, '_last_rebalance_half'):
+                    strat._last_rebalance_half = None
+                is_strat_rebalance = (current_half != strat._last_rebalance_half)
+                if is_strat_rebalance:
+                    strat._last_rebalance_half = current_half
             elif freq == "weekly":
                 # Weekly: rebalance every Monday (or first trading day of week)
                 is_strat_rebalance = day.weekday() == 0  # Monday
@@ -875,6 +906,10 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
 
             # === CLOSE: Record snapshot ===
             strat.snapshot(price_data, date_str)
+
+        # Update trigger engine to today's actual values (for tomorrow's change detection)
+        trigger_engine._last_regime = regime
+        trigger_engine._last_news_risk = news.get("geo_risk", 0)
 
         if day_had_triggers:
             total_trigger_days += 1
