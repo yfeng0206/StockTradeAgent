@@ -39,10 +39,10 @@ def find_gaps(days: int = 14) -> list:
 
     for i in range(1, days + 1):
         d = (today - timedelta(days=i)).isoformat()
-        # Skip weekends
+        # News happens 7 days a week — don't skip weekends
+        # Geopolitical events, macro news, and commodity moves happen on weekends
+        # and affect Monday's open. Only price/sector data is weekday-only.
         dt = date.fromisoformat(d)
-        if dt.weekday() >= 5:
-            continue
 
         missing = []
         for cat in BACKFILLABLE:
