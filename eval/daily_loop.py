@@ -213,8 +213,10 @@ def download_data(tickers, start, end, refresh=False):
         gap_tickers = [t for t, _ in need_incremental]
 
         new_data = _yf_download_batch(gap_tickers, gap_start, end)
+        updated_tickers = set()
         for ticker in gap_tickers:
             if ticker in new_data and not new_data[ticker].empty:
+                updated_tickers.add(ticker)
                 # Merge with existing cache
                 existing = all_data[ticker]
                 merged = pd.concat([existing, new_data[ticker]])
@@ -222,6 +224,11 @@ def download_data(tickers, start, end, refresh=False):
                 _save_cached_price(ticker, merged)
                 mask = merged.index >= pd.Timestamp(buffer_start)
                 all_data[ticker] = merged.loc[mask] if mask.any() else merged
+        # Warn about tickers that failed to update
+        stale = set(gap_tickers) - updated_tickers
+        if stale:
+            print(f"  Warning: {len(stale)} tickers using stale cache (incremental fetch failed): "
+                  f"{', '.join(sorted(stale)[:5])}{'...' if len(stale) > 5 else ''}")
 
     # Phase 3: Full download for tickers with no cache
     if need_full_download:

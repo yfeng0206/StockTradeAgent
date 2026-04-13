@@ -226,8 +226,9 @@ def run_portfolio_test_single(period_key: str, period_info: dict,
     from data_loader import DataLoader
     data_loader = DataLoader(live_mode=False)
 
-    # Engines
-    signal_engine = SignalEngine(price_data, events_cal, NEWS_DIR, data_loader=data_loader)
+    # Engines — realistic mode: T-1 signals, premarket execution
+    signal_engine = SignalEngine(price_data, events_cal, NEWS_DIR, data_loader=data_loader,
+                                realistic=True, exec_model="premarket")
     trigger_engine = TriggerEngine(signal_engine)
 
     # Initialize strategies (same as daily_loop.py)
@@ -246,18 +247,27 @@ def run_portfolio_test_single(period_key: str, period_info: dict,
     mix_llm_strategy._peer_strategies = core_strategies
     strategies = core_strategies + [mix_strategy, mix_llm_strategy]
 
+    # Apply realistic mode, execution model, slippage to ALL strategies
+    for strat in strategies:
+        strat.slippage = 0.0005
+        strat._realistic = True
+        strat._exec_model = "premarket"
+        strat._frequency_override = "biweekly"
+
     # Inject the random portfolio into each strategy
     for strat in strategies:
-        # For CommodityStrategy (max_positions=1), inject only 1 random position
-        # if the portfolio has more. But actually, let's give it the full portfolio
-        # and see how it manages. It will sell down to 1 position naturally.
         inject_portfolio(strat, portfolio)
 
     # Risk overlay
     risk_overlay = RiskOverlay()
 
-    # Daily simulation loop (replicated from daily_loop.py)
-    trading_days = pd.date_range(start=start, end=end, freq="B")
+    # Daily simulation loop — use SPY dates as ground truth (no holiday trading)
+    if "SPY" in price_data and not price_data["SPY"].empty:
+        spy_dates = set(price_data["SPY"].index.strftime("%Y-%m-%d"))
+        trading_days = pd.date_range(start=start, end=end, freq="B")
+        trading_days = trading_days[trading_days.strftime("%Y-%m-%d").isin(spy_dates)]
+    else:
+        trading_days = pd.date_range(start=start, end=end, freq="B")
     last_rebalance_month = None
     daily_trigger_log = []
 
@@ -276,7 +286,13 @@ def run_portfolio_test_single(period_key: str, period_info: dict,
         if is_rebalance_day:
             risk_overlay.update_consensus(strategies, price_data, date_str)
 
+        # Snapshot trigger state so ALL strategies see the same triggers
+        _saved_trigger_regime = trigger_engine._last_regime
+        _saved_trigger_news = trigger_engine._last_news_risk
+
         for strat in strategies:
+            trigger_engine._last_regime = _saved_trigger_regime
+            trigger_engine._last_news_risk = _saved_trigger_news
             trigger_engine.atr_stop_multiplier = getattr(strat, 'atr_stop_multiplier', 2.0)
             triggers = trigger_engine.scan(
                 UNIVERSE, strat.positions, date_str, price_data,
@@ -595,7 +611,12 @@ def run_portfolio_test_single(period_key: str, period_info: dict,
                 is_strat_rebalance = is_rebalance_day and current_month[5:7] in ("01", "04", "07", "10")
             elif freq == "biweekly":
                 day_of_month = int(date_str[8:10])
-                is_strat_rebalance = day_of_month <= 2 or (14 <= day_of_month <= 16)
+                current_half = date_str[:7] + ("A" if day_of_month <= 14 else "B")
+                if not hasattr(strat, '_last_rebalance_half'):
+                    strat._last_rebalance_half = None
+                is_strat_rebalance = (current_half != strat._last_rebalance_half)
+                if is_strat_rebalance:
+                    strat._last_rebalance_half = current_half
             else:
                 is_strat_rebalance = is_rebalance_day
 
@@ -644,6 +665,10 @@ def run_portfolio_test_single(period_key: str, period_info: dict,
                     del strat._cash_floor_amount
 
             strat.snapshot(price_data, date_str)
+
+        # Update trigger engine to today's values (for tomorrow's change detection)
+        trigger_engine._last_regime = regime
+        trigger_engine._last_news_risk = news.get("geo_risk", 0)
 
     # Finalize
     for strat in strategies:

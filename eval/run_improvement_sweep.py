@@ -67,11 +67,8 @@ def run_with_features(start, end, period_name, chandelier, cooldown, breadth,
         quiet=True,
         realistic=True, slippage=0.0005, exec_model="premarket",
         frequency="biweekly", regime_stickiness=1,
+        chandelier=chandelier, cooldown=cooldown, breadth=breadth,
     )
-
-    # Apply feature flags post-hoc is not possible — we need to apply them BEFORE simulation.
-    # The flags are set on strategy/trigger objects inside run_daily_simulation.
-    # We need to pass them through. For now, use monkey-patching approach.
     return results
 
 
@@ -110,58 +107,12 @@ def run_sweep(periods=None, quick=False):
             print(f"  [{run_count}/{total}] {label} (~{remaining/60:.0f}m left)...", end=" ", flush=True)
 
             try:
-                # Monkey-patch the feature flags before running
-                import strategies.base_strategy as bs_mod
-                import triggers as trig_mod
-
-                # Save originals
-                orig_chandelier = getattr(trig_mod.TriggerEngine, '_default_chandelier', False)
-
-                # We need to hook into run_daily_simulation to set flags on created objects.
-                # The cleanest way: temporarily modify the defaults in the class.
-                # TriggerEngine.use_chandelier_stop is set in __init__
-                old_trig_init = trig_mod.TriggerEngine.__init__
-
-                def patched_trig_init(self, signals, atr_mult=2.0):
-                    old_trig_init(self, signals, atr_mult)
-                    self.use_chandelier_stop = chandelier
-
-                trig_mod.TriggerEngine.__init__ = patched_trig_init
-
-                # BaseStrategy.use_cooldown and use_breadth_signal
-                old_bs_init = bs_mod.BaseStrategy.__init__
-
-                def patched_bs_init(self, name, initial_cash=100_000, max_positions=5):
-                    old_bs_init(self, name, initial_cash, max_positions)
-                    self.use_cooldown = cooldown
-
-                bs_mod.BaseStrategy.__init__ = patched_bs_init
-
-                # MixStrategy.use_breadth_signal
-                from strategies.mix_strategy import MixStrategy
-                old_mix_init = MixStrategy.__init__
-
-                def patched_mix_init(self, *args, **kwargs):
-                    old_mix_init(self, *args, **kwargs)
-                    self.use_breadth_signal = breadth
-
-                MixStrategy.__init__ = patched_mix_init
-
-                results = run_daily_simulation(
-                    start=p["start"], end=p["end"],
-                    initial_cash=100_000, max_positions=10,
-                    period_name=p["name"],
-                    shared_price_data=price_data,
-                    shared_events_cal=events_cal,
-                    quiet=True,
-                    realistic=True, slippage=0.0005, exec_model="premarket",
-                    frequency="biweekly", regime_stickiness=1,
+                # Pass feature flags directly — no monkey-patching needed
+                results = run_with_features(
+                    p["start"], p["end"], p["name"],
+                    chandelier=chandelier, cooldown=cooldown, breadth=breadth,
+                    shared_price_data=price_data, shared_events_cal=events_cal,
                 )
-
-                # Restore
-                trig_mod.TriggerEngine.__init__ = old_trig_init
-                bs_mod.BaseStrategy.__init__ = old_bs_init
-                MixStrategy.__init__ = old_mix_init
 
                 spy_ret = results.get("benchmarks", {}).get("SPY", {}).get("total_return_pct", 0)
                 for sname, sdata in results.get("strategies", {}).items():

@@ -52,33 +52,40 @@ QUICK_PERIODS = {
 }
 
 # LLM configs to test
+# NoLLM uses MixStrategy as the "LLM" slot — pure coded rules, no API calls.
+# Combos (V1+V2, V2+V3) removed — they were never actually combined in code.
 LLM_CONFIGS = {
-    "NoLLM":  {"use_llm": False, "version": None,   "combo": None},
-    "V0":     {"use_llm": True,  "version": "v0",   "combo": None},
-    "V1":     {"use_llm": True,  "version": "v1",   "combo": None},
-    "V2":     {"use_llm": True,  "version": "v2",   "combo": None},
-    "V3":     {"use_llm": True,  "version": "v3",   "combo": None},
-    "V1+V2":  {"use_llm": True,  "version": "v1",   "combo": "v2"},
-    "V2+V3":  {"use_llm": True,  "version": "v3",   "combo": "v2"},
+    "NoLLM":  {"use_llm": False, "version": "nollm"},
+    "V0":     {"use_llm": True,  "version": "v0"},
+    "V1":     {"use_llm": True,  "version": "v1"},
+    "V2":     {"use_llm": True,  "version": "v2"},
+    "V3":     {"use_llm": True,  "version": "v3"},
 }
 
 STRATEGIES_TO_TRACK = ["Mix", "MixLLM", "Balanced", "Momentum", "Adaptive", "Value"]
 
 
 def get_mixllm_class(version):
-    """Get the MixLLM class for a given version. Returns None for NoLLM (plain Mix)."""
+    """Get the MixLLM class for a given version.
+
+    NoLLM returns MixStrategy (coded rules only, no API calls).
+    This replaces the MixLLM slot in the simulation — the "9th strategy"
+    runs as a second Mix instead of MixLLM.
+    """
+    from strategies.mix_strategy import MixStrategy
     from strategies.mix_llm_strategy import MixLLMStrategy
     from strategies.mix_llm_v1_strategy import MixLLMV1Strategy
     from strategies.mix_llm_v2_strategy import MixLLMV2Strategy
     from strategies.mix_llm_v3_strategy import MixLLMV3Strategy
 
     VERSION_MAP = {
+        "nollm": MixStrategy,  # coded rules only, no LLM
         "v0": MixLLMStrategy,
         "v1": MixLLMV1Strategy,
         "v2": MixLLMV2Strategy,
         "v3": MixLLMV3Strategy,
     }
-    return VERSION_MAP.get(version)
+    return VERSION_MAP.get(version, MixLLMStrategy)
 
 
 def run_sweep(periods=None, quick=False):
