@@ -393,18 +393,9 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
     # Daily stats tracking
     daily_trigger_log = []
     regime_log = []  # shared market-level log
-    # Use CustomBusinessDay with NYSE holidays to avoid trading on closed days
-    _nyse_holidays = [
-        # Fixed holidays (approximate — covers the major ones)
-        "2000-01-17", "2001-01-15", "2002-01-21", "2003-01-20", "2004-01-19",
-        "2005-01-17", "2006-01-16", "2007-01-15", "2008-01-21", "2009-01-19",
-        "2010-01-18", "2011-01-17", "2012-01-16", "2013-01-21", "2014-01-20",
-        "2015-01-19", "2016-01-18", "2017-01-16", "2018-01-15", "2019-01-21",
-        "2020-01-20", "2021-01-18", "2022-01-17", "2023-01-16", "2024-01-15",
-        "2025-01-20", "2026-01-19",  # MLK Day
-    ]
-    # Use price data as ground truth: only trade on days we have price data
-    # This naturally excludes holidays (yfinance has no data for closed days)
+    # Use SPY price data as ground truth for trading days.
+    # No hardcoded holiday list — SPY data naturally excludes MLK, Thanksgiving,
+    # Good Friday, early closes, etc. If SPY has a bar, market was open.
     if "SPY" in price_data and not price_data["SPY"].empty:
         spy_dates = set(price_data["SPY"].index.strftime("%Y-%m-%d"))
         trading_days = pd.date_range(start=start, end=end, freq="B")
