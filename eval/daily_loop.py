@@ -537,6 +537,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
 
                 # Track what was sold today — never buy back same day
                 sold_today = set()
+                bought_today = set()  # protect trigger buys from same-day rebalance sell
 
                 for t in triggers:
                     # --- STOP LOSS (CRITICAL) → Force sell ---
@@ -751,9 +752,10 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                     if ticker not in sold_today:
                                         strat._buy(ticker, shares, price, date_str, reason,
                                                    price_data=price_data)
+                                        bought_today.add(ticker)
 
-                        # Execute sell
-                        elif should_sell and ticker in strat.positions:
+                        # Execute sell (skip if just bought same ticker in this trigger batch)
+                        elif should_sell and ticker in strat.positions and ticker not in bought_today:
                             price = _get_price(ticker)
                             if price:
                                 pnl = (price - strat.positions[ticker]["entry_price"]) / strat.positions[ticker]["entry_price"] * 100
@@ -805,6 +807,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                                 strat._buy(ticker, shares, price, date_str,
                                                 f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} catalyst play",
                                                 price_data=price_data)
+                                                bought_today.add(ticker)
                             elif price_move < -8 and ticker in strat.positions:
                                 price = _get_price(ticker)
                                 if price:
@@ -827,6 +830,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                                 strat._buy(ticker, shares, price, date_str,
                                                 f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} cautious entry",
                                                 price_data=price_data)
+                                                bought_today.add(ticker)
                             elif price_move < -8 and ticker in strat.positions:
                                 price = _get_price(ticker)
                                 if price:
@@ -945,7 +949,10 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                     regime, consensus_active)
                 strat._cash_floor_amount = floor["floor_amount"]
 
+                # Protect trigger-phase buys from same-day rebalance sell
+                strat._bought_today = bought_today
                 strat.execute_rebalance(adjusted, price_data, date_str)
+                del strat._bought_today
                 # Memory writes happen inside _sell() automatically
 
                 # Clean up temporary attributes

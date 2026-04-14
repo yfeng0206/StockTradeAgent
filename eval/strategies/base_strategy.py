@@ -405,9 +405,10 @@ class BaseStrategy(ABC):
                         self._log_reasoning(date, "HOLD_MIN", ticker, 0,
                             f"Holding: only {days_held}d < {self.min_holding_days}d minimum")
 
-        # Sell positions not in top picks
+        # Sell positions not in top picks (but protect same-day trigger buys)
+        bought_today = getattr(self, '_bought_today', set())
         for ticker in list(self.positions.keys()):
-            if ticker not in top_tickers:
+            if ticker not in top_tickers and ticker not in bought_today:
                 if ticker in prices_on_date:
                     # Build sell reason
                     old_score = self._last_scores.get(ticker, {})
