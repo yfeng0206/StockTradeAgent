@@ -127,10 +127,19 @@ def _save_cached_price(ticker, df):
 
 
 def _yf_download_batch(tickers, start, end):
-    """Download from yfinance and return {ticker: DataFrame}."""
+    """Download from yfinance and return {ticker: DataFrame}.
+
+    Pins auto_adjust=True and adds 1 day to end for reproducibility:
+    - auto_adjust: explicit, not relying on yfinance version defaults
+    - end+1 day: yfinance treats end as exclusive for daily data,
+      so end='2019-12-31' would miss Dec 31 without the buffer
+    """
     result = {}
+    # yfinance end is exclusive — add 1 day to include the requested end date
+    end_inclusive = (pd.Timestamp(end) + timedelta(days=1)).strftime("%Y-%m-%d")
     try:
-        raw = yf.download(tickers, start=start, end=end, progress=True, threads=True)
+        raw = yf.download(tickers, start=start, end=end_inclusive,
+                          auto_adjust=True, progress=True, threads=True)
         if raw.empty:
             return result
         if len(tickers) == 1:
@@ -153,7 +162,7 @@ def _yf_download_batch(tickers, start, end):
         for ticker in tickers:
             try:
                 t = yf.Ticker(ticker)
-                df = t.history(start=start, end=end)
+                df = t.history(start=start, end=end_inclusive, auto_adjust=True)
                 if not df.empty:
                     result[ticker] = df
             except Exception:
@@ -249,6 +258,13 @@ def save_strategies_state(strategies, last_date: str, trigger_engine=None) -> di
             "last_regime": trigger_engine._last_regime,
             "last_news_risk": trigger_engine._last_news_risk,
         }
+        # Persist SignalEngine rolling news context so resume behavior matches
+        # a continuous run when decay logic is enabled.
+        sig = getattr(trigger_engine, "signals", None)
+        if sig is not None and hasattr(sig, "_news_history"):
+            state["signal_state"] = {
+                "news_history": list(getattr(sig, "_news_history", [])[-14:])
+            }
     for s in strategies:
         ss = {
             "class": type(s).__name__,
@@ -404,6 +420,21 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         if baselines:
             trigger_engine._last_regime = baselines.get("last_regime")
             trigger_engine._last_news_risk = baselines.get("last_news_risk", 0)
+        # Restore SignalEngine rolling news context (for deterministic resume).
+        signal_state = resume_state.get("signal_state", {})
+        news_history = signal_state.get("news_history", [])
+        if news_history:
+            restored_history = []
+            for item in news_history:
+                if not isinstance(item, (list, tuple)) or len(item) != 2:
+                    continue
+                d, r = item
+                try:
+                    restored_history.append((str(d), float(r)))
+                except (TypeError, ValueError):
+                    continue
+            if restored_history:
+                signal_engine._news_history = restored_history[-14:]
         if not quiet:
             print(f"  Restored state from {resume_state.get('last_date', '?')}")
 
@@ -424,6 +455,14 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
         trading_days = pd.date_range(start=start, end=end, freq="B")
     total_trigger_days = 0
     last_rebalance_month = None
+    if resume_state and resume_state.get("last_date"):
+        # Preserve monthly/quarterly rebalance cursor across resumed runs.
+        resume_last_date = str(resume_state.get("last_date"))
+        try:
+            if pd.Timestamp(start) >= pd.Timestamp(resume_last_date):
+                last_rebalance_month = resume_last_date[:7]
+        except Exception:
+            last_rebalance_month = resume_last_date[:7]
 
     if not quiet:
         print(f"\nSimulating {len(trading_days)} trading days with event-driven triggers...")
