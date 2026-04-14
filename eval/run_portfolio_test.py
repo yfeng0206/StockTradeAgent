@@ -652,7 +652,7 @@ def run_portfolio_test_single(period_key: str, period_info: dict,
                     and risk_overlay.consensus_signal._active
                 )
                 floor = risk_overlay.get_cash_floor(
-                    strat.get_portfolio_value(price_data, date_str),
+                    strat.get_portfolio_value(price_data, date_str, decision_time=True),
                     regime, consensus_active,
                 )
                 strat._cash_floor_amount = floor["floor_amount"]

@@ -582,19 +582,28 @@ class BaseStrategy(ABC):
         SimulationMemory.write_trade_outcome(
             ticker, round(pnl_pct, 2), str(self._last_regime), date, self.memory)
 
-    def get_portfolio_value(self, price_data: dict, date: str) -> float:
+    def get_portfolio_value(self, price_data: dict, date: str,
+                            decision_time: bool = False) -> float:
+        """Get portfolio value. Use decision_time=True for pre-rebalance calculations.
+
+        decision_time=False (default): uses <= date close (EOD NAV, snapshots)
+        decision_time=True: uses _signal_mask (T-1 in realistic mode, no lookahead)
+        """
         total = self.cash
         for ticker, pos in self.positions.items():
             if ticker in price_data and not price_data[ticker].empty:
                 df = price_data[ticker]
-                mask = df.index <= pd.Timestamp(date)
+                if decision_time:
+                    mask = self._signal_mask(df, date)
+                else:
+                    mask = df.index <= pd.Timestamp(date)
                 if mask.any():
                     price = float(df.loc[mask, "Close"].iloc[-1])
                     total += pos["shares"] * price
         return total
 
     def snapshot(self, price_data: dict, date: str):
-        value = self.get_portfolio_value(price_data, date)
+        value = self.get_portfolio_value(price_data, date, decision_time=False)
         self.portfolio_history.append({
             "date": date,
             "total_value": round(value, 2),

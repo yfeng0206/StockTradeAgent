@@ -682,7 +682,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                             should_buy = signal in ("strong_beat", "beat") and is_low_vol and safe_regime and ticker not in strat.positions
                             should_sell = signal in ("strong_miss",) and ticker in strat.positions
 
-                        elif strat.name in ("Balanced", "Adaptive", "Mix", "MixLLM"):
+                        elif strat.name in ("Balanced", "Adaptive", "Mix") or strat.name.startswith("MixLLM"):
                             # Moderate: only strong beats, and skip during danger regimes
                             safe_regime = regime not in ("crisis", "high_volatility")
                             should_buy = signal == "strong_beat" and safe_regime and ticker not in strat.positions
@@ -902,7 +902,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                 consensus_active = hasattr(risk_overlay, 'consensus_signal') and \
                     risk_overlay.consensus_signal and risk_overlay.consensus_signal._active
                 floor = risk_overlay.get_cash_floor(
-                    strat.get_portfolio_value(price_data, date_str),
+                    strat.get_portfolio_value(price_data, date_str, decision_time=True),
                     regime, consensus_active)
                 strat._cash_floor_amount = floor["floor_amount"]
 
