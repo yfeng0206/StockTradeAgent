@@ -437,7 +437,7 @@ class ConsensusSignal:
         bearish_count = 0
         details = []
         for strat in strategies:
-            total_value = strat.get_portfolio_value(price_data, date)
+            total_value = strat.get_portfolio_value(price_data, date, decision_time=True)
             if total_value <= 0:
                 continue
             cash_ratio = strat.cash / total_value

@@ -519,6 +519,12 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                 date_str, strat.positions, strat.memory, regime, news
             )
 
+            # Per-strategy, per-day trigger trade guards.
+            # Must be initialized even when there are no triggers, so rebalance
+            # never sees stale values from a prior strategy/day iteration.
+            sold_today = set()
+            bought_today = set()
+
             if triggers:
                 day_had_triggers = True
 
@@ -535,9 +541,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                     """Get execution price using the strategy's configured model."""
                     return strat._get_exec_price(price_data, tkr, date_str)
 
-                # Track what was sold today — never buy back same day
-                sold_today = set()
-                bought_today = set()  # protect trigger buys from same-day rebalance sell
+                # Track what was sold/bought today in trigger phase
 
                 for t in triggers:
                     # --- STOP LOSS (CRITICAL) → Force sell ---
@@ -808,7 +812,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                                 f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} catalyst play",
                                                 price_data=price_data)
                                                 bought_today.add(ticker)
-                            elif price_move < -8 and ticker in strat.positions:
+                            elif price_move < -8 and ticker in strat.positions and ticker not in bought_today:
                                 price = _get_price(ticker)
                                 if price:
                                     pnl = (price - strat.positions[ticker]["entry_price"]) / strat.positions[ticker]["entry_price"] * 100
@@ -831,7 +835,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                                                 f"VOLUME SPIKE: +{price_move:.1f}% on {vol_ratio}x vol — {strat.name} cautious entry",
                                                 price_data=price_data)
                                                 bought_today.add(ticker)
-                            elif price_move < -8 and ticker in strat.positions:
+                            elif price_move < -8 and ticker in strat.positions and ticker not in bought_today:
                                 price = _get_price(ticker)
                                 if price:
                                     pnl = (price - strat.positions[ticker]["entry_price"]) / strat.positions[ticker]["entry_price"] * 100

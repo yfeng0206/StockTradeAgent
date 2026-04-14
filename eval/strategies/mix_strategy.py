@@ -116,7 +116,7 @@ class MixStrategy(BaseStrategy):
             returns.append(ret)
 
             # Cash ratio
-            pv = strat.get_portfolio_value(price_data, date)
+            pv = strat.get_portfolio_value(price_data, date, decision_time=True)
             if pv > 0 and strat.cash / pv > 0.5:
                 readings["cash_heavy_count"] += 1
 
@@ -551,7 +551,7 @@ class MixStrategy(BaseStrategy):
         stock_pct, commodity_pct, cash_pct = REGIME_ALLOCATIONS.get(
             self.detected_regime, (0.50, 0.20, 0.30))
 
-        portfolio_value = self.get_portfolio_value(price_data, date)
+        portfolio_value = self.get_portfolio_value(price_data, date, decision_time=True)
         stock_target = portfolio_value * stock_pct
         commodity_target = portfolio_value * commodity_pct
 
@@ -652,9 +652,10 @@ class MixStrategy(BaseStrategy):
             if p is not None:
                 prices_on_date[ticker] = p
 
-        # Sell stocks not in top picks
+        # Sell stocks not in top picks (but protect same-day trigger buys)
+        bought_today = getattr(self, '_bought_today', set())
         for ticker in list(stock_positions.keys()):
-            if ticker not in top_tickers and ticker in prices_on_date:
+            if ticker not in top_tickers and ticker in prices_on_date and ticker not in bought_today:
                 old_score = self._last_scores.get(ticker, {})
                 reason = f"Mix {self.detected_regime}: dropped from top {target_stock_positions}."
                 if top_tickers:
