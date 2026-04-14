@@ -240,9 +240,15 @@ def download_data(tickers, start, end, refresh=False):
     return all_data
 
 
-def save_strategies_state(strategies, last_date: str) -> dict:
+def save_strategies_state(strategies, last_date: str, trigger_engine=None) -> dict:
     """Serialize all strategy states for live trading persistence."""
     state = {"last_date": last_date, "saved_at": datetime.now().isoformat(), "strategies": {}}
+    # Persist trigger engine baselines to avoid false NEWS_SPIKE on resume
+    if trigger_engine is not None:
+        state["trigger_baselines"] = {
+            "last_regime": trigger_engine._last_regime,
+            "last_news_risk": trigger_engine._last_news_risk,
+        }
     for s in strategies:
         ss = {
             "class": type(s).__name__,
@@ -257,6 +263,7 @@ def save_strategies_state(strategies, last_date: str) -> dict:
             "_last_regime": s._last_regime,
             "_last_news_summary": s._last_news_summary,
             "_sold_cooldown": getattr(s, "_sold_cooldown", {}),
+            "_last_rebalance_half": getattr(s, "_last_rebalance_half", None),
         }
         # Mix/MixLLM regime state
         if hasattr(s, "detected_regime"):
@@ -292,6 +299,7 @@ def _restore_strategies(strategies, state: dict):
         s._last_regime = ss.get("_last_regime")
         s._last_news_summary = ss.get("_last_news_summary")
         s._sold_cooldown = ss.get("_sold_cooldown", {})
+        s._last_rebalance_half = ss.get("_last_rebalance_half")
         if hasattr(s, "detected_regime"):
             s.detected_regime = ss.get("detected_regime", "UNCERTAIN")
             s.regime_history = ss.get("regime_history", [])
@@ -391,6 +399,11 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
     # Restore strategy state from checkpoint (live trading mode)
     if resume_state:
         _restore_strategies(strategies, resume_state)
+        # Seed trigger engine with prior baselines to avoid false NEWS_SPIKE on resume
+        baselines = resume_state.get("trigger_baselines", {})
+        if baselines:
+            trigger_engine._last_regime = baselines.get("last_regime")
+            trigger_engine._last_news_risk = baselines.get("last_news_risk", 0)
         if not quiet:
             print(f"  Restored state from {resume_state.get('last_date', '?')}")
 
@@ -1109,7 +1122,7 @@ def run_daily_simulation(start: str, end: str, initial_cash: float = 100_000,
                   f"{data['sharpe_ratio']:>10.3f} {data['max_drawdown_pct']:>9.1f}% {'--':>10} {'--':>8}")
         print(f"\nRun saved to: {run_dir}")
     if live_mode:
-        return results, strategies
+        return results, strategies, trigger_engine
     return results
 
 
